@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News Carousel Generator — @dailyainewsone</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #0a0e1a;
+    --bg-card: #0d1225;
+    --neon-blue: #4d8dff;
+    --neon-purple: #a855f7;
+    --neon-cyan: #22d3ee;
+    --text-primary: #ffffff;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --grid-color: rgba(77, 141, 255, 0.06);
+    --glow-blue: rgba(77, 141, 255, 0.3);
+    --glow-purple: rgba(168, 85, 247, 0.3);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    padding: 40px 20px;
+  }
+
+  h1.page-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  .page-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  .post-section {
+    margin-bottom: 80px;
+  }
+
+  .post-label {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--neon-blue);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .carousel-row {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* ===== SLIDE BASE ===== */
+  .slide {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .slide-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    text-align: center;
+    z-index: 2;
+  }
+
+  /* Grid background */
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+      linear-gradient(135deg, #080c18 0%, #0d1225 40%, #10162d 100%);
+    z-index: 0;
+  }
+
+  .slide::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(var(--grid-color) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 1;
+  }
+
+  /* Neon glow border */
+  .slide-border {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border: 1px solid rgba(77, 141, 255, 0.15);
+    border-radius: 4px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .slide-border::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 20%; right: 20%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--neon-blue), var(--neon-purple), transparent);
+    filter: blur(1px);
+  }
+
+  .slide-border::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 20%; right: 20%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--neon-purple), var(--neon-blue), transparent);
+    filter: blur(1px);
+  }
+
+  /* Corner circuits */
+  .circuit-tl, .circuit-br {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .circuit-tl {
+    top: 12px; left: 12px;
+    border-top: 1px solid rgba(77, 141, 255, 0.2);
+    border-left: 1px solid rgba(77, 141, 255, 0.2);
+  }
+
+  .circuit-tl::after {
+    content: '';
+    position: absolute;
+    top: -3px; left: -3px;
+    width: 6px; height: 6px;
+    background: var(--neon-blue);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--neon-blue);
+  }
+
+  .circuit-br {
+    bottom: 12px; right: 12px;
+    border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+    border-right: 1px solid rgba(168, 85, 247, 0.2);
+  }
+
+  .circuit-br::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; right: -3px;
+    width: 6px; height: 6px;
+    background: var(--neon-purple);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--neon-purple);
+  }
+
+  /* ===== SLIDE 1: COVER ===== */
+  .slide-cover .icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 28px;
+    position: relative;
+  }
+
+  .slide-cover .icon svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 12px var(--neon-blue));
+  }
+
+  .slide-cover .headline {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+    max-width: 340px;
+  }
+
+  .slide-cover .headline .glow {
+    color: var(--neon-blue);
+    text-shadow: 0 0 20px var(--glow-blue);
+  }
+
+  .slide-cover .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-secondary);
+    letter-spacing: 0.5px;
+  }
+
+  /* ===== SLIDE 2-3: CONTENT ===== */
+  .slide-content .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--neon-blue);
+    margin-bottom: 24px;
+  }
+
+  .slide-content .section-title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+
+  .slide-content .body-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    text-align: left;
+    max-width: 320px;
+  }
+
+  /* ===== SLIDE 4: TAKEAWAYS ===== */
+  .slide-takeaways .section-title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 28px;
+  }
+
+  .slide-takeaways .bullet-list {
+    text-align: left;
+    max-width: 320px;
+  }
+
+  .slide-takeaways .bullet-item {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 14px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .slide-takeaways .bullet-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    background: var(--neon-blue);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--glow-blue);
+  }
+
+  /* ===== BOTTOM BAR ===== */
+  .bottom-bar {
+    position: absolute;
+    bottom: 16px;
+    left: 48px;
+    right: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+  }
+
+  .handle {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.5px;
+  }
+
+  .slide-num {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  /* ===== GLOW ACCENTS ===== */
+  .glow-orb-1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--glow-blue) 0%, transparent 70%);
+    opacity: 0.15;
+    top: -80px;
+    right: -60px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .glow-orb-2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: radial-gradient(circle, var(--glow-purple) 0%, transparent 70%);
+    opacity: 0.12;
+    bottom: -60px;
+    left: -40px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* Caption section */
+  .caption-section {
+    max-width: 600px;
+    margin: 30px auto 0;
+    background: rgba(13, 18, 37, 0.8);
+    border: 1px solid rgba(77, 141, 255, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  .caption-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--neon-purple);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .caption-text {
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    white-space: pre-line;
+  }
+
+  .instructions {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+  }
+
+  .instructions strong {
+    color: var(--neon-blue);
+  }
+
+  hr.section-divider {
+    border: none;
+    border-top: 1px solid rgba(77, 141, 255, 0.1);
+    margin: 60px auto;
+    max-width: 600px;
+  }
+</style>
+</head>
+<body>
+
+<h1 class="page-title">AI NEWS CAROUSEL GENERATOR</h1>
+<p class="page-subtitle">@dailyainewsone &middot; Feb 24, 2026</p>
+<p class="instructions">
+  Right-click each slide &rarr; <strong>Save image as...</strong> or use a screenshot tool.<br>
+  Each slide is 420&times;420px (scales to 1080&times;1080 for Instagram).
+</p>
+
+<!-- ============================================ -->
+<!-- POST 1: Google Gemini 3.1 Pro               -->
+<!-- ============================================ -->
+<div class="post-section">
+  <div class="post-label">Post 1 — Google Gemini 3.1 Pro</div>
+  <div class="carousel-row">
+
+    <!-- Slide 1: Cover -->
+    <div class="slide slide-cover">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner">
+        <div class="icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="16" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/>
+            <circle cx="24" cy="24" r="8" fill="#4d8dff" opacity="0.3"/>
+            <circle cx="24" cy="24" r="4" fill="#4d8dff"/>
+            <line x1="24" y1="4" x2="24" y2="12" stroke="#4d8dff" stroke-width="1.5"/>
+            <line x1="24" y1="36" x2="24" y2="44" stroke="#4d8dff" stroke-width="1.5"/>
+            <line x1="4" y1="24" x2="12" y2="24" stroke="#4d8dff" stroke-width="1.5"/>
+            <line x1="36" y1="24" x2="44" y2="24" stroke="#4d8dff" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="headline">Google Just <span class="glow">Doubled</span> Its AI Reasoning</div>
+        <div class="subtitle">Gemini 3.1 Pro is live now.</div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">1/4</span>
+      </div>
+    </div>
+
+    <!-- Slide 2: What Happened -->
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHAT HAPPENED</div>
+        <div class="body-text">
+          Google released Gemini 3.1 Pro.<br><br>
+          It scores 77% on ARC-AGI-2.<br><br>
+          That is double the last version.<br><br>
+          Available to everyone today.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">2/4</span>
+      </div>
+    </div>
+
+    <!-- Slide 3: Why It Matters -->
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHY IT MATTERS</div>
+        <div class="body-text">
+          Better reasoning means AI can<br>
+          solve harder, real-world problems.<br><br>
+          This puts Google ahead in the<br>
+          race to build smarter AI models.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">3/4</span>
+      </div>
+    </div>
+
+    <!-- Slide 4: Key Takeaways -->
+    <div class="slide slide-takeaways">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label" style="color: var(--neon-purple);">KEY TAKEAWAYS</div>
+        <div class="bullet-list">
+          <div class="bullet-item">Reasoning score jumped from 38% to 77%</div>
+          <div class="bullet-item">Live on Gemini API, Vertex AI, and apps</div>
+          <div class="bullet-item">Direct challenge to GPT-5 and Claude 4</div>
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">4/4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption-section">
+    <div class="caption-label">Caption</div>
+    <div class="caption-text">Google just made its AI twice as smart at reasoning.
+
+Gemini 3.1 Pro is now available to developers and users. It scored 77% on the ARC-AGI-2 reasoning test, doubling its predecessor. This is one of the biggest AI upgrades of 2026.
+
+Is reasoning the skill that matters most for AI right now?
+
+#AInews #Gemini #Google #MachineLearning #TechNews #FutureTech #AIresearch #GenerativeAI
+
+Stay ahead. Stay intelligent. 🚀</div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============================================ -->
+<!-- POST 2: Meta $135B AI Investment             -->
+<!-- ============================================ -->
+<div class="post-section">
+  <div class="post-label">Post 2 — Meta $135 Billion AI Bet</div>
+  <div class="carousel-row">
+
+    <div class="slide slide-cover">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner">
+        <div class="icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="8" width="32" height="32" rx="4" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/>
+            <rect x="16" y="16" width="16" height="16" rx="2" fill="#4d8dff" opacity="0.3"/>
+            <rect x="20" y="20" width="8" height="8" rx="1" fill="#4d8dff"/>
+            <line x1="24" y1="4" x2="24" y2="8" stroke="#4d8dff" stroke-width="1.5"/>
+            <line x1="24" y1="40" x2="24" y2="44" stroke="#4d8dff" stroke-width="1.5"/>
+            <line x1="4" y1="24" x2="8" y2="24" stroke="#4d8dff" stroke-width="1.5"/>
+            <line x1="40" y1="24" x2="44" y2="24" stroke="#4d8dff" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="headline">Meta Will Spend <span class="glow">$135B</span> on AI This Year</div>
+        <div class="subtitle">The largest AI investment in history.</div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">1/4</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHAT HAPPENED</div>
+        <div class="body-text">
+          Meta announced $135 billion<br>
+          in AI spending for 2026.<br><br>
+          They are building 30 new data centers.<br><br>
+          Nvidia will supply next-gen GPUs.<br><br>
+          Privacy computing comes to WhatsApp.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">2/4</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHY IT MATTERS</div>
+        <div class="body-text">
+          This is not just software investment.<br><br>
+          Meta is building the physical backbone<br>
+          for a new kind of computing.<br><br>
+          AI is becoming infrastructure, not just tools.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">3/4</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label" style="color: var(--neon-purple);">WHAT'S NEXT</div>
+        <div class="body-text">
+          Meta is chasing "personal superintelligence."<br><br>
+          Expect AI that deeply understands each user<br>
+          across all Meta platforms by late 2026.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">4/4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption-section">
+    <div class="caption-label">Caption</div>
+    <div class="caption-text">Meta just committed $135 billion to AI in a single year.
+
+That buys 30 data centers, Nvidia's latest chips, and privacy-focused AI on WhatsApp. Mark Zuckerberg calls it the path to personal superintelligence. No company has ever spent this much on AI.
+
+Is this the right bet, or is it too much too fast?
+
+#AInews #Meta #Nvidia #AIinfrastructure #TechNews #BigTech #MachineLearning #FutureTech
+
+Stay ahead. Stay intelligent. 🚀</div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============================================ -->
+<!-- POST 3: Claude Code Security                 -->
+<!-- ============================================ -->
+<div class="post-section">
+  <div class="post-label">Post 3 — Claude Code Security</div>
+  <div class="carousel-row">
+
+    <div class="slide slide-cover">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner">
+        <div class="icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 6L38 14V34L24 42L10 34V14L24 6Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/>
+            <path d="M24 14L32 18V30L24 34L16 30V18L24 14Z" fill="#4d8dff" opacity="0.3"/>
+            <path d="M24 20L28 22V28L24 30L20 28V22L24 20Z" fill="#4d8dff"/>
+          </svg>
+        </div>
+        <div class="headline">Claude Now <span class="glow">Catches Bugs</span> Your Tests Miss</div>
+        <div class="subtitle">Anthropic launches Claude Code Security.</div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">1/3</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHAT HAPPENED</div>
+        <div class="body-text">
+          Anthropic released Claude Sonnet 4.6.<br><br>
+          It includes a new Code Security tool.<br><br>
+          It finds logic errors, not just typos.<br><br>
+          These are the bugs that slip into production.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">2/3</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHY IT MATTERS</div>
+        <div class="body-text">
+          Logic bugs are the most expensive to fix.<br><br>
+          They pass tests and only break in real use.<br><br>
+          An AI that catches them early could save<br>
+          companies millions in debugging costs.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">3/3</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption-section">
+    <div class="caption-label">Caption</div>
+    <div class="caption-text">Anthropic's Claude doesn't just write code anymore. It audits it.
+
+Claude Sonnet 4.6 ships with a new Code Security tool that catches logic errors — the kind your tests miss. These are the bugs that cost the most to fix and do the most damage.
+
+Would you trust AI to review your code before it ships?
+
+#AInews #Claude #Anthropic #DevTools #CodingSecurity #MachineLearning #TechNews #AIcoding
+
+Stay ahead. Stay intelligent. 🚀</div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============================================ -->
+<!-- POST 4: AI2 Theorizer                        -->
+<!-- ============================================ -->
+<div class="post-section">
+  <div class="post-label">Post 4 — AI2 Theorizer</div>
+  <div class="carousel-row">
+
+    <div class="slide slide-cover">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner">
+        <div class="icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="16" r="10" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/>
+            <circle cx="24" cy="16" r="5" fill="#4d8dff" opacity="0.3"/>
+            <circle cx="24" cy="16" r="2" fill="#4d8dff"/>
+            <line x1="18" y1="26" x2="14" y2="40" stroke="#4d8dff" stroke-width="1.5" opacity="0.5"/>
+            <line x1="30" y1="26" x2="34" y2="40" stroke="#4d8dff" stroke-width="1.5" opacity="0.5"/>
+            <line x1="24" y1="26" x2="24" y2="42" stroke="#4d8dff" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="headline">This AI <span class="glow">Reads Research</span> and Writes Theories</div>
+        <div class="subtitle">Meet Theorizer by the Allen Institute.</div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">1/3</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHAT HAPPENED</div>
+        <div class="body-text">
+          AI2 built an AI called Theorizer.<br><br>
+          It reads academic papers at scale.<br><br>
+          Then it writes testable scientific theories.<br><br>
+          It achieved high precision in benchmarks.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">2/3</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHY IT MATTERS</div>
+        <div class="body-text">
+          Researchers spend years reviewing literature.<br><br>
+          This tool compresses that into hours.<br><br>
+          It spots patterns across thousands of papers<br>
+          that humans would never connect.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">3/3</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption-section">
+    <div class="caption-label">Caption</div>
+    <div class="caption-text">An AI just read thousands of research papers and wrote testable scientific theories.
+
+The Allen Institute's Theorizer synthesizes knowledge across entire fields of research. It could transform how we discover new medicines, materials, and energy solutions. Years of work, compressed into hours.
+
+Which science field will AI change first?
+
+#AInews #AIresearch #ScientificDiscovery #MachineLearning #TechNews #FutureTech #AI2 #DataScience
+
+Stay ahead. Stay intelligent. 🚀</div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============================================ -->
+<!-- POST 5: AI Regulation 2026                   -->
+<!-- ============================================ -->
+<div class="post-section">
+  <div class="post-label">Post 5 — AI Regulation 2026</div>
+  <div class="carousel-row">
+
+    <div class="slide slide-cover">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner">
+        <div class="icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 4L6 16V36L24 44L42 36V16L24 4Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.3"/>
+            <path d="M24 12L14 18V30L24 36L34 30V18L24 12Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.5"/>
+            <rect x="20" y="18" width="8" height="10" rx="1" fill="#4d8dff" opacity="0.3"/>
+            <rect x="22" y="22" width="4" height="6" rx="1" fill="#4d8dff"/>
+          </svg>
+        </div>
+        <div class="headline">2026 Is the Year AI Gets <span class="glow">Regulated</span></div>
+        <div class="subtitle">New laws are now enforceable worldwide.</div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">1/4</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHAT HAPPENED</div>
+        <div class="body-text">
+          California's AI transparency law is active.<br><br>
+          Colorado targets AI discrimination in June.<br><br>
+          Illinois regulates AI in hiring decisions.<br><br>
+          The EU AI Act enforces in August.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">2/4</span>
+      </div>
+    </div>
+
+    <div class="slide slide-content">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label">WHY IT MATTERS</div>
+        <div class="body-text">
+          The "build fast, regulate later" era is over.<br><br>
+          Companies now face real legal consequences<br>
+          for how they deploy AI systems.<br><br>
+          Compliance is no longer optional.
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">3/4</span>
+      </div>
+    </div>
+
+    <div class="slide slide-takeaways">
+      <div class="glow-orb-1"></div>
+      <div class="glow-orb-2"></div>
+      <div class="slide-inner" style="align-items: flex-start;">
+        <div class="section-label" style="color: var(--neon-purple);">KEY TAKEAWAYS</div>
+        <div class="bullet-list">
+          <div class="bullet-item">Multiple US states now have AI-specific laws</div>
+          <div class="bullet-item">EU AI Act hits full enforcement in August</div>
+          <div class="bullet-item">AI Compliance Officer may become a standard role</div>
+        </div>
+      </div>
+      <div class="slide-border"></div>
+      <div class="circuit-tl"></div>
+      <div class="circuit-br"></div>
+      <div class="bottom-bar">
+        <span class="handle">@dailyainewsone</span>
+        <span class="slide-num">4/4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption-section">
+    <div class="caption-label">Caption</div>
+    <div class="caption-text">2026 is the year AI regulation gets real teeth.
+
+California, Colorado, Illinois, and the EU all have AI laws taking effect this year. Companies deploying AI now face actual legal consequences. The era of building fast and worrying later is officially done.
+
+Should AI regulation move faster or slower?
+
+#AInews #AIregulation #EUAIAct #TechPolicy #MachineLearning #TechNews #FutureTech #AIethics
+
+Stay ahead. Stay intelligent. 🚀</div>
+  </div>
+</div>
+
+</body>
+</html>

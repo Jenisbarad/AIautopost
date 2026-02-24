@@ -1,0 +1,63 @@
+{
+    "date": "2026-02-24",
+    "instagramHandle": "dailyainewsone",
+    "totalPosts": 5,
+    "highestPopularityScore": 88,
+    "posts": [
+        {
+            "id": 1,
+            "topic": "Google Gemini 3.1 Pro",
+            "popularityScore": 88,
+            "headline": "Google Just Doubled Its AI Reasoning",
+            "slides": 4,
+            "images": [
+                "../images/post1_slide1_gemini.png"
+            ],
+            "caption": "Google just made its AI twice as smart at reasoning.\n\nGemini 3.1 Pro is now available to developers and users. It scored 77% on the ARC-AGI-2 reasoning test, doubling its predecessor. This is one of the biggest AI upgrades of 2026.\n\nIs reasoning the skill that matters most for AI right now?\n\n#AInews #Gemini #Google #MachineLearning #TechNews #FutureTech #AIresearch #GenerativeAI\n\nStay ahead. Stay intelligent. 🚀"
+        },
+        {
+            "id": 2,
+            "topic": "Meta $135B AI Investment",
+            "popularityScore": 85,
+            "headline": "Meta Will Spend $135B on AI This Year",
+            "slides": 4,
+            "images": [
+                "../images/post2_slide1_meta.png"
+            ],
+            "caption": "Meta just committed $135 billion to AI in a single year.\n\nThat buys 30 data centers, Nvidia's latest chips, and privacy-focused AI on WhatsApp. Mark Zuckerberg calls it the path to personal superintelligence. No company has ever spent this much on AI.\n\nIs this the right bet, or is it too much too fast?\n\n#AInews #Meta #Nvidia #AIinfrastructure #TechNews #BigTech #MachineLearning #FutureTech\n\nStay ahead. Stay intelligent. 🚀"
+        },
+        {
+            "id": 3,
+            "topic": "Anthropic Claude Sonnet 4.6",
+            "popularityScore": 72,
+            "headline": "Claude Now Catches Bugs Your Tests Miss",
+            "slides": 3,
+            "images": [
+                "../images/post3_slide1_claude.png"
+            ],
+            "caption": "Anthropic's Claude doesn't just write code anymore. It audits it.\n\nClaude Sonnet 4.6 ships with a new Code Security tool that catches logic errors — the kind your tests miss. These are the bugs that cost the most to fix and do the most damage.\n\nWould you trust AI to review your code before it ships?\n\n#AInews #Claude #Anthropic #DevTools #CodingSecurity #MachineLearning #TechNews #AIcoding\n\nStay ahead. Stay intelligent. 🚀"
+        },
+        {
+            "id": 4,
+            "topic": "AI2 Theorizer",
+            "popularityScore": 68,
+            "headline": "This AI Reads Research and Writes Theories",
+            "slides": 3,
+            "images": [
+                "../images/post4_slide1_theorizer.png"
+            ],
+            "caption": "An AI just read thousands of research papers and wrote testable scientific theories.\n\nThe Allen Institute's Theorizer synthesizes knowledge across entire fields of research. It could transform how we discover new medicines, materials, and energy solutions. Years of work, compressed into hours.\n\nWhich science field will AI change first?\n\n#AInews #AIresearch #ScientificDiscovery #MachineLearning #TechNews #FutureTech #AI2 #DataScience\n\nStay ahead. Stay intelligent. 🚀"
+        },
+        {
+            "id": 5,
+            "topic": "AI Regulation 2026",
+            "popularityScore": 55,
+            "headline": "2026 Is the Year AI Gets Regulated",
+            "slides": 4,
+            "images": [
+                "../images/post5_slide1_regulation.png"
+            ],
+            "caption": "2026 is the year AI regulation gets real teeth.\n\nCalifornia, Colorado, Illinois, and the EU all have AI laws taking effect this year. Companies deploying AI now face actual legal consequences. The era of building fast and worrying later is officially done.\n\nShould AI regulation move faster or slower?\n\n#AInews #AIregulation #EUAIAct #TechPolicy #MachineLearning #TechNews #FutureTech #AIethics\n\nStay ahead. Stay intelligent. 🚀"
+        }
+    ]
+}

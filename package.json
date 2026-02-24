@@ -1,0 +1,22 @@
+{
+  "name": "dailyainews-instagram-poster",
+  "version": "1.0.0",
+  "description": "Automated Instagram carousel poster for @dailyainewsone AI/ML news",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "post": "node src/index.js",
+    "dry-run": "node src/index.js --dry-run",
+    "test-token": "node src/test-token.js",
+    "post-single": "node src/index.js --post-index",
+    "capture": "node src/capture-slides.js",
+    "post-carousels": "node src/post-carousels.js",
+    "dry-run-carousels": "node src/post-carousels.js --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.0",
+    "puppeteer": "^24.37.5"
+  }
+}

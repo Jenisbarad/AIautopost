@@ -12,7 +12,7 @@
  *   npm run post-carousels -- --post-index 2  → only post #2
  */
 
-import puppeteer from 'puppeteer';
+// Puppeteer is loaded dynamically — not needed on servers with pre-captured images
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
@@ -28,10 +28,67 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// ========================
-// STEP 1: CAPTURE SLIDES
-// ========================
+// ======================================
+// STEP 1A: LOAD PRE-CAPTURED SLIDES
+// (Works on Render / any server — no Chrome needed)
+// ======================================
+function loadPreCapturedSlides() {
+    const outputDir = path.resolve(ROOT, 'images', 'captured');
+
+    if (!fs.existsSync(outputDir)) return null;
+
+    const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.png'));
+    if (files.length === 0) return null;
+
+    console.log('\n STEP 1: Loading pre-captured slide images');
+    console.log('-'.repeat(50));
+
+    const capturedByPost = {};
+
+    for (const filename of files) {
+        const match = filename.match(/post(\d+)_slide(\d+)\.png/);
+        if (!match) continue;
+
+        const postNum = parseInt(match[1]);
+        const slideNum = parseInt(match[2]);
+        const absolutePath = path.resolve(outputDir, filename);
+
+        if (!capturedByPost[postNum]) capturedByPost[postNum] = [];
+        capturedByPost[postNum].push({
+            slideNum,
+            filename,
+            absolutePath,
+            relativePath: `images/captured/${filename}`,
+        });
+
+        console.log(`  OK Post ${postNum}, Slide ${slideNum} <- ${filename}`);
+    }
+
+    // Sort slides within each post
+    for (const key of Object.keys(capturedByPost)) {
+        capturedByPost[key].sort((a, b) => a.slideNum - b.slideNum);
+    }
+
+    const totalSlides = Object.values(capturedByPost).flat().length;
+    console.log(`\n  Loaded ${totalSlides} pre-captured slides.\n`);
+    return capturedByPost;
+}
+
+// ======================================
+// STEP 1B: CAPTURE SLIDES WITH PUPPETEER
+// (Only runs locally when Chrome is available)
+// ======================================
 async function captureAllSlides() {
+    let puppeteer;
+    try {
+        puppeteer = (await import('puppeteer')).default;
+    } catch (err) {
+        console.error('\n  Puppeteer not available. Cannot capture slides.');
+        console.error('  Make sure pre-captured images exist in images/captured/');
+        console.error('  Or install Chrome: npx puppeteer browsers install chrome');
+        process.exit(1);
+    }
+
     const slidesHtml = path.resolve(ROOT, 'slides', 'all-slides.html');
     const outputDir = path.resolve(ROOT, 'images', 'captured');
 
@@ -39,8 +96,8 @@ async function captureAllSlides() {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    console.log('\n📸 STEP 1: Capturing slides from HTML');
-    console.log('━'.repeat(50));
+    console.log('\n STEP 1: Capturing slides from HTML (Puppeteer)');
+    console.log('-'.repeat(50));
 
     const browser = await puppeteer.launch({
         headless: true,
@@ -48,8 +105,6 @@ async function captureAllSlides() {
     });
 
     const page = await browser.newPage();
-
-    // Use device scale factor 2x to get 1024px from 512px slides
     await page.setViewport({ width: 1200, height: 900, deviceScaleFactor: 2 });
 
     await page.goto(`file:///${slidesHtml.replace(/\\/g, '/')}`, {
@@ -57,7 +112,6 @@ async function captureAllSlides() {
         timeout: 30000,
     });
 
-    // Wait for fonts
     await page.evaluate(() => document.fonts.ready);
     await sleep(2000);
 
@@ -88,17 +142,16 @@ async function captureAllSlides() {
             relativePath: `images/captured/${filename}`,
         });
 
-        console.log(`  ✅ Post ${postNum}, Slide ${slideNum} → ${filename}`);
+        console.log(`  OK Post ${postNum}, Slide ${slideNum} -> ${filename}`);
     }
 
     await browser.close();
 
-    // Sort slides within each post
     for (const key of Object.keys(capturedByPost)) {
         capturedByPost[key].sort((a, b) => a.slideNum - b.slideNum);
     }
 
-    console.log(`\n  📸 Captured ${slideElements.length} slides total.\n`);
+    console.log(`\n  Captured ${slideElements.length} slides total.\n`);
     return capturedByPost;
 }
 
@@ -233,8 +286,12 @@ async function main() {
     const content = JSON.parse(fs.readFileSync(contentPath, 'utf-8'));
     console.log(`\n📋 Loaded ${content.posts.length} posts for ${content.date}`);
 
-    // STEP 1: Capture
-    const capturedByPost = await captureAllSlides();
+    // STEP 1: Try pre-captured images first, fallback to Puppeteer
+    let capturedByPost = loadPreCapturedSlides();
+    if (!capturedByPost) {
+        console.log('  No pre-captured images found. Starting Puppeteer capture...');
+        capturedByPost = await captureAllSlides();
+    }
 
     // STEP 2: Upload
     const uploadedByPost = await uploadAllSlides(capturedByPost, dryRun);

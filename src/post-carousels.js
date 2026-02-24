@@ -158,13 +158,16 @@ async function captureAllSlides() {
 // ========================
 // STEP 2: UPLOAD TO IMGBB
 // ========================
-async function uploadAllSlides(capturedByPost, dryRun = false) {
+async function uploadAllSlides(capturedByPost, dryRun = false, onlyPostIndex = null) {
     console.log('\n☁️  STEP 2: Uploading slides to ImgBB');
     console.log('━'.repeat(50));
 
     const uploadedByPost = {};
 
     for (const [postNum, slides] of Object.entries(capturedByPost)) {
+        // Skip posts we won't be posting (optimization for single-post mode)
+        if (onlyPostIndex !== null && parseInt(postNum) !== onlyPostIndex) continue;
+
         uploadedByPost[postNum] = [];
         console.log(`\n  📤 Post ${postNum}: ${slides.length} slides`);
 
@@ -281,10 +284,22 @@ async function main() {
     // Get IG Account ID
     const igAccountId = dryRun ? 'DRY_RUN_ID' : await getInstagramAccountId();
 
-    // Load content
-    const contentPath = path.resolve(ROOT, 'src', 'content', '2026-02-23.json');
+    // Load content — auto-detect latest JSON file
+    const contentDir = path.resolve(ROOT, 'src', 'content');
+    const jsonFiles = fs.readdirSync(contentDir)
+        .filter(f => f.endsWith('.json'))
+        .sort()
+        .reverse();
+
+    if (jsonFiles.length === 0) {
+        console.error('No content JSON files found in src/content/');
+        process.exit(1);
+    }
+
+    const contentFile = jsonFiles[0];
+    const contentPath = path.resolve(contentDir, contentFile);
     const content = JSON.parse(fs.readFileSync(contentPath, 'utf-8'));
-    console.log(`\n📋 Loaded ${content.posts.length} posts for ${content.date}`);
+    console.log(`\nLoaded ${content.posts.length} posts from ${contentFile}`);
 
     // STEP 1: Try pre-captured images first, fallback to Puppeteer
     let capturedByPost = loadPreCapturedSlides();
@@ -293,8 +308,8 @@ async function main() {
         capturedByPost = await captureAllSlides();
     }
 
-    // STEP 2: Upload
-    const uploadedByPost = await uploadAllSlides(capturedByPost, dryRun);
+    // STEP 2: Upload (only images for target post when --post-index is set)
+    const uploadedByPost = await uploadAllSlides(capturedByPost, dryRun, onlyPostIndex);
 
     // STEP 3: Post
     await postAllCarousels(uploadedByPost, content, igAccountId, dryRun, onlyPostIndex);

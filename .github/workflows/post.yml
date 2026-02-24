@@ -1,0 +1,158 @@
+# ============================================================
+# Instagram Carousel Auto-Poster — GitHub Actions Workflow
+# @dailyainewsone
+#
+# SCHEDULE (IST → UTC):
+#   10:30 AM IST (05:00 UTC) → Post 1
+#    1:30 PM IST (08:00 UTC) → Post 2
+#    4:30 PM IST (11:00 UTC) → Post 3
+#    7:30 PM IST (14:00 UTC) → Post 4
+#   10:30 PM IST (17:00 UTC) → Post 5
+#
+# WHY 5 SEPARATE RUNS?
+#   GitHub Actions has a 6-hour job time limit.
+#   Posting 5 carousels with 3-hour spacing = 12 hours.
+#   Instead, we run 5 short jobs (each ~2 min), one per post.
+# ============================================================
+
+name: Post Instagram Carousels
+
+on:
+  # ─── SCHEDULED TRIGGERS (Daily at IST posting times) ───
+  schedule:
+    - cron: '0 5 * * *'     # Post 1 → 10:30 AM IST
+    - cron: '0 8 * * *'     # Post 2 →  1:30 PM IST
+    - cron: '0 11 * * *'    # Post 3 →  4:30 PM IST
+    - cron: '0 14 * * *'    # Post 4 →  7:30 PM IST
+    - cron: '0 17 * * *'    # Post 5 → 10:30 PM IST
+
+  # ─── MANUAL TRIGGER (from GitHub UI) ───
+  workflow_dispatch:
+    inputs:
+      post_index:
+        description: 'Which post to publish (1-5, or "all" for all posts)'
+        required: true
+        default: 'all'
+        type: string
+      dry_run:
+        description: 'Dry run mode (no actual posting)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  post-carousel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+      INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+      IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+      POST_SPACING_MS: ${{ secrets.POST_SPACING_MS || '10800000' }}
+
+    steps:
+      # ─── STEP 1: Checkout code ───
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ─── STEP 2: Setup Node.js ───
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      # ─── STEP 3: Install dependencies ───
+      - name: Install dependencies
+        run: npm install --omit=optional
+        # --omit=optional skips Puppeteer (not needed on CI, we use pre-captured images)
+
+      # ─── STEP 4: Determine which post to publish ───
+      - name: Determine post index
+        id: post-config
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Manual trigger — use user input
+            POST_INDEX="${{ github.event.inputs.post_index }}"
+            DRY_RUN="${{ github.event.inputs.dry_run }}"
+          else
+            # Scheduled trigger — determine post from current UTC hour
+            HOUR=$(date -u +%H)
+            case $HOUR in
+              05) POST_INDEX=1 ;;
+              08) POST_INDEX=2 ;;
+              11) POST_INDEX=3 ;;
+              14) POST_INDEX=4 ;;
+              17) POST_INDEX=5 ;;
+              *)  POST_INDEX=1 ;;  # Default fallback
+            esac
+            DRY_RUN="false"
+          fi
+
+          echo "post_index=$POST_INDEX" >> $GITHUB_OUTPUT
+          echo "dry_run=$DRY_RUN" >> $GITHUB_OUTPUT
+          echo "============================================"
+          echo "  Post Index: $POST_INDEX"
+          echo "  Dry Run:    $DRY_RUN"
+          echo "  Trigger:    ${{ github.event_name }}"
+          echo "  Time (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+          echo "============================================"
+
+      # ─── STEP 5: Verify configuration ───
+      - name: Verify secrets are set
+        run: |
+          MISSING=""
+          if [ -z "$INSTAGRAM_ACCESS_TOKEN" ]; then MISSING="$MISSING INSTAGRAM_ACCESS_TOKEN"; fi
+          if [ -z "$INSTAGRAM_ACCOUNT_ID" ]; then MISSING="$MISSING INSTAGRAM_ACCOUNT_ID"; fi
+          if [ -z "$IMGBB_API_KEY" ]; then MISSING="$MISSING IMGBB_API_KEY"; fi
+
+          if [ -n "$MISSING" ]; then
+            echo "ERROR: Missing required secrets:$MISSING"
+            echo "Go to: Settings > Secrets and variables > Actions > New repository secret"
+            exit 1
+          fi
+          echo "All required secrets are configured."
+
+      # ─── STEP 6: Verify pre-captured images exist ───
+      - name: Check for pre-captured slide images
+        run: |
+          if [ ! -d "images/captured" ] || [ -z "$(ls images/captured/*.png 2>/dev/null)" ]; then
+            echo "ERROR: No pre-captured images found in images/captured/"
+            echo "Run 'npm run capture' locally first, then commit the images."
+            exit 1
+          fi
+          echo "Found $(ls images/captured/*.png | wc -l) slide images."
+
+      # ─── STEP 7: Run the posting script ───
+      - name: Post carousel to Instagram
+        run: |
+          POST_INDEX="${{ steps.post-config.outputs.post_index }}"
+          DRY_RUN="${{ steps.post-config.outputs.dry_run }}"
+
+          CMD="node src/post-carousels.js"
+
+          if [ "$POST_INDEX" != "all" ]; then
+            CMD="$CMD --post-index $POST_INDEX"
+          fi
+
+          if [ "$DRY_RUN" = "true" ]; then
+            CMD="$CMD --dry-run"
+          fi
+
+          echo "Running: $CMD"
+          echo "─────────────────────────────────────"
+          $CMD
+
+      # ─── STEP 8: Log result ───
+      - name: Log completion
+        if: always()
+        run: |
+          echo "============================================"
+          echo "  Workflow:   ${{ github.workflow }}"
+          echo "  Status:     ${{ job.status }}"
+          echo "  Post Index: ${{ steps.post-config.outputs.post_index }}"
+          echo "  Trigger:    ${{ github.event_name }}"
+          echo "  Time (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+          echo "  Run ID:     ${{ github.run_id }}"
+          echo "============================================"

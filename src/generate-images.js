@@ -59,7 +59,9 @@ function loadContent() {
     }
 
     console.log(`  📄 Loading content: ${contentFile}`);
-    return JSON.parse(fs.readFileSync(contentPath, 'utf-8'));
+    const content = JSON.parse(fs.readFileSync(contentPath, 'utf-8'));
+    const inferredDate = targetDate || contentFile.replace(/\.json$/i, '');
+    return { content, inferredDate, contentFile };
 }
 
 // ─── Step 1: Generate HTML slides (inline from generate-slides.js) ───
@@ -94,6 +96,12 @@ function generateSlidesHTML(content) {
 
     function generateSlideHTML(post, postNum) {
         const sc = post.slideContent;
+        if (!sc || !sc.slide1 || !sc.slide2 || !sc.slide3) {
+            throw new Error(
+                `Content JSON is missing slideContent for post ${postNum}. ` +
+                `Regenerate content using the updated generator (node src/generate-content.js --date <YYYY-MM-DD>).`
+            );
+        }
         const totalSlides = post.slides || (sc.slide4 ? 4 : 3);
         const icon = getIcon(post.svgIcon || 'brain');
         const glowWord = findGlowWord(sc.slide1.headline);
@@ -305,8 +313,14 @@ async function main() {
     console.log('╚══════════════════════════════════════════════╝\n');
 
     // Step 1: Load content
-    const content = loadContent();
-    console.log(`  📅 Date: ${content.date}`);
+    const { content, inferredDate, contentFile } = loadContent();
+    const dateTag = inferredDate || content.date;
+    if (!dateTag) {
+        console.error('Could not determine target date for images folder.');
+        process.exit(1);
+    }
+    console.log(`  📅 Date: ${content.date || dateTag}`);
+    console.log(`  🧾 Source: ${contentFile}`);
     console.log(`  📊 Posts: ${content.posts.length}\n`);
 
     // Step 2: Generate HTML
@@ -323,7 +337,8 @@ async function main() {
     console.log(`  ✅ HTML saved: ${htmlPath}`);
 
     // Step 3: Capture screenshots
-    const outputDir = path.resolve(ROOT, 'images', 'captured');
+    // Store images under a date folder to avoid reusing/caching old URLs
+    const outputDir = path.resolve(ROOT, 'images', 'captured', dateTag);
     if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
@@ -346,6 +361,15 @@ async function main() {
     const mappingPath = path.resolve(outputDir, 'mapping.json');
     fs.writeFileSync(mappingPath, JSON.stringify(mapping, null, 2));
     console.log(`  📋 Mapping saved: ${mappingPath}`);
+
+    // Save meta for workflow/debugging
+    const metaPath = path.resolve(outputDir, 'meta.json');
+    fs.writeFileSync(metaPath, JSON.stringify({
+        date: dateTag,
+        sourceContentFile: contentFile,
+        generatedAt: new Date().toISOString(),
+        totalSlides: Object.values(capturedByPost).flat().length,
+    }, null, 2));
 
     const totalSlides = Object.values(capturedByPost).flat().length;
     console.log(`\n╔══════════════════════════════════════════════╗`);

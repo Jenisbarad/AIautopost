@@ -32,7 +32,7 @@ function sleep(ms) {
 // ======================================
 // STEP 1: BUILD GITHUB RAW IMAGE URLS
 // ======================================
-function buildGitHubImageUrls(capturedDir, onlyPostIndex = null) {
+function buildGitHubImageUrls(capturedDir, capturedRelDir, onlyPostIndex = null) {
     console.log('\n🔗 STEP 1: Building GitHub raw image URLs');
     console.log('━'.repeat(50));
 
@@ -59,7 +59,7 @@ function buildGitHubImageUrls(capturedDir, onlyPostIndex = null) {
         // Skip posts we won't be posting
         if (onlyPostIndex !== null && postNum !== onlyPostIndex) continue;
 
-        const rawUrl = `${config.github.rawBaseUrl}/images/captured/${filename}`;
+        const rawUrl = `${config.github.rawBaseUrl}/${capturedRelDir}/${filename}`;
 
         if (!imagesByPost[postNum]) imagesByPost[postNum] = [];
         imagesByPost[postNum].push({ slideNum, url: rawUrl, filename });
@@ -187,8 +187,20 @@ async function main() {
     console.log(`\n📄 Loaded ${content.posts.length} posts from ${contentFile}`);
 
     // STEP 1: Build GitHub raw image URLs (no uploads needed!)
-    const capturedDir = path.resolve(ROOT, 'images', 'captured');
-    const imagesByPost = buildGitHubImageUrls(capturedDir, onlyPostIndex);
+    // Prefer date-scoped folder to avoid Instagram caching old URLs.
+    const dateTag = content?.date || contentFile.replace(/\.json$/i, '');
+    const capturedDirDated = path.resolve(ROOT, 'images', 'captured', dateTag);
+    const capturedDirFlat = path.resolve(ROOT, 'images', 'captured');
+
+    let capturedDir = capturedDirDated;
+    let capturedRelDir = `images/captured/${dateTag}`;
+    if (!fs.existsSync(capturedDirDated)) {
+        capturedDir = capturedDirFlat;
+        capturedRelDir = 'images/captured';
+        console.log(`\n⚠️  Dated images folder not found (${capturedDirDated}). Falling back to images/captured/`);
+    }
+
+    const imagesByPost = buildGitHubImageUrls(capturedDir, capturedRelDir, onlyPostIndex);
 
     // STEP 2: Post carousels
     await postAllCarousels(imagesByPost, content, igAccountId, dryRun, onlyPostIndex);

@@ -88,7 +88,11 @@ Rules:
 - ids must be 1..5 unique and in order.
 - If "slides" is 3 then omit "slide4".
 - "slide2.lines" and "slide3.lines" must be arrays of strings.
-- Keep everything concise, factual, and suitable for a 1024x1024 slide.
+- Make each slide slightly more informative:
+  - slide2.lines: 3 lines
+  - slide3.lines: 3 lines
+  - slide4.bullets: 4 bullets (only if slide4 exists)
+- Keep each line short (max ~14 words) so it fits a 1024x1024 slide.
 `;
 
 const REPAIR_PROMPT = `You are given JSON from another model that is NOT in the required schema for our slide renderer.

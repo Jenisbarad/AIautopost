@@ -150,8 +150,12 @@ jobs:
           CONTENT_FILE="content/${TARGET_DATE}.json"
 
           if [ -f "$CONTENT_FILE" ]; then
-            echo "✅ Content already exists: $CONTENT_FILE"
-            echo "  Skipping content generation."
+            echo "✅ Content file exists: $CONTENT_FILE"
+            echo "  Validating schema..."
+            node -e "const fs=require('fs');const p=process.argv[1];const j=JSON.parse(fs.readFileSync(p,'utf8'));const ok=Array.isArray(j.posts)&&j.posts.length===5&&j.posts.every(x=>x&&x.slideContent&&x.slideContent.slide1&&x.slideContent.slide1.headline&&x.slideContent.slide2&&Array.isArray(x.slideContent.slide2.lines)&&x.slideContent.slide3&&Array.isArray(x.slideContent.slide3.lines)); if(!ok){console.error('Schema invalid (likely old format).'); process.exit(2)}" "$CONTENT_FILE" || {
+              echo "📝 Regenerating content (schema repair/upgrade) for: $TARGET_DATE"
+              node src/generate-content.js --date "$TARGET_DATE"
+            }
           else
             echo "📝 Generating new content for: $TARGET_DATE"
             node src/generate-content.js --date "$TARGET_DATE"
@@ -164,12 +168,12 @@ jobs:
           CONTENT_FILE="content/${TARGET_DATE}.json"
 
           # Count existing captured images
-          EXISTING_COUNT=$(ls images/captured/post*.png 2>/dev/null | wc -l || echo "0")
+          EXISTING_COUNT=$(ls "images/captured/${TARGET_DATE}"/post*.png 2>/dev/null | wc -l || echo "0")
 
           if [ "$EXISTING_COUNT" -ge 15 ]; then
-            echo "✅ Found $EXISTING_COUNT slide images — skipping regeneration."
+            echo "✅ Found $EXISTING_COUNT slide images for ${TARGET_DATE} — skipping regeneration."
           else
-            echo "🖼️ Generating slide images..."
+            echo "🖼️ Generating slide images for ${TARGET_DATE}..."
             node src/generate-images.js --date "$TARGET_DATE"
           fi
 

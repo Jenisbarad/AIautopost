@@ -226,11 +226,11 @@ ${slideHtml}
   .cover h1 .g { color: #4d8dff; text-shadow: 0 0 25px rgba(77,141,255,0.5); }
   .cover .sub { font-size: 14px; color: #94a3b8; }
   .content.body { text-align: left; }
-  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #4d8dff; margin-bottom: 32px; }
+  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #4d8dff; margin-bottom: 26px; }
   .label.purple { color: #a855f7; }
-  .text { font-size: 16px; font-weight: 400; line-height: 2; color: #cbd5e1; }
+  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: #cbd5e1; }
   .bullets { text-align: left; }
-  .bi { font-size: 14px; line-height: 1.5; color: #cbd5e1; margin-bottom: 18px; padding-left: 22px; position: relative; }
+  .bi { font-size: 13px; line-height: 1.45; color: #cbd5e1; margin-bottom: 14px; padding-left: 22px; position: relative; }
   .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px rgba(77,141,255,0.6); }
   hr { border: none; border-top: 1px solid rgba(77,141,255,0.1); width: 400px; margin: 20px 0; }
 </style>

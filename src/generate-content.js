@@ -62,6 +62,13 @@ Task: Generate EXACTLY 5 AI news carousel posts for Instagram.
 
 Return ONLY valid JSON (no markdown, no code fences, no commentary).
 
+Topic selection rules (very important):
+- Pick topics that are REAL and SPECIFIC. Each topic must include at least one concrete entity: company/product/model/tool/law/dataset/paper.
+- Avoid vague/general topics like: "AI models improved", "AI growth continues", "New algorithms developed", "Investment increases".
+- Each post must be materially different (no repeats of the same story).
+- Prefer practical/value topics people can use: new tool releases, major model updates, policy changes with impact, security incidents, benchmark results, pricing changes, open-source releases.
+- Include at least one number per post (price, % score, context window, funding, date, benchmark, limits), but don’t invent absurd numbers.
+
 Required JSON shape:
 {
   "date": "{DATE}",
@@ -88,10 +95,11 @@ Rules:
 - ids must be 1..5 unique and in order.
 - If "slides" is 3 then omit "slide4".
 - "slide2.lines" and "slide3.lines" must be arrays of strings.
-- Make each slide slightly more informative:
-  - slide2.lines: 3 lines
-  - slide3.lines: 3 lines
-  - slide4.bullets: 4 bullets (only if slide4 exists)
+- Make each slide much more informative (but still readable):
+  - slide2.lines: EXACTLY 4 lines
+  - slide3.lines: EXACTLY 4 lines
+  - slide4.bullets: EXACTLY 5 bullets (only if slide4 exists)
+- Every line/bullet must contain at least one concrete detail (name, feature, metric, number, or constraint).
 - Keep each line short (max ~14 words) so it fits a 1024x1024 slide.
 `;
 
@@ -112,9 +120,9 @@ REQUIRED JSON shape (same as before):
       "svgIcon": "brain|chip|shield|network|globe|code|atom|rocket|database|lock",
       "slideContent": {
         "slide1": { "headline": "6-10 words max", "subtitle": "8-14 words max" },
-        "slide2": { "title": "WHAT HAPPENED", "lines": ["sentence 1", "sentence 2"] },
-        "slide3": { "title": "WHY IT MATTERS", "lines": ["sentence 1", "sentence 2"] },
-        "slide4": { "title": "KEY TAKEAWAYS", "bullets": ["bullet 1", "bullet 2", "bullet 3"] }
+        "slide2": { "title": "WHAT HAPPENED", "lines": ["line 1", "line 2", "line 3", "line 4"] },
+        "slide3": { "title": "WHY IT MATTERS", "lines": ["line 1", "line 2", "line 3", "line 4"] },
+        "slide4": { "title": "KEY TAKEAWAYS", "bullets": ["bullet 1", "bullet 2", "bullet 3", "bullet 4", "bullet 5"] }
       },
       "caption": "Instagram caption with line breaks + 6-10 hashtags"
     }

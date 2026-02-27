@@ -61,6 +61,8 @@ jobs:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
       POST_SPACING_MS: ${{ secrets.POST_SPACING_MS || '10800000' }}
+      # Set to "false" if you want to use Gemini again
+      DISABLE_GEMINI: 'true'
 
     steps:
       # ─── STEP 1: Checkout code ───
@@ -124,7 +126,13 @@ jobs:
           if [ -z "$INSTAGRAM_ACCESS_TOKEN" ]; then MISSING="$MISSING INSTAGRAM_ACCESS_TOKEN"; fi
           if [ -z "$INSTAGRAM_ACCOUNT_ID" ]; then MISSING="$MISSING INSTAGRAM_ACCOUNT_ID"; fi
           # At least ONE AI provider key must be present; others are optional fallbacks
-          if [ -z "$GEMINI_API_KEY" ] && [ -z "$GROQ_API_KEY" ] && [ -z "$OPENROUTER_API_KEY" ] && [ -z "$TOGETHER_API_KEY" ]; then
+          DISABLE_GEMINI_LC="$(echo "${DISABLE_GEMINI:-}" | tr '[:upper:]' '[:lower:]')"
+          GEMINI_ENABLED="true"
+          if [ "$DISABLE_GEMINI_LC" = "1" ] || [ "$DISABLE_GEMINI_LC" = "true" ] || [ "$DISABLE_GEMINI_LC" = "yes" ]; then
+            GEMINI_ENABLED="false"
+          fi
+
+          if [ -z "$GROQ_API_KEY" ] && [ -z "$OPENROUTER_API_KEY" ] && [ -z "$TOGETHER_API_KEY" ] && { [ "$GEMINI_ENABLED" != "true" ] || [ -z "$GEMINI_API_KEY" ]; }; then
             MISSING="$MISSING (one of GEMINI_API_KEY / GROQ_API_KEY / OPENROUTER_API_KEY / TOGETHER_API_KEY)";
           fi
 

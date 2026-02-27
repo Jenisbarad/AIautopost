@@ -31,6 +31,12 @@ function envTrim(name) {
     return typeof v === "string" ? v.trim() : "";
 }
 
+function envBool(name, defaultValue = false) {
+    const v = envTrim(name).toLowerCase();
+    if (!v) return defaultValue;
+    return v === "1" || v === "true" || v === "yes" || v === "y" || v === "on";
+}
+
 // ==============================
 // Get Target Date
 // ==============================
@@ -146,6 +152,9 @@ async function generateWithFallback(prompt) {
 
         // 4️⃣ Gemini Backup
         async () => {
+            if (envBool("DISABLE_GEMINI", false)) {
+                throw new Error("SKIP: Gemini disabled (DISABLE_GEMINI=true)");
+            }
             const geminiKey = envTrim("GEMINI_API_KEY");
             if (!geminiKey) {
                 throw new Error("SKIP: GEMINI_API_KEY not set");

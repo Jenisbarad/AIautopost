@@ -52,17 +52,73 @@ function getTargetDate() {
 }
 
 // ==============================
-// Prompt
+// Prompt (must match slide generator needs)
 // ==============================
-const CONTENT_PROMPT = `You are an AI news researcher and Instagram content creator for @dailyainewsone.
+const CONTENT_PROMPT = `You are an AI news researcher and Instagram carousel writer for @dailyainewsone.
 
 Today's date: {DATE}
 
-Generate 5 AI news Instagram carousel posts.
+Task: Generate EXACTLY 5 AI news carousel posts for Instagram.
 
-Return ONLY valid JSON.
-No explanation.
-No markdown.
+Return ONLY valid JSON (no markdown, no code fences, no commentary).
+
+Required JSON shape:
+{
+  "date": "{DATE}",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 5,
+  "posts": [
+    {
+      "id": 1,
+      "topic": "Short topic (2-5 words)",
+      "slides": 3 or 4,
+      "svgIcon": "brain|chip|shield|network|globe|code|atom|rocket|database|lock",
+      "slideContent": {
+        "slide1": { "headline": "6-10 words max", "subtitle": "8-14 words max" },
+        "slide2": { "title": "WHAT HAPPENED", "lines": ["sentence 1", "sentence 2"] },
+        "slide3": { "title": "WHY IT MATTERS", "lines": ["sentence 1", "sentence 2"] },
+        "slide4": { "title": "KEY TAKEAWAYS", "bullets": ["bullet 1", "bullet 2", "bullet 3"] }
+      },
+      "caption": "Instagram caption with line breaks + 6-10 hashtags"
+    }
+  ]
+}
+
+Rules:
+- ids must be 1..5 unique and in order.
+- If "slides" is 3 then omit "slide4".
+- "slide2.lines" and "slide3.lines" must be arrays of strings.
+- Keep everything concise, factual, and suitable for a 1024x1024 slide.
+`;
+
+const REPAIR_PROMPT = `You are given JSON from another model that is NOT in the required schema for our slide renderer.
+
+Convert it into the REQUIRED JSON shape below. Return ONLY valid JSON.
+
+REQUIRED JSON shape (same as before):
+{
+  "date": "{DATE}",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 5,
+  "posts": [
+    {
+      "id": 1,
+      "topic": "Short topic (2-5 words)",
+      "slides": 3 or 4,
+      "svgIcon": "brain|chip|shield|network|globe|code|atom|rocket|database|lock",
+      "slideContent": {
+        "slide1": { "headline": "6-10 words max", "subtitle": "8-14 words max" },
+        "slide2": { "title": "WHAT HAPPENED", "lines": ["sentence 1", "sentence 2"] },
+        "slide3": { "title": "WHY IT MATTERS", "lines": ["sentence 1", "sentence 2"] },
+        "slide4": { "title": "KEY TAKEAWAYS", "bullets": ["bullet 1", "bullet 2", "bullet 3"] }
+      },
+      "caption": "Instagram caption with line breaks + 6-10 hashtags"
+    }
+  ]
+}
+
+Input JSON to convert:
+{INPUT_JSON}
 `;
 
 // ==============================
@@ -95,7 +151,7 @@ async function generateWithFallback(prompt) {
                             model: modelName,
                             messages: [{ role: "user", content: prompt }],
                             temperature: 0.8,
-                            max_tokens: 5000
+                            max_tokens: 6000
                         },
                         {
                             headers: {
@@ -133,7 +189,7 @@ async function generateWithFallback(prompt) {
                     model: "meta-llama/llama-3-8b-instruct",
                     messages: [{ role: "user", content: prompt }],
                     temperature: 0.8,
-                    max_tokens: 5000
+                    max_tokens: 6000
                 },
                 {
                     headers: {
@@ -161,7 +217,7 @@ async function generateWithFallback(prompt) {
                     model: "meta-llama/Llama-3.3-70B-Instruct-Turbo",
                     messages: [{ role: "user", content: prompt }],
                     temperature: 0.8,
-                    max_tokens: 5000
+                    max_tokens: 6000
                 },
                 {
                     headers: {
@@ -240,6 +296,77 @@ async function generateWithFallback(prompt) {
     throw new Error("All AI providers failed.");
 }
 
+function isExpectedContentShape(obj) {
+    if (!obj || typeof obj !== "object") return false;
+    if (!Array.isArray(obj.posts) || obj.posts.length !== 5) return false;
+    for (let i = 0; i < obj.posts.length; i++) {
+        const p = obj.posts[i];
+        if (!p || typeof p !== "object") return false;
+        if (typeof p.id !== "number") return false;
+        if (typeof p.topic !== "string") return false;
+        if (typeof p.caption !== "string") return false;
+        if (!p.slideContent || typeof p.slideContent !== "object") return false;
+        const sc = p.slideContent;
+        if (!sc.slide1?.headline || !sc.slide1?.subtitle) return false;
+        if (!Array.isArray(sc.slide2?.lines) || !Array.isArray(sc.slide3?.lines)) return false;
+    }
+    return true;
+}
+
+function normalizeMaybe(obj, targetDate) {
+    // Accept array-of-posts shape
+    if (Array.isArray(obj)) {
+        obj = { date: targetDate, instagramHandle: "dailyainewsone", totalPosts: obj.length, posts: obj };
+    }
+
+    // posts could be an object keyed by numbers
+    if (obj && typeof obj === "object" && obj.posts && !Array.isArray(obj.posts) && typeof obj.posts === "object") {
+        const arr = Object.values(obj.posts);
+        obj.posts = arr;
+    }
+
+    if (obj && typeof obj === "object") {
+        if (!obj.date) obj.date = targetDate;
+        if (!obj.instagramHandle) obj.instagramHandle = "dailyainewsone";
+        if (!obj.totalPosts && Array.isArray(obj.posts)) obj.totalPosts = obj.posts.length;
+    }
+
+    return obj;
+}
+
+async function coerceToExpected(responseText, parsedObj, targetDate) {
+    const normalized = normalizeMaybe(parsedObj, targetDate);
+    if (isExpectedContentShape(normalized)) return normalized;
+
+    // Second-pass repair: ask provider(s) to convert into the required schema.
+    const inputJson = (() => {
+        try {
+            return JSON.stringify(normalized ?? parsedObj ?? responseText);
+        } catch {
+            return String(responseText);
+        }
+    })();
+
+    const clipped = inputJson.length > 20000 ? inputJson.slice(0, 20000) : inputJson;
+    const prompt = REPAIR_PROMPT
+        .replace(/\{DATE\}/g, targetDate)
+        .replace("{INPUT_JSON}", clipped);
+
+    const repairedText = await generateWithFallback(prompt);
+    let repairedObj;
+    try {
+        repairedObj = JSON.parse(repairedText);
+    } catch {
+        throw new Error("Repair step returned non-JSON.");
+    }
+
+    const repairedNorm = normalizeMaybe(repairedObj, targetDate);
+    if (isExpectedContentShape(repairedNorm)) return repairedNorm;
+
+    const keys = repairedNorm && typeof repairedNorm === "object" ? Object.keys(repairedNorm).join(", ") : typeof repairedNorm;
+    throw new Error(`Invalid JSON structure after repair. Top-level: ${keys}`);
+}
+
 // ==============================
 // Main Function
 // ==============================
@@ -262,18 +389,22 @@ async function generateContent(targetDate) {
         process.exit(1);
     }
 
-    // Parse JSON
-    let content;
+    // Parse + coerce into the exact schema our slide renderer needs
+    let parsed;
     try {
-        content = JSON.parse(responseText);
+        parsed = JSON.parse(responseText);
     } catch (err) {
         console.error("❌ Failed to parse JSON.");
-        console.error(responseText.substring(0, 500));
+        console.error(responseText.substring(0, 700));
         process.exit(1);
     }
 
-    if (!content.posts || !Array.isArray(content.posts)) {
+    let content;
+    try {
+        content = await coerceToExpected(responseText, parsed, targetDate);
+    } catch (err) {
         console.error("❌ Invalid JSON structure.");
+        console.error(String(err?.message || err));
         process.exit(1);
     }
 

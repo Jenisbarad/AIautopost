@@ -79,22 +79,45 @@ async function generateWithFallback(prompt) {
                 throw new Error("SKIP: GROQ_API_KEY not set");
             }
             console.log("🔵 Trying Groq (Llama3 70B)...");
-            const res = await axios.post(
-                "https://api.groq.com/openai/v1/chat/completions",
-                {
-                    model: "llama3-70b-8192",
-                    messages: [{ role: "user", content: prompt }],
-                    temperature: 0.8,
-                    max_tokens: 5000
-                },
-                {
-                    headers: {
-                        Authorization: `Bearer ${groqKey}`,
-                        "Content-Type": "application/json"
+            const groqModelCandidates = [
+                envTrim("GROQ_MODEL"),
+                "llama-3.3-70b-versatile",
+                "llama-3.1-70b-versatile",
+                "llama-3.1-8b-instant",
+            ].filter(Boolean);
+
+            let lastErr = null;
+            for (const modelName of groqModelCandidates) {
+                try {
+                    const res = await axios.post(
+                        "https://api.groq.com/openai/v1/chat/completions",
+                        {
+                            model: modelName,
+                            messages: [{ role: "user", content: prompt }],
+                            temperature: 0.8,
+                            max_tokens: 5000
+                        },
+                        {
+                            headers: {
+                                Authorization: `Bearer ${groqKey}`,
+                                "Content-Type": "application/json"
+                            }
+                        }
+                    );
+                    return res.data.choices[0].message.content;
+                } catch (e) {
+                    lastErr = e;
+                    const data = e?.response?.data;
+                    const msg = (data?.error?.message || e?.message || "").toLowerCase();
+                    const code = data?.error?.code;
+                    if (code === "model_decommissioned" || msg.includes("decommissioned") || msg.includes("no longer supported") || msg.includes("model")) {
+                        continue;
                     }
+                    throw e;
                 }
-            );
-            return res.data.choices[0].message.content;
+            }
+
+            throw lastErr || new Error("Groq failed");
         },
 
         // 2️⃣ OpenRouter Free

@@ -116,7 +116,7 @@ async function generateContent(targetDate) {
 
     const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-1.5-flash',
         generationConfig: {
             temperature: 0.9,
             maxOutputTokens: 8192,

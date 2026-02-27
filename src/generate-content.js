@@ -52,24 +52,101 @@ function getTargetDate() {
 }
 
 // ==============================
-// Prompt (must match slide generator needs)
+// Prompt (Trend Intelligence Engine)
 // ==============================
-const CONTENT_PROMPT = `You are an AI news researcher and Instagram carousel writer for @dailyainewsone.
+const CONTENT_PROMPT = `You are a Trend Intelligence Content Engine generating Instagram carousel posts for:
+
+AI, Startups, Tech, Business, Internet Culture & Global Innovation Trends
+
+Instagram handle: dailyainewsone
+
+You act like:
+- Tech journalist
+- Market analyst
+- VC researcher
+- Trend forecaster
+NOT like a generic motivational page.
 
 Today's date: {DATE}
 
-Task: Generate EXACTLY 5 AI news carousel posts for Instagram.
+Your job is to generate EXACTLY 5 high-signal Instagram carousel posts using the process below.
+Return ONLY valid JSON at the end (no markdown, no code fences, no commentary).
 
-Return ONLY valid JSON (no markdown, no code fences, no commentary).
+🧠 STEP 1 — IDENTIFY WHAT IS TRENDING
 
-Topic selection rules (very important):
-- Pick topics that are REAL and SPECIFIC. Each topic must include at least one concrete entity: company/product/model/tool/law/dataset/paper.
-- Avoid vague/general topics like: "AI models improved", "AI growth continues", "New algorithms developed", "Investment increases".
-- Each post must be materially different (no repeats of the same story).
-- Prefer practical/value topics people can use: new tool releases, major model updates, policy changes with impact, security incidents, benchmark results, pricing changes, open-source releases.
-- Include at least one number per post (price, % score, context window, funding, date, benchmark, limits), but don’t invent absurd numbers.
+First, internally imagine 10 candidate topics based on:
+- AI & ML
+- Startups
+- Big Tech companies
+- Venture capital
+- IPOs & funding
+- Internet platforms
+- Policy & regulation
+- Stock market tech movements
+- Creator economy
+- SaaS launches
+- Cybersecurity
+- Hardware / chip wars
+- Major layoffs
+- Major acquisitions
+- Global tech expansion
+- Breakthrough research
+- Viral tech product launches
 
-Required JSON shape:
+Each candidate topic MUST:
+- Be a real, specific, verifiable event (plausible and concrete).
+- Include at least one real entity (company, product, model, government, exchange, VC, etc.).
+- Include at least one number (%, $, users, valuation, date, benchmark score, revenue, funding amount, layoffs %, etc.).
+If a topic is generic like "AI innovation continues" or "Tech is growing" → reject it.
+
+📊 STEP 2 — USEFULNESS SCORING SYSTEM (mentally)
+
+For each candidate topic, internally score 0–5 on:
+- Impact Size
+- Financial Weight
+- Competitive Disruption
+- Innovation Depth
+- Public Relevance
+- Trend Momentum
+- Shareability
+
+Total score = 35 max.
+Rules:
+- <18 → Reject
+- 18–24 → Medium priority
+- 25+ → High priority
+
+Select the top 5 topics with the highest scores, making sure:
+- At least 2 are high-impact (25+).
+- The set covers a MIX of categories (not all funding).
+
+📈 STEP 3 — PERFORMANCE-AWARE OPTIMIZATION (mental heuristic)
+
+Assume you have access to past Instagram analytics:
+- If similar posts had:
+  - High likes/comments → slightly boost similar topics.
+  - High saves → prioritize educational, explanation-heavy posts.
+  - High shares → prioritize funding/acquisition/controversy and regulation.
+  - Low engagement → slightly lower priority.
+
+Prefer:
+- Funding rounds above $20M.
+- IPOs.
+- $1B+ valuations.
+- Major updates from big tech brands.
+- Competitive battles (e.g., model wars, pricing wars).
+- Layoffs above 10%.
+- Revenue milestones above $50M.
+
+Avoid:
+- Small seed rounds unless strategically important.
+- Minor UI updates.
+- Low-impact regional-only news.
+
+📦 STEP 4 — STRUCTURE THE OUTPUT (JSON ONLY)
+
+Now, for the final 5 topics, produce JSON in this shape:
+
 {
   "date": "{DATE}",
   "instagramHandle": "dailyainewsone",
@@ -77,30 +154,71 @@ Required JSON shape:
   "posts": [
     {
       "id": 1,
-      "topic": "Short topic (2-5 words)",
+      "topic": "2–6 word short title",
       "slides": 3 or 4,
       "svgIcon": "brain|chip|shield|network|globe|code|atom|rocket|database|lock",
       "slideContent": {
-        "slide1": { "headline": "6-10 words max", "subtitle": "8-14 words max" },
-        "slide2": { "title": "WHAT HAPPENED", "lines": ["sentence 1", "sentence 2"] },
-        "slide3": { "title": "WHY IT MATTERS", "lines": ["sentence 1", "sentence 2"] },
-        "slide4": { "title": "KEY TAKEAWAYS", "bullets": ["bullet 1", "bullet 2", "bullet 3"] }
+        "slide1": {
+          "headline": "Strong attention-grabbing hook",
+          "subtitle": "Short context explanation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Clear explanation of the event with entity and number",
+            "Additional important detail",
+            "Financial / technical / strategic number",
+            "Expansion or future plan"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Impact on market or industry",
+            "Impact on users/developers/investors",
+            "Competitive implication",
+            "Long-term signal"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight"
+          ]
+        }
       },
-      "caption": "Instagram caption with line breaks + 6-10 hashtags"
+      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
     }
   ]
 }
 
-Rules:
-- ids must be 1..5 unique and in order.
-- If "slides" is 3 then omit "slide4".
-- "slide2.lines" and "slide3.lines" must be arrays of strings.
-- Make each slide much more informative (but still readable):
-  - slide2.lines: EXACTLY 4 lines
-  - slide3.lines: EXACTLY 4 lines
-  - slide4.bullets: EXACTLY 5 bullets (only if slide4 exists)
-- Every line/bullet must contain at least one concrete detail (name, feature, metric, number, or constraint).
-- Keep each line short (max ~14 words) so it fits a 1024x1024 slide.
+🧾 FLEXIBILITY & VALIDATION RULES
+
+- Always output exactly 5 posts in "posts" (id = 1..5).
+- If "slides" is 3 then you may omit "slide4".
+- "slide2.lines" and "slide3.lines" must be arrays of 3–5 concise lines (natural language, no strict word count).
+- Slide lines must be specific and mention entity + at least one number somewhere in slide2.
+- Caption is mandatory for every post.
+- Captions:
+  - Paragraph 1: clear summary of the news.
+  - Paragraph 2: one engaging question.
+  - Optional extra paragraph(s): 1–2 lines of extra context.
+  - Hashtags: 6–10 total, mixing:
+      #AInews #StartupNews #TechNews #BusinessNews #Innovation #FutureTech
+      plus 2–4 entity-specific tags (e.g. #OpenAI #Llama3 #Gemini #IPO).
+
+FINAL CHECK BEFORE YOU RETURN JSON:
+- max 5 posts (for this pipeline, use exactly 5).
+- No duplicate topics.
+- Each post includes at least one real entity.
+- Each post includes at least one number.
+- At least 2 high-impact topics (mentally scored 25+).
+- Mix of categories (not all funding).
+- Caption included for all posts.
 `;
 
 const REPAIR_PROMPT = `You are given JSON from another model that is NOT in the required schema for our slide renderer.
@@ -115,16 +233,44 @@ REQUIRED JSON shape (same as before):
   "posts": [
     {
       "id": 1,
-      "topic": "Short topic (2-5 words)",
+      "topic": "2–6 word short title",
       "slides": 3 or 4,
       "svgIcon": "brain|chip|shield|network|globe|code|atom|rocket|database|lock",
       "slideContent": {
-        "slide1": { "headline": "6-10 words max", "subtitle": "8-14 words max" },
-        "slide2": { "title": "WHAT HAPPENED", "lines": ["line 1", "line 2", "line 3", "line 4"] },
-        "slide3": { "title": "WHY IT MATTERS", "lines": ["line 1", "line 2", "line 3", "line 4"] },
-        "slide4": { "title": "KEY TAKEAWAYS", "bullets": ["bullet 1", "bullet 2", "bullet 3", "bullet 4", "bullet 5"] }
+        "slide1": {
+          "headline": "Strong attention-grabbing hook",
+          "subtitle": "Short context explanation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Clear explanation of the event with entity and number",
+            "Additional important detail",
+            "Financial / technical / strategic number",
+            "Expansion or future plan"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Impact on market or industry",
+            "Impact on users/developers/investors",
+            "Competitive implication",
+            "Long-term signal"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight"
+          ]
+        }
       },
-      "caption": "Instagram caption with line breaks + 6-10 hashtags"
+      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
     }
   ]
 }
@@ -320,7 +466,8 @@ function isExpectedContentShape(obj) {
         if (!p.slideContent || typeof p.slideContent !== "object") return false;
         const sc = p.slideContent;
         if (!sc.slide1?.headline || !sc.slide1?.subtitle) return false;
-        if (!Array.isArray(sc.slide2?.lines) || !Array.isArray(sc.slide3?.lines)) return false;
+        if (!Array.isArray(sc.slide2?.lines) || sc.slide2.lines.length < 2) return false;
+        if (!Array.isArray(sc.slide3?.lines) || sc.slide3.lines.length < 2) return false;
     }
     return true;
 }

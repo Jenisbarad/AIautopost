@@ -1,23 +1,24 @@
 /**
  * post-carousels.js
- * 
- * Full automated pipeline:
- *   1. Capture slides from HTML → individual PNG images
- *   2. Upload images to ImgBB → get public URLs
+ *
+ * Autonomous Instagram carousel posting pipeline:
+ *   1. Load content JSON for today's date
+ *   2. Build public GitHub raw URLs for slide images
  *   3. Post each set of slides as an Instagram carousel
- * 
+ *
  * Usage:
- *   npm run post-carousels           → capture + upload + post all
- *   npm run post-carousels -- --dry-run   → simulate everything
- *   npm run post-carousels -- --post-index 2  → only post #2
+ *   node src/post-carousels.js                      → post all carousels
+ *   node src/post-carousels.js --dry-run             → simulate everything
+ *   node src/post-carousels.js --post-index 2        → only post #2
+ *   node src/post-carousels.js --post-index 2 --dry-run
+ *
+ * No ImgBB needed — uses GitHub raw URLs directly.
  */
 
-// Puppeteer is loaded dynamically — not needed on servers with pre-captured images
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import { config, validateConfig } from './config.js';
-import { uploadImage } from './upload-images.js';
 import { validateToken, getInstagramAccountId, postCarousel } from './instagram-poster.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -29,21 +30,24 @@ function sleep(ms) {
 }
 
 // ======================================
-// STEP 1A: LOAD PRE-CAPTURED SLIDES
-// (Works on Render / any server — no Chrome needed)
+// STEP 1: BUILD GITHUB RAW IMAGE URLS
 // ======================================
-function loadPreCapturedSlides() {
-    const outputDir = path.resolve(ROOT, 'images', 'captured');
+function buildGitHubImageUrls(capturedDir, onlyPostIndex = null) {
+    console.log('\n🔗 STEP 1: Building GitHub raw image URLs');
+    console.log('━'.repeat(50));
 
-    if (!fs.existsSync(outputDir)) return null;
+    if (!fs.existsSync(capturedDir)) {
+        console.error(`❌ No captured images directory: ${capturedDir}`);
+        process.exit(1);
+    }
 
-    const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.png'));
-    if (files.length === 0) return null;
+    const files = fs.readdirSync(capturedDir).filter(f => f.endsWith('.png'));
+    if (files.length === 0) {
+        console.error('❌ No PNG images found in images/captured/');
+        process.exit(1);
+    }
 
-    console.log('\n STEP 1: Loading pre-captured slide images');
-    console.log('-'.repeat(50));
-
-    const capturedByPost = {};
+    const imagesByPost = {};
 
     for (const filename of files) {
         const match = filename.match(/post(\d+)_slide(\d+)\.png/);
@@ -51,158 +55,36 @@ function loadPreCapturedSlides() {
 
         const postNum = parseInt(match[1]);
         const slideNum = parseInt(match[2]);
-        const absolutePath = path.resolve(outputDir, filename);
 
-        if (!capturedByPost[postNum]) capturedByPost[postNum] = [];
-        capturedByPost[postNum].push({
-            slideNum,
-            filename,
-            absolutePath,
-            relativePath: `images/captured/${filename}`,
-        });
+        // Skip posts we won't be posting
+        if (onlyPostIndex !== null && postNum !== onlyPostIndex) continue;
 
-        console.log(`  OK Post ${postNum}, Slide ${slideNum} <- ${filename}`);
+        const rawUrl = `${config.github.rawBaseUrl}/images/captured/${filename}`;
+
+        if (!imagesByPost[postNum]) imagesByPost[postNum] = [];
+        imagesByPost[postNum].push({ slideNum, url: rawUrl, filename });
+
+        console.log(`  ✅ Post ${postNum}, Slide ${slideNum} → ${rawUrl}`);
     }
 
     // Sort slides within each post
-    for (const key of Object.keys(capturedByPost)) {
-        capturedByPost[key].sort((a, b) => a.slideNum - b.slideNum);
+    for (const key of Object.keys(imagesByPost)) {
+        imagesByPost[key].sort((a, b) => a.slideNum - b.slideNum);
     }
 
-    const totalSlides = Object.values(capturedByPost).flat().length;
-    console.log(`\n  Loaded ${totalSlides} pre-captured slides.\n`);
-    return capturedByPost;
-}
-
-// ======================================
-// STEP 1B: CAPTURE SLIDES WITH PUPPETEER
-// (Only runs locally when Chrome is available)
-// ======================================
-async function captureAllSlides() {
-    let puppeteer;
-    try {
-        puppeteer = (await import('puppeteer')).default;
-    } catch (err) {
-        console.error('\n  Puppeteer not available. Cannot capture slides.');
-        console.error('  Make sure pre-captured images exist in images/captured/');
-        console.error('  Or install Chrome: npx puppeteer browsers install chrome');
-        process.exit(1);
-    }
-
-    const slidesHtml = path.resolve(ROOT, 'slides', 'all-slides.html');
-    const outputDir = path.resolve(ROOT, 'images', 'captured');
-
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
-    }
-
-    console.log('\n STEP 1: Capturing slides from HTML (Puppeteer)');
-    console.log('-'.repeat(50));
-
-    const browser = await puppeteer.launch({
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
-
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1200, height: 900, deviceScaleFactor: 2 });
-
-    await page.goto(`file:///${slidesHtml.replace(/\\/g, '/')}`, {
-        waitUntil: 'networkidle0',
-        timeout: 30000,
-    });
-
-    await page.evaluate(() => document.fonts.ready);
-    await sleep(2000);
-
-    const slideElements = await page.$$('.slide');
-    console.log(`  Found ${slideElements.length} slides.\n`);
-
-    const capturedByPost = {};
-
-    for (let i = 0; i < slideElements.length; i++) {
-        const slide = slideElements[i];
-        const slideId = await slide.evaluate(el => el.id);
-
-        const match = slideId.match(/p(\d+)s(\d+)/);
-        if (!match) continue;
-
-        const postNum = parseInt(match[1]);
-        const slideNum = parseInt(match[2]);
-        const filename = `post${postNum}_slide${slideNum}.png`;
-        const outputPath = path.resolve(outputDir, filename);
-
-        await slide.screenshot({ path: outputPath, type: 'png' });
-
-        if (!capturedByPost[postNum]) capturedByPost[postNum] = [];
-        capturedByPost[postNum].push({
-            slideNum,
-            filename,
-            absolutePath: outputPath,
-            relativePath: `images/captured/${filename}`,
-        });
-
-        console.log(`  OK Post ${postNum}, Slide ${slideNum} -> ${filename}`);
-    }
-
-    await browser.close();
-
-    for (const key of Object.keys(capturedByPost)) {
-        capturedByPost[key].sort((a, b) => a.slideNum - b.slideNum);
-    }
-
-    console.log(`\n  Captured ${slideElements.length} slides total.\n`);
-    return capturedByPost;
+    const totalSlides = Object.values(imagesByPost).flat().length;
+    console.log(`\n  📊 ${totalSlides} image URLs ready.\n`);
+    return imagesByPost;
 }
 
 // ========================
-// STEP 2: UPLOAD TO IMGBB
+// STEP 2: POST CAROUSELS
 // ========================
-async function uploadAllSlides(capturedByPost, dryRun = false, onlyPostIndex = null) {
-    console.log('\n☁️  STEP 2: Uploading slides to ImgBB');
-    console.log('━'.repeat(50));
-
-    const uploadedByPost = {};
-
-    for (const [postNum, slides] of Object.entries(capturedByPost)) {
-        // Skip posts we won't be posting (optimization for single-post mode)
-        if (onlyPostIndex !== null && parseInt(postNum) !== onlyPostIndex) continue;
-
-        uploadedByPost[postNum] = [];
-        console.log(`\n  📤 Post ${postNum}: ${slides.length} slides`);
-
-        for (const slide of slides) {
-            if (dryRun) {
-                const fakeUrl = `https://i.ibb.co/fake/post${postNum}_slide${slide.slideNum}.png`;
-                uploadedByPost[postNum].push(fakeUrl);
-                console.log(`    🧪 Slide ${slide.slideNum}: [DRY RUN] ${fakeUrl}`);
-            } else {
-                try {
-                    const url = await uploadImage(slide.absolutePath);
-                    uploadedByPost[postNum].push(url);
-                    console.log(`    ✅ Slide ${slide.slideNum}: ${url}`);
-                    await sleep(500); // Respect rate limits
-                } catch (err) {
-                    console.error(`    ❌ Slide ${slide.slideNum} failed: ${err.message}`);
-                    uploadedByPost[postNum].push(null);
-                }
-            }
-        }
-    }
-
-    console.log('\n  ☁️  All uploads complete.\n');
-    return uploadedByPost;
-}
-
-// ========================
-// STEP 3: POST CAROUSELS
-// ========================
-async function postAllCarousels(uploadedByPost, content, igAccountId, dryRun = false, onlyPostIndex = null) {
-    console.log('\n🚀 STEP 3: Posting carousels to Instagram');
+async function postAllCarousels(imagesByPost, content, igAccountId, dryRun = false, onlyPostIndex = null) {
+    console.log('\n🚀 STEP 2: Posting carousels to Instagram');
     console.log('━'.repeat(50));
 
     const posts = content.posts;
-    const spacingMs = config.posting.spacingMs;
 
     for (let i = 0; i < posts.length; i++) {
         const post = posts[i];
@@ -211,15 +93,17 @@ async function postAllCarousels(uploadedByPost, content, igAccountId, dryRun = f
         // Skip if only posting a specific index
         if (onlyPostIndex !== null && postNum !== onlyPostIndex) continue;
 
-        const imageUrls = uploadedByPost[postNum];
-        if (!imageUrls || imageUrls.length === 0) {
+        const postImages = imagesByPost[postNum];
+        if (!postImages || postImages.length === 0) {
             console.log(`\n  ⚠️  Post ${postNum}: No images, skipping.`);
             continue;
         }
 
+        const imageUrls = postImages.map(img => img.url);
+
         console.log(`\n  ┌─────────────────────────────────────────┐`);
         console.log(`  │ POST ${postNum}: ${post.topic.padEnd(33)}│`);
-        console.log(`  │ Slides: ${imageUrls.filter(u => u).length}${' '.repeat(33)}│`);
+        console.log(`  │ Slides: ${imageUrls.length}${' '.repeat(33)}│`);
         console.log(`  └─────────────────────────────────────────┘`);
 
         try {
@@ -234,13 +118,13 @@ async function postAllCarousels(uploadedByPost, content, igAccountId, dryRun = f
             console.error(`  ❌ Post ${postNum} failed: ${err.message}`);
         }
 
-        // Wait between posts (unless it's dry run or the last post)
+        // Wait between posts (unless it's dry run or the last post or single post mode)
         if (!dryRun && i < posts.length - 1 && onlyPostIndex === null) {
+            const spacingMs = config.posting.spacingMs;
             const hours = spacingMs / 3600000;
             console.log(`\n  ⏳ Waiting ${hours} hours before next post...`);
             await sleep(spacingMs);
         }
-
     }
 }
 
@@ -256,9 +140,10 @@ async function main() {
     console.log('\n╔══════════════════════════════════════════════╗');
     console.log('║   📸 Instagram Carousel Auto-Publisher       ║');
     console.log('║   @dailyainewsone                            ║');
+    console.log('║   Using GitHub Raw URLs (no ImgBB)           ║');
     console.log('╚══════════════════════════════════════════════╝');
 
-    if (dryRun) console.log('\n  🧪 DRY RUN MODE — no actual uploads or posts.\n');
+    if (dryRun) console.log('\n  🧪 DRY RUN MODE — no actual posts.\n');
 
     // Validate config
     const configErrors = validateConfig();
@@ -284,35 +169,29 @@ async function main() {
     // Get IG Account ID
     const igAccountId = dryRun ? 'DRY_RUN_ID' : await getInstagramAccountId();
 
-    // Load content — auto-detect latest JSON file
-    const contentDir = path.resolve(ROOT, 'src', 'content');
+    // Load content — auto-detect latest JSON file from content/
+    const contentDir = path.resolve(ROOT, 'content');
     const jsonFiles = fs.readdirSync(contentDir)
         .filter(f => f.endsWith('.json'))
         .sort()
         .reverse();
 
     if (jsonFiles.length === 0) {
-        console.error('No content JSON files found in src/content/');
+        console.error('No content JSON files found in content/');
         process.exit(1);
     }
 
     const contentFile = jsonFiles[0];
     const contentPath = path.resolve(contentDir, contentFile);
     const content = JSON.parse(fs.readFileSync(contentPath, 'utf-8'));
-    console.log(`\nLoaded ${content.posts.length} posts from ${contentFile}`);
+    console.log(`\n📄 Loaded ${content.posts.length} posts from ${contentFile}`);
 
-    // STEP 1: Try pre-captured images first, fallback to Puppeteer
-    let capturedByPost = loadPreCapturedSlides();
-    if (!capturedByPost) {
-        console.log('  No pre-captured images found. Starting Puppeteer capture...');
-        capturedByPost = await captureAllSlides();
-    }
+    // STEP 1: Build GitHub raw image URLs (no uploads needed!)
+    const capturedDir = path.resolve(ROOT, 'images', 'captured');
+    const imagesByPost = buildGitHubImageUrls(capturedDir, onlyPostIndex);
 
-    // STEP 2: Upload (only images for target post when --post-index is set)
-    const uploadedByPost = await uploadAllSlides(capturedByPost, dryRun, onlyPostIndex);
-
-    // STEP 3: Post
-    await postAllCarousels(uploadedByPost, content, igAccountId, dryRun, onlyPostIndex);
+    // STEP 2: Post carousels
+    await postAllCarousels(imagesByPost, content, igAccountId, dryRun, onlyPostIndex);
 
     console.log('\n╔══════════════════════════════════════════════╗');
     console.log('║   ✅ Pipeline complete!                      ║');

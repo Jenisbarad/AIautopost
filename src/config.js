@@ -12,9 +12,8 @@ export const config = {
     graphApiBase: 'https://graph.instagram.com/v21.0',
     facebookGraphBase: 'https://graph.facebook.com/v21.0',
   },
-  imgbb: {
-    apiKey: process.env.IMGBB_API_KEY,
-    uploadUrl: 'https://api.imgbb.com/1/upload',
+  github: {
+    rawBaseUrl: 'https://raw.githubusercontent.com/Jenisbarad/AIautopost/main',
   },
   posting: {
     spacingMs: parseInt(process.env.POST_SPACING_MS || '10800000', 10), // 3 hours
@@ -26,19 +25,14 @@ export function validateConfig() {
   const errors = [];
 
   if (!config.instagram.accessToken || config.instagram.accessToken === 'PASTE_YOUR_TOKEN_HERE') {
-    errors.push(' INSTAGRAM_ACCESS_TOKEN is not set in .env');
-  }
-
-  if (!config.imgbb.apiKey) {
-    errors.push(' IMGBB_API_KEY is not set. Get a free key at https://api.imgbb.com/');
+    errors.push('INSTAGRAM_ACCESS_TOKEN is not set in .env');
   }
 
   if (errors.length > 0) {
-    console.log('\\n🔧 Configuration Issues:\\n');
+    console.log('\n🔧 Configuration Issues:\n');
     errors.forEach(e => console.log(`  ${e}`));
-    console.log('\\n📖 See .env file for setup instructions.\\n');
-    return false;
+    console.log('\n📖 See .env file for setup instructions.\n');
   }
 
-  return true;
+  return errors;
 }

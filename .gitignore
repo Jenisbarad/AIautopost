@@ -3,3 +3,4 @@ node_modules/
 images/*
 !images/captured/
 roadmap/
+carousel_content.md.resolved

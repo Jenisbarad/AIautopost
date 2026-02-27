@@ -11,7 +11,8 @@ async function main() {
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
     // Check config
-    if (!validateConfig()) {
+    const configErrors = validateConfig();
+    if (configErrors.length > 0) {
         process.exit(1);
     }
 

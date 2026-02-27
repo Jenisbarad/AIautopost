@@ -1,24 +1,23 @@
 {
   "name": "dailyainews-instagram-poster",
-  "version": "1.0.0",
-  "description": "Automated Instagram carousel poster for @dailyainewsone AI/ML news",
-  "main": "src/index.js",
+  "version": "2.0.0",
+  "description": "Fully autonomous Instagram carousel poster for @dailyainewsone — AI content + image generation + auto-posting",
+  "main": "src/post-carousels.js",
   "type": "module",
   "scripts": {
-    "post": "node src/index.js",
-    "dry-run": "node src/index.js --dry-run",
-    "test-token": "node src/test-token.js",
-    "post-single": "node src/index.js --post-index",
-    "capture": "node src/capture-slides.js",
-    "post-carousels": "node src/post-carousels.js",
-    "dry-run-carousels": "node src/post-carousels.js --dry-run"
+    "generate": "node src/generate-content.js",
+    "generate-slides": "node src/generate-slides.js",
+    "generate-images": "node src/generate-images.js",
+    "generate-all": "node src/generate-content.js && node src/generate-images.js",
+    "post": "node src/post-carousels.js",
+    "post-single": "node src/post-carousels.js --post-index",
+    "dry-run": "node src/post-carousels.js --dry-run",
+    "full-pipeline": "node src/generate-content.js && node src/generate-images.js && node src/post-carousels.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "dotenv": "^16.4.0",
-    "form-data": "^4.0.0",
-    "node-fetch": "^3.3.0"
-  },
-  "optionalDependencies": {
+    "node-fetch": "^3.3.0",
     "puppeteer": "^24.37.5"
   }
 }

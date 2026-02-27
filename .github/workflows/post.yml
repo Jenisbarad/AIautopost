@@ -1,6 +1,12 @@
 # ============================================================
-# Instagram Carousel Auto-Poster — GitHub Actions Workflow
+# Instagram Carousel Auto-Poster — Unified GitHub Actions Workflow
 # @dailyainewsone
+#
+# FULLY AUTONOMOUS PIPELINE:
+#   1. Generate content (Gemini AI)
+#   2. Generate slide images (Puppeteer)
+#   3. Commit new content + images back to repo
+#   4. Post carousel to Instagram using GitHub raw URLs
 #
 # SCHEDULE (IST → UTC):
 #   10:30 AM IST (05:00 UTC) → Post 1
@@ -9,10 +15,8 @@
 #    7:30 PM IST (14:00 UTC) → Post 4
 #   10:30 PM IST (17:00 UTC) → Post 5
 #
-# WHY 5 SEPARATE RUNS?
-#   GitHub Actions has a 6-hour job time limit.
-#   Posting 5 carousels with 3-hour spacing = 12 hours.
-#   Instead, we run 5 short jobs (each ~2 min), one per post.
+# Content + images are generated on the FIRST run (05:00 UTC).
+# Subsequent runs reuse today's content and only post the next carousel.
 # ============================================================
 
 name: Post Instagram Carousels
@@ -35,26 +39,32 @@ on:
         default: 'all'
         type: string
       dry_run:
-        description: 'Dry run mode (no actual posting)'
+        description: 'Dry run mode — generate content + images, show logs, but do NOT post'
         required: false
         default: false
         type: boolean
 
+# Allow the workflow to push commits back to the repo
+permissions:
+  contents: write
+
 jobs:
-  post-carousel:
+  auto-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     env:
       INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
       INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
-      IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       POST_SPACING_MS: ${{ secrets.POST_SPACING_MS || '10800000' }}
 
     steps:
       # ─── STEP 1: Checkout code ───
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # ─── STEP 2: Setup Node.js ───
       - name: Setup Node.js 18
@@ -63,15 +73,17 @@ jobs:
           node-version: 18
           cache: 'npm'
 
-      # ─── STEP 3: Install dependencies ───
+      # ─── STEP 3: Install dependencies (including Puppeteer) ───
       - name: Install dependencies
-        run: npm install --omit=optional
-        # --omit=optional skips Puppeteer (not needed on CI, we use pre-captured images)
+        run: npm install
 
-      # ─── STEP 4: Determine which post to publish ───
-      - name: Determine post index
+      # ─── STEP 4: Determine post index and date ───
+      - name: Determine post config
         id: post-config
         run: |
+          # Determine target date (IST = UTC+5:30)
+          TARGET_DATE=$(TZ='Asia/Kolkata' date '+%Y-%m-%d')
+
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             # Manual trigger — use user input
             POST_INDEX="${{ github.event.inputs.post_index }}"
@@ -92,20 +104,23 @@ jobs:
 
           echo "post_index=$POST_INDEX" >> $GITHUB_OUTPUT
           echo "dry_run=$DRY_RUN" >> $GITHUB_OUTPUT
+          echo "target_date=$TARGET_DATE" >> $GITHUB_OUTPUT
+
           echo "============================================"
-          echo "  Post Index: $POST_INDEX"
-          echo "  Dry Run:    $DRY_RUN"
-          echo "  Trigger:    ${{ github.event_name }}"
-          echo "  Time (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+          echo "  Target Date: $TARGET_DATE"
+          echo "  Post Index:  $POST_INDEX"
+          echo "  Dry Run:     $DRY_RUN"
+          echo "  Trigger:     ${{ github.event_name }}"
+          echo "  Time (UTC):  $(date -u '+%Y-%m-%d %H:%M:%S')"
           echo "============================================"
 
-      # ─── STEP 5: Verify configuration ───
+      # ─── STEP 5: Verify secrets ───
       - name: Verify secrets are set
         run: |
           MISSING=""
           if [ -z "$INSTAGRAM_ACCESS_TOKEN" ]; then MISSING="$MISSING INSTAGRAM_ACCESS_TOKEN"; fi
           if [ -z "$INSTAGRAM_ACCOUNT_ID" ]; then MISSING="$MISSING INSTAGRAM_ACCOUNT_ID"; fi
-          if [ -z "$IMGBB_API_KEY" ]; then MISSING="$MISSING IMGBB_API_KEY"; fi
+          if [ -z "$GEMINI_API_KEY" ]; then MISSING="$MISSING GEMINI_API_KEY"; fi
 
           if [ -n "$MISSING" ]; then
             echo "ERROR: Missing required secrets:$MISSING"
@@ -114,17 +129,47 @@ jobs:
           fi
           echo "All required secrets are configured."
 
-      # ─── STEP 6: Verify pre-captured images exist ───
-      - name: Check for pre-captured slide images
+      # ─── STEP 6: Generate content (if not already generated for today) ───
+      - name: Generate content for today
         run: |
-          if [ ! -d "images/captured" ] || [ -z "$(ls images/captured/*.png 2>/dev/null)" ]; then
-            echo "ERROR: No pre-captured images found in images/captured/"
-            echo "Run 'npm run capture' locally first, then commit the images."
-            exit 1
-          fi
-          echo "Found $(ls images/captured/*.png | wc -l) slide images."
+          TARGET_DATE="${{ steps.post-config.outputs.target_date }}"
+          CONTENT_FILE="content/${TARGET_DATE}.json"
 
-      # ─── STEP 7: Run the posting script ───
+          if [ -f "$CONTENT_FILE" ]; then
+            echo "✅ Content already exists: $CONTENT_FILE"
+            echo "  Skipping content generation."
+          else
+            echo "📝 Generating new content for: $TARGET_DATE"
+            node src/generate-content.js --date "$TARGET_DATE"
+          fi
+
+      # ─── STEP 7: Generate images (if not already captured) ───
+      - name: Generate slide images
+        run: |
+          TARGET_DATE="${{ steps.post-config.outputs.target_date }}"
+          CONTENT_FILE="content/${TARGET_DATE}.json"
+
+          # Count existing captured images
+          EXISTING_COUNT=$(ls images/captured/post*.png 2>/dev/null | wc -l || echo "0")
+
+          if [ "$EXISTING_COUNT" -ge 15 ]; then
+            echo "✅ Found $EXISTING_COUNT slide images — skipping regeneration."
+          else
+            echo "🖼️ Generating slide images..."
+            node src/generate-images.js --date "$TARGET_DATE"
+          fi
+
+      # ─── STEP 8: Commit new content + images back to repo ───
+      - name: Commit generated content and images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git commit -m "Auto: content + images for ${{ steps.post-config.outputs.target_date }} [skip ci]"
+          git push
+
+      # ─── STEP 9: Post carousel to Instagram ───
       - name: Post carousel to Instagram
         run: |
           POST_INDEX="${{ steps.post-config.outputs.post_index }}"
@@ -144,14 +189,16 @@ jobs:
           echo "─────────────────────────────────────"
           $CMD
 
-      # ─── STEP 8: Log result ───
+      # ─── STEP 10: Log result ───
       - name: Log completion
         if: always()
         run: |
           echo "============================================"
           echo "  Workflow:   ${{ github.workflow }}"
           echo "  Status:     ${{ job.status }}"
+          echo "  Date:       ${{ steps.post-config.outputs.target_date }}"
           echo "  Post Index: ${{ steps.post-config.outputs.post_index }}"
+          echo "  Dry Run:    ${{ steps.post-config.outputs.dry_run }}"
           echo "  Trigger:    ${{ github.event_name }}"
           echo "  Time (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
           echo "  Run ID:     ${{ github.run_id }}"

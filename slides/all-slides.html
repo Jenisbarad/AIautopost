@@ -1,694 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>All Slides</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background: #050810;
-            font-family: 'Inter', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40px;
-            gap: 60px;
-        }
-
-        .post-label {
-            font-size: 16px;
-            font-weight: 700;
-            color: #4d8dff;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            text-align: center;
-            margin-bottom: -30px;
-        }
-
-        .slide-row {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .slide {
-            width: 512px;
-            height: 512px;
-            position: relative;
-            overflow: hidden;
-            flex-shrink: 0;
-            background: linear-gradient(135deg, #080c18 0%, #0d1225 40%, #10162d 100%);
-        }
-
-        .grid {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image:
-                linear-gradient(rgba(77, 141, 255, 0.06) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(77, 141, 255, 0.06) 1px, transparent 1px);
-            background-size: 32px 32px;
-            z-index: 1;
-        }
-
-        .glow-border {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border: 1.5px solid rgba(77, 141, 255, 0.12);
-            z-index: 5;
-            pointer-events: none;
-        }
-
-        .glow-border::before {
-            content: '';
-            position: absolute;
-            top: -1px;
-            left: 15%;
-            right: 15%;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #4d8dff, #a855f7, transparent);
-            filter: blur(1px);
-        }
-
-        .glow-border::after {
-            content: '';
-            position: absolute;
-            bottom: -1px;
-            left: 15%;
-            right: 15%;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #a855f7, #4d8dff, transparent);
-            filter: blur(1px);
-        }
-
-        .glow-left {
-            position: absolute;
-            top: 15%;
-            bottom: 15%;
-            left: -1px;
-            width: 2px;
-            background: linear-gradient(180deg, transparent, #4d8dff, transparent);
-            filter: blur(1px);
-            z-index: 5;
-        }
-
-        .glow-right {
-            position: absolute;
-            top: 15%;
-            bottom: 15%;
-            right: -1px;
-            width: 2px;
-            background: linear-gradient(180deg, transparent, #a855f7, transparent);
-            filter: blur(1px);
-            z-index: 5;
-        }
-
-        .corner-tl {
-            position: absolute;
-            top: 16px;
-            left: 16px;
-            width: 48px;
-            height: 48px;
-            border-top: 1.5px solid rgba(77, 141, 255, 0.25);
-            border-left: 1.5px solid rgba(77, 141, 255, 0.25);
-            z-index: 4;
-        }
-
-        .corner-tl::after {
-            content: '';
-            position: absolute;
-            top: -3px;
-            left: -3px;
-            width: 6px;
-            height: 6px;
-            background: #4d8dff;
-            border-radius: 50%;
-            box-shadow: 0 0 10px #4d8dff;
-        }
-
-        .corner-br {
-            position: absolute;
-            bottom: 16px;
-            right: 16px;
-            width: 48px;
-            height: 48px;
-            border-bottom: 1.5px solid rgba(168, 85, 247, 0.25);
-            border-right: 1.5px solid rgba(168, 85, 247, 0.25);
-            z-index: 4;
-        }
-
-        .corner-br::after {
-            content: '';
-            position: absolute;
-            bottom: -3px;
-            right: -3px;
-            width: 6px;
-            height: 6px;
-            background: #a855f7;
-            border-radius: 50%;
-            box-shadow: 0 0 10px #a855f7;
-        }
-
-        .blob1 {
-            position: absolute;
-            width: 250px;
-            height: 250px;
-            background: radial-gradient(circle, rgba(77, 141, 255, 0.12) 0%, transparent 70%);
-            top: -80px;
-            right: -60px;
-            z-index: 1;
-        }
-
-        .blob2 {
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
-            bottom: -60px;
-            left: -40px;
-            z-index: 1;
-        }
-
-        .content {
-            position: relative;
-            z-index: 3;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 52px;
-        }
-
-        .bottom-bar {
-            position: absolute;
-            bottom: 20px;
-            left: 52px;
-            right: 52px;
-            display: flex;
-            justify-content: space-between;
-            z-index: 6;
-            font-size: 11px;
-            font-weight: 600;
-            color: rgba(148, 163, 184, 0.5);
-        }
-
-        /* Cover */
-        .content.cover {
-            text-align: center;
-            align-items: center;
-        }
-
-        .cover-icon {
-            margin-bottom: 24px;
-        }
-
-        .cover-icon svg {
-            width: 44px;
-            height: 44px;
-            filter: drop-shadow(0 0 14px rgba(77, 141, 255, 0.6));
-        }
-
-        .cover h1 {
-            font-size: 32px;
-            font-weight: 900;
-            line-height: 1.15;
-            letter-spacing: -0.5px;
-            color: #fff;
-            margin-bottom: 14px;
-        }
-
-        .cover h1 .g {
-            color: #4d8dff;
-            text-shadow: 0 0 25px rgba(77, 141, 255, 0.5);
-        }
-
-        .cover .sub {
-            font-size: 14px;
-            color: #94a3b8;
-        }
-
-        /* Body */
-        .content.body {
-            text-align: left;
-        }
-
-        .label {
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #4d8dff;
-            margin-bottom: 32px;
-        }
-
-        .label.purple {
-            color: #a855f7;
-        }
-
-        .text {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 2;
-            color: #cbd5e1;
-        }
-
-        /* Bullets */
-        .bullets {
-            text-align: left;
-        }
-
-        .bi {
-            font-size: 14px;
-            line-height: 1.5;
-            color: #cbd5e1;
-            margin-bottom: 18px;
-            padding-left: 22px;
-            position: relative;
-        }
-
-        .bi::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 6px;
-            width: 10px;
-            height: 10px;
-            background: #4d8dff;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(77, 141, 255, 0.6);
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid rgba(77, 141, 255, 0.1);
-            width: 400px;
-            margin: 20px 0;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Daily AI News Slides — 2026-02-27</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #050810;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 60px;
+  }
+  .post-label { font-size: 16px; font-weight: 700; color: #4d8dff; letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
+  .slide-row { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
+  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #080c18 0%, #0d1225 40%, #10162d 100%); }
+  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(77,141,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(77,141,255,0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
+  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(77,141,255,0.12); z-index: 5; pointer-events: none; }
+  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, #4d8dff, #a855f7, transparent); filter: blur(1px); }
+  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, #a855f7, #4d8dff, transparent); filter: blur(1px); }
+  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, #4d8dff, transparent); filter: blur(1px); z-index: 5; }
+  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, #a855f7, transparent); filter: blur(1px); z-index: 5; }
+  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(77,141,255,0.25); border-left: 1.5px solid rgba(77,141,255,0.25); z-index: 4; }
+  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px #4d8dff; }
+  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(168,85,247,0.25); border-right: 1.5px solid rgba(168,85,247,0.25); z-index: 4; }
+  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: #a855f7; border-radius: 50%; box-shadow: 0 0 10px #a855f7; }
+  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(77,141,255,0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
+  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
+  .content { position: relative; z-index: 3; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 52px; }
+  .bottom-bar { position: absolute; bottom: 20px; left: 52px; right: 52px; display: flex; justify-content: space-between; z-index: 6; font-size: 11px; font-weight: 600; color: rgba(148,163,184,0.5); }
+  .content.cover { text-align: center; align-items: center; }
+  .cover-icon { margin-bottom: 24px; }
+  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(77,141,255,0.6)); }
+  .cover h1 { font-size: 32px; font-weight: 900; line-height: 1.15; letter-spacing: -0.5px; color: #fff; margin-bottom: 14px; }
+  .cover h1 .g { color: #4d8dff; text-shadow: 0 0 25px rgba(77,141,255,0.5); }
+  .cover .sub { font-size: 14px; color: #94a3b8; }
+  .content.body { text-align: left; }
+  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #4d8dff; margin-bottom: 32px; }
+  .label.purple { color: #a855f7; }
+  .text { font-size: 16px; font-weight: 400; line-height: 2; color: #cbd5e1; }
+  .bullets { text-align: left; }
+  .bi { font-size: 14px; line-height: 1.5; color: #cbd5e1; margin-bottom: 18px; padding-left: 22px; position: relative; }
+  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px rgba(77,141,255,0.6); }
+  hr { border: none; border-top: 1px solid rgba(77,141,255,0.1); width: 400px; margin: 20px 0; }
+</style>
 </head>
-
 <body>
 
-    <!-- ========== POST 1: GEMINI ========== -->
-    <div class="post-label">POST 1 — GOOGLE GEMINI 3.1 PRO</div>
-    <div class="slide-row">
 
-        <div class="slide" id="p1s1">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content cover">
-                <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none">
-                        <circle cx="32" cy="32" r="20" stroke="#4d8dff" stroke-width="1.5" opacity="0.4" />
-                        <circle cx="32" cy="32" r="10" fill="#4d8dff" opacity="0.25" />
-                        <circle cx="32" cy="32" r="5" fill="#4d8dff" />
-                        <line x1="32" y1="6" x2="32" y2="16" stroke="#4d8dff" stroke-width="1.5" />
-                        <line x1="32" y1="48" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5" />
-                        <line x1="6" y1="32" x2="16" y2="32" stroke="#4d8dff" stroke-width="1.5" />
-                        <line x1="48" y1="32" x2="58" y2="32" stroke="#4d8dff" stroke-width="1.5" />
-                    </svg></div>
-                <h1>Google Just <span class="g">Doubled</span> Its AI Reasoning</h1>
-                <div class="sub">Gemini 3.1 Pro is live now.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
-        </div>
+<!-- ========== POST 1: AI UPDATES ========== -->
+<div class="post-label">POST 1 — AI UPDATES</div>
+<div class="slide-row">
 
-        <div class="slide" id="p1s2">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHAT HAPPENED</div>
-                <div class="text">Google released Gemini 3.1 Pro.<br><br>It scores 77% on ARC-AGI-2.<br><br>That is
-                    double the last version.<br><br>Available to everyone today.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
-        </div>
-
-        <div class="slide" id="p1s3">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHY IT MATTERS</div>
-                <div class="text">Better reasoning means AI can<br>solve harder, real-world problems.<br><br>This puts
-                    Google ahead in the<br>race to build smarter AI models.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
-        </div>
-
-        <div class="slide" id="p1s4">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label purple">KEY TAKEAWAYS</div>
-                <div class="bullets">
-                    <div class="bi">Reasoning score jumped from 38% to 77%</div>
-                    <div class="bi">Live on Gemini API, Vertex AI, and apps</div>
-                    <div class="bi">Direct challenge to GPT-5 and Claude 4</div>
-                </div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
-        </div>
+  <div class="slide" id="p1s1">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content cover">
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="20" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><circle cx="32" cy="32" r="10" fill="#4d8dff" opacity="0.25"/><circle cx="32" cy="32" r="5" fill="#4d8dff"/><line x1="32" y1="6" x2="32" y2="16" stroke="#4d8dff" stroke-width="1.5"/><line x1="32" y1="48" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5"/><line x1="6" y1="32" x2="16" y2="32" stroke="#4d8dff" stroke-width="1.5"/><line x1="48" y1="32" x2="58" y2="32" stroke="#4d8dff" stroke-width="1.5"/></svg></div>
+      <h1>AI <span class="g">Advancements</span></h1>
+      <div class="sub">Innovations in tech</div>
     </div>
-
-    <hr>
-
-    <!-- ========== POST 2: META ========== -->
-    <div class="post-label">POST 2 — META $135B AI BET</div>
-    <div class="slide-row">
-
-        <div class="slide" id="p2s1">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content cover">
-                <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none">
-                        <rect x="12" y="12" width="40" height="40" rx="4" stroke="#4d8dff" stroke-width="1.5"
-                            opacity="0.4" />
-                        <rect x="22" y="22" width="20" height="20" rx="2" fill="#4d8dff" opacity="0.25" />
-                        <rect x="28" y="28" width="8" height="8" rx="1" fill="#4d8dff" />
-                        <line x1="32" y1="4" x2="32" y2="12" stroke="#4d8dff" stroke-width="1.5" />
-                        <line x1="32" y1="52" x2="32" y2="60" stroke="#4d8dff" stroke-width="1.5" />
-                        <line x1="4" y1="32" x2="12" y2="32" stroke="#4d8dff" stroke-width="1.5" />
-                        <line x1="52" y1="32" x2="60" y2="32" stroke="#4d8dff" stroke-width="1.5" />
-                    </svg></div>
-                <h1>Meta Will Spend <span class="g">$135B</span> on AI This Year</h1>
-                <div class="sub">The largest AI investment in history.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
-        </div>
-
-        <div class="slide" id="p2s2">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHAT HAPPENED</div>
-                <div class="text">Meta announced $135 billion<br>in AI spending for 2026.<br><br>Building 30 new data
-                    centers.<br><br>Nvidia will supply next-gen GPUs.<br><br>Privacy computing comes to WhatsApp.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
-        </div>
-
-        <div class="slide" id="p2s3">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHY IT MATTERS</div>
-                <div class="text">This is not just software investment.<br><br>Meta is building the physical
-                    backbone<br>for a new kind of computing.<br><br>AI is becoming infrastructure,<br>not just tools.
-                </div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
-        </div>
-
-        <div class="slide" id="p2s4">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label purple">WHAT'S NEXT</div>
-                <div class="text">Meta is chasing<br>"personal superintelligence."<br><br>Expect AI that deeply
-                    understands<br>each user across all Meta platforms<br>by late 2026.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
-        </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
+  </div>
+  <div class="slide" id="p1s2">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHAT HAPPENED</div>
+      <div class="text">AI models improved<br><br>New algorithms developed</div>
     </div>
-
-    <hr>
-
-    <!-- ========== POST 3: CLAUDE ========== -->
-    <div class="post-label">POST 3 — CLAUDE CODE SECURITY</div>
-    <div class="slide-row">
-
-        <div class="slide" id="p3s1">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content cover">
-                <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none">
-                        <path d="M32 8L50 20V44L32 56L14 44V20L32 8Z" stroke="#4d8dff" stroke-width="1.5"
-                            opacity="0.4" />
-                        <path d="M32 18L42 24V36L32 42L22 36V24L32 18Z" fill="#4d8dff" opacity="0.25" />
-                        <path d="M32 26L36 28V34L32 36L28 34V28L32 26Z" fill="#4d8dff" />
-                    </svg></div>
-                <h1>Claude Now <span class="g">Catches Bugs</span> Your Tests Miss</h1>
-                <div class="sub">Anthropic launches Claude Code Security.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>1/3</span></div>
-        </div>
-
-        <div class="slide" id="p3s2">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHAT HAPPENED</div>
-                <div class="text">Anthropic released Claude Sonnet 4.6.<br><br>It includes a new Code Security
-                    tool.<br><br>It finds logic errors, not just typos.<br><br>These bugs slip past tests into
-                    production.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>2/3</span></div>
-        </div>
-
-        <div class="slide" id="p3s3">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHY IT MATTERS</div>
-                <div class="text">Logic bugs are the most expensive to fix.<br><br>They pass tests and only break in
-                    real use.<br><br>An AI that catches them early<br>could save companies millions.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
-        </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
+  </div>
+  <div class="slide" id="p1s3">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">Enhanced productivity<br><br>Better decision making</div>
     </div>
-
-    <hr>
-
-    <!-- ========== POST 4: THEORIZER ========== -->
-    <div class="post-label">POST 4 — AI2 THEORIZER</div>
-    <div class="slide-row">
-
-        <div class="slide" id="p4s1">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content cover">
-                <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none">
-                        <circle cx="32" cy="20" r="14" stroke="#4d8dff" stroke-width="1.5" opacity="0.4" />
-                        <circle cx="32" cy="20" r="7" fill="#4d8dff" opacity="0.25" />
-                        <circle cx="32" cy="20" r="3" fill="#4d8dff" />
-                        <line x1="24" y1="34" x2="18" y2="56" stroke="#4d8dff" stroke-width="1.5" opacity="0.5" />
-                        <line x1="40" y1="34" x2="46" y2="56" stroke="#4d8dff" stroke-width="1.5" opacity="0.5" />
-                        <line x1="32" y1="34" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5" />
-                    </svg></div>
-                <h1>This AI <span class="g">Reads Research</span> and Writes Theories</h1>
-                <div class="sub">Meet Theorizer by the Allen Institute.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>1/3</span></div>
-        </div>
-
-        <div class="slide" id="p4s2">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHAT HAPPENED</div>
-                <div class="text">AI2 built an AI called Theorizer.<br><br>It reads academic papers at
-                    scale.<br><br>Then writes testable scientific theories.<br><br>It achieved high precision in
-                    benchmarks.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>2/3</span></div>
-        </div>
-
-        <div class="slide" id="p4s3">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHY IT MATTERS</div>
-                <div class="text">Researchers spend years reviewing papers.<br><br>This tool compresses that into
-                    hours.<br><br>It spots patterns across thousands of studies<br>that humans would never connect.
-                </div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
-        </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
+  </div>
+  <div class="slide" id="p1s4">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label purple">KEY TAKEAWAYS</div>
+      <div class="bullets">
+        <div class="bi">AI growth continues</div>
+        <div class="bi">Investment increases</div>
+        <div class="bi">Job market shifts</div>
+      </div>
     </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
+  </div>
+</div>
 
-    <hr>
+<hr>
 
-    <!-- ========== POST 5: REGULATION ========== -->
-    <div class="post-label">POST 5 — AI REGULATION 2026</div>
-    <div class="slide-row">
+<!-- ========== POST 2: CYBER SECURITY ========== -->
+<div class="post-label">POST 2 — CYBER SECURITY</div>
+<div class="slide-row">
 
-        <div class="slide" id="p5s1">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content cover">
-                <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none">
-                        <path d="M32 6L10 20V48L32 58L54 48V20L32 6Z" stroke="#4d8dff" stroke-width="1.5"
-                            opacity="0.3" />
-                        <path d="M32 16L18 24V40L32 48L46 40V24L32 16Z" stroke="#4d8dff" stroke-width="1.5"
-                            opacity="0.5" />
-                        <rect x="26" y="24" width="12" height="14" rx="2" fill="#4d8dff" opacity="0.25" />
-                        <rect x="29" y="30" width="6" height="8" rx="1" fill="#4d8dff" />
-                    </svg></div>
-                <h1>2026 Is the Year AI Gets <span class="g">Regulated</span></h1>
-                <div class="sub">New laws are now enforceable worldwide.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
-        </div>
-
-        <div class="slide" id="p5s2">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHAT HAPPENED</div>
-                <div class="text">California's AI transparency law is active.<br><br>Colorado targets AI discrimination
-                    in June.<br><br>Illinois regulates AI in hiring decisions.<br><br>The EU AI Act enforces in August.
-                </div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
-        </div>
-
-        <div class="slide" id="p5s3">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label">WHY IT MATTERS</div>
-                <div class="text">The "build fast, regulate later" era is over.<br><br>Companies now face real legal
-                    consequences<br>for how they deploy AI systems.<br><br>Compliance is no longer optional.</div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
-        </div>
-
-        <div class="slide" id="p5s4">
-            <div class="grid"></div>
-            <div class="blob1"></div>
-            <div class="blob2"></div>
-            <div class="content body">
-                <div class="label purple">KEY TAKEAWAYS</div>
-                <div class="bullets">
-                    <div class="bi">Multiple US states have AI-specific laws</div>
-                    <div class="bi">EU AI Act hits full enforcement in August</div>
-                    <div class="bi">AI Compliance Officer may become a standard role</div>
-                </div>
-            </div>
-            <div class="glow-border"></div>
-            <div class="glow-left"></div>
-            <div class="glow-right"></div>
-            <div class="corner-tl"></div>
-            <div class="corner-br"></div>
-            <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
-        </div>
+  <div class="slide" id="p2s1">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content cover">
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6L10 20V48L32 58L54 48V20L32 6Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.3"/><path d="M32 16L18 24V40L32 48L46 40V24L32 16Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.5"/><rect x="26" y="24" width="12" height="14" rx="2" fill="#4d8dff" opacity="0.25"/><rect x="29" y="30" width="6" height="8" rx="1" fill="#4d8dff"/></svg></div>
+      <h1>Cyber <span class="g">Threats</span></h1>
+      <div class="sub">Rising concerns</div>
     </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/3</span></div>
+  </div>
+  <div class="slide" id="p2s2">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHAT HAPPENED</div>
+      <div class="text">Data breaches increased<br><br>Malware attacks rose</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/3</span></div>
+  </div>
+  <div class="slide" id="p2s3">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">Protect sensitive info<br><br>Prevent financial loss</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
+  </div>
+</div>
+
+<hr>
+
+<!-- ========== POST 3: QUANTUM COMPUTING ========== -->
+<div class="post-label">POST 3 — QUANTUM COMPUTING</div>
+<div class="slide-row">
+
+  <div class="slide" id="p3s1">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content cover">
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="32" rx="24" ry="10" stroke="#4d8dff" stroke-width="1.5" opacity="0.3" transform="rotate(0 32 32)"/><ellipse cx="32" cy="32" rx="24" ry="10" stroke="#4d8dff" stroke-width="1.5" opacity="0.3" transform="rotate(60 32 32)"/><ellipse cx="32" cy="32" rx="24" ry="10" stroke="#4d8dff" stroke-width="1.5" opacity="0.3" transform="rotate(120 32 32)"/><circle cx="32" cy="32" r="4" fill="#4d8dff"/></svg></div>
+      <h1>Quantum <span class="g">Breakthroughs</span></h1>
+      <div class="sub">New discoveries</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
+  </div>
+  <div class="slide" id="p3s2">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHAT HAPPENED</div>
+      <div class="text">Quantum processors developed<br><br>Faster computing achieved</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
+  </div>
+  <div class="slide" id="p3s3">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">Enhanced simulations<br><br>Advanced research potential</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
+  </div>
+  <div class="slide" id="p3s4">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label purple">KEY TAKEAWAYS</div>
+      <div class="bullets">
+        <div class="bi">Quantum computing grows</div>
+        <div class="bi">New applications emerge</div>
+        <div class="bi">Investment in research</div>
+      </div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
+  </div>
+</div>
+
+<hr>
+
+<!-- ========== POST 4: ROBOTICS NEWS ========== -->
+<div class="post-label">POST 4 — ROBOTICS NEWS</div>
+<div class="slide-row">
+
+  <div class="slide" id="p4s1">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content cover">
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 8C32 8 44 20 44 36C44 44 38 52 32 56C26 52 20 44 20 36C20 20 32 8 32 8Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><circle cx="32" cy="32" r="6" fill="#4d8dff" opacity="0.25"/><circle cx="32" cy="32" r="3" fill="#4d8dff"/></svg></div>
+      <h1>Robotics <span class="g">Advances</span></h1>
+      <div class="sub">Innovations in robotics</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/3</span></div>
+  </div>
+  <div class="slide" id="p4s2">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHAT HAPPENED</div>
+      <div class="text">New robotic systems developed<br><br>Autonomous robots improved</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/3</span></div>
+  </div>
+  <div class="slide" id="p4s3">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">Increased efficiency<br><br>Enhanced productivity</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
+  </div>
+</div>
+
+<hr>
+
+<!-- ========== POST 5: TECH TRENDS ========== -->
+<div class="post-label">POST 5 — TECH TRENDS</div>
+<div class="slide-row">
+
+  <div class="slide" id="p5s1">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content cover">
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="22" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><ellipse cx="32" cy="32" rx="12" ry="22" stroke="#4d8dff" stroke-width="1" opacity="0.3"/><line x1="10" y1="32" x2="54" y2="32" stroke="#4d8dff" stroke-width="1" opacity="0.3"/><circle cx="32" cy="32" r="8" fill="#4d8dff" opacity="0.2"/><circle cx="32" cy="32" r="3" fill="#4d8dff"/></svg></div>
+      <h1>Emerging <span class="g">Trends</span></h1>
+      <div class="sub">Latest tech trends</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
+  </div>
+  <div class="slide" id="p5s2">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHAT HAPPENED</div>
+      <div class="text">Cloud computing grew<br><br>IoT devices increased</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
+  </div>
+  <div class="slide" id="p5s3">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">Improved connectivity<br><br>Enhanced user experience</div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
+  </div>
+  <div class="slide" id="p5s4">
+    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
+    <div class="content body">
+      <div class="label purple">KEY TAKEAWAYS</div>
+      <div class="bullets">
+        <div class="bi">Tech trends evolve</div>
+        <div class="bi">New opportunities emerge</div>
+        <div class="bi">Investment in innovation</div>
+      </div>
+    </div>
+    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
+    <div class="corner-tl"></div><div class="corner-br"></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
+  </div>
+</div>
+
+<hr>
 
 </body>
-
 </html>

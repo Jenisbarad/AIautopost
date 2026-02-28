@@ -1,0 +1,31 @@
+{
+  "1": [
+    "images/captured/post1_slide1.png",
+    "images/captured/post1_slide2.png",
+    "images/captured/post1_slide3.png",
+    "images/captured/post1_slide4.png"
+  ],
+  "2": [
+    "images/captured/post2_slide1.png",
+    "images/captured/post2_slide2.png",
+    "images/captured/post2_slide3.png",
+    "images/captured/post2_slide4.png"
+  ],
+  "3": [
+    "images/captured/post3_slide1.png",
+    "images/captured/post3_slide2.png",
+    "images/captured/post3_slide3.png"
+  ],
+  "4": [
+    "images/captured/post4_slide1.png",
+    "images/captured/post4_slide2.png",
+    "images/captured/post4_slide3.png",
+    "images/captured/post4_slide4.png"
+  ],
+  "5": [
+    "images/captured/post5_slide1.png",
+    "images/captured/post5_slide2.png",
+    "images/captured/post5_slide3.png",
+    "images/captured/post5_slide4.png"
+  ]
+}

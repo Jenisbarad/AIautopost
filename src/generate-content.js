@@ -327,7 +327,7 @@ Now, for the final 5 topics, produce JSON in this shape:
       plus 2–4 entity-specific tags (e.g. #OpenAI #Llama3 #Gemini #IPO).
 
 FINAL CHECK BEFORE YOU RETURN JSON:
-- max 5 posts (for this pipeline, use exactly 5).
+- max 3 posts (for this pipeline, use exactly 3).
 - No duplicate topics.
 - Each post includes at least one real entity.
 - Each post includes at least one number.
@@ -779,9 +779,27 @@ async function generateContent(targetDate) {
     try {
         parsed = JSON.parse(responseText);
     } catch (err) {
-        console.error("❌ Failed to parse JSON.");
-        console.error(responseText.substring(0, 700));
-        process.exit(1);
+        // Try to recover from wrapping like ```json ... ``` or extra text
+        let cleaned = responseText.trim();
+        // Strip markdown fences
+        if (cleaned.startsWith("```")) {
+            cleaned = cleaned.replace(/^```[a-zA-Z]*\s*/,'');
+            const lastFence = cleaned.lastIndexOf("```");
+            if (lastFence !== -1) cleaned = cleaned.slice(0, lastFence);
+        }
+        // Take from first { to last }
+        const firstBrace = cleaned.indexOf("{");
+        const lastBrace = cleaned.lastIndexOf("}");
+        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+            cleaned = cleaned.slice(firstBrace, lastBrace + 1);
+        }
+        try {
+            parsed = JSON.parse(cleaned);
+        } catch (err2) {
+            console.error("❌ Failed to parse JSON, even after cleanup.");
+            console.error(cleaned.substring(0, 700));
+            process.exit(1);
+        }
     }
 
     let content;

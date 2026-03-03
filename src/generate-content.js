@@ -27,6 +27,39 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 
+// ============================================================
+// 🔥 SAFE JSON PARSER (FIX FOR GITHUB ACTIONS FAILURE)
+// ============================================================
+
+function safeJsonParse(text) {
+    if (!text || typeof text !== "string") {
+        throw new Error("Empty AI response");
+    }
+
+    let cleaned = text.trim();
+
+    // Remove markdown fences
+    if (cleaned.startsWith("```")) {
+        cleaned = cleaned.replace(/^```[a-zA-Z]*\s*/, "");
+        const lastFence = cleaned.lastIndexOf("```");
+        if (lastFence !== -1) {
+            cleaned = cleaned.slice(0, lastFence);
+        }
+    }
+
+    // Extract JSON object
+    const firstBrace = cleaned.indexOf("{");
+    const lastBrace = cleaned.lastIndexOf("}");
+
+    if (firstBrace === -1 || lastBrace === -1 || lastBrace <= firstBrace) {
+        throw new Error("No valid JSON object found");
+    }
+
+    cleaned = cleaned.slice(firstBrace, lastBrace + 1);
+
+    return JSON.parse(cleaned);
+}
+
 function envTrim(name) {
     const v = process.env[name];
     return typeof v === "string" ? v.trim() : "";
@@ -51,29 +84,17 @@ function parseYmd(dateStr) {
     return Number.isNaN(d.getTime()) ? null : d;
 }
 
-function hexToRgb(hex) {
-    const h = String(hex || "").replace("#", "").trim();
-    if (h.length !== 6) return null;
+function lighten(hex, amount = 0.3) {
+    const h = hex.replace("#", "");
     const r = parseInt(h.slice(0, 2), 16);
     const g = parseInt(h.slice(2, 4), 16);
     const b = parseInt(h.slice(4, 6), 16);
-    if ([r, g, b].some((x) => Number.isNaN(x))) return null;
-    return { r, g, b };
-}
-
-function rgbToHex({ r, g, b }) {
-    const to = (n) => Math.max(0, Math.min(255, Math.round(n))).toString(16).padStart(2, "0");
-    return `#${to(r)}${to(g)}${to(b)}`.toUpperCase();
-}
-
-function lighten(hex, amount = 0.3) {
-    const rgb = hexToRgb(hex);
-    if (!rgb) return hex;
-    return rgbToHex({
-        r: rgb.r + (255 - rgb.r) * amount,
-        g: rgb.g + (255 - rgb.g) * amount,
-        b: rgb.b + (255 - rgb.b) * amount,
-    });
+    const newR = Math.round(r + (255 - r) * amount);
+    const newG = Math.round(g + (255 - g) * amount);
+    const newB = Math.round(b + (255 - b) * amount);
+    return `#${newR.toString(16).padStart(2, "0")}${newG
+        .toString(16)
+        .padStart(2, "0")}${newB.toString(16).padStart(2, "0")}`.toUpperCase();
 }
 
 function themeForDate(targetDate) {
@@ -88,11 +109,11 @@ function themeForDate(targetDate) {
     ];
 
     const d = parseYmd(targetDate) || new Date();
-    const dayIndex = Math.floor(d.getTime() / (24 * 60 * 60 * 1000));
+    const dayIndex = Math.floor(d.getTime() / 86400000);
     const base = basePalette[Math.abs(dayIndex) % basePalette.length];
-    const accent = lighten(base, 0.45);
-    const text = "#E6E6E6";
-    return { backgroundHex: base, accentHex: accent, textHex: text };
+    return { backgroundHex: base,
+             accentHex: lighten(base, 0.45),
+             textHex: "#E6E6E6",};
 }
 
 // ==============================
@@ -703,7 +724,6 @@ async function coerceToExpected(responseText, parsedObj, targetDate, { theme, al
     const normalized = normalizeMaybe(parsedObj, targetDate);
     if (isExpectedContentShape(normalized)) return normalized;
 
-    // Second-pass repair: ask provider(s) to convert into the required schema.
     const inputJson = (() => {
         try {
             return JSON.stringify(normalized ?? parsedObj ?? responseText);
@@ -713,7 +733,10 @@ async function coerceToExpected(responseText, parsedObj, targetDate, { theme, al
     })();
 
     const clipped = inputJson.length > 20000 ? inputJson.slice(0, 20000) : inputJson;
-    const allowedUrlsBlock = Array.isArray(allowedUrls) && allowedUrls.length > 0 ? allowedUrls.join("\n") : "(none provided)";
+    const allowedUrlsBlock = Array.isArray(allowedUrls) && allowedUrls.length > 0
+        ? allowedUrls.join("\n")
+        : "(none provided)";
+
     const prompt = REPAIR_PROMPT
         .replace(/\{DATE\}/g, targetDate)
         .replace("{BACKGROUND_HEX}", theme?.backgroundHex || "#0B1F3B")
@@ -723,17 +746,23 @@ async function coerceToExpected(responseText, parsedObj, targetDate, { theme, al
         .replace("{INPUT_JSON}", clipped);
 
     const repairedText = await generateWithFallback(prompt);
+
     let repairedObj;
     try {
-        repairedObj = JSON.parse(repairedText);
-    } catch {
+        // ✅ USE SAFE PARSER HERE (CRITICAL FIX)
+        repairedObj = safeJsonParse(repairedText);
+    } catch (err) {
         throw new Error("Repair step returned non-JSON.");
     }
 
     const repairedNorm = normalizeMaybe(repairedObj, targetDate);
     if (isExpectedContentShape(repairedNorm)) return repairedNorm;
 
-    const keys = repairedNorm && typeof repairedNorm === "object" ? Object.keys(repairedNorm).join(", ") : typeof repairedNorm;
+    const keys =
+        repairedNorm && typeof repairedNorm === "object"
+            ? Object.keys(repairedNorm).join(", ")
+            : typeof repairedNorm;
+
     throw new Error(`Invalid JSON structure after repair. Top-level: ${keys}`);
 }
 
@@ -773,30 +802,13 @@ async function generateContent(targetDate) {
 
     // Parse + coerce into the exact schema our slide renderer needs
     let parsed;
+
     try {
-        parsed = JSON.parse(responseText);
+        parsed = safeJsonParse(responseText);
     } catch (err) {
-        // Try to recover from wrapping like ```json ... ``` or extra text
-        let cleaned = responseText.trim();
-        // Strip markdown fences
-        if (cleaned.startsWith("```")) {
-            cleaned = cleaned.replace(/^```[a-zA-Z]*\s*/,'');
-            const lastFence = cleaned.lastIndexOf("```");
-            if (lastFence !== -1) cleaned = cleaned.slice(0, lastFence);
-        }
-        // Take from first { to last }
-        const firstBrace = cleaned.indexOf("{");
-        const lastBrace = cleaned.lastIndexOf("}");
-        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-            cleaned = cleaned.slice(firstBrace, lastBrace + 1);
-        }
-        try {
-            parsed = JSON.parse(cleaned);
-        } catch (err2) {
-            console.error("❌ Failed to parse JSON, even after cleanup.");
-            console.error(cleaned.substring(0, 700));
-            process.exit(1);
-        }
+        console.error("❌ Failed to parse JSON.");
+        console.error(responseText.substring(0, 800));
+        process.exit(1);
     }
 
     let content;

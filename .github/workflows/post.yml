@@ -10,10 +10,8 @@
 #
 # SCHEDULE (IST → UTC):
 #   10:30 AM IST (05:00 UTC) → Post 1
-#    1:30 PM IST (08:00 UTC) → Post 2
-#    4:30 PM IST (11:00 UTC) → Post 3
-#    7:30 PM IST (14:00 UTC) → Post 4
-#   10:30 PM IST (17:00 UTC) → Post 5
+#    4:30 PM IST (11:00 UTC) → Post 2
+#   10:30 PM IST (17:00 UTC) → Post 3
 #
 # Content + images are generated on the FIRST run (05:00 UTC).
 # Subsequent runs reuse today's content and only post the next carousel.
@@ -25,16 +23,14 @@ on:
   # ─── SCHEDULED TRIGGERS (Daily at IST posting times) ───
   schedule:
     - cron: '0 5 * * *'     # Post 1 → 10:30 AM IST
-    - cron: '0 8 * * *'     # Post 2 →  1:30 PM IST
-    - cron: '0 11 * * *'    # Post 3 →  4:30 PM IST
-    - cron: '0 14 * * *'    # Post 4 →  7:30 PM IST
-    - cron: '0 17 * * *'    # Post 5 → 10:30 PM IST
+    - cron: '0 11 * * *'    # Post 2 →  4:30 PM IST
+    - cron: '0 17 * * *'    # Post 3 → 10:30 PM IST
 
   # ─── MANUAL TRIGGER (from GitHub UI) ───
   workflow_dispatch:
     inputs:
       post_index:
-        description: 'Which post to publish (1-5, or "all" for all posts)'
+        description: 'Which post to publish (1-3, or "all" for all posts)'
         required: true
         default: 'all'
         type: string
@@ -98,10 +94,8 @@ jobs:
             HOUR=$(date -u +%H)
             case $HOUR in
               05) POST_INDEX=1 ;;
-              08) POST_INDEX=2 ;;
-              11) POST_INDEX=3 ;;
-              14) POST_INDEX=4 ;;
-              17) POST_INDEX=5 ;;
+              11) POST_INDEX=2 ;;
+              17) POST_INDEX=3 ;;
               *)  POST_INDEX=1 ;;  # Default fallback
             esac
             DRY_RUN="false"
@@ -152,7 +146,7 @@ jobs:
           if [ -f "$CONTENT_FILE" ]; then
             echo "✅ Content file exists: $CONTENT_FILE"
             echo "  Validating schema..."
-            node -e "const fs=require('fs');const p=process.argv[1];const j=JSON.parse(fs.readFileSync(p,'utf8'));const ok=Array.isArray(j.posts)&&j.posts.length===5&&j.posts.every(x=>x&&x.slideContent&&x.slideContent.slide1&&x.slideContent.slide1.headline&&x.slideContent.slide2&&Array.isArray(x.slideContent.slide2.lines)&&x.slideContent.slide3&&Array.isArray(x.slideContent.slide3.lines)); if(!ok){console.error('Schema invalid (likely old format).'); process.exit(2)}" "$CONTENT_FILE" || {
+            node -e "const fs=require('fs');const p=process.argv[1];const j=JSON.parse(fs.readFileSync(p,'utf8'));const ok=Array.isArray(j.posts)&&j.posts.length===3&&j.posts.every(x=>x&&x.sourceUrl&&x.eventDate&&x.slideContent&&x.slideContent.slide1&&x.slideContent.slide1.headline&&x.slideContent.slide2&&Array.isArray(x.slideContent.slide2.lines)&&x.slideContent.slide3&&Array.isArray(x.slideContent.slide3.lines)); if(!ok){console.error('Schema invalid (likely old format).'); process.exit(2)}" "$CONTENT_FILE" || {
               echo "📝 Regenerating content (schema repair/upgrade) for: $TARGET_DATE"
               node src/generate-content.js --date "$TARGET_DATE"
             }
@@ -167,11 +161,12 @@ jobs:
           TARGET_DATE="${{ steps.post-config.outputs.target_date }}"
           CONTENT_FILE="content/${TARGET_DATE}.json"
 
-          # Count existing captured images
+          # Expected slides count from content file
+          EXPECTED_COUNT=$(node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));const posts=Array.isArray(j.posts)?j.posts:[];const n=posts.reduce((sum,p)=>sum+Number(p.slides||3),0);process.stdout.write(String(n));" "$CONTENT_FILE")
           EXISTING_COUNT=$(ls "images/captured/${TARGET_DATE}"/post*.png 2>/dev/null | wc -l || echo "0")
 
-          if [ "$EXISTING_COUNT" -ge 15 ]; then
-            echo "✅ Found $EXISTING_COUNT slide images for ${TARGET_DATE} — skipping regeneration."
+          if [ "$EXISTING_COUNT" -ge "$EXPECTED_COUNT" ] && [ "$EXPECTED_COUNT" -gt 0 ]; then
+            echo "✅ Found $EXISTING_COUNT/$EXPECTED_COUNT slide images for ${TARGET_DATE} — skipping regeneration."
           else
             echo "🖼️ Generating slide images for ${TARGET_DATE}..."
             node src/generate-images.js --date "$TARGET_DATE"

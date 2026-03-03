@@ -66,6 +66,80 @@ function loadContent() {
 
 // ─── Step 1: Generate HTML slides (inline from generate-slides.js) ───
 function generateSlidesHTML(content) {
+    function hexToRgb(hex) {
+        const h = String(hex || '').replace('#', '').trim();
+        if (h.length !== 6) return null;
+        const r = parseInt(h.slice(0, 2), 16);
+        const g = parseInt(h.slice(2, 4), 16);
+        const b = parseInt(h.slice(4, 6), 16);
+        if ([r, g, b].some(n => Number.isNaN(n))) return null;
+        return { r, g, b };
+    }
+
+    function rgbToHex({ r, g, b }) {
+        const to = (n) => Math.max(0, Math.min(255, Math.round(n))).toString(16).padStart(2, '0');
+        return `#${to(r)}${to(g)}${to(b)}`.toUpperCase();
+    }
+
+    function lighten(hex, amount = 0.3) {
+        const rgb = hexToRgb(hex);
+        if (!rgb) return hex;
+        return rgbToHex({
+            r: rgb.r + (255 - rgb.r) * amount,
+            g: rgb.g + (255 - rgb.g) * amount,
+            b: rgb.b + (255 - rgb.b) * amount,
+        });
+    }
+
+    function themeForDate(dateStr) {
+        const basePalette = [
+            '#0B1F3B',
+            '#0B2F3B',
+            '#0B3B36',
+            '#0F3B2A',
+            '#1A1F3B',
+            '#1F1A3B',
+            '#0B223D',
+        ];
+        const d = dateStr ? new Date(`${dateStr}T00:00:00Z`) : new Date();
+        const dayIndex = Math.floor(d.getTime() / (24 * 60 * 60 * 1000));
+        const base = basePalette[Math.abs(dayIndex) % basePalette.length];
+        const accent = lighten(base, 0.45);
+        const accent2 = lighten(base, 0.6);
+        const text = '#E6E6E6';
+        return { backgroundHex: base, accentHex: accent, accentHex2: accent2, textHex: text };
+    }
+
+    const theme = {
+        ...themeForDate(content.date),
+        backgroundHex: content.backgroundHex || themeForDate(content.date).backgroundHex,
+        accentHex: content.accentHex || themeForDate(content.date).accentHex,
+        textHex: content.textHex || themeForDate(content.date).textHex,
+    };
+    theme.accentHex2 = content.accentHex2 || lighten(theme.backgroundHex, 0.6);
+
+    const accentRgb = hexToRgb(theme.accentHex) || { r: 77, g: 141, b: 255 };
+    const accentRgbStr = `${accentRgb.r}, ${accentRgb.g}, ${accentRgb.b}`;
+
+    function escapeHtml(s) {
+        return String(s ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function highlightNumbers(escapedText) {
+        // Input must already be HTML-escaped
+        const re = /(\$?\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b|\$?\b\d+(?:\.\d+)?\b(?:\s?(?:%|bn|b|m|k))?)/gi;
+        return String(escapedText).replace(re, '<span class="num">$1</span>');
+    }
+
+    function formatLine(s) {
+        return highlightNumbers(escapeHtml(s));
+    }
+
     // SVG icon library
     const SVG_ICONS = {
         brain: '<svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="20" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><circle cx="32" cy="32" r="10" fill="#4d8dff" opacity="0.25"/><circle cx="32" cy="32" r="5" fill="#4d8dff"/><line x1="32" y1="6" x2="32" y2="16" stroke="#4d8dff" stroke-width="1.5"/><line x1="32" y1="48" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5"/><line x1="6" y1="32" x2="16" y2="32" stroke="#4d8dff" stroke-width="1.5"/><line x1="48" y1="32" x2="58" y2="32" stroke="#4d8dff" stroke-width="1.5"/></svg>',
@@ -105,7 +179,9 @@ function generateSlidesHTML(content) {
         const totalSlides = post.slides || (sc.slide4 ? 4 : 3);
         const icon = getIcon(post.svgIcon || 'brain');
         const glowWord = findGlowWord(sc.slide1.headline);
-        const headlineHtml = sc.slide1.headline.replace(glowWord, `<span class="g">${glowWord}</span>`);
+        const safeHeadline = escapeHtml(sc.slide1.headline);
+        const safeGlowWord = escapeHtml(glowWord);
+        const headlineHtml = safeHeadline.replace(safeGlowWord, `<span class="g">${safeGlowWord}</span>`);
 
         let slides = '';
 
@@ -116,7 +192,7 @@ function generateSlidesHTML(content) {
     <div class="content cover">
       <div class="cover-icon">${icon}</div>
       <h1>${headlineHtml}</h1>
-      <div class="sub">${sc.slide1.subtitle}</div>
+      <div class="sub">${formatLine(sc.slide1.subtitle)}</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -124,7 +200,7 @@ function generateSlidesHTML(content) {
   </div>`;
 
         // Slide 2
-        const s2lines = sc.slide2.lines.map(l => l).join('<br><br>');
+        const s2lines = sc.slide2.lines.map(formatLine).join('<br><br>');
         slides += `
   <div class="slide" id="p${postNum}s2">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -138,7 +214,7 @@ function generateSlidesHTML(content) {
   </div>`;
 
         // Slide 3
-        const s3lines = sc.slide3.lines.map(l => l).join('<br><br>');
+        const s3lines = sc.slide3.lines.map(formatLine).join('<br><br>');
         slides += `
   <div class="slide" id="p${postNum}s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -153,15 +229,21 @@ function generateSlidesHTML(content) {
 
         // Slide 4 (optional)
         if (totalSlides >= 4 && sc.slide4) {
-            const bulletsHtml = sc.slide4.bullets.map(b => `<div class="bi">${b}</div>`).join('\n        ');
+            const bullets = Array.isArray(sc.slide4.bullets) ? [...sc.slide4.bullets] : [];
+            let sourceLine = '';
+            if (bullets.length > 0 && String(bullets[bullets.length - 1]).trim().toLowerCase().startsWith('source:')) {
+                sourceLine = String(bullets.pop());
+            }
+            const bulletsHtml = bullets.map(b => `<div class="bi">${formatLine(b)}</div>`).join('\n        ');
             slides += `
   <div class="slide" id="p${postNum}s4">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
-      <div class="label purple">${sc.slide4.title.toUpperCase()}</div>
+      <div class="label alt">${escapeHtml(sc.slide4.title.toUpperCase())}</div>
       <div class="bullets">
         ${bulletsHtml}
       </div>
+      ${sourceLine ? `<div class="source">${formatLine(sourceLine)}</div>` : ''}
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -192,6 +274,13 @@ ${slideHtml}
 <title>Daily AI News Slides — ${content.date}</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
+  :root {
+    --bg: ${theme.backgroundHex};
+    --accent: ${theme.accentHex};
+    --accent2: ${theme.accentHex2};
+    --text: ${theme.textHex};
+    --accent-rgb: ${accentRgbStr};
+  }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #050810;
@@ -202,37 +291,39 @@ ${slideHtml}
     padding: 40px;
     gap: 60px;
   }
-  .post-label { font-size: 16px; font-weight: 700; color: #4d8dff; letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
+  .post-label { font-size: 16px; font-weight: 700; color: var(--accent); letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
   .slide-row { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
-  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #080c18 0%, #0d1225 40%, #10162d 100%); }
-  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(77,141,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(77,141,255,0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
-  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(77,141,255,0.12); z-index: 5; pointer-events: none; }
-  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, #4d8dff, #a855f7, transparent); filter: blur(1px); }
-  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, #a855f7, #4d8dff, transparent); filter: blur(1px); }
-  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, #4d8dff, transparent); filter: blur(1px); z-index: 5; }
-  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, #a855f7, transparent); filter: blur(1px); z-index: 5; }
-  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(77,141,255,0.25); border-left: 1.5px solid rgba(77,141,255,0.25); z-index: 4; }
-  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px #4d8dff; }
-  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(168,85,247,0.25); border-right: 1.5px solid rgba(168,85,247,0.25); z-index: 4; }
-  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: #a855f7; border-radius: 50%; box-shadow: 0 0 10px #a855f7; }
-  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(77,141,255,0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
-  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
+  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #050810 0%, var(--bg) 55%, #050810 100%); }
+  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(var(--accent-rgb),0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--accent-rgb),0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
+  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(var(--accent-rgb),0.14); z-index: 5; pointer-events: none; }
+  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), transparent); filter: blur(1px); }
+  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent2), var(--accent), transparent); filter: blur(1px); }
+  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent), transparent); filter: blur(1px); z-index: 5; }
+  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent2), transparent); filter: blur(1px); z-index: 5; }
+  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(var(--accent-rgb),0.25); border-left: 1.5px solid rgba(var(--accent-rgb),0.25); z-index: 4; }
+  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.9); }
+  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(var(--accent-rgb),0.22); border-right: 1.5px solid rgba(var(--accent-rgb),0.22); z-index: 4; }
+  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: var(--accent2); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
+  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
+  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
   .content { position: relative; z-index: 3; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 52px; }
   .bottom-bar { position: absolute; bottom: 20px; left: 52px; right: 52px; display: flex; justify-content: space-between; z-index: 6; font-size: 11px; font-weight: 600; color: rgba(148,163,184,0.5); }
   .content.cover { text-align: center; align-items: center; }
   .cover-icon { margin-bottom: 24px; }
-  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(77,141,255,0.6)); }
+  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accent-rgb),0.55)); }
   .cover h1 { font-size: 32px; font-weight: 900; line-height: 1.15; letter-spacing: -0.5px; color: #fff; margin-bottom: 14px; }
-  .cover h1 .g { color: #4d8dff; text-shadow: 0 0 25px rgba(77,141,255,0.5); }
-  .cover .sub { font-size: 14px; color: #94a3b8; }
+  .cover h1 .g { color: var(--accent); text-shadow: 0 0 25px rgba(var(--accent-rgb),0.5); }
+  .cover .sub { font-size: 14px; color: var(--text); opacity: 0.8; }
   .content.body { text-align: left; }
-  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #4d8dff; margin-bottom: 26px; }
-  .label.purple { color: #a855f7; }
-  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: #cbd5e1; }
+  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 26px; }
+  .label.alt { color: var(--accent2); }
+  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: var(--text); opacity: 0.92; }
   .bullets { text-align: left; }
-  .bi { font-size: 13px; line-height: 1.45; color: #cbd5e1; margin-bottom: 14px; padding-left: 22px; position: relative; }
-  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px rgba(77,141,255,0.6); }
-  hr { border: none; border-top: 1px solid rgba(77,141,255,0.1); width: 400px; margin: 20px 0; }
+  .bi { font-size: 13px; line-height: 1.45; color: var(--text); opacity: 0.92; margin-bottom: 14px; padding-left: 22px; position: relative; }
+  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
+  .num { color: var(--accent); font-weight: 800; }
+  .source { position: absolute; left: 52px; right: 52px; bottom: 44px; font-size: 10px; color: var(--text); opacity: 0.75; }
+  hr { border: none; border-top: 1px solid rgba(var(--accent-rgb),0.14); width: 400px; margin: 20px 0; }
 </style>
 </head>
 <body>

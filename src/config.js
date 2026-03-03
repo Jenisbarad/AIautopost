@@ -17,7 +17,7 @@ export const config = {
   },
   posting: {
     spacingMs: parseInt(process.env.POST_SPACING_MS || '10800000', 10), // 3 hours
-    maxPostsPerDay: 5,
+    maxPostsPerDay: 3,
   },
 };
 

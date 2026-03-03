@@ -1,0 +1,127 @@
+{
+  "date": "2026-03-03",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's Record-Breaking Funding",
+          "subtitle": "A new era in AI development"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI unveiled $110B in funding on 27 Feb 2026",
+            "The funding round is one of the largest in history",
+            "It will be used to further develop AI technology",
+            "And expand its AWS partnership"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will accelerate AI innovation",
+            "And increase competition in the AI market",
+            "It will also lead to new job opportunities",
+            "And drive economic growth"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round is a significant milestone for OpenAI",
+            "It will enable the company to further develop its AI technology",
+            "And expand its partnerships with other companies",
+            "Source: Crunchbase News, Feb 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's record-breaking funding of $110B will accelerate AI innovation and drive economic growth. What do you think will be the most significant impact of this funding? #AI #Funding #Innovation #Growth #Technology #OpenAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZGRoM1Y2YUtoUG9wdGdfOGI3NFBteHBpSGtROG9xUkpneXJKT1lmSWVONVBPZ1BDb2pfMlZVUnByNkJoVjlENGhLZE9xd0dQcEJQcHUySHVqT203V2xLZTNoMFhldFktbFF2Vm5IekY2UTVyN2pxVld4a2RwcXdSekVSYjlKOElwU252ZThCWDhmc00?oc=5",
+      "sourceName": "Crunchbase News",
+      "sourceMonthYear": "Feb 2026",
+      "eventDate": "27 Feb 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Acquisition",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "RadNet's Strategic Acquisition",
+          "subtitle": "Expanding its AI radiology capabilities"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "RadNet acquired AI radiology tech company Gleamer for $270 million on 03 Mar 2026",
+            "The acquisition will expand RadNet's AI radiology capabilities",
+            "And improve its ability to diagnose and treat diseases",
+            "The deal is expected to close in the coming months"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition will enable RadNet to improve its AI radiology capabilities",
+            "And increase its competitiveness in the market",
+            "It will also lead to better patient outcomes",
+            "Source: Beijing Times, 03 Mar 2026"
+          ]
+        }
+      },
+      "caption": "RadNet's acquisition of Gleamer will expand its AI radiology capabilities and improve patient outcomes. What do you think about the growing trend of AI acquisitions in the healthcare industry? #AI #Acquisition #Healthcare #RadNet #Gleamer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRVcxX2NwbWtYVHlrQzlqZU5yVnZKaGM4SUJqbDRqQWZTM3huX21PRTRKcTJaT0JJWTN6SmxoVWZwM0xTZ3hfVjdneXBiYXAzWlBCemxpUTZObDlMRWxGQXRLMGxyY2g2TEJVUGtRa04xZXE0aEZRcVpFNkFrUFFpVWhmRjJlUVdXajZzZ29lR2cyeUlNVk5jV3ZUYi16UHM4YXBBVVZIa01zRTVQQ3RBODF3Ylp2bXdCV3c?oc=5",
+      "sourceName": "Beijing Times",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "03 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "Rising AI Security Risks",
+          "subtitle": "A growing concern for companies"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Thales' 2026 Data Threat Report highlighted rising AI security risks on 26 Feb 2026",
+            "The report found that 75% of companies are concerned about AI security risks",
+            "And 60% of companies are investing in AI security measures",
+            "The report also found that the average cost of an AI security breach is $1.4 million"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rising AI security risks are a growing concern for companies",
+            "And require immediate attention and investment",
+            "Companies must prioritize AI security to protect their data and systems",
+            "Source: Yahoo Finance, 26 Feb 2026"
+          ]
+        }
+      },
+      "caption": "The rising AI security risks are a growing concern for companies. What do you think companies can do to prioritize AI security and protect their data and systems? #AI #Security #Risks #Thales #DataThreatReport",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdHdQVERRWWlQa2RlWFlkYXNMNFpLNllpX05SQUh5OWFHampkNUdRVnZDQVBFQ19iUmpxNnFrY1hqVE1heDJ6LWFpeVJXMko3QU9RWHBNNXJQa1pGUDRraGZyeW95T2ZIdmltczREOHkxSGF0cmFjVG44Z1NQN2VqSGJ3VEM?oc=5",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "Feb 2026",
+      "eventDate": "26 Feb 2026"
+    }
+  ]
+}

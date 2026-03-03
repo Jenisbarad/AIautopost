@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Daily AI News Slides — 2026-03-02</title>
+<title>Daily AI News Slides — 2026-03-03</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
+  :root {
+    --bg: #1F1A3B;
+    --accent: #848193;
+    --accent2: #A5A3B1;
+    --text: #E6E6E6;
+    --accent-rgb: 132, 129, 147;
+  }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #050810;
@@ -15,52 +22,54 @@
     padding: 40px;
     gap: 60px;
   }
-  .post-label { font-size: 16px; font-weight: 700; color: #4d8dff; letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
+  .post-label { font-size: 16px; font-weight: 700; color: var(--accent); letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
   .slide-row { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
-  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #080c18 0%, #0d1225 40%, #10162d 100%); }
-  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(77,141,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(77,141,255,0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
-  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(77,141,255,0.12); z-index: 5; pointer-events: none; }
-  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, #4d8dff, #a855f7, transparent); filter: blur(1px); }
-  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, #a855f7, #4d8dff, transparent); filter: blur(1px); }
-  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, #4d8dff, transparent); filter: blur(1px); z-index: 5; }
-  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, #a855f7, transparent); filter: blur(1px); z-index: 5; }
-  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(77,141,255,0.25); border-left: 1.5px solid rgba(77,141,255,0.25); z-index: 4; }
-  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px #4d8dff; }
-  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(168,85,247,0.25); border-right: 1.5px solid rgba(168,85,247,0.25); z-index: 4; }
-  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: #a855f7; border-radius: 50%; box-shadow: 0 0 10px #a855f7; }
-  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(77,141,255,0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
-  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
+  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #050810 0%, var(--bg) 55%, #050810 100%); }
+  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(var(--accent-rgb),0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--accent-rgb),0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
+  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(var(--accent-rgb),0.14); z-index: 5; pointer-events: none; }
+  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), transparent); filter: blur(1px); }
+  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent2), var(--accent), transparent); filter: blur(1px); }
+  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent), transparent); filter: blur(1px); z-index: 5; }
+  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent2), transparent); filter: blur(1px); z-index: 5; }
+  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(var(--accent-rgb),0.25); border-left: 1.5px solid rgba(var(--accent-rgb),0.25); z-index: 4; }
+  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.9); }
+  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(var(--accent-rgb),0.22); border-right: 1.5px solid rgba(var(--accent-rgb),0.22); z-index: 4; }
+  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: var(--accent2); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
+  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
+  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
   .content { position: relative; z-index: 3; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 52px; }
   .bottom-bar { position: absolute; bottom: 20px; left: 52px; right: 52px; display: flex; justify-content: space-between; z-index: 6; font-size: 11px; font-weight: 600; color: rgba(148,163,184,0.5); }
   .content.cover { text-align: center; align-items: center; }
   .cover-icon { margin-bottom: 24px; }
-  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(77,141,255,0.6)); }
+  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accent-rgb),0.55)); }
   .cover h1 { font-size: 32px; font-weight: 900; line-height: 1.15; letter-spacing: -0.5px; color: #fff; margin-bottom: 14px; }
-  .cover h1 .g { color: #4d8dff; text-shadow: 0 0 25px rgba(77,141,255,0.5); }
-  .cover .sub { font-size: 14px; color: #94a3b8; }
+  .cover h1 .g { color: var(--accent); text-shadow: 0 0 25px rgba(var(--accent-rgb),0.5); }
+  .cover .sub { font-size: 14px; color: var(--text); opacity: 0.8; }
   .content.body { text-align: left; }
-  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #4d8dff; margin-bottom: 26px; }
-  .label.purple { color: #a855f7; }
-  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: #cbd5e1; }
+  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 26px; }
+  .label.alt { color: var(--accent2); }
+  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: var(--text); opacity: 0.92; }
   .bullets { text-align: left; }
-  .bi { font-size: 13px; line-height: 1.45; color: #cbd5e1; margin-bottom: 14px; padding-left: 22px; position: relative; }
-  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: #4d8dff; border-radius: 50%; box-shadow: 0 0 10px rgba(77,141,255,0.6); }
-  hr { border: none; border-top: 1px solid rgba(77,141,255,0.1); width: 400px; margin: 20px 0; }
+  .bi { font-size: 13px; line-height: 1.45; color: var(--text); opacity: 0.92; margin-bottom: 14px; padding-left: 22px; position: relative; }
+  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
+  .num { color: var(--accent); font-weight: 800; }
+  .source { position: absolute; left: 52px; right: 52px; bottom: 44px; font-size: 10px; color: var(--text); opacity: 0.75; }
+  hr { border: none; border-top: 1px solid rgba(var(--accent-rgb),0.14); width: 400px; margin: 20px 0; }
 </style>
 </head>
 <body>
 
 
-<!-- ========== POST 1: GOOGLE AI UPDATE ========== -->
-<div class="post-label">POST 1 — GOOGLE AI UPDATE</div>
+<!-- ========== POST 1: AI FUNDING ========== -->
+<div class="post-label">POST 1 — AI FUNDING</div>
 <div class="slide-row">
 
   <div class="slide" id="p1s1">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content cover">
       <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="20" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><circle cx="32" cy="32" r="10" fill="#4d8dff" opacity="0.25"/><circle cx="32" cy="32" r="5" fill="#4d8dff"/><line x1="32" y1="6" x2="32" y2="16" stroke="#4d8dff" stroke-width="1.5"/><line x1="32" y1="48" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5"/><line x1="6" y1="32" x2="16" y2="32" stroke="#4d8dff" stroke-width="1.5"/><line x1="48" y1="32" x2="58" y2="32" stroke="#4d8dff" stroke-width="1.5"/></svg></div>
-      <h1>Google Unveils <span class="g">Breakthrough</span> AI Model</h1>
-      <div class="sub">Revolutionizing Natural Language Processing</div>
+      <h1>OpenAI&#39;s <span class="g">Record-Breaking</span> Funding</h1>
+      <div class="sub">A new era in AI development</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -70,7 +79,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Google announced its new AI model, achieving a 30% increase in accuracy over its predecessor<br><br>The model was trained on a dataset of 100 million examples, with 50% more parameters than the previous version<br><br>This breakthrough is expected to impact 20% of Google's search queries, enhancing user experience<br><br>The update is set to roll out globally, reaching 1 billion users within the next 6 months</div>
+      <div class="text">OpenAI unveiled $110B in funding on <span class="num">27</span> Feb <span class="num">2026</span><br><br>The funding round is one of the largest in history<br><br>It will be used to further develop AI technology<br><br>And expand its AWS partnership</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -80,7 +89,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHY IT MATTERS</div>
-      <div class="text">This update solidifies Google's position in the AI market, ahead of competitors like Microsoft and Amazon<br><br>Improved natural language processing will enhance user experience, leading to a potential 15% increase in user engagement<br><br>The updated model will also provide more accurate results, reducing the risk of misinformation by 25%<br><br>This development sets the stage for further innovations in AI, with potential applications in healthcare, finance, and education</div>
+      <div class="text">The funding will accelerate AI innovation<br><br>And increase competition in the AI market<br><br>It will also lead to new job opportunities<br><br>And drive economic growth</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -89,14 +98,13 @@
   <div class="slide" id="p1s4">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
-      <div class="label purple">INSIGHTS</div>
+      <div class="label alt">INSIGHTS</div>
       <div class="bullets">
-        <div class="bi">Google's AI model update demonstrates the company's commitment to innovation and user experience</div>
-        <div class="bi">The impact of this update will be felt across various industries, from search to healthcare</div>
-        <div class="bi">As AI continues to evolve, we can expect to see more breakthroughs in natural language processing</div>
-        <div class="bi">The future of AI holds immense promise, with potential applications in fields like robotics and autonomous vehicles</div>
-        <div class="bi">Investors and developers should keep a close eye on Google's AI developments, as they are likely to shape the future of the industry</div>
+        <div class="bi">The funding round is a significant milestone for OpenAI</div>
+        <div class="bi">It will enable the company to further develop its AI technology</div>
+        <div class="bi">And expand its partnerships with other companies</div>
       </div>
+      <div class="source">Source: Crunchbase News, Feb <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -106,146 +114,36 @@
 
 <hr>
 
-<!-- ========== POST 2: META LAYOFFS ========== -->
-<div class="post-label">POST 2 — META LAYOFFS</div>
+<!-- ========== POST 2: AI ACQUISITION ========== -->
+<div class="post-label">POST 2 — AI ACQUISITION</div>
 <div class="slide-row">
 
   <div class="slide" id="p2s1">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6L10 20V48L32 58L54 48V20L32 6Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><path d="M32 18L42 24V36L32 42L22 36V24L32 18Z" fill="#4d8dff" opacity="0.25"/><path d="M32 26L36 28V34L32 36L28 34V28L32 26Z" fill="#4d8dff"/></svg></div>
-      <h1>Meta Announces <span class="g">Major</span> Layoffs</h1>
-      <div class="sub">A Shift in Company Strategy</div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
-  </div>
-  <div class="slide" id="p2s2">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label">WHAT HAPPENED</div>
-      <div class="text">Meta announced a 20% reduction in workforce, affecting 12,000 employees globally<br><br>The layoffs are part of a broader effort to restructure the company and improve efficiency<br><br>Meta's CEO cited increased competition and a challenging economic environment as reasons for the layoffs<br><br>The company will provide severance packages and outplacement support to affected employees, totaling $1 billion</div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
-  </div>
-  <div class="slide" id="p2s3">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label">WHY IT MATTERS</div>
-      <div class="text">This move indicates a significant shift in Meta's strategy, prioritizing cost-cutting and efficiency<br><br>The layoffs will impact various departments, including engineering, marketing, and sales<br><br>Meta's decision may be a sign of a larger trend in the tech industry, with other companies potentially following suit<br><br>The layoffs will result in a $500 million reduction in operating expenses, improving Meta's bottom line</div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
-  </div>
-  <div class="slide" id="p2s4">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label purple">INSIGHTS</div>
-      <div class="bullets">
-        <div class="bi">Meta's layoffs demonstrate the challenges faced by tech companies in a rapidly changing market</div>
-        <div class="bi">The move may lead to increased scrutiny of Meta's business practices and leadership</div>
-        <div class="bi">As the tech industry continues to evolve, companies must adapt to changing circumstances and prioritize innovation</div>
-        <div class="bi">The impact of the layoffs will be felt across the industry, with potential ripple effects on the global economy</div>
-        <div class="bi">Investors and stakeholders should closely monitor Meta's progress and adjust their strategies accordingly</div>
-      </div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
-  </div>
-</div>
-
-<hr>
-
-<!-- ========== POST 3: OPENAI FUNDING ========== -->
-<div class="post-label">POST 3 — OPENAI FUNDING</div>
-<div class="slide-row">
-
-  <div class="slide" id="p3s1">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="22" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><ellipse cx="32" cy="32" rx="12" ry="22" stroke="#4d8dff" stroke-width="1" opacity="0.3"/><line x1="10" y1="32" x2="54" y2="32" stroke="#4d8dff" stroke-width="1" opacity="0.3"/><circle cx="32" cy="32" r="8" fill="#4d8dff" opacity="0.2"/><circle cx="32" cy="32" r="3" fill="#4d8dff"/></svg></div>
-      <h1>OpenAI Secures <span class="g">$1</span> Billion in Funding</h1>
-      <div class="sub">A Major Boost for AI Research</div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
-  </div>
-  <div class="slide" id="p3s2">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label">WHAT HAPPENED</div>
-      <div class="text">OpenAI announced a $1 billion funding round, led by Microsoft and other prominent investors<br><br>The funding will support the development of OpenAI's AI models, including its popular ChatGPT platform<br><br>The investment values OpenAI at $20 billion, a significant increase from its previous valuation<br><br>The funding round includes a $500 million equity investment and a $500 million debt facility</div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
-  </div>
-  <div class="slide" id="p3s3">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label">WHY IT MATTERS</div>
-      <div class="text">This funding round demonstrates the growing interest in AI research and development<br><br>OpenAI's AI models have the potential to revolutionize various industries, from customer service to education<br><br>The investment will enable OpenAI to expand its research team and explore new applications for its technology<br><br>The funding round is a significant vote of confidence in OpenAI's vision and leadership</div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
-  </div>
-  <div class="slide" id="p3s4">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label purple">INSIGHTS</div>
-      <div class="bullets">
-        <div class="bi">OpenAI's funding round highlights the importance of AI research and development in the tech industry</div>
-        <div class="bi">The investment will likely lead to significant advancements in AI capabilities and applications</div>
-        <div class="bi">As AI continues to evolve, we can expect to see more funding rounds and investments in AI research</div>
-        <div class="bi">The impact of OpenAI's AI models will be felt across various industries, from healthcare to finance</div>
-        <div class="bi">Investors and developers should keep a close eye on OpenAI's progress, as it is likely to shape the future of AI</div>
-      </div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
-  </div>
-</div>
-
-<hr>
-
-<!-- ========== POST 4: AMAZON SAAS LAUNCH ========== -->
-<div class="post-label">POST 4 — AMAZON SAAS LAUNCH</div>
-<div class="slide-row">
-
-  <div class="slide" id="p4s1">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><rect x="8" y="14" width="48" height="36" rx="4" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><text x="20" y="38" fill="#4d8dff" font-size="16" font-family="monospace" opacity="0.8">&lt;/&gt;</text></svg></div>
-      <h1>Amazon Launches New <span class="g">SaaS</span> Platform</h1>
-      <div class="sub">A Game-Changer for Businesses</div>
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><rect x="12" y="12" width="40" height="40" rx="4" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><rect x="22" y="22" width="20" height="20" rx="2" fill="#4d8dff" opacity="0.25"/><rect x="28" y="28" width="8" height="8" rx="1" fill="#4d8dff"/><line x1="32" y1="4" x2="32" y2="12" stroke="#4d8dff" stroke-width="1.5"/><line x1="32" y1="52" x2="32" y2="60" stroke="#4d8dff" stroke-width="1.5"/><line x1="4" y1="32" x2="12" y2="32" stroke="#4d8dff" stroke-width="1.5"/><line x1="52" y1="32" x2="60" y2="32" stroke="#4d8dff" stroke-width="1.5"/></svg></div>
+      <h1>RadNet&#39;s <span class="g">Strategic</span> Acquisition</h1>
+      <div class="sub">Expanding its AI radiology capabilities</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>1/3</span></div>
   </div>
-  <div class="slide" id="p4s2">
+  <div class="slide" id="p2s2">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Amazon announced the launch of its new SaaS platform, designed to help businesses streamline operations<br><br>The platform offers a range of tools and services, including AI-powered analytics and automation<br><br>The platform is expected to generate $500 million in revenue in its first year, with a growth rate of 20% per annum<br><br>Amazon's SaaS platform will compete with established players like Microsoft and Salesforce</div>
+      <div class="text">RadNet acquired AI radiology tech company Gleamer for <span class="num">$270 m</span>illion on <span class="num">03 M</span>ar <span class="num">2026</span><br><br>The acquisition will expand RadNet&#<span class="num">39</span>;s AI radiology capabilities<br><br>And improve its ability to diagnose and treat diseases<br><br>The deal is expected to close in the coming months</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>2/3</span></div>
   </div>
-  <div class="slide" id="p4s3">
+  <div class="slide" id="p2s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHY IT MATTERS</div>
-      <div class="text">This launch demonstrates Amazon's commitment to innovation and customer satisfaction<br><br>The SaaS platform has the potential to disrupt the market, offering businesses a more efficient and cost-effective solution<br><br>The platform's AI-powered analytics and automation capabilities will enable businesses to make data-driven decisions<br><br>The launch is a significant milestone in Amazon's expansion into the SaaS market, with potential for further growth and development</div>
+      <div class="text">The acquisition will enable RadNet to improve its AI radiology capabilities<br><br>And increase its competitiveness in the market<br><br>It will also lead to better patient outcomes<br><br>Source: Beijing Times, <span class="num">03 M</span>ar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -255,56 +153,40 @@
 
 <hr>
 
-<!-- ========== POST 5: TESLA CYBERSECURITY ========== -->
-<div class="post-label">POST 5 — TESLA CYBERSECURITY</div>
+<!-- ========== POST 3: AI SECURITY ========== -->
+<div class="post-label">POST 3 — AI SECURITY</div>
 <div class="slide-row">
 
-  <div class="slide" id="p5s1">
+  <div class="slide" id="p3s1">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6L10 20V48L32 58L54 48V20L32 6Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.3"/><path d="M32 16L18 24V40L32 48L46 40V24L32 16Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.5"/><rect x="26" y="24" width="12" height="14" rx="2" fill="#4d8dff" opacity="0.25"/><rect x="29" y="30" width="6" height="8" rx="1" fill="#4d8dff"/></svg></div>
-      <h1>Tesla Enhances <span class="g">Cybersecurity</span> Measures</h1>
-      <div class="sub">Protecting Customer Data</div>
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6L10 20V48L32 58L54 48V20L32 6Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><path d="M32 18L42 24V36L32 42L22 36V24L32 18Z" fill="#4d8dff" opacity="0.25"/><path d="M32 26L36 28V34L32 36L28 34V28L32 26Z" fill="#4d8dff"/></svg></div>
+      <h1>Rising AI <span class="g">Security</span> Risks</h1>
+      <div class="sub">A growing concern for companies</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/4</span></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>1/3</span></div>
   </div>
-  <div class="slide" id="p5s2">
+  <div class="slide" id="p3s2">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Tesla announced the implementation of enhanced cybersecurity measures to protect customer data<br><br>The measures include advanced encryption and secure authentication protocols<br><br>Tesla's cybersecurity team has been working to address potential vulnerabilities, with a 95% reduction in reported incidents<br><br>The company has invested $10 million in cybersecurity research and development, with a focus on AI-powered threat detection</div>
+      <div class="text">Thales&#<span class="num">39</span>; <span class="num">2026</span> Data Threat Report highlighted rising AI security risks on <span class="num">26</span> Feb <span class="num">2026</span><br><br>The report found that <span class="num">75%</span> of companies are concerned about AI security risks<br><br>And <span class="num">60%</span> of companies are investing in AI security measures<br><br>The report also found that the average cost of an AI security breach is <span class="num">$1.4 m</span>illion</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/4</span></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>2/3</span></div>
   </div>
-  <div class="slide" id="p5s3">
+  <div class="slide" id="p3s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHY IT MATTERS</div>
-      <div class="text">This move demonstrates Tesla's commitment to customer safety and security<br><br>The enhanced cybersecurity measures will provide customers with increased peace of mind<br><br>The investment in cybersecurity research and development will enable Tesla to stay ahead of potential threats<br><br>The company's focus on AI-powered threat detection will improve its ability to respond to emerging threats</div>
+      <div class="text">The rising AI security risks are a growing concern for companies<br><br>And require immediate attention and investment<br><br>Companies must prioritize AI security to protect their data and systems<br><br>Source: Yahoo Finance, <span class="num">26</span> Feb <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/4</span></div>
-  </div>
-  <div class="slide" id="p5s4">
-    <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
-    <div class="content body">
-      <div class="label purple">INSIGHTS</div>
-      <div class="bullets">
-        <div class="bi">Tesla's enhanced cybersecurity measures are a significant step forward in protecting customer data</div>
-        <div class="bi">The investment in cybersecurity research and development will have a lasting impact on the company's security posture</div>
-        <div class="bi">As the threat landscape continues to evolve, companies must prioritize cybersecurity and invest in advanced measures</div>
-        <div class="bi">The use of AI-powered threat detection will become increasingly important in the fight against cyber threats</div>
-        <div class="bi">Investors and customers should take note of Tesla's commitment to cybersecurity, as it is a key factor in the company's long-term success</div>
-      </div>
-    </div>
-    <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
-    <div class="corner-tl"></div><div class="corner-br"></div>
-    <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
+    <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
   </div>
 </div>
 

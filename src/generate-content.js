@@ -346,7 +346,9 @@ function buildContentPrompt({ targetDate, theme, items }) {
             const id = `N${idx + 1}`;
             const date = it.pubDate ? formatEventDate(it.pubDate) : "";
             const desc = String(it.description || "").slice(0, 220).replace(/\s+/g, " ").trim();
-            return `${id} | ${date} | ${it.source} | ${it.title}\nURL: ${it.link}\nSNIP: ${desc}`;
+            // IMPORTANT: Do not include long URLs in model output (prevents truncation/invalid JSON).
+            // The model must reference the source via this short id.
+            return `${id} | ${date} | ${it.source} | ${it.title}\nSNIP: ${desc}`;
         })
         .join("\n\n");
 
@@ -392,10 +394,7 @@ OUTPUT: Return ONLY valid JSON with this structure:
       "topic": "2–6 word short title",
       "slides": 3 or 4,
       "svgIcon": "brain|chip|shield|network|globe|code|atom|rocket|database|lock",
-      "eventDate": "DD Mon YYYY or Mon YYYY",
-      "sourceName": "Publication name",
-      "sourceMonthYear": "Mon YYYY",
-      "sourceUrl": "MUST exactly match one provided URL",
+      "sourceId": "One of N1..N25 (MUST match exactly)",
       "slideContent": {
         "slide1": { "headline": "hook", "subtitle": "context" },
         "slide2": { "title": "WHAT HAPPENED", "lines": ["...", "...", "...", "..."] },
@@ -409,8 +408,8 @@ OUTPUT: Return ONLY valid JSON with this structure:
 
 VALIDATION before you return:
 - Exactly 3 posts, ids 1..3
-- Each post uses a different sourceUrl
-- Each sourceUrl matches one of the URLs above
+- Each post uses a different sourceId
+- Each sourceId is one of N1..N25
 - Slide2 includes at least one REAL number
 - If slide4 exists, its last bullet must be the Source line
 `;
@@ -477,7 +476,7 @@ REQUIRED JSON shape (same as before):
   ]
 }
 
-Allowed sourceUrl values (must match exactly one of these):
+Allowed sourceId values (must match exactly one of these):
 {ALLOWED_URLS}
 
 Input JSON to convert:
@@ -669,10 +668,7 @@ function isExpectedContentShape(obj) {
         if (typeof p.id !== "number") return false;
         if (typeof p.topic !== "string") return false;
         if (typeof p.caption !== "string") return false;
-        if (typeof p.eventDate !== "string") return false;
-        if (typeof p.sourceName !== "string") return false;
-        if (typeof p.sourceMonthYear !== "string") return false;
-        if (typeof p.sourceUrl !== "string") return false;
+        if (typeof p.sourceId !== "string") return false;
         if (!p.slideContent || typeof p.slideContent !== "object") return false;
         const sc = p.slideContent;
         if (!sc.slide1?.headline || !sc.slide1?.subtitle) return false;
@@ -762,8 +758,9 @@ async function generateContent(targetDate) {
         process.exit(1);
     }
 
-    const allowedUrls = items.slice(0, 25).map((i) => i.link);
-    const prompt = buildContentPrompt({ targetDate, theme, items });
+    const topItems = items.slice(0, 25);
+    const allowedIds = topItems.map((_, idx) => `N${idx + 1}`);
+    const prompt = buildContentPrompt({ targetDate, theme, items: topItems });
 
     let responseText;
 
@@ -804,20 +801,45 @@ async function generateContent(targetDate) {
 
     let content;
     try {
-        content = await coerceToExpected(responseText, parsed, targetDate, { theme, allowedUrls });
+        content = await coerceToExpected(responseText, parsed, targetDate, { theme, allowedUrls: allowedIds });
     } catch (err) {
         console.error("❌ Invalid JSON structure.");
         console.error(String(err?.message || err));
         process.exit(1);
     }
 
-    // Enforce "real events only": every post must reference one of the fetched URLs
-    const allowedSet = new Set(allowedUrls);
-    const bad = (content.posts || []).filter((p) => !allowedSet.has(p.sourceUrl));
-    if (bad.length > 0) {
-        console.error("❌ Validation failed: one or more posts used a sourceUrl not in the fetched news list.");
-        bad.forEach((p) => console.error(`   - Post ${p.id}: ${p.sourceUrl}`));
-        process.exit(1);
+    // Enforce + fill grounded source fields based on sourceId
+    const allowedIdSet = new Set(allowedIds);
+    const byId = new Map(topItems.map((it, idx) => [`N${idx + 1}`, it]));
+
+    for (const p of content.posts || []) {
+        if (!allowedIdSet.has(p.sourceId)) {
+            console.error(`❌ Validation failed: Post ${p.id} has invalid sourceId: ${p.sourceId}`);
+            process.exit(1);
+        }
+        const it = byId.get(p.sourceId);
+        if (!it) {
+            console.error(`❌ Validation failed: sourceId not found in fetched items: ${p.sourceId}`);
+            process.exit(1);
+        }
+        const pub = it.pubDate instanceof Date ? it.pubDate : null;
+        const monthYear = pub ? pub.toLocaleString("en-US", { month: "short", year: "numeric" }) : "";
+        const eventDate = pub ? formatEventDate(pub) : monthYear;
+
+        p.sourceUrl = it.link;
+        p.sourceName = it.source || it.feed || "";
+        p.sourceMonthYear = monthYear;
+        p.eventDate = eventDate;
+
+        // Ensure visible source line in slide4 (if present)
+        if (p.slideContent?.slide4?.bullets && Array.isArray(p.slideContent.slide4.bullets)) {
+            const srcLine = `Source: ${p.sourceName}, ${p.sourceMonthYear}`.trim();
+            if (p.slideContent.slide4.bullets.length === 0) {
+                p.slideContent.slide4.bullets.push(srcLine);
+            } else {
+                p.slideContent.slide4.bullets[p.slideContent.slide4.bullets.length - 1] = srcLine;
+            }
+        }
     }
 
     // Save

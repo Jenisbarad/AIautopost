@@ -137,6 +137,13 @@ jobs:
           fi
           echo "All required secrets are configured."
 
+      # ─── DEBUG: Confirm workflow is running latest code ───
+      - name: Debug generator version
+        run: |
+          echo "GITHUB_SHA=${GITHUB_SHA}"
+          git rev-parse HEAD
+          node -e "const fs=require('fs'); const s=fs.readFileSync('src/generate-content.js','utf8'); console.log('has_cleanup_parser=', s.includes('even after cleanup')); console.log('uses_real_news_prompt=', s.includes('Prompt builder (REAL events only)'));"
+
       # ─── STEP 6: Generate content (if not already generated for today) ───
       - name: Generate content for today
         run: |

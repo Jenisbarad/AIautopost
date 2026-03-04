@@ -1,0 +1,136 @@
+{
+  "date": "2026-03-04",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Secures Massive Funding",
+          "subtitle": "A new era for AI development"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI received $110 billion in funding from tech powerhouses led by Amazon on 02 Mar 2026.",
+            "This investment will help accelerate AI research and development.",
+            "The funding is one of the largest in the tech industry.",
+            "It will have a significant impact on the future of AI."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help OpenAI expand its AI capabilities.",
+            "It will also enable the company to hire more talent and invest in new technologies.",
+            "The investment is a testament to the growing importance of AI in the tech industry.",
+            "It will have a significant impact on the future of tech."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding is a significant boost to the AI industry.",
+            "It will help drive innovation and growth in the sector.",
+            "The investment is a sign of the growing importance of AI in the tech industry.",
+            "Source: The Hindu, Mar 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has secured $110 billion in funding from tech powerhouses led by Amazon. This investment will help accelerate AI research and development. What do you think this means for the future of AI? #AI #Funding #Tech #Innovation #OpenAI #Amazon",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVkJWcjFXRFEwNU9SaWdKY1E4bHFHMmFtdV9PYlZSOGw0bnYyOFc4czF6Ym1sU2FsZWs2WWpJWmVuUFhYOGZBTy1WZXFzakx2eUJuTmNSRXJzVmtLYlVhT2luQzNiVkVtSWVaREhtSEsta0JLdEJiWko5d2VRNlA5bXZDRFFPRTM2VUhDNGQ5aDJvaHpNZ1JBV01ZamxEeTJoVnVILVJXQjQtempUX2tfT0pDWVVuZlFJSHN3SHA3ZklwMUVGQ0hkeUh4QzZ2ajU2cVphOFpyVGNQaWJNaXfSAeQBQVVfeXFMTlhYUll1MTMxUGo4c2IwSkpjZnktOTFwUHJ4Zmh6c05OS05Pd0VtUEs1Ung3UG9wUXcyQXhPSEpLcFpZVGtIOFhTTFBqWTYxblRsUFgtTmJZVTUxbV9TX1o4SEhqUEdQbUkwV0xvejN5ekdZMWlHTjVidHdsaEZoSWdFTWVHbGRXaUtMR2dhN21OWTgya0RoYUo0LUV6Vnd1MGh2T0dvVExFMVlYa2ROeXV3MS1vZTc1WjhONE8wa1FtNzhXQXFIanNjdWJIYmNFbTNFc1dnOXk4M2hXbzhKc3NHRXZy?oc=5",
+      "sourceName": "The Hindu",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "02 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "RadNet Acquires Gleamer",
+          "subtitle": "A significant move in the AI radiology space"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "RadNet acquired Gleamer, an AI radiology tech company, for $270 million on 03 Mar 2026.",
+            "The acquisition will help RadNet expand its AI capabilities in the radiology space.",
+            "Gleamer's technology will be integrated into RadNet's existing platform.",
+            "The acquisition will have a significant impact on the AI radiology industry."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition will help RadNet improve its AI capabilities in radiology.",
+            "It will also enable the company to provide more accurate diagnoses and improve patient outcomes.",
+            "The acquisition is a testament to the growing importance of AI in the healthcare industry.",
+            "It will have a significant impact on the future of healthcare."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant move in the AI radiology space.",
+            "It will help drive innovation and growth in the sector.",
+            "The acquisition is a sign of the growing importance of AI in the healthcare industry.",
+            "Source: Beijing Times, Mar 2026"
+          ]
+        }
+      },
+      "caption": "RadNet has acquired Gleamer, an AI radiology tech company, for $270 million. What do you think this means for the future of AI in healthcare? #AI #Acquisition #Healthcare #Radiology #RadNet #Gleamer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRVcxX2NwbWtYVHlrQzlqZU5yVnZKaGM4SUJqbDRqQWZTM3huX21PRTRKcTJaT0JJWTN6SmxoVWZwM0xTZ3hfVjdneXBiYXAzWlBCemxpUTZObDlMRWxGQXRLMGxyY2g2TEJVUGtRa04xZXE0aEZRcVpFNkFrUFFpVWhmRjJlUVdXajZzZ29lR2cyeUlNVk5jV3ZUYi16UHM4YXBBVVZIa01zRTVQQ3RBODF3Ylp2bXdCV3c?oc=5",
+      "sourceName": "Beijing Times",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "03 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Startup Funding",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Indian Startup Funding Jumps",
+          "subtitle": "A significant increase in funding for Indian startups"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Indian startup funding jumped 110% to $1.4 billion in February.",
+            "The increase in funding is a testament to the growing importance of Indian startups.",
+            "The funding will help drive innovation and growth in the sector.",
+            "It will have a significant impact on the future of the Indian startup ecosystem."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "lines": [
+            "The increase in funding is a significant boost to the Indian startup ecosystem.",
+            "It will help drive innovation and growth in the sector.",
+            "The funding is a sign of the growing importance of Indian startups in the global tech industry.",
+            "Source: Tech in Asia, 03 Mar 2026"
+          ]
+        }
+      },
+      "caption": "Indian startup funding jumped 110% to $1.4 billion in February. What do you think this means for the future of Indian startups? #AI #Startups #Funding #India #Innovation #Tech",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLXZCdU5IZjRZSDl1NWtCNl81SzFGc2taVFhaaGxNdXRBQ2hYcUVXNTItMTlPbjI5OUlnLS1jNU5NVUdfZzN1a0hmY1pKRzVKWFUwSzk4MVljQUxVYzI1WjNkVUExUjV6a0NRSURzNDdmZDFTN3M4S2w5cWkyZkF0RXk2cw?oc=5",
+      "sourceName": "Tech in Asia",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "03 Mar 2026"
+    }
+  ]
+}

@@ -207,6 +207,54 @@ function loadRecentPostMetadata({ targetDate, windowDays = 20 }) {
     return meta;
 }
 
+function cleanupOldContentFiles({ targetDate, keepDays = 20 }) {
+    const target = parseYmd(targetDate);
+    if (!target) return { deleted: 0, kept: 0 };
+
+    const contentDir = path.resolve(ROOT, "content");
+    if (!fs.existsSync(contentDir)) return { deleted: 0, kept: 0 };
+
+    const files = fs
+        .readdirSync(contentDir)
+        .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/i.test(f));
+
+    let deleted = 0;
+    let kept = 0;
+
+    for (const f of files) {
+        const dateStr = f.replace(/\.json$/i, "");
+        if (dateStr === targetDate) {
+            kept++;
+            continue;
+        }
+        const d = parseYmd(dateStr);
+        if (!d) {
+            kept++;
+            continue;
+        }
+        const ageDays = daysBetweenUtc(target, d);
+        // Keep only within last `keepDays` days; delete older OR future-dated artifacts.
+        const shouldDelete = !(ageDays >= 0 && ageDays <= keepDays);
+        if (!shouldDelete) {
+            kept++;
+            continue;
+        }
+
+        try {
+            fs.unlinkSync(path.resolve(contentDir, f));
+            deleted++;
+        } catch {
+            kept++;
+        }
+    }
+
+    if (deleted > 0) {
+        console.log(`🧹 Cleaned ${deleted} old content JSON file(s) (kept ${kept}).`);
+    }
+
+    return { deleted, kept };
+}
+
 // ==============================
 // Get Target Date
 // ==============================
@@ -869,6 +917,9 @@ async function generateContent(targetDate) {
     console.log("==============================================");
     console.log(`  Date: ${targetDate}`);
     console.log("  Multi-provider free fallback mode\n");
+
+    // Keep repo clean: content JSONs older than 20 days are removed automatically.
+    cleanupOldContentFiles({ targetDate, keepDays: 20 });
 
     const theme = themeForDate(targetDate);
 

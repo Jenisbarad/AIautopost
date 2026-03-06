@@ -13,7 +13,7 @@ export const config = {
     facebookGraphBase: 'https://graph.facebook.com/v21.0',
   },
   github: {
-    rawBaseUrl: 'https://cdn.jsdelivr.net/gh/Jenisbarad/AIautopost@main',
+    rawBaseUrl: `https://cdn.jsdelivr.net/gh/Jenisbarad/AIautopost@${process.env.GITHUB_SHA || 'main'}`,
   },
   posting: {
     spacingMs: parseInt(process.env.POST_SPACING_MS || '10800000', 10), // 3 hours

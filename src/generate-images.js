@@ -107,7 +107,7 @@ function generateSlidesHTML(content) {
         const accent = lighten(base, 0.45);
         const accent2 = lighten(base, 0.6);
         const text = '#E6E6E6';
-        return { backgroundHex: base, accentHex: accent, accentHex2: accent2, textHex: text };
+        return { backgroundHex: base, accentHex: accent, accentHex2: accent2, textHex: text, _dayIndex: dayIndex, _palette: basePalette };
     }
 
     const theme = {
@@ -118,8 +118,19 @@ function generateSlidesHTML(content) {
     };
     theme.accentHex2 = content.accentHex2 || lighten(theme.backgroundHex, 0.6);
 
-    const accentRgb = hexToRgb(theme.accentHex) || { r: 77, g: 141, b: 255 };
-    const accentRgbStr = `${accentRgb.r}, ${accentRgb.g}, ${accentRgb.b}`;
+    function themeForPost(postNum) {
+        // Colors change exactly after every 3 posts: (1-3) same, (4-6) next, etc.
+        const groupIndex = Math.floor((Number(postNum || 1) - 1) / 3);
+        const basePalette = theme?._palette || themeForDate(content.date)._palette;
+        const dayIndex = typeof theme?._dayIndex === 'number' ? theme._dayIndex : themeForDate(content.date)._dayIndex;
+        const base = basePalette[Math.abs(dayIndex + groupIndex) % basePalette.length];
+        return {
+            backgroundHex: base,
+            accentHex: lighten(base, 0.45),
+            accentHex2: lighten(base, 0.6),
+            textHex: theme.textHex || '#E6E6E6',
+        };
+    }
 
     function escapeHtml(s) {
         return String(s ?? '')
@@ -256,12 +267,17 @@ function generateSlidesHTML(content) {
 
     const postSections = content.posts.map((post) => {
         const postNum = post.id;
+        const t = themeForPost(postNum);
+        const accentRgb = hexToRgb(t.accentHex) || { r: 77, g: 141, b: 255 };
+        const accentRgbStr = `${accentRgb.r}, ${accentRgb.g}, ${accentRgb.b}`;
         const slideHtml = generateSlideHTML(post, postNum);
         return `
 <!-- ========== POST ${postNum}: ${post.topic.toUpperCase()} ========== -->
-<div class="post-label">POST ${postNum} — ${post.topic.toUpperCase()}</div>
-<div class="slide-row">
-${slideHtml}
+<div class="post-theme" style="--bg:${t.backgroundHex};--accent:${t.accentHex};--accent2:${t.accentHex2};--text:${t.textHex};--accent-rgb:${accentRgbStr};">
+  <div class="post-label">POST ${postNum} — ${post.topic.toUpperCase()}</div>
+  <div class="slide-row">
+  ${slideHtml}
+  </div>
 </div>
 
 <hr>`;
@@ -274,13 +290,7 @@ ${slideHtml}
 <title>Daily AI News Slides — ${content.date}</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: ${theme.backgroundHex};
-    --accent: ${theme.accentHex};
-    --accent2: ${theme.accentHex2};
-    --text: ${theme.textHex};
-    --accent-rgb: ${accentRgbStr};
-  }
+  :root { --bg: ${theme.backgroundHex}; --accent: ${theme.accentHex}; --accent2: ${theme.accentHex2}; --text: ${theme.textHex}; --accent-rgb: 77, 141, 255; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #050810;
@@ -321,7 +331,7 @@ ${slideHtml}
   .bullets { text-align: left; }
   .bi { font-size: 13px; line-height: 1.45; color: var(--text); opacity: 0.92; margin-bottom: 14px; padding-left: 22px; position: relative; }
   .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
-  .num { color: var(--accent); font-weight: 800; }
+  .num { font-weight: 800; color: inherit; }
   .source { position: absolute; left: 52px; right: 52px; bottom: 44px; font-size: 10px; color: var(--text); opacity: 0.75; }
   hr { border: none; border-top: 1px solid rgba(var(--accent-rgb),0.14); width: 400px; margin: 20px 0; }
 </style>

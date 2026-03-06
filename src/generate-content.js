@@ -84,6 +84,54 @@ function parseYmd(dateStr) {
     return Number.isNaN(d.getTime()) ? null : d;
 }
 
+function daysBetweenUtc(a, b) {
+    // Whole-day diff between two Date objects using UTC midnight.
+    if (!(a instanceof Date) || !(b instanceof Date)) return NaN;
+    const aUtc = Date.UTC(a.getUTCFullYear(), a.getUTCMonth(), a.getUTCDate());
+    const bUtc = Date.UTC(b.getUTCFullYear(), b.getUTCMonth(), b.getUTCDate());
+    return Math.floor((aUtc - bUtc) / 86400000);
+}
+
+function normalizeTopicText(s) {
+    return String(s || "")
+        .toLowerCase()
+        .replace(/&/g, " and ")
+        .replace(/[^a-z0-9\s]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function topicTokens(s) {
+    const stop = new Set([
+        "the","a","an","and","or","but","to","of","in","on","for","with","from","by","as","at",
+        "is","are","was","were","be","been","being","it","its","this","that","these","those",
+        "new","latest","today","update","reports","report","says","said","will","may","could",
+        "into","over","after","before","about","more","less","than","vs",
+        "ai","ml" // too generic for dedupe
+    ]);
+    const cleaned = normalizeTopicText(s);
+    if (!cleaned) return [];
+    return cleaned
+        .split(" ")
+        .filter(t => t.length >= 3 && !stop.has(t) && !/^\d+$/.test(t));
+}
+
+function jaccardSimilarity(aTokens, bTokens) {
+    const a = new Set(aTokens);
+    const b = new Set(bTokens);
+    if (a.size === 0 || b.size === 0) return 0;
+    let inter = 0;
+    for (const t of a) if (b.has(t)) inter++;
+    const union = a.size + b.size - inter;
+    return union === 0 ? 0 : inter / union;
+}
+
+function topicFingerprint(s) {
+    const toks = topicTokens(s);
+    // Keep only first ~10 tokens to stabilize comparisons.
+    return toks.slice(0, 10).join(" ");
+}
+
 function lighten(hex, amount = 0.3) {
     const h = hex.replace("#", "");
     const r = parseInt(h.slice(0, 2), 16);
@@ -114,6 +162,49 @@ function themeForDate(targetDate) {
     return { backgroundHex: base,
              accentHex: lighten(base, 0.45),
              textHex: "#E6E6E6",};
+}
+
+function loadRecentPostMetadata({ targetDate, windowDays = 20 }) {
+    const target = parseYmd(targetDate);
+    if (!target) return [];
+
+    const contentDir = path.resolve(ROOT, "content");
+    if (!fs.existsSync(contentDir)) return [];
+
+    const files = fs
+        .readdirSync(contentDir)
+        .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/i.test(f))
+        .sort();
+
+    const meta = [];
+
+    for (const f of files) {
+        const dateStr = f.replace(/\.json$/i, "");
+        if (dateStr === targetDate) continue;
+        const d = parseYmd(dateStr);
+        if (!d) continue;
+        const ageDays = daysBetweenUtc(target, d);
+        if (!(ageDays >= 0 && ageDays <= windowDays)) continue;
+
+        try {
+            const p = path.resolve(contentDir, f);
+            const j = JSON.parse(fs.readFileSync(p, "utf-8"));
+            const posts = Array.isArray(j?.posts) ? j.posts : [];
+            for (const post of posts) {
+                meta.push({
+                    date: dateStr,
+                    topic: String(post?.topic || ""),
+                    sourceUrl: String(post?.sourceUrl || ""),
+                    sourceName: String(post?.sourceName || ""),
+                    fingerprint: topicFingerprint(`${post?.topic || ""} ${post?.caption || ""}`),
+                });
+            }
+        } catch {
+            // Ignore malformed historical files
+        }
+    }
+
+    return meta;
 }
 
 // ==============================
@@ -384,7 +475,7 @@ Hard rule: only use events from the last 20 days.
 Generate EXACTLY 3 posts (maximum 3 posts/day).
 All 3 posts must be different categories (mix funding/product/policy/security/markets).
 At least 2 posts should be high-impact.
-Avoid generic statements.
+Avoid generic statements and shallow summaries.
 
 STRICT CONTENT REQUIREMENTS (per post):
 - Include an exact event date (e.g., "27 Feb 2026") or "Mon YYYY" if exact day not available.
@@ -392,6 +483,8 @@ STRICT CONTENT REQUIREMENTS (per post):
 - Include at least one REAL number that appears in the news item.
 - No fake percentages. No predictions.
 - Add a source line visible in the carousel: "Source: Publication, Mon YYYY"
+- Add context + implications + useful insights (reader should learn something, not just hear news).
+- Make the caption provoke 2–3 deeper questions naturally (include a short "Questions to consider" section).
 
 THEME (apply to today):
 - backgroundHex: ${theme.backgroundHex}
@@ -779,6 +872,10 @@ async function generateContent(targetDate) {
 
     const theme = themeForDate(targetDate);
 
+    // Sliding window memory (20 days): avoid repeating similar topics
+    const recentMeta = loadRecentPostMetadata({ targetDate, windowDays: 20 });
+    const recentFingerprints = recentMeta.map(m => m.fingerprint).filter(Boolean);
+
     console.log("🧠 Fetching real news (last 20 days)...");
     const items = await fetchTrendingItems({ windowDays: 20, maxItems: 50 });
     if (!items || items.length < 8) {
@@ -787,7 +884,19 @@ async function generateContent(targetDate) {
         process.exit(1);
     }
 
-    const topItems = items.slice(0, 25);
+    // Filter out items that look too similar to recent topics
+    const filteredItems = items.filter((it) => {
+        const fp = topicFingerprint(`${it?.title || ""} ${it?.description || ""}`);
+        if (!fp) return true;
+        for (const oldFp of recentFingerprints) {
+            const sim = jaccardSimilarity(fp.split(" "), String(oldFp).split(" "));
+            if (sim >= 0.55) return false;
+        }
+        return true;
+    });
+
+    const candidateItems = filteredItems.length >= 12 ? filteredItems : items;
+    const topItems = candidateItems.slice(0, 25);
     const allowedIds = topItems.map((_, idx) => `N${idx + 1}`);
     const prompt = buildContentPrompt({ targetDate, theme, items: topItems });
 
@@ -843,6 +952,15 @@ async function generateContent(targetDate) {
         p.sourceMonthYear = monthYear;
         p.eventDate = eventDate;
 
+        // Ensure the event date is visible somewhere in slide2 (reduces "wrong dates" risk)
+        const dateLike = /\b\d{1,2}\s+[A-Za-z]{3}\s+\d{4}\b|\b[A-Za-z]{3}\s+\d{4}\b/;
+        if (p.slideContent?.slide2?.lines && Array.isArray(p.slideContent.slide2.lines)) {
+            const joined = p.slideContent.slide2.lines.join(" ");
+            if (!dateLike.test(joined) && p.eventDate) {
+                p.slideContent.slide2.lines.unshift(`Event date: ${p.eventDate}`);
+            }
+        }
+
         // Ensure visible source line in slide4 (if present)
         if (p.slideContent?.slide4?.bullets && Array.isArray(p.slideContent.slide4.bullets)) {
             const srcLine = `Source: ${p.sourceName}, ${p.sourceMonthYear}`.trim();
@@ -850,6 +968,21 @@ async function generateContent(targetDate) {
                 p.slideContent.slide4.bullets.push(srcLine);
             } else {
                 p.slideContent.slide4.bullets[p.slideContent.slide4.bullets.length - 1] = srcLine;
+            }
+        }
+    }
+
+    // Final dedupe guard (non-fatal): warn if content still looks too similar to recent topics.
+    // We avoid dropping posts here to keep the daily 3-post pipeline stable.
+    const recentTopics = recentMeta.map(m => `${m.topic} ${m.sourceName}`).filter(Boolean);
+    for (const p of content.posts || []) {
+        const fp = topicFingerprint(`${p?.topic || ""} ${p?.caption || ""}`);
+        if (!fp) continue;
+        for (const old of recentTopics) {
+            const sim = jaccardSimilarity(fp.split(" "), topicFingerprint(old).split(" "));
+            if (sim >= 0.6) {
+                console.warn(`⚠️ Potential repeat vs last 20 days: "${p.topic}" (similarity ${sim.toFixed(2)})`);
+                break;
             }
         }
     }

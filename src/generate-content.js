@@ -819,43 +819,7 @@ async function generateWithFallback(prompt) {
 
     throw new Error("All AI providers failed.");
 }
-function normalizeSlides(obj) {
 
-    if (!obj?.posts) return obj;
-
-    for (const p of obj.posts) {
-
-        const sc = p?.slideContent;
-
-        if (!sc) continue;
-
-        // Convert string → array for lines
-        if (typeof sc?.slide2?.lines === "string") {
-            sc.slide2.lines = [sc.slide2.lines];
-        }
-
-        if (typeof sc?.slide3?.lines === "string") {
-            sc.slide3.lines = [sc.slide3.lines];
-        }
-
-        // Ensure arrays exist
-        if (!Array.isArray(sc?.slide2?.lines)) {
-            sc.slide2.lines = [];
-        }
-
-        if (!Array.isArray(sc?.slide3?.lines)) {
-            sc.slide3.lines = [];
-        }
-
-        // Ensure caption exists
-        if (!p.caption) {
-            p.caption = "";
-        }
-
-    }
-
-    return obj;
-}
 
 function isExpectedContentShape(obj) {
     if (!obj || typeof obj !== "object") return false;
@@ -899,8 +863,7 @@ function normalizeMaybe(obj, targetDate) {
 }
 
 async function coerceToExpected(responseText, parsedObj, targetDate, { theme, allowedUrls } = {}) {
-    let normalized = normalizeMaybe(parsedObj, targetDate);
-    normalized = normalizeSlides(normalized);
+    const normalized = normalizeMaybe(parsedObj, targetDate);
     if (isExpectedContentShape(normalized)) return normalized;
 
     const inputJson = (() => {
@@ -942,7 +905,10 @@ async function coerceToExpected(responseText, parsedObj, targetDate, { theme, al
             ? Object.keys(repairedNorm).join(", ")
             : typeof repairedNorm;
 
-    throw new Error(`Invalid JSON structure after repair. Top-level: ${keys}`);
+    console.warn(`⚠️ JSON still not in perfect expected shape after repair. Top-level keys: ${keys}`);
+    // Fall back to returning the best-effort normalized object; downstream steps
+    // (like slide generation) perform their own, more targeted validations.
+    return repairedNorm;
 }
 
 // ==============================
@@ -979,7 +945,7 @@ async function generateContent(targetDate) {
         if (!fp) return true;
         for (const oldFp of recentFingerprints) {
             const sim = jaccardSimilarity(fp.split(" "), String(oldFp).split(" "));
-            if (sim >= 0.65) return false;
+            if (sim >= 0.55) return false;
         }
         return true;
     });

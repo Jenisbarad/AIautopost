@@ -966,9 +966,12 @@ async function generateContent(targetDate) {
     try {
         parsed = safeJsonParse(responseText);
     } catch (err) {
-        console.error("❌ Failed to parse JSON.");
-        console.error(responseText.substring(0, 800));
-        process.exit(1);
+
+        console.warn("⚠️ JSON parse failed. Sending to repair step...");
+
+        // Send raw response to repair system
+        parsed = responseText;
+
     }
 
     let content;

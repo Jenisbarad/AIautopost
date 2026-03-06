@@ -675,7 +675,7 @@ async function generateWithFallback(prompt) {
                             model: modelName,
                             messages: [{ role: "user", content: prompt }],
                             temperature: 0.8,
-                            max_tokens: 6000
+                            max_tokens: 4000
                         },
                         {
                             headers: {

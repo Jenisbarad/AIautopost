@@ -1,0 +1,126 @@
+{
+  "date": "2026-03-07",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Drone Startup",
+      "slides": 3,
+      "svgIcon": "drone",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "XTEND Enters Nasdaq",
+          "subtitle": "AI Drone Startup Makes History"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Feb 2026",
+            "XTEND to enter Nasdaq at $1.5 billion valuation",
+            "Merger backed by Eric Trump",
+            "AI drone startup makes history"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This merger marks a significant milestone for AI drone startups",
+            "Valuation of $1.5 billion showcases the potential of AI drone technology",
+            "Eric Trump's backing adds credibility to the venture"
+          ]
+        }
+      },
+      "caption": "XTEND, an AI drone startup, is set to enter Nasdaq at a $1.5 billion valuation in a merger backed by Eric Trump. This move marks a significant milestone for AI drone startups and showcases the potential of AI drone technology. Questions to consider: What does this mean for the future of AI drone technology? How will this merger impact the industry? #AI #Drones #Nasdaq #EricTrump #Startup #Innovation",
+      "questions": "What does this mean for the future of AI drone technology? How will this merger impact the industry?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzejNkOXJCUlJ5Z1BoWHlDTUtzRFFRWFZJUVhGNXFLbTd3cldJYU50azhJMWI4U0JMZUc0YjFNWHZBX0RaNF9FNk1zVmVmWmQ3bUJBQjVFNW9Ud3NBc3p1Sk1tNmozWElj?oc=5",
+      "sourceName": "CTech",
+      "sourceMonthYear": "Feb 2026",
+      "eventDate": "17 Feb 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Firefox Bug Discovery",
+      "slides": 4,
+      "svgIcon": "lock",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Finds Firefox Bug",
+          "subtitle": "Claude Stuns Security Experts"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Mar 2026",
+            "AI found a Firefox bug in 20 minutes",
+            "Claude, an AI tool, stunned security experts with its discovery",
+            "This highlights the potential of AI in cybersecurity"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This discovery showcases the capabilities of AI in cybersecurity",
+            "AI can potentially identify bugs and vulnerabilities faster than human experts",
+            "This could lead to improved security measures for browsers and other software"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "AI is becoming increasingly important in cybersecurity",
+            "Claude's discovery highlights the potential of AI in bug detection",
+            "Source: Analytics Insight, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Claude, an AI tool, has discovered a Firefox bug in just 20 minutes, stunning security experts. This highlights the potential of AI in cybersecurity and raises questions about the future of bug detection. Questions to consider: How will AI change the cybersecurity landscape? Can AI replace human security experts? #AI #Cybersecurity #Firefox #BugDetection #Innovation",
+      "questions": "How will AI change the cybersecurity landscape? Can AI replace human security experts?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc2tmVVQyZklidjBTQTNHMGxOeVl1SHMzV0RrY2RTRHFCamZEZEF3VllWZlgzc0syTzEwSE9WLU50c0pGeFUyckdoNkJHLVIyWDdiZ1pBbXNfaDUyV1YyQnhiQWk0cVFEampIZDZ6NmtNWjdmQ09aNXRaRTZfSTBDMzB5Xzdqa3d3R1lPMGhSdG1NMmRjei1BdXVCZjJYQkczZlhScNIBsgFBVV95cUxPd1RkNm1HNUJvdWZOQTVnUmZZaTF3d3lXXzZkLWx4d2VZYnVHcDVDN3BOaGxCSHFra2FQdHAwSGVzX0paVndHRmZBRnlRMGFRTUVaZVFiQ0pyUlBuclRpYlp3UHV6bUF5WU1IQ01aQzhHYm1ueHBEMkFMM2lLMlVab2Ricnp6dDR0QVMwUWJ4U3E4UWhnZno5b2VRM2NuSENiSDUzMnQzMHFxbkg5akk3QkJR?oc=5",
+      "sourceName": "Analytics Insight",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "07 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "PropTech Funding",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Rentberry Dominates PropTech",
+          "subtitle": "AI Rental Ecosystem"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Feb 2026",
+            "Rentberry announces $20M Pre-IPO Round",
+            "NASDAQ Ticker 'RNTB' assigned",
+            "World's first end-to-end AI rental ecosystem"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round showcases the potential of AI in PropTech",
+            "Rentberry's AI rental ecosystem could revolutionize the rental market",
+            "The $20M funding will help Rentberry expand its operations"
+          ]
+        }
+      },
+      "caption": "Rentberry, a PropTech startup, has announced a $20M Pre-IPO Round and assigned NASDAQ Ticker 'RNTB'. This funding round showcases the potential of AI in PropTech and raises questions about the future of the rental market. Questions to consider: How will AI change the PropTech industry? What does this mean for the future of rental markets? #PropTech #AI #Rentberry #Funding #Innovation",
+      "questions": "How will AI change the PropTech industry? What does this mean for the future of rental markets?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMm1CVHVtdFB4djhFenZub1NldGJUNHU5NlI2d2xYTVFzMjlZNnIydDh3VFRhTFFpQW92SjRSVTE3VGJGc1hpY3ZfZUd3Vm9hZGxTSzRZODRKeVh5SFI0aklxMkE5dVYyN3NZVnBxMGtzX2p0UkZPNm11aG5WTDg4TWFmREVuX1VKZ3NoZWptTkUwVDRjeFFDYmc2SW5xQ1hLcWhUWUJpNHk5SlZYVTBBRGFBWjB6TUJLX3c5TWd0cnFac2dNQTVES2I5TlZKWEUydm1xaGhLcnppVDNsa3RUSlVBQkJ0UjBNcUNMMGtla1VQYlNNNHhzUFlObUNfMGVUNFRGY2tlWVR4amRWX0U1MEtoUmplaXZkOEo1QzE5eExYc0lY?oc=5",
+      "sourceName": "markets.businessinsider.com",
+      "sourceMonthYear": "Feb 2026",
+      "eventDate": "27 Feb 2026"
+    }
+  ]
+}

@@ -133,12 +133,14 @@ function generateSlidesHTML(content) {
     }
 
     function escapeHtml(s) {
+        // We escape only the characters that would break HTML markup.
+        // Apostrophes are left as-is so they render as normal characters
+        // in the final PNGs instead of the literal sequence &#39;.
         return String(s ?? '')
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#39;');
+            .replace(/"/g, '&quot;');
     }
 
     function highlightNumbers(escapedText) {

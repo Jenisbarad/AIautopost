@@ -521,7 +521,8 @@ Today's date: ${targetDate}
 Hard rule: only use events from the last 20 days.
 
 Generate EXACTLY 3 posts (maximum 3 posts/day).
-All 3 posts must be different categories (mix funding/product/policy/security/markets).
+All 3 posts must be different categories (mix product/security/policy/markets/etc.).
+You may include AT MOST ONE funding/VC/investment/valuation post per day; if you create one funding post, the other two must be non-funding topics.
 At least 2 posts should be high-impact.
 Avoid generic statements and shallow summaries.
 
@@ -574,6 +575,7 @@ VALIDATION before you return:
 - Each sourceId is one of N1..N25
 - Slide2 includes at least one REAL number
 - If slide4 exists, its last bullet must be the Source line
+- No more than ONE post whose primary focus is funding/VC/investment/valuation
 `;
 }
 

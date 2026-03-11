@@ -1,0 +1,127 @@
+{
+  "date": "2026-03-11",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Acquisition",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Acquires AI Security Startup",
+          "subtitle": "Strengthening AI Agent Safety"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI acquired AI security startup Promptfoo on 11 Mar 2026",
+            "To strengthen AI agent safety",
+            "Promptfoo's expertise will enhance OpenAI's security measures",
+            "With nearly 200,000 autonomous bots"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition highlights the importance of AI security",
+            "As AI models become more powerful, security is a growing concern",
+            "OpenAI's move demonstrates its commitment to responsible AI development",
+            "Source: The420.in, 11 Mar 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's acquisition of Promptfoo marks a significant step in enhancing AI security. With the rise of autonomous bots, security measures are crucial. What does this mean for the future of AI development? How will this impact the industry? #AIsecurity #OpenAI #Promptfoo #AIagents #autonomousbots #responsibleAI\nQuestions to consider: What are the implications of this acquisition on the AI landscape? How will OpenAI's security measures evolve with this acquisition? #AI #security #acquisition",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GMm0xclNCbFpTTFZ0SnM4SXI4cHNnRXVNSlQwMjlTVVo5RktGSUwyZEdtVE15SU0zdEdBTkJmMW5aZWJyRjZaVzFNTHNXbEl4T0RZa2pJUGgtVG9rSTlMZ2pXdDZnTkNIMU5nU05vcw?oc=5",
+      "sourceName": "The420.in",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "11 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Funding for AI Startup",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Yann LeCun's AI Startup Raises $1 Billion",
+          "subtitle": "A significant investment in AI research"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Yann LeCun's AI startup raised over $1 billion in funding on 10 Mar 2026",
+            "The startup aims to develop advanced AI models",
+            "With a valuation of $3.5 billion",
+            "Backed by investors like Bezos and Nvidia"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round demonstrates the growing interest in AI research",
+            "Yann LeCun's expertise will drive innovation in the field",
+            "The startup's focus on advanced AI models will push the boundaries of AI capabilities",
+            "With a significant investment of $1 billion"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will accelerate AI research and development",
+            "Yann LeCun's startup will challenge OpenAI's dominance",
+            "The investment highlights the potential of AI in various industries",
+            "Source: WSJ, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Yann LeCun's AI startup has raised $1 billion in funding, marking a significant investment in AI research. What does this mean for the future of AI development? How will this funding impact the industry? #AI #funding #YannLeCun #startup #AIresearch\nQuestions to consider: What are the implications of this funding on the AI landscape? How will Yann LeCun's startup impact the industry? #AI #funding #investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM0ZoWC1ZaFZucnNWOFdQTUNRUzA3T3JPXzNpNUx1cGljbjQ0NE9vZHUxLThmTm1falQ4RllyeHJqdVVycUxVdjhnbEgyZm0xTlhqR2UwUWZ6YmVaYmlkcjFhYVB2bGRRWTFMUmJ5LUZjRWtRbHVhTkZrc2sxaVpmellzNk1TcVkt?oc=5",
+      "sourceName": "WSJ",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "10 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Networking Startup",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nexthop AI Raises $500M",
+          "subtitle": "Launches new AI-powered switches"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Nexthop AI raised $500 million in funding on 11 Mar 2026",
+            "The startup launched new AI-powered switches",
+            "With a focus on AI networking",
+            "Aiming to revolutionize the industry with AI-powered solutions"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round demonstrates the growing interest in AI-powered networking",
+            "Nexthop AI's innovative approach will drive growth in the industry",
+            "The startup's AI-powered switches will enhance network performance and security",
+            "Source: SiliconANGLE, 11 Mar 2026"
+          ]
+        }
+      },
+      "caption": "Nexthop AI has raised $500 million in funding and launched new AI-powered switches. What does this mean for the future of networking? How will AI-powered solutions impact the industry? #AI #networking #NexthopAI #funding #AIpowered\nQuestions to consider: What are the implications of AI-powered networking on the industry? How will Nexthop AI's innovative approach impact the market? #AI #networking #innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUxJdHBiQThvRkgyeG94SUZLcllXbE9xX0Y1T0ctYW1wb0syYy1oNldzRUVwa0lrbXlpTnZSX3FaRVE4a3dnc3d6R1kzZ2toa2hJb2piTVNiUktjQjR2SWNGaVRSWkZFZG16MkYtcml4cE4zMHphZUNuUWNGWFo5eDZBZGdIRVpUNEV5djd4VlMzanBsOTV3S1dlMnAzLTdWcE9ZSXNB?oc=5",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "11 Mar 2026"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2026-03-15",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "Google Acquires Wiz",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Completes $32B Wiz Acquisition",
+          "subtitle": "Bolstering Cloud Security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google completed the acquisition of Wiz on 12 Mar 2026",
+            "The deal is valued at $32 billion",
+            "Wiz is an AI security platform",
+            "This acquisition will enhance Google's cloud security capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition demonstrates Google's commitment to investing in AI security",
+            "Wiz's technology will help Google protect its cloud customers from cyber threats",
+            "This deal is expected to have a significant impact on the cloud security market",
+            "Source: The Daily Star, 12 Mar 2026"
+          ]
+        }
+      },
+      "caption": "Google has completed its $32 billion acquisition of Wiz, an AI security platform. This deal is expected to enhance Google's cloud security capabilities. What does this mean for the future of cloud security? How will this acquisition impact Google's position in the market? #Google #Wiz #CloudSecurity #AI #Acquisition #CyberSecurity\nQuestions to consider: What are the implications of this acquisition for Google's cloud customers? How will Wiz's technology be integrated into Google's existing security offerings? #cloudsecurity #artificialintelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUkhsRVFvMlB3elhkejdVdGc0QWJHUWpsOW90cXd6TE5zR2VqcDViNEFJNFpzXzdFX1pVWF83QkZoR3ZQUDJ2ZDU0S0FVa0htY2lXY3dpU0trZkNhLXE2OXlQME5MR2prQUdkVTdvXzdVSG5TVF9LX01reVdpYzNFSTlxYVIzU3BGTUVjT1IzZE53R0VoNzlZM1BaeFRTWEVFTXpmYkNGd2FVNzJKWVdXcnJhNDF2S2hWRGpv?oc=5",
+      "sourceName": "The Daily Star",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "12 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Moonshot AI Valuation",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "China AI Startup Moonshot AI",
+          "subtitle": "Seeks $18 Billion Valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 Mar 2026",
+            "Moonshot AI is seeking a valuation of $18 billion",
+            "The company is a China-based AI startup",
+            "The valuation is expected to be one of the largest for an AI startup",
+            "Moonshot AI is planning to use the funding to expand its operations"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The valuation of Moonshot AI is a significant milestone for the AI industry",
+            "It demonstrates the growing interest in AI startups",
+            "The funding will help Moonshot AI to further develop its AI technology",
+            "This deal is expected to have a major impact on the AI market"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Moonshot AI's valuation is a testament to the growing demand for AI technology",
+            "The company's AI technology has the potential to disrupt various industries",
+            "The funding will help Moonshot AI to expand its team and operations",
+            "Source: The Standard (HK), Mar 2026"
+          ]
+        }
+      },
+      "caption": "China AI startup Moonshot AI is seeking a valuation of $18 billion. This is one of the largest valuations for an AI startup. What does this mean for the future of AI? How will Moonshot AI use the funding to expand its operations? #MoonshotAI #AI #Valuation #China #Startup\nQuestions to consider: What are the implications of this valuation for the AI industry? How will Moonshot AI's AI technology impact various industries? #artificialintelligence #startup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaXp5RWtMNTJCcWdzWE5CTm9nYkhXZWZDbXFRUkZJNGI2SzhiQVo1MDJLcW1GUno2NkVHMlNLTWtLNHRvYjZ4WjNicUFTN25BSWhqY3pOMWRTNWgtZVUyOFp4emxtSlloTHA1ZnpheWg0aVo3Rlc2Wi1ZN3ZEVWJzX3NGNzMyZHhkMWN0bWpBeE9tckZLOHpkMHpWd2VCZjRqeDhHNWVJWFluUm1iZ2JOLTlBYw?oc=5",
+      "sourceName": "The Standard (HK)",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "15 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "PixVerse Funding",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "PixVerse Raises $300M",
+          "subtitle": "AI Video Unicorn Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "PixVerse raised $300 million in funding on 13 Mar 2026",
+            "The company is an AI video unicorn startup",
+            "The funding will help PixVerse to further develop its AI video technology",
+            "PixVerse's AI technology has the potential to disrupt the video industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding is a significant milestone for PixVerse",
+            "It demonstrates the growing interest in AI video technology",
+            "PixVerse's AI technology has the potential to revolutionize the video industry",
+            "Source: Ventureburn, 13 Mar 2026"
+          ]
+        }
+      },
+      "caption": "PixVerse, an AI video unicorn startup, has raised $300 million in funding. This funding will help the company to further develop its AI video technology. What does this mean for the future of video technology? How will PixVerse's AI technology impact the video industry? #PixVerse #AI #Video #Funding #Unicorn #Startup\nQuestions to consider: What are the implications of this funding for PixVerse? How will the company use the funding to expand its operations? #artificialintelligence #video",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGZvaDBiUnRVb2RGal9CTWxTblBMNzY1d3pBMEJMbmlUY3FLMWExeHNFMUIyWXljbXB2Vm5FYnNoX1BIT3M2MkVRaGx1X0s4M1hmUlM1ZUhLZ25EOTdVUU96N2kya2ZDeUVvRzVsZXdPZjZmUjRPVFlxcjlHeXJnY2kxcGHSAYQBQVVfeXFMTkRmb2gwYlJ0VW9kRmpfQk1sU25QTDc2NXd6QTBCTG5pVGNxSzFhMXhzRTFCMll5Y21wdlZuRWJzaF9QSE9zNjJFUWhsdV9LODNYZlJTNWVIS2duRDk3VVFPejdpMmtmQ3lFb0c1bGV3T2Y2ZlI0T1RZcXI5R3lyZ2NpMXBh?oc=5",
+      "sourceName": "Ventureburn",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "13 Mar 2026"
+    }
+  ]
+}

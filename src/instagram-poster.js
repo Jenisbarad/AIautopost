@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import { config } from './config.js';
 
-const GRAPH_API = config.instagram.graphApiBase;
+const GRAPH_API = config.instagram.facebookGraphBase; // Publishing uses the FB Graph API endpoints
 const FB_GRAPH_API = config.instagram.facebookGraphBase;
 
 /**

@@ -213,7 +213,7 @@ function generateSlidesHTML(content) {
   </div>`;
 
         // Slide 2
-        const s2lines = sc.slide2.lines.map(formatLine).join('<br><br>');
+        const s2lines = (sc.slide2.lines || []).map(formatLine).join('<br><br>');
         slides += `
   <div class="slide" id="p${postNum}s2">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -227,7 +227,7 @@ function generateSlidesHTML(content) {
   </div>`;
 
         // Slide 3
-        const s3lines = sc.slide3.lines.map(formatLine).join('<br><br>');
+        const s3lines = (sc.slide3.lines || []).map(formatLine).join('<br><br>');
         slides += `
   <div class="slide" id="p${postNum}s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -267,7 +267,7 @@ function generateSlidesHTML(content) {
         return slides;
     }
 
-    const postSections = content.posts.map((post) => {
+    const postSections = (content.posts || []).map((post) => {
         const postNum = post.id;
         const t = themeForPost(postNum);
         const accentRgb = hexToRgb(t.accentHex) || { r: 77, g: 141, b: 255 };
@@ -458,7 +458,7 @@ async function main() {
     // Save mapping file
     const mapping = {};
     for (const [postNum, slides] of Object.entries(capturedByPost)) {
-        mapping[postNum] = slides.map(s => s.relativePath);
+        mapping[postNum] = (slides || []).map(s => s.relativePath);
     }
 
     const mappingPath = path.resolve(outputDir, 'mapping.json');

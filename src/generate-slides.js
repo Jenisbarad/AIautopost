@@ -72,7 +72,7 @@ function generateSlideHTML(post, postNum) {
   </div>`;
 
   // Slide 2: What Happened
-  const s2lines = sc.slide2.lines.map(l => l).join('<br><br>');
+  const s2lines = (sc.slide2.lines || []).map(l => l).join('<br><br>');
   slides += `
   <div class="slide" id="p${postNum}s2">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -86,7 +86,7 @@ function generateSlideHTML(post, postNum) {
   </div>`;
 
   // Slide 3: Why It Matters
-  const s3lines = sc.slide3.lines.map(l => l).join('<br><br>');
+  const s3lines = (sc.slide3.lines || []).map(l => l).join('<br><br>');
   slides += `
   <div class="slide" id="p${postNum}s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -101,7 +101,7 @@ function generateSlideHTML(post, postNum) {
 
   // Slide 4: Key Takeaways (optional)
   if (totalSlides >= 4 && sc.slide4) {
-    const bulletsHtml = sc.slide4.bullets.map(b => `<div class="bi">${b}</div>`).join('\n        ');
+    const bulletsHtml = (sc.slide4.bullets || []).map(b => `<div class="bi">${b}</div>`).join('\n        ');
     slides += `
   <div class="slide" id="p${postNum}s4">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
@@ -121,7 +121,7 @@ function generateSlideHTML(post, postNum) {
 }
 
 function generateFullHTML(content) {
-  const postSections = content.posts.map((post, i) => {
+  const postSections = (content.posts || []).map((post, i) => {
     const postNum = post.id;
     const slideHtml = generateSlideHTML(post, postNum);
     return `

@@ -25,7 +25,7 @@ export async function getInstagramAccountId() {
 
     // Query Instagram Graph API /me to get the account ID
     const res = await fetch(
-        `${GRAPH_API}/me?fields=id,username,name,account_type&access_token=${config.instagram.accessToken}`
+        `${GRAPH_API}/me?fields=id,name,account_type&access_token=${config.instagram.accessToken}`
     );
     const data = await res.json();
 
@@ -40,7 +40,7 @@ export async function getInstagramAccountId() {
         );
     }
 
-    console.log(`  📸 Instagram Account: @${data.username || 'dailyainewsone'}`);
+    console.log(`  📸 Account connected: ${data.name || 'Account ID ' + data.id}`);
     console.log(`  🆔 Account ID: ${data.id}`);
     console.log(`  📋 Account Type: ${data.account_type || 'N/A'}\n`);
     return data.id;
@@ -246,7 +246,7 @@ export async function postCarousel(igAccountId, imageUrls, caption, dryRun = fal
  */
 export async function validateToken() {
     const res = await fetch(
-        `${GRAPH_API}/me?fields=id,username,name&access_token=${config.instagram.accessToken}`
+        `${GRAPH_API}/me?fields=id,name&access_token=${config.instagram.accessToken}`
     );
     const data = await res.json();
 
@@ -254,5 +254,5 @@ export async function validateToken() {
         return { valid: false, error: data.error.message };
     }
 
-    return { valid: true, name: data.username || data.name || data.id, id: data.id };
+    return { valid: true, name: data.name || data.id, id: data.id };
 }

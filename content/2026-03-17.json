@@ -8,120 +8,132 @@
   "posts": [
     {
       "id": 1,
-      "topic": "Google Acquires Wiz",
+      "topic": "Google's Record Acquisition",
       "slides": 4,
-      "svgIcon": "shield",
+      "svgIcon": "brain",
       "sourceId": "N1",
-      "eventDate": "16 Mar 2026",
-      "sourceName": "Dataconomy",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSmE4OUFKMEVTdjZLQWFSTmRMQ21sQU9RV0xRMjhZaW8tWjhQdGNrclg1WklOYU9Nd1lybkN3N0NuZ3k3OHFhRVJtWDZqWVMwTTE5cEdjV1dnZE9iX3E5aWZieDVUR2lIWkpSX3g4cjhkZjV6SzR4ck9NZzhfU1NrWldNRFNiTDl3c3UwcVAwUTQ1bUYybnVpX2Z0RQ?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Google's Historic Acquisition",
-          "subtitle": "A new era in cybersecurity"
+          "headline": "Google Breaks Records",
+          "subtitle": "Acquiring Wiz for $32 billion"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Google completed its $32 billion acquisition of Wiz on 16 Mar 2026",
-            "This marks the largest venture-backed acquisition ever",
-            "Wiz is a cybersecurity startup",
-            "The deal breaks Google's previous acquisition records"
+            "Google acquired Wiz, a cybersecurity startup, for $32 billion on 16 Mar 2026.",
+            "This deal marks the largest venture-backed acquisition in history.",
+            "Wiz's AI-powered security solutions will enhance Google's offerings.",
+            "The acquisition solidifies Google's position in the cybersecurity market."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This acquisition highlights the growing importance of cybersecurity in the tech industry",
-            "Google's move is expected to boost its cybersecurity capabilities",
-            "The deal may have significant implications for the future of cybersecurity"
+            "The acquisition showcases Google's commitment to investing in AI-powered security solutions.",
+            "Wiz's technology will help Google improve its cloud security offerings.",
+            "This deal is expected to drive innovation in the cybersecurity industry.",
+            "Google's acquisition of Wiz demonstrates the growing importance of AI in cybersecurity."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a significant step for Google in expanding its cybersecurity offerings",
-            "Wiz's technology is expected to enhance Google's cloud security platform",
-            "The deal is a testament to the growing demand for cybersecurity solutions",
-            "Source: Dataconomy, Mar 2026"
+            "Google's acquisition of Wiz highlights the increasing demand for AI-powered security solutions.",
+            "The deal is expected to have significant implications for the cybersecurity industry.",
+            "Wiz's technology will enhance Google's ability to detect and respond to security threats.",
+            "Source: Condia, Mar 2026"
           ]
         }
       },
-      "caption": "Google's historic $32 billion acquisition of Wiz is a game-changer in the cybersecurity landscape. What does this mean for the future of cybersecurity? How will this acquisition impact Google's cloud security platform? What are the implications for the tech industry as a whole? #cybersecurity #google #wiz #acquisition #technews #innovation\nQuestions to consider: What are the potential benefits and challenges of this acquisition? How will Google integrate Wiz's technology into its existing cybersecurity offerings?"
+      "caption": "Google has broken records with its $32 billion acquisition of Wiz, a cybersecurity startup. This deal marks the largest venture-backed acquisition in history and showcases Google's commitment to investing in AI-powered security solutions. What does this mean for the future of cybersecurity? How will Google's acquisition of Wiz impact the industry? What are the implications for companies relying on Google's cloud security offerings? #Google #Wiz #Cybersecurity #Acquisition #AI #CloudSecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PdUdiTHRNRHNqeDVkRnNTVzB1UXM3R0sxUkd4UlV5LWUzSktoeTZUZXhSMGNpTXZFUmltRFhCank5NERla1cyV3NkU0FnOXI0UEVTQVNDWDZralFRZkpvY04weENnSVNYNzNPVlFzUF9tbWpCV0ZDdDF3?oc=5",
+      "sourceName": "Condia",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "16 Mar 2026"
     },
     {
       "id": 2,
-      "topic": "AI Video Unicorn",
+      "topic": "Eaton's Acquisition",
       "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N20",
-      "eventDate": "13 Mar 2026",
-      "sourceName": "Ventureburn",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGZvaDBiUnRVb2RGal9CTWxTblBMNzY1d3pBMEJMbmlUY3FLMWExeHNFMUIyWXljbXB2Vm5FYnNoX1BIT3M2MkVRaGx1X0s4M1hmUlM1ZUhLZ25EOTdVUU96N2kya2ZDeUVvRzVsZXdPZjZmUjRPVFlxcjlHeXJnY2kxcGHSAYQBQVVfeXFMTkRmb2gwYlJ0VW9kRmpfQk1sU25QTDc2NXd6QTBCTG5pVGNxSzFhMXhzRTFCMll5Y21wdlZuRWJzaF9QSE9zNjJFUWhsdV9LODNYZlJTNWVIS2duRDk3VVFPejdpMmtmQ3lFb0c1bGV3T2Y2ZlI0T1RZcXI5R3lyZ2NpMXBh?oc=5",
+      "svgIcon": "shield",
+      "sourceId": "N10",
       "slideContent": {
         "slide1": {
-          "headline": "AI Video Unicorn Emerges",
-          "subtitle": "PixVerse raises $300M"
+          "headline": "Eaton Completes Acquisition",
+          "subtitle": "Boyd Thermal acquired for $9.5 billion"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "PixVerse raised $300M in funding on 13 Mar 2026",
-            "The company has become an AI video unicorn startup",
-            "PixVerse's valuation is now over $1 billion",
-            "The funding round was led by prominent investors"
+            "Eaton completed the acquisition of Boyd Thermal for $9.5 billion on 16 Mar 2026.",
+            "The acquisition is expected to enhance Eaton's AI infrastructure capabilities.",
+            "Boyd Thermal's liquid cooling technology will support Eaton's growth in the data center market.",
+            "The deal marks a significant investment in AI infrastructure."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition demonstrates Eaton's commitment to investing in AI infrastructure.",
+            "Boyd Thermal's technology will help Eaton improve its data center offerings.",
+            "The deal is expected to drive innovation in the AI infrastructure market.",
+            "Eaton's acquisition of Boyd Thermal highlights the growing importance of liquid cooling in AI infrastructure."
+          ],
           "bullets": [
-            "PixVerse's AI video technology has significant potential for growth",
-            "The company's unicorn status is a testament to the growing demand for AI-powered video solutions",
-            "The funding will be used to expand PixVerse's operations and develop new products",
-            "Source: Ventureburn, Mar 2026"
+            "Eaton's acquisition of Boyd Thermal is a significant investment in AI infrastructure.",
+            "The deal is expected to have implications for the data center market.",
+            "Boyd Thermal's liquid cooling technology will support Eaton's growth.",
+            "Source: FinancialContent, 16 Mar 2026"
           ]
         }
       },
-      "caption": "PixVerse has become an AI video unicorn startup after raising $300M in funding. What are the potential applications of AI-powered video technology? How will PixVerse use its new funding to drive growth and innovation? #AI #video #unicorn #startup #funding #innovation\nQuestions to consider: What are the potential challenges and opportunities for PixVerse as it expands its operations? How will the company's AI video technology impact the broader tech industry?"
+      "caption": "Eaton has completed the acquisition of Boyd Thermal for $9.5 billion, enhancing its AI infrastructure capabilities. What are the implications of this deal for the data center market? How will Eaton's acquisition of Boyd Thermal impact the AI infrastructure industry? What role will liquid cooling play in the future of AI infrastructure? #Eaton #BoydThermal #Acquisition #AI #Infrastructure",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaE1TQ2NZS3RseFBlU2t4dEtCWnoxamRYNkxiOFg4dEFHbG9XY0Y5c3VxX2Q2b2d6S3JQcUo3UGt2OUd1bl96Ynhxalo3UTZsdFBMOW55bnByRXdhZjF6em13dnNPX3Roc3BLVmJWd3NTWmcxTjR3aHBuV284RFVYNUFBb0pVdzdlbG1MYlBRQmd3bTIzSDN6N2xBMThTREhQZWJkS0JCbEZoVnliU2sxTl9oa2hSM3VhS0NhemExeVNRMDlfS2xnRWVDd3d6LUE2eGpkR1VVVWh1ZVQzV0dHNlpJNU92U1hSaXpfa21SWlc0aktBQVVnN3RrRkJ6OWljLWJEZVlMYkgwRTda?oc=5",
+      "sourceName": "FinancialContent",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "16 Mar 2026"
     },
     {
       "id": 3,
-      "topic": "Big Data Security Market",
+      "topic": "PixVerse Funding",
       "slides": 3,
-      "svgIcon": "database",
-      "sourceId": "N24",
-      "eventDate": "16 Mar 2026",
-      "sourceName": "openPR.com",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMndjdTZSeWxPZlNpTTR2NkNscFNZTld5VjB4cVRzTlhXMnI2YlJYakpGcmhXcnlTYUdGemtYaW5XWXM4ZXlneTBXQ093XzJhWW5fNkxYcF9TWXZzYnBwY2x2aDZzN3ZMVm5IcnVUQzloQXk2T2dGVFlKTHl5UDhUdkRpVUNoYVVSTmg2LU5malhtYkVNdGVobXNjWDF4X28?oc=5",
+      "svgIcon": "code",
+      "sourceId": "N19",
       "slideContent": {
         "slide1": {
-          "headline": "Big Data Security Market Outlook",
-          "subtitle": "AI-powered solutions on the rise"
+          "headline": "PixVerse Raises $300M",
+          "subtitle": "Becoming an AI video unicorn startup"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 16 Mar 2026",
-            "The United States big data security market is expected to grow significantly in 2026",
-            "AI-powered solutions are becoming increasingly important in big data security",
-            "The market outlook is driven by the growing demand for secure data management",
-            "The use of AI and machine learning is expected to enhance big data security capabilities"
+            "PixVerse raised $300M in funding, becoming an AI video unicorn startup on 13 Mar 2026.",
+            "The funding round was led by prominent investors.",
+            "PixVerse's AI-powered video solutions will be enhanced with the new funding.",
+            "The company plans to expand its operations and improve its offerings."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "PixVerse's funding is a significant investment in AI video technology.",
+            "The company's AI-powered solutions will enhance the video creation process.",
+            "The funding round demonstrates the growing demand for AI-powered video solutions.",
+            "PixVerse's success is expected to drive innovation in the AI video market."
+          ],
           "bullets": [
-            "The big data security market is expected to be driven by the growing need for secure data management",
-            "AI-powered solutions are expected to play a key role in enhancing big data security capabilities",
-            "The market outlook is positive, with significant growth expected in the coming years",
-            "Source: openPR.com, Mar 2026"
+            "PixVerse's funding is a significant investment in AI video technology.",
+            "The company's AI-powered solutions will enhance the video creation process.",
+            "The funding round demonstrates the growing demand for AI-powered video solutions.",
+            "Source: Ventureburn, 13 Mar 2026"
           ]
         }
       },
-      "caption": "The United States big data security market is expected to grow significantly in 2026, driven by the growing demand for secure data management. What are the potential benefits and challenges of using AI-powered solutions in big data security? How will the market outlook impact the broader tech industry? #bigdata #security #AI #marketoutlook #innovation\nQuestions to consider: What are the potential applications of AI-powered big data security solutions? How will the growing demand for secure data management drive innovation in the tech industry?"
+      "caption": "PixVerse has raised $300M in funding, becoming an AI video unicorn startup. What are the implications of this funding round for the AI video market? How will PixVerse's AI-powered solutions enhance the video creation process? What role will AI play in the future of video technology? #PixVerse #AI #Video #Funding #UnicornStartup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGZvaDBiUnRVb2RGal9CTWxTblBMNzY1d3pBMEJMbmlUY3FLMWExeHNFMUIyWXljbXB2Vm5FYnNoX1BIT3M2MkVRaGx1X0s4M1hmUlM1ZUhLZ25EOTdVUU96N2kya2ZDeUVvRzVsZXdPZjZmUjRPVFlxcjlHeXJnY2kxcGHSAYQBQVVfeXFMTkRmb2gwYlJ0VW9kRmpfQk1sU25QTDc2NXd6QTBCTG5pVGNxSzFhMXhzRTFCMll5Y21wdlZuRWJzaF9QSE9zNjJFUWhsdV9LODNYZlJTNWVIS2duRDk3VVFPejdpMmtmQ3lFb0c1bGV3T2Y2ZlI0T1RZcXI5R3lyZ2NpMXBh?oc=5",
+      "sourceName": "Ventureburn",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "13 Mar 2026"
     }
   ]
 }

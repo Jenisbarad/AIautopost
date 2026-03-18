@@ -5,7 +5,7 @@
 <title>Daily AI News Slides — 2026-03-17</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
-  :root { --bg: #1F1A3B; --accent: #848193; --accent2: #A5A3B1; --text: #E6E6E6; --accent-rgb: 77, 141, 255; }
+  :root { --bg: #1A1F3B; --accent: #818493; --accent2: #A3A5B1; --text: #E6E6E6; --accent-rgb: 77, 141, 255; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #050810;
@@ -16,47 +16,229 @@
     padding: 40px;
     gap: 60px;
   }
-  .post-label { font-size: 16px; font-weight: 700; color: var(--accent); letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
-  .slide-row { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
-  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #050810 0%, var(--bg) 55%, #050810 100%); }
-  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(var(--accent-rgb),0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--accent-rgb),0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
-  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(var(--accent-rgb),0.14); z-index: 5; pointer-events: none; }
-  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), transparent); filter: blur(1px); }
-  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent2), var(--accent), transparent); filter: blur(1px); }
-  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent), transparent); filter: blur(1px); z-index: 5; }
-  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent2), transparent); filter: blur(1px); z-index: 5; }
-  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(var(--accent-rgb),0.25); border-left: 1.5px solid rgba(var(--accent-rgb),0.25); z-index: 4; }
-  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.9); }
-  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(var(--accent-rgb),0.22); border-right: 1.5px solid rgba(var(--accent-rgb),0.22); z-index: 4; }
-  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: var(--accent2); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
-  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
-  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
-  .content { position: relative; z-index: 3; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 52px; }
-  .bottom-bar { position: absolute; bottom: 20px; left: 52px; right: 52px; display: flex; justify-content: space-between; z-index: 6; font-size: 11px; font-weight: 600; color: rgba(148,163,184,0.5); }
+
+  /* SVG updates to use CSS variables if fill/stroke are replaced inline, 
+     but we also apply it globally to svgs rendered inside our icons */
+  .cover-icon svg * {
+    stroke: var(--accHex) !important;
+  }
+  .cover-icon svg [fill="#4d8dff"] {
+    fill: var(--accHex) !important;
+  }
+  .cover-icon svg [stroke="#4d8dff"] {
+    stroke: var(--accHex) !important;
+  }
+
+  .post-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accHex);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+
+  .slide-row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slide {
+    width: 512px;
+    height: 512px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: var(--bgHex);
+    /* Adding a subtle dark gradient over the base hex */
+    background-image: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+  }
+
+  .grid {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(rgba(var(--accRgb),0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(var(--accRgb),0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 1;
+  }
+
+  .glow-border {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border: 1.5px solid rgba(var(--accRgb),0.12);
+    z-index: 5;
+    pointer-events: none;
+  }
+  .glow-border::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 15%; right: 15%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accHex), #a855f7, transparent);
+    filter: blur(1px);
+  }
+  .glow-border::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 15%; right: 15%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #a855f7, var(--accHex), transparent);
+    filter: blur(1px);
+  }
+
+  .glow-left {
+    position: absolute;
+    top: 15%; bottom: 15%; left: -1px;
+    width: 2px;
+    background: linear-gradient(180deg, transparent, var(--accHex), transparent);
+    filter: blur(1px);
+    z-index: 5;
+  }
+  .glow-right {
+    position: absolute;
+    top: 15%; bottom: 15%; right: -1px;
+    width: 2px;
+    background: linear-gradient(180deg, transparent, #a855f7, transparent);
+    filter: blur(1px);
+    z-index: 5;
+  }
+
+  .corner-tl {
+    position: absolute;
+    top: 16px; left: 16px;
+    width: 48px; height: 48px;
+    border-top: 1.5px solid rgba(var(--accRgb),0.25);
+    border-left: 1.5px solid rgba(var(--accRgb),0.25);
+    z-index: 4;
+  }
+  .corner-tl::after {
+    content: '';
+    position: absolute;
+    top: -3px; left: -3px;
+    width: 6px; height: 6px;
+    background: var(--accHex);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--accHex);
+  }
+  .corner-br {
+    position: absolute;
+    bottom: 16px; right: 16px;
+    width: 48px; height: 48px;
+    border-bottom: 1.5px solid rgba(168,85,247,0.25);
+    border-right: 1.5px solid rgba(168,85,247,0.25);
+    z-index: 4;
+  }
+  .corner-br::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; right: -3px;
+    width: 6px; height: 6px;
+    background: #a855f7;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #a855f7;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 250px; height: 250px;
+    background: radial-gradient(circle, rgba(var(--accRgb),0.12) 0%, transparent 70%);
+    top: -80px; right: -60px;
+    z-index: 1;
+  }
+  .blob2 {
+    position: absolute;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, transparent 70%);
+    bottom: -60px; left: -40px;
+    z-index: 1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 52px;
+  }
+
+  .bottom-bar {
+    position: absolute;
+    bottom: 20px; left: 52px; right: 52px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 6;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(148,163,184,0.5);
+  }
+
   .content.cover { text-align: center; align-items: center; }
   .cover-icon { margin-bottom: 24px; }
-  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accent-rgb),0.55)); }
-  .cover h1 { font-size: 32px; font-weight: 900; line-height: 1.15; letter-spacing: -0.5px; color: #fff; margin-bottom: 14px; }
-  .cover h1 .g { color: var(--accent); text-shadow: 0 0 25px rgba(var(--accent-rgb),0.5); }
-  .cover .sub { font-size: 14px; color: var(--text); opacity: 0.8; }
+  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accRgb),0.6)); }
+  .cover h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+  .cover h1 .g { color: var(--accHex); text-shadow: 0 0 25px rgba(var(--accRgb),0.5); }
+  .cover .sub { font-size: 14px; color: #94a3b8; }
+
   .content.body { text-align: left; }
-  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 26px; }
-  .label.alt { color: var(--accent2); }
-  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: var(--text); opacity: 0.92; }
+  .label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accHex);
+    margin-bottom: 32px;
+  }
+  .label.purple { color: #a855f7; }
+  .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--textHex);
+  }
+
   .bullets { text-align: left; }
-  .bi { font-size: 13px; line-height: 1.45; color: var(--text); opacity: 0.92; margin-bottom: 14px; padding-left: 22px; position: relative; }
-  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
-  .num { font-weight: 800; color: inherit; }
-  .source { position: absolute; left: 52px; right: 52px; bottom: 44px; font-size: 10px; color: var(--text); opacity: 0.75; }
-  hr { border: none; border-top: 1px solid rgba(var(--accent-rgb),0.14); width: 400px; margin: 20px 0; }
+  .bi {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--textHex);
+    margin-bottom: 18px;
+    padding-left: 22px;
+    position: relative;
+  }
+  .bi::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 6px;
+    width: 10px; height: 10px;
+    background: var(--accHex);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(var(--accRgb),0.6);
+  }
+
+  hr { border: none; border-top: 1px solid rgba(var(--accRgb),0.1); width: 400px; margin: 20px 0; }
 </style>
 </head>
 <body>
 
 
-<!-- ========== POST 1: GOOGLE ACQUIRES WIZ ========== -->
-<div class="post-theme" style="--bg:#1F1A3B;--accent:#848193;--accent2:#A5A3B1;--text:#E6E6E6;--accent-rgb:132, 129, 147;">
-  <div class="post-label">POST 1 — GOOGLE ACQUIRES WIZ</div>
+<!-- ========== POST 1: GOOGLE WIZ ACQUISITION ========== -->
+<div class="post-theme" style="--bg:#1A1F3B;--accent:#818493;--accent2:#A3A5B1;--text:#E6E6E6;--accent-rgb:129, 132, 147;">
+  <div class="post-label">POST 1 — GOOGLE WIZ ACQUISITION</div>
   <div class="slide-row">
   
   <div class="slide" id="p1s1">
@@ -74,7 +256,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Google completed its <span class="num">$32 b</span>illion acquisition of Wiz on <span class="num">16 M</span>ar <span class="num">2026</span><br><br>This marks the largest venture-backed acquisition ever<br><br>Wiz is a cybersecurity startup<br><br>The deal breaks Google's previous acquisition records</div>
+      <div class="text">Event date: <span class="num">15 M</span>ar <span class="num">2026</span><br><br>Google sealed a <span class="num">$32 b</span>illion deal to acquire Wiz<br><br>Marking the largest venture-backed acquisition ever<br><br>Wiz is expected to bolster Google's cloud security<br><br>The deal surpasses previous records in the industry</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -93,26 +275,25 @@
   <div class="slide" id="p1s4">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
-      <div class="label alt">INSIGHTS</div>
+      <div class="label purple">INSIGHTS</div>
       <div class="bullets">
-        <div class="bi">The acquisition is a significant step for Google in expanding its cybersecurity offerings</div>
-        <div class="bi">Wiz's technology is expected to enhance Google's cloud security platform</div>
-        <div class="bi">The deal is a testament to the growing demand for cybersecurity solutions</div>
+        <div class="bi">The acquisition underscores the value of venture-backed startups</div>
+        <div class="bi">Google's strategy to bolster its cloud security through acquisition</div>
+        <div class="bi">The deal is expected to drive innovation in the cybersecurity space</div>
       </div>
-      <div class="source">Source: Dataconomy, Mar <span class="num">2026</span></div>
+      <div class="source">Source: Sri Lanka Guardian, Mar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
   </div>
-  </div>
 </div>
 
 <hr>
 
-<!-- ========== POST 2: AI VIDEO UNICORN ========== -->
-<div class="post-theme" style="--bg:#1F1A3B;--accent:#848193;--accent2:#A5A3B1;--text:#E6E6E6;--accent-rgb:132, 129, 147;">
-  <div class="post-label">POST 2 — AI VIDEO UNICORN</div>
+<!-- ========== POST 2: US AI CHIP REGULATION ========== -->
+<div class="post-theme" style="--bg:#1A1F3B;--accent:#818493;--accent2:#A3A5B1;--text:#E6E6E6;--accent-rgb:129, 132, 147;">
+  <div class="post-label">POST 2 — US AI CHIP REGULATION</div>
   <div class="slide-row">
   
   <div class="slide" id="p2s1">
@@ -130,7 +311,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">PixVerse raised $300M in funding on <span class="num">13 M</span>ar <span class="num">2026</span><br><br>The company has become an AI video unicorn startup<br><br>PixVerse's valuation is now over <span class="num">$1 b</span>illion<br><br>The funding round was led by prominent investors</div>
+      <div class="text">Event date: <span class="num">15 M</span>ar <span class="num">2026</span><br><br>The US has pulled back a draft regulation targeting global AI chip shipments<br><br>The regulation aimed to control the export of AI chips to certain countries<br><br>The move is seen as a significant shift in the US's approach to AI chip regulation<br><br>This decision may impact the global AI chip market, with potential effects on companies like Google and its recent Wiz acquisition</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -139,21 +320,20 @@
   <div class="slide" id="p2s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
-      <div class="label">INSIGHTS</div>
-      <div class="text"></div>
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">The US's decision to pull back on regulation may have far-reaching implications<br><br>For the development and export of AI chips, as well as the companies involved<br><br>The global AI chip market is expected to continue growing, with a potential value of over <span class="num">$100 b</span>illion<br><br>Source: PYMNTS.com, <span class="num">15 M</span>ar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
   </div>
-  </div>
 </div>
 
 <hr>
 
-<!-- ========== POST 3: BIG DATA SECURITY MARKET ========== -->
-<div class="post-theme" style="--bg:#1F1A3B;--accent:#848193;--accent2:#A5A3B1;--text:#E6E6E6;--accent-rgb:132, 129, 147;">
-  <div class="post-label">POST 3 — BIG DATA SECURITY MARKET</div>
+<!-- ========== POST 3: GOOGLE ACCEL INDIA ACCELERATOR ========== -->
+<div class="post-theme" style="--bg:#1A1F3B;--accent:#818493;--accent2:#A3A5B1;--text:#E6E6E6;--accent-rgb:129, 132, 147;">
+  <div class="post-label">POST 3 — GOOGLE ACCEL INDIA ACCELERATOR</div>
   <div class="slide-row">
   
   <div class="slide" id="p3s1">
@@ -171,7 +351,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Event date: <span class="num">16 M</span>ar <span class="num">2026</span><br><br>The United States big data security market is expected to grow significantly in <span class="num">2026</span><br><br>AI-powered solutions are becoming increasingly important in big data security<br><br>The market outlook is driven by the growing demand for secure data management<br><br>The use of AI and machine learning is expected to enhance big data security capabilities</div>
+      <div class="text">Event date: <span class="num">16 M</span>ar <span class="num">2026</span><br><br>Google and Accel India accelerator have chosen <span class="num">5</span> startups for their program<br><br>None of the chosen startups are 'AI wrappers'<br><br>The startups will receive support and resources to drive their growth<br><br>This initiative highlights Google's commitment to fostering innovation in India</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -180,13 +360,12 @@
   <div class="slide" id="p3s3">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
-      <div class="label">INSIGHTS</div>
-      <div class="text"></div>
+      <div class="label">WHY IT MATTERS</div>
+      <div class="text">This initiative is expected to drive innovation and growth in the Indian startup ecosystem<br><br>Google's involvement underscores the importance of supporting emerging technologies<br><br>The chosen startups will have access to resources and expertise to help them scale<br><br>Source: TechCrunch, <span class="num">16 M</span>ar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
-  </div>
   </div>
 </div>
 

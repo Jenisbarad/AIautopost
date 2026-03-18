@@ -954,7 +954,15 @@ async function generateContent(targetDate) {
     });
 
     const candidateItems = filteredItems.length >= 12 ? filteredItems : items;
-    const topItems = candidateItems.slice(0, 25);
+
+    // SHUFFLE CANDIDATES: so deleting the JSON and rerunning on the same day yields different news items
+    const shuffledCandidates = [...candidateItems];
+    for (let i = shuffledCandidates.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledCandidates[i], shuffledCandidates[j]] = [shuffledCandidates[j], shuffledCandidates[i]];
+    }
+
+    const topItems = shuffledCandidates.slice(0, 25);
     const allowedIds = topItems.map((_, idx) => `N${idx + 1}`);
     const prompt = buildContentPrompt({ targetDate, theme, items: topItems });
 

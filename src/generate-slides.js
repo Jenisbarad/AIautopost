@@ -120,7 +120,21 @@ function generateSlideHTML(post, postNum) {
   return slides;
 }
 
+// Convert Hex to RGB for rgba usage
+function hexToRgb(hex) {
+  const h = hex.replace('#', '');
+  if (h.length === 6) {
+    return `${parseInt(h.substring(0, 2), 16)}, ${parseInt(h.substring(2, 4), 16)}, ${parseInt(h.substring(4, 6), 16)}`;
+  }
+  return '77, 141, 255'; // fallback
+}
+
 function generateFullHTML(content) {
+  const bgHex = content.backgroundHex || '#0B1F3B';
+  const accHex = content.accentHex || '#4D8DFF';
+  const textHex = content.textHex || '#E6E6E6';
+  const accRgb = hexToRgb(accHex);
+
   const postSections = (content.posts || []).map((post, i) => {
     const postNum = post.id;
     const slideHtml = generateSlideHTML(post, postNum);
@@ -141,6 +155,13 @@ ${slideHtml}
 <title>Daily AI News Slides — ${content.date}</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
+  :root {
+    --bgHex: ${bgHex};
+    --accHex: ${accHex};
+    --textHex: ${textHex};
+    --accRgb: ${accRgb};
+  }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #050810;
@@ -152,10 +173,22 @@ ${slideHtml}
     gap: 60px;
   }
 
+  /* SVG updates to use CSS variables if fill/stroke are replaced inline, 
+     but we also apply it globally to svgs rendered inside our icons */
+  .cover-icon svg * {
+    stroke: var(--accHex) !important;
+  }
+  .cover-icon svg [fill="#4d8dff"] {
+    fill: var(--accHex) !important;
+  }
+  .cover-icon svg [stroke="#4d8dff"] {
+    stroke: var(--accHex) !important;
+  }
+
   .post-label {
     font-size: 16px;
     font-weight: 700;
-    color: #4d8dff;
+    color: var(--accHex);
     letter-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
@@ -175,15 +208,17 @@ ${slideHtml}
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
-    background: linear-gradient(135deg, #080c18 0%, #0d1225 40%, #10162d 100%);
+    background: var(--bgHex);
+    /* Adding a subtle dark gradient over the base hex */
+    background-image: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
   }
 
   .grid {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background-image:
-      linear-gradient(rgba(77,141,255,0.06) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(77,141,255,0.06) 1px, transparent 1px);
+      linear-gradient(rgba(var(--accRgb),0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(var(--accRgb),0.06) 1px, transparent 1px);
     background-size: 32px 32px;
     z-index: 1;
   }
@@ -191,7 +226,7 @@ ${slideHtml}
   .glow-border {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    border: 1.5px solid rgba(77,141,255,0.12);
+    border: 1.5px solid rgba(var(--accRgb),0.12);
     z-index: 5;
     pointer-events: none;
   }
@@ -200,7 +235,7 @@ ${slideHtml}
     position: absolute;
     top: -1px; left: 15%; right: 15%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #4d8dff, #a855f7, transparent);
+    background: linear-gradient(90deg, transparent, var(--accHex), #a855f7, transparent);
     filter: blur(1px);
   }
   .glow-border::after {
@@ -208,7 +243,7 @@ ${slideHtml}
     position: absolute;
     bottom: -1px; left: 15%; right: 15%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #a855f7, #4d8dff, transparent);
+    background: linear-gradient(90deg, transparent, #a855f7, var(--accHex), transparent);
     filter: blur(1px);
   }
 
@@ -216,7 +251,7 @@ ${slideHtml}
     position: absolute;
     top: 15%; bottom: 15%; left: -1px;
     width: 2px;
-    background: linear-gradient(180deg, transparent, #4d8dff, transparent);
+    background: linear-gradient(180deg, transparent, var(--accHex), transparent);
     filter: blur(1px);
     z-index: 5;
   }
@@ -233,8 +268,8 @@ ${slideHtml}
     position: absolute;
     top: 16px; left: 16px;
     width: 48px; height: 48px;
-    border-top: 1.5px solid rgba(77,141,255,0.25);
-    border-left: 1.5px solid rgba(77,141,255,0.25);
+    border-top: 1.5px solid rgba(var(--accRgb),0.25);
+    border-left: 1.5px solid rgba(var(--accRgb),0.25);
     z-index: 4;
   }
   .corner-tl::after {
@@ -242,9 +277,9 @@ ${slideHtml}
     position: absolute;
     top: -3px; left: -3px;
     width: 6px; height: 6px;
-    background: #4d8dff;
+    background: var(--accHex);
     border-radius: 50%;
-    box-shadow: 0 0 10px #4d8dff;
+    box-shadow: 0 0 10px var(--accHex);
   }
   .corner-br {
     position: absolute;
@@ -267,7 +302,7 @@ ${slideHtml}
   .blob1 {
     position: absolute;
     width: 250px; height: 250px;
-    background: radial-gradient(circle, rgba(77,141,255,0.12) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(var(--accRgb),0.12) 0%, transparent 70%);
     top: -80px; right: -60px;
     z-index: 1;
   }
@@ -303,7 +338,7 @@ ${slideHtml}
 
   .content.cover { text-align: center; align-items: center; }
   .cover-icon { margin-bottom: 24px; }
-  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(77,141,255,0.6)); }
+  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accRgb),0.6)); }
   .cover h1 {
     font-size: 32px;
     font-weight: 900;
@@ -312,7 +347,7 @@ ${slideHtml}
     color: #fff;
     margin-bottom: 14px;
   }
-  .cover h1 .g { color: #4d8dff; text-shadow: 0 0 25px rgba(77,141,255,0.5); }
+  .cover h1 .g { color: var(--accHex); text-shadow: 0 0 25px rgba(var(--accRgb),0.5); }
   .cover .sub { font-size: 14px; color: #94a3b8; }
 
   .content.body { text-align: left; }
@@ -321,7 +356,7 @@ ${slideHtml}
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #4d8dff;
+    color: var(--accHex);
     margin-bottom: 32px;
   }
   .label.purple { color: #a855f7; }
@@ -329,14 +364,14 @@ ${slideHtml}
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
-    color: #cbd5e1;
+    color: var(--textHex);
   }
 
   .bullets { text-align: left; }
   .bi {
     font-size: 14px;
     line-height: 1.5;
-    color: #cbd5e1;
+    color: var(--textHex);
     margin-bottom: 18px;
     padding-left: 22px;
     position: relative;
@@ -346,12 +381,12 @@ ${slideHtml}
     position: absolute;
     left: 0; top: 6px;
     width: 10px; height: 10px;
-    background: #4d8dff;
+    background: var(--accHex);
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(77,141,255,0.6);
+    box-shadow: 0 0 10px rgba(var(--accRgb),0.6);
   }
 
-  hr { border: none; border-top: 1px solid rgba(77,141,255,0.1); width: 400px; margin: 20px 0; }
+  hr { border: none; border-top: 1px solid rgba(var(--accRgb),0.1); width: 400px; margin: 20px 0; }
 </style>
 </head>
 <body>

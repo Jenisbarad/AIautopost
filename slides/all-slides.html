@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Daily AI News Slides — 2026-03-17</title>
+<title>Daily AI News Slides — 2026-03-18</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
-  :root { --bg: #1A1F3B; --accent: #818493; --accent2: #A3A5B1; --text: #E6E6E6; --accent-rgb: 77, 141, 255; }
+  :root { --bg: #0B223D; --accent: #798594; --accent2: #9DA7B1; --text: #E6E6E6; --accent-rgb: 77, 141, 255; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #050810;
@@ -16,237 +16,55 @@
     padding: 40px;
     gap: 60px;
   }
-
-  /* SVG updates to use CSS variables if fill/stroke are replaced inline, 
-     but we also apply it globally to svgs rendered inside our icons */
-  .cover-icon svg * {
-    stroke: var(--accHex) !important;
-  }
-  .cover-icon svg [fill="#4d8dff"] {
-    fill: var(--accHex) !important;
-  }
-  .cover-icon svg [stroke="#4d8dff"] {
-    stroke: var(--accHex) !important;
-  }
-
-  .post-label {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--accHex);
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: -30px;
-  }
-
-  .slide-row {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .slide {
-    width: 512px;
-    height: 512px;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-    background: var(--bgHex);
-    /* Adding a subtle dark gradient over the base hex */
-    background-image: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
-  }
-
-  .grid {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image:
-      linear-gradient(rgba(var(--accRgb),0.06) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(var(--accRgb),0.06) 1px, transparent 1px);
-    background-size: 32px 32px;
-    z-index: 1;
-  }
-
-  .glow-border {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    border: 1.5px solid rgba(var(--accRgb),0.12);
-    z-index: 5;
-    pointer-events: none;
-  }
-  .glow-border::before {
-    content: '';
-    position: absolute;
-    top: -1px; left: 15%; right: 15%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accHex), #a855f7, transparent);
-    filter: blur(1px);
-  }
-  .glow-border::after {
-    content: '';
-    position: absolute;
-    bottom: -1px; left: 15%; right: 15%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #a855f7, var(--accHex), transparent);
-    filter: blur(1px);
-  }
-
-  .glow-left {
-    position: absolute;
-    top: 15%; bottom: 15%; left: -1px;
-    width: 2px;
-    background: linear-gradient(180deg, transparent, var(--accHex), transparent);
-    filter: blur(1px);
-    z-index: 5;
-  }
-  .glow-right {
-    position: absolute;
-    top: 15%; bottom: 15%; right: -1px;
-    width: 2px;
-    background: linear-gradient(180deg, transparent, #a855f7, transparent);
-    filter: blur(1px);
-    z-index: 5;
-  }
-
-  .corner-tl {
-    position: absolute;
-    top: 16px; left: 16px;
-    width: 48px; height: 48px;
-    border-top: 1.5px solid rgba(var(--accRgb),0.25);
-    border-left: 1.5px solid rgba(var(--accRgb),0.25);
-    z-index: 4;
-  }
-  .corner-tl::after {
-    content: '';
-    position: absolute;
-    top: -3px; left: -3px;
-    width: 6px; height: 6px;
-    background: var(--accHex);
-    border-radius: 50%;
-    box-shadow: 0 0 10px var(--accHex);
-  }
-  .corner-br {
-    position: absolute;
-    bottom: 16px; right: 16px;
-    width: 48px; height: 48px;
-    border-bottom: 1.5px solid rgba(168,85,247,0.25);
-    border-right: 1.5px solid rgba(168,85,247,0.25);
-    z-index: 4;
-  }
-  .corner-br::after {
-    content: '';
-    position: absolute;
-    bottom: -3px; right: -3px;
-    width: 6px; height: 6px;
-    background: #a855f7;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #a855f7;
-  }
-
-  .blob1 {
-    position: absolute;
-    width: 250px; height: 250px;
-    background: radial-gradient(circle, rgba(var(--accRgb),0.12) 0%, transparent 70%);
-    top: -80px; right: -60px;
-    z-index: 1;
-  }
-  .blob2 {
-    position: absolute;
-    width: 200px; height: 200px;
-    background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, transparent 70%);
-    bottom: -60px; left: -40px;
-    z-index: 1;
-  }
-
-  .content {
-    position: relative;
-    z-index: 3;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 52px;
-  }
-
-  .bottom-bar {
-    position: absolute;
-    bottom: 20px; left: 52px; right: 52px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 6;
-    font-size: 11px;
-    font-weight: 600;
-    color: rgba(148,163,184,0.5);
-  }
-
+  .post-label { font-size: 16px; font-weight: 700; color: var(--accent); letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: -30px; }
+  .slide-row { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
+  .slide { width: 512px; height: 512px; position: relative; overflow: hidden; flex-shrink: 0; background: linear-gradient(135deg, #050810 0%, var(--bg) 55%, #050810 100%); }
+  .grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(var(--accent-rgb),0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--accent-rgb),0.06) 1px, transparent 1px); background-size: 32px 32px; z-index: 1; }
+  .glow-border { position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 1.5px solid rgba(var(--accent-rgb),0.14); z-index: 5; pointer-events: none; }
+  .glow-border::before { content: ''; position: absolute; top: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), transparent); filter: blur(1px); }
+  .glow-border::after { content: ''; position: absolute; bottom: -1px; left: 15%; right: 15%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent2), var(--accent), transparent); filter: blur(1px); }
+  .glow-left { position: absolute; top: 15%; bottom: 15%; left: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent), transparent); filter: blur(1px); z-index: 5; }
+  .glow-right { position: absolute; top: 15%; bottom: 15%; right: -1px; width: 2px; background: linear-gradient(180deg, transparent, var(--accent2), transparent); filter: blur(1px); z-index: 5; }
+  .corner-tl { position: absolute; top: 16px; left: 16px; width: 48px; height: 48px; border-top: 1.5px solid rgba(var(--accent-rgb),0.25); border-left: 1.5px solid rgba(var(--accent-rgb),0.25); z-index: 4; }
+  .corner-tl::after { content: ''; position: absolute; top: -3px; left: -3px; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.9); }
+  .corner-br { position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; border-bottom: 1.5px solid rgba(var(--accent-rgb),0.22); border-right: 1.5px solid rgba(var(--accent-rgb),0.22); z-index: 4; }
+  .corner-br::after { content: ''; position: absolute; bottom: -3px; right: -3px; width: 6px; height: 6px; background: var(--accent2); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
+  .blob1 { position: absolute; width: 250px; height: 250px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.12) 0%, transparent 70%); top: -80px; right: -60px; z-index: 1; }
+  .blob2 { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle, rgba(var(--accent-rgb),0.08) 0%, transparent 70%); bottom: -60px; left: -40px; z-index: 1; }
+  .content { position: relative; z-index: 3; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 52px; }
+  .bottom-bar { position: absolute; bottom: 20px; left: 52px; right: 52px; display: flex; justify-content: space-between; z-index: 6; font-size: 11px; font-weight: 600; color: rgba(148,163,184,0.5); }
   .content.cover { text-align: center; align-items: center; }
   .cover-icon { margin-bottom: 24px; }
-  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accRgb),0.6)); }
-  .cover h1 {
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 1.15;
-    letter-spacing: -0.5px;
-    color: #fff;
-    margin-bottom: 14px;
-  }
-  .cover h1 .g { color: var(--accHex); text-shadow: 0 0 25px rgba(var(--accRgb),0.5); }
-  .cover .sub { font-size: 14px; color: #94a3b8; }
-
+  .cover-icon svg { width: 44px; height: 44px; filter: drop-shadow(0 0 14px rgba(var(--accent-rgb),0.55)); }
+  .cover h1 { font-size: 32px; font-weight: 900; line-height: 1.15; letter-spacing: -0.5px; color: #fff; margin-bottom: 14px; }
+  .cover h1 .g { color: var(--accent); text-shadow: 0 0 25px rgba(var(--accent-rgb),0.5); }
+  .cover .sub { font-size: 14px; color: var(--text); opacity: 0.8; }
   .content.body { text-align: left; }
-  .label {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--accHex);
-    margin-bottom: 32px;
-  }
-  .label.purple { color: #a855f7; }
-  .text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-    color: var(--textHex);
-  }
-
+  .label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 26px; }
+  .label.alt { color: var(--accent2); }
+  .text { font-size: 15px; font-weight: 400; line-height: 1.8; color: var(--text); opacity: 0.92; }
   .bullets { text-align: left; }
-  .bi {
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--textHex);
-    margin-bottom: 18px;
-    padding-left: 22px;
-    position: relative;
-  }
-  .bi::before {
-    content: '';
-    position: absolute;
-    left: 0; top: 6px;
-    width: 10px; height: 10px;
-    background: var(--accHex);
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(var(--accRgb),0.6);
-  }
-
-  hr { border: none; border-top: 1px solid rgba(var(--accRgb),0.1); width: 400px; margin: 20px 0; }
+  .bi { font-size: 13px; line-height: 1.45; color: var(--text); opacity: 0.92; margin-bottom: 14px; padding-left: 22px; position: relative; }
+  .bi::before { content: ''; position: absolute; left: 0; top: 6px; width: 10px; height: 10px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px rgba(var(--accent-rgb),0.55); }
+  .num { font-weight: 800; color: inherit; }
+  .source { position: absolute; left: 52px; right: 52px; bottom: 44px; font-size: 10px; color: var(--text); opacity: 0.75; }
+  hr { border: none; border-top: 1px solid rgba(var(--accent-rgb),0.14); width: 400px; margin: 20px 0; }
 </style>
 </head>
 <body>
 
 
-<!-- ========== POST 1: GOOGLE WIZ ACQUISITION ========== -->
-<div class="post-theme" style="--bg:#1A1F3B;--accent:#818493;--accent2:#A3A5B1;--text:#E6E6E6;--accent-rgb:129, 132, 147;">
-  <div class="post-label">POST 1 — GOOGLE WIZ ACQUISITION</div>
+<!-- ========== POST 1: GOOGLE ACQUIRES WIZ ========== -->
+<div class="post-theme" style="--bg:#0B223D;--accent:#798594;--accent2:#9DA7B1;--text:#E6E6E6;--accent-rgb:121, 133, 148;">
+  <div class="post-label">POST 1 — GOOGLE ACQUIRES WIZ</div>
   <div class="slide-row">
   
   <div class="slide" id="p1s1">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6L10 20V48L32 58L54 48V20L32 6Z" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><path d="M32 18L42 24V36L32 42L22 36V24L32 18Z" fill="#4d8dff" opacity="0.25"/><path d="M32 26L36 28V34L32 36L28 34V28L32 26Z" fill="#4d8dff"/></svg></div>
-      <h1>Google's <span class="g">Historic</span> Acquisition</h1>
-      <div class="sub">A new era in cybersecurity</div>
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="20" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><circle cx="32" cy="32" r="10" fill="#4d8dff" opacity="0.25"/><circle cx="32" cy="32" r="5" fill="#4d8dff"/><line x1="32" y1="6" x2="32" y2="16" stroke="#4d8dff" stroke-width="1.5"/><line x1="32" y1="48" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5"/><line x1="6" y1="32" x2="16" y2="32" stroke="#4d8dff" stroke-width="1.5"/><line x1="48" y1="32" x2="58" y2="32" stroke="#4d8dff" stroke-width="1.5"/></svg></div>
+      <h1>Google <span class="g">Completes</span> Acquisition of Wiz</h1>
+      <div class="sub">Expanding AI Capabilities</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -256,7 +74,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Event date: <span class="num">15 M</span>ar <span class="num">2026</span><br><br>Google sealed a <span class="num">$32 b</span>illion deal to acquire Wiz<br><br>Marking the largest venture-backed acquisition ever<br><br>Wiz is expected to bolster Google's cloud security<br><br>The deal surpasses previous records in the industry</div>
+      <div class="text">Google completed the <span class="num">$32 b</span>illion acquisition of Wiz on <span class="num">17 M</span>ar <span class="num">2026</span><br><br>This deal creates the largest startup acquisition<br><br>Wiz will enhance Google's AI capabilities<br><br>The acquisition amount is <span class="num">$32 b</span>illion</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -266,7 +84,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHY IT MATTERS</div>
-      <div class="text">This acquisition highlights the growing importance of cybersecurity in the tech industry<br><br>Google's move is expected to boost its cybersecurity capabilities<br><br>The deal may have significant implications for the future of cybersecurity</div>
+      <div class="text">The acquisition will boost Google's AI offerings<br><br>Wiz's technology will improve Google's products<br><br>The deal shows the growing importance of AI in the tech industry<br><br>Google's AI capabilities will become more competitive</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -275,33 +93,34 @@
   <div class="slide" id="p1s4">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
-      <div class="label purple">INSIGHTS</div>
+      <div class="label alt">INSIGHTS</div>
       <div class="bullets">
-        <div class="bi">The acquisition underscores the value of venture-backed startups</div>
-        <div class="bi">Google's strategy to bolster its cloud security through acquisition</div>
-        <div class="bi">The deal is expected to drive innovation in the cybersecurity space</div>
+        <div class="bi">The acquisition is a significant step for Google's AI strategy</div>
+        <div class="bi">Wiz's technology will have a major impact on Google's products</div>
+        <div class="bi">The deal highlights the increasing competition in the AI market</div>
       </div>
-      <div class="source">Source: Sri Lanka Guardian, Mar <span class="num">2026</span></div>
+      <div class="source">Source: varindia.com, Mar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>4/4</span></div>
   </div>
+  </div>
 </div>
 
 <hr>
 
-<!-- ========== POST 2: US AI CHIP REGULATION ========== -->
-<div class="post-theme" style="--bg:#1A1F3B;--accent:#818493;--accent2:#A3A5B1;--text:#E6E6E6;--accent-rgb:129, 132, 147;">
-  <div class="post-label">POST 2 — US AI CHIP REGULATION</div>
+<!-- ========== POST 2: IBM ACQUIRES CONFLUENT ========== -->
+<div class="post-theme" style="--bg:#0B223D;--accent:#798594;--accent2:#9DA7B1;--text:#E6E6E6;--accent-rgb:121, 133, 148;">
+  <div class="post-label">POST 2 — IBM ACQUIRES CONFLUENT</div>
   <div class="slide-row">
   
   <div class="slide" id="p2s1">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="20" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><circle cx="32" cy="32" r="10" fill="#4d8dff" opacity="0.25"/><circle cx="32" cy="32" r="5" fill="#4d8dff"/><line x1="32" y1="6" x2="32" y2="16" stroke="#4d8dff" stroke-width="1.5"/><line x1="32" y1="48" x2="32" y2="58" stroke="#4d8dff" stroke-width="1.5"/><line x1="6" y1="32" x2="16" y2="32" stroke="#4d8dff" stroke-width="1.5"/><line x1="48" y1="32" x2="58" y2="32" stroke="#4d8dff" stroke-width="1.5"/></svg></div>
-      <h1>AI Video <span class="g">Unicorn</span> Emerges</h1>
-      <div class="sub">PixVerse raises $300M</div>
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="18" rx="20" ry="8" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><path d="M12 18V46C12 50.4 20.9 54 32 54C43.1 54 52 50.4 52 46V18" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><ellipse cx="32" cy="32" rx="20" ry="8" stroke="#4d8dff" stroke-width="1" opacity="0.2"/><ellipse cx="32" cy="18" rx="10" ry="4" fill="#4d8dff" opacity="0.25"/></svg></div>
+      <h1>IBM Acquires Confluent for <span class="g">$11</span> Billion</h1>
+      <div class="sub">Bolstering Real-Time AI Data Capabilities</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -311,7 +130,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Event date: <span class="num">15 M</span>ar <span class="num">2026</span><br><br>The US has pulled back a draft regulation targeting global AI chip shipments<br><br>The regulation aimed to control the export of AI chips to certain countries<br><br>The move is seen as a significant shift in the US's approach to AI chip regulation<br><br>This decision may impact the global AI chip market, with potential effects on companies like Google and its recent Wiz acquisition</div>
+      <div class="text">IBM acquired Confluent for <span class="num">$11 b</span>illion on <span class="num">18 M</span>ar <span class="num">2026</span><br><br>The acquisition will enhance IBM's real-time AI data capabilities<br><br>Confluent's technology will improve IBM's data processing<br><br>The acquisition amount is <span class="num">$11 b</span>illion</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -321,27 +140,28 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHY IT MATTERS</div>
-      <div class="text">The US's decision to pull back on regulation may have far-reaching implications<br><br>For the development and export of AI chips, as well as the companies involved<br><br>The global AI chip market is expected to continue growing, with a potential value of over <span class="num">$100 b</span>illion<br><br>Source: PYMNTS.com, <span class="num">15 M</span>ar <span class="num">2026</span></div>
+      <div class="text">The acquisition will boost IBM's AI offerings<br><br>Confluent's technology will improve IBM's data processing<br><br>The deal shows the growing importance of real-time data in the AI industry<br><br>IBM's AI capabilities will become more competitive<br><br>Source: varindia.com, <span class="num">18 M</span>ar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
   </div>
+  </div>
 </div>
 
 <hr>
 
-<!-- ========== POST 3: GOOGLE ACCEL INDIA ACCELERATOR ========== -->
-<div class="post-theme" style="--bg:#1A1F3B;--accent:#818493;--accent2:#A3A5B1;--text:#E6E6E6;--accent-rgb:129, 132, 147;">
-  <div class="post-label">POST 3 — GOOGLE ACCEL INDIA ACCELERATOR</div>
+<!-- ========== POST 3: META'S MANUS ACQUISITION ========== -->
+<div class="post-theme" style="--bg:#0B223D;--accent:#798594;--accent2:#9DA7B1;--text:#E6E6E6;--accent-rgb:121, 133, 148;">
+  <div class="post-label">POST 3 — META'S MANUS ACQUISITION</div>
   <div class="slide-row">
   
   <div class="slide" id="p3s1">
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content cover">
-      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="18" rx="20" ry="8" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><path d="M12 18V46C12 50.4 20.9 54 32 54C43.1 54 52 50.4 52 46V18" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><ellipse cx="32" cy="32" rx="20" ry="8" stroke="#4d8dff" stroke-width="1" opacity="0.2"/><ellipse cx="32" cy="18" rx="10" ry="4" fill="#4d8dff" opacity="0.25"/></svg></div>
-      <h1>Big Data Security <span class="g">Market</span> Outlook</h1>
-      <div class="sub">AI-powered solutions on the rise</div>
+      <div class="cover-icon"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="22" stroke="#4d8dff" stroke-width="1.5" opacity="0.4"/><ellipse cx="32" cy="32" rx="12" ry="22" stroke="#4d8dff" stroke-width="1" opacity="0.3"/><line x1="10" y1="32" x2="54" y2="32" stroke="#4d8dff" stroke-width="1" opacity="0.3"/><circle cx="32" cy="32" r="8" fill="#4d8dff" opacity="0.2"/><circle cx="32" cy="32" r="3" fill="#4d8dff"/></svg></div>
+      <h1>China Ramps Up Scrutiny of <span class="g">Meta's</span> Acquisition of Manus</h1>
+      <div class="sub">Regulatory Challenges Ahead</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -351,7 +171,7 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHAT HAPPENED</div>
-      <div class="text">Event date: <span class="num">16 M</span>ar <span class="num">2026</span><br><br>Google and Accel India accelerator have chosen <span class="num">5</span> startups for their program<br><br>None of the chosen startups are 'AI wrappers'<br><br>The startups will receive support and resources to drive their growth<br><br>This initiative highlights Google's commitment to fostering innovation in India</div>
+      <div class="text">Event date: <span class="num">17 M</span>ar <span class="num">2026</span><br><br>China is increasing scrutiny of Meta's acquisition of Manus<br><br>The acquisition has raised concerns about data privacy and security<br><br>Meta must comply with China's regulatory requirements<br><br>The acquisition is valued at an undisclosed amount</div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
@@ -361,11 +181,12 @@
     <div class="grid"></div><div class="blob1"></div><div class="blob2"></div>
     <div class="content body">
       <div class="label">WHY IT MATTERS</div>
-      <div class="text">This initiative is expected to drive innovation and growth in the Indian startup ecosystem<br><br>Google's involvement underscores the importance of supporting emerging technologies<br><br>The chosen startups will have access to resources and expertise to help them scale<br><br>Source: TechCrunch, <span class="num">16 M</span>ar <span class="num">2026</span></div>
+      <div class="text">The acquisition is a significant step for Meta's global expansion<br><br>China's regulatory scrutiny will impact Meta's plans<br><br>The deal highlights the growing importance of regulatory compliance in the tech industry<br><br>Meta must navigate complex regulatory requirements<br><br>Source: The New York Times, <span class="num">17 M</span>ar <span class="num">2026</span></div>
     </div>
     <div class="glow-border"></div><div class="glow-left"></div><div class="glow-right"></div>
     <div class="corner-tl"></div><div class="corner-br"></div>
     <div class="bottom-bar"><span>@dailyainewsone</span><span>3/3</span></div>
+  </div>
   </div>
 </div>
 

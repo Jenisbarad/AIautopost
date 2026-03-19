@@ -1,0 +1,148 @@
+{
+  "date": "2026-03-19",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N22",
+      "eventDate": "18 Mar 2026",
+      "sourceName": "eeNews Europe",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWJxVXFYZlVSX0RSRldzS0dhZmhQVWU4LXR0bXcxbHhwM2xMN0p0R2RTQ09BdFhkZE9WeWFSZ1kwckFXQ0R6YmFCRURyZjN2STZ1UVNobG5YUFcyNmdCWFh3SHRuVm42UF9vcWdva2VRM2ludzhhajJ2VzljY3NWa2JCeHM2a3RHQUE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Funding Hits New High",
+          "subtitle": "Recent surge in investments"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Mar 2026",
+            "AI startup funding hits $220 billion in two months",
+            "A significant increase in investments",
+            "Multiple startups receiving funding",
+            "Investments coming from various VC firms"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Increased funding can lead to more AI innovations",
+            "More startups can develop and launch AI products",
+            "The AI industry can grow and expand",
+            "New job opportunities can be created"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI funding boom can lead to significant advancements in the field",
+            "Startups can focus on developing innovative AI solutions",
+            "Investors are showing confidence in the AI industry",
+            "Source: eeNews Europe, Mar 2026"
+          ]
+        }
+      },
+      "caption": "The AI funding boom is here. With $220 billion in funding in just two months, the AI industry is set to grow exponentially. But what does this mean for the future of AI? Will we see more innovative solutions? Will the industry become more competitive? Questions to consider: What are the potential risks and challenges associated with the AI funding boom? How will the increased funding impact the development of AI products? #AI #Funding #Innovation #Startup #Investment #Technology"
+    },
+    {
+      "id": 2,
+      "topic": "Google Pixel 11",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N14",
+      "eventDate": "17 Mar 2026",
+      "sourceName": "PhoneArena",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNU1zS210MkUxdnRjZkZoRTBXSTF4NGI2dkVHSjBsbUM1MDBtbnNRVXNTT1IwXzZaQXU0TzBVOEpxVEg0S3dieWswS1ZOanY3VURtY1RZOUEyaVpDUFpiVjZGY25aMVJELVJQSFFDM0RMNmdXdGU0dEJHbDYweXBSNg?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Pixel 11: What to Expect",
+          "subtitle": "Upcoming release and features"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Mar 2026",
+            "Google Pixel 11 release date expectations",
+            "Price estimates and upgrades",
+            "New features and improvements",
+            "The phone is expected to have a 6.1-inch screen"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The Google Pixel 11 can offer significant upgrades and improvements",
+            "The phone's camera and battery life may be improved",
+            "The device can be a game-changer in the smartphone market",
+            "The phone's features and upgrades can impact the user experience"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Google Pixel 11 is expected to have significant upgrades",
+            "The phone's camera is expected to be improved",
+            "The battery life may be longer",
+            "Source: PhoneArena, Mar 2026"
+          ]
+        }
+      },
+      "caption": "The Google Pixel 11 is coming soon. With expected upgrades and new features, this phone is set to be a game-changer. But what can we expect from the new device? Will it live up to the hype? Questions to consider: What are the potential features and upgrades of the Google Pixel 11? How will the phone's camera and battery life be improved? #Google #Pixel11 #Smartphone #Technology #Innovation"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N19",
+      "eventDate": "18 Mar 2026",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSnFJZWt6UTBMbER2NUdkWmJtM2lXaVFmNDA0Z1haZy1HNFZadVRpR3lRYXNDQVJrOUlOMTc2SEVyRXIwZTFCNV9lMmZ4Zkc4ODU4OVo5YnhRUDlpXzlJNmp6cGd3clM4VFJlclFJNlJYVldXS01wd0lld3gzV1JwREp4NGhQNTU2VEVxVllyOFJRM1RaM0p5R1pXblMzVlpPR2VHeFo0UGRBU0l4OFE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Security Startup Xbow Valued at $1 Billion",
+          "subtitle": "Significant investment in AI security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Mar 2026",
+            "AI Security Startup Xbow valued at more than $1 billion",
+            "The startup is focused on AI-powered security solutions",
+            "The investment is a significant milestone for the company",
+            "The company's valuation is a testament to the growing importance of AI security"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The investment in Xbow highlights the growing importance of AI security",
+            "AI-powered security solutions are becoming more prevalent",
+            "The company's valuation is a significant milestone",
+            "The investment can lead to more innovative AI security solutions"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The investment in Xbow highlights the growing importance of AI security",
+            "AI-powered security solutions are becoming more prevalent",
+            "The company's valuation is a significant milestone",
+            "Source: Bloomberg.com, Mar 2026"
+          ]
+        }
+      },
+      "caption": "AI security is becoming a major focus for investors. With the recent valuation of Xbow at over $1 billion, it's clear that AI-powered security solutions are in high demand. But what does this mean for the future of cybersecurity? Will we see more AI-powered security solutions? Questions to consider: What are the potential benefits and risks of AI-powered security solutions? How will the investment in Xbow impact the development of AI security products? #AI #Security #Cybersecurity #Investment #Technology"
+    }
+  ]
+}

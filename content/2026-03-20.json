@@ -1,0 +1,128 @@
+{
+  "date": "2026-03-20",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "Google Acquires Wiz",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Expands AI Capabilities",
+          "subtitle": "Acquisition of Wiz for $32 billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google completed the acquisition of Wiz on 16 Mar 2026",
+            "The deal is valued at $32 billion",
+            "This acquisition marks a significant expansion of Google's AI capabilities",
+            "Wiz's technology will be integrated into Google's existing AI portfolio"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition of Wiz demonstrates Google's commitment to investing in AI research and development",
+            "The integration of Wiz's technology will enhance Google's AI capabilities",
+            "This move is expected to have a significant impact on the AI industry",
+            "Questions to consider: What are the potential implications of this acquisition for Google's competitors? How will Wiz's technology be integrated into Google's existing AI portfolio?"
+          ]
+        }
+      },
+      "caption": "Google has acquired Wiz for $32 billion, expanding its AI capabilities. This acquisition marks a significant investment in AI research and development. What are the potential implications of this acquisition for Google's competitors? How will Wiz's technology be integrated into Google's existing AI portfolio? #Google #Wiz #AI #Acquisition #Innovation #Technology. Source: My Startup World, 16 Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10azQtRS1LQ0xpTE5iQkU1dlBmZEpkSGs2SVJvaVFqODJEeFBZX2gtdlRPZ01IbHJ5M0FEYTlEd0hIUFhESnlsOVpPVjZiZzhVVHZwQU4zNXZSNGgxN3c3YWhvRzAzbjE1bUxZVmt6VzBFNUNfUjFzbnJwRklpcTQ?oc=5",
+      "sourceName": "My Startup World",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "16 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "OpenAI Launches GPT 5.4",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Launches New GPT Models",
+          "subtitle": "GPT 5.4 mini and nano models for high-volume workloads"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI launched GPT 5.4 mini and nano models on 18 Mar 2026",
+            "These models are designed for high-volume workloads",
+            "The GPT 5.4 mini model has 1.3 billion parameters",
+            "The GPT 5.4 nano model has 430 million parameters"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of GPT 5.4 mini and nano models demonstrates OpenAI's commitment to improving its language models",
+            "These models are expected to have a significant impact on the natural language processing industry",
+            "The GPT 5.4 mini and nano models will enable developers to build more efficient and effective language-based applications",
+            "Questions to consider: What are the potential applications of the GPT 5.4 mini and nano models? How will these models impact the natural language processing industry?"
+          ]
+        }
+      },
+      "caption": "OpenAI has launched GPT 5.4 mini and nano models for high-volume workloads. These models are designed to improve the efficiency and effectiveness of language-based applications. What are the potential applications of the GPT 5.4 mini and nano models? How will these models impact the natural language processing industry? #OpenAI #GPT #LanguageModels #Innovation #Technology. Source: The Times of India, 18 Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQN1FVRnNvUWFVOTdxbjlJeXY4QWlna203LXRlaUpUamZwdzRnVDYzMWtCeWo3Ti1BeDlNRHA3Tlp2NVJlUTRRMVdVZFktWFZJaWJCUVpHMnRZU2tLMDNQb0dYZjlwVWVHXzl0VExiY1c3b29iMklaS2Jla2pUZ19feUJXYkV4RGNrZjhhVHRGODIta2hvODhxMFZQMWVCOC1INFRDVy1CU0piYkpXaTY0S2thT3oyS3oyWUVFUlQ2bWFLTFJiMkZLLVZZWi1RdmtSZVFiNU9Kd2VxeXpUa0NacXZoeU9HaWlLUDU5ME9jWnhkZUtoaHV5cmlXQjRzVFJLaWQ5X1JqZ2dFdFNzWlNDYtIBlgJBVV95cUxQU1J4bkd2Tm9Hal9sMXlMQzFsTy15dmFNQVhsd3NQNDY2VnRpNmxlNmxxWW4wSmt5cklGY3Z4azNPdWVjUnM5RTJiejU4OEZXVlQ0U0NPMjdHc1p3R0cwMUlmT1pLNWl5elNpU3lOR0dEeFNGUVVteVpUV0NHdWtBaTdtNjJQRlkydEhPcDJRQ0lITVZvNjB1U1l4c0lkRnFKS0twSnRlcDhuS0ZWVFYzU19hNUxaSHdaMnk0ek1LcHNockJ3M1Jra09KTW5DaDdQWXNSUnVSUFBVbkFzUXRjYTBCS1VTQzBHbXUxTUp5aUZIVmVSRGtxLXgwY3hoQTdLSm9ORW9ERi1OYnZwX1lDa0VyampRZw?oc=5",
+      "sourceName": "The Times of India",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "18 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Startup Funding",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N25",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Funding Hits $220 Billion",
+          "subtitle": "In just two months"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Mar 2026",
+            "AI startup funding has reached $220 billion in just two months",
+            "This represents a significant increase in investment in AI research and development",
+            "The funding is being driven by the growing demand for AI-based solutions",
+            "The $220 billion in funding is expected to have a significant impact on the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The significant investment in AI startup funding demonstrates the growing importance of AI in the tech industry",
+            "The funding is expected to drive innovation and advancements in AI research and development",
+            "The growth of AI startups is expected to have a significant impact on the job market and the economy",
+            "The funding is also expected to drive the development of new AI-based products and services"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI startup funding is expected to continue to grow in the coming months",
+            "The funding is being driven by the growing demand for AI-based solutions",
+            "The growth of AI startups is expected to have a significant impact on the job market and the economy",
+            "Source: eeNews Europe, Mar 2026"
+          ]
+        }
+      },
+      "caption": "AI startup funding has hit $220 billion in just two months. This represents a significant increase in investment in AI research and development. What are the potential implications of this funding for the AI industry? How will the funding drive innovation and advancements in AI research and development? #AI #Startup #Funding #Innovation #Technology. Source: eeNews Europe, 18 Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWJxVXFYZlVSX0RSRldzS0dhZmhQVWU4LXR0bXcxbHhwM2xMN0p0R2RTQ09BdFhkZE9WeWFSZ1kwckFXQ0R6YmFCRURyZjN2STZ1UVNobG5YUFcyNmdCWFh3SHRuVm42UF9vcWdva2VRM2ludzhhajJ2VzljY3NWa2JCeHM2a3RHQUE?oc=5",
+      "sourceName": "eeNews Europe",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "18 Mar 2026"
+    }
+  ]
+}

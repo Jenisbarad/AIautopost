@@ -1,0 +1,123 @@
+{
+  "date": "2026-03-22",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "Ecolab Acquisition",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Ecolab's Bold Move",
+          "subtitle": "Acquiring CoolIT for $4.75 billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Ecolab acquired CoolIT for $4.75 billion on 21 Mar 2026",
+            "The acquisition is a significant bet on the AI boom",
+            "Ecolab is expected to leverage CoolIT's AI capabilities to enhance its offerings"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI in the industry",
+            "Ecolab's move is expected to have a significant impact on the market",
+            "The deal value of $4.75 billion indicates the high stakes involved"
+          ]
+        }
+      },
+      "caption": "Ecolab's acquisition of CoolIT is a significant development in the AI space. The deal value of $4.75 billion highlights the importance of AI in the industry. What are the implications of this acquisition for the market? How will Ecolab leverage CoolIT's AI capabilities? #AI #Acquisition #Ecolab #CoolIT #IndustryTrends #MarketImpact",
+      "questions": "Questions to consider: What are the potential benefits of Ecolab's acquisition of CoolIT? How will the acquisition impact the competitive landscape?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZzladHZVWkNrenBMVm1ZcmdqSWdlczFBRS1tMkZaN3YyRTJiNGo0blgyeU0zLW9SQ1VUZnpFWm1JQXJLeE0wRHhvZ3pyb3dRR2tkcmxqUmRMZDlRVVpGZ1RQN1NDNVNWekxzbHAxLUlsS3RxbE9XbVFSRkU4ZkpUNU41SENCWnJ5RHgzTmdtZmFWRC1wamNybkE0cE9TYTJUQnZjTDN0d0RXZnJNRVVtTmlxTkpjU1hC0gG_AUFVX3lxTFBWSlE1TFo2UHlHUXc3cWdoYkc3MTNzSU82QUF5UWIwQnV4dzFoMzVzYnBXRWFGSV9PV1BrUloyRUVRandvUmdEVHZyZ1dKRVJXYW5WcEtwbGtZVkgzVmJON2cyQWczellocnJRVy1HRnF2Q1pQeTBVQTEtTU1QOXZQU2dDWTJlMFJKT3QxOHdJUC1mVFJLMHFjcHk5anlqTnlYS1Fodld6aVRFT2pramExaXFzQ1VlSU9wbWptazdv?oc=5",
+      "sourceName": "Indian Chemical News",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "21 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "TikTok Disinformation",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "TikTok Disinformation Study",
+          "subtitle": "Raising concerns over AI content and EU regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "A study on TikTok disinformation raised concerns over AI content and EU regulation on 20 Mar 2026",
+            "The study highlighted the need for more effective regulation of AI-generated content",
+            "TikTok has faced criticism for its handling of disinformation on its platform"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The study's findings have significant implications for social media regulation",
+            "AI-generated content poses a unique challenge for regulators",
+            "Effective regulation is crucial to mitigating the risks associated with disinformation"
+          ]
+        }
+      },
+      "caption": "The TikTok disinformation study has raised important questions about the role of AI in spreading misinformation. What are the implications of the study's findings for social media regulation? How can regulators effectively address the challenges posed by AI-generated content? #TikTok #Disinformation #AI #Regulation #SocialMedia",
+      "questions": "Questions to consider: What are the potential consequences of ineffective regulation of AI-generated content? How can social media platforms balance free speech with the need to mitigate disinformation?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXhmUzFsTzdyN296VzBodURHQTFObnY1R0xIRGV0RmlfX04xR21LenNtWjV3OFJwTHZoNHktLVNodDV0by1EX0hZWnE2cDM0ektkaVRwcVMtd1FsaXBFNHpNdFBMdUt0T2tCeTR4T2JrcTZ4OXg1WEt1MlpVX2RSbmFFU0ltV0RwcmhSVFBuNWlUcTFyZGxCS2daU3BNUmNiYkY0X0pB?oc=5",
+      "sourceName": "Digital Watch Observatory",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "20 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "OpenAI GPT 5.4",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's Latest Release",
+          "subtitle": "GPT 5.4 mini and nano models for high-volume workloads"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI launched GPT 5.4 mini and nano models on 18 Mar 2026",
+            "The models are designed for high-volume workloads",
+            "GPT 5.4 mini has 1.3 billion parameters, while the nano model has 780 million parameters"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The release of GPT 5.4 mini and nano models is a significant development in the AI space",
+            "The models are expected to have a wide range of applications",
+            "OpenAI's release highlights the rapid progress being made in AI research"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The GPT 5.4 mini and nano models have the potential to revolutionize high-volume workloads",
+            "The models' performance is expected to be significantly improved compared to previous versions",
+            "Source: The Times of India, Mar 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's release of GPT 5.4 mini and nano models is a significant development in the AI space. The models have the potential to revolutionize high-volume workloads. What are the potential applications of the GPT 5.4 mini and nano models? How will the release impact the competitive landscape in the AI industry? #OpenAI #GPT #AI #MachineLearning #HighVolumeWorkloads",
+      "questions": "Questions to consider: What are the potential benefits of using the GPT 5.4 mini and nano models? How will the release of the models impact the development of AI-powered applications?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQN1FVRnNvUWFVOTdxbjlJeXY4QWlna203LXRlaUpUamZwdzRnVDYzMWtCeWo3Ti1BeDlNRHA3Tlp2NVJlUTRRMVdVZFktWFZJaWJCUVpHMnRZU2tLMDNQb0dYZjlwVWVHXzl0VExiY1c3b29iMklaS2Jla2pUZ19feUJXYkV4RGNrZjhhVHRGODIta2hvODhxMFZQMWVCOC1INFRDVy1CU0piYkpXaTY0S2thT3oyS3oyWUVFUlQ2bWFLTFJiMkZLLVZZWi1RdmtSZVFiNU9Kd2VxeXpUa0NacXZoeU9HaWlLUDU5ME9jWnhkZUtoaHV5cmlXQjRzVFJLaWQ5X1JqZ2dFdFNzWlNDYtIBlgJBVV95cUxQU1J4bkd2Tm9Hal9sMXlMQzFsTy15dmFNQVhsd3NQNDY2VnRpNmxlNmxxWW4wSmt5cklGY3Z4azNPdWVjUnM5RTJiejU4OEZXVlQ0U0NPMjdHc1p3R0cwMUlmT1pLNWl5elNpU3lOR0dEeFNGUVVteVpUV0NHdWtBaTdtNjJQRlkydEhPcDJRQ0lITVZvNjB1U1l4c0lkRnFKS0twSnRlcDhuS0ZWVFYzU19hNUxaSHdaMnk0ek1LcHNockJ3M1Jra09KTW5DaDdQWXNSUnVSUFBVbkFzUXRjYTBCS1VTQzBHbXUxTUp5aUZIVmVSRGtxLXgwY3hoQTdLSm9ORW9ERi1OYnZwX1lDa0VyampRZw?oc=5",
+      "sourceName": "The Times of India",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "18 Mar 2026"
+    }
+  ]
+}

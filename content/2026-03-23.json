@@ -1,0 +1,147 @@
+{
+  "date": "2026-03-23",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Measures",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "eventDate": "19 Mar 2026",
+      "sourceName": "NDTV Sports",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeXBlejcwTG04TzFxb0JlYUNnM3ltcTg0b2pyUkJrSmZyR3BiOVVCU2ctY0Fpbk5scDRNdzZGRGZ5Q1hIWWpfeDg0TU5zRkhxc1JqNmM3c2VRUmgzTTc3blo4M1RtYmFRbWtiUUphdHdvNm53QkN3MlU2ZGE4ZG5JTmE2UG5lU2xPY2hIZ2JfSG5TYXdld1JHNVdfdUFiUEM0NGp1bnA5LXJ0WDRxYURUV1lKaF9xWFByaldNVVZpN1FBVEtneWhtdzN0SVhtRGpCeHc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI in Sports Security",
+          "subtitle": "A new trend in security measures"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "RCB's IPL 2026 home games may use AI for security",
+            "A report claims AI will play a major role in security measures",
+            "The exact details of the AI system are not disclosed",
+            "But it's expected to enhance security for the games"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The use of AI in security measures is becoming more common",
+            "It can help detect and prevent potential threats",
+            "The effectiveness of AI in security measures will be closely watched",
+            "This trend may influence other sports teams to adopt AI security"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The use of AI in security measures is becoming more common",
+            "It can help detect and prevent potential threats",
+            "The effectiveness of AI in security measures will be closely watched",
+            "Source: NDTV Sports, Mar 2026"
+          ]
+        }
+      },
+      "caption": "The use of AI in security measures is becoming more common. Recently, it was reported that RCB's IPL 2026 home games may use AI for security. Questions to consider: How effective will AI be in enhancing security measures? What are the potential risks of relying on AI for security? #AI #Security #Sports #Innovation #Technology #Safety."
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N6",
+      "eventDate": "22 Mar 2026",
+      "sourceName": "i-hls.com",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5YUktZVk43bjRCWGFDdFR0RzEzay05LVFvV2RHWmlqV29PZDJBY2g3eV9XcXQ1aFRVSFVFMHNfeWQ3aGpKODlUaw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Security Startup Funding",
+          "subtitle": "A significant investment in AI security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Mar 2026",
+            "An AI security startup received $8M in funding",
+            "The funding will be used to protect autonomous agents",
+            "The startup is focused on AI security for autonomous systems",
+            "The funding amount is significant, at $8M"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help the startup expand its services",
+            "It will also help the startup improve its AI security technology",
+            "The investment is a sign of the growing importance of AI security",
+            "The startup is poised for growth with this funding"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will help the startup expand its services",
+            "It will also help the startup improve its AI security technology",
+            "The investment is a sign of the growing importance of AI security",
+            "Source: i-hls.com, Mar 2026"
+          ]
+        }
+      },
+      "caption": "An AI security startup received $8M in funding to protect autonomous agents. Questions to consider: How will this funding impact the development of AI security technology? What are the potential applications of this technology? #AI #Funding #Security #AutonomousSystems #Innovation #Technology."
+    },
+    {
+      "id": 3,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N8",
+      "eventDate": "22 Mar 2026",
+      "sourceName": "Hindustan Times",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWmJWZ2xDWHpQdTJUaGM2andBRVRDU2xmU3UzeVpITXZRM1A3anBTcTRmU2FsLTNpQ0dIcm50REVTVmNtMkU4WGNfaDhsRm5CYlY5c3cwOVNGbVJkUXMzOHl3aFctMjJGTEZWLWxMSXBBSkRHWnNPNVk2S0VlNzhFcFdSa2ZvRUsxODRXVmx5RUNKRGtwLTB2TVJ4aDREUnJLRTVXOHVzek9iTDRHUEtVUGFWOHJQU2ZrWV81c2pTM21LSzJIcFRVSFBB0gHPAUFVX3lxTE9WUW1ZQ0YwZldHWl9xbVUtMmFoczQyZzM0QTZ3eXlDNlJiT3AxUWxNbnZqRG9XZmJmUmtPWUhSanNJTEZoWjhjV3ZCQ2xGaGxiMUF3Y3lnMFRSOFJJX0Z4RjZtYmE0bUljbzY1S2NYclBCNWVJc3hYVXNHbEZaaGlENFRaY1F6RjJLTjY1aWFqb1VlZlJ5NlNIREJkYUxCaVgtbVUxZmdkTWhZWXpiVlg1X1p2TndnYUN1UHYzdG5ETVl6LXhESGQwX2NoaFNaTQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Regulation in India",
+          "subtitle": "A new approach to AI regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Mar 2026",
+            "India's AI regulation may be built through its ecosystem",
+            "The approach will focus on developing a robust AI ecosystem",
+            "The regulation will aim to promote AI innovation and growth",
+            "The exact details of the regulation are not disclosed"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The regulation will aim to promote AI innovation and growth",
+            "It will also focus on developing a robust AI ecosystem",
+            "The approach is unique and may set a precedent for other countries",
+            "This regulation may influence the development of AI in India"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The regulation will aim to promote AI innovation and growth",
+            "It will also focus on developing a robust AI ecosystem",
+            "The approach is unique and may set a precedent for other countries",
+            "Source: Hindustan Times, Mar 2026"
+          ]
+        }
+      },
+      "caption": "India's AI regulation may be built through its ecosystem, focusing on developing a robust AI ecosystem. Questions to consider: How will this approach impact the development of AI in India? What are the potential benefits and challenges of this approach? #AI #Regulation #India #Innovation #Ecosystem #Growth."
+    }
+  ]
+}

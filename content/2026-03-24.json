@@ -8,123 +8,121 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Security Update",
-      "slides": 4,
-      "svgIcon": "shield",
-      "sourceId": "N18",
-      "eventDate": "24 Mar 2026",
-      "sourceName": "SMEStreet",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbTMxQi1KajNLQU43cm5rZXJNRUpFeFhnZTdWTXN4aVBRX0dWUHJXZ0MwMHJ4Ykt1ZzdLRjZla0Q4a0kxTUI1S0FYR05hX0s3bU0yNGVLNW1vSHhwSXVVcGdFVnBXNTFRU012STRsa2VoR3BrbmhyWFNuVnJ5NmRUeGF4ckh1czJ3Z01naU4wWHhEcXMzWjZ5Skt5VG0?oc=5",
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "Cisco Boosts AI Security",
-          "subtitle": "With new Agentic AI tools"
+          "headline": "EU AI Act's Draft Code of Practice",
+          "subtitle": "What providers and deployers need to know"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 24 Mar 2026",
-            "Cisco has strengthened its AI security capabilities",
-            "With the introduction of new Agentic AI tools",
-            "These tools are designed to enhance threat detection and response",
-            "And provide better protection for customers"
+            "The EU AI Act’s draft Code of Practice on marking and labelling of AI-generated content was released on 24 Mar 2026",
+            "This code of practice aims to provide guidance on the marking and labelling of AI-generated content",
+            "It will impact providers and deployers of AI-generated content",
+            "The exact details of the code are not yet available"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The new tools will help Cisco customers to better protect themselves against cyber threats",
-            "And improve their overall security posture",
-            "This is especially important in today's digital landscape",
-            "Where threats are becoming increasingly sophisticated"
+            "This code of practice will help to increase transparency and trust in AI-generated content",
+            "It will also help to prevent the spread of misinformation",
+            "Questions to consider: What are the implications of this code of practice for AI developers?",
+            "How will it impact the use of AI-generated content in different industries?",
+            "Source: Kennedys Law LLP, 24 Mar 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act's draft Code of Practice on marking and labelling of AI-generated content has been released. This code of practice aims to provide guidance on the marking and labelling of AI-generated content. It will impact providers and deployers of AI-generated content. What are the implications of this code of practice for AI developers? How will it impact the use of AI-generated content in different industries? #EUAIAct #AIRegulation #Transparency #Trust #AI #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxNd0dwcDVZYk5LV0c0T0JoZTNmblQ5UVdtRlJlMWY1TUI1RDFTSzdSY00ydWI3cl9Pb21TTXZKOXFjVkktaUZtWTRucWM2Tml2MkJZcjBuU25Gb0FQNXFjT0xkSnNkZGhzUlRaS3dfYjV2NVNEQ2l5ZUJ4NnFSaU1EY1BibGNxRUhUSXJubjV4dlFHZVh0RG9xWXdILUFPMVdVZm03dkxGeE0wY2hzRUdaV2p1UjRYZHd3X2d2c05QYVNWYWRYcDM4MTVsZmt6YnloMXRHV0hMcUZZWEROOTB5RllhMkp4U3hwNTdwSzB0YXowZTB0Sm11Zjh5WDFLWW4zXzBKWnRMbDBIV01nY0hHNHhYUXJaWHNJQmRhOWtn?oc=5",
+      "sourceName": "Kennedys Law LLP",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "24 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Interloom Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Interloom Raises $16.5 Million in VC Funding",
+          "subtitle": "Exclusive: Interloom, which wants to solve AI agents' 'tacit knowledge' problem, raises $16.5 million in VC funding"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Interloom raised $16.5 million in VC funding on 23 Mar 2026",
+            "This funding will be used to solve AI agents' 'tacit knowledge' problem",
+            "Interloom aims to improve the ability of AI agents to understand and apply tacit knowledge",
+            "The funding round was led by a group of investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding will help Interloom to develop its technology and improve the ability of AI agents to understand and apply tacit knowledge",
+            "It will also help to increase the adoption of AI agents in different industries",
+            "The funding round is a significant milestone for Interloom and demonstrates the potential of its technology"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Cisco's move to boost AI security is a significant development in the industry",
-            "It highlights the importance of AI in cybersecurity",
-            "And demonstrates Cisco's commitment to providing innovative security solutions",
-            "Source: SMEStreet, Mar 2026"
+            "The funding round was led by a group of investors",
+            "Interloom aims to improve the ability of AI agents to understand and apply tacit knowledge",
+            "The company plans to use the funding to develop its technology and increase its market presence",
+            "Source: Fortune, Mar 2026"
           ]
         }
       },
-      "caption": "Cisco has taken a significant step in enhancing its AI security capabilities with the introduction of new Agentic AI tools. This move is expected to improve threat detection and response for its customers. But what does this mean for the future of cybersecurity? How will AI continue to shape the industry? What are the potential risks and benefits of relying on AI for security? #AI #Security #Cisco #AgenticAI #Cybersecurity #Innovation\nQuestions to consider: What are the implications of AI-powered security tools for businesses? How can organizations balance the benefits of AI security with the potential risks? #AISecurity #CybersecurityNews"
-    },
-    {
-      "id": 2,
-      "topic": "TikTok Disinformation Study",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N1",
-      "eventDate": "20 Mar 2026",
-      "sourceName": "Digital Watch Observatory",
+      "caption": "Interloom has raised $16.5 million in VC funding to solve AI agents' 'tacit knowledge' problem. This funding will be used to develop its technology and improve the ability of AI agents to understand and apply tacit knowledge. What are the implications of this funding for the development of AI agents? How will it impact the adoption of AI agents in different industries? #Interloom #AI #Funding #VC #ArtificialIntelligence #TacitKnowledge",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWjRsSmNmQ3M4clY5alRPV1VSZVNrazQ5U3BwTWlGQzBtVHpHOXV6QnQxNDAyOGo4N2M2YXBQT1k5cjItbVBxUnkxWTRlTWh4S1pXbm9CbEZoN1FwMXM4blAzeE5HY2ZySGlGVFRwWUdTTW1icFdnRVo3aEFJdm5IYkdmWC14WkVQUndFTWpB?oc=5",
+      "sourceName": "Fortune",
       "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXhmUzFsTzdyN296VzBodURHQTFObnY1R0xIRGV0RmlfX04xR21LenNtWjV3OFJwTHZoNHktLVNodDV0by1EX0hZWnE2cDM0ektkaVRwcVMtd1FsaXBFNHpNdFBMdUt0T2tCeTR4T2JrcTZ4OXg1WEt1MlpVX2RSbmFFU0ltV0RwcmhSVFBuNWlUcTFyZGxCS2daU3BNUmNiYkY0X0pB?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "TikTok Disinformation Raises Concerns",
-          "subtitle": "EU regulation and AI content"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 20 Mar 2026",
-            "A recent study has raised concerns over disinformation on TikTok",
-            "The study highlights the spread of false information on the platform",
-            "With 20% of users reporting they have seen fake news on the app",
-            "And 15% saying they have shared misinformation themselves"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The study's findings have significant implications for EU regulation of social media platforms",
-            "It highlights the need for more effective moderation of AI-generated content",
-            "And demonstrates the importance of media literacy in combating disinformation",
-            "Source: Digital Watch Observatory, 20 Mar 2026"
-          ]
-        }
-      },
-      "caption": "A recent study has raised concerns over disinformation on TikTok, highlighting the spread of false information on the platform. But what does this mean for EU regulation of social media? How can platforms like TikTok better moderate AI-generated content? What role can media literacy play in combating disinformation? #TikTok #Disinformation #EURegulation #SocialMedia #AI #MediaLiteracy\nQuestions to consider: What are the potential consequences of disinformation on social media? How can individuals and organizations work together to combat misinformation? #Disinformation #SocialMediaNews"
+      "eventDate": "23 Mar 2026"
     },
     {
       "id": 3,
-      "topic": "Doctronic Funding",
+      "topic": "Anthropic's Claude",
       "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N2",
-      "eventDate": "23 Mar 2026",
-      "sourceName": "statnews.com",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUtEQ3pnYmx1alNxME5FZW9JQnl1S1BRQmYwbF9JQXdEdENEY1BuSW9BUi02N1A1MS1BUjRkeFNuZTVCNkVNVGw1TTFWajJMbkVEYWJpbms4d2RfX1dLX2xiXy0yQkFHUWtmTy1ydHBjNld5TTQzd25rSTFjWDlRcXNOeEEwTHpEM1E?oc=5",
+      "sourceId": "N6",
       "slideContent": {
         "slide1": {
-          "headline": "Doctronic Raises $40 Million",
-          "subtitle": "For AI-powered clinical care"
+          "headline": "Anthropic's Claude Can Now Control Your Computer",
+          "subtitle": "Will it replace OpenClaw?"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 23 Mar 2026",
-            "Doctronic has raised $40 million in funding",
-            "The investment will be used to develop its AI-powered clinical care platform",
-            "The platform aims to improve patient outcomes and reduce healthcare costs",
-            "With the potential to revolutionize the industry"
+            "Anthropic's Claude can now control your computer, according to a report on 24 Mar 2026",
+            "This new capability allows Claude to finish tasks for users",
+            "It uses AI to understand and execute user requests",
+            "The exact details of this capability are not yet available"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The funding is a significant boost for Doctronic's AI-powered clinical care platform",
-            "It demonstrates the growing interest in AI-powered healthcare solutions",
-            "And highlights the potential for AI to transform the healthcare industry",
-            "Source: statnews.com, 23 Mar 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This new capability has significant implications for the development of AI agents",
+            "It demonstrates the potential of AI to improve productivity and efficiency",
+            "Questions to consider: What are the implications of this capability for the future of work?",
+            "How will it impact the development of AI agents in different industries?",
+            "Source: The Indian Express, 24 Mar 2026"
           ]
         }
       },
-      "caption": "Doctronic has raised $40 million in funding to develop its AI-powered clinical care platform. But what does this mean for the future of healthcare? How can AI-powered solutions improve patient outcomes and reduce costs? What are the potential challenges and limitations of implementing AI in clinical care? #Doctronic #AI #Healthcare #ClinicalCare #Funding #Innovation\nQuestions to consider: What are the implications of AI-powered healthcare solutions for patients and providers? How can organizations balance the benefits of AI with the potential risks and challenges? #AIHealthcare #ClinicalCareNews"
+      "caption": "Anthropic's Claude can now control your computer, according to a report. This new capability allows Claude to finish tasks for users. What are the implications of this capability for the future of work? How will it impact the development of AI agents in different industries? #Anthropic #Claude #AI #ArtificialIntelligence #Productivity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNTRvNEZSejZIanpaTlRTcURtNUt6MWJIN3dRNjlpVXNoekh0UndKV1A5VHZYTmdfM0F6SHlmZ2o1UkVLdm0zQVJVVl9DY3E0a0FRX3RsOTM0Smw3YVhsX29NcEdxbGlyaWQxN2JPQUFGek5EWC0yazRIWXlZWm5GeXRmaWFGQ3BvaXY3SDNwdTFZSmFEVHkyTzFsalVucWtLd0Q1OTR0WXNqU09jaDVBVnVuY2V0WEFIbnJpdzVnWmljcGY0T2fSAcwBQVVfeXFMTXFYZnliZE5EcE9yanF3MEZHS1RITjIyV1RoNnFrVFJ5SDBPY1dyOUprVThiRE5kTzlKRHhGNVAxRkFCWklYOUxMa2h1OUpZVXNhaTJNZkVhNTZ0bTdTd1dOcXFkelk2YzNlMXk2NWZtYTNRaDB3WWkyZDI3M1c1R3BWSjgzYUNQei12YzRwcW96WlFfQUZEc205S3VMV1l2UThIRWFMUVpONlN2THZZalJWWWR0ZnktY00xN0VGdDV2WEh1UnJ4ZUdjVHV2?oc=5",
+      "sourceName": "The Indian Express",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "24 Mar 2026"
     }
   ]
 }

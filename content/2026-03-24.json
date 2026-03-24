@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-24",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Update",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N18",
+      "eventDate": "24 Mar 2026",
+      "sourceName": "SMEStreet",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbTMxQi1KajNLQU43cm5rZXJNRUpFeFhnZTdWTXN4aVBRX0dWUHJXZ0MwMHJ4Ykt1ZzdLRjZla0Q4a0kxTUI1S0FYR05hX0s3bU0yNGVLNW1vSHhwSXVVcGdFVnBXNTFRU012STRsa2VoR3BrbmhyWFNuVnJ5NmRUeGF4ckh1czJ3Z01naU4wWHhEcXMzWjZ5Skt5VG0?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cisco Boosts AI Security",
+          "subtitle": "With new Agentic AI tools"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 24 Mar 2026",
+            "Cisco has strengthened its AI security capabilities",
+            "With the introduction of new Agentic AI tools",
+            "These tools are designed to enhance threat detection and response",
+            "And provide better protection for customers"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The new tools will help Cisco customers to better protect themselves against cyber threats",
+            "And improve their overall security posture",
+            "This is especially important in today's digital landscape",
+            "Where threats are becoming increasingly sophisticated"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Cisco's move to boost AI security is a significant development in the industry",
+            "It highlights the importance of AI in cybersecurity",
+            "And demonstrates Cisco's commitment to providing innovative security solutions",
+            "Source: SMEStreet, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Cisco has taken a significant step in enhancing its AI security capabilities with the introduction of new Agentic AI tools. This move is expected to improve threat detection and response for its customers. But what does this mean for the future of cybersecurity? How will AI continue to shape the industry? What are the potential risks and benefits of relying on AI for security? #AI #Security #Cisco #AgenticAI #Cybersecurity #Innovation\nQuestions to consider: What are the implications of AI-powered security tools for businesses? How can organizations balance the benefits of AI security with the potential risks? #AISecurity #CybersecurityNews"
+    },
+    {
+      "id": 2,
+      "topic": "TikTok Disinformation Study",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N1",
+      "eventDate": "20 Mar 2026",
+      "sourceName": "Digital Watch Observatory",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXhmUzFsTzdyN296VzBodURHQTFObnY1R0xIRGV0RmlfX04xR21LenNtWjV3OFJwTHZoNHktLVNodDV0by1EX0hZWnE2cDM0ektkaVRwcVMtd1FsaXBFNHpNdFBMdUt0T2tCeTR4T2JrcTZ4OXg1WEt1MlpVX2RSbmFFU0ltV0RwcmhSVFBuNWlUcTFyZGxCS2daU3BNUmNiYkY0X0pB?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "TikTok Disinformation Raises Concerns",
+          "subtitle": "EU regulation and AI content"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Mar 2026",
+            "A recent study has raised concerns over disinformation on TikTok",
+            "The study highlights the spread of false information on the platform",
+            "With 20% of users reporting they have seen fake news on the app",
+            "And 15% saying they have shared misinformation themselves"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The study's findings have significant implications for EU regulation of social media platforms",
+            "It highlights the need for more effective moderation of AI-generated content",
+            "And demonstrates the importance of media literacy in combating disinformation",
+            "Source: Digital Watch Observatory, 20 Mar 2026"
+          ]
+        }
+      },
+      "caption": "A recent study has raised concerns over disinformation on TikTok, highlighting the spread of false information on the platform. But what does this mean for EU regulation of social media? How can platforms like TikTok better moderate AI-generated content? What role can media literacy play in combating disinformation? #TikTok #Disinformation #EURegulation #SocialMedia #AI #MediaLiteracy\nQuestions to consider: What are the potential consequences of disinformation on social media? How can individuals and organizations work together to combat misinformation? #Disinformation #SocialMediaNews"
+    },
+    {
+      "id": 3,
+      "topic": "Doctronic Funding",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "23 Mar 2026",
+      "sourceName": "statnews.com",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUtEQ3pnYmx1alNxME5FZW9JQnl1S1BRQmYwbF9JQXdEdENEY1BuSW9BUi02N1A1MS1BUjRkeFNuZTVCNkVNVGw1TTFWajJMbkVEYWJpbms4d2RfX1dLX2xiXy0yQkFHUWtmTy1ydHBjNld5TTQzd25rSTFjWDlRcXNOeEEwTHpEM1E?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Doctronic Raises $40 Million",
+          "subtitle": "For AI-powered clinical care"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 23 Mar 2026",
+            "Doctronic has raised $40 million in funding",
+            "The investment will be used to develop its AI-powered clinical care platform",
+            "The platform aims to improve patient outcomes and reduce healthcare costs",
+            "With the potential to revolutionize the industry"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding is a significant boost for Doctronic's AI-powered clinical care platform",
+            "It demonstrates the growing interest in AI-powered healthcare solutions",
+            "And highlights the potential for AI to transform the healthcare industry",
+            "Source: statnews.com, 23 Mar 2026"
+          ]
+        }
+      },
+      "caption": "Doctronic has raised $40 million in funding to develop its AI-powered clinical care platform. But what does this mean for the future of healthcare? How can AI-powered solutions improve patient outcomes and reduce costs? What are the potential challenges and limitations of implementing AI in clinical care? #Doctronic #AI #Healthcare #ClinicalCare #Funding #Innovation\nQuestions to consider: What are the implications of AI-powered healthcare solutions for patients and providers? How can organizations balance the benefits of AI with the potential risks and challenges? #AIHealthcare #ClinicalCareNews"
+    }
+  ]
+}

@@ -8,122 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition",
-      "slides": 4,
-      "svgIcon": "chip",
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "globe",
       "sourceId": "N3",
-      "eventDate": "25 Mar 2026",
-      "sourceName": "Law.asia",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52SHE0NlJWYktLaTM0Xy1xODdreGxlTFM3emhjeVBvNGl2bkVERG00dm90dENuN2RSTmtLamdnanVSVUpENThnLWVRYURYbjlkTnVzVTlLWlo3MVZSTkhV?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Marvell Technology's Big Move",
-          "subtitle": "Acquiring Celestial AI for $3.25 billion"
+          "headline": "EU AI Regulation Risks Undermining Europe's Security",
+          "subtitle": "Recent reports highlight the potential risks of EU AI regulation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Marvell Technology acquired Celestial AI on 25 Mar 2026",
-            "The acquisition is worth $3.25 billion",
-            "This move is expected to boost Marvell's AI capabilities",
-            "The company aims to expand its AI offerings"
+            "On 25 Mar 2026, the International Business Times UK reported that EU AI regulation risks undermining Europe's security and economic growth.",
+            "The report highlights the potential risks of overregulation in the AI sector.",
+            "90% of organisations are pressured to loosen identity controls for AI, according to a Delinea report.",
+            "This could have significant implications for the future of AI development in Europe."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The acquisition is a significant step for Marvell Technology",
-            "It will help the company to improve its AI capabilities",
-            "The move is expected to have a positive impact on the company's revenue",
-            "The acquisition will also help Marvell to expand its customer base"
+            "The EU AI regulation could have far-reaching consequences for the development of AI in Europe.",
+            "It could impact the ability of companies to innovate and compete in the global AI market.",
+            "The regulation could also have implications for national security and economic growth.",
+            "Questions to consider: What are the potential risks and benefits of EU AI regulation? How might it impact the development of AI in Europe?"
+          ]
+        }
+      },
+      "caption": "The EU AI regulation could have significant implications for the development of AI in Europe. With 90% of organisations pressured to loosen identity controls for AI, the potential risks of overregulation are clear. What are the potential risks and benefits of EU AI regulation? How might it impact the development of AI in Europe? #AI #Regulation #Europe #Security #EconomicGrowth #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMFlwVTRZcnVpd1Y5V0IyUlBvNlI2ZDhfSkRZOGJYWl9GTlJ3M2dLOU5GTGg3dWljaUcxV2hobTZJRUxjazRBZnhSeUhGT3hHQXV3VjRaWFhxNXVhRE9SY1pkbmhSOGg1YjFhSDV3a3JfYnRRNkJqczNEcW0tYnp5b2tlM0paM3ZSNkgxMHBZMEx4VFk5VmdPLUYtUEl6aGdRT1RtbEV4R193eUZQd3l6T0NaNEdic1dJOFE?oc=5",
+      "sourceName": "International Business Times UK",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "25 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N21",
+      "slideContent": {
+        "slide1": {
+          "headline": "Legal AI Startup Harvey Raises $200 Million",
+          "subtitle": "Recent funding round values the company at $11 billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 25 Mar 2026, Legal AI startup Harvey raised $200 million in a funding round.",
+            "The funding round values the company at $11 billion.",
+            "This is a significant investment in the AI sector, highlighting the growing interest in AI startups.",
+            "The funding will be used to further develop Harvey's AI technology."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round is a significant investment in the AI sector, highlighting the growing interest in AI startups.",
+            "It demonstrates the potential for AI companies to attract large investments and achieve high valuations.",
+            "The funding will be used to further develop Harvey's AI technology, which could have significant implications for the legal industry.",
+            "This could lead to increased efficiency and accuracy in legal proceedings."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a strategic move by Marvell Technology",
-            "It will help the company to stay competitive in the AI market",
-            "The move is expected to have a positive impact on the company's stock price",
-            "Source: Law.asia, Mar 2026"
+            "The funding round is a significant investment in the AI sector.",
+            "It demonstrates the potential for AI companies to attract large investments and achieve high valuations.",
+            "The funding will be used to further develop Harvey's AI technology, which could have significant implications for the legal industry.",
+            "Source: The Economic Times, Mar 2026"
           ]
         }
       },
-      "caption": "Marvell Technology has acquired Celestial AI for $3.25 billion. This move is expected to boost the company's AI capabilities and expand its customer base. What does this mean for the future of AI in the tech industry? Questions to consider: How will this acquisition impact Marvell's competitors? What are the potential risks and challenges associated with this acquisition? #AI #Acquisition #MarvellTechnology #CelestialAI #TechNews #Business"
-    },
-    {
-      "id": 2,
-      "topic": "AI Security",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N21",
-      "eventDate": "23 Mar 2026",
-      "sourceName": "Stock Titan",
+      "caption": "Legal AI startup Harvey has raised $200 million in a funding round, valuing the company at $11 billion. This significant investment in the AI sector highlights the growing interest in AI startups. What are the implications of this funding round for the AI sector? How might it impact the development of AI technology in the legal industry? #AI #Funding #Startup #LegalTech #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYmR1UmFvZ0syRW9CS2NwMjRpMEdSdDdBT2VKekZFa0tibFo5TUlaOHgybFRmZS1jQ2stNVNuWl9HakR4aDBUSEdldFI3RmppTnZlMEFYdVJZMWlrWU5aN3ZDSE93VHBHNHdnSHZMYlVwUUViSHJSVE5hWHZLNWFoWEdpYlkxa1V0T3d3OXpMbXdwWlBFVnhsSnh0blB1ei1GZmtQMkhJdGVqODFSczlNeWhkX1h5RlhDU2NFZnVDNllwVXBNS3ZKTGtRdkRRZ9IB0wFBVV95cUxNRnFoRWxZV2E5aFZqNkF5SVlzTThrQ2FueVVvWjhUQjlHQ20wbDlJRW91U2VKenhlTTIxLTF3RDF2a25rRmk4Y095V0w3bGlRWm5FY21CV0MwY0o3OHBieTFoN1k4YUt6N09TNzY1TDZRTUtLR1RobnRKZjNTQ0hhSWh5a0k0eEU5ODV4NlRQaGc3LW1xcUtwY0hBbmZ0eGV3c211MnJlZWdFWUpxbHk5dGMyeEsxeWVhdloxazFLR2lxUEZOaVVleFNlYTBzUjNCMDlV?oc=5",
+      "sourceName": "The Economic Times",
       "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5MM0Zzb0F4R0tPMGtwSmFnZjRkSXp6X0cyTkFkRDNYY213QUJaQ05zZGJjd0RMaF9JTmpRN3VjRHRoNi1tdDZBUk9KYVIydjdOZUxXSnFiT0NKb2FkRWcyb0tzRTRaTUpKdXhGR1BWWVBScHplTVJTb29admdJMmRENVlDUVQtZGw0LUxGaXJ5QlZVSEFJZENOZzc3UzhUNzFSWVItM1Z0aFJSN3YwelROdmJydWM?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "AI Security Maturity",
-          "subtitle": "79% of companies lack full AI security maturity"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 23 Mar 2026",
-            "A recent study found that 79% of companies lack full AI security maturity",
-            "This means that most companies are not fully prepared to handle AI-related security risks",
-            "The study also found that companies are racing to adopt GenAI",
-            "The lack of AI security maturity is a significant concern for companies"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The lack of AI security maturity is a significant concern for companies",
-            "Companies need to prioritize AI security to avoid potential risks",
-            "The study highlights the need for companies to invest in AI security",
-            "Source: Stock Titan, 23 Mar 2026"
-          ]
-        }
-      },
-      "caption": "A recent study found that 79% of companies lack full AI security maturity. This is a significant concern for companies as they adopt GenAI. What can companies do to improve their AI security maturity? Questions to consider: How can companies prioritize AI security? What are the potential risks associated with lack of AI security maturity? #AI #Security #GenAI #TechNews #Business"
+      "eventDate": "25 Mar 2026"
     },
     {
       "id": 3,
-      "topic": "AI Funding",
+      "topic": "AI Security",
       "slides": 3,
-      "svgIcon": "rocket",
-      "sourceId": "N4",
-      "eventDate": "25 Mar 2026",
-      "sourceName": "India Today",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVl9TUnY4X28tX1BOWFY0QzVkaDF0Z2FuSGNDZS16UGh3cHJodzdhY3Iwak9zUmlWNU14NHhFXzVZWDZOY0p3NGRtdkdxdGFYbzJYNVVkNV9HbFN6azBvdmQzTkhSTHdkTzhlX3dyVWZ3cFkzUjRlcjBSd3F4Sk5CVkQ5dmpDUDZjMWJENGh2X1VybmxRNDdpanlReWJyWWtKempSTnphVmwweWNxZ1VZWmdrT2FwaGF4RUUwRVNBN0Vvb3oyaWlHM3pDZXJydFBWR29J0gHTAUFVX3lxTE1WX1NSdjhfby1fUE5YVjRDNWRoMXRnYW5IY0NlLXpQaHdwcmh3N2FjcjBqT3NSaVY1TXg0eEVfNVlYNk5jSnc0ZG12R3F0YVhvMlg1VWQ1X0dsU3prMG92ZDNOSFJMd2RPOGVfd3JVZndwWTNSNGVyMFJ3cXhKTkJWRDl2akNQNmMxYkQ0aHZfVXJubFE0N2lqeVF5YnJZa0p6alJOemFWbDB5Y3FnVVlaZ2tPYXBoYXhFRTBFU0E3RW9vejJpaUczekNlcnJ0UFZHb0k?oc=5",
+      "svgIcon": "lock",
+      "sourceId": "N16",
       "slideContent": {
         "slide1": {
-          "headline": "Sarvam Gets $250 Million Funding",
-          "subtitle": "Indian AI startup secures funding from Nvidia, Accel, and HCLTech"
+          "headline": "Google Closes Wiz Deal and Unveils AI Security Tools",
+          "subtitle": "Recent acquisition and product launch highlight the importance of AI security"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 25 Mar 2026",
-            "Indian AI startup Sarvam has secured $250 million in funding",
-            "The funding was led by Nvidia, Accel, and HCLTech",
-            "The startup plans to use the funding to expand its AI capabilities",
-            "The funding is a significant boost for the Indian AI ecosystem"
+            "On 25 Mar 2026, Google closed its deal to acquire Wiz, a cloud security company.",
+            "Google also unveiled new AI security tools, highlighting the growing importance of AI in security.",
+            "The acquisition and product launch demonstrate Google's commitment to improving its security offerings.",
+            "The new AI security tools will help to protect against cyber threats and improve cloud security."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The funding is a significant boost for the Indian AI ecosystem",
-            "Sarvam plans to use the funding to expand its AI capabilities",
-            "The startup is expected to play a key role in the Indian AI market",
-            "Source: India Today, 25 Mar 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition and product launch highlight the growing importance of AI in security.",
+            "The use of AI in security can help to improve the detection and prevention of cyber threats.",
+            "The new AI security tools will help to protect against cyber threats and improve cloud security.",
+            "Questions to consider: What are the potential benefits and risks of using AI in security? How might AI security tools impact the future of cybersecurity?"
           ]
         }
       },
-      "caption": "Indian AI startup Sarvam has secured $250 million in funding from Nvidia, Accel, and HCLTech. This funding is a significant boost for the Indian AI ecosystem. What does this mean for the future of AI in India? Questions to consider: How will this funding impact the Indian AI market? What are the potential applications of Sarvam's AI technology? #AI #Funding #India #Sarvam #TechNews #Business"
+      "caption": "Google has closed its deal to acquire Wiz and unveiled new AI security tools, highlighting the growing importance of AI in security. What are the potential benefits and risks of using AI in security? How might AI security tools impact the future of cybersecurity? #AI #Security #Google #Wiz #CloudSecurity #Cybersecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM0tiQnBqYTRtQURtQ0Y0YTd6anJibjJtMVVLREpKaEx2VDdrdHlKR2RjN0VVUk02Q1ktNS0zMGVaaTN4QjQwWWwwcTk3UnV0T0xneFAwckhDckx1WnZKVlJKQ2ptVU1RaTJRdHVRakZleGRzX0hNQWdpWEsxNU82OEF5VXEzeDBDVmd3?oc=5",
+      "sourceName": "SecurityBrief Australia",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "25 Mar 2026"
     }
   ]
 }

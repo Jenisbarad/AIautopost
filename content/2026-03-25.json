@@ -8,141 +8,122 @@
   "posts": [
     {
       "id": 1,
-      "topic": "Nvidia's AI Inference Game",
+      "topic": "AI Acquisition",
       "slides": 4,
       "svgIcon": "chip",
-      "sourceId": "N5",
-      "eventDate": "24 Mar 2026",
-      "sourceName": "The Globe and Mail",
+      "sourceId": "N3",
+      "eventDate": "25 Mar 2026",
+      "sourceName": "Law.asia",
       "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPQkZjWkY5RGN5dHJmeWZYd1Izcno4LVZRRktvbXl1NUgxb2UxbDVpQmQ5SUxkc3JpajBjaEFuSk91b3hWdWU0VWRWVnVZS1R1b3BWWldqeEE2MHBsSmxxR1hReEpac2lZUG40WENmRkF3QWVRTU1HdHgzSkgtYUxDbS1Md3dfUGZIS01OVVpLSS1hU2NaUnk5eWt5OXN0SUhpWjJiaGhsWlRwQnRtYkJxeEFwbTB4V1Vrc0ZJM1U3bnQ0YUlVTFdmQzhUQlljVHJYdV9vbHdXNHZXbFpPNG9kM1hmdkJxYWUzT3FiX25xbWViTzNJTkUxX0ZWbXRPTnlyNzZFQmNDVWVBOFljN25vZVhTa2stdlh5cHc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52SHE0NlJWYktLaTM0Xy1xODdreGxlTFM3emhjeVBvNGl2bkVERG00dm90dENuN2RSTmtLamdnanVSVUpENThnLWVRYURYbjlkTnVzVTlLWlo3MVZSTkhV?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Nvidia's $20 Billion Groq Acquisition Pays Off",
-          "subtitle": "New Chip to Change AI Inference Game"
+          "headline": "Marvell Technology's Big Move",
+          "subtitle": "Acquiring Celestial AI for $3.25 billion"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 24 Mar 2026",
-            "Nvidia's $20 billion acquisition of Groq has paid off.",
-            "The new chip could change the AI inference game in 2026.",
-            "Groq's technology will enhance Nvidia's AI capabilities.",
-            "This acquisition is a significant investment in AI research."
+            "Marvell Technology acquired Celestial AI on 25 Mar 2026",
+            "The acquisition is worth $3.25 billion",
+            "This move is expected to boost Marvell's AI capabilities",
+            "The company aims to expand its AI offerings"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The new chip will improve AI inference performance.",
-            "This will lead to faster and more accurate AI processing.",
-            "Nvidia's investment in AI research will drive innovation.",
-            "The AI inference market is expected to grow significantly in the next few years."
+            "The acquisition is a significant step for Marvell Technology",
+            "It will help the company to improve its AI capabilities",
+            "The move is expected to have a positive impact on the company's revenue",
+            "The acquisition will also help Marvell to expand its customer base"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Nvidia's acquisition of Groq is a strategic move to strengthen its position in the AI market.",
-            "The new chip will have a significant impact on the AI inference game.",
-            "This acquisition demonstrates the importance of investing in AI research.",
-            "Source: The Globe and Mail, Mar 2026"
+            "The acquisition is a strategic move by Marvell Technology",
+            "It will help the company to stay competitive in the AI market",
+            "The move is expected to have a positive impact on the company's stock price",
+            "Source: Law.asia, Mar 2026"
           ]
         }
       },
-      "caption": "Nvidia's $20 billion acquisition of Groq has paid off, and the new chip is expected to change the AI inference game in 2026. This acquisition is a significant investment in AI research and will drive innovation in the field. Questions to consider: What will be the impact of this new chip on the AI market? How will Nvidia's investment in AI research drive innovation? #AI #Nvidia #Groq #Inference #Chip #Acquisition #Innovation"
+      "caption": "Marvell Technology has acquired Celestial AI for $3.25 billion. This move is expected to boost the company's AI capabilities and expand its customer base. What does this mean for the future of AI in the tech industry? Questions to consider: How will this acquisition impact Marvell's competitors? What are the potential risks and challenges associated with this acquisition? #AI #Acquisition #MarvellTechnology #CelestialAI #TechNews #Business"
     },
     {
       "id": 2,
-      "topic": "OpenAI Ends Disney Partnership",
+      "topic": "AI Security",
       "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N4",
-      "eventDate": "25 Mar 2026",
-      "sourceName": "BBC",
+      "svgIcon": "shield",
+      "sourceId": "N21",
+      "eventDate": "23 Mar 2026",
+      "sourceName": "Stock Titan",
       "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13Y2g4d0sxSGwxaEF4UkY4ZjZwelRCWFB0anAtRXdmVUY3c0ZwQjhBWkVqWHVIdC1VelM2TWMzY0p1SWEySW5zSHYyWjlmWHhyNHJ6c0R4YlJjUQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5MM0Zzb0F4R0tPMGtwSmFnZjRkSXp6X0cyTkFkRDNYY213QUJaQ05zZGJjd0RMaF9JTmpRN3VjRHRoNi1tdDZBUk9KYVIydjdOZUxXSnFiT0NKb2FkRWcyb0tzRTRaTUpKdXhGR1BWWVBScHplTVJTb29admdJMmRENVlDUVQtZGw0LUxGaXJ5QlZVSEFJZENOZzc3UzhUNzFSWVItM1Z0aFJSN3YwelROdmJydWM?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "OpenAI Ends Disney Partnership",
-          "subtitle": "Sora Video-Making Tool Closed"
+          "headline": "AI Security Maturity",
+          "subtitle": "79% of companies lack full AI security maturity"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 25 Mar 2026",
-            "OpenAI has ended its partnership with Disney.",
-            "The Sora video-making tool has been closed.",
-            "The tool was launched less than a year ago.",
-            "OpenAI CEO Sam Altman announced the closure."
+            "Event date: 23 Mar 2026",
+            "A recent study found that 79% of companies lack full AI security maturity",
+            "This means that most companies are not fully prepared to handle AI-related security risks",
+            "The study also found that companies are racing to adopt GenAI",
+            "The lack of AI security maturity is a significant concern for companies"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The closure of Sora is a significant development in the AI video-making space.",
-            "OpenAI's decision to end the partnership with Disney may have implications for the company's future collaborations.",
-            "The AI video-making market is expected to continue growing despite this setback.",
-            "Source: BBC, 25 Mar 2026"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The closure of Sora is a significant development in the AI video-making space.",
-            "OpenAI's decision to end the partnership with Disney may have implications for the company's future collaborations.",
-            "The AI video-making market is expected to continue growing despite this setback.",
-            "Source: BBC, Mar 2026"
+            "The lack of AI security maturity is a significant concern for companies",
+            "Companies need to prioritize AI security to avoid potential risks",
+            "The study highlights the need for companies to invest in AI security",
+            "Source: Stock Titan, 23 Mar 2026"
           ]
         }
       },
-      "caption": "OpenAI has ended its partnership with Disney and closed the Sora video-making tool. This development has significant implications for the AI video-making space. Questions to consider: What will be the impact of this closure on the AI video-making market? How will OpenAI's decision to end the partnership with Disney affect its future collaborations? #AI #OpenAI #Disney #Sora #VideoMaking #Partnership"
+      "caption": "A recent study found that 79% of companies lack full AI security maturity. This is a significant concern for companies as they adopt GenAI. What can companies do to improve their AI security maturity? Questions to consider: How can companies prioritize AI security? What are the potential risks associated with lack of AI security maturity? #AI #Security #GenAI #TechNews #Business"
     },
     {
       "id": 3,
-      "topic": "Amity Announces $100 Million Series D Funding",
-      "slides": 4,
-      "svgIcon": "database",
-      "sourceId": "N8",
+      "topic": "AI Funding",
+      "slides": 3,
+      "svgIcon": "rocket",
+      "sourceId": "N4",
       "eventDate": "25 Mar 2026",
-      "sourceName": "The Business Times",
+      "sourceName": "India Today",
       "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdzU3WUFSaG9BemcyM2Q5bm9OaTBxYkZoRTBNTnJvQUoxY0dWbGVEMkpHZi1fX0s1SnQ5cHRqWnM4RXZ4SWZzSWMxei1RVndpZVdsTFJEVE5vN2VZM1owa3g4cE92WWpUbzk0djFDX0lvY0hLbFhPVUt4Zk1VRjBXZ09tX055eUVlSHBfN1BkaERLNnJYUmNmRXZkREE4X1c0S0p2NV9mdXdwRkI0NDUwVjg0LXFnMGZOUTZXTHh5cTlJY2RKZlNpYWI4azlZQ2o4eTd1Vjl2V1dTR1BlTldJVlc1bHo?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVl9TUnY4X28tX1BOWFY0QzVkaDF0Z2FuSGNDZS16UGh3cHJodzdhY3Iwak9zUmlWNU14NHhFXzVZWDZOY0p3NGRtdkdxdGFYbzJYNVVkNV9HbFN6azBvdmQzTkhSTHdkTzhlX3dyVWZ3cFkzUjRlcjBSd3F4Sk5CVkQ5dmpDUDZjMWJENGh2X1VybmxRNDdpanlReWJyWWtKempSTnphVmwweWNxZ1VZWmdrT2FwaGF4RUUwRVNBN0Vvb3oyaWlHM3pDZXJydFBWR29J0gHTAUFVX3lxTE1WX1NSdjhfby1fUE5YVjRDNWRoMXRnYW5IY0NlLXpQaHdwcmh3N2FjcjBqT3NSaVY1TXg0eEVfNVlYNk5jSnc0ZG12R3F0YVhvMlg1VWQ1X0dsU3prMG92ZDNOSFJMd2RPOGVfd3JVZndwWTNSNGVyMFJ3cXhKTkJWRDl2akNQNmMxYkQ0aHZfVXJubFE0N2lqeVF5YnJZa0p6alJOemFWbDB5Y3FnVVlaZ2tPYXBoYXhFRTBFU0E3RW9vejJpaUczekNlcnJ0UFZHb0k?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Amity Announces $100 Million Series D Funding",
-          "subtitle": "Thai AI Startup Expands Operations"
+          "headline": "Sarvam Gets $250 Million Funding",
+          "subtitle": "Indian AI startup secures funding from Nvidia, Accel, and HCLTech"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 25 Mar 2026",
-            "Amity, a Thai AI startup, has announced a $100 million Series D funding round.",
-            "The funding will be used to expand the company's operations.",
-            "Amity has also launched an R&D center in Singapore.",
-            "The company's valuation is expected to increase significantly."
+            "Indian AI startup Sarvam has secured $250 million in funding",
+            "The funding was led by Nvidia, Accel, and HCLTech",
+            "The startup plans to use the funding to expand its AI capabilities",
+            "The funding is a significant boost for the Indian AI ecosystem"
           ]
         },
         "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "The funding will enable Amity to enhance its AI capabilities.",
-            "The company's expansion into Singapore will increase its presence in the region.",
-            "The R&D center will drive innovation in the AI space.",
-            "Amity's growth is expected to have a positive impact on the AI industry."
-          ]
-        },
-        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Amity's $100 million Series D funding is a significant investment in the AI space.",
-            "The company's expansion into Singapore will increase its competitiveness.",
-            "The R&D center will drive innovation and growth in the AI industry.",
-            "Source: The Business Times, Mar 2026"
+            "The funding is a significant boost for the Indian AI ecosystem",
+            "Sarvam plans to use the funding to expand its AI capabilities",
+            "The startup is expected to play a key role in the Indian AI market",
+            "Source: India Today, 25 Mar 2026"
           ]
         }
       },
-      "caption": "Amity, a Thai AI startup, has announced a $100 million Series D funding round to expand its operations and launch an R&D center in Singapore. This funding is a significant investment in the AI space and will drive innovation and growth. Questions to consider: What will be the impact of this funding on Amity's operations? How will the R&D center in Singapore contribute to the company's growth? #AI #Amity #Funding #SeriesD #Expansion #Innovation"
+      "caption": "Indian AI startup Sarvam has secured $250 million in funding from Nvidia, Accel, and HCLTech. This funding is a significant boost for the Indian AI ecosystem. What does this mean for the future of AI in India? Questions to consider: How will this funding impact the Indian AI market? What are the potential applications of Sarvam's AI technology? #AI #Funding #India #Sarvam #TechNews #Business"
     }
   ]
 }

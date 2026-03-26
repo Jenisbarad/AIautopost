@@ -1,0 +1,129 @@
+{
+  "date": "2026-03-26",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N8",
+      "eventDate": "25 Mar 2026",
+      "sourceName": "Al Jazeera",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTjlNQU1zMThTN2gtV2tnRzFPaGlrTTJiVTltTTA1MkxXZGZrWkVzazhrVnJLcU41eG5nUnRGYTBtN3RPemN0ZmJXWWVLZWJXY2N0Wm1sTHJ4UVJSalBzaTVJNGRxNTdhTkx6dFNWNVZsWHVQSkdyVm1fRTdWT3NOUVltazNlNFFsSmwxMnEyYkVQQlRPeTI1YXh5b2ZDVzJlV1JxSG16ZkNhbFFjQXpOQ2lacy10d9IBuwFBVV95cUxPTGE5eThrUFlVRjBXQmxfZ1BDUHlLX3NrRHpIZ1NOZXdabi15ZlJlWnFTRlpnZjZ5bEFaeXNKalJVOEpQWDNFekxJdnpfazRndWI2aEhQcjZ3b1lmWG5LT2wtVXNXRERGZ2VuMEZtczNUdUhKOUlfdTJ4OFhzWVdBU2hGeEdjay1yV0w2RjRtcDJ1TzNfUmU5VDhnUTJRWTlld2czclF6S0I0SExIZ1dDelZhNWxWczljajNB?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's Case Against the Pentagon",
+          "subtitle": "A Potential Turning Point for AI Regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 Mar 2026",
+            "Anthropic's case against the Pentagon could open space for AI regulation",
+            "The case highlights the need for clearer guidelines on AI development and use",
+            "This could lead to significant changes in the way AI is regulated",
+            "With potential implications for the entire tech industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Clearer regulations could help prevent the misuse of AI",
+            "But over-regulation could stifle innovation",
+            "The key is finding a balance between safety and progress",
+            "Source: Al Jazeera, 25 Mar 2026"
+          ]
+        }
+      },
+      "caption": "The Anthropic case against the Pentagon is making waves in the AI community. As the industry continues to evolve, the need for clear regulations is becoming increasingly pressing. But what does this mean for the future of AI development? Questions to consider: What are the potential benefits and drawbacks of increased AI regulation? How can we ensure that regulations are effective without stifling innovation? #AIregulation #Anthropic #Pentagon #technews #AIethics #innovation"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N7",
+      "eventDate": "25 Mar 2026",
+      "sourceName": "India Today",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVl9TUnY4X28tX1BOWFY0QzVkaDF0Z2FuSGNDZS16UGh3cHJodzdhY3Iwak9zUmlWNU14NHhFXzVZWDZOY0p3NGRtdkdxdGFYbzJYNVVkNV9HbFN6azBvdmQzTkhSTHdkTzhlX3dyVWZ3cFkzUjRlcjBSd3F4Sk5CVkQ5dmpDUDZjMWJENGh2X1VybmxRNDdpanlReWJyWWtKempSTnphVmwweWNxZ1VZWmdrT2FwaGF4RUUwRVNBN0Vvb3oyaWlHM3pDZXJydFBWR29J0gHTAUFVX3lxTE1WX1NSdjhfby1fUE5YVjRDNWRoMXRnYW5IY0NlLXpQaHdwcmh3N2FjcjBqT3NSaVY1TXg0eEVfNVlYNk5jSnc0ZG12R3F0YVhvMlg1VWQ1X0dsU3prMG92ZDNOSFJMd2RPOGVfd3JVZndwWTNSNGVyMFJ3cXhKTkJWRDl2akNQNmMxYkQ0aHZfVXJubFE0N2lqeVF5YnJZa0p6alJOemFWbDB5Y3FnVVlaZ2tPYXBoYXhFRTBFU0E3RW9vejJpaUczekNlcnJ0UFZHb0k?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Indian AI Startup Secures $250 Million Funding",
+          "subtitle": "A Major Boost for the Industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 Mar 2026",
+            "Indian AI startup Sarvam is set to receive $250 million in funding",
+            "The investment is led by Nvidia, Accel, and HCLTech",
+            "The funding values Sarvam at $1.5 billion",
+            "This is one of the largest investments in an Indian AI startup to date"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment is a significant vote of confidence in the Indian AI industry",
+            "It highlights the growing importance of AI in the global tech landscape",
+            "The funding will help Sarvam expand its operations and develop new technologies"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Indian AI industry is poised for significant growth in the coming years",
+            "This investment is a major milestone for Sarvam and the Indian AI community",
+            "It will be interesting to see how Sarvam uses this funding to drive innovation",
+            "Source: India Today, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Indian AI startup Sarvam has secured $250 million in funding from Nvidia, Accel, and HCLTech. This significant investment is a major boost for the Indian AI industry and highlights the growing importance of AI in the global tech landscape. Questions to consider: What are the potential applications of Sarvam's AI technology? How will this funding impact the Indian AI industry as a whole? #AI #funding #India #startup #technews #innovation"
+    },
+    {
+      "id": 3,
+      "topic": "AI Chips",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N24",
+      "eventDate": "25 Mar 2026",
+      "sourceName": "Fortune",
+      "sourceMonthYear": "Mar 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMkJQN2lieVVxa0NHNXJ6OFl4WmdpMlBCOEZJVi1rYnlZdkNWSGNvSzhIOXc2YU9RR0lsYjhiSUJhSWVQbVZaMHh2dDVIaW5RVkxBMDZ4SVJGdlZtR01SSGlhNGltTTVtZjBfVm1aOTA3Q1p2b3NOWWRqaXVGQml0VEgzai1ERlJJYjNYSzg3NktRY1lvS1g5NVlOWk9IbkdnTmN0T1JpZUdjLV9ySnc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Rise of AI Chips",
+          "subtitle": "A New Era for AI Computing"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 Mar 2026",
+            "AI chips are becoming increasingly expensive and power-hungry",
+            "A new startup has raised $50 million to develop more efficient AI chips",
+            "The goal is to reduce the cost and environmental impact of AI computing",
+            "This could lead to significant advancements in AI research and development"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "More efficient AI chips could enable the widespread adoption of AI technologies",
+            "This could lead to breakthroughs in fields such as healthcare and finance",
+            "The development of more efficient AI chips is a critical step forward for the industry",
+            "Source: Fortune, 25 Mar 2026"
+          ]
+        }
+      },
+      "caption": "The development of AI chips is a critical component of the AI industry. As AI computing becomes increasingly expensive and power-hungry, the need for more efficient solutions is becoming pressing. Questions to consider: What are the potential applications of more efficient AI chips? How will this impact the environment and the cost of AI computing? #AI #chips #efficiency #sustainability #technews #innovation"
+    }
+  ]
+}

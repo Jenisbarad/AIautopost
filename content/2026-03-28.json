@@ -1,0 +1,127 @@
+{
+  "date": "2026-03-28",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Risks",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cyber Stocks Sink",
+          "subtitle": "Report Reveals Anthropic AI Model Security Risks"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 27 Mar 2026, a report revealed that Anthropic AI model poses security risks.",
+            "This led to a decline in cyber stocks.",
+            "The report highlighted potential vulnerabilities in AI models.",
+            "Investors are now more cautious about AI-related investments."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The security risks associated with AI models can have significant consequences.",
+            "As AI adoption increases, the need for robust security measures grows.",
+            "Companies must invest in AI security to protect their assets.",
+            "Source: Bloomberg.com, 27 Mar 2026"
+          ]
+        }
+      },
+      "caption": "The recent report on Anthropic AI model's security risks has sent shockwaves in the cyber security industry. On 27 Mar 2026, cyber stocks sank due to the revelation. This incident highlights the importance of AI security. Questions to consider: What measures can companies take to ensure AI security? How will this incident impact the future of AI development? #AI #Security #CyberStocks #Anthropic #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOVpZX2tneUhQakhYTzc1Nldad3ZoMU5yaXg4Ynk5QV9DT19PODBEUFJXUXpuMG5kRmktUF8tMmZ2Z0ZpQkJYem5KUEdCTm82SUViemt0Nk1rQm54U1YwWU9Sck85amQwV2RRcUJvZHZsSUVrRXdKSHpRYUszUDNlNUJhWml0bU1YSldieEhwZ2N6bWhUdlZHaUE3SE1kS1RIZ0p0U1RWTWs4aHpTY2Y0ai1BS3Nsdw?oc=5",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "27 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Shield AI Valuation",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Shield AI Lands $12.7B Valuation",
+          "subtitle": "Defense Startup Sees Significant Growth"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 26 Mar 2026, Shield AI landed a $12.7B valuation.",
+            "This is a 140% increase in valuation.",
+            "The company's growth is attributed to its US Air Force deal.",
+            "Shield AI's revenue is expected to exceed $540M this year."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Shield AI's growth is a testament to the increasing demand for AI in defense.",
+            "The company's valuation reflects its potential for innovation.",
+            "As AI technology advances, we can expect more companies to follow suit.",
+            "The US Air Force deal has played a significant role in Shield AI's success."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Shield AI's valuation increase is a significant milestone for the company.",
+            "The company's revenue expectation of over $540M is a promising sign.",
+            "The growth of Shield AI has implications for the broader AI industry.",
+            "Source: TechCrunch, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Shield AI has landed a $12.7B valuation, marking a significant increase of 140% in just a short period. On 26 Mar 2026, the company's valuation was boosted by its US Air Force deal. This growth is a testament to the increasing demand for AI in defense. Questions to consider: What role will Shield AI play in the future of defense technology? How will the company's growth impact the AI industry as a whole? #ShieldAI #Valuation #Defense #AI #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYmJWMzBjQ0Z0aW1CcEwtYmxfWHRYWF9OZXlJZTM4UWNhTmNuMzhocDdzZlJxMGo5NGg5ZlJFRzJmbjc4V1ZkOG9ucVN2TlQtcnlhWndzWV9xTmgtUmJZWUk4ZldmUkhhXy1fTE5MOFRVYUR2Z29ETDdFd0dyUVp4RnZEdUR1Y3lGZHI5RVJFOHVwOEpHdDhQRk1CbGFzcFhlNWlNdGthUWEtTFc4SUVZMWY1S0k?oc=5",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "26 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N23",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's Case Against Pentagon",
+          "subtitle": "A Potential Precedent for AI Regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 25 Mar 2026, Anthropic's case against the Pentagon could open space for AI regulation.",
+            "The case highlights the need for clear guidelines on AI development and deployment.",
+            "As AI technology advances, regulation is becoming increasingly important.",
+            "The outcome of this case could have significant implications for the AI industry."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The lack of clear regulations on AI has led to concerns about its development and deployment.",
+            "Anthropic's case against the Pentagon could set a precedent for future regulations.",
+            "Effective regulation is crucial to ensure the safe and responsible development of AI.",
+            "Source: Al Jazeera, 25 Mar 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's case against the Pentagon could be a turning point in the discussion around AI regulation. On 25 Mar 2026, the case highlighted the need for clear guidelines on AI development and deployment. This incident raises important questions about the future of AI regulation. Questions to consider: What role should governments play in regulating AI? How can companies ensure they are developing AI responsibly? #AI #Regulation #Anthropic #Pentagon #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTjlNQU1zMThTN2gtV2tnRzFPaGlrTTJiVTltTTA1MkxXZGZrWkVzazhrVnJLcU41eG5nUnRGYTBtN3RPemN0ZmJXWWVLZWJXY2N0Wm1sTHJ4UVJSalBzaTVJNGRxNTdhTkx6dFNWNVZsWHVQSkdyVm1fRTdWT3NOUVltazNlNFFsSmwxMnEyYkVQQlRPeTI1YXh5b2ZDVzJlV1JxSG16ZkNhbFFjQXpOQ2lacy10d9IBuwFBVV95cUxPTGE5eThrUFlVRjBXQmxfZ1BDUHlLX3NrRHpIZ1NOZXdabi15ZlJlWnFTRlpnZjZ5bEFaeXNKalJVOEpQWDNFekxJdnpfazRndWI2aEhQcjZ3b1lmWG5LT2wtVXNXRERGZ2VuMEZtczNUdUhKOUlfdTJ4OFhzWVdBU2hGeEdjay1yV0w2RjRtcDJ1TzNfUmU5VDhnUTJRWTlld2czclF6S0I0SExIZ1dDelZhNWxWczljajNB?oc=5",
+      "sourceName": "Al Jazeera",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "25 Mar 2026"
+    }
+  ]
+}

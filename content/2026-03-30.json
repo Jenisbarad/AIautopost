@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-30",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Inference Game",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nvidia's $20 Billion Groq Acquisition",
+          "subtitle": "A new chip to change the AI inference game"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 24 Mar 2026",
+            "Nvidia's $20 billion Groq acquisition has paid off.",
+            "A new chip is set to change the AI inference game in 2026.",
+            "The acquisition is expected to boost Nvidia's AI capabilities.",
+            "Nvidia's investment in Groq is expected to yield significant returns."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The new chip is expected to improve AI inference performance.",
+            "This could lead to significant advancements in AI technology.",
+            "Nvidia's competitors will need to respond to this development.",
+            "The AI inference game is about to get a lot more interesting."
+          ]
+        }
+      },
+      "caption": "Nvidia's $20 billion Groq acquisition has paid off, and a new chip is set to change the AI inference game in 2026. What does this mean for the future of AI? How will Nvidia's competitors respond? #AI #Nvidia #Groq #Acquisition #InferenceGame\nQuestions to consider: What are the potential applications of this new chip? How will it impact the AI industry? #AIInference #NvidiaGroq",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeEZvYnBkcnpjSVphbFNFeHNkeVBEQnFyamZuenlwb19JZXI3cUxzV20tVHh0QXhpU2V2WFB1b3pNVVZzQ3FKRENWT1MzbHBoc0tVdmR1NzAycGtpaWRkbHZIQkxWZlZiMkRzZFIybjU4ZEdjdDFWTXduYTBSS1dMZUJLS2wyNW5uRWVQN2FHVnFQSm9BTnRJ?oc=5",
+      "sourceName": "The Motley Fool",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "24 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Drug Development",
+      "slides": 3,
+      "svgIcon": "atom",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Insilico Medicine and Lilly Ink Deal",
+          "subtitle": "A commercialization deal worth up to $2.75 billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 Mar 2026",
+            "Insilico Medicine and Lilly have signed a commercialization deal worth up to $2.75 billion.",
+            "The deal is for the development of AI-powered drugs.",
+            "Insilico Medicine will receive an upfront payment and potential milestones.",
+            "The deal has the potential to revolutionize the pharmaceutical industry."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The deal marks a significant milestone in AI-powered drug development.",
+            "It has the potential to accelerate the development of new treatments.",
+            "The partnership between Insilico Medicine and Lilly is expected to yield significant results.",
+            "The use of AI in drug development is becoming increasingly important."
+          ]
+        }
+      },
+      "caption": "Insilico Medicine and Lilly have signed a commercialization deal worth up to $2.75 billion for the development of AI-powered drugs. What does this mean for the future of drug development? How will AI change the pharmaceutical industry? #AIDrugDevelopment #InsilicoMedicine #Lilly #Pharmaceuticals\nQuestions to consider: What are the potential benefits of using AI in drug development? How will this deal impact the pharmaceutical industry? #AIInPharma #DrugDevelopment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmNMZno2a2N4NmlSLVMyVDBrUGhzV25EVUVsUVVabGxRWlI3R0gwVjE2dXA2VVdJbmZhcFI3MkZpWE1NSWRpdFh2VUdQakdid3JyOFBuTV9WYjVrTTBHM2wxdE00ZFlBVEJZaFVTVU91VXFHVmVGV3l3cmhXb0JtRDVyelpub3lCd0kwYVg3LXNzdTl6YmgzdnVmeTI?oc=5",
+      "sourceName": "statnews.com",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "29 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Startup Funding",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "Conntour Raises $7m in Seed Funding",
+          "subtitle": "Transforming video surveillance with AI"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Mar 2026",
+            "Conntour, an Israeli AI startup, has raised $7 million in seed funding.",
+            "The funding will be used to transform video surveillance with AI.",
+            "Conntour's technology has the potential to revolutionize the industry.",
+            "The startup plans to use the funding to expand its operations."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding marks a significant milestone for Conntour.",
+            "It highlights the growing interest in AI-powered video surveillance.",
+            "Conntour's technology has the potential to improve security and safety.",
+            "The startup's success could lead to further investment in the industry."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Conntour's funding is a testament to the growing importance of AI in video surveillance.",
+            "The startup's technology has the potential to transform the industry.",
+            "The funding will enable Conntour to expand its operations and improve its technology.",
+            "Source: Tech in Asia, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Conntour, an Israeli AI startup, has raised $7 million in seed funding to transform video surveillance with AI. What does this mean for the future of video surveillance? How will Conntour's technology impact the industry? #AIStartup #Conntour #VideoSurveillance #Funding\nQuestions to consider: What are the potential applications of Conntour's technology? How will the funding impact the startup's growth? #AIVideoSurveillance #StartupFunding",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRVdBa1hFYlRYNVFaWFk0eUo4M3QzRDBEQkZ0aTNZNlpHczBJZ0Q0a0VPajJZMmpyWmRvY05WMFFHNmVuVGxUTDl2a2JubjhqakRJVXRGOXNGWGl0b1BCX0xrX01tTUJZVXBmZ2NQdTUxSHJqajJ5ekhxZXpDTUFvTDdQNmRtTnUzd2NxbDV3?oc=5",
+      "sourceName": "Tech in Asia",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "27 Mar 2026"
+    }
+  ]
+}

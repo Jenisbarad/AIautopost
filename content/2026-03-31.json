@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-31",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Chip Market",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "NVIDIA Dominates AI Chip Market",
+          "subtitle": "With 80% share and explosive data center growth"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 30 Mar 2026",
+            "NVIDIA has 80% share of the AI chip market",
+            "Explosive data center growth in 2026",
+            "NVIDIA's dominance in the market is due to its high-performance chips",
+            "This growth is expected to continue in the coming years"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "NVIDIA's dominance in the AI chip market is a significant indicator of the company's success",
+            "The growth of the data center market is driven by the increasing demand for AI computing power",
+            "This trend is expected to continue, with more companies investing in AI infrastructure",
+            "Source: AD HOC NEWS, 30 Mar 2026"
+          ]
+        }
+      },
+      "caption": "NVIDIA's dominance in the AI chip market is a significant indicator of the company's success. The growth of the data center market is driven by the increasing demand for AI computing power. This trend is expected to continue, with more companies investing in AI infrastructure. Questions to consider: What are the implications of NVIDIA's dominance in the AI chip market? How will this affect the company's future growth? What are the potential risks and challenges associated with this trend? #AI #ChipMarket #NVIDIA #DataCenter #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb1gzdFZMNER2TWFZTlN5MzdiZm5KWFZQZmFOdkp5MkxqQWxWN2JvVkktOUhVZUZZVDdfREhFUjFuYVRsMjNubHh6U0E1SUMzSnhOZHB1elNNaDFwSVRybjVrZmctam0zQ0RsaENQQ1hKU0lBVzBqci14bl9TS0J4N1FVdXp1eGNxSzdmVllYcVFyZVk4aHZDR3poaGMwZEVkSnJoSzVOLWpfTUZUTFNuS29KWlA2NEp5YWJDclZZOA?oc=5",
+      "sourceName": "AD HOC NEWS",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "30 Mar 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Telehealth AI Startup",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N18",
+      "slideContent": {
+        "slide1": {
+          "headline": "eMed Raises $200M",
+          "subtitle": "Valuation tops $2B"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 30 Mar 2026",
+            "eMed raised $200M in funding",
+            "Valuation tops $2B",
+            "The company is a telehealth AI startup",
+            "Founded by Tom Brady"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will be used to expand the company's services",
+            "The company's AI-powered platform provides virtual healthcare services",
+            "This investment is a significant indicator of the growing demand for telehealth services",
+            "Source: MobiHealthNews, 30 Mar 2026"
+          ]
+        }
+      },
+      "caption": "eMed, a telehealth AI startup, has raised $200M in funding, with a valuation that tops $2B. The company's AI-powered platform provides virtual healthcare services, and this investment is a significant indicator of the growing demand for telehealth services. Questions to consider: What are the implications of this funding for the telehealth industry? How will eMed use this funding to expand its services? What are the potential risks and challenges associated with this trend? #Telehealth #AI #eMed #Healthcare #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc3M4OEFKZURBVXpBSXVTaVVCZFBTNVZhMTFWRVJaUlYxWFJXXzQ1UXA3VWFxS1g5ZHR6aXNyZTlZZjdXX3JHVmxTMXpMTkoyNzl4RjVITkVITDlybzd6eHVXX2NBa1dzRkhUT2Y1cHhoM2RkVkpoQkR6U2hEUmladl80dmdWVm13RnJZNEZLbm14aml3SXVuWGJ0Z2pkRFgxRkVCQWJBOFlRZGY5WEE?oc=5",
+      "sourceName": "MobiHealthNews",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "30 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Model Leak",
+      "slides": 4,
+      "svgIcon": "lock",
+      "sourceId": "N15",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's AI Model Leak",
+          "subtitle": "Wiped out $14.5 billion from cybers"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 Mar 2026",
+            "A leaked AI model from Anthropic wiped out $14.5 billion from cybers",
+            "The model is reportedly 'scared' to launch",
+            "This incident highlights the potential risks associated with AI model leaks",
+            "The leak had a significant impact on the market"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The incident highlights the importance of security measures for AI models",
+            "The potential risks associated with AI model leaks are significant",
+            "This trend is expected to continue, with more companies investing in AI security",
+            "The leak has raised concerns about the safety of AI models"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The incident is a wake-up call for companies to invest in AI security",
+            "The potential risks associated with AI model leaks are significant",
+            "This trend is expected to continue, with more companies investing in AI security",
+            "Source: The Times of India, Mar 2026"
+          ]
+        }
+      },
+      "caption": "A leaked AI model from Anthropic wiped out $14.5 billion from cybers, highlighting the potential risks associated with AI model leaks. The incident is a wake-up call for companies to invest in AI security. Questions to consider: What are the implications of this incident for the AI industry? How will companies respond to this trend? What are the potential risks and challenges associated with AI model leaks? #AI #ModelLeak #Anthropic #Cybersecurity #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPNlBLSFBZME5QVk1fUUFzVEhadldoZTRMQXk0aVZiZUdQWjV0Uk5FOGZaT3V2VFpjNG01ejZMNHVaMmRVTjFTV20ydktyNW5pemNNNW1jMll0UXVvVEtvU3UwdXFBbU93OWVXZnlBSDZkQ1dEUWRtak1xY1JpdzZ2RWJtYjVKVzZMekZNUVJqMmFoYkVhZjRLOC02ZGR4NkR2MEpFZF9WNzk5NnNUQVJJbzJkMEdQdFB4dWJuNXF4a3pGeF83YVZ3QW9ReG5HcjFyWG9PZUYxLUtURWRaS1RYVUpScDEyYWtJT05scHpfTDZtVHVLUGVhYXdLM2VKQkd3em1NRG9zQWRwUzZha0syZ25SR0RvT01BT0YtQno0NDBtbkJIZW90bGQxdi1sUVFrTlN5S9IBugJBVV95cUxNcjFheWVNMWhqZ3lnWkNVSWxsR2tUS200WGtzZzlrYVgwSDZENVZtdGhBa2lRYWZTMFdWdUlxdG5uNjdkS1U1Sm5hamUtTDdVU0lqbmRZc1MyUXlraXFrdEhOZE5LXzdlRldXRTNmVzdxZzBUVmNWNG1XTFIxbV9TOVItSE9jUmNfZ2MtWS0zYlc4RTlfM1Etc282aFltWlQxYVMtMnc4bXNqTHFCbERWUnZtSzNFeWhNR2M2bFprT3NlUVF2Nnc5Ykw0b0FiZ1ZqNXhUTjRyOFB0Mmx0bFVTTHJZWkljVEtCc0dLWm5xbEQwRGpLcEFEYWgyRmpjeElPZVZuS0FjX0NoNnY5ZUpnZ0p4Vm1UNUZxUmVnUHFxN0NGRllLYUN2eWlrSm1uUmEzU3ZXbC1JNlg5Zw?oc=5",
+      "sourceName": "The Times of India",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "28 Mar 2026"
+    }
+  ]
+}

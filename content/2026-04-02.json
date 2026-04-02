@@ -1,0 +1,127 @@
+{
+  "date": "2026-04-02",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Risk",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N8",
+      "eventDate": "01 Apr 2026",
+      "sourceName": "The Economic Times",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOem9YdnBkbnVXYzU1UWlKRW5aUXJTUTdsWW1uN21EMWJrTElqX2VRU0I0N2FEWE5fcVk3UXplR0dMY2t4NU9EWEdQV3Iwbkk1Ti10VV9hYUtjS0RaV3ExUXJ3NkVad3UzSjZNWEtZaDg2aWN3OXdqb0I2SW52NTN2eU1BODROaVA1N3oyT1pHUzdfNzNHMHNYSjZHSE95UDBuaUxXNjRTbHJpQTUyTHdHMmtYYzN1Y0xybVFZZFhlY1Iya0V5cURuM2xyak1sVEdiMGhiaWdhcjlhbTNtSGp6SlBhMzA2ZVBUVjVlaU83dmhZaUpWWndtX2wwbHFiRVp1TUd1dkpyVdIBjAJBVV95cUxPMC1vbmpxdjVLY2E1RWp4ZnZDZ2hteHROVnRBR0VlTGJRM005YlZ2dlNYcTgyZE1RN2Mtdy1VNnNsaFhUcy1aVHd3THpFRGdqU1Z3Y1h5MEw2WWV3VHVjLVluSlQ0RHNTV1JscTk2X0lubVFOdnhJN0YzOEV1dWJ2OUw3dkkzUVhEZzdCT2pLQ2xqMGNQYTc1TVp5ekVYRkVSbmE4Ylp3S0RNMjZRckJ0SGtxUDRkREZQM3hzaXVSQ1Azd29UeHJsd3hKTXp2MldVNkhjYWtSS24wWmJDbHdNT29BWUl2bkNIOEhETG1idzgza3dPODItc08wbXpTcENxOFBFb2d2aUhQdzAy?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Claude Source Code Leak",
+          "subtitle": "A recent incident exposed 512,000 lines of code"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic's AI Agent Claude source code was leaked on 01 Apr 2026",
+            "The leak exposed 512,000 lines of code",
+            "The incident occurred due to a 4 am update",
+            "The leaked code has raised concerns about AI security"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The leak has significant implications for AI security and development",
+            "It highlights the need for robust security measures in AI systems",
+            "The incident may impact the development of AI models and applications"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The incident has sparked a debate about AI security and accountability",
+            "It may lead to increased regulation and scrutiny of AI development",
+            "Developers must prioritize security in AI systems",
+            "Source: The Economic Times, Apr 2026"
+          ]
+        }
+      },
+      "caption": "A recent incident has raised concerns about AI security. The Anthropic Claude source code leak exposed 512,000 lines of code, highlighting the need for robust security measures in AI systems. What are the implications of this incident for AI development and security? How can developers prioritize security in AI systems? #AIsecurity #Anthropic #Claude #SourceCodeLeak #AIdevelopment #SecurityMeasures\nQuestions to consider: What are the potential consequences of AI source code leaks? How can developers balance innovation with security in AI systems?"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding Trends",
+      "slides": 3,
+      "svgIcon": "database",
+      "sourceId": "N3",
+      "eventDate": "01 Apr 2026",
+      "sourceName": "The Information",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN24xT2RXbXZYSW9RRzRMMkpXbnpwTmtJZHBISEVDcklOMlFOM1FSdzdrYUxDYzgwWDAtRGRYMmJfeGd4Mng0YnRKMGExZTA3WXdXUFdFbW1COERMTzNTWFg4OF9kdkVkR2ZaR2RLaXc5ekJ4amZfUDgwR1VaVl8xdHlTRi1FTEJWMFhnSVJpSkZFQ0U2dm9QdnZVSmdtWGhLV0t0S0tHbTdLOFk?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Startup Funding for AI",
+          "subtitle": "A recent valuation milestone"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "A startup that helps developers pick AI models has reached a $1.3 billion valuation",
+            "The valuation milestone was announced on 01 Apr 2026",
+            "The startup's platform aids in AI model selection and development",
+            "The funding trend indicates a shift towards early-stage AI bets"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The valuation milestone highlights the growing interest in AI development and deployment",
+            "The startup's platform has the potential to accelerate AI adoption",
+            "The funding trend may lead to increased innovation in AI applications",
+            "Source: The Information, 01 Apr 2026"
+          ]
+        }
+      },
+      "caption": "A recent valuation milestone has highlighted the growing interest in AI development and deployment. A startup that helps developers pick AI models has reached a $1.3 billion valuation. What are the implications of this funding trend for AI innovation and adoption? How can startups leverage AI development platforms to drive growth? #AI #Funding #Startup #Valuation #AIadoption #Innovation\nQuestions to consider: What are the key factors driving AI funding trends? How can startups balance growth with responsible AI development?"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security Measures",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N17",
+      "eventDate": "01 Apr 2026",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQOHdvWTZtYkVETExsY2hoRkJaakt6eXYydjByNlBSdUF6V2h5bVhYam1uRnBhVS1MbW5MOVozX1J1MEowYXdfVU42ZUpheWFvUEdLSkRHRVJMUExodFFBQzJYcExkRUsyb2xjYzFfY3JOVjVtVkVpQVRUWTlnS0VoSkJOczlxNnlGNnZ5dE1CUU9KWlMxYnRvbTJTcUwzaWRKQmJfZ1hkTGdyT1gxMFZpOW1ObWc1QkRMWEFvbERsV0lMVjltdWwwejk4QkhUWlo4MWhBVVRobTk1OEc4ZExlVWF4RGNBRG8temVhX0Z3bTZyeEtPVnJJUEJ4TTBEVUxrOTlBaThtc0tFbXduTTcxS3cwRE1rUXJm?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Trustscore for AI Agents",
+          "subtitle": "A new security measure for AI systems"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Apr 2026",
+            "Trust3 AI has launched Trustscore to provide visibility into AI agents",
+            "The platform aims to enhance compliance and security in AI systems",
+            "The launch is ahead of the EU AI Act deadline",
+            "The platform has the potential to improve AI security and accountability"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The launch of Trustscore highlights the growing importance of AI security and accountability",
+            "The platform may become a standard for AI security and compliance",
+            "The EU AI Act deadline has driven innovation in AI security measures",
+            "Source: PR Newswire, 01 Apr 2026"
+          ]
+        }
+      },
+      "caption": "A new security measure has been launched to provide visibility into AI agents. Trust3 AI's Trustscore platform aims to enhance compliance and security in AI systems. What are the implications of this launch for AI security and accountability? How can organizations leverage Trustscore to improve their AI security posture? #AIsecurity #Trustscore #Compliance #Accountability #AIact\nQuestions to consider: What are the key challenges in implementing AI security measures? How can organizations balance AI innovation with security and accountability?"
+    }
+  ]
+}

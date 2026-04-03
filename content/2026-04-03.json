@@ -1,0 +1,121 @@
+{
+  "date": "2026-04-03",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Threat",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N4",
+      "eventDate": "02 Apr 2026",
+      "sourceName": "The Defense Post",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VUnFjN21sbXVNdzMwaXg2Tjg5WDllZkZUZkV5VDUxOUdhTlM2ZVdPUXNiYzE4ODBfRUZqbUxLZVdFclY0V2tscWdfenROWG5JYVBON2Vqc2NCZkQtZVRqd0w4YWZGQjFNXzNKTEh4dGpvREp40gF6QVVfeXFMT1VNejhab3kzM21yNVZUczFHSU5WZnpvbnU3SXNPdHYybWl5YUJrczJ6Wkd6YmhxMGNRQktSZUE2akpfbTZFeG44cFJxT2licXlGRlVGMk5jMVNEZmxDcUw1NzlraDhOb2JMdnIyQkVBa0xSTjBER1VGd0E?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Tops National Security Threat List",
+          "subtitle": "2026 US Intel Report Highlights AI Risks"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 02 Apr 2026, the 2026 US Intel Report was released.",
+            "The report identified AI as the top national security threat.",
+            "This is a significant shift in priorities, reflecting growing concerns about AI's potential impact."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The report's findings will likely influence policy and funding decisions related to AI development and regulation.",
+            "As AI becomes increasingly integrated into various aspects of life, its potential risks and benefits must be carefully considered.",
+            "Source: The Defense Post, 02 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The 2026 US Intel Report has highlighted AI as the top national security threat. What are the implications of this shift in priorities? How will policymakers and industry leaders respond to these concerns? \nQuestions to consider: What role should government play in regulating AI development? How can we balance the benefits of AI with its potential risks? \n#AI #NationalSecurity #USIntelReport #TechPolicy #Innovation #RiskManagement"
+    },
+    {
+      "id": 2,
+      "topic": "Vertex AI Security Flaw",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N24",
+      "eventDate": "02 Apr 2026",
+      "sourceName": "CXO Digitalpulse",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMzlTNFB2cnV6ejVPYXp2bXF1MThSMEc1UkhwOTdNX09IZGxoelYwd0MtdjF3Q0ZHXzFHakt0UzJTcHhfUWFpRWtQWkM5YlBkU3F4MjdSX1piczZrOTh4X1BaNy14MlFpdmppd1M4OXVfRU5mWEpUclNXeDFqSjMwNnllSkFBWFdzLS1JUm16RXFxSlhXNkxQSDNRTVNDU3VQWkNYamxucw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Vertex AI Security Flaw Raises Concerns",
+          "subtitle": "Google Cloud Data Exposure a Major Issue"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Apr 2026",
+            "A security flaw in Vertex AI has raised concerns about Google Cloud data exposure.",
+            "The issue has significant implications for companies relying on Google Cloud services.",
+            "97% of enterprises expect a major AI agent security incident within the year, highlighting the need for robust security measures."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The security flaw in Vertex AI underscores the importance of prioritizing AI security.",
+            "As AI becomes more pervasive, the potential risks and consequences of security breaches will only grow.",
+            "Source: CXO Digitalpulse, 02 Apr 2026"
+          ]
+        }
+      },
+      "caption": "A security flaw in Vertex AI has raised concerns about Google Cloud data exposure. What steps can be taken to mitigate these risks and ensure the security of AI systems? \nQuestions to consider: How can companies balance the benefits of AI with the need for robust security measures? What role should regulators play in ensuring AI security?\n#AI #Security #GoogleCloud #VertexAI #TechRisk #DataProtection"
+    },
+    {
+      "id": 3,
+      "topic": "Anthropic Acquires Coefficient Bio",
+      "slides": 4,
+      "svgIcon": "atom",
+      "sourceId": "N25",
+      "eventDate": "03 Apr 2026",
+      "sourceName": "The Information",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQngxNzNsclBUMWNjdzB0YkE2RHVCejZhZEZZNWNjZkRmVVlOR1JoNWxYMWdEdm5qcUFBZzBkdjN4b2tyZ1djZzFSMUJvYmxQdGs1d1VJYlN5alJYbVB5X2tfLU5sdkg0Wkd5OS1BTU90cXhSS18ybllQUzRTRTVtdHRxRmx0aTdSWmE1dXZLd3pxRmNUZndjWVFB?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Acquires Coefficient Bio",
+          "subtitle": "A $400 Million Deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 03 Apr 2026, Anthropic acquired Coefficient Bio for approximately $400 million.",
+            "This deal reflects Anthropic's growing focus on AI applications in biotechnology.",
+            "The acquisition will likely expand Anthropic's capabilities in this area."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the increasing intersection of AI and biotechnology.",
+            "As AI continues to transform various industries, its potential impact on biotech is significant.",
+            "This deal may have implications for the future of AI-driven biotech research and development."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition demonstrates Anthropic's commitment to exploring AI's potential in biotechnology.",
+            "The deal's value of $400 million underscores the growing importance of AI in this sector.",
+            "Source: The Information, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has acquired Coefficient Bio for approximately $400 million. What are the implications of this deal for the future of AI-driven biotech research and development? \nQuestions to consider: How will this acquisition impact Anthropic's capabilities in biotechnology? What other industries may be transformed by the intersection of AI and biotech?\n#AI #Biotechnology #Anthropic #CoefficientBio #Acquisition #Innovation"
+    }
+  ]
+}

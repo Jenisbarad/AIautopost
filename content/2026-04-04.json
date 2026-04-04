@@ -8,123 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "03 Apr 2026",
-      "sourceName": "Indiatimes",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSldROVdINERtRXNLMkRCWXVROVJoLUhXVjlXMWVfV2FNdDFSZU50Vm1aOEVhV0FmTzIyUU1hLXJmQk16T1lvZDRGcGo3ZmRncXdDSXVxYUhIYllpNExYXzkwTHRzVGlEdktVNk1BLWJYdGtHeTduVGRpbVZDZnVYYW1McENJZ0s0R2NKeWZJV0VBZl83QWhKczN1Z09WR1Nob2ZrRVJjNHhmOFZKdGhpRE9wT2dkbklwdlBwU0toNm9TTEdaVl8zeXNTeFpwSnhfbkItVWhJTktTbzhCT2FZY0Z3MFdiN2o3Z2M0VkotT1k4R2JZ0gH6AUFVX3lxTE1IeUd4cGoyX2N1dGNGWmhFWkM4dUF2Zld4amlUQV9Gd2s2YVo2RjNvcDZvRmIyVEZtNldjSjM4T1cwZmgtUHZiUzBWRG1yRnFhejZFVGt3QlNUU3JMY0ZubWh4T2dNcTY5VUl4UDVVeXZvNnhHT0h0ckFJdjNmNWc2cFk4dnphZ08wSGYtWGExa2NxM3NUeGVNTFdoN2gwMmlRLTZVT3NuX1loYlU5eDVSdTd4VXJjRm1ZbjlZeS0yVnFjZ0p1VEZMbVpSN29qNzZCSWNiVWxfeHlIalUyV0c3T3VwcE5OWVo3RG9NaURvakZOR2lRd0pDalE?oc=5",
+      "topic": "AI Security Threats",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N14",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Expands Capabilities",
-          "subtitle": "Acquisition of Coefficient Bio"
+          "headline": "Growing AI Wireless Threats",
+          "subtitle": "Security gaps widen"
         },
         "slide2": {
-          "title": "WHAT HAPPENED",
+          "title": "Cisco 2026 State of Wireless Report",
           "lines": [
             "Event date: 03 Apr 2026",
-            "Anthropic acquired Coefficient Bio for $400 million",
-            "The acquisition aims to deepen Anthropic's push into drug discovery",
-            "The move marks a significant investment in the AI-powered drug discovery space",
-            "With this acquisition, Anthropic gains access to Coefficient Bio's expertise and technology"
+            "AI wireless threats grow",
+            "Security gaps widen",
+            "Report highlights key findings",
+            "512,000 lines of code leaked"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The acquisition highlights the growing importance of AI in the healthcare sector",
-            "Anthropic's move is expected to accelerate innovation in drug discovery",
-            "The deal also underscores the increasing competition in the AI-powered drug discovery space",
-            "As AI continues to transform the healthcare industry, such acquisitions are likely to become more common"
+            "Increased risk of data breaches",
+            "Companies must invest in AI security",
+            "Regulatory compliance is crucial",
+            "Source: eSecurity Planet, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The latest Cisco report reveals a significant increase in AI wireless threats. With security gaps widening, companies must invest in AI security to protect themselves from data breaches. Questions to consider: How can companies stay ahead of AI security threats? What role will regulatory compliance play in shaping the future of AI security? #AI #Security #WirelessThreats #CiscoReport #DataBreaches #CyberSecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdklBenZnNnlhRFVLRXctM3dtTnRJYW5IS1lRT2plYU8tbEEyRU9ZYVdNaGh4YUhoeHdDNGVfdjlEMm1sTWpaZ1BiVHFPOW85a1IyaV96YmRNNVJ3QWtLbUZPWkRjMmFFMWg2Z1pwX3UyemNMMzYzazBDeFNpdzlzV1ZuTDZLX2lhaXBpQkItQXNsMnFHb2VtUzF5c3hBQ2swaGpoYl95Z19QWGNtX0FNcFl6Q21PTWlRUF9RVHpyTF9Qdw?oc=5",
+      "sourceName": "eSecurity Planet",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "03 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Funding Round",
+      "slides": 4,
+      "svgIcon": "database",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Genspark Expands Series B",
+          "subtitle": "AI agent startup raises $385m"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "Genspark expands Series B to $385m",
+            "AI agent startup raises significant funding",
+            "Investment will drive growth and development",
+            "Total funding now stands at $385m"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Genspark's AI technology has significant potential",
+            "Funding will drive innovation and expansion",
+            "Company plans to use funds for growth and development",
+            ""
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a strategic move by Anthropic to expand its capabilities in AI-powered drug discovery",
-            "The deal is expected to have significant implications for the healthcare industry",
-            "As AI continues to play a larger role in drug discovery, we can expect to see more such acquisitions in the future",
-            "Source: Indiatimes, Apr 2026"
+            "Genspark's funding is a significant milestone for the company",
+            "The AI agent market is expected to grow rapidly",
+            "Investors are betting big on AI startups",
+            "Source: techinasia.com, Apr 2026"
           ]
         }
       },
-      "caption": "Anthropic's acquisition of Coefficient Bio marks a significant milestone in the AI-powered drug discovery space. With this move, Anthropic aims to deepen its push into drug discovery and accelerate innovation in the field. Questions to consider: What are the potential implications of this acquisition for the healthcare industry? How will this move impact the competitive landscape of AI-powered drug discovery? What role will AI play in shaping the future of drug discovery? #AI #DrugDiscovery #Healthcare #Acquisition #Innovation #HealthTech"
-    },
-    {
-      "id": 2,
-      "topic": "AI Security",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N21",
-      "eventDate": "03 Apr 2026",
-      "sourceName": "eSecurity Planet",
+      "caption": "Genspark, an AI agent startup, has expanded its Series B funding to $385m. This significant investment will drive growth and development for the company. Questions to consider: How will Genspark use the funding to drive innovation? What are the potential applications of Genspark's AI technology? #AI #Funding #Genspark #SeriesB #Startup #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ2g3SVBxdzRWM0JjSDVXYzBWLTl2TUpOcDZpbWRsWTBzWnNvcktwakJoellscGZBWlg3SE0wNHl1STQ4aXJjQ2VwOTFNLW8teWRZVmF6YjZBXzQ5Q0FBOF9aZEZOSFNYa2h4QW4wNXdUZGllNElXOS03ZEh5UTJwOWZpQQ?oc=5",
+      "sourceName": "techinasia.com",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdklBenZnNnlhRFVLRXctM3dtTnRJYW5IS1lRT2plYU8tbEEyRU9ZYVdNaGh4YUhoeHdDNGVfdjlEMm1sTWpaZ1BiVHFPOW85a1IyaV96YmRNNVJ3QWtLbUZPWkRjMmFFMWg2Z1pwX3UyemNMMzYzazBDeFNpdzlzV1ZuTDZLX2lhaXBpQkItQXNsMnFHb2VtUzF5c3hBQ2swaGpoYl95Z19QWGNtX0FNcFl6Q21PTWlRUF9RVHpyTF9Qdw?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "AI Wireless Threats on the Rise",
-          "subtitle": "Cisco 2026 State of Wireless Report"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 03 Apr 2026",
-            "The Cisco 2026 State of Wireless Report highlights the growing threat of AI-powered wireless attacks",
-            "The report notes that AI-powered attacks are becoming increasingly sophisticated",
-            "As many as 70% of organizations have reported experiencing AI-powered wireless attacks",
-            "The average cost of an AI-powered wireless attack is estimated to be around $1.1 million"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The growing threat of AI-powered wireless attacks underscores the need for robust security measures",
-            "Organizations must invest in AI-powered security solutions to stay ahead of threats",
-            "The report highlights the importance of implementing AI-powered security protocols to protect against wireless attacks",
-            "Source: eSecurity Planet, 03 Apr 2026"
-          ]
-        }
-      },
-      "caption": "The Cisco 2026 State of Wireless Report highlights the growing threat of AI-powered wireless attacks. As AI-powered attacks become increasingly sophisticated, organizations must invest in robust security measures to protect themselves. Questions to consider: What are the potential consequences of an AI-powered wireless attack? How can organizations effectively protect themselves against such threats? What role will AI play in shaping the future of wireless security? #AI #WirelessSecurity #Cybersecurity #Threats #Innovation #Tech"
+      "eventDate": "03 Apr 2026"
     },
     {
       "id": 3,
-      "topic": "Media Acquisition",
+      "topic": "Code Leak",
       "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N7",
-      "eventDate": "03 Apr 2026",
-      "sourceName": "The New York Times",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaSmpIVWxaVll5VXVUMUstaUhMYmppU0tDalJQWi1LU0dFc2tuMmZmc18yeUFrdUd0bFM0Nk1tYlpraEZPSDRhYmlUazdCYUVNZkVWVUpEVWNJaVd1bFdhUjh3Y09HdHowWWJSLVpFS2xVOWkwbmc?oc=5",
+      "svgIcon": "code",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "OpenAI Acquires Media Firm",
-          "subtitle": "TBPN Acquisition"
+          "headline": "Anthropic Claude Source Code Leaked",
+          "subtitle": "512,000 lines of code exposed"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 03 Apr 2026",
-            "OpenAI acquired media firm TBPN in a rare move into the media business",
-            "The acquisition aims to change the narrative on AI and its applications",
-            "TBPN is a popular tech talk show with a large following",
-            "The acquisition marks a significant investment in the media sector by OpenAI"
+            "Event date: 01 Apr 2026",
+            "Anthropic Claude source code leaked",
+            "512,000 lines of code exposed",
+            "Leak occurred due to a 4 am update",
+            "Company confirms accidental leak"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition highlights OpenAI's efforts to shape the public discourse on AI",
-            "The move is expected to have significant implications for the media industry",
-            "As AI continues to transform the media landscape, such acquisitions are likely to become more common",
-            "Source: The New York Times, 03 Apr 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Leak raises concerns about security and intellectual property",
+            "Company must take steps to prevent similar leaks",
+            "Investors and customers may be affected",
+            "Source: The Economic Times, 01 Apr 2026"
           ]
         }
       },
-      "caption": "OpenAI's acquisition of media firm TBPN marks a significant milestone in the company's efforts to shape the public discourse on AI. With this move, OpenAI aims to change the narrative on AI and its applications. Questions to consider: What are the potential implications of this acquisition for the media industry? How will this move impact the public's perception of AI? What role will AI play in shaping the future of the media landscape? #AI #Media #Acquisition #Innovation #Tech #Narrative"
+      "caption": "The source code for Anthropic's Claude chatbot was leaked, exposing 512,000 lines of code. The leak raises concerns about security and intellectual property. Questions to consider: How will Anthropic prevent similar leaks in the future? What are the potential consequences of the leak for investors and customers? #AI #CodeLeak #Anthropic #Claude #Security #IntellectualProperty",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOem9YdnBkbnVXYzU1UWlKRW5aUXJTUTdsWW1uN21EMWJrTElqX2VRU0I0N2FEWE5fcVk3UXplR0dMY2t4NU9EWEdQV3Iwbkk1Ti10VV9hYUtjS0RaV3ExUXJ3NkVad3UzSjZNWEtZaDg2aWN3OXdqb0I2SW52NTN2eU1BODROaVA1N3oyT1pHUzdfNzNHMHNYSjZHSE95UDBuaUxXNjRTbHJpQTUyTHdHMmtYYzN1Y0xybVFZZFhlY1Iya0V5cURuM2xyak1sVEdiMGhiaWdhcjlhbTNtSGp6SlBhMzA2ZVBUVjVlaU83dmhZaUpWWndtX2wwbHFiRVp1TUd1dkpyVdIBjAJBVV95cUxPMC1vbmpxdjVLY2E1RWp4ZnZDZ2hteHROVnRBR0VlTGJRM005YlZ2dlNYcTgyZE1RN2Mtdy1VNnNsaFhUcy1aVHd3THpFRGdqU1Z3Y1h5MEw2WWV3VHVjLVluSlQ0RHNTV1JscTk2X0lubVFOdnhJN0YzOEV1dWJ2OUw3dkkzUVhEZzdCT2pLQ2xqMGNQYTc1TVp5ekVYRkVSbmE4Ylp3S0RNMjZRckJ0SGtxUDRkREZQM3hzaXVSQ1Azd29UeHJsd3hKTXp2MldVNkhjYWtSS24wWmJDbHdNT29BWUl2bkNIOEhETG1idzgza3dPODItc08wbXpTcENxOFBFb2d2aUhQdzAy?oc=5",
+      "sourceName": "The Economic Times",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "01 Apr 2026"
     }
   ]
 }

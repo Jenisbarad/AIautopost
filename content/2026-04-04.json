@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-04",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "eventDate": "03 Apr 2026",
+      "sourceName": "Indiatimes",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSldROVdINERtRXNLMkRCWXVROVJoLUhXVjlXMWVfV2FNdDFSZU50Vm1aOEVhV0FmTzIyUU1hLXJmQk16T1lvZDRGcGo3ZmRncXdDSXVxYUhIYllpNExYXzkwTHRzVGlEdktVNk1BLWJYdGtHeTduVGRpbVZDZnVYYW1McENJZ0s0R2NKeWZJV0VBZl83QWhKczN1Z09WR1Nob2ZrRVJjNHhmOFZKdGhpRE9wT2dkbklwdlBwU0toNm9TTEdaVl8zeXNTeFpwSnhfbkItVWhJTktTbzhCT2FZY0Z3MFdiN2o3Z2M0VkotT1k4R2JZ0gH6AUFVX3lxTE1IeUd4cGoyX2N1dGNGWmhFWkM4dUF2Zld4amlUQV9Gd2s2YVo2RjNvcDZvRmIyVEZtNldjSjM4T1cwZmgtUHZiUzBWRG1yRnFhejZFVGt3QlNUU3JMY0ZubWh4T2dNcTY5VUl4UDVVeXZvNnhHT0h0ckFJdjNmNWc2cFk4dnphZ08wSGYtWGExa2NxM3NUeGVNTFdoN2gwMmlRLTZVT3NuX1loYlU5eDVSdTd4VXJjRm1ZbjlZeS0yVnFjZ0p1VEZMbVpSN29qNzZCSWNiVWxfeHlIalUyV0c3T3VwcE5OWVo3RG9NaURvakZOR2lRd0pDalE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Expands Capabilities",
+          "subtitle": "Acquisition of Coefficient Bio"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "Anthropic acquired Coefficient Bio for $400 million",
+            "The acquisition aims to deepen Anthropic's push into drug discovery",
+            "The move marks a significant investment in the AI-powered drug discovery space",
+            "With this acquisition, Anthropic gains access to Coefficient Bio's expertise and technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI in the healthcare sector",
+            "Anthropic's move is expected to accelerate innovation in drug discovery",
+            "The deal also underscores the increasing competition in the AI-powered drug discovery space",
+            "As AI continues to transform the healthcare industry, such acquisitions are likely to become more common"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a strategic move by Anthropic to expand its capabilities in AI-powered drug discovery",
+            "The deal is expected to have significant implications for the healthcare industry",
+            "As AI continues to play a larger role in drug discovery, we can expect to see more such acquisitions in the future",
+            "Source: Indiatimes, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's acquisition of Coefficient Bio marks a significant milestone in the AI-powered drug discovery space. With this move, Anthropic aims to deepen its push into drug discovery and accelerate innovation in the field. Questions to consider: What are the potential implications of this acquisition for the healthcare industry? How will this move impact the competitive landscape of AI-powered drug discovery? What role will AI play in shaping the future of drug discovery? #AI #DrugDiscovery #Healthcare #Acquisition #Innovation #HealthTech"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N21",
+      "eventDate": "03 Apr 2026",
+      "sourceName": "eSecurity Planet",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdklBenZnNnlhRFVLRXctM3dtTnRJYW5IS1lRT2plYU8tbEEyRU9ZYVdNaGh4YUhoeHdDNGVfdjlEMm1sTWpaZ1BiVHFPOW85a1IyaV96YmRNNVJ3QWtLbUZPWkRjMmFFMWg2Z1pwX3UyemNMMzYzazBDeFNpdzlzV1ZuTDZLX2lhaXBpQkItQXNsMnFHb2VtUzF5c3hBQ2swaGpoYl95Z19QWGNtX0FNcFl6Q21PTWlRUF9RVHpyTF9Qdw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Wireless Threats on the Rise",
+          "subtitle": "Cisco 2026 State of Wireless Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "The Cisco 2026 State of Wireless Report highlights the growing threat of AI-powered wireless attacks",
+            "The report notes that AI-powered attacks are becoming increasingly sophisticated",
+            "As many as 70% of organizations have reported experiencing AI-powered wireless attacks",
+            "The average cost of an AI-powered wireless attack is estimated to be around $1.1 million"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The growing threat of AI-powered wireless attacks underscores the need for robust security measures",
+            "Organizations must invest in AI-powered security solutions to stay ahead of threats",
+            "The report highlights the importance of implementing AI-powered security protocols to protect against wireless attacks",
+            "Source: eSecurity Planet, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The Cisco 2026 State of Wireless Report highlights the growing threat of AI-powered wireless attacks. As AI-powered attacks become increasingly sophisticated, organizations must invest in robust security measures to protect themselves. Questions to consider: What are the potential consequences of an AI-powered wireless attack? How can organizations effectively protect themselves against such threats? What role will AI play in shaping the future of wireless security? #AI #WirelessSecurity #Cybersecurity #Threats #Innovation #Tech"
+    },
+    {
+      "id": 3,
+      "topic": "Media Acquisition",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N7",
+      "eventDate": "03 Apr 2026",
+      "sourceName": "The New York Times",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaSmpIVWxaVll5VXVUMUstaUhMYmppU0tDalJQWi1LU0dFc2tuMmZmc18yeUFrdUd0bFM0Nk1tYlpraEZPSDRhYmlUazdCYUVNZkVWVUpEVWNJaVd1bFdhUjh3Y09HdHowWWJSLVpFS2xVOWkwbmc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Acquires Media Firm",
+          "subtitle": "TBPN Acquisition"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "OpenAI acquired media firm TBPN in a rare move into the media business",
+            "The acquisition aims to change the narrative on AI and its applications",
+            "TBPN is a popular tech talk show with a large following",
+            "The acquisition marks a significant investment in the media sector by OpenAI"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition highlights OpenAI's efforts to shape the public discourse on AI",
+            "The move is expected to have significant implications for the media industry",
+            "As AI continues to transform the media landscape, such acquisitions are likely to become more common",
+            "Source: The New York Times, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's acquisition of media firm TBPN marks a significant milestone in the company's efforts to shape the public discourse on AI. With this move, OpenAI aims to change the narrative on AI and its applications. Questions to consider: What are the potential implications of this acquisition for the media industry? How will this move impact the public's perception of AI? What role will AI play in shaping the future of the media landscape? #AI #Media #Acquisition #Innovation #Tech #Narrative"
+    }
+  ]
+}

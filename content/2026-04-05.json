@@ -1,0 +1,133 @@
+{
+  "date": "2026-04-05",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Threats",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI in Healthcare",
+          "subtitle": "A Double-Edged Sword"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Apr 2026",
+            "AI drives wireless ROI in healthcare",
+            "But raises security challenges",
+            "Cisco's 2026 State of Wireless Report highlights AI wireless threats",
+            "Growing at an alarming rate"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Healthcare security gaps widen",
+            "AI-driven attacks on the rise",
+            "Industry must invest in robust security measures",
+            "To protect sensitive patient data"
+          ]
+        }
+      },
+      "caption": "The increasing use of AI in healthcare has brought about a new set of security challenges. According to a recent report, AI-driven wireless threats are on the rise, with security gaps widening in the healthcare industry. Questions to consider: How can the healthcare industry balance the benefits of AI with the need for robust security measures? What role should governments play in regulating AI security in healthcare? #AI #Healthcare #Security #Cybersecurity #WirelessThreats #HealthcareTechnology",
+      "questions": "How can the healthcare industry balance the benefits of AI with the need for robust security measures? What role should governments play in regulating AI security in healthcare?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUmZkTlZ6U2N1Y1ZKSDNWUWVjUlZLalNlV05WWWRfOUo1c2VtbFB4TEJod2JDbmp1d3drRDl2UVk3aUlOb2QwcUZFNU5LN080ODFfWENYZTl4NktLaDlMcGtoQ0JEUjZLQno1Y2NUcmV0MlFUek9KUlAzQjl1VGFMNHJsU0hxQ2luNHh1dnZQUE11dG14MFU0OUZydEZ0R1htVVQzTTh5R3c3NjRwd2FzY3ZDMnp5ZW1xalpJeU5RdmtiRFpCcDM4?oc=5",
+      "sourceName": "TechTarget",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "02 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Acquisition News",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's Latest Acquisition",
+          "subtitle": "A Push into Biotech"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "Anthropic acquired Coefficient Bio for $400 million",
+            "The acquisition marks a deeper push into drug discovery",
+            "Coefficient Bio's technology will be integrated into Anthropic's existing platform",
+            "The deal is expected to close in the coming months"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Anthropic's expansion into biotech",
+            "Could lead to breakthroughs in drug discovery",
+            "The acquisition demonstrates Anthropic's commitment to AI research",
+            "And its potential applications in various industries"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant step for Anthropic",
+            "As it looks to expand its reach in the biotech industry",
+            "The deal highlights the growing importance of AI in biotech research",
+            "Source: The Information, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's recent acquisition of Coefficient Bio for $400 million marks a significant push into the biotech industry. The deal is expected to lead to breakthroughs in drug discovery and demonstrates Anthropic's commitment to AI research. Questions to consider: What are the potential implications of this acquisition for the biotech industry? How will Anthropic's expansion into biotech impact its existing operations? #Acquisition #Biotech #AI #DrugDiscovery #Anthropic #CoefficientBio",
+      "questions": "What are the potential implications of this acquisition for the biotech industry? How will Anthropic's expansion into biotech impact its existing operations?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQngxNzNsclBUMWNjdzB0YkE2RHVCejZhZEZZNWNjZkRmVVlOR1JoNWxYMWdEdm5qcUFBZzBkdjN4b2tyZ1djZzFSMUJvYmxQdGs1d1VJYlN5alJYbVB5X2tfLU5sdkg0Wkd5OS1BTU90cXhSS18ybllQUzRTRTVtdHRxRmx0aTdSWmE1dXZLd3pxRmNUZndjWVFB?oc=5",
+      "sourceName": "The Information",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "03 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding Boom",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "Q1 2026 Shatters Venture Funding Records",
+          "subtitle": "AI Boom Drives Investment"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Apr 2026",
+            "Q1 2026 saw $300B in startup investment",
+            "The largest quarter on record",
+            "AI startups drove much of the investment",
+            "With many reaching valuations over $1B"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding boom is a sign of AI's growing importance",
+            "Many AI startups are reaching scale and maturity",
+            "The investment will drive further innovation in the AI space",
+            "And potentially lead to breakthroughs in various industries"
+          ]
+        }
+      },
+      "caption": "The first quarter of 2026 has seen a record $300B in startup investment, driven in large part by the AI boom. Many AI startups have reached valuations over $1B, and the investment is expected to drive further innovation in the space. Questions to consider: What are the potential risks and challenges associated with the AI funding boom? How will the investment in AI startups impact the broader technology industry? #AIFunding #StartupInvestment #Q12026 #AIBoom #Innovation #Technology",
+      "questions": "What are the potential risks and challenges associated with the AI funding boom? How will the investment in AI startups impact the broader technology industry?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORTBNMEJaeUpqNXpYWnNEYjk1eXFpOU9aQVdfS2JvSXB0bElUN1VYMGM1UTZ6REo5VzZjcHBPODRFcmZqQkIwX1FpWXdsbVNaako0N1k2ZjBobzctanU4TWdpZW8tUURmMTBwMWM5VktrWVlHSk8zMW16RXh2anhRS282VVY?oc=5",
+      "sourceName": "Crunchbase News",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "01 Apr 2026"
+    }
+  ]
+}

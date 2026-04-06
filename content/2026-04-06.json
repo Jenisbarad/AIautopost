@@ -1,0 +1,128 @@
+{
+  "date": "2026-04-06",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Threat",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N13",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Tops National Security Threat List",
+          "subtitle": "2026 US Intel Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "AI has been identified as a top national security threat in the 2026 US Intel Report.",
+            "This report highlights the growing concern of AI's potential risks.",
+            "The report does not specify the exact nature of the threats, but it is clear that AI is a major focus.",
+            "The US government is taking steps to address these concerns."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The identification of AI as a national security threat has significant implications for the development and regulation of AI.",
+            "It is likely that the US government will increase funding for AI research and development to better understand and mitigate the risks.",
+            "This could lead to new opportunities for AI startups and researchers.",
+            "Source: The Defense Post, 02 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The 2026 US Intel Report has identified AI as a top national security threat. This has significant implications for the development and regulation of AI. What does this mean for the future of AI research and development? How will the US government address these concerns? #AI #NationalSecurity #USIntelReport #ArtificialIntelligence #TechNews #SecurityThreats",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VUnFjN21sbXVNdzMwaXg2Tjg5WDllZkZUZkV5VDUxOUdhTlM2ZVdPUXNiYzE4ODBfRUZqbUxLZVdFclY0V2tscWdfenROWG5JYVBON2Vqc2NCZkQtZVRqd0w4YWZGQjFNXzNKTEh4dGpvREp40gF6QVVfeXFMT1VNejhab3kzM21yNVZUczFHSU5WZnpvbnU3SXNPdHYybWl5YUJrczJ6Wkd6YmhxMGNRQktSZUE2akpfbTZFeG44cFJxT2licXlGRlVGMk5jMVNEZmxDcUw1NzlraDhOb2JMdnIyQkVBa0xSTjBER1VGd0E?oc=5",
+      "sourceName": "The Defense Post",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "02 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Rebellions Raises $400 Million",
+          "subtitle": "AI Chip Startup Valued at $2.3 Billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 30 Mar 2026",
+            "Rebellions, an AI chip startup, has raised $400 million in a pre-IPO round.",
+            "The company is now valued at $2.3 billion.",
+            "This funding round is one of the largest for an AI chip startup in recent history.",
+            "The funding will be used to further develop Rebellions' AI chip technology."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The large funding round for Rebellions highlights the growing interest in AI chip technology.",
+            "AI chips are a crucial component of many AI systems, and the development of more advanced chips is necessary for the advancement of AI.",
+            "The valuation of Rebellions at $2.3 billion demonstrates the potential for AI chip startups to achieve significant growth and success."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round for Rebellions is a significant development in the AI chip industry.",
+            "It highlights the growing importance of AI chip technology.",
+            "The valuation of Rebellions demonstrates the potential for AI chip startups to achieve significant growth and success.",
+            "Source: TechCrunch, Mar 2026"
+          ]
+        }
+      },
+      "caption": "Rebellions, an AI chip startup, has raised $400 million in a pre-IPO round and is now valued at $2.3 billion. What does this mean for the future of AI chip technology? How will this funding round impact the development of AI systems? #AI #ChipTechnology #Funding #Startup #TechNews #Rebellions",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWE9JN2paUXIwX09tNkJKWjBmMlNnalctSXZWUFcweURBeHpYcUNLalBPekFUaUhfeWpWV1hTQzVFV3RlbkVzVUtjdERLQV96NmgzUlYxcEtzNHFsT0Vzc1JtZENIclRlQXBnY0pwT3RGZW1KMjVkNlpJYWpwNWJnSG92YWVmcmZ1T0NxVElrQzhmSVNQQVRqQ2g0SUVDc1gzLU4zbE1QSVZXTXA4bDJxUmx3c1ZRQQ?oc=5",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "Mar 2026",
+      "eventDate": "30 Mar 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Data Breach",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Loses Contract with Meta",
+          "subtitle": "Data Breach Causes Significant Consequences"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Apr 2026",
+            "An AI startup has lost a business contract with Meta due to a data breach.",
+            "The breach has caused significant consequences for the startup, including the loss of a major contract.",
+            "The exact nature of the breach is not specified, but it is clear that it has had a major impact on the startup's business.",
+            "The breach has highlighted the importance of data security for AI startups."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The data breach and subsequent loss of contract for the AI startup highlights the importance of data security.",
+            "AI startups must take steps to protect their data and prevent breaches.",
+            "The consequences of a data breach can be severe, including the loss of business contracts and damage to reputation.",
+            "Source: Cybersecurity Insiders, 06 Apr 2026"
+          ]
+        }
+      },
+      "caption": "An AI startup has lost a business contract with Meta due to a data breach. What does this mean for the future of AI startups and data security? How can AI startups prevent data breaches and protect their business? #AI #DataBreach #Security #Startup #TechNews #Meta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcjM5SHJxRldlU1ZEbnZ2X3ZWSlJuczBTVi1DTUxXMXFwVnlnNTY1ZHhKYTZnTzBGczd6U29YRnJCYi1STlRLT09rY182clVWWGdYSXhHRk9MdFpKekNjRWRqeDExRi0xQ0Q2ZTUwa21PNW9KN05yTHl3aklWWE1Kd1ZOeFZuaHVKbWEtODFjMkhRbmVUSzN3N3VKa29FSTJiT2Y2UQ?oc=5",
+      "sourceName": "Cybersecurity Insiders",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "06 Apr 2026"
+    }
+  ]
+}

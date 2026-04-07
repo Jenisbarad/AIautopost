@@ -1,0 +1,122 @@
+{
+  "date": "2026-04-07",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Threats",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N20",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Wireless Threats on the Rise",
+          "subtitle": "Cisco's 2026 State of Wireless Report reveals growing concerns"
+        },
+        "slide2": {
+          "title": "KEY FINDINGS",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "AI wireless threats are growing",
+            "Security gaps are widening",
+            "Report highlights the need for improved security measures"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "As AI adoption increases, so do the risks",
+            "Companies must prioritize security to protect against threats",
+            "Source: esecurityplanet.com, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The rise of AI wireless threats is a growing concern for companies. With security gaps widening, it's essential to prioritize security measures. Questions to consider: What are the most significant AI wireless threats? How can companies protect themselves? #AIsecurity #wireless-threats #security-measures",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdklBenZnNnlhRFVLRXctM3dtTnRJYW5IS1lRT2plYU8tbEEyRU9ZYVdNaGh4YUhoeHdDNGVfdjlEMm1sTWpaZ1BiVHFPOW85a1IyaV96YmRNNVJ3QWtLbUZPWkRjMmFFMWg2Z1pwX3UyemNMMzYzazBDeFNpdzlzV1ZuTDZLX2lhaXBpQkItQXNsMnFHb2VtUzF5c3hBQ2swaGpoYl95Z19QWGNtX0FNcFl6Q21PTWlRUF9RVHpyTF9Qdw?oc=5",
+      "sourceName": "esecurityplanet.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "03 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "NeuBird Funding",
+      "slides": 4,
+      "svgIcon": "database",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "NeuBird Raises $19.3M in Funding",
+          "subtitle": "US startup to scale AI for IT operations"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "NeuBird raised $19.3 million in funding",
+            "The startup plans to use the funds to scale its AI-powered IT operations platform",
+            "The funding round was announced on 07 Apr 2026"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help NeuBird expand its platform",
+            "The startup aims to improve IT operations with AI",
+            "The investment is a significant vote of confidence in NeuBird's technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "NeuBird's funding is a significant development in the AI-powered IT operations space",
+            "The startup's platform has the potential to improve IT operations for companies",
+            "The funding round was led by prominent investors",
+            "Source: Tech in Asia, Apr 2026"
+          ]
+        }
+      },
+      "caption": "NeuBird's $19.3 million funding round is a significant development in the AI-powered IT operations space. The startup plans to use the funds to scale its platform and improve IT operations for companies. Questions to consider: What are the potential applications of NeuBird's platform? How will the funding impact the company's growth? #AI #IToperations #funding",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFJ5OFZ2VWlxZEtxaW03SndPczh0MTNRTDFOR0hPVlJnYlBFMVRKVzVoYmJfaHNycGFsNER1bVBhR0RTS0NhVllaNDc0MjFCbmhNdGszM2M2UzZ4U1ZaempQekZFN2V5THFiR0l1cXBQSTdJeXJEeWhQZXJvN3RWMmZERTJmeFdaYzMzVmo3VHloeXRfelROQg?oc=5",
+      "sourceName": "Tech in Asia",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "07 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Anthropic Acquisition",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Acquires Coefficient Bio for $400M",
+          "subtitle": "The acquisition is a significant development in the AI biotech space"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic acquired Coefficient Bio for $400 million",
+            "The acquisition is a significant investment in the AI biotech space",
+            "The deal was announced on 03 Apr 2026"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition is a significant development in the AI biotech space",
+            "Anthropic's investment in Coefficient Bio is a vote of confidence in the company's technology",
+            "Source: The Information, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's acquisition of Coefficient Bio is a significant development in the AI biotech space. The $400 million deal is a significant investment in the company's technology. Questions to consider: What are the potential applications of Coefficient Bio's technology? How will the acquisition impact Anthropic's growth? #AI #biotech #acquisition",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQngxNzNsclBUMWNjdzB0YkE2RHVCejZhZEZZNWNjZkRmVVlOR1JoNWxYMWdEdm5qcUFBZzBkdjN4b2tyZ1djZzFSMUJvYmxQdGs1d1VJYlN5alJYbVB5X2tfLU5sdkg0Wkd5OS1BTU90cXhSS18ybllQUzRTRTVtdHRxRmx0aTdSWmE1dXZLd3pxRmNUZndjWVFB?oc=5",
+      "sourceName": "The Information",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "03 Apr 2026"
+    }
+  ]
+}

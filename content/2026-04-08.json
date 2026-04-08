@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-08",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Q1 2026 Shatters Venture Funding Records",
+          "subtitle": "AI Boom Pushes Startup Investment to New Heights"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Apr 2026",
+            "Q1 2026 saw $300B in startup investment",
+            "Driven by the AI boom",
+            "A significant increase in funding",
+            "For AI-related startups"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment will drive innovation",
+            "And growth in the AI sector",
+            "Enabling new technologies and applications",
+            "That will transform industries"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI boom is showing no signs of slowing down",
+            "With significant investment in Q1 2026",
+            "This will have a major impact on the industry",
+            "Source: news.crunchbase.com, Apr 2026"
+          ]
+        }
+      },
+      "caption": "The AI funding boom continues to gain momentum, with Q1 2026 seeing $300B in startup investment. This significant increase in funding will drive innovation and growth in the AI sector, enabling new technologies and applications that will transform industries. Questions to consider: What will be the impact of this funding on the development of AI technologies? How will this investment shape the future of the industry? #AI #Funding #Investment #Startup #Innovation\n\nSource: news.crunchbase.com, 01 Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORTBNMEJaeUpqNXpYWnNEYjk1eXFpOU9aQVdfS2JvSXB0bElUN1VYMGM1UTZ6REo5VzZjcHBPODRFcmZqQkIwX1FpWXdsbVNaako0N1k2ZjBobzctanU4TWdpZW8tUURmMTBwMWM5VktrWVlHSk8zMW16RXh2anhRS282VVY?oc=5",
+      "sourceName": "news.crunchbase.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "01 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Anthropic Acquisition",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Acquires Coefficient Bio",
+          "subtitle": "A Significant Move in the AI Biotech Space"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "Anthropic acquired Coefficient Bio for $400 million",
+            "A significant investment in the AI biotech space",
+            "This acquisition will enhance Anthropic's capabilities",
+            "In the development of AI-powered biotech solutions"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition will have a major impact on the AI biotech industry",
+            "Enabling the development of new AI-powered biotech solutions",
+            "That will transform the sector",
+            "Source: news.cgtn.com, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's acquisition of Coefficient Bio for $400 million is a significant move in the AI biotech space. This acquisition will enhance Anthropic's capabilities in the development of AI-powered biotech solutions and have a major impact on the industry. Questions to consider: What will be the impact of this acquisition on the development of AI-powered biotech solutions? How will this move shape the future of the AI biotech industry? #AI #Biotech #Acquisition #Innovation\n\nSource: news.cgtn.com, 03 Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XMUozRFYzUW9EeklCS09yS3JuZ29DUkxlcjg3TmpNWFluWlF3dmlxS3U3N05GSi1CZWZORFdacnlkNDZxX19HYWZsRk50eGZITWk5eWlKQWZiNXlxU01nbFA3U3FjVXQ4VkQyNWZR?oc=5",
+      "sourceName": "news.cgtn.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "03 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI in Physical Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI in Physical Security Market Growing",
+          "subtitle": "A New Era in Security Solutions"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Apr 2026",
+            "The AI in physical security market is growing rapidly",
+            "With a forecasted market size of over $100B by 2033",
+            "Driven by the increasing adoption of AI-powered security solutions",
+            "That provide enhanced security and surveillance capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This growth will have a significant impact on the security industry",
+            "Enabling the development of more effective and efficient security solutions",
+            "That will transform the way we approach physical security",
+            "Source: UnivDatos, 06 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The AI in physical security market is growing rapidly, with a forecasted market size of over $100B by 2033. This growth will have a significant impact on the security industry, enabling the development of more effective and efficient security solutions. Questions to consider: What will be the impact of AI on the physical security industry? How will AI-powered security solutions transform the way we approach security? #AI #PhysicalSecurity #MarketGrowth #Innovation\n\nSource: UnivDatos, 06 Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsZGV6RWo0Y2N0Y2hoQkMwMnFWRnpNZjI3SG5XY0NlYmZSbmVtd01rUVM1bm04Q2RPZFdNS21rSlA0MjFrVjZFbzlnQTBSeGhVc2pudWtkUHRob21qWHFUZzFzeEowT3JEMHJiZA?oc=5",
+      "sourceName": "UnivDatos",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "06 Apr 2026"
+    }
+  ]
+}

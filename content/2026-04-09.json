@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-09",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N14",
+      "eventDate": "09 Apr 2026",
+      "sourceName": "Entrackr",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWVaTHpPYjlFXzRJZUJWWkx6alh5amRJWlBpcGpWSDJtWkI1X0dOZUFwclBreGY3Z29LZy05Q2FxTUoxR2VnZlo3M2ctSzhJV2R0WUtIMnRnblVrWmNISVBSMFFFd2hhYUN3WmdYTE5jMlY4OWVPZ193VkFqX1lGX1duLXM4Y3ZQUVBNdGJsMFJUT0hCblJvUjRBeDllbkJo0gGgAUFVX3lxTFBVZVpMek9iOUVfNEllQlZaTHpqWHlqZElaUGlwalZIMm1aQjVfR05lQXByUGt4Zjdnb0tnLTlDYXFNSjFHZWdmWjczZy1LOElXZHRZS0gydGduVWtaY0hJUFIwUUV3aGFhQ3daZ1hMTmMyVjg5ZU9nX3dWQWpfWUZfV24tczhjdlBRUE10YmwwUlRPSEJuUm9SNEF4OWVuQmg?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nava Raises $22M",
+          "subtitle": "Expanding GPU Cloud and Data Centre Infrastructure"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 09 Apr 2026",
+            "Enterprise AI startup Nava raised $22M led by Greenoaks Capital.",
+            "The funding will be used to expand GPU cloud and data centre infrastructure.",
+            "Nava aims to provide more efficient AI solutions for businesses.",
+            "The investment highlights the growing demand for AI infrastructure."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Nava to improve its AI capabilities and provide better services to its clients.",
+            "The expansion of GPU cloud and data centre infrastructure will enable Nava to handle larger AI workloads.",
+            "This investment is a significant step forward for Nava and the AI industry as a whole.",
+            "It demonstrates the confidence of investors in the potential of AI to transform businesses."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI market is expected to continue growing in the coming years.",
+            "Nava's funding is a testament to the increasing demand for AI solutions.",
+            "The company's focus on GPU cloud and data centre infrastructure is a key differentiator.",
+            "Source: Entrackr, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Nava, an enterprise AI startup, has raised $22M in funding to expand its GPU cloud and data centre infrastructure. This investment is a significant step forward for the company and the AI industry as a whole. It demonstrates the confidence of investors in the potential of AI to transform businesses. Questions to consider: What are the implications of this funding for the AI industry? How will Nava use this investment to improve its AI capabilities? #AI #Funding #GPU #Cloud #DataCentre #Infrastructure"
+    },
+    {
+      "id": 2,
+      "topic": "AI Acquisition",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N5",
+      "eventDate": "03 Apr 2026",
+      "sourceName": "news.cgtn.com",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XMUozRFYzUW9EeklCS09yS3JuZ29DUkxlcjg3TmpNWFluWlF3dmlxS3U3N05GSi1CZWZORFdacnlkNDZxX19HYWZsRk50eGZITWk5eWlKQWZiNXlxU01nbFA3U3FjVXQ4VkQyNWZR?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Acquires Coefficient Bio",
+          "subtitle": "Expanding AI Capabilities in Biotech"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Apr 2026",
+            "Anthropic acquired Coefficient Bio for approximately $400 million.",
+            "The acquisition will help Anthropic to expand its AI capabilities in biotech.",
+            "Coefficient Bio's technology will be integrated into Anthropic's existing platform.",
+            "The deal highlights the growing interest in AI applications in biotech."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition demonstrates Anthropic's commitment to expanding its AI capabilities in biotech.",
+            "The integration of Coefficient Bio's technology will enhance Anthropic's platform.",
+            "The deal is a significant step forward for Anthropic and the AI industry as a whole.",
+            "Source: news.cgtn.com, 03 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has acquired Coefficient Bio for approximately $400 million. The acquisition will help Anthropic to expand its AI capabilities in biotech. Questions to consider: What are the implications of this acquisition for the AI industry? How will Anthropic integrate Coefficient Bio's technology into its existing platform? #AI #Acquisition #Biotech #CoefficientBio #Anthropic"
+    },
+    {
+      "id": 3,
+      "topic": "AI Research",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N6",
+      "eventDate": "05 Apr 2026",
+      "sourceName": "thelec.net",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uaVFLMDlUY0pwdzdrQURudGRpM0ctZ1R3WWZwN0xQUVoxR050SUt2V1p2OVJNRGttcDgxdkdvd0dhZHJISVdyVlowQnZfS0ZNX2xEX21sNjRjYWNtT0JId3dJeFEzdw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Unveils Gemma 4",
+          "subtitle": "Boosting Open Model Strategy"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 05 Apr 2026",
+            "Google unveiled Gemma 4 with an Apache 2.0 license.",
+            "The new model is designed to boost Google's open model strategy.",
+            "Gemma 4 will provide more efficient and accurate AI solutions.",
+            "The model is a significant step forward for Google's AI research."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The release of Gemma 4 demonstrates Google's commitment to open model strategy.",
+            "The model will provide more efficient and accurate AI solutions.",
+            "Gemma 4 is a significant step forward for Google's AI research.",
+            "Source: thelec.net, 05 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Google has unveiled Gemma 4 with an Apache 2.0 license. The new model is designed to boost Google's open model strategy. Questions to consider: What are the implications of this release for the AI industry? How will Gemma 4 provide more efficient and accurate AI solutions? #AI #Research #Gemma4 #Google #OpenModel #Apache"
+    }
+  ]
+}

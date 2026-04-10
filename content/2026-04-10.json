@@ -8,126 +8,117 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Shifts",
+      "topic": "AI Funding",
       "slides": 4,
       "svgIcon": "brain",
-      "sourceId": "N2",
-      "eventDate": "08 Apr 2026",
-      "sourceName": "BW Businessworld",
+      "sourceId": "N6",
+      "eventDate": "10 Apr 2026",
+      "sourceName": "Reuters",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT3JfbDNyOV9TUENieF9qbzNSNlRHMEdEdURVUHEyX3ZtOEV0OEtyYk5hcDMta05SMDJtc3o4Slhtc09zbnhsaV9aeVgtRTFsQjZIMkxjRzluX3BRNG1feThBdnRYMFo1cDRvZHNramJJQkg5Z2Y1cDdOVTFUbHU5djBzNjlKb3dRRllxMTZJYWZRel90Skd4REc2MFQxTmZsNlZWRjlfbkRNeFdZRUNrbXM4Y0d3R21SZ2RsREc1bw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbkdpSnVHajVGdVFmY0l2X0F1T1Jia2pkY3Z4RnIzVGhBMkRuSzRKcWN1c2poQUNXb0FDZDdtcWtwS3pSckNPZzRCUVhnVW9xVjV1SnUtcTBYaHVWVlF3Y1JxcEprazRkcDR3NFJIb0VKSlMzRWZMV3VOa252bTFfTGYwWkZUSkxwZzJxbGVmUjhONlRkX3NPYzJLOUstbDlHRl9LVms4dEl3T2tDeWFWSDg3N18tTnZIUVNjckxFSGk3YWM?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "India's AI Startup Funding Jumps",
-          "subtitle": "A significant increase in investments"
+          "headline": "ShengShu Raises $293 Million",
+          "subtitle": "To advance artificial general intelligence"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 08 Apr 2026",
-            "India's AI startup funding jumped 277% in 2025",
-            "Investors are writing bigger cheques for AI startups",
-            "This surge in funding is expected to continue",
-            "With more emphasis on AI development and implementation"
+            "Chinese startup ShengShu raised $293 million",
+            "On 10 Apr 2026",
+            "To advance artificial general intelligence"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This increase in funding will lead to more AI innovation",
-            "Startups will have more resources to develop and refine their AI technologies",
-            "The growth of the AI industry will have a positive impact on the economy",
-            "As AI becomes more prevalent, we can expect to see significant advancements"
+            "This funding will help ShengShu develop its AI technology",
+            "And compete with other AI companies",
+            "In the growing AI market"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The future of AI looks promising with increased investments",
-            "Startups will play a crucial role in shaping the AI landscape",
-            "As the industry continues to grow, we can expect to see more AI applications",
-            "Source: BW Businessworld, Apr 2026"
+            "ShengShu's funding is one of the largest AI investments in recent months",
+            "The company plans to use the funding to advance its AI research and development",
+            "This investment could lead to significant advancements in artificial general intelligence",
+            "Source: Reuters, Apr 2026"
           ]
         }
       },
-      "caption": "The Indian AI startup funding landscape is undergoing a significant shift. With a 277% jump in funding, the future of AI looks promising. But what does this mean for the industry as a whole? How will this increased funding impact the development and implementation of AI technologies? What are the potential applications of AI that we can expect to see in the near future? #AI #Funding #Startups #India #Innovation #Technology",
-      "questionsToConsider": "What are the potential risks and challenges associated with this surge in funding? How will the increased funding impact the job market and the economy?"
+      "caption": "ShengShu, a Chinese startup, has raised $293 million to advance artificial general intelligence. This funding is one of the largest AI investments in recent months and could lead to significant advancements in the field. Questions to consider: What are the potential applications of artificial general intelligence? How will ShengShu's funding impact the AI market? #AI #ArtificialGeneralIntelligence #ShengShu #Funding #Investment"
     },
     {
       "id": 2,
-      "topic": "AI Regulation",
+      "topic": "EU AI Act",
       "slides": 3,
       "svgIcon": "shield",
       "sourceId": "N8",
-      "eventDate": "10 Apr 2026",
-      "sourceName": "CNBC TV18",
+      "eventDate": "09 Apr 2026",
+      "sourceName": "Security Boulevard",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbFoyN1Z0WkFydjlwYzlzamtiSXR1aXBwQVc0V2xYejA4VHJTV25UM1VfdE1yOTRrQ0Q3RGN2eDZrTXdhc3E5OVdZSFhHd3ZyV3gwOWxibi1PTTR6VFVsOEVkdWxJa2Zuam5VTVE5R2xuTEc5V1IwMXhGNDNQdGd3TGhhdkExM2RnRU5pcDQxY1J5Ry15ZlpodnYzSWdzMFdNc2lUS2hDUUpPdk5TcXhfM0ppVEEzSkhkNmtEWXFrWTV6OTlYcUJYME5vdDdpNlJq0gHQAUFVX3lxTE1sWjI3VnRaQXJ2OXBjOXNqa2JJdHVpcHBBVzRXbFh6MDhUclNXblQzVV90TXI5NGtDRDdEY3Z4NmtNd2FzcTk5V1lIWEd3dnJXeDA5bGJuLU9NNHpUVWw4RWR1bElrZm5qblVNUTlHbG5MRzlXUjAxeEY0M1B0Z3dMaGF2QTEzZGdFTmlwNDFjUnlHLXlmWmh2djNJZ3MwV01zaVRLaENRSk92TlNxeF8zSmlUQTNKSGQ2a0RZcWtZNXo5OVhxQlgwTm90N2k2Umo?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM0YydFExN2hzb09OZEMzUXVCUzRsVXNqNVFZOG5Eem9hR1d5QXhBODJER3JwMnpWaVA4dXVSR0daeTRFazRaUlotRGp5WEJ3dFU1TXdiN3JjVkk5cEFPcklPX2s4SVczNWJweXBjQnFhQ1Jtbzh6SE5la3dEYmtkbzI4M2lycjhTN1JIcTJJOA?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "India's Digital Personal Data Protection Law",
-          "subtitle": "Shaping the future of enterprise AI"
+          "headline": "EU AI Act Data Requirements",
+          "subtitle": "Explained by Kovrr"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 10 Apr 2026",
-            "India's digital personal data protection law is expected to shape the future of enterprise AI",
-            "The law will have a significant impact on how companies collect, store, and use personal data",
-            "Companies will need to ensure that their AI systems are compliant with the new regulations",
-            "The law is expected to come into effect soon, with a potential impact on $10 billion in investments"
+            "Event date: 09 Apr 2026",
+            "The EU AI Act has strict data requirements",
+            "Companies must ensure their AI systems are transparent and explainable",
+            "With a potential fine of up to €30 million for non-compliance"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The new law will require companies to be more transparent about their data collection practices",
-            "Companies will need to implement robust security measures to protect personal data",
-            "The law will have a significant impact on the development and implementation of AI technologies",
-            "Source: CNBC TV18, Apr 2026"
+            "The EU AI Act is a significant regulation for AI companies",
+            "Companies must ensure their AI systems meet the Act's requirements",
+            "This regulation could impact the development of AI technology in the EU",
+            "Source: Security Boulevard, 09 Apr 2026"
           ]
         }
       },
-      "caption": "India's digital personal data protection law is expected to have a significant impact on the future of enterprise AI. But what does this mean for companies that rely heavily on AI technologies? How will the new regulations impact the development and implementation of AI systems? What are the potential consequences for companies that fail to comply with the new law? #AI #Regulation #DataProtection #India #Compliance #Technology",
-      "questionsToConsider": "What are the potential benefits and drawbacks of the new law? How will the law impact the growth of the AI industry in India?"
+      "caption": "The EU AI Act has strict data requirements that companies must comply with. The Act requires AI systems to be transparent and explainable, with a potential fine of up to €30 million for non-compliance. Questions to consider: What are the implications of the EU AI Act for AI companies? How will the Act impact the development of AI technology in the EU? #EUAIAct #AIRegulation #DataRequirements #Compliance"
     },
     {
       "id": 3,
-      "topic": "AI Acquisition",
+      "topic": "ChatGPT Pro",
       "slides": 3,
       "svgIcon": "code",
-      "sourceId": "N12",
-      "eventDate": "31 Mar 2026",
-      "sourceName": "CTech",
-      "sourceMonthYear": "Mar 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52clplRlVRenJXa2wxSXEtUU1YR2ExRHBxMmZEVDRhZS1zOU8tdnZnQVlRRENkdV82NkRMc1d1Y0JaSllpdDF1RlJ3TmZveUZjYWhpRXExNUtOSGhqWUY3YUtPd3hWVFFabU1r?oc=5",
+      "sourceId": "N3",
+      "eventDate": "10 Apr 2026",
+      "sourceName": "Engadget",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa002NXg3RnhDRjNzcmZpal9mV3ZvdmpfSlpvNUJsdmZGcnM2SzY1aTZPeU1mYjl1Y1VNUENVOUxxa0kxUURYMzFoOExmcDN6RTdGYmVXSi1INlRsamY5eGZ2TXhsMnBHSEoyb3IySFV2UkgycndOMERPV3gyT2gtR25oX0RQR1loVTFpTUFUeWc1NnZqckJZY3hHYmMzT3FBZlUxYVpJUFlKOVJPODYtNA?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Publicis Acquires AdgeAI",
-          "subtitle": "A significant move in the AI industry"
+          "headline": "OpenAI Launches ChatGPT Pro",
+          "subtitle": "A $100 per month subscription plan"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 31 Mar 2026",
-            "Publicis acquired bootstrapped Israeli startup AdgeAI for $100 million",
-            "The acquisition is expected to strengthen Publicis' AI capabilities",
-            "AdgeAI's technology will be integrated into Publicis' existing AI systems",
-            "The acquisition is a significant move in the AI industry, with potential impact on 500 employees"
+            "OpenAI launched ChatGPT Pro on 10 Apr 2026",
+            "A $100 per month subscription plan",
+            "With additional features and support"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a significant move in the AI industry",
-            "Publicis is expected to benefit from AdgeAI's technology and expertise",
-            "The acquisition will have a positive impact on the development and implementation of AI technologies",
-            "Source: CTech, Apr 2026"
+            "ChatGPT Pro is a significant development for OpenAI",
+            "The plan offers additional features and support for users",
+            "This launch could impact the AI market and compete with other AI companies",
+            "Source: Engadget, 10 Apr 2026"
           ]
         }
       },
-      "caption": "Publicis' acquisition of AdgeAI is a significant move in the AI industry. But what does this mean for the future of AI development and implementation? How will the acquisition impact the growth of the AI industry? What are the potential benefits and drawbacks of the acquisition? #AI #Acquisition #Publicis #AdgeAI #Technology #Innovation",
-      "questionsToConsider": "What are the potential risks and challenges associated with the acquisition? How will the acquisition impact the job market and the economy?"
+      "caption": "OpenAI has launched ChatGPT Pro, a $100 per month subscription plan with additional features and support. This launch is a significant development for OpenAI and could impact the AI market. Questions to consider: What are the implications of ChatGPT Pro for the AI market? How will the plan compete with other AI companies? #ChatGPTPro #OpenAI #AI #SubscriptionPlan"
     }
   ]
 }

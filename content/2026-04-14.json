@@ -8,122 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Finance Acquisition",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "14 Apr 2026",
-      "sourceName": "The Tech Buzz",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWm9OWGFRSnYyQ2hpOFhkWWRWMm91a2dpeTVJeDJ3OUV5a043TVZJczg5V3B1Q0gtOHpQNU9QeU44R3ZweGgyRUdUTWpsNmpycXJLTFdQNTNjUnZ4aXNZSUUxLUh0UnV1M19TU1owbDdaVnU2TWhWdzI0bjZfc0xSdUxtdGRvYW9xM00yenRUMGhsdEJ5LXJwVC1R?oc=5",
+      "topic": "AI Security Debate",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N6",
       "slideContent": {
         "slide1": {
-          "headline": "OpenAI Expands ChatGPT",
-          "subtitle": "Acquires AI Finance Startup Hiro"
+          "headline": "Claude Mythos Sparks AI Security Debate",
+          "subtitle": "Anthropic Restricts Release of Advanced Cyber Model"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "OpenAI acquired Hiro for ChatGPT expansion on 14 Apr 2026",
-            "Hiro is an AI finance startup",
-            "The acquisition will help OpenAI expand its financial planning tools",
-            "No financial details of the acquisition were disclosed"
+            "On 13 Apr 2026, Anthropic restricted the release of its advanced cyber model.",
+            "The decision was made due to potential AI security risks.",
+            "This move has sparked a debate about AI security in the industry.",
+            "The model, Claude Mythos, has raised concerns about its potential impact on cybersecurity."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The acquisition marks a significant step in OpenAI's expansion into the financial sector",
-            "ChatGPT will likely integrate Hiro's AI finance capabilities",
-            "This move may lead to increased competition in the AI finance market",
-            "Other companies may follow suit and invest in AI finance startups"
+            "The restriction of the model's release highlights the growing concern about AI security.",
+            "As AI models become more advanced, the potential risks to cybersecurity increase.",
+            "The industry must balance the benefits of AI with the need to ensure security and safety.",
+            "Questions to consider: What are the potential risks of advanced AI models to cybersecurity? How can the industry balance the benefits of AI with the need to ensure security?"
+          ]
+        }
+      },
+      "caption": "The AI security debate is heating up. On 13 Apr 2026, Anthropic restricted the release of its advanced cyber model, Claude Mythos, due to potential AI security risks. This move has sparked a debate about the potential risks of advanced AI models to cybersecurity. What are the potential risks of advanced AI models to cybersecurity? How can the industry balance the benefits of AI with the need to ensure security? #AIsecurity #cybersecurity #Anthropic #ClaudeMythos #AIdebate #securityrisks",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYm5QdjRVOHI2clpmb0I0T2RNSm5qeE9WRThGUkozbW1WazhsaVBYUi1iaW41ZXFPUEVDTVY3SG9EdTY2WkNMNVlQR1A0Z1FxYi1VQkRwb1JSUDN3dnRDWVVxNTZLQWdmN0VaamwzVnBPM25NMUhPVEdHeGVyNS03WTRlcDEtTk5pMlYwZ210RTFnUkE5UEFMTDYxRDNFc2xTSnE4R3FvTVpaeW1DQnVrWkk3YldTQ1k?oc=5",
+      "sourceName": "Blockster",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "13 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Acquisition News",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Acquires Hiro",
+          "subtitle": "AI Personal Finance Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "On 14 Apr 2026, OpenAI acquired Hiro, an AI personal finance startup.",
+            "The acquisition is part of OpenAI's strategic move to expand its capabilities in the finance sector.",
+            "The deal's value was not disclosed.",
+            "This acquisition highlights the growing trend of AI companies expanding into the finance sector."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition of Hiro by OpenAI highlights the growing trend of AI companies expanding into the finance sector.",
+            "This move demonstrates OpenAI's commitment to developing AI solutions for the finance industry.",
+            "The acquisition is expected to enhance OpenAI's capabilities in personal finance.",
+            "The deal is also expected to drive innovation in the AI-powered finance sector."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "OpenAI's acquisition of Hiro is a strategic move to expand its financial planning capabilities",
-            "The acquisition may lead to new features and improvements in ChatGPT",
-            "The AI finance market is expected to grow significantly in the coming years",
-            "Source: The Tech Buzz, Apr 2026"
+            "The acquisition of Hiro by OpenAI is a strategic move to expand its capabilities in the finance sector.",
+            "The deal highlights the growing trend of AI companies expanding into the finance sector.",
+            "The acquisition is expected to drive innovation in the AI-powered finance sector.",
+            "Source: The Next Web, Apr 2026"
           ]
         }
       },
-      "caption": "OpenAI's acquisition of Hiro is a significant move in the AI finance sector. What does this mean for the future of financial planning tools? Will other companies follow suit and invest in AI finance startups? Questions to consider: How will this acquisition impact the AI finance market? What new features can we expect from ChatGPT? #AI #Finance #ChatGPT #OpenAI #Hiro #Acquisition"
-    },
-    {
-      "id": 2,
-      "topic": "AI Chip Showdown",
-      "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N6",
-      "eventDate": "11 Apr 2026",
-      "sourceName": "International Business Times Australia",
+      "caption": "OpenAI has acquired Hiro, an AI personal finance startup. The acquisition is part of OpenAI's strategic move to expand its capabilities in the finance sector. What are the potential benefits of AI-powered finance solutions? How will this acquisition impact the finance industry? #OpenAI #Hiro #AIfinance #acquisition #financeindustry #AIpowered",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfT0d5cVFMNUZKeVk0NXF6S3pKemc2RExmNzJ4VWZNNUctODl1a1luampwdWE2UzY1SXdTcTROTVo0WG80bnpHcUoyRkprczdlMFBabXFlbTFTU09SckE2Q09pTmJYRTA?oc=5",
+      "sourceName": "The Next Web",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd29SZVFfejBJV291TGQtME9tRFo4UzNiX0Jqek5wV3p2cEFJY0duUDJkOUJmS05fMXZ0ck16V1ZfT01fcTVKSVpUYzdHWG9qbEJ2dEhmOTlYREItc1lKZDZtNjRUd05uMlFrMXNrUUtWOGVTSElreWpBRXZJYTRTdjRlcy1iT0tjUXJkTmJiTWotU3dxRzNVMV9WWG1SLWtueUhuTlFOSEdPYk15Rnl1U1V5c1FFMzkzYVVHWQ?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "NVIDIA vs AMD",
-          "subtitle": "AI Chip Showdown"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 11 Apr 2026",
-            "NVIDIA and AMD are competing in the AI chip market",
-            "NVIDIA's Blackwell and AMD's MI400 are the latest AI chips",
-            "The AI chip market is expected to reach $10 billion by 2027",
-            "NVIDIA currently dominates the data center market with a 90% market share"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI chip market is highly competitive with NVIDIA and AMD being the main players",
-            "The demand for AI chips is increasing rapidly due to the growth of the AI sector",
-            "The competition between NVIDIA and AMD will drive innovation and improvement in AI chips",
-            "Source: International Business Times Australia, 11 Apr 2026"
-          ]
-        }
-      },
-      "caption": "The AI chip market is heating up with NVIDIA and AMD competing for dominance. What does this mean for the future of AI computing? Will NVIDIA maintain its lead or will AMD catch up? Questions to consider: How will the competition between NVIDIA and AMD impact the AI sector? What new innovations can we expect from the AI chip market? #AI #Chip #NVIDIA #AMD #Competition #Innovation"
+      "eventDate": "14 Apr 2026"
     },
     {
       "id": 3,
-      "topic": "AI Security",
+      "topic": "AI Regulation",
       "slides": 3,
-      "svgIcon": "shield",
+      "svgIcon": "globe",
       "sourceId": "N8",
-      "eventDate": "10 Apr 2026",
-      "sourceName": "cio.com",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NZ3VnZkVLRVpiRUN1TVM0UGxFclptakhINW0zMWs5cEhMcEJLZ2ViblQzSF9nUkhBYXZHd1hFRE83NkpXdHdvMmtNNVNuOHZxUnA2MFV4bmFGaEM2M2RJSFFhbzJxQnBaeTJMcXFhWVgtRUhqbWJZRGhhYWg5UQ?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "The State of AI Security",
-          "subtitle": "2026 and Beyond"
+          "headline": "EU Recognizes ChatGPT as Search Engine",
+          "subtitle": "Boosts AI Regulation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 10 Apr 2026",
-            "The state of AI security in 2026 is a major concern",
-            "AI systems are vulnerable to cyber attacks and data breaches",
-            "The number of AI-related security incidents has increased by 20% in the past year",
-            "Companies are investing $1.5 billion in AI security measures"
+            "On 11 Apr 2026, the EU recognized ChatGPT as a search engine.",
+            "This move boosts AI regulation in the EU.",
+            "The recognition of ChatGPT as a search engine highlights the growing need for AI regulation.",
+            "The EU's move is expected to drive the development of AI regulations globally."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "AI security is a critical issue that needs to be addressed",
-            "Companies need to invest in AI security measures to protect their systems and data",
-            "The growth of the AI sector will depend on the ability to secure AI systems",
-            "Source: cio.com, 10 Apr 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The recognition of ChatGPT as a search engine by the EU highlights the growing need for AI regulation.",
+            "The EU's move is expected to drive the development of AI regulations globally.",
+            "The regulation of AI is crucial to ensure safety and security.",
+            "Questions to consider: What are the potential implications of AI regulation on the industry? How will the EU's move impact the global development of AI regulations?"
           ]
         }
       },
-      "caption": "AI security is a growing concern as AI systems become more prevalent. What does this mean for the future of AI adoption? How can companies protect their AI systems from cyber threats? Questions to consider: What are the biggest AI security risks facing companies today? How can AI security be improved? #AI #Security #CyberAttack #DataBreach #Protection #Risk"
+      "caption": "The EU has recognized ChatGPT as a search engine, boosting AI regulation. This move highlights the growing need for AI regulation and is expected to drive the development of AI regulations globally. What are the potential implications of AI regulation on the industry? How will the EU's move impact the global development of AI regulations? #AIregulation #EU #ChatGPT #searchengine #AIindustry #regulation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWjBsYXZoWS00UmtvR3NVc0laOHR5amROSUJHNDZaMkRnVVJPcloySGV3clROZWlra3YxRUpKVjRyN3NfZ1FkaldGZkgxOHo1T1F5VXo4c1ZGV2FDX2t0Y1ItVkx6cGlPTmMzUElIb0NkMkVTT3dZQzJGclExUExPUDE2ZUEwaWZLQXJhU1dQMGlwTVNvdTZuWHJBdFVxc3Yw?oc=5",
+      "sourceName": "RS Web Solutions",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "11 Apr 2026"
     }
   ]
 }

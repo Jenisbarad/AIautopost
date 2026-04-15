@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-15",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Chip Showdown",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "NVIDIA vs AMD: The Battle for AI Supremacy",
+          "subtitle": "The AI chip market is heating up"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Apr 2026",
+            "NVIDIA and AMD are competing in the AI chip market",
+            "The Blackwell and MI400 chips are the latest contenders",
+            "The market is expected to grow significantly in the coming years"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The AI chip market will have a significant impact on the future of technology",
+            "The competition between NVIDIA and AMD will drive innovation",
+            "Source: International Business Times Australia, 11 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The AI chip market is heating up, with NVIDIA and AMD competing for dominance. The Blackwell and MI400 chips are the latest contenders. What does this mean for the future of technology? Questions to consider: What are the implications of this competition for the tech industry? How will this impact the development of AI? #AI #ChipMarket #NVIDIA #AMD #Blackwell #MI400",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd29SZVFfejBJV291TGQtME9tRFo4UzNiX0Jqek5wV3p2cEFJY0duUDJkOUJmS05fMXZ0ck16V1ZfT01fcTVKSVpUYzdHWG9qbEJ2dEhmOTlYREItc1lKZDZtNjRUd05uMlFrMXNrUUtWOGVTSElreWpBRXZJYTRTdjRlcy1iT0tjUXJkTmJiTWotU3dxRzNVMV9WWG1SLWtueUhuTlFOSEdPYk15Rnl1U1V5c1FFMzkzYVVHWQ?oc=5",
+      "sourceName": "International Business Times Australia",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "11 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Enterprises Must Embed AI-Led Security",
+          "subtitle": "KPMG report highlights the importance of AI-led security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 Apr 2026",
+            "KPMG report emphasizes the need for AI-led security",
+            "Enterprises must embed AI-led security to stay ahead of threats",
+            "98% of organizations desire biometric orchestration"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "AI-led security is crucial for protecting against cyber threats",
+            "Enterprises must prioritize AI-led security to stay secure",
+            "Source: english.punjabkesari.com, 14 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Enterprises must embed AI-led security to stay ahead of threats. The KPMG report highlights the importance of AI-led security. What are the implications of this for businesses? Questions to consider: How can enterprises implement AI-led security effectively? What are the benefits of AI-led security? #AI #Security #KPMG #CyberThreats",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSHdSbThGVE8zN2FCNWlndjZRb3BiOVRtOVhYWW82WTNnYkxNRVNzXzdTeDNaTnNzNlBRTTZnUElEdVNRVVRKVkZGTW9ZVjU0c1pOOHN4RDJ1RThmeWRjT3ctT2xLSmVQTjdUdFN6dWdTVzN6ZXpjYWZkaG9aclM1cV84MjdrN0tOTHp1OUgwNFdaVHdnMmRDX2JWZGtXZWZ2WGowc3dmdnpKQklwTnNrdlpQMUZSVkhiamQ4aUN3VkRrT3pHd1lwbnl3clZaaWZITkHSAdcBQVVfeXFMT3JiTU5kZVk0Q0s5R0I3dW9XU2hhOGxLR21UcUx2bWlyMWphYTdTUWozVlk1RGRtQXJCRmJrdXNCN1JKekRCM1U3TXhwQUIySFNEOE1xRXRxb2NGb0pTUU5XcnVrMnVHNmhBS1NhNmliQzF3YWp0VVVSMkVsVXpxQlRPQ2tnc24yMVBzTl9kdE43aW05VHlqQjdwSU9CUzc3NnAxTmo1RlBleUhFbHItV0RoaVk2ekZJWnJsSXhBT25yc2tuWVlwT01rTnNfSjQ3UHNlbThKQ2c?oc=5",
+      "sourceName": "english.punjabkesari.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "14 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding News",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N13",
+      "slideContent": {
+        "slide1": {
+          "headline": "Indian AI Startup Raises $15m",
+          "subtitle": "GobbleCube bags series A funding"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 Apr 2026",
+            "GobbleCube raised $15m in series A funding",
+            "The funding will be used to expand the company's operations",
+            "The Indian AI startup scene is growing rapidly"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help GobbleCube expand its operations",
+            "The Indian AI startup scene is attracting significant investment",
+            "The company's growth will have a positive impact on the industry"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding is a significant milestone for GobbleCube",
+            "The Indian AI startup scene is expected to continue growing",
+            "Source: Tech in Asia, Apr 2026"
+          ]
+        }
+      },
+      "caption": "GobbleCube, an Indian AI startup, has raised $15m in series A funding. The funding will be used to expand the company's operations. What does this mean for the Indian AI startup scene? Questions to consider: How will the funding impact GobbleCube's growth? What are the implications for the Indian AI startup scene? #AI #Funding #GobbleCube #IndianStartupScene",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFJ1MHVzaUtEbEpTZW9qUkxwUHJyNGVRNTE0Q2xxU3NTVlZobllaNWNVRW9XWjlPUFAyd01tVXlqaVVlWllhOWdTQ1JLcE1jbm1JaHU4R2tWMUlyMWJyWUxudHVBYTF6Y3c2WVlKRjkwMjcyaVZMMTRlY19hRnk5Z3FtczI?oc=5",
+      "sourceName": "Tech in Asia",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "15 Apr 2026"
+    }
+  ]
+}

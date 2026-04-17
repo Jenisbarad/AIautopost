@@ -1,0 +1,128 @@
+{
+  "date": "2026-04-17",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Model Upgrade",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Unveils Claude Opus 4.7",
+          "subtitle": "A major upgrade to its public AI model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic launched Claude Opus 4.7 on 16 Apr 2026",
+            "This new model is the most advanced public AI model yet",
+            "It has stronger coding and AI vision capabilities",
+            "Claude Opus 4.7 is available for public use"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This upgrade showcases Anthropic's commitment to improving AI technology",
+            "The new model can handle more complex tasks and provide better results",
+            "Claude Opus 4.7 can be used in various industries, including education and research",
+            "Source: Republic World, 16 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has launched Claude Opus 4.7, its most advanced public AI model yet. This new model has stronger coding and AI vision capabilities, making it a valuable tool for various industries. Questions to consider: How will Claude Opus 4.7 impact the AI landscape? What are the potential applications of this new model? #AI #MachineLearning #Anthropic #ClaudeOpus4.7 #Innovation #Technology",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbEN0Zkdpc2NsN29MTVNrWm9MWWVvM0l3M0Fxek5OVUk5cGRQaFRJOFk0ak1lWEFqSXBzZ3EwRXBtUnJkSkplZE9vTENtUWpGdVlNbnVnVHY0Ylk2TTZOR0FFVF82RXA3VTJBQThIeHV1aVZ1SHVuUmU0RTZqTmhuY1dicHFXM1hYNEJCTXpXQXpEd25hR2JsSTJYVEJYNlNiVzc3ZnN0a27SAa4BQVVfeXFMTl9NUExQTzl5TVp3enJZbzRyOG9qMThUcEtLOVRlOXp1RkkxU1JES1RWNlBQUmJRaWhyQ1l1V2toMzktcFNGLWRFYno4U3dGZmo2LWYxVjVZM19VTjRreTdsX2dQQTRneE9ZZHp0UzVVdGlWRzlROTFRMUw5eVhQa2JSbmdhUmQ2Y3pMOGNyVG0wby1vclRVSlpOR2hSV1NrUjZGTThqc2xvWnIyc0xn?oc=5",
+      "sourceName": "Republic World",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Security Compliance",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Manual AI Audits: A Compliance Liability",
+          "subtitle": "The EU AI Act requires more than just spreadsheets"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Apr 2026",
+            "The EU AI Act has strict compliance requirements for AI audits",
+            "Manual audits are no longer sufficient, with 100% of companies needing to upgrade their processes",
+            "Companies must implement automated auditing systems to ensure compliance",
+            "The EU AI Act requires transparent and explainable AI decision-making"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Non-compliance can result in significant fines and reputational damage",
+            "Automated auditing systems can help companies ensure transparency and accountability in their AI decision-making",
+            "The EU AI Act is setting a new standard for AI regulation globally",
+            "Source: Security Boulevard, 16 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act requires companies to move beyond manual AI audits and implement automated systems to ensure compliance. This change is crucial for transparency and accountability in AI decision-making. Questions to consider: How will companies adapt to the new compliance requirements? What are the potential consequences of non-compliance? #AI #Compliance #EUAIAct #Regulation #Transparency #Accountability",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcTVqa1lOMm12ZUdad21PcVpUOE5pUjJWTURUS3dMdklkeW5aXzhfRXVFRk5pNmNEUW81ZHFiMnhOdTBWX09UR3F6cjFuMHdlcFlYWE5FdUktTTVUVGhUVkRZMUFrVGJKTzRoTG90clV3MW0zT2xfSmZ5LUtQbHR6M0JOUkl5RW5KbVpBYks4ZkgzT2RkZHBXWnhwM3BLT0psanZycnVxcTJwa3V2Z1RjY0Z0R054THZUa2s1Y0J5V2VCTFQ5Z3Z0STFNd1NxNmM?oc=5",
+      "sourceName": "Security Boulevard",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding and Acquisitions",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Wipro Acquires Alpha Net Contracts",
+          "subtitle": "A $71M deal to boost AI services"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Wipro acquired Alpha Net Contracts for $71M on 15 Apr 2026",
+            "This acquisition aims to strengthen Wipro's AI capabilities",
+            "Alpha Net Contracts will enhance Wipro's service offerings in the AI sector",
+            "The deal is expected to close in the coming months"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition demonstrates Wipro's commitment to investing in AI technology",
+            "The deal will enable Wipro to expand its AI services and improve its competitiveness",
+            "The acquisition is part of Wipro's strategy to enhance its digital transformation capabilities",
+            "Wipro plans to leverage Alpha Net Contracts' expertise to drive growth in the AI sector"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Wipro's acquisition of Alpha Net Contracts is a strategic move to boost its AI services",
+            "The deal highlights the growing importance of AI in the technology sector",
+            "Wipro's investment in AI is expected to drive growth and innovation in the company",
+            "Source: Analytics Insight, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Wipro has acquired Alpha Net Contracts for $71M to boost its AI services. This strategic move demonstrates Wipro's commitment to investing in AI technology and expanding its service offerings. Questions to consider: How will this acquisition impact Wipro's competitiveness in the AI sector? What are the potential benefits of this deal for Wipro's clients? #AI #Acquisition #Wipro #AlphaNetContracts #Innovation #Growth",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWmFnbzZ4ZmVEV01sTFBZSjdxSXQtc2pudmVGNTNMN3hveFZteHBYOXU5RV9uX3dXMVd1TTNOLVktT3BqbWFja0ZCZVBLRnJVaGlDZTl3OUNJVHVpTUVVR3Q5U0thWk93RHJhQzgyMzNlOEJScVFJUTk3V1VfRThhYWcwcU5RbDBvakhja0w0S2ZSd2EyekNvVkpUVkpqU2l2a2V30gGwAUFVX3lxTE1jeVJhRGw4d1N4NG9Jb0FPMnNaRFFFeVZBSndYR3pJWU5VXzg2bWJWc0VTRnZqcXdZNDRLYkRJYjNYd2FvaGZDaVlxeGtNZ0V1R0RVem0zVE00ZzRCZkcwRGlva3M1dDZmY0Fla0lIbEo4bjZIbTUwLTdfOVJKQlVLdEctTlBCSXFZRXVLaE9CLWFxbXRia2hNZHVvcVlMWUtiWWJLVmFMTHZYSEFVR21t?oc=5",
+      "sourceName": "Analytics Insight",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "15 Apr 2026"
+    }
+  ]
+}

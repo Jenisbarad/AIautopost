@@ -1,0 +1,125 @@
+{
+  "date": "2026-04-18",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Risks",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's New GPT-5.4-Cyber Raises Security Concerns",
+          "subtitle": "Implications for AI and Security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Apr 2026",
+            "OpenAI introduced GPT-5.4-Cyber, a new AI model.",
+            "This model has raised concerns about AI security risks.",
+            "The stakes for AI and security have increased significantly."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The increased capabilities of AI models pose significant security risks.",
+            "These risks must be addressed to ensure safe and responsible AI development.",
+            "Source: Forbes, 16 Apr 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's new GPT-5.4-Cyber has raised concerns about AI security risks. The stakes for AI and security have increased significantly. What measures can be taken to address these risks? How will this impact the development of AI models? #AI #Security #GPT54Cyber #OpenAI #ResponsibleAI #TechNews\nQuestions to consider: What are the potential consequences of ignoring AI security risks? How can we balance the benefits of AI with the need for security?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVTQ1NnNJdnBMa1lkQV9Kb1Q2R2E4S1VRYXBVaHJPUGszWHlFZ2ZROU53SXYxVzZWUmwtSkk0a2F2NUtadDRvanVsVWFUWlM3bEZwd0VuY1d1QUdEMHRtM09lSmRkRjQ4djFpcHhrMnhWdzR5TS1LcDcxNXF1dWNaUHpzekl1ZWxnWmRSLWVKSlVPS3pEWXlTWlc5NTVJMlZIcHBXSllCNHNDVlNXRDNaSlZxNXhyVE0?oc=5",
+      "sourceName": "Forbes",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Accel Raises $5 Billion for AI Startup Investments",
+          "subtitle": "Boosting AI Innovation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 Apr 2026",
+            "Accel has raised $5 billion to invest in AI startups.",
+            "This funding will support the development of AI technologies.",
+            "The investment will focus on AI startups with high growth potential."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding will drive innovation in the AI sector.",
+            "It will support the growth of AI startups and their technologies.",
+            "The investment will have a significant impact on the AI industry."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will support AI startups with high growth potential.",
+            "It will drive innovation in the AI sector.",
+            "The investment will have a significant impact on the AI industry.",
+            "Source: Investing.com, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Accel has raised $5 billion to invest in AI startups. This funding will drive innovation in the AI sector and support the growth of AI startups. What are the potential benefits and risks of this investment? How will it impact the AI industry? #AI #Funding #Accel #Startups #Innovation #TechNews\nQuestions to consider: What are the potential consequences of increased funding for AI startups? How will this investment impact the development of AI technologies?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ3BiSXNrSjhQZ0lkYld3V3Rvbkdzd25YQmwwaVo5TGZtOG1FVFdIRXQ1R2dlRWxGbUUtVHlDa0lhNi1VR19jczVHY3hGbFhZc2JxM0lIM0U1aFdrNDhjSFNMVUFhSjM3My1SM0x6Vk5GRlZkM3hCSnZPeFdXY2dLSE4zRldVQzJqWE9wLTJKTlR1ZFRlU3llLXNYVkhYQXpLUFVCWXNTZ0FVQzZMUnRCdg?oc=5",
+      "sourceName": "Investing.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "15 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Market Trends",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cerebras Systems Files for Proposed Nasdaq IPO",
+          "subtitle": "AI Firm Goes Public"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Apr 2026",
+            "Cerebras Systems has filed for a proposed Nasdaq IPO.",
+            "The company is an AI firm with a focus on AI technologies.",
+            "The IPO will provide the company with significant funding."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The IPO will provide the company with significant funding to drive growth.",
+            "It will increase the company's visibility and credibility in the market.",
+            "The IPO will have a significant impact on the AI industry.",
+            "Source: Investing.com, 17 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras Systems has filed for a proposed Nasdaq IPO. The company is an AI firm with a focus on AI technologies. What are the potential benefits and risks of this IPO? How will it impact the AI industry? #AI #IPO #CerebrasSystems #Nasdaq #TechNews #MarketTrends\nQuestions to consider: What are the potential consequences of Cerebras Systems going public? How will this impact the development of AI technologies?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHF5LWFySm4zRm50bFBTQWlTTWowTVprNmIzYUt1cGdvZ1hUTmRJbUNGRkUwM3cxbHRxT3NwWThyeFJYY1NQVml3ZmhtOV9xazFFS0hkSTNSRC1LeWtSSS13MFZmS0dSUTUwMHIwUU9UZjdSZWNkWDBwUlF0ZW5aY1V2ZnU3ZmhHOUxrcHkxNlJ2Tnh6bkJTaHVjSnlielBOOTZLSUZUTUZ6a1RZV21rdllqclNjXzIz?oc=5",
+      "sourceName": "Investing.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "17 Apr 2026"
+    }
+  ]
+}

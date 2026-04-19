@@ -1,0 +1,154 @@
+{
+  "date": "2026-04-19",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Diginex Limited Makes Major Move",
+          "subtitle": "Acquiring high-growth AI business"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Apr 2026",
+            "Diginex Limited acquired an AI business for $1.5 billion",
+            "The acquisition aims to add high-growth business to Diginex",
+            "Targets $280M revenue by 2027",
+            "Significant investment in AI technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI in business",
+            "Diginex's move to acquire an AI business shows its commitment to innovation",
+            "The acquisition is expected to drive growth and revenue for Diginex",
+            "The AI business is expected to play a key role in Diginex's future plans"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant step for Diginex in the AI space",
+            "The $1.5 billion investment shows the company's commitment to AI",
+            "The target revenue of $280M by 2027 is ambitious",
+            "Source: The Manila Times, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Diginex Limited has made a major move in the AI space with its $1.5 billion acquisition. The company aims to add high-growth business and targets $280M revenue by 2027. What does this mean for the future of AI in business? How will this acquisition drive growth and revenue for Diginex? Questions to consider: What are the potential benefits and challenges of this acquisition? How will Diginex integrate the AI business into its operations? #AI #Acquisition #Business #Innovation #Growth #Revenue",
+      "hashtags": [
+        "#AI",
+        "#Acquisition",
+        "#Business",
+        "#Innovation",
+        "#Growth",
+        "#Revenue"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxNbnBVVWdKUlU0NjNxajRteGZsd2wtU0NXWWhjaXNUeFJ4aEVzMk5jZWpDUU51UldodjVuXzhrYjFUMDFIb2UtczMxQ05ZTERIVEZtVUdVTmFjTXB2NktsLTVYdEpMaDhRQS1sTThwakpiNm4xdlVjVHpPT2dMSkhFSlVXWjNfZXpCNTkxcHlSNDRIOVp5SVNyVVZOWTFQRjVTVnlaS0VRLUQ4UjB4empYb1Q4RW1fcERqdjJTQWVjV0RFdFV4c0ZlWkhrY1BXRk82azJQbWVETVF0V2JkbEtIU3FDMndHUEZOeGJha3c4eHNJd25mQWx4TkRfTTVkdU11bDNKRFFxc3lBVEpWZmdhaDFqdHVPaWFNNk5uUFdn0gGjAkFVX3lxTFBJMVd0VHNTWUhyVTJaMVRhWXpMc19ZdVJyN29qNXZrUDJlQUlIbDFwS1hmTml4dzkwWDJQdXVzSURQRVQtOFlCUFE5Q1lHWFo4TVNWYTdNSkdfbmJNNEZOWkJZNVFqM2hJWEU1UVpPdWZHRG1KQXlFOTdTQUxoTUVpbGNIMm5OLVdZZU1pcTREWm1WOTRXU0lIaWxib0FJdlJiNkw2SFJWS1dTVXQwSFJkLUVCSkFaV1VhS05YSEg3MTJIME9GZmZURDU5WkFQdWVqSnE5Tm15RWN5V3REWExZVVY1VzZxYTVfY3hwWlNfU0NjVnBmNjJXMDVjYnpQdXdRendLQzdYTVBhbTRqNTB6VUVHbEpMZElGVG5iQnVaRXJFdw?oc=5",
+      "sourceName": "The Manila Times",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Audits",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Importance of AI Audits",
+          "subtitle": "Compliance and liability in the EU"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Apr 2026",
+            "Manual AI audits are a compliance liability in the EU",
+            "The EU AI Act requires companies to ensure their AI systems are transparent and fair",
+            "Companies must audit their AI systems to ensure compliance",
+            "The use of spreadsheets for AI audits is no longer sufficient"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "AI audits are crucial for ensuring compliance with the EU AI Act",
+            "Companies that fail to audit their AI systems risk facing significant fines",
+            "The use of automated tools for AI audits can help reduce liability",
+            "Source: Security Boulevard, 16 Apr 2026"
+          ]
+        }
+      },
+      "caption": "AI audits are becoming increasingly important for companies operating in the EU. The EU AI Act requires companies to ensure their AI systems are transparent and fair, and manual audits are no longer sufficient. What are the potential consequences of non-compliance? How can companies ensure they are meeting the requirements of the EU AI Act? Questions to consider: What are the benefits of using automated tools for AI audits? How can companies reduce their liability in the event of an AI audit? #AI #Audits #Compliance #EU #Liability #Regulation",
+      "hashtags": [
+        "#AI",
+        "#Audits",
+        "#Compliance",
+        "#EU",
+        "#Liability",
+        "#Regulation"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcTVqa1lOMm12ZUdad21PcVpUOE5pUjJWTURUS3dMdklkeW5aXzhfRXVFRk5pNmNEUW81ZHFiMnhOdTBWX09UR3F6cjFuMHdlcFlYWE5FdUktTTVUVGhUVkRZMUFrVGJKTzRoTG90clV3MW0zT2xfSmZ5LUtQbHR6M0JOUkl5RW5KbVpBYks4ZkgzT2RkZHBXWnhwM3BLT0psanZycnVxcTJwa3V2Z1RjY0Z0R054THZUa2s1Y0J5V2VCTFQ5Z3Z0STFNd1NxNmM?oc=5",
+      "sourceName": "Security Boulevard",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Accel Raises $5 Billion",
+          "subtitle": "To boost AI startup investments globally"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Apr 2026",
+            "Accel has raised $5 billion to invest in AI startups globally",
+            "The funding will be used to support the growth of AI startups",
+            "Accel has a strong track record of investing in successful AI companies",
+            "The $5 billion funding is a significant investment in the AI space"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will provide a significant boost to AI startups globally",
+            "Accel's investment in AI startups is expected to drive innovation and growth",
+            "The $5 billion funding is a testament to the growing importance of AI in business",
+            "Source: Siliconindia, 16 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Accel has raised $5 billion to invest in AI startups globally. The funding will be used to support the growth of AI startups and drive innovation and growth in the AI space. What are the potential benefits of this funding for AI startups? How will Accel's investment in AI startups impact the broader AI ecosystem? Questions to consider: What are the key challenges facing AI startups, and how can this funding help address them? How will Accel's investment in AI startups drive growth and revenue for the companies it invests in? #AI #Funding #Startups #Investment #Growth #Innovation",
+      "hashtags": [
+        "#AI",
+        "#Funding",
+        "#Startups",
+        "#Investment",
+        "#Growth",
+        "#Innovation"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZHNqbUY0Tl9oZUYtZXNoenNSa3ZXd2lPMk1icGFvV0dGWVBQbjFnX0VvdGJveWV5c0V1aHd5UEtrT0pWYkRPWVdQYVRFd0pOcGlhaXdRZkEzNGRwVVNnOE5KbVRKeHVMUnV1VmNXMUFfNW84QV9XOUVDTVdNUmFnNm1OcmJMVWxZSXotZ1VZcWhCd0VJZ0J6Tl9rdDhEQTlSLTFHczR3WXhFWEZPLUpfTUR2QWYybWxHbkExdDZTSk1qWHFTdzhhTmxnbzc?oc=5",
+      "sourceName": "Siliconindia",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "date": "2026-04-20",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Chip Shortage",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N10",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Chip Shortage to Last Until 2027",
+          "subtitle": "TSMC Confirms Shortage"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Apr 2026",
+            "TSMC confirmed AI chip shortage will last until 2027",
+            "H100 rental rates rose by 40%"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This shortage will impact AI development and deployment",
+            "Companies will need to find alternative solutions",
+            "Source: KuCoin, 17 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The AI chip shortage is expected to last until 2027, according to TSMC. This will have significant implications for AI development and deployment. Questions to consider: How will this shortage impact the growth of the AI industry? What alternative solutions will companies explore? #AI #ChipShortage #TSMC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2o2RVZSZXpGdFlZSXd5WklxZEtBbXhOLVFqQkFVdlp6NC1mTy1ORlVGRmMwT0RNRkJWUVFYNUk0TU1ScEx1SjNvWlRlSGpEN0U0Sm5SblFYQ2oyLVl2NU1aMTdWMFJuMG1nSmREN2RFbzVZRlpKNS05RGludFNFQ0FzSmIxT3NXTWxLbnY0Yk9uNnZsTWhMVXBQOHE5cklqWFFQOA?oc=5",
+      "sourceName": "KuCoin",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "17 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Claude Opus 4.7 Release",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Releases Claude Opus 4.7",
+          "subtitle": "New Model Available"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic released Claude Opus 4.7 on 16 Apr 2026",
+            "The new model is available on GitHub"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This release will improve AI capabilities",
+            "Developers can integrate the model into their applications",
+            "Source: The GitHub Blog, 16 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has released Claude Opus 4.7, a new AI model available on GitHub. This release will improve AI capabilities and allow developers to integrate the model into their applications. Questions to consider: What are the key features of Claude Opus 4.7? How will this release impact the AI industry? #AI #ClaudeOpus #GitHub",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSFhKX0MwZ05yRWVoYW1aNjFDZ2FWQWJXMUhDd1JsNC1PakUyWTdPVTRJdFBJdFk5aVY1a1YzSV9ydHhvcFhzWXd3UjZOek5xVlJIbkJtNm5JZmJ5Mkgwdl9CclNiM09ia09JemJKb1Y3bHNudi1SNnFqejhicGt5MlVPV0RhTTA?oc=5",
+      "sourceName": "The GitHub Blog",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "16 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Viant Acquisition",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Viant Acquires TVision for $40 Million",
+          "subtitle": "Enhancing AI-Powered Programmatic Advertising"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Apr 2026",
+            "Viant acquired TVision for $40 million",
+            "The acquisition will enhance Viant's AI-powered programmatic advertising platform"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition will improve Viant's advertising capabilities",
+            "The company will be able to provide more effective solutions for its clients"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition demonstrates the growing importance of AI in advertising",
+            "Viant's platform will become more competitive in the market",
+            "Source: Pulse 2.0, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Viant has acquired TVision for $40 million, enhancing its AI-powered programmatic advertising platform. This acquisition will improve Viant's advertising capabilities and provide more effective solutions for its clients. Questions to consider: How will this acquisition impact the advertising industry? What are the benefits of using AI-powered programmatic advertising? #AI #Advertising #Viant",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUtrQjAwWFN2Rkw2ZTc4S2Y2QjJOWk5EQ0E2OXRsalQyYWpkeURBZ2dzLWhYOURWSm9EYVpLdDFtRkFDQUpDamlGMGowTmRhaXBHM1M3STg5SDgwb3lnRUctY05wLVRTTzB4WG5yMWdfb1FfaVh2d3lwdnl3MTB5UlR1Qzh6a0hiWVB6Y3VYMktYei03T1Zham90X1lRS0ViVjFrYWtPZXJ1VDEwLTBVU3VMZ9IBuAFBVV95cUxNM3VSUUFubHc0YnZPWVFtZXMta3poalAxNnkzbkI1TG9HOGlxRWJrdE9IRDNvVVhEeXIydkFWWWw4Sy05TGQtWVQzX2VDUUQ2Y2Yxa29hZlp1bHBpRjFuRllXaGk0NXZsOTN6SHYyRGhxSTA2RElTdV91UkxxQi1JWFQwbkJWWkd1NWcyb2xKQ080SXZIWEtzRERpME5PaDNyVHJfS2tRNk1MVWs1T2dRRHBrUHpERVBP?oc=5",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "18 Apr 2026"
+    }
+  ]
+}

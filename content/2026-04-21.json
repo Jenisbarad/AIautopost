@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-21",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Chip Shortage",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Chip Shortage to Last Until 2027",
+          "subtitle": "TSMC confirms shortage, H100 rental rates rise"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Apr 2026",
+            "TSMC confirmed the AI chip shortage will last until 2027",
+            "H100 rental rates have risen by 40%",
+            "This shortage will impact AI development and deployment"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The shortage will slow down AI innovation",
+            "Companies will have to adjust their AI strategies",
+            "Source: KuCoin, 17 Apr 2026"
+          ]
+        }
+      },
+      "caption": "The AI chip shortage is expected to last until 2027, with H100 rental rates rising by 40%. This will significantly impact AI development and deployment. Questions to consider: How will this shortage affect AI innovation? What strategies can companies use to mitigate the shortage? #AI #ChipShortage #H100 #TSMC #Innovation #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2o2RVZSZXpGdFlZSXd5WklxZEtBbXhOLVFqQkFVdlp6NC1mTy1ORlVGRmMwT0RNRkJWUVFYNUk0TU1ScEx1SjNvWlRlSGpEN0U0Sm5SblFYQ2oyLVl2NU1aMTdWMFJuMG1nSmREN2RFbzVZRlpKNS05RGludFNFQ0FzSmIxT3NXTWxLbnY0Yk9uNnZsTWhMVXBQOHE5cklqWFFQOA?oc=5",
+      "sourceName": "KuCoin",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "17 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Jeff Bezos' AI Startup Nears $10B Funding",
+          "subtitle": "Valuation reaches $38B"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 Apr 2026",
+            "Jeff Bezos' AI startup is nearing $10B in funding",
+            "The valuation has reached $38B",
+            "This is one of the largest funding rounds in AI history"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding will accelerate AI development",
+            "It will also increase competition in the AI market",
+            "The high valuation reflects the potential of AI"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will be used to develop new AI technologies",
+            "The company will expand its team and operations",
+            "Source: Tech in Asia, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Jeff Bezos' AI startup is nearing $10B in funding, with a valuation of $38B. This is a significant development in the AI industry. Questions to consider: How will this funding impact AI development? What are the implications of this high valuation? #AI #Funding #JeffBezos #TechNews #Innovation #Valuation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHVKSWFfZGJPZExwbFVtdEJKVU9kU3VoTVEySlRaVEthYjRlc3lTV1d5RE5hUS1VRUxIM1d5c3UtVVVfN25lOFJXQWVMSFNiOW9vUVlLV2pxbDh1TllvTzdBOEpidndMcVRaUXZCM19aN0MwV1RvYWtPMXRXXzRJN29WWGZkNkVLQ1UyRnd3?oc=5",
+      "sourceName": "Tech in Asia",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "21 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Moonshot AI Challenge",
+      "slides": 3,
+      "svgIcon": "rocket",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Moonshot AI's Kimi K2.6 Challenges Anthropic's AI Dominance",
+          "subtitle": "New AI model launch"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 Apr 2026",
+            "Moonshot AI launched its Kimi K2.6 AI model",
+            "The model challenges Anthropic's AI dominance",
+            "This launch will increase competition in the AI market"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of Kimi K2.6 will drive AI innovation",
+            "It will also provide more options for AI users",
+            "Source: Crypto Briefing, 21 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Moonshot AI's Kimi K2.6 launch challenges Anthropic's AI dominance. This is a significant development in the AI industry. Questions to consider: How will this launch impact AI development? What are the implications of increased competition in the AI market? #AI #MoonshotAI #KimiK2.6 #Anthropic #Innovation #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZmlyUGVjNDVVTHdVRHBhMlVRMTR0dF8yTFY3TU92c0xrUmxBUi1IOW84U2hQMW1YdW9NSy1XRE1qOWIyMHozVXRsaXlXNHg1eFN1YmpvZEg3QkhfcTRBUExBbVBURldoaFM0SGNOdW1hS0gxMjAxSlFCdlNPMWRwUUlyTklLSER2U0ZLOFN3ZUNJN3FzeUE?oc=5",
+      "sourceName": "Crypto Briefing",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "21 Apr 2026"
+    }
+  ]
+}

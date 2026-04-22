@@ -8,125 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
-      "slides": 4,
+      "topic": "AI Acquisition",
+      "slides": 3,
       "svgIcon": "chip",
-      "sourceId": "N1",
-      "eventDate": "21 Apr 2026",
-      "sourceName": "Axios",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmNsQXNmLU5tVHFHMGQtRjFycTBGVWxfUDlHVkU1SDVqd244S3JDajRwZHU0VnVJcy1leW81QVlEdFpQMDZLY2VmTmd1X2NsSzhQeW0xWVJscFFDTVhGT19rYXZKRTJpOTFUdnlSRG9HRzRHY01aMlRCT1FFQVY0ckp2S1BvWjRGUUpJRnZ6blMwaWk4aUtlRkdlYmFGQU5nN3BOdUdn?oc=5",
+      "sourceId": "N4",
       "slideContent": {
         "slide1": {
-          "headline": "Visual AI Startup Raises $23M",
-          "subtitle": "Exclusive: Collov Labs Secures Funding"
+          "headline": "ServiceNow Acquires Armis",
+          "subtitle": "Expanding its cybersecurity capabilities"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Collov Labs, a visual AI startup, raised $23M in funding on 21 Apr 2026.",
-            "The funding will be used to boost the company's growth and development.",
-            "The exact details of the funding round were not disclosed.",
-            "However, it is known that the startup has secured $23M."
+            "Event date: 22 Apr 2026",
+            "ServiceNow has acquired Armis for $7.75 billion",
+            "The acquisition aims to strengthen ServiceNow's security portfolio",
+            "Armis provides agentless cybersecurity solutions",
+            "The deal is expected to enhance ServiceNow's position in the market"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding will help Collov Labs to improve its visual AI technology.",
-            "The company plans to use the funding to expand its team and develop new products.",
-            "The funding is a significant milestone for the startup and will help it to compete in the AI market.",
-            "It will also help the company to improve its services and provide better solutions to its customers."
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The funding round is a significant development for the AI industry.",
-            "It shows that investors are interested in visual AI technology.",
-            "The funding will help Collov Labs to become a major player in the AI market.",
-            "Source: Axios, Apr 2026"
+            "The acquisition highlights the growing importance of cybersecurity in the industry",
+            "ServiceNow's expansion into cybersecurity is expected to drive growth",
+            "The deal also underscores the trend of consolidation in the tech industry",
+            "Source: IT Pro, 22 Apr 2026"
           ]
         }
       },
-      "caption": "Visual AI startup Collov Labs has raised $23M in funding. This is a significant milestone for the company and will help it to improve its technology and services. What does this mean for the future of AI? How will Collov Labs use the funding to expand its business? What are the potential applications of visual AI technology?",
-      "questions": "Questions to consider: What are the potential risks and challenges associated with visual AI technology? How will Collov Labs address these challenges and ensure the responsible development of its technology?"
+      "caption": "ServiceNow has acquired Armis for $7.75 billion, expanding its cybersecurity capabilities. This move highlights the growing importance of cybersecurity in the industry. What does this acquisition mean for the future of cybersecurity? How will it impact ServiceNow's position in the market? #cybersecurity #acquisition #servicenow #armis #technews #industrytrends",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdzBhWG5yWGRCSWJoclVwclhmZE1rMnlQSTN1Q0U1RlplVDBLaWYySDRNM0gxbFFoTk1uMG16SWxUS0c1eVhOYjJvMzFsaXdoemJrdlpsVE1IWl9rN3p2TWxmWEExNjBod1lQYzhoN0ZVTVJUT2FBbmYwdTZqdzA2cW01ZFZCX29xVkhSN1ptVjFZQlVoVk1WcXpHVjk?oc=5",
+      "sourceName": "IT Pro",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "22 Apr 2026"
     },
     {
       "id": 2,
-      "topic": "AI Security",
+      "topic": "AI Regulation",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N12",
-      "eventDate": "21 Apr 2026",
-      "sourceName": "The Hans India",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaENRY18tWkF6WXFyNW9rV0pteWdXd25QaHdiVjYxdm1OQ2VvLTVxdDRMRU5Nd1NZcW45ZTV3WGJEc054bG9jcDV2LUlsUjhkdHBoMWMzRC1Cc2p2dkw3bGNwelJzbGRZbnltRnNLNC1OdVV2N08tdFJQakhaSVJxaXktbmVLLTQxY0lKTlZxUzZqaFVnbmtRcWhCdkNFa0hPQ0swa2otWktnYzNDNXZNMVJ3aEgtczRLSU9rUTl0RS10ZkHSAcgBQVVfeXFMTWttenZFVzlXS3dHbVF5WFJDUV9NLUhTbXd5RTVsdklvTFVKQ2ozaVlZUFpoM1BnTXFibEQtemd6cGNNeWlhVzlRcWF4LVM2MEg5elhCNmFSYUdvRGxLVUtQcnBjV0tZMlRjZVlOem9JdkM3NW95SDNxVktvRDliZExRVkNCWlpfNzlMSHRMM2p6eUQ1bkNVcUxQNE1Qbm5pblc3czZBX2JDbTlaN3V1ZEZMbGpvdnlIczhYXzNsMVBaTXRYNWhxMUw?oc=5",
+      "svgIcon": "lock",
+      "sourceId": "N13",
       "slideContent": {
         "slide1": {
-          "headline": "Indian Firms Feel AI Agents Will Outpace Security Controls",
-          "subtitle": "Report: 82% of Indian Firms Expect AI Agents to Outpace Security Controls by 2027"
+          "headline": "AI Regulation Update",
+          "subtitle": "UK and EU signals in early 2026"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 21 Apr 2026",
-            "A report found that 82% of Indian firms feel that AI agents will outpace security controls by 2027.",
-            "The report highlights the need for Indian firms to improve their security measures to keep up with the rapid development of AI technology.",
-            "The exact number of firms surveyed was not disclosed.",
-            "However, it is known that the report found a significant majority of firms to be concerned about AI security."
+            "The UK and EU have signaled their intentions to regulate AI in early 2026",
+            "The regulations aim to ensure the safe and responsible development of AI",
+            "Startups are advised to prepare for the upcoming regulations",
+            "The exact details of the regulations are yet to be announced"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The report highlights the need for Indian firms to improve their security measures.",
-            "The rapid development of AI technology is a significant challenge for firms to keep up with.",
-            "The report found that 82% of firms are concerned about AI security.",
-            "Source: The Hans India, 21 Apr 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The regulations will have a significant impact on the AI industry",
+            "Startups must be prepared to adapt to the new regulations",
+            "The regulations will help to build trust in AI technologies",
+            "Source: Startups Magazine, 21 Apr 2026"
           ]
         }
       },
-      "caption": "A report has found that 82% of Indian firms feel that AI agents will outpace security controls by 2027. What does this mean for the future of AI security? How can Indian firms improve their security measures to keep up with the rapid development of AI technology? What are the potential consequences of AI agents outpacing security controls?",
-      "questions": "Questions to consider: What are the potential risks associated with AI agents outpacing security controls? How can firms ensure the responsible development of AI technology?"
+      "caption": "The UK and EU have signaled their intentions to regulate AI in early 2026. What does this mean for startups and the AI industry as a whole? How will the regulations impact the development of AI technologies? #airegulation #uk #eu #startups #aiindustry #technews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcU9Na3hoVmh3bTJwMW9CSV9UQjFibjNUUERGME1wM1BjQUdJZXhfS0YtYzV5YXZZVGNjNFpTaWszejhzMVRGc0xtNmZ6MEc2eWtuTl9YNnNVUmRXNGJZaXd2Y2JCdFNJUzhjZzdMc1RTR0FTLWVaeURVajkwVlBJeVIwc2ZudTBIQUw2Z2JnYnVWZmxTc1NrUzlwUVI?oc=5",
+      "sourceName": "Startups Magazine",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "21 Apr 2026"
     },
     {
       "id": 3,
-      "topic": "AI Partnership",
-      "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N6",
-      "eventDate": "20 Apr 2026",
-      "sourceName": "Bitget",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40T3RuQi01MHJKU0laNnIxMmJBdkJUY21BNlQ3cTBwR3cwb21aOWV3OFc1VzBJbWV3N3NJSkM1NDRuVkVMZmVVY0M2bFZNbWpMUG43LTRrQTJBM0JGdHfSAWNBVV95cUxQNjd6NFZhMi1CY3lhR01uVXVNSUdaYmR1eDcycDJhMi1aT19iMnY4ZEJoM0Q3VG5zOXFkVnZoNUlxd2ZMRHBDaDlMVmRUUk1jRER4RFdtWVp6ZnZDOTNqV0RlT00?oc=5",
+      "topic": "AI Research",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N17",
       "slideContent": {
         "slide1": {
-          "headline": "Cognizant Partners with OpenAI to Integrate Codex Technology",
-          "subtitle": "Partnership: Cognizant and OpenAI to Integrate Codex Technology"
+          "headline": "ChatGPT Images 2.0",
+          "subtitle": "A breakthrough in graphic generation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 20 Apr 2026",
-            "Cognizant has partnered with OpenAI to integrate Codex technology.",
-            "The partnership will help Cognizant to improve its AI capabilities.",
-            "Cognizant's stock rose 2.4% after the partnership was announced.",
-            "The exact terms of the partnership were not disclosed."
+            "Event date: 21 Apr 2026",
+            "ChatGPT Images 2.0 has been launched",
+            "The new model can generate high-quality images",
+            "The model uses a combination of natural language processing and computer vision",
+            "The launch is expected to revolutionize the field of graphic generation"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The new model has the potential to transform the creative industry",
+            "The model can be used for a variety of applications, including art and design",
+            "The launch highlights the rapid advancements in AI research",
+            "The model is expected to have a significant impact on the field of graphic generation"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The partnership will help Cognizant to improve its AI capabilities.",
-            "The integration of Codex technology will enhance Cognizant's services.",
-            "The partnership is a significant development for the AI industry.",
-            "Source: Bitget, 20 Apr 2026"
+            "The launch of ChatGPT Images 2.0 is a significant breakthrough in AI research",
+            "The model has the potential to transform the creative industry",
+            "The launch highlights the rapid advancements in AI research",
+            "Source: the-decoder.com, Apr 2026"
           ]
         }
       },
-      "caption": "Cognizant has partnered with OpenAI to integrate Codex technology. What does this mean for the future of AI? How will the partnership enhance Cognizant's services? What are the potential applications of Codex technology?",
-      "questions": "Questions to consider: What are the potential benefits and challenges associated with the partnership? How will Cognizant and OpenAI work together to integrate Codex technology?"
+      "caption": "ChatGPT Images 2.0 has been launched, revolutionizing the field of graphic generation. What does this mean for the creative industry? How will the new model impact the field of art and design? What are the potential applications of this technology? #airesearch #chatgpt #graphicgeneration #creativity #technews #innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSWN5T2MwVGF6d1JyZ294SUQ1TXJxOW16NC15SU9OeF9uNW1aRm9jNzA3X1N3ZWZmV3BMTzFQNEk1M0dwcUFaWjFWRHhKNnFGYmVQM0ZITjdiYWNxLVBqOWRtRHdiYXlOeGF2VEFza2xvNWt2VUYwOUtWVUZWM0xITWhfWlRVS0E5MXBEMWEta25ydWdfbzlwaTItcy12Nkg3OHUzcWluOWpTRC1OaVh2bjZBRTdMNmxnOFJwQkN1Z01jTmZ0TDFF?oc=5",
+      "sourceName": "the-decoder.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "21 Apr 2026"
     }
   ]
 }

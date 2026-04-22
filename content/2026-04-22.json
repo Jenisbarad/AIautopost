@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-22",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Lab Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "eventDate": "21 Apr 2026",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEpKRmgyNndEb1pWbEF2Qm5fc0NucnBoQzRYNl9kMlBJNVdtNFZlT3YzdlBTdUpxWEdzcHBjN0dPbW5KY1FYd0JsdklGbFd3dlZKMTRMWENRcnRTTWdJYV93eW11a3JIdk1vVVNMLTJvRTd0eldjYVpUbWszNEgwaG9GMU93U2liNGlNLU1sYmNvWTJrbmxMZDJUd09Tc2MxZldraE9tODU5ZzZYWHFNcQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Jeff Bezos' AI Lab Nears $10 Billion Funding",
+          "subtitle": "A significant investment in AI research"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 Apr 2026",
+            "Jeff Bezos' AI lab is near $10 billion funding",
+            "The funding deal values the lab at $38 billion",
+            "The investment is one of the largest in AI research"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will accelerate AI research and development",
+            "It highlights the growing importance of AI in the tech industry",
+            "The investment will likely lead to significant advancements in AI technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The $10 billion funding is a significant investment in AI research",
+            "The $38 billion valuation is a testament to the lab's potential",
+            "Source: Bloomberg.com, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Jeff Bezos' AI lab is near $10 billion funding, valuing the lab at $38 billion. This significant investment in AI research will accelerate development and lead to advancements in AI technology. Questions to consider: What will be the impact of this funding on the AI industry? How will this investment shape the future of AI research? #AI #Funding #Research #Investment #Technology #Innovation"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N23",
+      "eventDate": "21 Apr 2026",
+      "sourceName": "Business Wire",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTmlpUkJhaGRHSWtzNVdnbXNPZEV6NFZmc2Q5MzZtbkFSR0UtNUxqZzdRb0Vta0NCUUxMRzRWTVFJQU5OMXFaNHJ0ZFNiTjBLbWY1TTNIeDc4d1VIYVl0S2gzQnJrVDJZeDNCRlBSRTlVT2pyVnpOSkJFQ0lMMXljeVpaM0dXM012ZkZpVFJ2dWVaa25XT05ZYllkM3RPdWZxanpaUFM2cDlrNmo0ajJhQmk1V2xnLXA3el91Yk5hM2dJRjVCbGlKS1lGZGxlLVZITGZ0bHVhcmxYREMwQzNFT3haUkNJSlc5WW9VZEt4c1l2QU9vUkNpVXFMUUg?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "One in Five Experienced an LLM Security Incident",
+          "subtitle": "A growing concern in AI security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 Apr 2026",
+            "One in five experienced an LLM security incident in the last year",
+            "32% of AI vulnerabilities were rated 'high-risk'",
+            "The number of security incidents is increasing"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The growing number of security incidents highlights the need for improved AI security",
+            "32% of AI vulnerabilities being 'high-risk' is a significant concern",
+            "Source: Business Wire, 21 Apr 2026"
+          ]
+        }
+      },
+      "caption": "One in five experienced an LLM security incident in the last year, with 32% of AI vulnerabilities rated 'high-risk'. This growing concern in AI security highlights the need for improved security measures. Questions to consider: What are the potential consequences of an LLM security incident? How can we improve AI security to mitigate these risks? #AI #Security #LLM #Incident #Risk #Mitigation"
+    },
+    {
+      "id": 3,
+      "topic": "AI Acquisition",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N11",
+      "eventDate": "22 Apr 2026",
+      "sourceName": "Storyboard18",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX1dHa1lTd1ZvbHNncU9SSW5TMUxkVXNJU1NtcmtobVo1TF9UclF1b3E4dE0wTFpBbFJZYl9Qdl9IR3hFdHlPdjljYUxtX05oTDNEYjlTTEkxb091Mks1Yy1KZDhqQXpNZ08tcGJRQmhVX1JBTE9GNlE0WGhfaWNXcnB1LXlZT2IzVS1FMVIxQVRCMHZ6eTFpcVc3RkJfeWlMei1kQ0psYWNObi1hUUxobHFta09qeTVvWlI3TDFYYTZ4a1E0TjNlSUFrZEZWakZoLUhCUDZ0QmVSS2U50gHiAUFVX3lxTE9fZFY1QlRtU1ZrSEVEYmIzZ1pocUVSM0UzRW1sUUxQUXlGVnpiNktwVTByODdlTVJuc1ozczh5T2R0cWxrNVdRaDMwd2dzVUQ1UDl4dXBaVWdXS1ZnS1NpUkJfQ3FkaHB5elU4ODBTeDBfZmlwOWtIR2J5OWZoWEo0WUJvQTBLZ0xQUHR2UGMzSE83SzFMLVp5c2pmZVg0RVpuMWhfM2Q4Ung1TDFjRDZCZHNoZDRiMTlodzJWc01TeHRIV3JYM1FPeFBEeWhnanhDdHhNQVk4UVhhZC01Q3hSTUE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Locks $60 Billion Cursor Deal",
+          "subtitle": "A significant acquisition in the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Apr 2026",
+            "SpaceX announced the acquisition of AI programming startup Cursor for $60 billion",
+            "The deal secures an option to acquire the startup later this year",
+            "The acquisition highlights the growing importance of AI in the tech industry"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The $60 billion acquisition is a significant investment in AI technology",
+            "The deal highlights the growing importance of AI in the tech industry",
+            "Source: Storyboard18, 22 Apr 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX announced the acquisition of AI programming startup Cursor for $60 billion, securing an option to acquire the startup later this year. This significant acquisition highlights the growing importance of AI in the tech industry. Questions to consider: What will be the impact of this acquisition on the AI industry? How will this deal shape the future of AI development? #AI #Acquisition #Cursor #SpaceX #Investment #Technology"
+    }
+  ]
+}

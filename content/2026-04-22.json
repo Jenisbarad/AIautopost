@@ -8,116 +8,125 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Lab Funding",
+      "topic": "AI Funding",
       "slides": 4,
-      "svgIcon": "brain",
+      "svgIcon": "chip",
       "sourceId": "N1",
       "eventDate": "21 Apr 2026",
-      "sourceName": "Bloomberg.com",
+      "sourceName": "Axios",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEpKRmgyNndEb1pWbEF2Qm5fc0NucnBoQzRYNl9kMlBJNVdtNFZlT3YzdlBTdUpxWEdzcHBjN0dPbW5KY1FYd0JsdklGbFd3dlZKMTRMWENRcnRTTWdJYV93eW11a3JIdk1vVVNMLTJvRTd0eldjYVpUbWszNEgwaG9GMU93U2liNGlNLU1sYmNvWTJrbmxMZDJUd09Tc2MxZldraE9tODU5ZzZYWHFNcQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmNsQXNmLU5tVHFHMGQtRjFycTBGVWxfUDlHVkU1SDVqd244S3JDajRwZHU0VnVJcy1leW81QVlEdFpQMDZLY2VmTmd1X2NsSzhQeW0xWVJscFFDTVhGT19rYXZKRTJpOTFUdnlSRG9HRzRHY01aMlRCT1FFQVY0ckp2S1BvWjRGUUpJRnZ6blMwaWk4aUtlRkdlYmFGQU5nN3BOdUdn?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Jeff Bezos' AI Lab Nears $10 Billion Funding",
-          "subtitle": "A significant investment in AI research"
+          "headline": "Visual AI Startup Raises $23M",
+          "subtitle": "Exclusive: Collov Labs Secures Funding"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 21 Apr 2026",
-            "Jeff Bezos' AI lab is near $10 billion funding",
-            "The funding deal values the lab at $38 billion",
-            "The investment is one of the largest in AI research"
+            "Collov Labs, a visual AI startup, raised $23M in funding on 21 Apr 2026.",
+            "The funding will be used to boost the company's growth and development.",
+            "The exact details of the funding round were not disclosed.",
+            "However, it is known that the startup has secured $23M."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding will accelerate AI research and development",
-            "It highlights the growing importance of AI in the tech industry",
-            "The investment will likely lead to significant advancements in AI technology"
+            "The funding will help Collov Labs to improve its visual AI technology.",
+            "The company plans to use the funding to expand its team and develop new products.",
+            "The funding is a significant milestone for the startup and will help it to compete in the AI market.",
+            "It will also help the company to improve its services and provide better solutions to its customers."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The $10 billion funding is a significant investment in AI research",
-            "The $38 billion valuation is a testament to the lab's potential",
-            "Source: Bloomberg.com, Apr 2026"
+            "The funding round is a significant development for the AI industry.",
+            "It shows that investors are interested in visual AI technology.",
+            "The funding will help Collov Labs to become a major player in the AI market.",
+            "Source: Axios, Apr 2026"
           ]
         }
       },
-      "caption": "Jeff Bezos' AI lab is near $10 billion funding, valuing the lab at $38 billion. This significant investment in AI research will accelerate development and lead to advancements in AI technology. Questions to consider: What will be the impact of this funding on the AI industry? How will this investment shape the future of AI research? #AI #Funding #Research #Investment #Technology #Innovation"
+      "caption": "Visual AI startup Collov Labs has raised $23M in funding. This is a significant milestone for the company and will help it to improve its technology and services. What does this mean for the future of AI? How will Collov Labs use the funding to expand its business? What are the potential applications of visual AI technology?",
+      "questions": "Questions to consider: What are the potential risks and challenges associated with visual AI technology? How will Collov Labs address these challenges and ensure the responsible development of its technology?"
     },
     {
       "id": 2,
       "topic": "AI Security",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N23",
+      "sourceId": "N12",
       "eventDate": "21 Apr 2026",
-      "sourceName": "Business Wire",
+      "sourceName": "The Hans India",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTmlpUkJhaGRHSWtzNVdnbXNPZEV6NFZmc2Q5MzZtbkFSR0UtNUxqZzdRb0Vta0NCUUxMRzRWTVFJQU5OMXFaNHJ0ZFNiTjBLbWY1TTNIeDc4d1VIYVl0S2gzQnJrVDJZeDNCRlBSRTlVT2pyVnpOSkJFQ0lMMXljeVpaM0dXM012ZkZpVFJ2dWVaa25XT05ZYllkM3RPdWZxanpaUFM2cDlrNmo0ajJhQmk1V2xnLXA3el91Yk5hM2dJRjVCbGlKS1lGZGxlLVZITGZ0bHVhcmxYREMwQzNFT3haUkNJSlc5WW9VZEt4c1l2QU9vUkNpVXFMUUg?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaENRY18tWkF6WXFyNW9rV0pteWdXd25QaHdiVjYxdm1OQ2VvLTVxdDRMRU5Nd1NZcW45ZTV3WGJEc054bG9jcDV2LUlsUjhkdHBoMWMzRC1Cc2p2dkw3bGNwelJzbGRZbnltRnNLNC1OdVV2N08tdFJQakhaSVJxaXktbmVLLTQxY0lKTlZxUzZqaFVnbmtRcWhCdkNFa0hPQ0swa2otWktnYzNDNXZNMVJ3aEgtczRLSU9rUTl0RS10ZkHSAcgBQVVfeXFMTWttenZFVzlXS3dHbVF5WFJDUV9NLUhTbXd5RTVsdklvTFVKQ2ozaVlZUFpoM1BnTXFibEQtemd6cGNNeWlhVzlRcWF4LVM2MEg5elhCNmFSYUdvRGxLVUtQcnBjV0tZMlRjZVlOem9JdkM3NW95SDNxVktvRDliZExRVkNCWlpfNzlMSHRMM2p6eUQ1bkNVcUxQNE1Qbm5pblc3czZBX2JDbTlaN3V1ZEZMbGpvdnlIczhYXzNsMVBaTXRYNWhxMUw?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "One in Five Experienced an LLM Security Incident",
-          "subtitle": "A growing concern in AI security"
+          "headline": "Indian Firms Feel AI Agents Will Outpace Security Controls",
+          "subtitle": "Report: 82% of Indian Firms Expect AI Agents to Outpace Security Controls by 2027"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 21 Apr 2026",
-            "One in five experienced an LLM security incident in the last year",
-            "32% of AI vulnerabilities were rated 'high-risk'",
-            "The number of security incidents is increasing"
+            "A report found that 82% of Indian firms feel that AI agents will outpace security controls by 2027.",
+            "The report highlights the need for Indian firms to improve their security measures to keep up with the rapid development of AI technology.",
+            "The exact number of firms surveyed was not disclosed.",
+            "However, it is known that the report found a significant majority of firms to be concerned about AI security."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The growing number of security incidents highlights the need for improved AI security",
-            "32% of AI vulnerabilities being 'high-risk' is a significant concern",
-            "Source: Business Wire, 21 Apr 2026"
+            "The report highlights the need for Indian firms to improve their security measures.",
+            "The rapid development of AI technology is a significant challenge for firms to keep up with.",
+            "The report found that 82% of firms are concerned about AI security.",
+            "Source: The Hans India, 21 Apr 2026"
           ]
         }
       },
-      "caption": "One in five experienced an LLM security incident in the last year, with 32% of AI vulnerabilities rated 'high-risk'. This growing concern in AI security highlights the need for improved security measures. Questions to consider: What are the potential consequences of an LLM security incident? How can we improve AI security to mitigate these risks? #AI #Security #LLM #Incident #Risk #Mitigation"
+      "caption": "A report has found that 82% of Indian firms feel that AI agents will outpace security controls by 2027. What does this mean for the future of AI security? How can Indian firms improve their security measures to keep up with the rapid development of AI technology? What are the potential consequences of AI agents outpacing security controls?",
+      "questions": "Questions to consider: What are the potential risks associated with AI agents outpacing security controls? How can firms ensure the responsible development of AI technology?"
     },
     {
       "id": 3,
-      "topic": "AI Acquisition",
+      "topic": "AI Partnership",
       "slides": 3,
-      "svgIcon": "code",
-      "sourceId": "N11",
-      "eventDate": "22 Apr 2026",
-      "sourceName": "Storyboard18",
+      "svgIcon": "network",
+      "sourceId": "N6",
+      "eventDate": "20 Apr 2026",
+      "sourceName": "Bitget",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX1dHa1lTd1ZvbHNncU9SSW5TMUxkVXNJU1NtcmtobVo1TF9UclF1b3E4dE0wTFpBbFJZYl9Qdl9IR3hFdHlPdjljYUxtX05oTDNEYjlTTEkxb091Mks1Yy1KZDhqQXpNZ08tcGJRQmhVX1JBTE9GNlE0WGhfaWNXcnB1LXlZT2IzVS1FMVIxQVRCMHZ6eTFpcVc3RkJfeWlMei1kQ0psYWNObi1hUUxobHFta09qeTVvWlI3TDFYYTZ4a1E0TjNlSUFrZEZWakZoLUhCUDZ0QmVSS2U50gHiAUFVX3lxTE9fZFY1QlRtU1ZrSEVEYmIzZ1pocUVSM0UzRW1sUUxQUXlGVnpiNktwVTByODdlTVJuc1ozczh5T2R0cWxrNVdRaDMwd2dzVUQ1UDl4dXBaVWdXS1ZnS1NpUkJfQ3FkaHB5elU4ODBTeDBfZmlwOWtIR2J5OWZoWEo0WUJvQTBLZ0xQUHR2UGMzSE83SzFMLVp5c2pmZVg0RVpuMWhfM2Q4Ung1TDFjRDZCZHNoZDRiMTlodzJWc01TeHRIV3JYM1FPeFBEeWhnanhDdHhNQVk4UVhhZC01Q3hSTUE?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40T3RuQi01MHJKU0laNnIxMmJBdkJUY21BNlQ3cTBwR3cwb21aOWV3OFc1VzBJbWV3N3NJSkM1NDRuVkVMZmVVY0M2bFZNbWpMUG43LTRrQTJBM0JGdHfSAWNBVV95cUxQNjd6NFZhMi1CY3lhR01uVXVNSUdaYmR1eDcycDJhMi1aT19iMnY4ZEJoM0Q3VG5zOXFkVnZoNUlxd2ZMRHBDaDlMVmRUUk1jRER4RFdtWVp6ZnZDOTNqV0RlT00?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "SpaceX Locks $60 Billion Cursor Deal",
-          "subtitle": "A significant acquisition in the AI industry"
+          "headline": "Cognizant Partners with OpenAI to Integrate Codex Technology",
+          "subtitle": "Partnership: Cognizant and OpenAI to Integrate Codex Technology"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 22 Apr 2026",
-            "SpaceX announced the acquisition of AI programming startup Cursor for $60 billion",
-            "The deal secures an option to acquire the startup later this year",
-            "The acquisition highlights the growing importance of AI in the tech industry"
+            "Event date: 20 Apr 2026",
+            "Cognizant has partnered with OpenAI to integrate Codex technology.",
+            "The partnership will help Cognizant to improve its AI capabilities.",
+            "Cognizant's stock rose 2.4% after the partnership was announced.",
+            "The exact terms of the partnership were not disclosed."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The $60 billion acquisition is a significant investment in AI technology",
-            "The deal highlights the growing importance of AI in the tech industry",
-            "Source: Storyboard18, 22 Apr 2026"
+            "The partnership will help Cognizant to improve its AI capabilities.",
+            "The integration of Codex technology will enhance Cognizant's services.",
+            "The partnership is a significant development for the AI industry.",
+            "Source: Bitget, 20 Apr 2026"
           ]
         }
       },
-      "caption": "SpaceX announced the acquisition of AI programming startup Cursor for $60 billion, securing an option to acquire the startup later this year. This significant acquisition highlights the growing importance of AI in the tech industry. Questions to consider: What will be the impact of this acquisition on the AI industry? How will this deal shape the future of AI development? #AI #Acquisition #Cursor #SpaceX #Investment #Technology"
+      "caption": "Cognizant has partnered with OpenAI to integrate Codex technology. What does this mean for the future of AI? How will the partnership enhance Cognizant's services? What are the potential applications of Codex technology?",
+      "questions": "Questions to consider: What are the potential benefits and challenges associated with the partnership? How will Cognizant and OpenAI work together to integrate Codex technology?"
     }
   ]
 }

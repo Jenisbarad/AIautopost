@@ -1,0 +1,124 @@
+{
+  "date": "2026-04-24",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Incidents",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Security Risks on the Rise",
+          "subtitle": "A growing concern for organizations"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 24 Apr 2026",
+            "30% of organisations face AI security incidents",
+            "Despite rising risk awareness",
+            "A recent Sprinto report reveals"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Organisations must take proactive measures to mitigate AI security risks",
+            "The consequences of inaction can be severe",
+            "It's time to prioritize AI security"
+          ]
+        }
+      },
+      "caption": "AI security incidents are on the rise, with 30% of organisations facing these risks. Despite growing awareness, many organisations are still unprepared. What can be done to mitigate these risks? How can organisations prioritize AI security? #AI #Security #RiskManagement #ArtificialIntelligence #CyberSecurity #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWUVyRHFIcEQ0Q21FelgtZk9jeTEtR1VOeHI0eHFQVlFsdTRkRjhnZUw1V0xhTkR5Z3FyVzhoSldqZ3RBSTZDelcyLUcxS0g2aEdKb0E2UFNDUDctNkdXWGxCaWZQMDg1dmhxU1ZydlQzYmhFZkZtRkF1US02NkVGcTFmSWE5OWk5a250TnNBVzI1ODBmMmIwcG54cXc1VktTT1hlT01ad2dJSkFZTDA3NkNsYjdxbGVCcjg5VmNGZ2dnNllfeVlMLVVTNExCcEVPbmpCV1NEZ3FnZlZvYVHSAd4BQVVfeXFMUFlFckRxSHBENENtRXpYLWZPY3kxLUdVTnhyNHhxUFZRbHU0ZEY4Z2VMNVdMYU5EeWdxclc4aEpXamd0QUk2Q3pXMi1HMUtINmhHSm9BNlBTQ1A3LTZHV1hsQmlmUDA4NXZocVNWcnZUM2JoRWZGbUZBdVEtNjZFRnExZklhOTlpOWtudE5zQVcyNTgwZjJiMHBueHF3NVZLU09YZU9NWndnSUpBWUwwNzZDbGI3cWxlQnI4OVZjRmdnZzZZX3lZTC1VUzRMQnBFT25qQldTRGdxZ2ZWb2FR?oc=5",
+      "sourceName": "ETCISO.in",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "24 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Tesla AI Hardware Acquisition",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Tesla's Latest Acquisition",
+          "subtitle": "A major move in the AI hardware space"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 23 Apr 2026",
+            "Tesla acquires AI hardware company for up to $2 billion in stock",
+            "A significant investment in AI capabilities",
+            "The acquisition is expected to boost Tesla's AI push"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI in the tech industry",
+            "Tesla's move is expected to have a significant impact on the AI hardware market",
+            "The company's AI ambitions are becoming increasingly clear"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Tesla's acquisition is a significant development in the AI hardware space",
+            "The company's AI capabilities are expected to improve significantly",
+            "The acquisition is a testament to the growing importance of AI in the tech industry",
+            "Source: Investing.com India, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Tesla has acquired an AI hardware company for up to $2 billion in stock. This significant investment in AI capabilities is expected to boost the company's AI push. What does this mean for the future of AI in the tech industry? How will this acquisition impact the AI hardware market? #AI #Tesla #Acquisition #ArtificialIntelligence #TechNews #Hardware",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNazY1bU9PY3VsT190Rk9Jb21xX2JtSkptN0tLTDZjQXJncHBKWkxPZFBGUXphU3ViNDZaOUN6LWdHQ3MzWmlHZmZqMkdVVTF4TnFDRmdlZUREcHB4N0pHYnN6Q0lCRjVKY1N5ZUdKSW1ROHdrV1hwVUlGNFJCTk5iMTY0OTdDVDFMV3RSVUxxbllJQ1hkR2RfMHNJMHIyQlRYZXpXdGFRb0NESUJZenhxQUt4b0tVQXViNUtOcEt3QVBNZw?oc=5",
+      "sourceName": "Investing.com India",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "23 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "OpenAI GPT-5.5 Launch",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's Latest AI Model",
+          "subtitle": "A significant development in the AI space"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 23 Apr 2026",
+            "OpenAI announces GPT-5.5, its latest artificial intelligence model",
+            "The new model is expected to have significant improvements over its predecessor",
+            "GPT-5.5 is expected to have a major impact on the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of GPT-5.5 is a significant development in the AI space",
+            "The new model is expected to have a major impact on the AI industry",
+            "OpenAI's latest model is expected to improve AI capabilities across various applications"
+          ]
+        }
+      },
+      "caption": "OpenAI has announced the launch of GPT-5.5, its latest artificial intelligence model. The new model is expected to have significant improvements over its predecessor. What does this mean for the future of AI? How will GPT-5.5 impact the AI industry? #AI #OpenAI #GPT55 #ArtificialIntelligence #TechNews #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMjh3Wk9yM0RoT3R4WlFUNVNfVHpYckVDVVA2RUFZU3Z3dmFSWnVmTzdhdThQazVmUldfaDRrS2dlSVgyMHRDZlNLQ3pRakhSYWhmY2JuR2FfbW9Ub19vbkxYQ3FYLWxqMEZsZXhBSEd3SXhMc3F3dmpwZHVyQlFyQzk1WUZLZDRwWTlnOTkzRVVjZlFa0gGaAUFVX3lxTE4wNWhad28wTElXZDM5N3hLTVJWbmdsVm8zWm9rSzA2UGotanBONjZQdWdkNDZFc1BjVlp6MTVSWUhFUW5DZmIzUWRqaWVrVW05VkNabHhvbEh0bVRYa2U2bEYyOElfT19kaWVrR0pWNXl6STVSUmtUS1AySXVfTkpvV004a2F3TDFQaG00dUNRVzZqRnBQWlZLVGc?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "23 Apr 2026"
+    }
+  ]
+}

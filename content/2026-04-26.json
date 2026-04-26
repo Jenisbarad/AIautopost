@@ -8,123 +8,115 @@
   "posts": [
     {
       "id": 1,
-      "topic": "2–6 word short title",
-      "slides": 4,
-      "svgIcon": "chip",
-      "sourceId": "N1",
+      "topic": "GPT-5.5 Update",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N20",
       "eventDate": "23 Apr 2026",
-      "sourceName": "Investing.com India",
+      "sourceName": "OpenAI",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNazY1bU9PY3VsT190Rk9Jb21xX2JtSkptN0tLTDZjQXJncHBKWkxPZFBGUXphU3ViNDZaOUN6LWdHQ3MzWmlHZmZqMkdVVTF4TnFDRmdlZUREcHB4N0pHYnN6Q0lCRjVKY1N5ZUdKSW1ROHdrV1hwVUlGNFJCTk5iMTY0OTdDVDFMV3RSVUxxbllJQ1hkR2RfMHNJMHIyQlRYZXpXdGFRb0NESUJZenhxQUt4b0tVQXViNUtOcEt3QVBNZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Tesla Acquires AI Hardware Company",
-          "subtitle": "Expanding its AI capabilities"
+          "headline": "OpenAI Launches GPT-5.5",
+          "subtitle": "A significant update to the AI model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI launched GPT-5.5 on 23 Apr 2026",
+            "The update brings 10 big improvements to the chatbot",
+            "GPT-5.5 is the next big step in the world of AI"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The update includes improvements to the chatbot's conversational abilities",
+            "GPT-5.5 is expected to have a significant impact on the AI industry",
+            "Source: OpenAI, 23 Apr 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has launched GPT-5.5, a significant update to the AI model. The update brings 10 big improvements to the chatbot, including improvements to conversational abilities. What does this mean for the future of AI? How will GPT-5.5 be used in different industries? #AI #GPT55 #OpenAI #Chatbot #ConversationalAI #MachineLearning"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Acquisition",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "eventDate": "23 Apr 2026",
+      "sourceName": "CTech",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5td3pFMkRVTXhPbk94dklFNmxqY3dFeE82ZloxeHhIZThpTmRLOG16TXpPekZfVkJOTDJvT2lENkdmS2d6a0lNeUxnc2hIZ2ZjcjZSZWFJQzJzbGNSLXFsbEZITk9nUmZK?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cyera Acquires Ryft",
+          "subtitle": "A significant acquisition in the AI security industry"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 23 Apr 2026",
-            "Tesla acquired an AI hardware company for up to $2 billion in stock.",
-            "The acquisition is expected to enhance Tesla's AI capabilities.",
-            "The company's AI hardware will be integrated into Tesla's existing systems.",
-            "The deal is valued at up to $2 billion."
+            "Cyera acquired Ryft for $100-$130 million",
+            "The acquisition is expected to enhance Cyera's AI security capabilities",
+            "Ryft is a two-year-old startup"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The acquisition is a significant move for Tesla in the AI space.",
-            "It will enable the company to improve its autonomous driving capabilities.",
-            "The deal also highlights the growing importance of AI in the tech industry.",
-            "Tesla's acquisition is expected to have a major impact on the company's future growth."
+            "The acquisition highlights the growing importance of AI security",
+            "Cyera's acquisition of Ryft is a significant move in the industry",
+            "The deal value is between $100-$130 million"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a strategic move by Tesla to strengthen its AI capabilities.",
-            "The company's AI hardware will be used to improve its autonomous driving systems.",
-            "The deal is valued at up to $2 billion, making it a significant investment for Tesla.",
-            "Source: Investing.com India, Apr 2026"
+            "The acquisition is expected to enhance Cyera's AI security capabilities",
+            "The deal highlights the growing importance of AI security in the industry",
+            "Source: CTech, Apr 2026"
           ]
         }
       },
-      "caption": "Tesla has acquired an AI hardware company for up to $2 billion in stock. This move is expected to enhance the company's AI capabilities and improve its autonomous driving systems. The acquisition is a significant investment for Tesla, valued at up to $2 billion. \n      Questions to consider: What impact will this acquisition have on Tesla's future growth? How will the company's AI hardware be used to improve its autonomous driving systems? \n      #AI #Acquisition #Tesla #AutonomousDriving #ArtificialIntelligence #TechNews"
-    },
-    {
-      "id": 2,
-      "topic": "AI Model Launch",
-      "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N5",
-      "eventDate": "24 Apr 2026",
-      "sourceName": "CXOToday.com",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUnhXbjBZX293ZkE0cDdsRDV4VldYbVAzS2EzcS0wTUlTVGV5bEFKY0dfSmgyYWJtMTF4OXVqMHBsZGhiM0NNSThmTjZWS0tqZkM2UEJEaGZaX0NfQzRUaEJBSUh0OHdLTkZqVVJvYlZOWnVmS2hwWXRkLW5obnVmYlNiS2FXLTdVMlk1bw?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "OpenAI Launches GPT-5.5",
-          "subtitle": "A new AI model with enhanced capabilities"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 24 Apr 2026",
-            "OpenAI has launched GPT-5.5, its latest AI model.",
-            "The model has enhanced capabilities, including improved coding and task execution.",
-            "GPT-5.5 is expected to have a significant impact on the AI industry.",
-            "The model's capabilities are expected to revolutionize the way AI is used in various applications."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The launch of GPT-5.5 is a significant development in the AI industry.",
-            "The model's enhanced capabilities are expected to have a major impact on various applications.",
-            "GPT-5.5 is a testament to OpenAI's commitment to advancing AI research and development.",
-            "Source: CXOToday.com, Apr 2026"
-          ]
-        }
-      },
-      "caption": "OpenAI has launched GPT-5.5, its latest AI model with enhanced capabilities. The model is expected to have a significant impact on the AI industry and revolutionize the way AI is used in various applications. \n      Questions to consider: What are the potential applications of GPT-5.5? How will the model's enhanced capabilities impact the AI industry? \n      #AI #GPT55 #OpenAI #ArtificialIntelligence #TechNews"
+      "caption": "Cyera has acquired Ryft, a two-year-old startup, for $100-$130 million. The acquisition is expected to enhance Cyera's AI security capabilities. What does this mean for the future of AI security? How will this acquisition impact the industry? #AI #Security #Acquisition #Cyera #Ryft #AIsecurity #MachineLearning"
     },
     {
       "id": 3,
-      "topic": "Cloud Security",
+      "topic": "AI-Driven IPO",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N8",
-      "eventDate": "26 Apr 2026",
-      "sourceName": "ynetnews",
+      "svgIcon": "rocket",
+      "sourceId": "N4",
+      "eventDate": "25 Apr 2026",
+      "sourceName": "TechStock²",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDSV9YR09JYkpjdEMzMDBXd3hQMHhhcEp0TGh0VDFvTmNWS1kxemQ5OHdVZ0doelJNWFI2aFZXckFyUndpR3dWN2JPeDRIRFBuYUtIVlloTjJsdkY1WmRGV09Zcw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNGdUUm1uWE9WZExMYVZMQ2hFMGI4VnA0S2pkRFZzM3BfWG5iRUIzT2FNOTE4dUJPdDJaclNRc3BzQTJoMDJKNnlMVTYwWm8xRnJrdEd3OWlmTG12ZmZiVlJhUDh4VERVTUpmV2FVbk5RM3JwYm43Q1VybEE2R0QyM1pqSlk5TTZWcVJNQ3Qyd3VHMVpCNENNQ0xmdWFPY1NSLWhheg?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Copperhelm Unveils AI-Driven Cloud Security Platform",
-          "subtitle": "A new platform for enhanced cloud security"
+          "headline": "X-Energy Stock Jumps in Nasdaq Debut",
+          "subtitle": "A significant IPO in the AI industry"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 26 Apr 2026",
-            "Copperhelm has unveiled an AI-driven cloud security platform.",
-            "The platform is designed to provide enhanced cloud security capabilities.",
-            "The platform has received a $7M seed round led by TLV Partners.",
-            "The investment will be used to further develop the platform's capabilities."
+            "Event date: 25 Apr 2026",
+            "X-Energy's stock jumped in its Nasdaq debut",
+            "The company's IPO was valued at $1 billion",
+            "The IPO tests the AI power boom"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The launch of Copperhelm's AI-driven cloud security platform is a significant development in the cloud security industry.",
-            "The platform's enhanced capabilities are expected to have a major impact on cloud security.",
-            "The $7M seed round led by TLV Partners is a testament to the platform's potential.",
-            "Source: ynetnews, Apr 2026"
+            "The IPO highlights the growing interest in AI-powered companies",
+            "X-Energy's debut on Nasdaq is a significant milestone for the company",
+            "Source: TechStock², 25 Apr 2026"
           ]
         }
       },
-      "caption": "Copperhelm has unveiled an AI-driven cloud security platform, designed to provide enhanced cloud security capabilities. The platform has received a $7M seed round led by TLV Partners, which will be used to further develop its capabilities. \n      Questions to consider: What are the potential applications of Copperhelm's AI-driven cloud security platform? How will the platform's enhanced capabilities impact the cloud security industry? \n      #CloudSecurity #AI #Copperhelm #TechNews #Cybersecurity"
+      "caption": "X-Energy's stock has jumped in its Nasdaq debut, with an IPO valued at $1 billion. The IPO tests the AI power boom and highlights the growing interest in AI-powered companies. What does this mean for the future of AI-driven IPOs? How will this impact the industry? #AI #IPO #XEnergy #Nasdaq #AIpower #MachineLearning"
     }
   ]
 }

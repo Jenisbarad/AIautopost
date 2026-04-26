@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-26",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "2–6 word short title",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "eventDate": "23 Apr 2026",
+      "sourceName": "Investing.com India",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNazY1bU9PY3VsT190Rk9Jb21xX2JtSkptN0tLTDZjQXJncHBKWkxPZFBGUXphU3ViNDZaOUN6LWdHQ3MzWmlHZmZqMkdVVTF4TnFDRmdlZUREcHB4N0pHYnN6Q0lCRjVKY1N5ZUdKSW1ROHdrV1hwVUlGNFJCTk5iMTY0OTdDVDFMV3RSVUxxbllJQ1hkR2RfMHNJMHIyQlRYZXpXdGFRb0NESUJZenhxQUt4b0tVQXViNUtOcEt3QVBNZw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Tesla Acquires AI Hardware Company",
+          "subtitle": "Expanding its AI capabilities"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 23 Apr 2026",
+            "Tesla acquired an AI hardware company for up to $2 billion in stock.",
+            "The acquisition is expected to enhance Tesla's AI capabilities.",
+            "The company's AI hardware will be integrated into Tesla's existing systems.",
+            "The deal is valued at up to $2 billion."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition is a significant move for Tesla in the AI space.",
+            "It will enable the company to improve its autonomous driving capabilities.",
+            "The deal also highlights the growing importance of AI in the tech industry.",
+            "Tesla's acquisition is expected to have a major impact on the company's future growth."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a strategic move by Tesla to strengthen its AI capabilities.",
+            "The company's AI hardware will be used to improve its autonomous driving systems.",
+            "The deal is valued at up to $2 billion, making it a significant investment for Tesla.",
+            "Source: Investing.com India, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Tesla has acquired an AI hardware company for up to $2 billion in stock. This move is expected to enhance the company's AI capabilities and improve its autonomous driving systems. The acquisition is a significant investment for Tesla, valued at up to $2 billion. \n      Questions to consider: What impact will this acquisition have on Tesla's future growth? How will the company's AI hardware be used to improve its autonomous driving systems? \n      #AI #Acquisition #Tesla #AutonomousDriving #ArtificialIntelligence #TechNews"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Launch",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N5",
+      "eventDate": "24 Apr 2026",
+      "sourceName": "CXOToday.com",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUnhXbjBZX293ZkE0cDdsRDV4VldYbVAzS2EzcS0wTUlTVGV5bEFKY0dfSmgyYWJtMTF4OXVqMHBsZGhiM0NNSThmTjZWS0tqZkM2UEJEaGZaX0NfQzRUaEJBSUh0OHdLTkZqVVJvYlZOWnVmS2hwWXRkLW5obnVmYlNiS2FXLTdVMlk1bw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Launches GPT-5.5",
+          "subtitle": "A new AI model with enhanced capabilities"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 24 Apr 2026",
+            "OpenAI has launched GPT-5.5, its latest AI model.",
+            "The model has enhanced capabilities, including improved coding and task execution.",
+            "GPT-5.5 is expected to have a significant impact on the AI industry.",
+            "The model's capabilities are expected to revolutionize the way AI is used in various applications."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The launch of GPT-5.5 is a significant development in the AI industry.",
+            "The model's enhanced capabilities are expected to have a major impact on various applications.",
+            "GPT-5.5 is a testament to OpenAI's commitment to advancing AI research and development.",
+            "Source: CXOToday.com, Apr 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has launched GPT-5.5, its latest AI model with enhanced capabilities. The model is expected to have a significant impact on the AI industry and revolutionize the way AI is used in various applications. \n      Questions to consider: What are the potential applications of GPT-5.5? How will the model's enhanced capabilities impact the AI industry? \n      #AI #GPT55 #OpenAI #ArtificialIntelligence #TechNews"
+    },
+    {
+      "id": 3,
+      "topic": "Cloud Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N8",
+      "eventDate": "26 Apr 2026",
+      "sourceName": "ynetnews",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDSV9YR09JYkpjdEMzMDBXd3hQMHhhcEp0TGh0VDFvTmNWS1kxemQ5OHdVZ0doelJNWFI2aFZXckFyUndpR3dWN2JPeDRIRFBuYUtIVlloTjJsdkY1WmRGV09Zcw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Copperhelm Unveils AI-Driven Cloud Security Platform",
+          "subtitle": "A new platform for enhanced cloud security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 26 Apr 2026",
+            "Copperhelm has unveiled an AI-driven cloud security platform.",
+            "The platform is designed to provide enhanced cloud security capabilities.",
+            "The platform has received a $7M seed round led by TLV Partners.",
+            "The investment will be used to further develop the platform's capabilities."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The launch of Copperhelm's AI-driven cloud security platform is a significant development in the cloud security industry.",
+            "The platform's enhanced capabilities are expected to have a major impact on cloud security.",
+            "The $7M seed round led by TLV Partners is a testament to the platform's potential.",
+            "Source: ynetnews, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Copperhelm has unveiled an AI-driven cloud security platform, designed to provide enhanced cloud security capabilities. The platform has received a $7M seed round led by TLV Partners, which will be used to further develop its capabilities. \n      Questions to consider: What are the potential applications of Copperhelm's AI-driven cloud security platform? How will the platform's enhanced capabilities impact the cloud security industry? \n      #CloudSecurity #AI #Copperhelm #TechNews #Cybersecurity"
+    }
+  ]
+}

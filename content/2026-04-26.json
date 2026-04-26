@@ -8,115 +8,119 @@
   "posts": [
     {
       "id": 1,
-      "topic": "GPT-5.5 Update",
+      "topic": "OpenAI GPT-5.5",
       "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N20",
-      "eventDate": "23 Apr 2026",
-      "sourceName": "OpenAI",
+      "sourceId": "N1",
+      "eventDate": "24 Apr 2026",
+      "sourceName": "The Economic Times",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOR3hCaklITnhpNUlhOUtGR3RESlVJRW9UWlV5NzAtbFlUeXUyNnJSdi1Ka3BERURqWEd3elBxNXVqcUxpeGJKT3ZHOEw0czhlZkYxR1Ywak50bTNtQUZtX25QdWxCbEw4cVE4S3VtRFI1NG1WTHFRZXF6dFcxN1ZlbU9sMERRbG50MHNvSFNlNl9kanE5dU5TM0NlVzhjSnBMWVVPeWkzNzRsN08wUXQ2ZmdyOTJ3T0ZuN3RQd1E5SUFpREN4YU4tdGNpWmdMTnVTdjAwaTg5X0d1MzdmRGxv0gHkAUFVX3lxTE5CdGl4R0RyaGNXT2V0ZC1vbkYxTWNlQ2ZUMmxhX1lqWkF2OTJJaGota1p3dGZiak9KcUh3TnFBYVhHMEpSYTZkeVptd2tuNzA2X292WHlmdE53RjI3TW1STm5CMjQtUkRVdHA2UUNCeTFFLVhPOTlrR0ppeEZGZzlpRDdmMHlpZmRmb1NQekRCVGNEajJxMnNqd1lXZVVIRWpjNUxWRVI2UVlfTWhSM0MyWHFjVmp0dG1PRHFvSHNTWWMyX1o5QzE0SDF5VkthLXZJbXFBMG4wUnhrbXB5cnlHa0xLSQ?oc=5",
       "slideContent": {
         "slide1": {
           "headline": "OpenAI Launches GPT-5.5",
-          "subtitle": "A significant update to the AI model"
+          "subtitle": "With API Pricing Starting at $5 per 1 Million Tokens"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "OpenAI launched GPT-5.5 on 23 Apr 2026",
-            "The update brings 10 big improvements to the chatbot",
-            "GPT-5.5 is the next big step in the world of AI"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The update includes improvements to the chatbot's conversational abilities",
-            "GPT-5.5 is expected to have a significant impact on the AI industry",
-            "Source: OpenAI, 23 Apr 2026"
-          ]
-        }
-      },
-      "caption": "OpenAI has launched GPT-5.5, a significant update to the AI model. The update brings 10 big improvements to the chatbot, including improvements to conversational abilities. What does this mean for the future of AI? How will GPT-5.5 be used in different industries? #AI #GPT55 #OpenAI #Chatbot #ConversationalAI #MachineLearning"
-    },
-    {
-      "id": 2,
-      "topic": "AI Security Acquisition",
-      "slides": 4,
-      "svgIcon": "shield",
-      "sourceId": "N3",
-      "eventDate": "23 Apr 2026",
-      "sourceName": "CTech",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5td3pFMkRVTXhPbk94dklFNmxqY3dFeE82ZloxeHhIZThpTmRLOG16TXpPekZfVkJOTDJvT2lENkdmS2d6a0lNeUxnc2hIZ2ZjcjZSZWFJQzJzbGNSLXFsbEZITk9nUmZK?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Cyera Acquires Ryft",
-          "subtitle": "A significant acquisition in the AI security industry"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 23 Apr 2026",
-            "Cyera acquired Ryft for $100-$130 million",
-            "The acquisition is expected to enhance Cyera's AI security capabilities",
-            "Ryft is a two-year-old startup"
+            "OpenAI launched GPT-5.5 on 24 Apr 2026",
+            "API pricing starts at $5 per 1 million tokens",
+            "GPT-5.5 is the latest artificial intelligence model",
+            "It brings 10 big improvements to the chatbot"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The acquisition highlights the growing importance of AI security",
-            "Cyera's acquisition of Ryft is a significant move in the industry",
-            "The deal value is between $100-$130 million"
+            "GPT-5.5 is a significant update to the previous model",
+            "It has the potential to revolutionize the way we interact with AI",
+            "The new model is more powerful and efficient",
+            "Source: The Economic Times, 24 Apr 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has launched GPT-5.5, its latest artificial intelligence model, with API pricing starting at $5 per 1 million tokens. This is a significant update to the previous model and has the potential to revolutionize the way we interact with AI. \n      Questions to consider: What are the potential applications of GPT-5.5? How will it change the way we interact with AI? What are the implications of this update for the future of AI development? \n      #OpenAI #GPT55 #AI #ArtificialIntelligence #MachineLearning #TechNews"
+    },
+    {
+      "id": 2,
+      "topic": "Tesla Acquires AI Hardware Company",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N7",
+      "eventDate": "23 Apr 2026",
+      "sourceName": "Investing.com Nigeria",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeGJqT3JKVm9pRlBGV1R0Zm9meEcxc0VDVG9hZEgzc0VVSWh1ZHhPc2N2MURIVkdhSmZmYkNIZm8zSnV1Z0U1RV9VaUFaUEwzUWhBYjlEQ1JyMXB4c2ROTFFkbThMUjB5NWt1Y1pzbEl2cXk0U2dlQ3ktRWc5bmJTcXhkTEVYaTdrNnl6VHk0VFVkbVU0ZWdfUXgyc0dka01pWVNrZllHNy12ZmhBbnlBc2tXYTdnQ2dXQmVnMlBTZElsUQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Tesla Acquires AI Hardware Company",
+          "subtitle": "For Up to $2 Billion in Stock"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Tesla acquired an AI hardware company for up to $2 billion in stock",
+            "The deal was announced on 23 Apr 2026",
+            "The acquisition is a significant move by Tesla to expand its AI capabilities",
+            "The company's AI hardware will be used to improve Tesla's autonomous driving technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition is a significant move by Tesla to expand its AI capabilities",
+            "It will help Tesla to improve its autonomous driving technology",
+            "The deal is a testament to the growing importance of AI in the tech industry"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is expected to enhance Cyera's AI security capabilities",
-            "The deal highlights the growing importance of AI security in the industry",
-            "Source: CTech, Apr 2026"
+            "Tesla's acquisition of the AI hardware company is a strategic move to stay ahead in the autonomous driving market",
+            "The deal highlights the growing trend of tech companies acquiring AI startups",
+            "The acquisition will help Tesla to improve its AI capabilities and stay competitive in the market",
+            "Source: Investing.com Nigeria, Apr 2026"
           ]
         }
       },
-      "caption": "Cyera has acquired Ryft, a two-year-old startup, for $100-$130 million. The acquisition is expected to enhance Cyera's AI security capabilities. What does this mean for the future of AI security? How will this acquisition impact the industry? #AI #Security #Acquisition #Cyera #Ryft #AIsecurity #MachineLearning"
+      "caption": "Tesla has acquired an AI hardware company for up to $2 billion in stock. The deal is a significant move by Tesla to expand its AI capabilities and improve its autonomous driving technology. \n      Questions to consider: What are the implications of this acquisition for Tesla's autonomous driving technology? How will this deal affect the AI industry as a whole? What are the potential risks and challenges associated with this acquisition? \n      #Tesla #AI #Acquisition #AutonomousDriving #TechNews"
     },
     {
       "id": 3,
-      "topic": "AI-Driven IPO",
+      "topic": "OnePlus Watch 4",
       "slides": 3,
-      "svgIcon": "rocket",
-      "sourceId": "N4",
-      "eventDate": "25 Apr 2026",
-      "sourceName": "TechStock²",
+      "svgIcon": "network",
+      "sourceId": "N9",
+      "eventDate": "22 Apr 2026",
+      "sourceName": "stuff.tv",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNGdUUm1uWE9WZExMYVZMQ2hFMGI4VnA0S2pkRFZzM3BfWG5iRUIzT2FNOTE4dUJPdDJaclNRc3BzQTJoMDJKNnlMVTYwWm8xRnJrdEd3OWlmTG12ZmZiVlJhUDh4VERVTUpmV2FVbk5RM3JwYm43Q1VybEE2R0QyM1pqSlk5TTZWcVJNQ3Qyd3VHMVpCNENNQ0xmdWFPY1NSLWhheg?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUVZjZFNZbnF6TXlDN3pwNHFfNlA3M3NGUnBfdlBnMWlzeEk5dHkxU1cyNVJYLU9hbzZ4enJycUEzNV8yMUhadDBCMll3OUFUaV9seGFyZGNBb2JQNXhqeWh5WElUQlAwaHhOVnpvd0ZxbHVHQXd0OXIyY1hPYWpUWEhnVTd1dkZTM0tzd0Npc0lSR3lMUm1oODJoalRNem1X?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "X-Energy Stock Jumps in Nasdaq Debut",
-          "subtitle": "A significant IPO in the AI industry"
+          "headline": "OnePlus Watch 4",
+          "subtitle": "With Wear OS 6 and Gemini"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 25 Apr 2026",
-            "X-Energy's stock jumped in its Nasdaq debut",
-            "The company's IPO was valued at $1 billion",
-            "The IPO tests the AI power boom"
+            "OnePlus announced the Watch 4 with Wear OS 6 and Gemini on 22 Apr 2026",
+            "The watch is expected to be a significant upgrade to the previous model",
+            "It will feature improved performance and new features",
+            "The watch will be available for Android fans"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The IPO highlights the growing interest in AI-powered companies",
-            "X-Energy's debut on Nasdaq is a significant milestone for the company",
-            "Source: TechStock², 25 Apr 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The OnePlus Watch 4 is a significant upgrade to the previous model",
+            "It will feature improved performance and new features",
+            "The watch will be a great option for Android fans",
+            "Source: Stuff TV, 22 Apr 2026"
           ]
         }
       },
-      "caption": "X-Energy's stock has jumped in its Nasdaq debut, with an IPO valued at $1 billion. The IPO tests the AI power boom and highlights the growing interest in AI-powered companies. What does this mean for the future of AI-driven IPOs? How will this impact the industry? #AI #IPO #XEnergy #Nasdaq #AIpower #MachineLearning"
+      "caption": "OnePlus has announced the Watch 4 with Wear OS 6 and Gemini. The watch is expected to be a significant upgrade to the previous model and will feature improved performance and new features. \n      Questions to consider: What are the key features of the OnePlus Watch 4? How will it compete with other smartwatches in the market? What are the implications of this launch for the wearable tech industry? \n      #OnePlus #Watch4 #WearOS #Gemini #Smartwatch #TechNews"
     }
   ]
 }

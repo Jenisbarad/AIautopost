@@ -1,0 +1,154 @@
+{
+  "date": "2026-04-28",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "Meta Acquisition Blocked",
+      "slides": 4,
+      "svgIcon": "lock",
+      "sourceId": "N1",
+      "eventDate": "28 Apr 2026",
+      "sourceName": "The420.in",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6bnROekVWX2pkLXJPa2xVMVNoZExaclJzVXh3aWF3N0hETDlvWXpweE5ha0JwSHlkT1ZlUE5adFktQmt6dVlFRTNJOHBwX1o5cHNJalNXX3oxMDNYR3JoSG8zZjlJNWRTZERHajJIaw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "China Blocks Meta's Acquisition",
+          "subtitle": "Global AI Power Race Intensifies"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 Apr 2026",
+            "China blocked Meta's $2 billion acquisition of Manus",
+            "The deal was valued at ₹16,600 crore",
+            "Meta is preparing to unwind the acquisition",
+            "This move intensifies the global AI power race"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The blockage affects Meta's AI ambitions",
+            "China's regulatory scrutiny is increasing",
+            "The global AI landscape is becoming more competitive",
+            "Companies must adapt to changing regulations"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition was meant to enhance Meta's AI capabilities",
+            "China's decision may impact future AI deals",
+            "Companies must consider regulatory risks in AI investments",
+            "Source: The420.in, Apr 2026"
+          ]
+        }
+      },
+      "caption": "China has blocked Meta's $2 billion acquisition of Manus, intensifying the global AI power race. What does this mean for Meta's AI ambitions? How will this impact the future of AI investments? What are the implications for the global AI landscape? Questions to consider: How will Meta adapt to this setback? What are the potential consequences for the AI industry? #AI #Meta #Acquisition #China #Regulation #TechNews",
+      "hashtags": [
+        "#AI",
+        "#Meta",
+        "#Acquisition",
+        "#China",
+        "#Regulation",
+        "#TechNews"
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding Boom",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N6",
+      "eventDate": "27 Apr 2026",
+      "sourceName": "CNA",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSW5pNDltRDAxd3FOR1FsUWFLc1FkMDdBLTRBaXB3OU1wYWROSWRYR00xb095MGg5Rl9hbTdXS0lQdEVsRGp2M1RRWXlid3JQcFViSWFvY1RqSjhDdXNkZjdGaklDbDdGcWFWM1hzUXhGVG5xanBtTGg2UUVMNHRBR3pnbGRVR3VaYmt0akk1NHE0ZF8xZm5rZXpFRnkzMDBJU29xLUh3bVZxUGQyQkNqWjhsQWJ1ODVNOGhCRzhPUDdWU0dQRDFkYnhn?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Ineffable Raises $1.1 Billion",
+          "subtitle": "Europe's Largest Seed Financing"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Apr 2026",
+            "Ineffable, a UK-based AI startup, raised $1.1 billion in seed financing",
+            "This is the largest seed financing in Europe",
+            "The funding will be used to develop AI technologies",
+            "Ineffable is valued at $1.1 billion"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding demonstrates the growing interest in AI",
+            "Ineffable's technology has the potential to disrupt industries",
+            "The AI funding boom is expected to continue",
+            "Source: CNA, 27 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Ineffable, a UK-based AI startup, has raised $1.1 billion in seed financing, the largest in Europe. What does this mean for the AI industry? How will Ineffable use this funding to develop its technologies? What are the potential applications of Ineffable's AI technologies? Questions to consider: How will this funding impact the AI landscape? What are the potential risks and challenges for Ineffable? #AI #Funding #Ineffable #Europe #Startup #TechNews",
+      "hashtags": [
+        "#AI",
+        "#Funding",
+        "#Ineffable",
+        "#Europe",
+        "#Startup",
+        "#TechNews"
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "AI-Powered Automation",
+      "slides": 3,
+      "svgIcon": "rocket",
+      "sourceId": "N22",
+      "eventDate": "28 Apr 2026",
+      "sourceName": "CXO Digitalpulse",
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSGw1T1Ywd3JfYWgtTm1UWmdRYVRCMUtQeGlwdHAweDZ4SElhMG40THpELUMzTjg3V3Bjd0RIaVIyV1QzN21QNWhZbTFKMmt1dHRCWWNwaDcxYzdmMm5IY0xsUVlsa2dVQmM0LTd0R3lYaDBGV3hfc2o5dk9LcGp2NnYzalJ6N0JiQVBmOHV0bkNFU213TWZjZmlMUmhUUmcyMmtHNF9FQnh3blp0VDhMRGo3SndlRlQweDVF?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Sereact Raises $110 Million",
+          "subtitle": "AI-Powered Automation for Robotics"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 Apr 2026",
+            "Sereact, a US robotics software startup, raised $110 million in funding",
+            "The funding will be used to scale AI-powered automation",
+            "Sereact's technology enhances robotics capabilities",
+            "The company plans to expand its operations"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding demonstrates the growing interest in AI-powered automation",
+            "Sereact's technology has the potential to disrupt industries",
+            "The AI-powered automation market is expected to grow",
+            "Source: CXO Digitalpulse, 28 Apr 2026"
+          ]
+        }
+      },
+      "caption": "Sereact, a US robotics software startup, has raised $110 million in funding to scale AI-powered automation. What does this mean for the robotics industry? How will Sereact's technology impact the adoption of AI-powered automation? What are the potential applications of Sereact's technology? Questions to consider: How will this funding impact the AI-powered automation market? What are the potential risks and challenges for Sereact? #AI #Automation #Robotics #Sereact #Funding #TechNews",
+      "hashtags": [
+        "#AI",
+        "#Automation",
+        "#Robotics",
+        "#Sereact",
+        "#Funding",
+        "#TechNews"
+      ]
+    }
+  ]
+}

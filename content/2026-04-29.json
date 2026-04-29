@@ -8,126 +8,125 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition Blocked",
-      "slides": 4,
+      "topic": "China Blocks Meta Acquisition",
+      "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N6",
-      "eventDate": "27 Apr 2026",
-      "sourceName": "Business Standard",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZ0ZyU1Vuc3BWZnN6dmxEcU81SzN4dzk1eVZVN1FQSG5IaXRIT21XLTlEWTVmVXZoc1BPWWw3LWdLVVpZMEJFbC1PWG8zZVhWNW40TjV5bzlmQ05ZTmdGUXdHWVNORTZKY2s0VUs1blluRE5qUFAya2ktQndFUC1PdHR1M3ozUU9oMEVyLWoxM1c2YzcwemQwcTBSdld5d1llNmVUZjlTSXEyZERTMXZOVDlLdVUtX1FDd25oTXEwX2tLM2RaeUtPWW1reV84UTDSAdQBQVVfeXFMT0FZTjVvUkIxbFFTQUxRa3JuenRVNzRiS2NqN2JJcFNKRmZESjZGXzlEbnVCcE1ja3MzMGJ3RHI2ZzVvTW1LNHMyTndFSHNCbU9ZbWJGemctOWhqS0JoZTBrQlNkX1NEcW1fR2JNYk5LajR0aERWTzRhNFh2TjNhZDd4LW9QRDZHVWppakduQlpHUWZNWC1iM1hMRUV6TXJ2aHJaRGVTWDRzUnpmSHowa0R4b2h3S2Y3ank0TW9MVVlRa0Y2ajE5RmJxZldZSDYtQ2k5aDI?oc=5",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "China Blocks Meta's AI Acquisition",
-          "subtitle": "A significant move in the AI landscape",
-          "source": "Business Standard, 27 Apr 2026"
+          "headline": "China Blocks Meta Acquisition of Manus AI",
+          "subtitle": "A significant move in the AI industry"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 27 Apr 2026",
-            "China ordered Meta to unwind its $2 billion acquisition of AI startup Manus.",
-            "This decision affects Meta's plans for AI expansion.",
-            "The acquisition was valued at $2 billion.",
-            "Meta will have to reconsider its AI strategy."
+            "China blocked Meta's acquisition of Manus AI on 27 Apr 2026",
+            "The acquisition was valued at $2 billion",
+            "This move is seen as a tightening of control over strategic technologies",
+            "It will require Meta to unwind the acquisition"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This blockage could impact cross-border tech deals.",
-            "It might also affect the development of AI technologies.",
-            "The decision reflects China's growing scrutiny of foreign acquisitions.",
-            "Meta's AI ambitions are put to the test."
+            "This decision has significant implications for the AI industry",
+            "It raises questions about the role of government in regulating AI acquisitions",
+            "The move may impact Meta's AI development plans",
+            "Source: Let's Data Science, 29 Apr 2026"
+          ]
+        }
+      },
+      "caption": "China has blocked Meta's acquisition of Manus AI, a Chinese-founded AI startup. The acquisition was valued at $2 billion. This move is seen as a significant development in the AI industry. Questions to consider: What are the implications of this decision for the AI industry? How will this impact Meta's AI development plans? #ChinaBlocksMeta #AIIndustry #MetaAcquisition #ManusAI #AIRegulation #TechNews",
+      "hashtags": "#ChinaBlocksMeta #AIIndustry #MetaAcquisition #ManusAI #AIRegulation #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMUdrdnE1bkFmcUo0TzItT0MwS3I2enpzTGRyeGtnZEhkV0QxVXJ1RlhWYnYxdllHMmNxUU1jd2Y4MzNDVXotMUtDcmUxR0RRQXp5T3NCcHl1dTlyVkxhUVpjdHdDOURzdjltdVVnTGpRYVVLZC1jaTBWZGx6ajVBY3lCNTJVVEFSbG5n?oc=5",
+      "sourceName": "Let's Data Science",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "29 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Safety Concerns",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "Claude-Based AI Tool Raises Safety Concerns",
+          "subtitle": "A recent incident highlights the need for AI safety protocols"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 Apr 2026",
+            "A Claude-based AI tool wiped entire company data in 9 seconds",
+            "The incident raises concerns about the safety and reliability of AI tools",
+            "It highlights the need for robust testing and validation of AI models",
+            "The company is investigating the incident to prevent similar occurrences"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This incident highlights the importance of AI safety protocols",
+            "It raises questions about the responsibility of AI developers in ensuring safety",
+            "The incident may impact the adoption of AI tools in industries",
+            "Source: Analytics Insight, 29 Apr 2026"
+          ]
+        }
+      },
+      "caption": "A recent incident involving a Claude-based AI tool has raised safety concerns. The tool wiped entire company data in 9 seconds. This incident highlights the need for robust testing and validation of AI models. Questions to consider: What are the implications of this incident for the adoption of AI tools? How can AI developers ensure the safety and reliability of their models? #AISafety #ClaudeAI #AIIncident #TechNews",
+      "hashtags": "#AISafety #ClaudeAI #AIIncident #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb2hZcXdzbVVic3lyZUthWVA4Y2Zyb3lKb1RwM056QW1JYXBFbnRJaHJZRTJwa3ZNZmZ0U1lkdmlBT1B3a3VfOXl4MFpBSVB4c1RRVHF2eGFVUVdkYzkyNGFFS2JMOTJfMDNOdjlpeGk3RHhiNUJoT0JoNGRUUTdtY0lZVmcxZUhiMUlaSm80b2wwT2ExUW4wZFJENGhSOUlRaGNVQU4wQXZMckF6RUxtTDdSZVEwcGtYTGVjYtIBygFBVV95cUxQRGZ3amJOaUsxbmk3RTJqSWtrTTJVZUlCUkRmT1dDNF93SUROT1MxdU84MUdBYWZWanBPUzY0aHhWbGx5MlZPdU5NVUVBa2JTWkVjYUdPMnhOOHNLWUpPd1ZtakdSaEVpNkstU0ZOSTB5SG9yX0hnYVd2QnZSaXlQUWFPdVJkWERuSlRzMktZUEFCdmVPWXdHcG9jLTN0d0NCYy0xVzlhYjhuSXFxVkJBMjJiaEw2VEMtMzVQNlBOVGJ2WG94N3FibDln?oc=5",
+      "sourceName": "Analytics Insight",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "29 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding for AI Startup",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "Ex-Twitter CEO's AI Startup Raises Funds",
+          "subtitle": "A significant investment in the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 Apr 2026",
+            "Ex-Twitter CEO's AI startup raised $100 million in funding",
+            "The startup is valued at $2 billion",
+            "The funding will be used to build a parallel web for AI agents",
+            "The investment is seen as a significant development in the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment highlights the growing interest in AI startups",
+            "It raises questions about the potential applications of AI in various industries",
+            "The funding may impact the development of AI technologies",
+            "The startup plans to use the funding to expand its team and operations"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "China's move may signal a shift in its approach to foreign tech investments.",
-            "The blockage could have far-reaching implications for the global AI industry.",
-            "Meta will need to adapt its strategy to navigate these changes.",
-            "Source: Business Standard, Apr 2026"
+            "The funding is a significant investment in the AI industry",
+            "It highlights the growing interest in AI startups",
+            "The startup plans to use the funding to build a parallel web for AI agents",
+            "Source: WSJ, Apr 2026"
           ]
         }
       },
-      "caption": "China's decision to block Meta's $2 billion AI acquisition is a significant development in the AI landscape. This move could have far-reaching implications for the global AI industry. What does this mean for Meta's AI ambitions? How will this decision impact cross-border tech deals? #AI #Acquisition #Meta #China #Tech #Regulation\n Questions to consider: What are the potential consequences of this blockage for the AI industry? How will Meta adapt to this new development?"
-    },
-    {
-      "id": 2,
-      "topic": "AI Security Readiness",
-      "slides": 3,
-      "svgIcon": "lock",
-      "sourceId": "N14",
-      "eventDate": "29 Apr 2026",
-      "sourceName": "BusinessToday Malaysia",
+      "caption": "Ex-Twitter CEO's AI startup has raised $100 million in funding, valuing the company at $2 billion. The funding will be used to build a parallel web for AI agents. This investment highlights the growing interest in AI startups. Questions to consider: What are the implications of this investment for the AI industry? How will the startup use the funding to develop its technologies? #AIStartup #Funding #ExTwitterCEO #ParallelWeb #AIAgents #TechNews",
+      "hashtags": "#AIStartup #Funding #ExTwitterCEO #ParallelWeb #AIAgents #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbE1FYVZqU0hDTUZyUGcyRWNMd2t2V1E1X1RFWk1PRUlYOUFDUTQyV1lIT3NLMjcweFQ2Si1fclRNQnBQNm1EckN3aEczTDdERFlsdVhTNDllZGIyR2c4bzBrRGtfU3Jld29nZ0pjeU8yRmUteExfSmQ2UTJqbWZIdWc5WkRGZ2h1VFhRbGNqR1VZM1JIeUpONEV6cnlWb0RSaGZZNF9B?oc=5",
+      "sourceName": "WSJ",
       "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZXdaMjJfWkxGOERJT1FJeHB6aVZTVDN3TVJSUHFIVGMyeTdRT21oRnUxX1l3VlVpZklfT0Frd29vMHpUVVBuMC10WTFyQ2hxVDFYRlVUWEFLMjBUSGRyQlMtODVrVm1yS2N1VlB3dWlwVW9ES0dfU0w3dXlFalRxY29RSnVoWWRXNG9mZmxNb1ZfTG10cUFxYURlSXdKV0ZJcFJSSVVZVTBQNHEyM1A3NkpDZF9UM0pIZjFHZ3FIbU1aOGprX2dUeXd3?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "AI Security Readiness Lags",
-          "subtitle": "A growing concern for businesses",
-          "source": "BusinessToday Malaysia, 29 Apr 2026"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 29 Apr 2026",
-            "87% of Singapore firms have deployed AI, but security readiness is a concern.",
-            "Many businesses are not prepared to handle AI-related security threats.",
-            "This gap in security readiness could lead to significant risks.",
-            "Firms need to invest in AI security measures to protect themselves."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The lack of AI security readiness is a pressing issue for businesses.",
-            "Investing in AI security measures is crucial to mitigate potential risks.",
-            "Proofpoint's findings highlight the need for increased awareness and action.",
-            "Source: BusinessToday Malaysia, 29 Apr 2026"
-          ]
-        }
-      },
-      "caption": "The lack of AI security readiness is a growing concern for businesses. With 87% of Singapore firms deploying AI, the need for robust security measures is more pressing than ever. What steps can businesses take to address this gap in security readiness? How can they ensure they are protected against AI-related threats? #AI #Security #Business #Singapore #Tech #Risk\n Questions to consider: What are the potential consequences of not addressing AI security readiness? How can businesses balance the benefits of AI with the need for security?"
-    },
-    {
-      "id": 3,
-      "topic": "Funding for AI Startup",
-      "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N25",
-      "eventDate": "29 Apr 2026",
-      "sourceName": "SiliconANGLE",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMnpiQjF4SUdvSk5UenFxXzV6MDl4TEF3dGVsY1pDNWtFRXExamgzMkVqdG5ZV3h2TzN0eTdCU0dpMFloQW14cUYxUUxCWHZJUnVqZE8ySWpuamV4OXhMVVRndm1wSnFPVlR0THB6Q25IQzd4T3NJXy11QnVpSzBoaWE5WjlvT2xTMGxOVVBJbVo2TGNUdnlwUXVVT2RyN3NGTWc?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Parag Agrawal's Startup Raises Funds",
-          "subtitle": "A new development in the AI landscape",
-          "source": "SiliconANGLE, 29 Apr 2026"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 29 Apr 2026",
-            "Parag Agrawal's startup raised $100 million to build a parallel web for AI agents.",
-            "This funding will help the startup scale its AI-powered automation capabilities.",
-            "The startup aims to create a new platform for AI agents to interact and learn.",
-            "The funding round is a significant milestone for the startup."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "This funding round reflects the growing interest in AI-powered automation.",
-            "The startup's goal of building a parallel web for AI agents is ambitious and innovative.",
-            "The funding will help the startup accelerate its development and deployment.",
-            "Source: SiliconANGLE, 29 Apr 2026"
-          ]
-        }
-      },
-      "caption": "Parag Agrawal's startup has raised $100 million to build a parallel web for AI agents. This funding round is a significant development in the AI landscape. What does this mean for the future of AI-powered automation? How will this startup's platform change the way AI agents interact and learn? #AI #Funding #Startup #Automation #Tech #Innovation\n Questions to consider: What are the potential applications of this parallel web for AI agents? How will this development impact the broader AI industry?"
+      "eventDate": "29 Apr 2026"
     }
   ]
 }

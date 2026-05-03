@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-03",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Meta Expands AI Capabilities",
+          "subtitle": "Acquisition of Assured Robot Intelligence"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Meta acquired Assured Robot Intelligence on 02 May 2026",
+            "The acquisition is focused on humanoid AI",
+            "This is a significant move in the AI space with a focus on robotics"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition indicates a growing interest in AI-powered robotics",
+            "Humanoid AI has numerous applications in industries like healthcare and manufacturing",
+            "Meta's expansion into this space could lead to innovative solutions"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition marks a significant step in the development of humanoid AI",
+            "Meta's focus on AI-powered robotics could lead to increased efficiency in various industries",
+            "Source: qz.com, May 2026"
+          ]
+        }
+      },
+      "caption": "Meta's acquisition of Assured Robot Intelligence marks a significant step in the development of humanoid AI. This move could lead to innovative solutions in industries like healthcare and manufacturing. Questions to consider: How will this acquisition impact the development of AI-powered robotics? What are the potential applications of humanoid AI in various industries? #AI #Robotics #Meta #Acquisition #HumanoidAI #Innovation",
+      "hashtags": "#AI #Robotics #Meta #Acquisition #HumanoidAI #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3NnTHFPUU16Z2N6S19NOUNySE1janFJcEhtckhwNTZVZUwwWE9jZ2d0ZHc2bUNuYWprbDROMTEyUjhGUWh6QkRETnNNZmw3VlZCWHlJV0NHOTc4cGlKVE9aTU9YQzJ1ckE4Q2FiVi1Md0VxanV4QUx2S1JKS0hOLWlCT1NabzQ?oc=5",
+      "sourceName": "qz.com",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "02 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Launches Claude Security",
+          "subtitle": "AI-Powered Security Scanning"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic launched Claude Security in beta on 01 May 2026",
+            "The platform scans code and fixes vulnerabilities",
+            "This is a significant move in the AI-powered security space"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of Claude Security indicates a growing interest in AI-powered security solutions",
+            "The platform's ability to scan code and fix vulnerabilities could lead to increased security in the tech industry",
+            "Source: Storyboard18, 01 May 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's launch of Claude Security marks a significant step in the development of AI-powered security solutions. The platform's ability to scan code and fix vulnerabilities could lead to increased security in the tech industry. Questions to consider: How will Claude Security impact the tech industry's approach to security? What are the potential applications of AI-powered security solutions? #AI #Security #Anthropic #ClaudeSecurity #TechIndustry",
+      "hashtags": "#AI #Security #Anthropic #ClaudeSecurity #TechIndustry",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlZ0Y3ZPVDJtRkstRXduRzQtUmVEZGllZ1lUd093U2lERmpGdXdVY0NYOXMxTUxNOG9iWGxtNWZtQUFIdkRqd3NYMlN5SDZ0ckhYS0ZEMEJ6VTlOdklZc1RCOFlsN0dxNm5iWTdQVU0yeHl1eExCVjJSSzI4dlRvRzBLbFdRMU5zZXMyenY1ZTRtbUxzMC1TMGRudHZBYTZwd1g5WDMwRVd6Ry03TklwZHlKN3poTzMzYmhwTVB1T3lVYXRM0gHKAUFVX3lxTFAzYzJTUEd1RmJHTThlN2d3TlAzcEtnZVczUDFLSzVUVWx6cmplZTYyRmxvTjRCT1JiWmduZE5GLTFpZ0xsek5VaWIzWG9EM0lVNjJhaHpXTjhNNjU0cllrV2s0cWpORUtjRmg4MzlaVE0zMVBKWEdraUplUTRjUVdiMXRxWVpNOFhkVENKczV2ZzI1VS1vUzdrMWlwNmpXX1NXYXhTLXRKQ215MVdMYWE3ZVdCU0JUNGcweHNrb2k2bm5aU1BoUGtzR2c?oc=5",
+      "sourceName": "Storyboard18",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "01 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nebius Acquires Eigen AI",
+          "subtitle": "Strengthening AI Infrastructure Capabilities"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Nebius acquired Eigen AI for $643 million on 01 May 2026",
+            "The acquisition is focused on strengthening AI infrastructure capabilities",
+            "Eigen AI's AI model optimization technology will enhance Nebius' offerings"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition indicates a growing interest in AI infrastructure capabilities",
+            "Nebius' expansion into this space could lead to innovative solutions",
+            "Source: SiliconANGLE, 01 May 2026"
+          ]
+        }
+      },
+      "caption": "Nebius' acquisition of Eigen AI for $643 million marks a significant step in the development of AI infrastructure capabilities. The acquisition could lead to innovative solutions in the AI space. Questions to consider: How will this acquisition impact the development of AI infrastructure capabilities? What are the potential applications of AI model optimization technology? #AI #Funding #Nebius #EigenAI #Acquisition",
+      "hashtags": "#AI #Funding #Nebius #EigenAI #Acquisition",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYXdRVERucVNBeTJGS0JlU0c4ZzlmUjEwMWdVLW9CeWZFRkwwQW9reW5weHlPMjVuNFJLSWJyd0ZXU0UwY1BabWRaNnRvRFdNWktTdFlrUGNCZFRjMEkydWRwSXVOWlNvWTFkVnd3bVBpT1I4bjNob2lXdll2dDBqWjJ1QVRxS1JKY3VaWkFYeHU2ZG5jYmtlZG5sYVY?oc=5",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "01 May 2026"
+    }
+  ]
+}

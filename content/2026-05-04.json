@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-04",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Phishing Attacks",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Rise of AI-Driven Phishing",
+          "subtitle": "A growing concern for cybersecurity"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 May 2026",
+            "86% of phishing attacks are AI-driven",
+            "KnowBe4 research reveals the alarming trend",
+            "Phishing attacks have become increasingly sophisticated",
+            "Using AI to evade detection"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rise of AI-driven phishing attacks poses a significant threat to individuals and organizations",
+            "It's essential to stay vigilant and implement robust security measures",
+            "Education and awareness are key to preventing these attacks",
+            "Source: IT Security Guru, 01 May 2026"
+          ]
+        }
+      },
+      "caption": "The rise of AI-driven phishing attacks is a growing concern for cybersecurity. With 86% of phishing attacks being AI-driven, it's essential to stay vigilant and implement robust security measures. Questions to consider: What are the most common tactics used by AI-driven phishing attacks? How can individuals and organizations protect themselves from these threats? #AI #Phishing #Cybersecurity #ITSecurity #Shield",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaFFCaDFsdkVhUmJQcUhBM3AwVGtmYTNKTk1MejRqamNLN09NOXVYUjVIelhlQy11MEZSVUNTaDBEbUZ1Y3VUb2NXNFJuZ21wRldzRkZMaXBobzIzemVTUlFzX1BHX3htX3owX01oOTBYRjNWdnpHdmNpMV9YM2RhdnMwVUxWcWpnS0tVUjI3ZmpYZGpvZ3l5X2FUdXpCNnY0OGZ2Xw?oc=5",
+      "sourceName": "IT Security Guru",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "01 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Nvidia-Led Investment",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nvidia Leads $50M Investment in Legora",
+          "subtitle": "A significant boost for the Swedish Legal Tech Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 30 Apr 2026",
+            "Nvidia led a $50M investment in Legora",
+            "The investment is part of Legora's Series D extension",
+            "The funding will be used to further develop Legora's AI-powered legal tech platform",
+            "The investment values Legora at $5.6B"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The investment is a significant vote of confidence in Legora's technology",
+            "It highlights the growing importance of AI in the legal tech industry",
+            "The funding will enable Legora to expand its services and reach new markets",
+            "Legora's valuation of $5.6B is a testament to its growth potential"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The investment is a significant milestone for Legora",
+            "It demonstrates Nvidia's commitment to supporting innovative AI-powered startups",
+            "The funding will enable Legora to further develop its AI-powered legal tech platform",
+            "Source: Crunchbase News, Apr 2026"
+          ]
+        }
+      },
+      "caption": "Nvidia has led a $50M investment in Legora, a Swedish Legal Tech Startup. The investment is part of Legora's Series D extension and values the company at $5.6B. Questions to consider: What are the implications of this investment for the legal tech industry? How will Legora use the funding to further develop its AI-powered platform? #Nvidia #Legora #LegalTech #AI #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWkFxc2EzSkwxb2IyY2FwdXRZZmptZXJtaHBMcEhDR21Zd0drQko4bjZIbVNoWFhaRnhuUHIzU29yUWpNWEQ4Zm5WbVduWXZIbXNPT0NRc3RWUVVNSmNWclBEbkxHRGJxNW8yempWQ1hkSkY1UU5XUVdhRzB0NEVHdm9QMmpVaW85SXJ5REZCS1ByUk5mR2RBVVRLUVc2NmM?oc=5",
+      "sourceName": "Crunchbase News",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "30 Apr 2026"
+    },
+    {
+      "id": 3,
+      "topic": "OpenAI GPT Image 2",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI GPT Image 2 Outperforms Google Nano Banana 2",
+          "subtitle": "A significant milestone for AI-powered image generation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 May 2026",
+            "OpenAI GPT Image 2 has outperformed Google Nano Banana 2 in different tasks",
+            "The model has demonstrated significant improvements in image generation capabilities",
+            "The results highlight the rapid progress being made in AI research",
+            "OpenAI's model has achieved state-of-the-art results in several benchmarks"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The development of OpenAI GPT Image 2 has significant implications for the field of AI research",
+            "It demonstrates the potential of AI-powered image generation for various applications",
+            "The model's performance has the potential to revolutionize industries such as art, design, and entertainment",
+            "Source: Let's Data Science, 02 May 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI GPT Image 2 has outperformed Google Nano Banana 2 in different tasks, demonstrating significant improvements in image generation capabilities. Questions to consider: What are the potential applications of AI-powered image generation? How will this technology impact industries such as art and design? #OpenAI #GPTImage2 #AI #ImageGeneration #Brain",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRkVJVm8ySmdGWlBoci1uRzRTbnNyUHJ0N0hlUndERlZGNW9rSWZaamRTUVp4TW5MQUI5LVBJZUNUZ05QVlVGbjlMeFFyZnVZR3pia0dJRkZkUkwwY2xFeU5QbmRraGozZDB0WHVuV0JVNUw3dDlMclFqdzFCQ3Zsakp2QnlPWF9yaDFBRFRyTmNrY2daaU9ZSlhIb0g0ZGQ0N1R0dg?oc=5",
+      "sourceName": "Let's Data Science",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "02 May 2026"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-05",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Frenzy",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "04 May 2026",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW5pZDFBY2Yxd0tWczZsX0d6OWZQamZFRDJSWURZUXhFRmxYdkxBWkY0LXNIQUJvNjhMcUM2QnZmYUkyTnZGdzRLc094Q3BqXzdWWjdQejBYVmxXNWRpRG9JVGlfam9YZ2oxQTNYc0RCb1RWWXhGRFBJYVJvSnZjVEJpWnkyYmhwZU50QmtoNkJvMjlWaXBoaXhlTlhTQ1px?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Sierra Raises $950M",
+          "subtitle": "Enterprise AI Investment"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 04 May 2026",
+            "Sierra raises $950M",
+            "Valuation reaches $15 billion",
+            "Investment in enterprise AI",
+            "Racing to own enterprise AI"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Enterprise AI adoption",
+            "Increased investment in AI",
+            "Growing demand for AI solutions",
+            "Competition in AI market"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Sierra's funding is a significant investment in enterprise AI",
+            "The company's valuation has reached $15 billion",
+            "This investment will drive innovation in AI",
+            "Source: TechCrunch, May 2026"
+          ]
+        }
+      },
+      "caption": "The AI funding frenzy continues! Sierra raises $950M, reaching a valuation of $15 billion. What does this mean for the future of enterprise AI? Will this investment drive innovation and adoption? Questions to consider: What are the implications of this investment for the AI market? How will Sierra use this funding to drive growth? #AI #EnterpriseAI #Funding #Innovation #TechNews #Investment"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Concerns",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N17",
+      "eventDate": "05 May 2026",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOZ2FSX3RPLXNKcDNQMkRyV2VwUmRJQlducmdhOUlWZ3U1T25qVFVZekFkMWphVjVhNDRDVDVMNXhvQjFYWjZTb2JzMWhBYnVKeUZwZ3YzdzdnM0RtWVZDNF96dXlKbVJZeWV3ajg4cW9aUGhMQ1lDWDNvS24yNElkQkpPelRUVW55Qk9HRnpWSlNKSlBlcFFwZUx6ejFpSXM3SjFYM05UZlRNTFFTM3JUX3dXbTdHWHVwM0FSOWxjVTJLNVl3bW1Dd3UyZUhPN29jUGZlRnI2VWM3M3YyM0pLM2JVazloeTlMb0xoM2dmWEhIeGN2XzFHQ3lMdUN2bFNiZlBBTGxtYy1yLXJNTEdCbmVORk11LUx0eTh0bXoyWXhFb29fOWdja3lfaXM5MTJlVmxjRzM1R09ZTXIwQ05rTzMwS0d2V0RXY05j?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Systems Security Market",
+          "subtitle": "Growing Concerns"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 05 May 2026",
+            "AI Systems Security Market to rise to $8B by 2030",
+            "60 vendors racing to secure enterprise AI models",
+            "Rapid AI rollout and weak security assurance",
+            "Disconnect between AI adoption and security"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI Systems Security Market is expected to rise to $8B by 2030",
+            "There are 60 vendors racing to secure enterprise AI models",
+            "The rapid rollout of AI has created a disconnect with security assurance",
+            "Source: PR Newswire, 05 May 2026"
+          ]
+        }
+      },
+      "caption": "The AI Systems Security Market is expected to rise to $8B by 2030, with 60 vendors racing to secure enterprise AI models. However, the rapid rollout of AI has created a disconnect with security assurance. What are the implications of this disconnect? Questions to consider: How can organizations ensure the security of their AI models? What are the potential consequences of weak security assurance? #AI #Security #MarketTrends #TechNews #CyberSecurity"
+    },
+    {
+      "id": 3,
+      "topic": "AI Regulations",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N24",
+      "eventDate": "04 May 2026",
+      "sourceName": "ET Now",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVkhRYjk1YzN1dHZvMlpfWGxXTXVLQ0taMXNYSk9semFtZ2ZtTGtGMXZYN0hib3RITTkxSGtVaUl0dmdzQWQzYnFWMkh1RzFXT3VSLThOcWQ0VTNBSlVNUWFTcWtLdm05OGpPVG9WSTNfYzRxLWpzQ0xTdkxia1F5Tk5xb3RrMDFjekdINVhMdXM4VWhuOTZSaVA0S21nUmUyblh1M3pFTGNEbmpsekpSNTRxeGk2Yk5kNlBMLUZ2Zkd0SkRoR2lURzVKUzA5bkJWb29Pc0JMeWJtdjFKaXpwTVFTWXhtNTBZVkxKM2d2VUlZT2NMNkVmak9jTGpfdU5Uc0xN0gGIAkFVX3lxTFB4WjlaTHlGSWI5RnFwRVFYMTUtVkRScHdzRkhhWnhHX0M2WWZmWnZ1VGZ1aWRFdmhWLU1oMGxYdkpSMVpYM0J1TjZuaGphaWxpYUJLbS1ma255Y19VaU1GMlNKVFZyUXRXTE91QUd2dDF0Q0dmdlVUQWVQQnNaeW5rekRWQk5wYVVkd09Yc2szUElPTU9HWXdIcVNYek1pMjdlaXpOb0lIQXNfeXBzeENzVW1XTGlQNWlnT1ZBQXNxLXVWbEl6Y3hNTHM5TTkyN1BVUWR0NWQ1QnJnSHlhWWt1VkFlMHF4VTNwSnRWcUZVcTBBRGtEeWhoV1BJMjJlZlFBY3VCN2hwNw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Regulations in India",
+          "subtitle": "Elections 2026"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 04 May 2026",
+            "ECI's AI regulations for elections",
+            "Deepfakes and microtargeting concerns",
+            "Regulation of AI in Indian elections",
+            "Impact on political campaigns"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The ECI has introduced AI regulations for elections in India",
+            "The regulations aim to address concerns around deepfakes and microtargeting",
+            "The impact of these regulations on political campaigns is significant",
+            "Source: ET Now, 04 May 2026"
+          ]
+        }
+      },
+      "caption": "The ECI has introduced AI regulations for elections in India, aiming to address concerns around deepfakes and microtargeting. What are the implications of these regulations for political campaigns? Questions to consider: How will these regulations impact the use of AI in elections? What are the potential consequences of not regulating AI in elections? #AI #Regulations #Elections #India #Politics #TechNews"
+    }
+  ]
+}

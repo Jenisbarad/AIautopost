@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-07",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Phone Launch",
+      "slides": 3,
+      "svgIcon": "phone",
+      "sourceId": "N4",
+      "eventDate": "06 May 2026",
+      "sourceName": "91mobiles.com",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV215V3dqRWFmUUhyV0pxRTlYTEdKV0VSUnRramhRdDEtY3EyRWZWc1hqOXFmS1JoWkkwczhqc1BockZkdGNTUGVCc2ZVTHBVZnVmdjlWYzNodGVoMkdyZ1hEZFRJS0VHSFFxSi1LVDFkLU1SVHRVR0dZRm9JQjRVUmw0MTFfQdIBiwFBVV95cUxPTmN0b3V1VGlMTl94SHVoNG5RSVFXMHB6eno2cUllU0Jfck1yUng3UlNiNWtmNHBLRndZNlZ0X0pyRmJiSmpRNjIwbU5XenFjWHZDclFCY2RDMFdtZUQ5YkNTMGdUY0ZsdTdJaElrZ2Q5Vm1WbkkySlM0MXdCMkpsdE5xME9wbXNVUFpR?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's AI Phone Launch",
+          "subtitle": "A new era in smartphone technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 May 2026",
+            "OpenAI may fast-track its first AI phone launch to 2027",
+            "According to Ming-Chi Kuo, this launch could revolutionize the smartphone industry",
+            "The phone is expected to have advanced AI capabilities",
+            "With a potential launch in 2027, the phone could be a game-changer"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI phone launch could disrupt the smartphone market",
+            "OpenAI's AI capabilities could give it a competitive edge",
+            "The launch is expected to happen in 2027",
+            "Source: 91mobiles.com, May 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI is planning to launch its first AI phone in 2027. This could be a major breakthrough in smartphone technology. The phone is expected to have advanced AI capabilities, which could give it a competitive edge in the market. Questions to consider: What features can we expect from OpenAI's AI phone? How will this launch affect the smartphone industry? #AI #Smartphone #OpenAI #TechNews #Innovation"
+    },
+    {
+      "id": 2,
+      "topic": "AI Literacy",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "07 May 2026",
+      "sourceName": "Crowell & Moring LLP",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdnhJQ096VFE1M205MmFBU3NwTEtWQWxBM3ZLVHlvb1p0aWp6LTk1OEtCUFJOYW41dzZzR1JXTVhYbW1uX1E1dDdjRkFrY3R3RXFFRXNKU2JSMVJJemFFRE4wQW9pQXVpVFdRSnNfS09hdjNkZ0YybF9oYnpVUUt1TWNDdlhIam5YZVctZG4wLW80ck5OM2pTSU8yR2gyTW1UUW5kV0trRWNlYXc0Q0lqWml3ZUN6OU1DRTYyZUJB?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Literacy in the EU",
+          "subtitle": "Employer obligations under the EU AI Act"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 May 2026",
+            "The EU AI Act requires employers to provide AI literacy training to their employees",
+            "This training is expected to cover the basics of AI and its applications",
+            "The goal is to increase AI adoption in the EU",
+            "With 27 EU member states, this could impact a large number of employees"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "AI literacy is becoming increasingly important in the EU",
+            "Employers must provide training to their employees",
+            "This could lead to increased AI adoption in the EU",
+            "Source: Crowell & Moring LLP, May 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act requires employers to provide AI literacy training to their employees. This training is expected to cover the basics of AI and its applications. Questions to consider: What are the implications of the EU AI Act on employers? How will AI literacy training impact the EU workforce? #AI #EULaw #TechNews #Innovation #AILiteracy"
+    },
+    {
+      "id": 3,
+      "topic": "Lumen Acquisition",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N6",
+      "eventDate": "07 May 2026",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeGJTV1lQS0EwcnFyR3JDZ3dxVmxKaWRrSktoWDlaZGIwVHg1ZUdnRG4wcUNRZVVoVUNhRDZ5WFVpTnlCSHpINWtUUjRJT191T2Y1elFoRUxuV291bjB6SXJ6NTBFT3RqRkdDd1EtX1dCRzhROGs3UTh1NDdxcHdJUVVyMnY4QU96NTZJSXlMYURtUnE5cWZLdW4xNTZCS05KWFkyZzYwa3HSAa4BQVVfeXFMTXNCOC1kdEI3MXQyc3BURGF2T053eVM3NV9iUXNoeWFGRFlVR2RZZHI1cnYteTdCZFRJNFlCTUs3YnhyZkhlS1dGbTJOTTdQd2w5OTNCUXp5cVVLQ0NHWS1MZGRDbU5pc3R1bXVfQ3dyWWlPck5GYWNSM0FsSThyRFRaM3VzaDJmeGF6X0l4bXd4ckVKdlZYNXRoSzBULUJ2SkVaclF2czhLOFF6VDZ3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Lumen Technologies Acquisition",
+          "subtitle": "Advancing AI-Era Networking Platform"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 May 2026",
+            "Lumen Technologies acquired Alkira for $475 million",
+            "This acquisition is expected to advance Lumen's AI-Era Networking Platform",
+            "The platform will provide advanced networking capabilities",
+            "With a focus on AI, this could be a major breakthrough"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition will help Lumen expand its AI capabilities",
+            "The AI-Era Networking Platform will provide advanced networking solutions",
+            "This could give Lumen a competitive edge in the market",
+            "The acquisition is a significant investment in AI technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant investment in AI technology",
+            "Lumen's AI-Era Networking Platform could provide advanced networking solutions",
+            "The company is expected to expand its AI capabilities",
+            "Source: Pulse 2.0, May 2026"
+          ]
+        }
+      },
+      "caption": "Lumen Technologies has acquired Alkira for $475 million. This acquisition is expected to advance Lumen's AI-Era Networking Platform. Questions to consider: What are the implications of this acquisition on the networking industry? How will Lumen's AI-Era Networking Platform impact the market? #AI #Networking #LumenTechnologies #Acquisition #TechNews"
+    }
+  ]
+}

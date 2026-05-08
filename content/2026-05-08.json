@@ -8,126 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
+      "topic": "AI Chipmaker Seeks IPO",
       "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N4",
-      "eventDate": "07 May 2026",
-      "sourceName": "The Information",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcXByeVk0R1p5NGR5eFpkTjQwRVVZb3l4RVZaT2Y3SVY1WDZ2bUo1ajhfX0psUEVUZFR0c0lxd0JFc3VFOEU2dFNYMWliRkppUHgzQWJwa2E3blJSLUdnQ1dQd0VrWjlwdEhmR3hrRzZSdnRiaXRrU3JRaUdoZzZCTTltSUh6RC05eHhlQ2k3ZFBQeDdCZEVMZlp0SjIwcG0tMzdNNGhsTFlFUzBGZGk0cERUN00zNElfd0E?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Ex-OpenAI Researcher’s Startup Targets $4 Billion Valuation",
-          "subtitle": "A new AI startup is making waves in the industry"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 07 May 2026",
-            "Ex-OpenAI Researcher’s six-week-old startup is targeting funding at a $4 billion valuation.",
-            "The startup is looking to raise funds to further develop its AI technology.",
-            "The valuation is a significant milestone for the company.",
-            "It highlights the growing interest in AI startups."
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "The funding will help the startup to expand its operations and develop new AI models.",
-            "The high valuation is a testament to the potential of AI technology.",
-            "It could lead to more investments in AI startups.",
-            "The startup's success could have a significant impact on the industry."
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The startup's focus on AI technology could lead to breakthroughs in the field.",
-            "The high valuation could lead to a surge in investments in AI startups.",
-            "The company's success could have a significant impact on the industry.",
-            "Source: The Information, May 2026"
-          ]
-        }
-      },
-      "caption": "Ex-OpenAI Researcher’s six-week-old startup is targeting funding at a $4 billion valuation. This is a significant milestone for the company and highlights the growing interest in AI startups. What do you think about the high valuation of this startup? Will it lead to more investments in AI startups? #AI #Startups #Funding #Valuation #Investments #Technology",
-      "questions": "Questions to consider: What are the implications of this high valuation for the AI industry? How will this funding impact the development of AI technology?"
-    },
-    {
-      "id": 2,
-      "topic": "AI Chipmaker IPO",
-      "slides": 3,
       "svgIcon": "chip",
-      "sourceId": "N3",
+      "sourceId": "N2",
       "eventDate": "04 May 2026",
-      "sourceName": "CNBC",
+      "sourceName": "ifr-logo",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kOWU0Y1JwbGN6NjdQLU44bTB4cHYtZGtFNEZOUnQtcXJfOTlleWw3WlJhNmdLQjYtWDhHdTk1QWVUMVJmbzFCNkVOVTF2dGNac2twREpMeFZWdnEwM0JHQ29rQkJlSUNDR2JFdV8tb9IBdEFVX3lxTE5OM2p6TGRpN0lTUHF1X1ZTZzRndDJJakluNnRPQmdXOUdWRWRiREowOVl0YzJrOTB0M1Q2RU9ZSXpJb25EUUVMZmR2Q2FZVEs1Q1BVTTY3Zm82YnNCSlE4WlVlaVVObFRkYjMzWEhTNTVHSVdW?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRW4yWHRGQVJudU9yQnZLNGZ2eGdQYUNkVC1NcWNYTm4wc0NCQkp1ZFBDN21QX3hWbURfT2NVdGpEWGpyT0x5a1RVeGZlVUpiSHljdkF1aHFtTTUxU1I5Zi1JUUhKdm5ORzEwV1FRSUdMWnpCUkVvTlh2Wk5mZDc0WUhXUkhzc2V4eEtRYndpbm0?oc=5",
+      "caption": "Cerebras, an AI chipmaker, is seeking $3.5 billion in a Nasdaq IPO. The company's AI chips are designed for large-scale AI workloads and have the potential to revolutionize the field of artificial intelligence. What are the implications of this IPO for the AI industry? How will Cerebras use the funding to expand its operations? #AI #Chipmaker #IPO #Nasdaq #ArtificialIntelligence #Technology",
       "slideContent": {
         "slide1": {
-          "headline": "AI Chipmaker Cerebras Targets $3.5 Billion Raise in IPO",
-          "subtitle": "A major IPO in the AI industry"
+          "headline": "AI Chipmaker Seeks IPO",
+          "subtitle": "Cerebras targets $3.5 billion valuation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 04 May 2026",
-            "AI chipmaker Cerebras is targeting a $3.5 billion raise in its IPO.",
-            "The company is looking to expand its operations and develop new AI chips.",
-            "The IPO is a significant milestone for the company.",
-            "Cerebras is a leading player in the AI chip market."
+            "Cerebras, an AI chipmaker, is seeking $3.5 billion in a Nasdaq IPO.",
+            "The company aims to list on the Nasdaq stock exchange.",
+            "Cerebras' AI chips are designed for large-scale AI workloads.",
+            "The IPO valuation is expected to be around $3.5 billion."
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The IPO will provide Cerebras with the necessary funding to expand its operations.",
+            "Cerebras' AI chips have the potential to revolutionize the field of artificial intelligence.",
+            "The company's technology is already being used by several major players in the industry.",
+            "The IPO is expected to attract significant attention from investors."
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The IPO will help Cerebras to expand its operations and develop new AI chips.",
-            "The company's focus on AI technology could lead to breakthroughs in the field.",
-            "The IPO is a significant milestone for the AI industry.",
-            "Source: CNBC, 04 May 2026"
+            "Cerebras' AI chips are designed to handle large-scale AI workloads.",
+            "The company's technology has the potential to revolutionize the field of artificial intelligence.",
+            "The IPO is expected to provide Cerebras with the necessary funding to expand its operations.",
+            "Source: ifr-logo, May 2026"
           ]
         }
-      },
-      "caption": "AI chipmaker Cerebras is targeting a $3.5 billion raise in its IPO. This is a significant milestone for the company and the AI industry. What do you think about the potential of AI chips? Will this IPO lead to more investments in AI hardware? #AI #IPO #Chips #Hardware #Investments #Technology",
-      "questions": "Questions to consider: What are the implications of this IPO for the AI industry? How will this funding impact the development of AI hardware?"
+      }
     },
     {
-      "id": 3,
+      "id": 2,
       "topic": "AI Systems Security",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N22",
+      "sourceId": "N3",
       "eventDate": "06 May 2026",
       "sourceName": "Telecom Review Asia",
       "sourceMonthYear": "May 2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmZQejQ2Z0RvOVdjZWJQSXg4MGo3eXl1YURuZVZ6ZEk1N2ljanhzTW14Sl93ZngwbEg0QTZwbnhia0NFYm0tYnhhVVM3T2JTaFloLUNmY1F2TjRTQThveDh1eFJYLWQ5VkxBajQ5OWdYSS1xUW9CbW5kMzNHM19GU082SUI0YVBlUVk0QmRaRmxWTkN3VTNuaGhXQl9JanlpZUZOQTRhNURHZGVtWmw1Rld5SFkzdw?oc=5",
+      "caption": "The AI systems security market is expected to hit $8 billion by 2030. The market is driven by the growing demand for AI security solutions. What are the main drivers of this growth? How can companies protect themselves from AI-related security risks? #AI #Security #Market #Growth #Technology #Cybersecurity",
       "slideContent": {
         "slide1": {
-          "headline": "AI Systems Security Market to Hit $8 Billion by 2030",
-          "subtitle": "A growing concern in the AI industry"
+          "headline": "AI Systems Security Market to Hit $8 Billion",
+          "subtitle": "Growing demand for AI security solutions"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 06 May 2026",
             "The AI systems security market is expected to hit $8 billion by 2030.",
-            "This is a significant increase from current levels.",
-            "The growth is driven by the increasing use of AI in various industries.",
-            "The market is expected to grow at a rapid pace in the coming years."
+            "The market is driven by the growing demand for AI security solutions.",
+            "The increasing use of AI in various industries is creating new security risks.",
+            "The market is expected to grow at a rapid pace in the next few years."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The growth of the AI systems security market is a significant trend in the industry.",
-            "The increasing use of AI in various industries is driving the demand for AI security solutions.",
-            "The market is expected to grow at a rapid pace in the coming years.",
-            "Source: Telecom Review Asia, 06 May 2026"
+            "The AI systems security market is expected to hit $8 billion by 2030.",
+            "The market is driven by the growing demand for AI security solutions.",
+            "The increasing use of AI in various industries is creating new security risks.",
+            "Source: Telecom Review Asia, May 2026"
           ]
         }
-      },
-      "caption": "The AI systems security market is expected to hit $8 billion by 2030. This is a significant trend in the industry and highlights the growing concern about AI security. What do you think about the potential risks of AI systems? Will this market growth lead to more investments in AI security? #AI #Security #Market #Growth #Investments #Technology",
-      "questions": "Questions to consider: What are the implications of this market growth for the AI industry? How will this impact the development of AI security solutions?"
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Google Pixel 11 Pro",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "eventDate": "07 May 2026",
+      "sourceName": "PhoneArena",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRUVJQ0ZYZGQ3aTR1OGdDYWxYRkpNZF9CcXlMOHhuTHdobThRQ0ZoRS1xNU41aVhTOG5fV29sQWtSQy1iSXZJeFplTWFUWjd6Vy1QQXVaQ0trR2xRRUdWUXh4Zm9laHV6WVltMzZKeWJleFM3d25KdWRNNHNpYTJZUHNVRHJqZw?oc=5",
+      "caption": "Google Pixel 11 Pro release date expectations are high. The device is expected to come with several upgrades, including improved camera and battery life. What are the expected upgrades and features of the device? How will the device compete with other flagship smartphones? #Google #Pixel11Pro #ReleaseDate #Upgrades #Smartphone #Technology",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Pixel 11 Pro Release Date Expectations",
+          "subtitle": "Upgrades and price estimates"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 May 2026",
+            "Google Pixel 11 Pro release date expectations are high.",
+            "The device is expected to come with several upgrades, including improved camera and battery life.",
+            "The price estimates for the device are around $1000.",
+            "The device is expected to be released soon."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Google Pixel 11 Pro is expected to come with several upgrades, including improved camera and battery life.",
+            "The price estimates for the device are around $1000.",
+            "The device is expected to be released soon.",
+            "Source: PhoneArena, May 2026"
+          ]
+        }
+      }
     }
   ]
 }

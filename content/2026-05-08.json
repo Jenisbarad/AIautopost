@@ -8,123 +8,125 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Chipmaker Seeks IPO",
+      "topic": "AI Funding",
       "slides": 4,
-      "svgIcon": "chip",
-      "sourceId": "N2",
-      "eventDate": "04 May 2026",
-      "sourceName": "ifr-logo",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRW4yWHRGQVJudU9yQnZLNGZ2eGdQYUNkVC1NcWNYTm4wc0NCQkp1ZFBDN21QX3hWbURfT2NVdGpEWGpyT0x5a1RVeGZlVUpiSHljdkF1aHFtTTUxU1I5Zi1JUUhKdm5ORzEwV1FRSUdMWnpCUkVvTlh2Wk5mZDc0WUhXUkhzc2V4eEtRYndpbm0?oc=5",
-      "caption": "Cerebras, an AI chipmaker, is seeking $3.5 billion in a Nasdaq IPO. The company's AI chips are designed for large-scale AI workloads and have the potential to revolutionize the field of artificial intelligence. What are the implications of this IPO for the AI industry? How will Cerebras use the funding to expand its operations? #AI #Chipmaker #IPO #Nasdaq #ArtificialIntelligence #Technology",
+      "svgIcon": "brain",
+      "sourceId": "N7",
       "slideContent": {
         "slide1": {
-          "headline": "AI Chipmaker Seeks IPO",
-          "subtitle": "Cerebras targets $3.5 billion valuation"
+          "headline": "Chinese AI Startup Moonshot AI Raises $2 Billion",
+          "subtitle": "Valuation Crosses $20 Billion"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 04 May 2026",
-            "Cerebras, an AI chipmaker, is seeking $3.5 billion in a Nasdaq IPO.",
-            "The company aims to list on the Nasdaq stock exchange.",
-            "Cerebras' AI chips are designed for large-scale AI workloads.",
-            "The IPO valuation is expected to be around $3.5 billion."
+            "Chinese AI startup Moonshot AI raised $2 billion in funding on 07 May 2026",
+            "The company's valuation has crossed $20 billion",
+            "This funding round is one of the largest for an AI startup in recent times",
+            "The investment will be used to expand the company's AI capabilities"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The IPO will provide Cerebras with the necessary funding to expand its operations.",
-            "Cerebras' AI chips have the potential to revolutionize the field of artificial intelligence.",
-            "The company's technology is already being used by several major players in the industry.",
-            "The IPO is expected to attract significant attention from investors."
+            "This funding round demonstrates the growing interest in AI startups",
+            "Moonshot AI's technology has the potential to disrupt various industries",
+            "The company's high valuation is a testament to its potential for growth",
+            "The investment will help Moonshot AI to further develop its AI capabilities"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Cerebras' AI chips are designed to handle large-scale AI workloads.",
-            "The company's technology has the potential to revolutionize the field of artificial intelligence.",
-            "The IPO is expected to provide Cerebras with the necessary funding to expand its operations.",
-            "Source: ifr-logo, May 2026"
+            "The AI market is expected to continue growing in the coming years",
+            "Moonshot AI's funding round is a significant milestone for the company",
+            "The company's technology has the potential to be used in various applications",
+            "Source: Business Review Live, May 2026"
           ]
         }
-      }
+      },
+      "caption": "Chinese AI startup Moonshot AI has raised $2 billion in funding, crossing a valuation of $20 billion. This funding round is one of the largest for an AI startup in recent times. The investment will be used to expand the company's AI capabilities. Questions to consider: What are the potential applications of Moonshot AI's technology? How will this funding round impact the AI market? #AI #Funding #MoonshotAI #Startup #Technology",
+      "questions": "What are the potential applications of Moonshot AI's technology? How will this funding round impact the AI market?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFQxTkFCeWY1ZE5qMkQ4alhxSzNUOGlBU1dkcVU0QWRkb0JyY1dXX25hcE9QbDBvZzRCZ2tDYnMydGI4ZXRyNl9pU3ZLREVPMnhKV0dwSkxWNU9DNXBHZkdhX0kzWjNoMm9PbVU2ZGZWTUhRSGxXYUhXVGlLVHc1YnpweHFFVjQxQk83SG85QzVITGUtXzB3VERiWFBoNlNfeE1pbTRaT1gwV1Rq?oc=5",
+      "sourceName": "Business Review Live",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "07 May 2026"
     },
     {
       "id": 2,
-      "topic": "AI Systems Security",
+      "topic": "AI Chipmaker",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N3",
-      "eventDate": "06 May 2026",
-      "sourceName": "Telecom Review Asia",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmZQejQ2Z0RvOVdjZWJQSXg4MGo3eXl1YURuZVZ6ZEk1N2ljanhzTW14Sl93ZngwbEg0QTZwbnhia0NFYm0tYnhhVVM3T2JTaFloLUNmY1F2TjRTQThveDh1eFJYLWQ5VkxBajQ5OWdYSS1xUW9CbW5kMzNHM19GU082SUI0YVBlUVk0QmRaRmxWTkN3VTNuaGhXQl9JanlpZUZOQTRhNURHZGVtWmw1Rld5SFkzdw?oc=5",
-      "caption": "The AI systems security market is expected to hit $8 billion by 2030. The market is driven by the growing demand for AI security solutions. What are the main drivers of this growth? How can companies protect themselves from AI-related security risks? #AI #Security #Market #Growth #Technology #Cybersecurity",
+      "svgIcon": "chip",
+      "sourceId": "N12",
       "slideContent": {
         "slide1": {
-          "headline": "AI Systems Security Market to Hit $8 Billion",
-          "subtitle": "Growing demand for AI security solutions"
+          "headline": "Baidu AI Chip Arm Eyes $14.6 Billion Hong Kong IPO",
+          "subtitle": "Largest IPO in Hong Kong This Year"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 06 May 2026",
-            "The AI systems security market is expected to hit $8 billion by 2030.",
-            "The market is driven by the growing demand for AI security solutions.",
-            "The increasing use of AI in various industries is creating new security risks.",
-            "The market is expected to grow at a rapid pace in the next few years."
+            "Event date: 08 May 2026",
+            "Baidu AI Chip Arm is planning to raise $14.6 billion in a Hong Kong IPO",
+            "This would be the largest IPO in Hong Kong this year",
+            "The company's AI chip technology has gained significant attention in recent times",
+            "The IPO will help the company to further develop its AI chip capabilities"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI systems security market is expected to hit $8 billion by 2030.",
-            "The market is driven by the growing demand for AI security solutions.",
-            "The increasing use of AI in various industries is creating new security risks.",
-            "Source: Telecom Review Asia, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The IPO will provide a significant boost to the company's finances",
+            "The company's AI chip technology has the potential to disrupt the semiconductor industry",
+            "The investment will help the company to further develop its AI chip capabilities",
+            "Source: Benzinga, 08 May 2026"
           ]
         }
-      }
+      },
+      "caption": "Baidu AI Chip Arm is planning to raise $14.6 billion in a Hong Kong IPO, the largest IPO in Hong Kong this year. The company's AI chip technology has gained significant attention in recent times. Questions to consider: What are the potential applications of Baidu AI Chip Arm's technology? How will this IPO impact the semiconductor industry? #AI #IPO #Baidu #Chipmaker #Technology",
+      "questions": "What are the potential applications of Baidu AI Chip Arm's technology? How will this IPO impact the semiconductor industry?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMmcwUHFCV3JUaTVtX1VNR2pqcEZwUE9fMEtncTZNYjgwTEZGblhxRkYwMWpkaU9Fc2E0cTBXTm9tRVJBY3RqLTBIejJWT1VSM21wYUVmbkxCUGx0bUh1WHNWRVMtOGFOckpscTFYS0o3SUc3cmtWWjVmVUxXZ2hENnNydlRDb1pYOS1Mb3dSZWhjYlBvS21CUEhzSXBBVC1EYVVnM3FaRkxSQlJIbHpB?oc=5",
+      "sourceName": "Benzinga",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "08 May 2026"
     },
     {
       "id": 3,
-      "topic": "Google Pixel 11 Pro",
+      "topic": "AI Security",
       "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "07 May 2026",
-      "sourceName": "PhoneArena",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRUVJQ0ZYZGQ3aTR1OGdDYWxYRkpNZF9CcXlMOHhuTHdobThRQ0ZoRS1xNU41aVhTOG5fV29sQWtSQy1iSXZJeFplTWFUWjd6Vy1QQXVaQ0trR2xRRUdWUXh4Zm9laHV6WVltMzZKeWJleFM3d25KdWRNNHNpYTJZUHNVRHJqZw?oc=5",
-      "caption": "Google Pixel 11 Pro release date expectations are high. The device is expected to come with several upgrades, including improved camera and battery life. What are the expected upgrades and features of the device? How will the device compete with other flagship smartphones? #Google #Pixel11Pro #ReleaseDate #Upgrades #Smartphone #Technology",
+      "svgIcon": "shield",
+      "sourceId": "N13",
       "slideContent": {
         "slide1": {
-          "headline": "Google Pixel 11 Pro Release Date Expectations",
-          "subtitle": "Upgrades and price estimates"
+          "headline": "Boost Security Acquires 2 Startups, Raises $4 Million for AI Defense Platform",
+          "subtitle": "Expanding AI-Powered Security Capabilities"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 07 May 2026",
-            "Google Pixel 11 Pro release date expectations are high.",
-            "The device is expected to come with several upgrades, including improved camera and battery life.",
-            "The price estimates for the device are around $1000.",
-            "The device is expected to be released soon."
+            "Event date: 08 May 2026",
+            "Boost Security has acquired 2 startups and raised $4 million in funding",
+            "The company will use the investment to develop its AI-powered security platform",
+            "The platform will provide advanced threat detection and response capabilities",
+            "The acquisition will help the company to expand its AI-powered security capabilities"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The Google Pixel 11 Pro is expected to come with several upgrades, including improved camera and battery life.",
-            "The price estimates for the device are around $1000.",
-            "The device is expected to be released soon.",
-            "Source: PhoneArena, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition and funding will help Boost Security to enhance its AI-powered security capabilities",
+            "The company's platform will provide advanced threat detection and response capabilities",
+            "The investment will help the company to further develop its AI-powered security platform",
+            "Source: SC Media, 08 May 2026"
           ]
         }
-      }
+      },
+      "caption": "Boost Security has acquired 2 startups and raised $4 million in funding to develop its AI-powered security platform. The platform will provide advanced threat detection and response capabilities. Questions to consider: What are the potential benefits of using AI-powered security platforms? How will this acquisition impact the cybersecurity industry? #AI #Security #BoostSecurity #Startup #Acquisition",
+      "questions": "What are the potential benefits of using AI-powered security platforms? How will this acquisition impact the cybersecurity industry?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQXoyZHZSdEFkQ0t0d0lUZU9CVzdnTk9oWDY5S2FNSUVyLUV6blh6U1hpcU1GUGV0X2phOG0xcjZodE9TTDJWa0sxbFhCcU5hSDltck54WDNCUXFjcEo0cXBPV2FtMjV5bUFxWkdNT3Y5MjhqSkRKYWMtNnJmalRfT1JEakJyYTRNWm51Q2ZpNUZ6X3ZxU2c2RW9MYXRMdDFLRVJrd1pHTVpIZFE?oc=5",
+      "sourceName": "SC Media",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "08 May 2026"
     }
   ]
 }

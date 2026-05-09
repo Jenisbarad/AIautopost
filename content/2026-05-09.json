@@ -8,123 +8,117 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N2",
-      "eventDate": "27 Apr 2026",
-      "sourceName": "CNBC",
-      "sourceMonthYear": "Apr 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdFVZbnhTcE85MnFiUnh5dzVqcFM2YVJpSllSRWFDMW1HcEk0YWFOelFmWnc4THlRdmFCSHlMQmctUENQS2s1cm5LNnpINmN4b2h4ODAzTFJBUzd2WDJkQ2xiZTk0dnBJXzNUQXRqNkk3dUFiZm1pVVVqanZjUEZfRFp1Y3pLUjQ0UldaTTEyTksyVnc4eFpXeElKSGdBSC1adGg4cdIBqgFBVV95cUxOX0FHSUlKcUhqdGo4MWllelJDYVpnclRzTGJPUnJHRmFiVkpYZllwbHl1V2VhTGZHS2x1eVkxRXlXNUpRbm9DdDl2X0NoNnluVkZWUzYwMUpNdmtzOWhYTGRXYzQ4U2VBUXE4UV9mQTlyVWttMEZLUnpqX0JDeVVWb0VndThFVFVHbmtzZWgtbWFmRDVNbWZhTldnbndxTk5SQjl4NnJrcFAwUQ?oc=5",
+      "topic": "AI Chip Sector",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N8",
       "slideContent": {
         "slide1": {
-          "headline": "Record-Breaking Funding",
-          "subtitle": "AI startup raises $1.1 billion"
+          "headline": "Cerebras Plans to List Next Week",
+          "subtitle": "Targeting Largest US IPO of the Year"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 27 Apr 2026",
-            "Former Google DeepMind researcher's AI startup raises record $1.1 billion seed funding",
-            "The funding will be used to pursue superintelligence",
-            "This is one of the largest seed funding rounds in history",
-            "The startup aims to develop more advanced AI capabilities"
+            "Event date: 09 May 2026",
+            "Cerebras plans to list next week, targeting the largest US IPO of the year.",
+            "The company aims to raise $3.5 billion.",
+            "This move is expected to add a heavyweight player to the AI chip sector."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "lines": [
+            "Cerebras' listing is a significant development in the AI chip sector.",
+            "The company's IPO is expected to have a substantial impact on the market.",
+            "Source: TradingKey, 09 May 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras is planning to list next week, targeting the largest US IPO of the year. The company aims to raise $3.5 billion, which will add a heavyweight player to the AI chip sector. This move is expected to have a significant impact on the market. Questions to consider: What will be the impact of Cerebras' listing on the AI chip sector? How will this affect the market? #AICHIP #CEREBRAS #IPO #ARTIFICIALINTELLIGENCE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZDBTMDR3UlFLaXZtQ0RYdFNWMjgwYjVDX05nYzJXMU15WUp1NWF5Y0xqLXVXZG1lQ3VYNVZJOTVZR2lCZVZwWF9xazdxWEFzbGNvNW13MFdtSVUzeEpOZmg3NXkzdlVEd2diNFpwcnl0Zi1GN2FiWFY5V3lRS3JlcFpUc0dTMVVsZDZDcWhheF9fLU5aS2Nsck9xQ2c4aG1IcW9YRUlMSTRDX0toSElNV1pUamcwR05ncG8yVGdLVmxsY29pNEttRkRqQTdZSDYy?oc=5",
+      "sourceName": "TradingKey",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "09 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cisco Acquires Astrix",
+          "subtitle": "AI Security Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 04 May 2026",
+            "Cisco has acquired Astrix, an AI security startup, for $400 million.",
+            "The acquisition is expected to enhance Cisco's security capabilities.",
+            "Astrix's AI-powered security solutions will be integrated into Cisco's portfolio."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "lines": [
+            "The acquisition of Astrix is a strategic move by Cisco to enhance its security capabilities.",
+            "The integration of Astrix's AI-powered security solutions will provide Cisco's customers with advanced security features.",
+            "Source: CTech, 04 May 2026"
+          ]
+        }
+      },
+      "caption": "Cisco has acquired Astrix, an AI security startup, for $400 million. The acquisition is expected to enhance Cisco's security capabilities and provide its customers with advanced security features. Questions to consider: What will be the impact of the acquisition on Cisco's security capabilities? How will Astrix's AI-powered security solutions be integrated into Cisco's portfolio? #AISECURITY #CISCO #ASTRIX #ACQUISITION",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92d1pYb0ttVm9UaGVldWxuR0t2VWRjeGY4SF83YmxvQzF3QmhwREYxYlR1QmRLZjE0SlhFcUF0MGJPdXVnWjBDSWN1RzZ1OHlheWhpTkhoMjlqWDgxcUZLSEVjZjZNXzg?oc=5",
+      "sourceName": "CTech",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "04 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Research",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Rolls Out GPT-5.5 Instant",
+          "subtitle": "Improved Accuracy and New Features"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 May 2026",
+            "OpenAI has rolled out GPT-5.5 Instant, an improved version of its language model.",
+            "GPT-5.5 Instant has enhanced accuracy and new features, including improved conversational capabilities.",
+            "The new model has been set as the default for ChatGPT."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This funding round highlights the growing interest in AI research and development",
-            "The development of superintelligence could have significant impacts on various industries",
-            "The startup's success could lead to new breakthroughs in AI technology",
-            "The funding will help the startup to expand its team and operations"
+            "The improved accuracy and new features of GPT-5.5 Instant are expected to enhance the user experience of ChatGPT.",
+            "The update is a significant development in the field of AI research, demonstrating the rapid progress being made in language models.",
+            "The new model has the potential to be used in a wide range of applications, from customer service to content creation."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI startup's focus on superintelligence could lead to significant advancements in the field",
-            "The funding round demonstrates the confidence of investors in the potential of AI technology",
-            "The startup's success could have implications for the future of work and industry",
-            "Source: CNBC, Apr 2026"
+            "The rollout of GPT-5.5 Instant is a significant development in the field of AI research.",
+            "The improved accuracy and new features of the model are expected to have a substantial impact on the user experience of ChatGPT.",
+            "The update demonstrates the rapid progress being made in language models.",
+            "Source: The Indian Express, May 2026"
           ]
         }
       },
-      "caption": "A former Google DeepMind researcher's AI startup has raised a record-breaking $1.1 billion in seed funding to pursue superintelligence. This funding round highlights the growing interest in AI research and development. What does this mean for the future of AI? How will this funding impact the development of superintelligence? #AI #Superintelligence #Funding #Startup #GoogleDeepMind\nQuestions to consider: What are the potential implications of developing superintelligence? How will this funding round impact the AI industry as a whole? #AIfunding #AIresearch"
-    },
-    {
-      "id": 2,
-      "topic": "AI Regulations",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N8",
-      "eventDate": "06 May 2026",
-      "sourceName": "IAPP",
+      "caption": "OpenAI has rolled out GPT-5.5 Instant, an improved version of its language model. The new model has enhanced accuracy and new features, including improved conversational capabilities. Questions to consider: What will be the impact of GPT-5.5 Instant on the user experience of ChatGPT? How will the new model be used in various applications? #AI #GPT55 #CHATGPT #LANGUAGE_MODEL #OPENAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNLUswTkE0X1g1SVppYzNnbVpxenZpa3VyRkdGUVhOUV9uenQxMDBodVdUV1Rfa2VCTUtkZEcwZ1ZVc0E3Z1RhY1FCcTA1cWRVZ3I3aXB2akdraS1fa2pwUDY5NGpsejUwcUdPMGNKSHk5QURRLU5NUTlwMlRPQlZ3X2g1NXFpNFVXX2wtV0RWM01FdnVsM1FoVXZJa045SnF1OXpDbjRIaURpcjExTG5sR2ZUbGxac09lWDFuRlZWM04yRHFldXREVm5SY1NWbXA2Zmpkdng0OFlyeDlUWVQwbHVFWUkwd3FfWFJ0M0NTcGJIVknSAfoBQVVfeXFMTzYzMWZoOFZLZERaVlVFb3ZhZUVvVDFseFRkUFRra2hXSG1ZdzlrR2pka0cxVmJTTmdtRnNCdVVYTTVpaWJsak5ySjlRaExZcG00YS16QXFPYXh5SWV0ckoyV1FhLWx1LXhfY293R2ZwSTA2V3lRdGRaNm11RWF2bTk5UGZGalcyOVRBdk5tTnhTZlR1YTZzRWhMQVRvNE1hRFBHcHdZWUFqZmpLazZfYVNnOU5nZVo0TndGbHJNQ3RaRFZLN1ZTY3V4cGdqUUpySEV1dnNSdWVaOWJmeGQ1dUZaOUlSaDRoYWhYRlR4V3UtcFZqM3JyVE5BZw?oc=5",
+      "sourceName": "The Indian Express",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYjVGRmdXTE8zQ2pvSXZvWTRjRERMc0ZGa2NRWmhEWmZ2d05VeWZGRGtsZ1R1M2wyd3Nlam80am1lMnZmdTRxSnctcmRjNXZZeW10dTh3X2tJWnJqLVh3WEprbkpvZlhMQnJfcDhwdHk0WUlNcVhiZkdqeGhramJyclZGVjVFRFpuLU1vdVNhV1VrNEk?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "EU AI Act Deployer Evidence Gaps",
-          "subtitle": "SMEs may miss deadlines"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 06 May 2026",
-            "The EU AI Act deployer evidence gaps may cause SMEs to miss deadlines",
-            "The Act requires deployers to provide evidence of AI system compliance",
-            "SMEs may struggle to provide the required evidence before the 2 August 2026 deadline",
-            "The EU AI Act aims to ensure the safe and responsible development of AI"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The EU AI Act deployer evidence gaps may cause SMEs to miss deadlines, which could lead to non-compliance",
-            "The Act's requirements may be challenging for SMEs to meet, particularly those with limited resources",
-            "The EU AI Act aims to ensure the safe and responsible development of AI, but its implementation may be tricky for SMEs",
-            "Source: IAPP, May 2026"
-          ]
-        }
-      },
-      "caption": "The EU AI Act deployer evidence gaps may cause SMEs to miss deadlines, which could lead to non-compliance. What are the implications of the EU AI Act for SMEs? How can SMEs ensure they meet the required deadlines? #AI #EUAIAct #Regulations #SMEs\nQuestions to consider: What are the potential consequences of non-compliance with the EU AI Act? How can SMEs prepare for the implementation of the Act? #AIregulations #SMEcompliance"
-    },
-    {
-      "id": 3,
-      "topic": "AI Product Launch",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N4",
-      "eventDate": "06 May 2026",
-      "sourceName": "Storyboard18",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUm9WdXlRTWRlQllub2VhTkI4WnM3T0g4d2FoeXZ6UWppcHZDM0hfX05EdFB4U2NOT1ZFYmVmakd1V1IxMVZ0alpxYnRPRFJ6U0RKMjBFUkRhdlIydTA2YUJhcUgzc0JyMzVtQkIzWWVIWjVsV1BIRFVOM2pxWE9VYldJeV9sTGd4QlY1bHBzcXhQTWJ1QnFicDNwTjd5bzBZTWJITFRpZzlIcHhlQkdBc1VVeGdXa3FaUF9uY1JWaFVKbFdtS2w40gHMAUFVX3lxTE9veWNQYUllSjFyUnEtZURYY0FhUENkMlFpLVg0Rl8zbnNHWGkxWHpvODlkZmNySm1BdnBiUzNjamlUZzhKX3lYU2VWNlFhdTkxOGJ0N1p5VXhCMm5rWmh5djNDWE1ucHJ5NXh2UFhJNXlQdmlITVdpaUlEUlBsWHZEUFJvTkpVMnZoeTVTbjJuT3lnRmVHdkxYTkttUzhxQi12cjlabjlVd3VXZGlUNU5rdDU2SlgtakF6aEJpNXZkenlxbDgyanFodUVtWg?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "OpenAI ChatGPT-Powered Phone",
-          "subtitle": "Launch expected by 2027"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 06 May 2026",
-            "OpenAI may launch a ChatGPT-powered phone with a MediaTek chip by 2027",
-            "The phone is expected to have advanced AI capabilities",
-            "The launch is part of OpenAI's efforts to expand its product offerings",
-            "The phone will likely compete with other AI-powered devices"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The launch of an OpenAI ChatGPT-powered phone could mark a significant milestone in the development of AI-powered devices",
-            "The phone's advanced AI capabilities could make it a competitive product in the market",
-            "The launch is expected to happen by 2027, but the exact date is not yet confirmed",
-            "Source: Storyboard18, May 2026"
-          ]
-        }
-      },
-      "caption": "OpenAI may launch a ChatGPT-powered phone with a MediaTek chip by 2027. What are the potential implications of this launch for the tech industry? How will this phone compete with other AI-powered devices? #AI #OpenAI #ChatGPT #PhoneLaunch\nQuestions to consider: What are the potential benefits of an AI-powered phone? How will this launch impact the development of AI technology? #AIphones #ChatGPTphone"
+      "eventDate": "07 May 2026"
     }
   ]
 }

@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-09",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "sourceMonthYear": "Apr 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdFVZbnhTcE85MnFiUnh5dzVqcFM2YVJpSllSRWFDMW1HcEk0YWFOelFmWnc4THlRdmFCSHlMQmctUENQS2s1cm5LNnpINmN4b2h4ODAzTFJBUzd2WDJkQ2xiZTk0dnBJXzNUQXRqNkk3dUFiZm1pVVVqanZjUEZfRFp1Y3pLUjQ0UldaTTEyTksyVnc4eFpXeElKSGdBSC1adGg4cdIBqgFBVV95cUxOX0FHSUlKcUhqdGo4MWllelJDYVpnclRzTGJPUnJHRmFiVkpYZllwbHl1V2VhTGZHS2x1eVkxRXlXNUpRbm9DdDl2X0NoNnluVkZWUzYwMUpNdmtzOWhYTGRXYzQ4U2VBUXE4UV9mQTlyVWttMEZLUnpqX0JDeVVWb0VndThFVFVHbmtzZWgtbWFmRDVNbWZhTldnbndxTk5SQjl4NnJrcFAwUQ?oc=5",
+      "sourceName": "CNBC",
+      "eventDate": "27 Apr 2026",
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Record-Breaking Funding for AI Startup",
+          "subtitle": "Pursuing superintelligence"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Apr 2026",
+            "A former Google DeepMind researcher's AI startup raised $1.1 billion in seed funding.",
+            "This is the largest seed funding for an AI startup to date.",
+            "The funding will be used to pursue superintelligence.",
+            "The startup aims to make significant advancements in AI research."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round demonstrates the growing interest in AI research and development.",
+            "The pursuit of superintelligence has the potential to revolutionize various industries.",
+            "However, it also raises concerns about the ethics and safety of advanced AI systems.",
+            "The development of superintelligence could have significant implications for humanity."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI startup's focus on superintelligence is a significant development in the field of AI research.",
+            "The large funding round demonstrates the confidence of investors in the potential of AI to transform industries.",
+            "The pursuit of superintelligence raises important questions about the ethics and safety of advanced AI systems.",
+            "Source: CNBC, Apr 2026"
+          ]
+        }
+      },
+      "caption": "The AI funding boom continues with a record-breaking $1.1 billion seed funding for a former Google DeepMind researcher's AI startup. The startup is pursuing superintelligence, which has the potential to revolutionize various industries. However, it also raises concerns about the ethics and safety of advanced AI systems. Questions to consider: What are the potential benefits and risks of superintelligence? How can we ensure the safe and responsible development of advanced AI systems? #AI #Superintelligence #Funding #Startup #Innovation #Ethics",
+      "hashtags": "#AI #Superintelligence #Funding #Startup #Innovation #Ethics"
+    },
+    {
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYjVGRmdXTE8zQ2pvSXZvWTRjRERMc0ZGa2NRWmhEWmZ2d05VeWZGRGtsZ1R1M2wyd3Nlam80am1lMnZmdTRxSnctcmRjNXZZeW10dTh3X2tJWnJqLVh3WEprbkpvZlhMQnJfcDhwdHk0WUlNcVhiZkdqeGhramJyclZGVjVFRFpuLU1vdVNhV1VrNEk?oc=5",
+      "sourceName": "IAPP",
+      "eventDate": "06 May 2026",
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act: Deployer Evidence Gaps",
+          "subtitle": "SMEs may miss deadlines"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 May 2026",
+            "The EU AI Act has identified evidence gaps that deployers must address before 2 August 2026.",
+            "Small and medium-sized enterprises (SMEs) may struggle to meet these deadlines.",
+            "The Act requires deployers to provide evidence of their AI systems' compliance with EU regulations.",
+            "The evidence gaps include the lack of transparency and explainability in AI decision-making."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The EU AI Act aims to ensure the safe and responsible development of AI systems.",
+            "SMEs may need to invest in new technologies and processes to comply with the Act.",
+            "The deadline for compliance is 2 August 2026, which may be challenging for some SMEs to meet.",
+            "Source: IAPP, 06 May 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act has identified evidence gaps that deployers must address before 2 August 2026. SMEs may struggle to meet these deadlines, which could impact their ability to develop and deploy AI systems. Questions to consider: How can SMEs ensure compliance with the EU AI Act? What support systems are in place to help SMEs meet the deadlines? #EUAIAct #SMEs #Compliance #AI #Regulation",
+      "hashtags": "#EUAIAct #SMEs #Compliance #AI #Regulation"
+    },
+    {
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQWE3ZGoydnU0T0hmNkF2TWVUT3VIVEZKcHRvbnhINVZSWlhNZmY4Y0YxaVZ1VjNKOV9oMGV5cFktWUQ3eXdqTVlFSUlaS3RVS3YxNnpiLVp3LXhWZ3MzZHFmeFR2cFlhOXBmbVBmd1lGc01uMV9QVW95SW4zTENTZE5HTnB6S2VnNGc?oc=5",
+      "sourceName": "the-decoder.com",
+      "eventDate": "08 May 2026",
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N10",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Opens GPT-5.5-Cyber to Security Researchers",
+          "subtitle": "Vetted researchers can access the AI model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 08 May 2026",
+            "OpenAI has opened GPT-5.5-Cyber to vetted security researchers.",
+            "The AI model is designed to help security teams identify and respond to cyber threats.",
+            "The model has been trained on a large dataset of cyber security-related text.",
+            "The goal is to improve the effectiveness of security teams in detecting and responding to cyber attacks."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The opening of GPT-5.5-Cyber to security researchers demonstrates OpenAI's commitment to improving cyber security.",
+            "The use of AI in cyber security has the potential to revolutionize the field.",
+            "However, it also raises concerns about the potential risks and biases of AI systems in cyber security.",
+            "Source: the-decoder.com, 08 May 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has opened GPT-5.5-Cyber to vetted security researchers, demonstrating its commitment to improving cyber security. The AI model has the potential to revolutionize the field, but it also raises concerns about potential risks and biases. Questions to consider: How can AI be used to improve cyber security? What are the potential risks and biases of AI systems in cyber security? #AI #CyberSecurity #GPT-5.5-Cyber #OpenAI",
+      "hashtags": "#AI #CyberSecurity #GPT-5.5-Cyber #OpenAI"
+    }
+  ]
+}

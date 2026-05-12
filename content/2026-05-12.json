@@ -8,120 +8,121 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Security Threats",
-      "slides": 4,
-      "svgIcon": "shield",
-      "sourceId": "N12",
-      "eventDate": "11 May 2026",
-      "sourceName": "Help Net Security",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbVN2RkxTZ01jOGI5QjFwUURVUzJMVy1vdHFpVWFZNmw0YUFtS040UkwtMDdtUmlsN1diT0JrRnpFOV9Xdi1BbjZHeUJremswbWUzZWc0cHFEcXQwUVphWXZZRXlKWDJvSU9ESWY4T2MzaW13YnBzZ25nTUVScUN5dTJ0MExJZ1E?oc=5",
+      "topic": "AI Chip Sector",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "AI-Powered Zero-Day Exploits",
-          "subtitle": "A new era of cyber threats"
+          "headline": "Nvidia Rival Cerebras Plans to List Next Week",
+          "subtitle": "Targeting Largest US IPO of the Year"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "On 11 May 2026, Google researchers uncovered a zero-day exploit likely built with AI.",
-            "This exploit poses a significant threat to computer systems worldwide.",
-            "The use of AI in creating exploits is a relatively new phenomenon.",
-            "It has the potential to accelerate the development of more sophisticated attacks."
+            "Event date: 09 May 2026",
+            "Cerebras plans to list next week",
+            "Targeting largest US IPO of the year",
+            "IPO could raise up to $4.8 billion",
+            "Cerebras is a rival to Nvidia in the AI chip sector"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The increasing use of AI in cyber attacks can lead to more frequent and severe breaches.",
-            "This can have significant consequences for individuals, businesses, and governments.",
-            "The development of AI-powered exploits highlights the need for more robust security measures.",
-            "Organizations must invest in AI-powered security tools to stay ahead of these threats."
+            "Cerebras' IPO could raise up to $4.8 billion",
+            "The company is a major player in the AI chip sector",
+            "Its listing could have a significant impact on the market",
+            "Source: TradingKey, 09 May 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras, a rival to Nvidia in the AI chip sector, is planning to list next week in what could be the largest US IPO of the year. The IPO could raise up to $4.8 billion. What does this mean for the future of AI chip development? How will this impact the market? Questions to consider: What are the implications of Cerebras' IPO for Nvidia? How will this affect the development of AI chips? #AI #ChipSector #IPO #Nvidia #Cerebras",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZDBTMDR3UlFLaXZtQ0RYdFNWMjgwYjVDX05nYzJXMU15WUp1NWF5Y0xqLXVXZG1lQ3VYNVZJOTVZR2lCZVZwWF9xazdxWEFzbGNvNW13MFdtSVUzeEpOZmg3NXkzdlVEd2diNFpwcnl0Zi1GN2FiWFY5V3lRS3JlcFpUc0dTMVVsZDZDcWhheF9fLU5aS2Nsck9xQ2c4aG1IcW9YRUlMSTRDX0toSElNV1pUamcwR05ncG8yVGdLVmxsY29pNEttRkRqQTdZSDYy?oc=5",
+      "sourceName": "TradingKey",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "09 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Threats",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Researchers Uncover Zero-Day Exploit",
+          "subtitle": "Likely Built with AI"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google researchers discovered a zero-day exploit",
+            "The exploit was likely built with AI",
+            "It was used in a criminal attack",
+            "The attack was detected on 11 May 2026"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The exploit was likely built with AI",
+            "This highlights the growing threat of AI-powered attacks",
+            "Google is warning of the dangers of AI-accelerated cyberattacks",
+            "Source: Help Net Security, 11 May 2026"
+          ]
+        }
+      },
+      "caption": "Google researchers have uncovered a zero-day exploit that was likely built with AI. This highlights the growing threat of AI-powered attacks. What does this mean for the future of cybersecurity? How can we protect ourselves from these types of threats? Questions to consider: What are the implications of AI-powered attacks for cybersecurity? How can we stay ahead of these threats? #AI #Security #ZeroDay #Exploit #Google",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbVN2RkxTZ01jOGI5QjFwUURVUzJMVy1vdHFpVWFZNmw0YUFtS040UkwtMDdtUmlsN1diT0JrRnpFOV9Xdi1BbjZHeUJremswbWUzZWc0cHFEcXQwUVphWXZZRXlKWDJvSU9ESWY4T2MzaW13YnBzZ25nTUVScUN5dTJ0MExJZ1E?oc=5",
+      "sourceName": "Help Net Security",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "11 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Market Trends",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Microsoft Eyes $92 Billion Return from OpenAI Partnership",
+          "subtitle": "Massive Investment in AI"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Microsoft is investing in OpenAI",
+            "The partnership could return $92 billion",
+            "This is a significant investment in AI",
+            "The deal was announced on 12 May 2026"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The partnership could return $92 billion",
+            "This is a significant investment in AI",
+            "Microsoft is betting big on AI",
+            "The deal could have a major impact on the AI market"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The use of AI in cyber attacks is a growing concern.",
-            "Google's researchers have been at the forefront of identifying these threats.",
-            "The company's efforts to raise awareness about AI-powered exploits are crucial in the fight against cyber crime.",
-            "Source: Help Net Security, May 2026"
+            "Microsoft's investment in OpenAI is a significant bet on AI",
+            "The partnership could have a major impact on the AI market",
+            "The deal highlights the growing importance of AI in the tech industry",
+            "Source: CXO Digitalpulse, May 2026"
           ]
         }
       },
-      "caption": "The rise of AI-powered zero-day exploits poses a significant threat to computer systems worldwide. On 11 May 2026, Google researchers uncovered a zero-day exploit likely built with AI. This exploit has the potential to accelerate the development of more sophisticated attacks. Questions to consider: What are the implications of AI-powered exploits for cybersecurity? How can organizations protect themselves against these threats? #AIsecurity #cyberthreats #zerodayexploit #Google #HelpNetSecurity"
-    },
-    {
-      "id": 2,
-      "topic": "AI Funding",
-      "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "11 May 2026",
-      "sourceName": "Yahoo Finance",
+      "caption": "Microsoft is eyeing a $92 billion return from its partnership with OpenAI. This is a significant investment in AI and highlights the growing importance of the technology in the tech industry. What does this mean for the future of AI development? How will this impact the market? Questions to consider: What are the implications of Microsoft's investment in OpenAI? How will this affect the development of AI? #AI #Microsoft #OpenAI #Partnership #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQzMwaVlHZ09BUnVtOVBLbjZHdTBTTGRVTmx2azIwU0VPZ0luRFpVWnptVm5MYkVYdWV3aEdadkN0dmhXYTJ0SlR4Ym1LcHVadUYzSndaM2N5ZnZnUGt6SGluVVFiNjQyNjBrX2FGQThVWkEyN3RjcnplcVA4NjF1UWlzaFA1dnRpTDRINjJJRVgxbXEyMk4tekVxaEtZaHNiWnJxWXZiZ1hoTldi?oc=5",
+      "sourceName": "CXO Digitalpulse",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjJkWnd2VjBhMDA1dHpGV3c3T0ZPRTJWb2ExLWtwTFR1eURHVHBuc0t3MWk5UnBJaEdJNGpNOU9acVBqWGY2ZVItSnhFSG9LUEFfb3RLOTV5QmFmRTVsbFZqYUpyOWl4dTFfQmpfRFRSSkJOTlo5VFVEX2pnZUl5WERHNlpDSEVCcHBxZVp6dmhDTE9xUC1jaUZ0dk1Xdw?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "OpenAI's $4 Billion AI Deployment Company",
-          "subtitle": "A major investment in AI development"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "On 11 May 2026, OpenAI launched a $4 billion AI deployment company.",
-            "This investment is a significant milestone in the development of AI technology.",
-            "The company's focus on AI deployment will likely lead to more widespread adoption of AI solutions.",
-            "OpenAI's investment is a testament to the growing importance of AI in various industries."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "OpenAI's $4 billion investment is a significant milestone in AI development.",
-            "The company's focus on AI deployment will drive innovation and adoption.",
-            "This investment highlights the growing importance of AI in various industries.",
-            "Source: Yahoo Finance, 11 May 2026"
-          ]
-        }
-      },
-      "caption": "On 11 May 2026, OpenAI launched a $4 billion AI deployment company, marking a significant milestone in AI development. This investment will drive innovation and adoption of AI solutions. Questions to consider: What are the implications of OpenAI's investment for the AI industry? How will this investment impact the development of AI technology? #AI #OpenAI #funding #investment"
-    },
-    {
-      "id": 3,
-      "topic": "AI Chip Makers",
-      "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N11",
-      "eventDate": "08 May 2026",
-      "sourceName": "AIMultiple",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9UYlQtNjVDT09maWxpR0pGbEU0MGxYaDdad1VzYnp6cXBTcjc4RlY0TXJ0SVVvb0NTU19DdkVCbFFOVjk1MUNmdUg4UjhEdw?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Top AI Chip Makers",
-          "subtitle": "A growing industry"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "On 08 May 2026, AIMultiple published a list of the top 25+ AI chip makers.",
-            "NVIDIA is a leading player in the AI chip market.",
-            "Other companies, such as Qualcomm, are also developing AI-powered chips.",
-            "The development of AI chips is a rapidly evolving field."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI chip market is growing rapidly, with many companies investing in AI-powered chips.",
-            "NVIDIA is a leading player in the AI chip market, but other companies are also making significant contributions.",
-            "The development of AI chips will drive innovation in various industries, including gaming and healthcare.",
-            "Source: AIMultiple, 08 May 2026"
-          ]
-        }
-      },
-      "caption": "The AI chip market is growing rapidly, with many companies investing in AI-powered chips. On 08 May 2026, AIMultiple published a list of the top 25+ AI chip makers. Questions to consider: What are the implications of the growing AI chip market for the tech industry? How will the development of AI chips impact various industries? #AI #chipmakers #NVIDIA #Qualcomm"
+      "eventDate": "12 May 2026"
     }
   ]
 }

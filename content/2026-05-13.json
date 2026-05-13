@@ -1,0 +1,125 @@
+{
+  "date": "2026-05-13",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Deal Blocked",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "China Blocks Meta's $2 Billion AI Deal",
+          "subtitle": "Implications for the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "China blocked Meta's $2 billion acquisition of AI startup Manus on 28 Apr 2026.",
+            "The deal was ordered to be unwound.",
+            "Meta had planned to acquire Manus for $2 billion."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This decision may impact the growth of AI startups in China.",
+            "It could also affect Meta's plans to expand its AI capabilities.",
+            "Questions to consider: What will be the impact on Meta's AI strategy? How will this affect the AI industry in China?",
+            "Source: Moneycontrol.com, 28 Apr 2026"
+          ]
+        }
+      },
+      "caption": "China has blocked Meta's $2 billion AI deal, ordering the acquisition of Manus to be unwound. This decision may have significant implications for the AI industry. What will be the impact on Meta's AI strategy? How will this affect the AI industry in China? #AI #China #Meta #Acquisition #Block #Deal",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ0tMc2Fhc2FiOXp1LTc2RWkycGhtM2FfUnFEYm81OVdqS0xfWEZ0cG84YS1hY2Nxc3E3bDViLURTcVAyQTZwZW9qQm5kSk1qWXVsWmlHUDU2akxwTzB4YTIySkg4R3NNRHJoU1NuVW8ybWduaGl0amZDOWdQUDRGSHIwcU82WjBoZ1BzdjJrcGU3WEYzVlctUGZwS0J2NFJ1bTJzZVdJdm4yeG40bE92aDNSVm9KX0dsdE1EeWRpR3ZaLXV2c2xTN0tmRnlUYm41dUNN0gHYAUFVX3lxTE5Ld1FySWtGeGxSZFVPRDFwYTVjclM0b1FCN1VUaEYwLXM1bldqLWNUcG5NaXd4ZG1kd21QOG4xUnVGSzlROEhUVlJQUXAyY2E3em1ObGs0QXhWUjlkekFoT2F5OFY4cG12WVkxdGFDajBTNU92MVZsMi1mcERUUUE1NC02Y0ZKRWRNclg2TEhOREw4TDZMWXh2RF9WYnJ4aVJPekZ2eEpNQnIySGpxR2xHejNKbDJSRllra2xKSDVfeVBWYU0xMEJlTUdZUktEVGs2TXJWa2hlTQ?oc=5",
+      "sourceName": "Moneycontrol.com",
+      "sourceMonthYear": "Apr 2026",
+      "eventDate": "28 Apr 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Cybersecurity Funding",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Exaforce Raises $125 Million",
+          "subtitle": "Funding for AI cybersecurity startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 13 May 2026",
+            "Exaforce, an AI cybersecurity startup, has raised $125 million in funding.",
+            "The funding will be used to expand its autonomous security platform.",
+            "The company plans to use AI to improve cybersecurity."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding will help Exaforce to expand its AI-powered cybersecurity solutions.",
+            "It could also lead to increased adoption of AI in the cybersecurity industry.",
+            "The funding amount of $125 million is significant and indicates the growing interest in AI cybersecurity."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Exaforce's funding is a significant development in the AI cybersecurity space.",
+            "The company's autonomous security platform has the potential to revolutionize cybersecurity.",
+            "The use of AI in cybersecurity is becoming increasingly important.",
+            "Source: Tech in Asia, May 2026"
+          ]
+        }
+      },
+      "caption": "Exaforce, an AI cybersecurity startup, has raised $125 million in funding. This funding will help the company to expand its autonomous security platform and improve cybersecurity using AI. What are the implications of this funding for the AI cybersecurity industry? How will Exaforce's platform impact the adoption of AI in cybersecurity? #AI #Cybersecurity #Funding #Startup #Exaforce",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb0J0SjlGVW9iX3M5aTFnY2lHMUVfY0ZBR3AtY3dXcnlzcmF0TEhfM0VwaEkzRGNiTFdXSEUtdlNHZWxPV2wyOWJjUjlvaHNZQzUtakZrLVVNNXZKR0dUU2kxYlJtUnZKSWlNdnN5dGgydEx0VDFSZUJwUHYxazVQVnlMbw?oc=5",
+      "sourceName": "Tech in Asia",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "13 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Transparency Guidelines",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N10",
+      "slideContent": {
+        "slide1": {
+          "headline": "European Commission Draft Guidelines on AI Transparency",
+          "subtitle": "Implications for the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 May 2026",
+            "The European Commission has released draft guidelines on AI transparency under the EU AI Act.",
+            "The guidelines aim to provide clarity on the transparency requirements for AI systems.",
+            "The guidelines include 10 key takeaways, including the need for transparency in AI decision-making."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "These guidelines will have a significant impact on the development and deployment of AI systems in the EU.",
+            "They will require companies to be more transparent about their AI decision-making processes.",
+            "Questions to consider: How will these guidelines affect the development of AI systems in the EU? What are the implications for companies that use AI in their operations?",
+            "Source: Inside Global Tech, 12 May 2026"
+          ]
+        }
+      },
+      "caption": "The European Commission has released draft guidelines on AI transparency under the EU AI Act. These guidelines will have significant implications for the development and deployment of AI systems in the EU. How will these guidelines affect the development of AI systems in the EU? What are the implications for companies that use AI in their operations? #AI #Transparency #EU #Guidelines #Regulation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWZHeHplaHlnbkpYR2F6RzhoODkyWWtVVkRXUC1CY3lKUnMySHNGNWtrWXRIN25TeXhOYVF0NDE3YzVFaVV0SllicTl6VVZJeTB6Wm9qMmpDbFFRamxXRWlhYTJOWmx1ZGV6bFNkaTUzbDhHRHRqazh0UUpQcHZfY2tfTUJGVk5XY011U0FiX3FOYkZJdzN5S2lPWmg5ZlZ5MmZmaEhQc2dFZVNOdU5qQkRHM0h4N3V2ekRlMC1CTUFONVBrUHhHdURhLXREQQ?oc=5",
+      "sourceName": "Inside Global Tech",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "12 May 2026"
+    }
+  ]
+}

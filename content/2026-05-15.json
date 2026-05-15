@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-15",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "eventDate": "15 May 2026",
+      "sourceName": "Retail Technology Innovation Hub",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSzVDNWxFOHpPYTA0aVdraFJIZVV6OXA5SVZlX29qa0FBbWd6aENnaEhJRjdodTlROFBfdU9pSlh3cXhQT0tZckRCY3IxMTNFZEhNd1dzSWtsakpoSHVuMFFwMi1sVzQxQ0VUMFRTejlDWnk1SlN5NDZiSmxXX2xTaXBscDBUa1hoT1RYbXZjWGpQbGJxWUh0Y1dxdk5uSnNmWUpKQlJwM0tRbDVMdEUwSUQxdWtMdkJIcHJRRmdOT283WTFDLVZRUFJoLUJaZFRXa1ZYT182cjE4aXdUdjJZQmY4bVJrbzZhSGc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Multiverse Raises $70M",
+          "subtitle": "Euan Blair’s AI-powered upskilling startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 May 2026",
+            "Multiverse raised $70 million in funding",
+            "The company is now valued at $2.1 billion",
+            "This investment will help Multiverse expand its AI-powered upskilling platform",
+            "The funding round was announced on May 15, 2026"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Multiverse improve its AI technology",
+            "The company plans to use the investment to expand its team and operations",
+            "Multiverse aims to provide high-quality education and training to its users",
+            "The investment is a significant milestone for the company"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round is a significant milestone for Multiverse",
+            "The company plans to use the investment to improve its AI technology",
+            "Multiverse aims to provide high-quality education and training to its users",
+            "Source: Retail Technology Innovation Hub, May 2026"
+          ]
+        }
+      },
+      "caption": "Multiverse, an AI-powered upskilling startup, has raised $70 million in funding at a valuation of $2.1 billion. This investment will help the company expand its platform and improve its AI technology. What does this mean for the future of education and training? How will Multiverse use this investment to improve its services? What are the potential implications of this funding round for the edtech industry? #AI #EdTech #Funding #Multiverse #Upskilling",
+      "questions": "What are the potential applications of Multiverse's AI-powered upskilling platform? How will the company use the funding to improve its services?"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N5",
+      "eventDate": "12 May 2026",
+      "sourceName": "Security Boulevard",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTGdKeDdHcXVqQjlBRnhWOTAybUtRZklGX0dfUGx2VEJPY0F0dzBjSG1HMmN4UnZQLVp6TlFVUHdRQjdFWEhuMkxWRVRaRzZ6YmVfMllOd1pZODJvRGlzM0xyRzNUa1d1RWtsTGMxR3oxQ1VOWFhkSEt6YU13Zi1jLVRHemRrVGVYM0pN?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act Compliance",
+          "subtitle": "Preparing for 2026"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 May 2026",
+            "The EU AI Act will come into effect in 2026",
+            "Companies must prepare for compliance with the new regulations",
+            "The regulations will impact AI development and deployment in the EU",
+            "Companies must ensure their AI systems meet the new standards"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The EU AI Act will have significant implications for AI development and deployment in the EU",
+            "Companies must prepare for compliance with the new regulations",
+            "The regulations will impact AI development and deployment in the EU",
+            "Source: Security Boulevard, 12 May 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act will come into effect in 2026, and companies must prepare for compliance with the new regulations. What are the potential implications of this act for AI development and deployment in the EU? How will companies ensure their AI systems meet the new standards? What are the potential consequences of non-compliance? #AI #Security #EUAIAct #Compliance #Regulations",
+      "questions": "What are the key provisions of the EU AI Act? How will the act impact AI development and deployment in the EU?"
+    },
+    {
+      "id": 3,
+      "topic": "AI Market Trends",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N7",
+      "eventDate": "15 May 2026",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaG1kdXBwc1NCYmZvWFVDRjVyYXpNcHJtbEZLQXdiRC1RVU5vS1NiSTVpc3ZPOWQ4SlpTSHJjQzFxeEhRVk5UbXBXalVGSlZ0cTVaWjVOWGNHcTE5Wm1oZHcyTGExbloyN2VDb2JGSWpGV3l6dDNoUnRIa1Myc2lxZU42TGU1TGhTRjZRZTB4d0FhNzdmV3hHbUZIWHQ3MmNk?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cerebras Jumps 69% in Nasdaq Debut",
+          "subtitle": "AI IPO Market Roars Back"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 May 2026",
+            "Cerebras jumped 69% in its Nasdaq debut",
+            "The company's IPO is a significant milestone for the AI industry",
+            "The IPO market for AI companies is heating up",
+            "Cerebras's successful debut is a positive sign for the industry"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The successful IPO of Cerebras is a positive sign for the AI industry",
+            "The IPO market for AI companies is heating up",
+            "Cerebras's technology has significant potential for growth",
+            "Source: Yahoo Finance, 15 May 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras jumped 69% in its Nasdaq debut, a significant milestone for the AI industry. What are the implications of this IPO for the AI market? How will Cerebras's technology impact the industry? What are the potential risks and challenges for the company? #AI #IPO #Cerebras #Nasdaq #MarketTrends",
+      "questions": "What are the key factors driving the growth of the AI IPO market? How will Cerebras's technology impact the industry?"
+    }
+  ]
+}

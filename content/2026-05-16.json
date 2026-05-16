@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-16",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX IPO Plans",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Plans to Go Public",
+          "subtitle": "Elon Musk's SpaceX is planning a public IPO filing as soon as this week"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 May 2026",
+            "SpaceX plans to file for a public IPO as soon as Wednesday, May 15, 2026",
+            "This move is expected to make SpaceX one of the most valuable companies in the world",
+            "The IPO is expected to raise billions of dollars for the company",
+            "The exact valuation is not yet known, but it is expected to be over $1 trillion"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This IPO will give SpaceX the funding it needs to continue its ambitious plans for space exploration",
+            "It will also make Elon Musk one of the richest people in the world",
+            "The IPO is a significant milestone for the private space industry",
+            "It will likely have a major impact on the stock market and the tech industry as a whole"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The IPO is a significant step for SpaceX and the private space industry",
+            "It will likely have a major impact on the stock market and the tech industry",
+            "The exact details of the IPO are not yet known, but it is expected to be one of the largest in history",
+            "Source: Bloomberg.com, May 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX is planning to go public with a highly anticipated IPO. This move is expected to make SpaceX one of the most valuable companies in the world and give Elon Musk a significant boost in wealth. But what does this mean for the private space industry and the tech world as a whole? Questions to consider: What will SpaceX use the funding from the IPO for? How will this IPO impact the stock market and the tech industry? #SpaceX #IPO #PrivateSpaceIndustry #TechNews #ElonMusk",
+      "hashtags": [
+        "#SpaceX",
+        "#IPO",
+        "#PrivateSpaceIndustry",
+        "#TechNews",
+        "#ElonMusk"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa3JlZUJvUlVLS0t4VG54NTF1X1hsSDhqYlVBVG1zT1ZqbWRaalpaX2E1ZjBDNlpObWZnRGwyYTFabkkzMTRTR0VrYnR1VkUwZEpyOG9jaENSMTlVdzNlZW9BelhIZHdfTzZ4YURSblY5REVLelhHT1ZLTGlhWUpKd0JWMTAwQkNQbGg4bE9xYmh4WWlOdkF5WDJfN3lWUnd0Vjc5cXpB?oc=5",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "15 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Cerebras AI Chipmaker",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cerebras AI Chipmaker Makes Nasdaq Debut",
+          "subtitle": "Cerebras, an AI chipmaker, has made its debut on the Nasdaq stock exchange"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 May 2026",
+            "Cerebras made its Nasdaq debut on May 14, 2026, with a 68% increase in stock price",
+            "The company's market cap is now $95 billion",
+            "This is one of the largest IPOs in the tech industry this year",
+            "Cerebras is a leading developer of AI chips and has received significant funding from investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Cerebras' success is a significant milestone for the AI chip industry",
+            "The company's technology has the potential to revolutionize the field of AI and machine learning",
+            "The IPO is a testament to the growing demand for AI chips and the potential for innovation in the industry",
+            "Source: CNBC, 14 May 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras, an AI chipmaker, has made its debut on the Nasdaq stock exchange with a significant increase in stock price. But what does this mean for the AI chip industry and the tech world as a whole? Questions to consider: What are the potential applications of Cerebras' AI chips? How will the company's success impact the development of AI and machine learning? #Cerebras #AIChip #Nasdaq #TechNews #AI",
+      "hashtags": [
+        "#Cerebras",
+        "#AIChip",
+        "#Nasdaq",
+        "#TechNews",
+        "#AI"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tdTRxS3d0Z1pXY2VHeG13WHo4Z2dRUzluWDhqT0tyeUU5dVdiZUV6c01ZbTZVQXp2T0RWNEtEQ2NFSHlIVXJqSkJUalZwUERiNDEyaTE5TGJzTVUzT1RVSl9XUEFjX0o5MVVvNW9UNWtOQUtPbFBMc2h6U08td9IBgwFBVV95cUxPaTJEWlJwLTQxaWROcEhheThoV1ZGWGUwdDM1Q3p0MEF6ZFdabmpLS3dUQncyXzRMNjJCVmg4MlVSb2M2SXBxS29WNE5MTXl3TzNvOEFNdExkYUwtSVRIck9aa3BFRmM0dnN1ai1uWTlfR2ItalBwR3pCeUVtWWY2ZXNjdw?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "14 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Akamai Acquires LayerX",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N12",
+      "slideContent": {
+        "slide1": {
+          "headline": "Akamai Acquires LayerX for $205 Million",
+          "subtitle": "Akamai has acquired LayerX, an Israeli AI browser security startup, for $205 million"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 May 2026",
+            "Akamai acquired LayerX for $205 million in cash",
+            "The acquisition is expected to enhance Akamai's AI workforce security strategy",
+            "LayerX's technology will be integrated into Akamai's existing security products",
+            "The acquisition is a significant move for Akamai in the AI security space"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition is a significant move for Akamai in the AI security space",
+            "It will enhance Akamai's ability to provide advanced security solutions to its customers",
+            "The acquisition is a testament to the growing importance of AI in the security industry",
+            "Source: Pulse 2.0, 14 May 2026"
+          ]
+        }
+      },
+      "caption": "Akamai has acquired LayerX, an Israeli AI browser security startup, for $205 million. But what does this mean for the AI security industry and the tech world as a whole? Questions to consider: What are the potential benefits of Akamai's acquisition of LayerX? How will the acquisition impact the development of AI security solutions? #Akamai #LayerX #AIsecurity #Acquisition #TechNews",
+      "hashtags": [
+        "#Akamai",
+        "#LayerX",
+        "#AIsecurity",
+        "#Acquisition",
+        "#TechNews"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWVQyMUYtaU8xcDRUNkM1aEQycnM5UXlzWE9Ha1NqSTNUQU9HcDhWRHIySWFnVkNfd0JZVzFtSG5JaUJIT01UV1dmVVhmMkUycndjUGJLQTJhTmY1LVFLeWNoMVFFSUo5d1JERXpGNHo5MHNDREN1WEpoYU14WGxqYlpxTnhwbkYtT0hURmJORVZpY1pFN1ZfZ2kzR3hRcUFpSTQtY3NGTE1SbWl2Mk5Pb2p4Z9IBuAFBVV95cUxQTjJfZFVGV1hPNk5jeHRTdXF4UnZoS0RUeGJFWWw2R1ZDRDMtYl9kbElpZGxTeEhib2RRQ0llNTBGSWxxdDJyVWdsRk9MSGhta2gtNjJNQW1mYUExN2x3dnBteVJkWWVIWmxCZTAtZkNQUkI3SzRyNDc5TnBNY0ZBbzU5LVJESTFIdDEwQmhXdVJmcHlZeVZtU1hzRjJsT29xWTJ1bWdhSm9pMnhkTldkdGFzQTh0WVdQ?oc=5",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "14 May 2026"
+    }
+  ]
+}

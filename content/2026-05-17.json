@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-17",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX IPO",
+      "slides": 3,
+      "svgIcon": "rocket",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Accelerates IPO Timeline",
+          "subtitle": "Targets June 12 Listing on Nasdaq"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 May 2026",
+            "SpaceX targets June 12 listing on Nasdaq",
+            "This could become the biggest public listing ever",
+            "The IPO timeline has been accelerated",
+            "The listing is expected to take place on June 12"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This IPO could provide a significant boost to the tech industry",
+            "It could also lead to increased investment in space exploration",
+            "The success of this IPO could pave the way for other companies to go public",
+            "Source: The Economic Times, 16 May 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX is accelerating its IPO timeline, targeting a June 12 listing on Nasdaq. This could become the biggest public listing ever. What does this mean for the tech industry? How will this impact space exploration? #SpaceX #IPO #Nasdaq #TechIndustry #SpaceExploration #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYkRuOUI3eVdkeDRtMzRfaFFHeVNPSHlSQy1yYkZ6VF8zOXRkQUZvb3RkWFdrVXRkNHgxYjN0ZmFRRHQ3MzNKdnBUdlZTeGU5cGotY3NCNGY4M3ppb1E1TWVwVlpIWDlUdmlXczA4T1BRb1prNjM1M2FuMW5zV3VSbnh4VkozLUlaZS1qb3A1X1FUcEZONktRdkNIc0pJdGcyMVJwcDZVOXlzTWZCdkJTT29TZm1zX3BoWFRxdGdkVWI3aVFDLWtCLURJQlprLTR30gHWAUFVX3lxTFBJMVUzQnIxWHZua21xR2REMW5mbF94dVdBa2JHbFhFY1ZCMVQ4RFFoajNzeWFFazZxd3h4SHhOUHhhWjRocU9YOHVyZy05ZEVJRzd0V3NRMXc4OWdJZ1lQbE1mdU9naDBWWVJlQnZXZ1dpU1hjNXRWTnZwc01OMy1uczh0d3FvRHd3alJEbjltRHQxTGg4M2UwUmxGalpFY1dEZjZnMWFadzFETlI0RlJvNW55UXVPSGh2VkEzci1sdDcweXNXbW02dU1SZ3hXNVNoQVQwcWc?oc=5",
+      "sourceName": "The Economic Times",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "16 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N21",
+      "slideContent": {
+        "slide1": {
+          "headline": "First Apple M5 Memory Exploit Discovered",
+          "subtitle": "Using Anthropic AI"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 May 2026",
+            "The first Apple M5 memory exploit has been discovered using Anthropic AI",
+            "This exploit gives root access on MacOS",
+            "It was discovered by security researchers using Claude Mythos",
+            "The exploit bypasses Memory Integrity Enforcement"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This exploit highlights the importance of AI security",
+            "It shows how AI can be used to bypass security measures",
+            "This could lead to increased investment in AI security research",
+            "Source: Tom's Hardware, 16 May 2026"
+          ]
+        }
+      },
+      "caption": "The first Apple M5 memory exploit has been discovered using Anthropic AI. This exploit gives root access on MacOS. What does this mean for AI security? How can we protect against such exploits? #AI #Security #Apple #M5 #Exploit #AnthropicAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPNUhtMEhKZGlST1RuLUotYWk4c0ZUUG1PblVJTWhrV3hweVNhcU14XzJtRHB4dVA0WHctLWJqTkF1Z3RSWEpOaG5kS0ZTN3RscHJJMUZnemRyUnZfNVZWQkZaaGhSQXpFQXkyaVZSd0ZQbUxrRm8zRWhMUGdEMUZWemszTHQxR0RaeXpBdjJDSDFwSXo1X1FEZW96LWhmT1dzX1FnU1N0OHlaRUprS3BOSGl0TnZ0QXM3akRybzlNY3dMdXk2LWptT0tsSGdLSkxFLXNmbEpKdEo3LXBlSW5saXVqLTA3WFNTajlMSmw5UnZCSjJwMTdPU29qSFV1SUZLYjZfOGVlemtjbEo4OW5fWU9NYktEUm5rNXNfamVkZFdPR0xsbElYMA?oc=5",
+      "sourceName": "Tom's Hardware",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "16 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "UK AI Startup Recursive Hits $4.65B Valuation",
+          "subtitle": "With $650M Raise from Nvidia and GV"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 13 May 2026",
+            "UK AI startup Recursive has hit a $4.65B valuation",
+            "This is after a $650M raise from Nvidia and GV",
+            "The funding will be used to expand the company's AI research",
+            "The company is focused on developing AI technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round highlights the growing interest in AI research",
+            "It shows the potential for AI startups to attract large investments",
+            "This could lead to increased innovation in the AI industry",
+            "The funding will help Recursive to further develop its AI technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round is a significant milestone for the company",
+            "It demonstrates the confidence of investors in the AI industry",
+            "The company plans to use the funding to expand its research team",
+            "Source: Tech Funding News, May 2026"
+          ]
+        }
+      },
+      "caption": "UK AI startup Recursive has hit a $4.65B valuation after a $650M raise from Nvidia and GV. What does this mean for the AI industry? How will this funding be used to drive innovation? #AI #Funding #Startup #Recursive #Nvidia #GV #Investment #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQamFHOFBlMTBYRFVzLVlPcTZBNkZkYWh2VlNJY0pMeHN0OXFLLWt2Y1hTT1JkQ1p5MkNDWlNVYXZvQzV6RHJPM3o2WG9XMHNuQWRJQmYwQWpfM0xOSXZ5YlN4aWJidk41MGU4Y3ByRWFRaXU1SnMxYmxieEVFbjR6V3ZKN19ZOFlXdUx1Um1fdTRlUkU3N2lYbUhZNGs0QXd6UnhaakRwcGpIUmdW?oc=5",
+      "sourceName": "Tech Funding News",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "13 May 2026"
+    }
+  ]
+}

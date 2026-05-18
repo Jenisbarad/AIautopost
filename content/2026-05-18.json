@@ -8,123 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "Cerebras AI Chip",
+      "topic": "AI Chipmaker Cerebras",
       "slides": 4,
       "svgIcon": "chip",
-      "sourceId": "N7",
-      "eventDate": "14 May 2026",
-      "sourceName": "CNBC",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tdTRxS3d0Z1pXY2VHeG13WHo4Z2dRUzluWDhqT0tyeUU5dVdiZUV6c01ZbTZVQXp2T0RWNEtEQ2NFSHlIVXJqSkJUalZwUERiNDEyaTE5TGJzTVUzT1RVSl9XUEFjX0o5MVVvNW9UNWtOQUtPbFBMc2h6U08td9IBgwFBVV95cUxPaTJEWlJwLTQxaWROcEhheThoV1ZGWGUwdDM1Q3p0MEF6ZFdabmpLS3dUQncyXzRMNjJCVmg4MlVSb2M2SXBxS29WNE5MTXl3TzNvOEFNdExkYUwtSVRIck9aa3BFRmM0dnN1ai1uWTlfR2ItalBwR3pCeUVtWWY2ZXNjdw?oc=5",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "AI Chipmaker Cerebras Soars in Nasdaq Debut",
-          "subtitle": "A new player in the AI chip market"
+          "headline": "Cerebras IPO Sparks Interest",
+          "subtitle": "AI Chipmaker's Nasdaq Debut"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 14 May 2026",
-            "Cerebras popped 68% in its Nasdaq debut",
-            "The AI chipmaker's market cap reached $95 billion",
-            "This is one of the largest IPOs in recent history",
-            "The company's valuation is now higher than expected"
+            "Cerebras Systems IPO debuted on Nasdaq",
+            "Market cap reached $95 billion",
+            "Stock price rose 68% on the first day",
+            "IPO is the year's biggest so far"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "Cerebras' success shows the growing demand for AI chips",
-            "The company's technology has the potential to revolutionize the industry",
-            "This IPO could lead to more investments in AI chipmakers",
-            "The future of AI relies on advancements in chip technology"
+            "Cerebras' success indicates growing interest in AI",
+            "AI chipmakers are gaining traction",
+            "Investors are betting on AI's potential",
+            "Cerebras' technology is leading the way"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI chip market is expected to grow rapidly in the coming years",
-            "Cerebras' competitors, such as NVIDIA, will likely respond to this IPO",
-            "The company's success could lead to more partnerships and collaborations in the industry",
+            "The AI chip market is expected to grow rapidly",
+            "Cerebras' IPO will likely attract more investors to the sector",
+            "The company's technology has the potential to revolutionize AI computing",
             "Source: CNBC, May 2026"
           ]
         }
       },
-      "caption": "The AI chip market just got a lot more interesting! Cerebras, an AI chipmaker, has soared in its Nasdaq debut, reaching a market cap of $95 billion. But what does this mean for the industry? And how will competitors respond? Questions to consider: What will be the impact of Cerebras' success on the AI chip market? How will NVIDIA and other competitors respond to this IPO? #AI #Chipmaker #Nasdaq #IPO #Cerebras #ArtificialIntelligence"
+      "caption": "Cerebras Systems, an AI chipmaker, has made a successful debut on Nasdaq, sparking massive interest in the AI sector. With a market cap of $95 billion, Cerebras is leading the way in AI computing. But what does this mean for the future of AI? Will Cerebras' success attract more investors to the sector? Questions to consider: What are the implications of Cerebras' IPO for the AI industry? How will Cerebras' technology impact the development of AI? #AI #Cerebras #IPO #Nasdaq #Chipmaker #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tdTRxS3d0Z1pXY2VHeG13WHo4Z2dRUzluWDhqT0tyeUU5dVdiZUV6c01ZbTZVQXp2T0RWNEtEQ2NFSHlIVXJqSkJUalZwUERiNDEyaTE5TGJzTVUzT1RVSl9XUEFjX0o5MVVvNW9UNWtOQUtPbFBMc2h6U08td9IBgwFBVV95cUxPaTJEWlJwLTQxaWROcEhheThoV1ZGWGUwdDM1Q3p0MEF6ZFdabmpLS3dUQncyXzRMNjJCVmg4MlVSb2M2SXBxS29WNE5MTXl3TzNvOEFNdExkYUwtSVRIck9aa3BFRmM0dnN1ai1uWTlfR2ItalBwR3pCeUVtWWY2ZXNjdw?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "14 May 2026"
     },
     {
       "id": 2,
-      "topic": "Apple-OpenAI Partnership",
+      "topic": "AI Security Breach",
       "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N2",
-      "eventDate": "15 May 2026",
-      "sourceName": "Gadgets 360",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd3dYWTRYdU1DUHpqcUdPcm9xUURBdERtWjZSWllhSy0wVUFmbS1fMmlrZ092V3hIN0hEakxPeFU3aE5TeXBRZElyT1p2dFQzanVDOEx0aUZqalA1SmdPZHdsNGJNRUFyTUh6S29sSFB5bTRuSkJYdzhRemZReFlSQlpQdXU5RU0zaFVfQVJJMXFHcTNYOVhxdmoxNlNFVC1xc3RzWjlIdjRtVEl2VmZJU0NOaFEtZ9IBuwFBVV95cUxQekFzVE5DU04tYTQ5c2VqSjNLSFhJQWtoQTlkNGRzOG1wQmxlMlZmbTE0NG9famF6UEpnWW1ZM2lvVXJleS1VMTNoaWxrY09Gamk0bEh5a2tyc0ZjM0s4Y1hZM3JPZVdVR0toT0hkSkp0Y2l0SmJaUGVtVXhkM2tYRHU3QTRrRzlEU3d1ZHFQNmkyeHlnM19mdk8xc1VxT3ZHUWZhU1FyemFEclRXQklIUDlOY2hCSkd5VmZB?oc=5",
+      "svgIcon": "shield",
+      "sourceId": "N11",
       "slideContent": {
         "slide1": {
-          "headline": "Apple-OpenAI Partnership Reportedly Strained",
-          "subtitle": "What's going on with the integration of ChatGPT?"
+          "headline": "Apple M5 Chip Security Breach",
+          "subtitle": "Researchers Use AI to Breach Security"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 15 May 2026",
-            "The partnership between Apple and OpenAI is reportedly strained",
-            "The issue is over the integration of ChatGPT across iPhone and Mac",
-            "Apple wants more control over the AI technology",
-            "OpenAI is pushing for a more open approach"
+            "Event date: 16 May 2026",
+            "Researchers used AI to breach the security of Apple's M5 chip",
+            "The breach was achieved using a complex algorithm",
+            "The vulnerability was found in the chip's architecture",
+            "The breach has raised concerns about AI security"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The partnership between Apple and OpenAI is crucial for the development of AI-powered products",
-            "The integration of ChatGPT could lead to significant improvements in user experience",
-            "However, the strained partnership could delay or even cancel the project",
-            "Source: Gadgets 360, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The breach highlights the need for improved AI security",
+            "Apple's M5 chip is used in various devices",
+            "The vulnerability could be exploited by malicious actors",
+            "Source: آي-فون إسلام, 16 May 2026"
           ]
         }
       },
-      "caption": "The partnership between Apple and OpenAI is reportedly strained, and it's all about the integration of ChatGPT. But what does this mean for the future of AI-powered products? And how will this affect the user experience? Questions to consider: What are the implications of a strained partnership between Apple and OpenAI? How will this affect the development of AI-powered products? #Apple #OpenAI #ChatGPT #Partnership #AI"
+      "caption": "Researchers have used AI to breach the security of Apple's M5 chip, raising concerns about the vulnerability of AI systems. The breach highlights the need for improved AI security and has implications for the development of AI-powered devices. Questions to consider: What are the implications of this breach for AI security? How can AI systems be made more secure? #AI #Security #Apple #M5Chip #Breached",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdXpGWDNzcVNpZW1KRWZBMFN0SmYySzZWOUVzRXdxWmJieE4wN1ljWjlwX1hDYlZZQXo4TXVCOU5fSm5DSEtzYXBQZGJnQTIxV1d4eFBIaU9xXzF0aFZMYVdQUGpvU0laYWRhQ2dDSVl1S1BYZ1ZJNkRtTmYyLU9iNWN0Rzd4ODNwRkNCNktndTBGWjQtQ3J1eENSeXdhSDlXVl9DbExXZVZ0ZGw2RUNJWnRiRzBURDF0dURBTzRpZw?oc=5",
+      "sourceName": "آي-فون إسلام",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "16 May 2026"
     },
     {
       "id": 3,
-      "topic": "Dust Raises $40M",
+      "topic": "AI Funding",
       "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N8",
-      "eventDate": "18 May 2026",
-      "sourceName": "SiliconANGLE",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUk9hanVlTFFXX1BwNWh1YVVWeE5ubXpaTFhTdHdROTlVbEJPazNMOUxwM1VKSFVXSzVTdV9TWHdhbzI3OFlYODlvQm5EbGlJX1ZjUXlCVmdsalhua3dLODBHMVV3WnZVZHVyeThGbUlyQm9MVVBlRXhqc0lBMHRXTlhMV3NwX213TXcza25pR2lic1JiUjVyVEE5bVpwUW1fYVFpVjhjVkc0VVRyVlBtZEppME5OckdVWnJpa21fZXJwUVVIVmRwX0ZKRnRQUjUy?oc=5",
+      "svgIcon": "database",
+      "sourceId": "N10",
       "slideContent": {
         "slide1": {
-          "headline": "Multiplayer AI Startup Dust Raises $40M",
-          "subtitle": "A new player in the AI market"
+          "headline": "Dust Raises $40M",
+          "subtitle": "AI Startup Funding"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 18 May 2026",
-            "Dust, a multiplayer AI startup, has raised $40M in funding",
-            "The company aims to help enterprises move beyond isolated AI assistants",
-            "The funding will be used to develop new AI technologies",
-            "Dust plans to expand its team and improve its product offerings"
+            "Dust, an AI startup, has raised $40M in funding",
+            "The funding was led by Sequoia",
+            "The startup aims to improve enterprise AI productivity",
+            "The funding will be used to develop new AI technologies"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The funding will help Dust develop more advanced AI technologies",
-            "The company's goal is to make AI more accessible and useful for enterprises",
-            "The multiplayer AI approach has the potential to revolutionize the industry",
-            "Source: SiliconANGLE, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding highlights the growing interest in AI startups",
+            "Dust's technology has the potential to improve AI productivity",
+            "The funding will help Dust expand its operations",
+            "Source: Tech Funding News, 18 May 2026"
           ]
         }
       },
-      "caption": "Dust, a multiplayer AI startup, has raised $40M in funding! But what does this mean for the AI market? And how will this funding be used? Questions to consider: What are the implications of Dust's funding for the AI market? How will the company use this funding to develop new AI technologies? #AI #Funding #Startup #Dust #MultiplayerAI"
+      "caption": "Dust, an AI startup, has raised $40M in funding to improve enterprise AI productivity. The funding highlights the growing interest in AI startups and has implications for the development of AI technologies. Questions to consider: What are the implications of this funding for the AI industry? How will Dust use the funding to develop new AI technologies? #AI #Funding #Dust #Startup #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdHVpdEtOeklwQWdBT2tqaVRUYWRfd1NEYmdUTmJWemlOQTVuS29valZ1T1ZLamlHV0xSMDBBVU1PTFk0Y2psQWhUcTF1MVFJLVdUcF9MNDJ6bDF0RFNHYTlySTJqYjJzNzludm5aQ2U3eEVoWVJhLVhvdjh4OXlRQ3NPa0lQSl9teW9ZcUZsQ29ZcUFj?oc=5",
+      "sourceName": "Tech Funding News",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "18 May 2026"
     }
   ]
 }

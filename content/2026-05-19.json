@@ -8,124 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Boom",
-      "slides": 4,
-      "svgIcon": "rocket",
-      "sourceId": "N7",
-      "eventDate": "18 May 2026",
-      "sourceName": "CNBC TV18",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQm5XTjZ1Z2YtWWNGblpMdUtqVlYzQWhUWXp2bXBBeEtST0FyTzljQVRFRFpGal9ZNktJaWd6SFZmVUtWS215eVpsSUkzTHJzR1JMQWEzY1hManF1T2dkLV9OREgxZWctZDhJc2FEZHhBSWp0eDVmYXBvSjJEOW9kU3djNkFrZlJyaEJPUF9KZ1FHNS1HQnFUTm9GVUNDY1FpVmh3cV9FLTNidlJmY3hoNEY3aENYcE9jMXpZOEFPYVRLVTDSAcgBQVVfeXFMTm1lN3Z4Ul9ucXBqSTdCdE8tUVNxd3VVRl9qR1MzWnRzQTd0ZTVOa0REcHpyQ3lNNWhhcldGMC16Vld6TVRfMVpLNnBYci1Bd19tekVhUmltTE92WEJaRDh0OXhpNjFQWUhCbVc5c2J1Z2MzZHRiNGlqbjRodmVfblNhR3lXTDcyQXFGN0JVdkx4ck92OGoydHRadlNVYVJ5OUZ6NmlmTmxESkJaVklSZVlrdWpZcHNkOFhoZVFMdmxYNnJyVFoybGY?oc=5",
+      "topic": "AI Chipmaker Soars",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N11",
       "slideContent": {
         "slide1": {
-          "headline": "Exaforce Raises $125 Million",
-          "subtitle": "AI model development and expansion"
+          "headline": "Cerebras' Blockbuster IPO",
+          "subtitle": "AI chipmaker Cerebras soars 68% in NASDAQ debut"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Exaforce raised $125 million in funding",
-            "The company will use the funds to develop AI models",
-            "The funding will also support expansion efforts",
-            "Exaforce's CEO announced the funding on 18 May 2026"
+            "Event date: 15 May 2026",
+            "Cerebras raised $5.5 billion in its IPO",
+            "The company's shares skyrocketed 100% after the IPO",
+            "This is the largest IPO of the year so far",
+            "Cerebras' valuation exceeds $10 billion"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding will help Exaforce improve its AI capabilities",
-            "The company's expansion efforts will increase its market reach",
-            "Exaforce's AI models will have a significant impact on the industry",
-            "The funding is a testament to the growing importance of AI"
+            "This IPO boosts hype for AI startups",
+            "Cerebras' success may crowd out smaller players",
+            "The company's AI-powered chips have the potential to revolutionize the industry",
+            "Source: NewsBytes, 15 May 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras' blockbuster IPO has sent shockwaves through the tech industry. With its AI-powered chips, the company is poised to revolutionize the sector. But what does this mean for smaller players? Will they be able to compete with the likes of Cerebras? Questions to consider: What impact will Cerebras' success have on the AI industry? How will this IPO affect the market for AI-powered chips? #AI #chipmaker #IPO #Cerebras #NASDAQ #techindustry",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0NuQjYzZWNLeGdMaFpCZGlmU2xycEdOOXRVS0lCUVlETkcwZ2Y4NVhnZDRjbWxsXzJQTmlzYW56RHBsMHhPTkh2TnlmUTJLUEZDZjVqdWl5akdyZW5uUExtdHVSbFlFcTJOcER1akRwVEtKWGlkQmd5bjQ2SmJWQmpuMGtnMXVjT2pwWllrbmhyU0Y4VHBLZGdtT1JSSUdN?oc=5",
+      "sourceName": "NewsBytes",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "15 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Breach",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N12",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's AI Cracks Apple's Chip Security",
+          "subtitle": "AI-powered security breach in just five days"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 May 2026",
+            "Anthropic's AI cracked Apple's newest chip security in five days",
+            "This is a significant breach, highlighting the vulnerability of even the most secure systems",
+            "The breach was achieved using Anthropic's AI-powered tools",
+            "This has major implications for the tech industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This breach showcases the power of AI in security testing",
+            "It highlights the need for more robust security measures",
+            "The tech industry must take notice of this breach and adapt",
+            "Source: Moneycontrol.com, 17 May 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's AI has cracked Apple's newest chip security in just five days. This is a significant breach, highlighting the vulnerability of even the most secure systems. What does this mean for the tech industry? Questions to consider: How will this breach affect the development of secure systems? What measures can be taken to prevent similar breaches in the future? #AI #security #breach #Apple #Anthropic #techindustry",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0xENUZsRHRFd0ZjMlBDUXV4RUZlSGltMG1jcEFGZlJWQmZpTkZaWjVyWWt1YjFBSjM2WDdGcV9TdHloRFgtaWtaeW1SRWpnOUxYLUZhVkJyWUtYRGNEV0I5V2pXQUJVcTAxX1NDb214MEtaMXZndy1fTVY3Z3cwWmtTVlJUbzE1enY1Vy1HVDZpNUJhTUJkb0VkOFFwT1k2RmJjY1Uta0Foa3VjRXZzUk9DM05pcXBhRWpYeG9mVjl4QdIBxwFBVV95cUxNNjBiVmpHR0dMWm45Y21jZlE0ODBvWndhU28wTTB4ZDR5ZW9CX2d2Z0UxeE44MkFqc1FnVFByVlcteWZVcWl3OHBSS0hrTGpYQzF4Yl9CYkU3eWphU1FtSUV4Y3F3eG1lUW1oang2cFdwRC1nTkptZFcwNmlHcGRqb2tGUkd2S2E5NTVUeThWZWZtYVdDa2FFaGFkZzBySDBsejRoSGNvN3hOdjJhWFd1dlZOQlRBdTFRaXUwczFKUWdheDR5ZE9F?oc=5",
+      "sourceName": "Moneycontrol.com",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "17 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Unframe Raises $50M in Series B Funding",
+          "subtitle": "AI startup surpasses $100 million in contracts within a year"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 19 May 2026",
+            "Unframe raised $50 million in Series B funding",
+            "The company has surpassed $100 million in contracts within a year",
+            "This funding will be used to expand Unframe's AI-powered products",
+            "Unframe's valuation is now over $500 million"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding is a significant boost for Unframe",
+            "It highlights the growing demand for AI-powered products",
+            "Unframe's success is a testament to the potential of AI startups",
+            "The company's AI-powered products have the potential to revolutionize the industry"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Exaforce's funding is a significant investment in AI development",
-            "The company's expansion efforts will drive growth in the industry",
-            "AI models will continue to play a crucial role in shaping the future of tech",
-            "Source: CNBC TV18, May 2026"
+            "Unframe's funding is a significant milestone for the company",
+            "The company's AI-powered products have the potential to disrupt the industry",
+            "The funding will be used to expand Unframe's products and services",
+            "Source: SiliconANGLE, May 2026"
           ]
         }
       },
-      "caption": "Exaforce has raised $125 million in funding to develop its AI models and support expansion efforts. This investment is a significant boost to the company's growth plans. What does this mean for the future of AI development? How will Exaforce's expansion efforts impact the industry? What role will AI models play in shaping the future of tech? #AI #Funding #Expansion #Growth #Tech #Innovation",
-      "questions": "What does this mean for the future of AI development? How will Exaforce's expansion efforts impact the industry?"
-    },
-    {
-      "id": 2,
-      "topic": "AI Acquisition",
-      "slides": 3,
-      "svgIcon": "database",
-      "sourceId": "N2",
-      "eventDate": "18 May 2026",
-      "sourceName": "PR Newswire",
+      "caption": "Unframe has raised $50 million in Series B funding, surpassing $100 million in contracts within a year. This funding is a significant boost for the company and highlights the growing demand for AI-powered products. Questions to consider: What does this funding mean for Unframe's future prospects? How will the company use this funding to expand its products and services? #AI #funding #Unframe #SeriesB #startup #techindustry",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVJOU1MwcG5QSzJKNW16dG9EZE9vZ3d4b0tsc1NNQ2FJNm5rMkVZSGo2S0tfSVdQLWtsWXVrMTdaWmg5MF9BelE0cENwUWtwVHJYa3BrdmZOVDhRaGRHTEhOM25YWU5FdlZCNWVtRDgyQmt5YnN5dFhUTFlTNzJhUDRxMm5lSWxJbFZqdnNjenBQT0s1ek51V1B3M21ELWY4T3pmN3hHalhBTmFLQUMwd0tEdGw?oc=5",
+      "sourceName": "SiliconANGLE",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiANBVV95cUxOSzF5T0FBVFUyeVdhUEVlcjhpaVpZeDhPdlVpYzNCSmZ4UFhfdFQ5UVhGWjNUakdOQXhIcFowRTZmR0ZLOUEyaFlGcVAtZXVCdjUzMTFnSHV0UHl2ZWhZTUNKOVNhRXdvV2FNYXpsZ1ZXc0Z5YkJLSjFOZXRWVUVEdXlQUDJnV25ZYkc5UVMzMUZKYWRMb2ZyY3NkVVFZWWNEcjlRdVNvYUxsU2ROUEVzTlRLZWJTclhtQ0ZyZkJQRENwS3kyUW0xeDBGN0RZM2VpSEVwMnc0aFhBUEVrZV9DZGkwcEljWF9TVUtyWXdEck5ySmhtOGJMejVwSXRXS0F5VEFIOHY4YWhxUVN6WEwybmphdUw3LXZjeFpkNUFfVnA3M0pkR3p0amZNQnVJbk03cENUV1drWE9NM0JZRU9IYXNZbjA1RkZDZmZISVhIZHRKdnpLY1pKbGxZNmNWN09fYmtkMmZkZWlkSnIwWVUza0k0VkdRbnB4OHZ2eFhWVWotSjlWR215Uw?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Qualtrics Acquires Press Ganey Forsta",
-          "subtitle": "Expanding Experience Management Category Leadership"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Qualtrics acquired Press Ganey Forsta for $6.75 billion",
-            "The acquisition expands Qualtrics' experience management category leadership",
-            "The deal creates the world's largest AI dataset for human experiential context",
-            "The acquisition was announced on 18 May 2026"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition is a significant investment in experience management",
-            "Qualtrics' expanded dataset will drive innovation in AI",
-            "The deal highlights the growing importance of human experiential context in AI development",
-            "Source: PR Newswire, 18 May 2026"
-          ]
-        }
-      },
-      "caption": "Qualtrics has acquired Press Ganey Forsta for $6.75 billion, expanding its experience management category leadership. What does this mean for the future of AI development? How will Qualtrics' expanded dataset drive innovation in AI? #AI #Acquisition #ExperienceManagement #Innovation #Tech",
-      "questions": "What does this mean for the future of AI development? How will Qualtrics' expanded dataset drive innovation in AI?"
-    },
-    {
-      "id": 3,
-      "topic": "AI Encyclical",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N9",
-      "eventDate": "18 May 2026",
-      "sourceName": "News18",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd01ZZl84ZElSX2NkVlowTDIwanYtTEQ1d3BqTjNwdGh2ZDQ3TFY5bFhsX3pnSmw1YXpVcFJiVXJRRjZRRmVvVWo1RDlmSy0yYnAxREhZdldnSGI3ZENsN0g0ajBJcTJoOC10SG03bzVZa0RZdVpGTjdBLVlMd2N6eWZsVGFnZ3lVcGVIUWJkQWJSLVk4clA2eFJ3dW9ndGpGeVhhcXU5ZHo1eUcwZ3FrX0EtQkxUZExDZlBIc09ILURJVTJCOVdyX1B0X3DSAdIBQVVfeXFMTmdzYUVDUXlrMDBJUGdtRzFvUjFaVlN5MVppeGRlWXVlT0hKUzZRQWc3aS02cnRCNmd6WDVWaUJrMEJvYVBUc1o2OWpxek1URHZaN1JaYTEybm9YOGZxRXUtX2ZacGFFQXFBbURpTlF3MHVsYjRXVC1SR0NoQmVFTXB0a2t1TkQ0QVlrRTJuOExqUEV6TU9NUDgxOGZZYWJPZ2luaDBWRVhjeC0tdlBJNXV5U3FUcVBLclozcV83MVk3alVpYVpSTFM1dnVmSXItbS1n?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Pope to Launch AI Encyclical",
-          "subtitle": "A new perspective on AI and humanity"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 18 May 2026",
-            "The Pope will launch an AI encyclical on May 25",
-            "The encyclical will provide a new perspective on AI and humanity",
-            "The launch is a collaboration between the Pope and Anthropic",
-            "The encyclical will explore the implications of AI on society"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The encyclical will provide a unique perspective on AI and humanity",
-            "The launch highlights the growing importance of AI in society",
-            "The collaboration between the Pope and Anthropic is a significant development in AI ethics",
-            "Source: News18, 18 May 2026"
-          ]
-        }
-      },
-      "caption": "The Pope will launch an AI encyclical on May 25, providing a new perspective on AI and humanity. What does this mean for the future of AI ethics? How will the encyclical impact the development of AI? What role will the Pope's perspective play in shaping the future of AI? #AI #Encyclical #Ethics #Society #Innovation",
-      "questions": "What does this mean for the future of AI ethics? How will the encyclical impact the development of AI?"
+      "eventDate": "19 May 2026"
     }
   ]
 }

@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-21",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Finance Startup",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Revolutionizing Finance with AI",
+          "subtitle": "A new era of financial technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 May 2026",
+            "Iranian-born Israeli entrepreneur raises $6 million for AI finance startup Arito",
+            "Arito aims to disrupt traditional finance with AI-powered solutions",
+            "The funding round is a significant milestone for the company",
+            "Arito plans to use the funds to expand its operations and develop new products"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The investment in Arito highlights the growing interest in AI-powered finance",
+            "Arito's innovative approach to finance has the potential to transform the industry",
+            "The company's success could pave the way for other AI-driven finance startups",
+            "Source: CTech, 20 May 2026"
+          ]
+        }
+      },
+      "caption": "The future of finance is here! Iranian-born Israeli entrepreneur raises $6 million for AI finance startup Arito. What does this mean for the industry? How will Arito's AI-powered solutions disrupt traditional finance? Questions to consider: What are the potential risks and benefits of AI-powered finance? How will regulatory bodies respond to the growth of AI-driven finance startups? #AIFinance #Startup #Innovation #Finance #Technology #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BTHpFbmdRZDFZcHpnMkt6c3VYWlFhOEx0WkJKVjBZY0k0bVNpRFVxdVdWZGtmcGpJeUpqanU3TlQzdGRXNUh3ZzRQTmVJdU41dWwxXy1wcmZZVlhwcmZTVFpWV2NSWnVH?oc=5",
+      "sourceName": "CTech",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "20 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "SpaceX IPO",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Accelerates IPO Plans",
+          "subtitle": "Aiming for a June 12 Nasdaq debut"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 May 2026",
+            "SpaceX accelerates IPO, eyes June 12 Nasdaq debut",
+            "The company is targeting a record-breaking listing",
+            "SpaceX has not disclosed the expected valuation",
+            "The IPO is expected to be one of the largest in history, with some estimates suggesting a valuation of over $100 billion"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The SpaceX IPO will be a significant event in the space industry",
+            "The listing will provide a major boost to the company's finances",
+            "SpaceX plans to use the funds to develop new technologies and expand its operations",
+            "The IPO will also provide a benchmark for other space companies"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The SpaceX IPO is a significant milestone for the space industry",
+            "The company's innovative approach to space technology has disrupted the traditional space industry",
+            "The listing will provide a major boost to the company's finances and pave the way for further innovation",
+            "Source: MSN, May 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX is accelerating its IPO plans, aiming for a June 12 Nasdaq debut. What does this mean for the space industry? How will the listing impact SpaceX's finances and operations? Questions to consider: What are the potential risks and benefits of investing in SpaceX? How will the IPO impact the company's ability to innovate and expand its operations? #SpaceX #IPO #SpaceIndustry #Innovation #Finance #Technology",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZTJ0T19uS3RMTDAzWVdJeGtkZ1JFeDN1SDUxaFNnZE5OcWx4SDJsWTlRbWw5VDQtMUZfdFJRbzF0NHp1dldMWnlPa0t3RW5CSkdxTDVPV3ItTk5RdE5UbFpEQ1pSeG5DTjdtQUZTbnVic1pvVHVXRU9EX0RkVW9zUy1BZmpud0p0NTUxSjhIT3VILUNEWnZEeFdpdzdWYWEtcWwzWnZMT19rS09hdnNodFdEOVZ1RUxyaHZXY3F4cmI3UUFhZFpyUmFFZ0g2Q1VZZVczZFNn?oc=5",
+      "sourceName": "MSN",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "18 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security Acquisition",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Torq Acquires Jit for AI Security Boost",
+          "subtitle": "A significant expansion of Torq's AI security platform"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 19 May 2026",
+            "Torq acquires Jit for an estimated $70 million",
+            "The acquisition is a significant expansion of Torq's AI security platform",
+            "Jit's technology will be integrated into Torq's platform",
+            "The acquisition will enhance Torq's ability to detect and prevent AI-driven cyber threats"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI in cybersecurity",
+            "Torq's expanded platform will provide enhanced security capabilities for its customers",
+            "The acquisition will also drive innovation in the AI security industry",
+            "Source: CTech, 19 May 2026"
+          ]
+        }
+      },
+      "caption": "Torq has acquired Jit for an estimated $70 million, expanding its AI security platform. What does this mean for the cybersecurity industry? How will the acquisition impact Torq's ability to detect and prevent AI-driven cyber threats? Questions to consider: What are the potential risks and benefits of using AI in cybersecurity? How will the acquisition drive innovation in the AI security industry? #AISecurity #Cybersecurity #Acquisition #Innovation #Technology #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCaDBHcHBKUndLYm9ZX1hWbWdaN043RDhXWEVuNWpJYlhLY3ZmM1U2Q2MyWjgzcm93S1ltWkNUcEcxcGhVc0U3ejZaRko3T0lmdW5QTmFvN0w5YlU5dHdOZ3BKa1lxYm05?oc=5",
+      "sourceName": "CTech",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "19 May 2026"
+    }
+  ]
+}

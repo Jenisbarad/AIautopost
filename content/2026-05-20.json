@@ -8,135 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Startup Funding",
-      "slides": 4,
-      "svgIcon": "brain",
+      "topic": "AI Security Advances",
+      "slides": 3,
+      "svgIcon": "shield",
       "sourceId": "N6",
-      "eventDate": "19 May 2026",
-      "sourceName": "SiliconANGLE",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVJOU1MwcG5QSzJKNW16dG9EZE9vZ3d4b0tsc1NNQ2FJNm5rMkVZSGo2S0tfSVdQLWtsWXVrMTdaWmg5MF9BelE0cENwUWtwVHJYa3BrdmZOVDhRaGRHTEhOM25YWU5FdlZCNWVtRDgyQmt5YnN5dFhUTFlTNzJhUDRxMm5lSWxJbFZqdnNjenBQT0s1ek51V1B3M21ELWY4T3pmN3hHalhBTmFLQUMwd0tEdGw?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Enterprise AI startup Unframe raises $50M",
-          "subtitle": "After booking $100M in contract value in year one"
+          "headline": "Check Point Acquires Deepchecks",
+          "subtitle": "Advancing AI Security Platform"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 19 May 2026",
-            "Unframe raised $50M in funding",
-            "Booked $100M in contract value in year one",
-            "Sequoia and other investors participated",
-            "Unframe aims to fix the enterprise AI productivity gap"
+            "Check Point acquired Israeli AI startup Deepchecks’ team and technology.",
+            "The acquisition aims to advance Check Point’s AI security platform.",
+            "No financial details were disclosed.",
+            "This move highlights the growing importance of AI in cybersecurity."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "Unframe's funding will help them expand their operations",
-            "Their AI technology can improve enterprise productivity",
-            "The $100M contract value is a significant milestone",
-            "Unframe is poised for further growth"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Unframe's success is a testament to the growing demand for AI solutions",
-            "Their technology can help enterprises streamline their operations",
-            "The $50M funding will help Unframe develop new products",
-            "Source: SiliconANGLE, May 2026"
+            "The acquisition demonstrates the increasing demand for AI-powered security solutions.",
+            "Check Point’s move is expected to enhance its competitiveness in the market.",
+            "The integration of Deepchecks’ technology will likely improve Check Point’s threat detection capabilities.",
+            "As cyber threats evolve, AI-driven security solutions become crucial for protection."
           ]
         }
       },
-      "caption": "Unframe, an enterprise AI startup, has raised $50M in funding after booking $100M in contract value in year one. This significant milestone demonstrates the growing demand for AI solutions in the enterprise sector. What does this mean for the future of AI adoption in businesses? How will Unframe's technology impact the industry? #AI #Startup #Funding #Enterprise #Productivity #Innovation",
-      "questions": "Questions to consider: What are the implications of Unframe's funding for the AI industry? How will their technology impact enterprise productivity?"
+      "caption": "Check Point has acquired Israeli AI startup Deepchecks to boost its AI security platform. This move underscores the rising importance of AI in cybersecurity. Questions to consider: How will this acquisition impact the cybersecurity landscape? What role will AI play in shaping the future of threat detection? #AI #CyberSecurity #Acquisition #CheckPoint #Deepchecks #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8ySXI0OVZJOGtKUzc2Z2x1djF3eFdOSVMtbTN0dU9QMWF0UENUVzVvY3kzNVlmU0l5R29xVmN4c0hZemhNX0RCcnRDS2pjUm9ZMWpmb2tTbG1qYlRiQV9hWF9LTEVIQUtw?oc=5",
+      "sourceName": "CTech",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "19 May 2026"
     },
     {
       "id": 2,
-      "topic": "AI Security Acquisition",
+      "topic": "Verizon Breach Report",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N9",
-      "eventDate": "19 May 2026",
-      "sourceName": "CTech",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8ySXI0OVZJOGtKUzc2Z2x1djF3eFdOSVMtbTN0dU9QMWF0UENUVzVvY3kzNVlmU0l5R29xVmN4c0hZemhNX0RCcnRDS2pjUm9ZMWpmb2tTbG1qYlRiQV9hWF9LTEVIQUtw?oc=5",
+      "svgIcon": "network",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "Check Point acquires Israeli AI startup Deepchecks",
-          "subtitle": "To advance AI security platform"
+          "headline": "Verizon’s 2026 Breach Report",
+          "subtitle": "AI Shrinks Defense Time to Hours"
         },
         "slide2": {
-          "title": "WHAT HAPPENED",
+          "title": "KEY FINDINGS",
           "lines": [
-            "Event date: 19 May 2026",
-            "Check Point acquired Deepchecks' team and technology",
-            "The acquisition will advance Check Point's AI security platform",
-            "Deepchecks' technology can detect AI-related security threats",
-            "The acquisition amount was not disclosed"
+            "Event date: 20 May 2026",
+            "Verizon’s 2026 Breach Report reveals that AI has significantly reduced defense time to hours.",
+            "The report highlights the effectiveness of AI in responding to breaches.",
+            "In 2026, the average defense time has decreased substantially thanks to AI-powered solutions.",
+            "This reduction in defense time can significantly minimize the impact of breaches."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition demonstrates the growing importance of AI security",
-            "Check Point's AI security platform will be enhanced by Deepchecks' technology",
-            "The acquisition will help Check Point stay ahead of emerging security threats",
-            "Source: CTech, 19 May 2026"
+          "title": "IMPLICATIONS",
+          "lines": [
+            "The report’s findings emphasize the importance of AI in cybersecurity.",
+            "Organizations can leverage AI to enhance their breach response capabilities.",
+            "As AI technology continues to evolve, we can expect even more efficient defense mechanisms.",
+            "The integration of AI in breach response will likely become a standard practice in the industry."
           ]
         }
       },
-      "caption": "Check Point has acquired Israeli AI startup Deepchecks to advance its AI security platform. This acquisition highlights the increasing importance of AI security in the industry. What are the implications of this acquisition for the future of AI security? How will Deepchecks' technology enhance Check Point's platform? #AI #Security #Acquisition #Innovation",
-      "questions": "Questions to consider: What are the potential benefits of integrating Deepchecks' technology into Check Point's platform? How will this acquisition impact the AI security landscape?"
+      "caption": "Verizon’s 2026 Breach Report shows that AI has reduced defense time to hours. This significant reduction in defense time can minimize the impact of breaches. Questions to consider: How will AI continue to evolve in breach response? What are the potential challenges in implementing AI-powered security solutions? #AI #BreachResponse #CyberSecurity #Verizon #ArtificialIntelligence #DefenseTime",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObERhSFRVM21lQmlUXzIxNDN4aXRHRnY2SjVuUTZXLUpOeXNBQzE0MjRKNTBVbTl5czR0dXBScTBSdVVwWFprbDduTzRHaVRlV0d5N1I4TGVBS0FoR25jd3VVQk5mMGRxX2VDSVh2Nk56SlRSdXVGU2xRMkRpT1ZVd3c2SkYxbG9aamc?oc=5",
+      "sourceName": "Technology Org",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "20 May 2026"
     },
     {
       "id": 3,
-      "topic": "AI Chipmaker IPO",
+      "topic": "Qualtrics Acquisition",
       "slides": 4,
-      "svgIcon": "chip",
-      "sourceId": "N7",
-      "eventDate": "14 May 2026",
-      "sourceName": "CNBC",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tdTRxS3d0Z1pXY2VHeG13WHo4Z2dRUzluWDhqT0tyeUU5dVdiZUV6c01ZbTZVQXp2T0RWNEtEQ2NFSHlIVXJqSkJUalZwUERiNDEyaTE5TGJzTVUzT1RVSl9XUEFjX0o5MVVvNW9UNWtOQUtPbFBMc2h6U08td9IBgwFBVV95cUxPaTJEWlJwLTQxaWROcEhheThoV1ZGWGUwdDM1Q3p0MEF6ZFdabmpLS3dUQncyXzRMNjJCVmg4MlVSb2M2SXBxS29WNE5MTXl3TzNvOEFNdExkYUwtSVRIck9aa3BFRmM0dnN1ai1uWTlfR2ItalBwR3pCeUVtWWY2ZXNjdw?oc=5",
+      "svgIcon": "database",
+      "sourceId": "N8",
       "slideContent": {
         "slide1": {
-          "headline": "Cerebras pops 68% in Nasdaq debut",
-          "subtitle": "Pushing the AI chipmaker's market cap to $95 billion"
+          "headline": "Qualtrics Acquires Press Ganey Forsta",
+          "subtitle": "Expanding Experience Management Leadership"
         },
         "slide2": {
-          "title": "WHAT HAPPENED",
+          "title": "ACQUISITION DETAILS",
           "lines": [
-            "Event date: 14 May 2026",
-            "Cerebras' IPO debuted with a 68% increase",
-            "The company's market cap reached $95 billion",
-            "Cerebras is a leading AI chipmaker",
-            "The IPO is one of the largest in the AI sector"
+            "Event date: 18 May 2026",
+            "Qualtrics acquired Press Ganey Forsta for $6.75 billion.",
+            "The acquisition expands Qualtrics’ experience management leadership in healthcare AI.",
+            "The deal creates the world’s largest AI dataset for human experiential context.",
+            "This acquisition is expected to enhance Qualtrics’ capabilities in the healthcare sector."
           ]
         },
         "slide3": {
-          "title": "WHY IT MATTERS",
+          "title": "STRATEGIC IMPACT",
           "lines": [
-            "Cerebras' IPO demonstrates the growing interest in AI chipmakers",
-            "The company's technology can improve AI processing efficiency",
-            "The $95 billion market cap is a significant milestone",
-            "Cerebras is well-positioned for future growth"
+            "The acquisition demonstrates Qualtrics’ commitment to expanding its experience management capabilities.",
+            "The integration of Press Ganey Forsta will likely enhance Qualtrics’ position in the healthcare AI market.",
+            "The combined entity will have access to a vast amount of data, enabling more accurate insights.",
+            "This strategic move is expected to drive growth and innovation in the industry."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Cerebras' IPO success will likely attract more investment in AI chipmakers",
-            "The company's technology can enable faster and more efficient AI processing",
-            "The $95 billion market cap is a testament to the growing importance of AI in the tech industry",
-            "Source: CNBC, May 2026"
+            "The acquisition highlights the growing importance of AI in healthcare.",
+            "Qualtrics’ expanded capabilities will likely drive innovation in experience management.",
+            "The creation of the world’s largest AI dataset for human experiential context is a significant milestone.",
+            "Source: PR Newswire, May 2026"
           ]
         }
       },
-      "caption": "Cerebras, a leading AI chipmaker, has debuted on the Nasdaq with a 68% increase, pushing its market cap to $95 billion. This significant milestone demonstrates the growing interest in AI chipmakers. What are the implications of Cerebras' IPO for the AI industry? How will their technology impact the development of AI solutions? #AI #IPO #Chipmaker #Innovation",
-      "questions": "Questions to consider: What are the potential applications of Cerebras' AI chipmaking technology? How will their IPO impact the competitive landscape of the AI industry?"
+      "caption": "Qualtrics has acquired Press Ganey Forsta for $6.75 billion, expanding its experience management leadership in healthcare AI. This move highlights the growing importance of AI in healthcare. Questions to consider: How will this acquisition impact the healthcare AI landscape? What role will Qualtrics play in shaping the future of experience management? #AI #Healthcare #Acquisition #Qualtrics #PressGaneyForsta #ExperienceManagement",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiANBVV95cUxOSzF5T0FBVFUyeVdhUEVlcjhpaVpZeDhPdlVpYzNCSmZ4UFhfdFQ5UVhGWjNUakdOQXhIcFowRTZmR0ZLOUEyaFlGcVAtZXVCdjUzMTFnSHV0UHl2ZWhZTUNKOVNhRXdvV2FNYXpsZ1ZXc0Z5YkJLSjFOZXRWVUVEdXlQUDJnV25ZYkc5UVMzMUZKYWRMb2ZyY3NkVVFZWWNEcjlRdVNvYUxsU2ROUEVzTlRLZWJTclhtQ0ZyZkJQRENwS3kyUW0xeDBGN0RZM2VpSEVwMnc0aFhBUEVrZV9DZGkwcEljWF9TVUtyWXdEck5ySmhtOGJMejVwSXRXS0F5VEFIOHY4YWhxUVN6WEwybmphdUw3LXZjeFpkNUFfVnA3M0pkR3p0amZNQnVJbk03cENUV1drWE9NM0JZRU9IYXNZbjA1RkZDZmZISVhIZHRKdnpLY1pKbGxZNmNWN09fYmtkMmZkZWlkSnIwWVUza0k0VkdRbnB4OHZ2eFhWVWotSjlWR215Uw?oc=5",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "18 May 2026"
     }
   ]
 }

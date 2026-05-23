@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-23",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX IPO",
+      "slides": 3,
+      "svgIcon": "rocket",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Files for Nasdaq IPO",
+          "subtitle": "A new era for space technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 May 2026",
+            "SpaceX filed for a Nasdaq IPO on May 21, 2026",
+            "The company is targeting a June 12 listing",
+            "This move is expected to accelerate SpaceX's growth"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This IPO will provide SpaceX with the necessary funds to advance its space technology",
+            "The company's valuation is expected to increase significantly",
+            "This move will also impact the space industry as a whole"
+          ]
+        }
+      },
+      "caption": "SpaceX has filed for a Nasdaq IPO, marking a new era for the company. With a target listing date of June 12, this move is expected to accelerate SpaceX's growth. But what does this mean for the space industry? Questions to consider: How will this IPO impact SpaceX's competitors? What new technologies can we expect from SpaceX in the future? #SpaceX #IPO #Nasdaq #SpaceTechnology #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRGJPV2tsTTRUNlJ6eURXd0Fpc3A2dVZ3YUlHZGVTM3ZVcFhIZ2o5Q2NoTGFESUNuRTFSb19XaDBfeWFpR0JPNngxLXprUS1NOENFd1V6VnR6QVRmOHpwdXpydldIdE5SZ3B3RXN0c05iek5lekoyeExZUVB0WTBEX0tha0E3dw?oc=5",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "21 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Rise of Zero-Day Exploits",
+          "subtitle": "A new threat to WordPress plugins"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 May 2026",
+            "A recent report revealed that zero-day exploits are being sold for as low as $20",
+            "This has significant implications for WordPress plugin security",
+            "The report highlighted the need for increased security measures"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Zero-day exploits can have devastating consequences for websites and their users",
+            "The low cost of these exploits makes them more accessible to attackers",
+            "This highlights the need for website owners to prioritize security"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The report highlights the importance of keeping WordPress plugins up to date",
+            "Website owners should prioritize security measures to prevent zero-day exploits",
+            "Source: Help Net Security, May 2026"
+          ]
+        }
+      },
+      "caption": "A recent report revealed that zero-day exploits are being sold for as low as $20, highlighting a new threat to WordPress plugin security. But what does this mean for website owners? Questions to consider: How can website owners protect themselves from zero-day exploits? What are the consequences of a successful zero-day attack? #AI #Security #WordPress #ZeroDay #Exploits",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSzA1aDBUeTA1Vm94UWlCWkZWRndaRnRiYVpodVdoOVZNMFVzUnh6Q0lERzNESnFlVWp0Mkc2NzRKNWUtWHdKNmdiajdhRHVjZldQWnpKMWVBbTlJVHBzelFwM0d0NUJvcm9jQUg1UzZQTFR2NmRzbkhxYllSLWdzMVdITGxLUQ?oc=5",
+      "sourceName": "Help Net Security",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "22 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "Startup Raises $1.3 Billion for AI Grid",
+          "subtitle": "A significant investment in AI technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 23 May 2026",
+            "A startup has raised $1.3 billion for an AI grid",
+            "This investment will be used to advance AI technology",
+            "The company plans to use the funds to expand its operations"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment highlights the growing importance of AI technology",
+            "The company's AI grid has the potential to revolutionize industries",
+            "This move is expected to have significant implications for the AI industry"
+          ]
+        }
+      },
+      "caption": "A startup has raised $1.3 billion for an AI grid, marking a significant investment in AI technology. But what does this mean for the future of AI? Questions to consider: How will this investment impact the development of AI technology? What are the potential applications of an AI grid? #AI #Funding #Startup #Innovation #Technology",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSV9pZ05IcTBEWVhTMndIZ1plc1ZONHNQT2Vrbm42TC10QnIyOG1jWTB3bmhtbzkxTWRHTzBQdnhNY2ZJWjVMaFRXQ3I0cTVJRnQyaldTZVNFMkRyNHIzNEtBdW93UXRNaGlYV1ZSODJYQlBBMXQ2N09hRjQ0QkRYd2xnU1o1UnczUFpUU25VQjQ5aEVO?oc=5",
+      "sourceName": "The Star",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "23 May 2026"
+    }
+  ]
+}

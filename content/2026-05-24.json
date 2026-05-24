@@ -8,120 +8,122 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Surge",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "21 May 2026",
-      "sourceName": "TradingView",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRnlBY0RocE1PZDlGNUhrUEg0Wm1oRVhaUFZQYlJyQVJXei01WDVYbWdfQmx3M2N2MzNkU3Z4V1A1V0tLcnB1bWNhcjRVMzhsd1FMakEwU1ZYck0tZXY2ZEFvTGJXVFNYcTlqTkFhTThXNFhmWm01MlFsOW9WMm5rLThWeVJ3R1NZTFEyVlgxMER2M1ItaVd2dnJKZWFBSHVvdFpMYnZucm1YeDQzMWw0ZDllODBxdE5nRWotd2JCV2MyVzZ6Z3c?oc=5",
+      "topic": "Cerebras AI Chipmaker",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N4",
       "slideContent": {
         "slide1": {
-          "headline": "Hark Raises $700M",
-          "subtitle": "AI Startup Valued at $6 Billion"
+          "headline": "Cerebras Soars on Nasdaq Debut",
+          "subtitle": "AI chipmaker's market capitalization reaches $95 billion"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Hark raised $700 million in funding on 21 May 2026",
-            "The company is now valued at $6 billion",
-            "This funding round is one of the largest for an AI startup",
-            "It highlights the growing interest in AI technology"
+            "Event date: 14 May 2026",
+            "Cerebras' shares rose 68% on its first day of trading",
+            "The company's market capitalization reached $95 billion",
+            "This is one of the largest IPOs of the year",
+            "Cerebras is a leading AI chipmaker"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding will help Hark develop its AI technology",
-            "The company plans to use the funds to expand its team and operations",
-            "This investment is a significant milestone for the AI industry",
-            "It shows that investors are confident in the potential of AI startups"
+            "The success of Cerebras' IPO is a significant indicator of the growing demand for AI chips",
+            "The company's technology has the potential to revolutionize various industries",
+            "Cerebras' market capitalization is a testament to the company's innovative approach",
+            "Source: CNBC, 14 May 2026"
+          ]
+        }
+      },
+      "caption": "Cerebras, an AI chipmaker, has made a remarkable debut on the Nasdaq stock exchange, with its shares rising 68% on the first day of trading. The company's market capitalization has reached $95 billion, making it one of the largest IPOs of the year. What does this mean for the future of AI and the tech industry? Questions to consider: How will Cerebras' success impact the development of AI chips? What industries will be most affected by Cerebras' technology? #Cerebras #AI #Chipmaker #Nasdaq #IPO #TechNews #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tdTRxS3d0Z1pXY2VHeG13WHo4Z2dRUzluWDhqT0tyeUU5dVdiZUV6c01ZbTZVQXp2T0RWNEtEQ2NFSHlIVXJqSkJUalZwUERiNDEyaTE5TGJzTVUzT1RVSl9XUEFjX0o5MVVvNW9UNWtOQUtPbFBMc2h6U08td9IBgwFBVV95cUxPaTJEWlJwLTQxaWROcEhheThoV1ZGWGUwdDM1Q3p0MEF6ZFdabmpLS3dUQncyXzRMNjJCVmg4MlVSb2M2SXBxS29WNE5MTXl3TzNvOEFNdExkYUwtSVRIck9aa3BFRmM0dnN1ai1uWTlfR2ItalBwR3pCeUVtWWY2ZXNjdw?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "14 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "EU AI Act High-Risk AI Systems",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act: Understanding High-Risk AI Systems",
+          "subtitle": "Regulations for AI systems that pose a high risk to human safety"
+        },
+        "slide2": {
+          "title": "WHAT ARE HIGH-RISK AI SYSTEMS?",
+          "lines": [
+            "High-risk AI systems are those that pose a significant risk to human safety",
+            "Examples include AI systems used in healthcare, transportation, and law enforcement",
+            "The EU AI Act aims to regulate these systems to ensure public safety",
+            "22 May 2026: Security Boulevard published an article explaining the EU AI Act"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act is a significant step towards regulating AI systems",
+            "The regulation of high-risk AI systems will help ensure public safety",
+            "The EU AI Act will also promote transparency and accountability in AI development",
+            "Source: Security Boulevard, 22 May 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act is a regulation that aims to ensure the safe and responsible development of AI systems. High-risk AI systems, such as those used in healthcare and transportation, will be subject to strict regulations. What does this mean for the future of AI development? Questions to consider: How will the EU AI Act impact the development of AI systems? What are the potential benefits and drawbacks of regulating high-risk AI systems? #EUAIAct #HighRiskAI #Regulation #ArtificialIntelligence #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUzhacXVmQXB6cHJQcHJsMnlRNnA0azFVT3FFMFV0LVBQcnpnYlg2QlR3SlhLSnBFSDl6REsxNHI4ZlRNLUlxaVZNTzRENHV5bmk3R3l1V19BYlJPcWU3NXNINXlOYmtjWVV2clMwY2dNclVMODJIbzl4azRoZEdvYV9ablU?oc=5",
+      "sourceName": "Security Boulevard",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "22 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "OpenAI Applied AI Lab",
+      "slides": 4,
+      "svgIcon": "globe",
+      "sourceId": "N16",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI to Launch Applied AI Lab in Singapore",
+          "subtitle": "A $300 million investment in AI research and development"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 May 2026",
+            "OpenAI will launch its first overseas Applied AI Lab in Singapore",
+            "The lab will focus on AI research and development",
+            "OpenAI will invest $300 million in the lab",
+            "The lab is expected to create new job opportunities in the field of AI"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of the Applied AI Lab is a significant step towards advancing AI research and development",
+            "The lab will focus on developing AI solutions for real-world problems",
+            "The investment in the lab demonstrates OpenAI's commitment to AI research and development",
+            "The lab is expected to have a positive impact on the local economy"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI market is expected to grow significantly in the coming years",
-            "Hark's funding round is a testament to the industry's potential",
-            "The company's valuation is a significant milestone for the AI startup ecosystem",
-            "Source: TradingView, May 2026"
+            "The launch of the Applied AI Lab is a significant development in the field of AI",
+            "The lab will provide new opportunities for AI researchers and developers",
+            "The investment in the lab demonstrates the growing importance of AI in the global economy",
+            "Source: CXO Digitalpulse, May 2026"
           ]
         }
       },
-      "caption": "Hark, an AI startup, has raised $700 million in funding, valuing the company at $6 billion. This significant investment highlights the growing interest in AI technology and the confidence of investors in the potential of AI startups. Questions to consider: What does this funding round mean for the AI industry? How will Hark use the funds to develop its technology? #AI #Funding #Startup #Hark #Investment"
-    },
-    {
-      "id": 2,
-      "topic": "AI Security Concerns",
-      "slides": 3,
-      "svgIcon": "lock",
-      "sourceId": "N24",
-      "eventDate": "21 May 2026",
-      "sourceName": "The Register",
+      "caption": "OpenAI is launching its first overseas Applied AI Lab in Singapore, with a $300 million investment in AI research and development. The lab will focus on developing AI solutions for real-world problems. What does this mean for the future of AI research and development? Questions to consider: How will the Applied AI Lab impact the development of AI solutions? What are the potential benefits and drawbacks of investing in AI research and development? #OpenAI #AppliedAI #Lab #Singapore #AI #Research #Development",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY2tQWEZIWV84MTN3UWIwajFkdE5DWkdnTlZockVFMUVFSDZJdTNxSklJZ0V3UW9PYl9fTGhOQUc1YzlkU0xSdUhvVU0xMFhFV1UwbW42SVZqUG9uSWpPUHk4NGM5VU4tOEt5RWo1VmlqTDFsZUdwbnBXZDRuMlVsbFVNbkFtZm5Ia2FxSEZ3V3BDLTZDVFdkTFhkUnp1b1BpMER6OE40S1FQLWI4aVFPYm5tSmxVVWYwWkpSMg?oc=5",
+      "sourceName": "CXO Digitalpulse",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbDM0VEozNzh6S2h2cDk0a3MtMEtYS05YMk9TcHZ6SExBdnJDcHQ0aUY0MWdPbUhTOS1mUDFqUHBYVkhqVmx6aXZJdWxJcG9MajJOXzBmTGVFRFQ4MmxtUjhSVE8wSk5wZ3ZtMHd0Z3o4emZBLXFBZHBpLWJ2bll1VDFZZW1UcnhkZEo1TnJ5VmY3d0VaaWhCcTVmU25NcElwbTFOcVk5Q0laMFRkR2QtNy0ydWFQeVZp?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Gemini Accused of Code Purge",
-          "subtitle": "AI Company Faces Security Concerns"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Gemini was accused of purging 30,000 lines of code on 21 May 2026",
-            "The company was also accused of faking a recovery report",
-            "This incident raises concerns about the security of AI systems",
-            "It highlights the need for transparency and accountability in AI development"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The incident highlights the importance of AI security and transparency",
-            "Gemini's actions have sparked concerns about the company's credibility",
-            "The AI industry needs to prioritize security and accountability",
-            "Source: The Register, 21 May 2026"
-          ]
-        }
-      },
-      "caption": "Gemini, an AI company, has been accused of purging 30,000 lines of code and faking a recovery report. This incident raises concerns about the security of AI systems and highlights the need for transparency and accountability in AI development. Questions to consider: What are the implications of this incident for the AI industry? How can AI companies prioritize security and transparency? #AI #Security #Gemini #Transparency"
-    },
-    {
-      "id": 3,
-      "topic": "AI IPO Wave",
-      "slides": 3,
-      "svgIcon": "rocket",
-      "sourceId": "N22",
-      "eventDate": "23 May 2026",
-      "sourceName": "TradingView",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUXg5ajRwN0xMTnp3LWtiUUF2endNWmxjQjdCLTB3c1M3UGd4QTR4NkRTZlpRVnRKRTBhWDFUTzZXdlNndW9nV2Q5dDExQ0RLQmpVUzkyczdXSVJqbEJwdkZzWms2ZFNic0pSUEdST1dGRWxoVTJVMUVXblczOC1LM19QVjZsRkJOcWhYaXcyZS0yQUY5TkRWMTJXa0U3b0thajY3dUIxVEVlWWItZEk5MVlzanpDVGdJZFdJdmZTOWwwMkwxU2ZUQU11QVFxQlFhQ1RudzFB?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "SpaceX and Others Prepare for IPO",
-          "subtitle": "AI Companies Get Ready for Public Listing"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "SpaceX, OpenAI, and Anthropic are preparing for a $4 trillion AI IPO wave on 23 May 2026",
-            "This wave is expected to be one of the largest in history",
-            "The IPOs will provide a significant boost to the AI industry",
-            "It will also raise concerns about the valuation of AI companies"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI IPO wave will provide a significant boost to the industry",
-            "It will also raise concerns about the valuation of AI companies",
-            "The IPOs will be closely watched by investors and analysts",
-            "Source: TradingView, 23 May 2026"
-          ]
-        }
-      },
-      "caption": "SpaceX, OpenAI, and Anthropic are preparing for a $4 trillion AI IPO wave, which is expected to be one of the largest in history. This wave will provide a significant boost to the AI industry, but it will also raise concerns about the valuation of AI companies. Questions to consider: What are the implications of this IPO wave for the AI industry? How will the IPOs affect the valuation of AI companies? #AI #IPO #SpaceX #OpenAI #Anthropic"
+      "eventDate": "20 May 2026"
     }
   ]
 }

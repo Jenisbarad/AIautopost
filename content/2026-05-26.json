@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-26",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Flaws",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "10,000 Vulnerabilities Discovered",
+          "subtitle": "Project Glasswing Uncovers Critical Security Flaws"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 26 May 2026",
+            "Anthropic's Project Glasswing has uncovered 10,000 vulnerabilities.",
+            "This discovery highlights the importance of AI security.",
+            "The project's findings will help improve the security of AI systems.",
+            "Anthropic's efforts will contribute to a safer AI ecosystem."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The discovery of 10,000 vulnerabilities underscores the need for robust AI security measures.",
+            "As AI becomes increasingly prevalent, ensuring its security is crucial.",
+            "Anthropic's work in this area will have a significant impact on the development of secure AI systems.",
+            "Source: csoonline.com, 26 May 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's Project Glasswing has made a significant discovery, uncovering 10,000 vulnerabilities in AI systems. This finding highlights the importance of AI security and the need for robust measures to protect against potential threats. What does this mean for the future of AI development? How will this discovery impact the security of AI systems? #AI #Security #Vulnerabilities #Anthropic #ProjectGlasswing #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3FzWEdoRzZ4MWI3TEFqbWI3Wm9Ya3ZQZ3F0QXZDa043enFrS05TYVVaek1mVXRJOXI3SjJQSEp6Mm9nUk1LTktGeU05OWxwWEp1VmpUdmsxS1NqQmdjNUd1c3lzX0pJdDhfeWRRU3pHdS1icWRNUEpJbi1ZNUdETExzbjlmdS1iMU9zLVFlamUteVY5X0MtM1dOT3F2Vmd6bGY5OVk5cW9qWjlwQ2k4?oc=5",
+      "sourceName": "csoonline.com",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "26 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N15",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Path Raises $14.3M",
+          "subtitle": "Tony Robbins' AI Mental Health Startup Secures Funding"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 May 2026",
+            "The Path, a mental health startup founded by Tony Robbins, has raised $14.3M in funding.",
+            "This investment will support the development of the company's AI-powered mental health platform.",
+            "The platform aims to provide personalized mental health support to users.",
+            "The funding round was led by prominent investors."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will enable The Path to expand its operations and improve its AI-powered platform.",
+            "The company's platform has the potential to revolutionize the mental health industry.",
+            "The investment in The Path highlights the growing interest in AI-powered mental health solutions.",
+            "The company's success will depend on its ability to deliver effective and personalized support to users."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Path's funding round demonstrates the growing interest in AI-powered mental health solutions.",
+            "The company's platform has the potential to improve mental health outcomes for users.",
+            "The investment in The Path will support the development of innovative AI-powered solutions.",
+            "Source: MobiHealthNews, May 2026"
+          ]
+        }
+      },
+      "caption": "The Path, a mental health startup founded by Tony Robbins, has raised $14.3M in funding. This investment will support the development of the company's AI-powered mental health platform. What does this mean for the future of mental health support? How will The Path's platform improve mental health outcomes for users? #AI #MentalHealth #ThePath #TonyRobbins #Funding #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2ttcVZzYk40ajc3MEFodVZSbXJDeU12b2hvaG12NzRORFJGLWVBSF9RWENhY3pYOEt3Tm12Yzh0ZmkydGotS011RXlZYVQ2LXh4cmRzcGZUdjVOY0RVSm1mbnNiU2o5M25uWmEyQ1ZNVmdaWWdYWGFMQmFtT0hNSWptVDR5MXBKVUxDZUQ4ckRORXJz?oc=5",
+      "sourceName": "MobiHealthNews",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "21 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Regulation Concerns",
+          "subtitle": "Demant Valuation Assessed Amidst Regulatory Uncertainty"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 May 2026",
+            "The EU's AI regulation concerns have led to an assessment of Demant's valuation.",
+            "The company's valuation is being evaluated amidst regulatory uncertainty.",
+            "The EU's regulations will have a significant impact on the development of AI systems.",
+            "Demant's valuation will depend on its ability to adapt to the changing regulatory landscape."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU's AI regulations will have a significant impact on the development of AI systems.",
+            "Demant's valuation will be affected by the company's ability to comply with the regulations.",
+            "The regulations will shape the future of AI development in the EU.",
+            "Source: simplywall.st, 25 May 2026"
+          ]
+        }
+      },
+      "caption": "The EU's AI regulation concerns have led to an assessment of Demant's valuation. The company's valuation will depend on its ability to adapt to the changing regulatory landscape. What does this mean for the future of AI development in the EU? How will the regulations impact the development of AI systems? #AI #Regulation #EU #Demant #Valuation #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmkxbUxIeDFyTUg3UXZ0QVliNGRJeGJ3WGh1RHNueTNfUmFoTkphTXpIcW9yU3p1aFpZRHdrc0otd2JoWmdVa1dNU2lRYmQtSWVnc3dNWjdRaDQ3MTJNc0tyd1QzeVRnT1ZTS1RzcG9rODRhenhKVnN5TVlXMTdYWU5VclRFUWE1SElEaDV4N0FPNjJmbnlPT2xGcWVyUHNEaXdLMXpGa25BRmI3OTVTejV3cE1SaFNsVnlhYnFSc0RRMFZhcTRwRU04ZTF6QdIB0wFBVV95cUxPNTk2aVJOcnBaOGNhQldTQXBkN1hBTkpRLWFwcUhUSmhPd25QMmM3SzhaZEdXMmFrWXpYN2c5UGJtaVU0S1ZxRFZ0R1kzakZfTjdKbVVNVVNXT092cVR2ZHdsV0lwNnVrZE5MTjRDYVI5Ym9iVkJPWXVNQk9IMzZmOXBYSXdpekFpdjYyQXBhZ18tOEkyUWRObkZ3b0FWV0lhOFJKUnE2dlE0blFhcVhyVW4zdUhoU0h3MndYdnpkWV9nQ1RXWTVuNFJRdzd3ZnhrY1V3?oc=5",
+      "sourceName": "simplywall.st",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "25 May 2026"
+    }
+  ]
+}

@@ -8,123 +8,135 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Security Threats",
-      "slides": 4,
+      "topic": "AI Security Risks",
+      "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N12",
+      "sourceId": "N7",
       "eventDate": "26 May 2026",
-      "sourceName": "The News International",
+      "sourceName": "CX Today",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcDExTEpzbGJ2V0hlQlpyTVVnTU93MFdWUVNHTDAzODk3S3cyd3VpYTV3OWlXLVZIMy1GWXpJalVDcVY4bGRmcnZnaTdUTEU3a2U4S3hKdi1mdlZxcE9BQ3oxUlZnRHRELUZib1J5SWZQdnY0d1R6ZzBYXzlSSm5IX0owUjhqYjNqWFZ1MDFnMEFQS21wMmRzcC15VkhTYTU4VVZfbFMtVjh6bjBjdmg1dEk5c25pREtqeHc5T05MUQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOFBjUWwzY1dSV05CM0FRV2pzQVVpYkd1WGxGbS1XbHcxU1dHeXB1cGtUTzE1b2hPV1lqZEItQjRkNkhjakQ5bGNEcUtjcTgxdFo3SllCQjgyeXQzZGc0bTBvSzRGS2gyekx3aHdZVU9DaDRCckJNT1V3Y25sUUNERWhndXFJelBOSkVVTGlkTnhPazYxRy1LTS1Lam9QSWF3cDJSMEt5QW82SklNMWlJMndVdXpmYUNtSXoyN1VDazFtVWJGQXFIWElxTDZIVVFCeENZU19ieEdVWnJfSVNGalRoSTk?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Google Warns of AI-Helped Hackers",
-          "subtitle": "New Cyber Security Flaws Emerge"
+          "headline": "Anthropic's Mythos-Class Release",
+          "subtitle": "Security Risks Accelerate"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 26 May 2026",
-            "Google warned that AI helped hackers create a new type of cyber security flaw",
-            "This flaw is considered one of the most dangerous types of cyber security threats",
-            "The number of such threats is rapidly evolving",
-            "10,000+ software flaws were recently identified by Anthropic's Claude Mythos"
+            "Anthropic's Mythos-Class release plans are putting CX leaders on alert",
+            "10,000+ software flaws were identified by Claude Mythos",
+            "This highlights the growing concern of AI security risks"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The rapid evolution of AI security threats poses significant risks to individuals and organizations",
-            "The ability of AI to create new types of cyber security flaws makes it challenging to keep up with the threats",
-            "Google's warning highlights the need for increased vigilance and investment in AI security",
-            "The impact of these threats can be devastating, with potential losses in the billions of dollars"
+            "AI security risks are becoming a major concern for companies",
+            "The identification of 10,000+ software flaws is a significant issue",
+            "Companies need to take proactive measures to address these risks"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The increasing use of AI in cyber attacks is a major concern for security experts",
-            "The ability of AI to learn and adapt makes it a powerful tool for hackers",
-            "The need for AI security solutions is becoming increasingly important",
-            "Source: The News International, May 2026"
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: CX Today, May 2026"
           ]
         }
       },
-      "caption": "Google warns of AI-helped hackers creating new cyber security flaws. The rapid evolution of AI security threats poses significant risks to individuals and organizations. What are the implications of AI-powered cyber attacks? How can we stay ahead of these threats? \nQuestions to consider: What are the potential consequences of AI-powered cyber attacks? How can we develop effective AI security solutions? \n#AI #CyberSecurity #Google #Hackers #SecurityThreats #AISecurity"
+      "caption": "Anthropic's Mythos-Class release plans are putting CX leaders on alert. With 10,000+ software flaws identified by Claude Mythos, AI security risks are becoming a major concern. What measures can companies take to address these risks? \nQuestions to consider: How can companies mitigate AI security risks? What role do CX leaders play in addressing these risks? \n#AIsecurity #MythosClass #ClaudeMythos #securityrisks #CXleaders"
     },
     {
       "id": 2,
-      "topic": "SpaceX IPO",
-      "slides": 3,
-      "svgIcon": "rocket",
-      "sourceId": "N23",
-      "eventDate": "21 May 2026",
-      "sourceName": "Gotrade",
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "eventDate": "26 May 2026",
+      "sourceName": "BeBeez International",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTHdNZjlpS3RweHhURXNRckIzVElrLU0wVlU3OTVRR2JBN3hhOUt2LXpRU0RPMWJjd3E0c0JLNFlvd0dHX2VDd0NNTGdCMjNxNWlJaXprcDhCMnVZWXdndzJFcDk1ZUpVWFJJaUFRSXBnUHA0TGZIV0kybjZqYnR5MHczcw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRkFocTRJR3VGS1B5WG5XVTB1R3h3cnhaS3dyNlU1Nk9yVlV3R1ZUczIwR3dXUWZIWThOMDY2Z0ZJRnVUUFVXWVNZbjV4VGtEVEFIN0VhRnJRQTBKVE43TlltMlE2alcwa0pDTXJCZUZqdnFxM2dpaUpyZ2lPenFjYVlrNXVDbENnbTFNVTV4YXFGZ1E0cUJNMjlpcVVYbW5WLTFJZWRoNG44T2JKLUowWktOMzVDdXQ4OUtFNE1QamQ2YVp0M3pocHJ0NmRUQXJmbUxwTDlRb1M2RWNxYk02TA?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "SpaceX Files for $1.75T IPO",
-          "subtitle": "Nasdaq Debut Set for June"
+          "headline": "Certo Raises $4m",
+          "subtitle": "AI Compliance Startup"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 21 May 2026",
-            "SpaceX filed for a $1.75 trillion IPO",
-            "The company's Nasdaq debut is set for June",
-            "This will be one of the largest IPOs in history",
-            "SpaceX showed a $4.3 billion loss in its latest financial reports"
+            "Event date: 26 May 2026",
+            "Certo, an AI compliance startup, has raised $4m in seed funding",
+            "The funding round was led by Daphni",
+            "The company plans to use the funds to scale its regulatory platform"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Certo expand its platform",
+            "The company's regulatory platform is designed for beauty and CPG brands",
+            "The investment highlights the growing importance of AI compliance"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The IPO will provide SpaceX with significant funding to pursue its ambitious goals",
-            "The company's valuation is expected to be one of the highest in the tech industry",
-            "The IPO will also provide a boost to the tech industry as a whole",
-            "Source: Gotrade, May 2026"
+            "Certo's funding is a significant investment in AI compliance",
+            "The company's platform has the potential to disrupt the regulatory landscape",
+            "Source: BeBeez International, May 2026"
           ]
         }
       },
-      "caption": "SpaceX files for $1.75 trillion IPO, with Nasdaq debut set for June. The company's valuation is expected to be one of the highest in the tech industry. What are the implications of this IPO for the tech industry? How will SpaceX use the funding from the IPO? \nQuestions to consider: What are the potential risks and challenges associated with SpaceX's IPO? How will the IPO impact the company's future growth and development? \n#SpaceX #IPO #Nasdaq #TechIndustry #SpaceExploration"
+      "caption": "Certo, an AI compliance startup, has raised $4m in seed funding. The company plans to use the funds to scale its regulatory platform for beauty and CPG brands. What does this investment mean for the future of AI compliance? \nQuestions to consider: How will Certo's platform impact the regulatory landscape? What role will AI play in compliance? \n#AIcompliance #funding #Certo #regulatoryplatform #beauty #CPG"
     },
     {
       "id": 3,
-      "topic": "Cerebras IPO",
+      "topic": "AI Cloud Security",
       "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N24",
-      "eventDate": "14 May 2026",
-      "sourceName": "Bloomberg.com",
+      "svgIcon": "network",
+      "sourceId": "N8",
+      "eventDate": "26 May 2026",
+      "sourceName": "Check Point Blog",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbVdtdXdfZHRSUUpkYmFDWTd4MXA3RnFXaGotLTY1bEI1WlVOd3JyVDF6R2RYb3VPMUpHczNmMF9GUGFnM29KaUU5QVZSRTRYWlAtRDFpc1RRRVdsNFZZcXFoY083SjZnY2VUSVhFc04zR2hRYmRmUHR4OEQ3c2xRaC1CaFc1TmE2YWFjSGVZYUNVSTA5MXlrQmxmTEQtYUo3Y1FXaDZpbWw1Q3lMRXc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOa0JSMFVGVXJCY1REc2lENnpJLUhXOGtJbUlCWHgxcUxKdmMtWFgxRTN3Z3VWUE1VblVfSTdicnNyY29xNVlGQjNhQ1EzTVRDTzVmZ2V6Xzc4MV9sTERpTlZpRnRPSnhoUjhRdUVJRU9VOGhwbEozLTZLVWdGSkVwWDgwN1l6anBHMWxXTmNkc1hXazhRbEFHQmxCa0c1S0RBMVFkd2p6ejdPVVlRcTVkMHRBcmc5OVM5cThxMUliNEh5aU1sRkFDX2E3Sk15eTU3VFZEWlBqUGV4UjFDcjZSMDZfRVo3eDFDR2c0SnlKX0w1YlRLNENjel9CcUhIdFJ10gGGAkFVX3lxTE04U0JMdkJNU1luVWtGTVhzQWpLRkgybGlib2g0WWZ5ejdSWEFKOHNONkttVVZ3VTJUVjB0VWVBT0dfS19FLWpLMm1KT0c2VGF1Ulo2SWZ2WU5UekZaaUQwMm0xRDRNN0FRUUtOcWRRV29wRHVWRGsyaHgxWnp3VHpPRGFxUUczb3FaNUdiVWN0a3p4WkZZVE1RWTVFTm5WUTJWYjJKRE9rTmdpcFk0N29ReWoyR0k4ZG1UZHVzdVZueHoyeXVlZDlBeUc4OHVzUDlTZTBWcUpDcHp6V0xDdmRRLXlkZ0F5ZVZvLTREd1FsNzlfcjkzN1IwQlpvN29ZaVdGX3lFWHc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Cerebras Shares Soar 89% After IPO",
-          "subtitle": "Year's Biggest IPO"
+          "headline": "2026 Cloud Security Report",
+          "subtitle": "Traditional Security Architecture Lagging Behind"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 14 May 2026",
-            "Cerebras shares soared 89% after the company's IPO",
-            "The company's market cap reached $95 billion",
-            "This is the year's biggest IPO",
-            "The company's AI chip technology is expected to revolutionize the industry"
+            "The 2026 Cloud Security Report highlights the gap between traditional network, cloud, and security architecture",
+            "51-point gap between AI security strategy and the architecture to enforce it",
+            "78% of companies have experienced AI-related security incidents"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The report highlights the need for companies to adapt their security architecture",
+            "AI-related security incidents are becoming more common",
+            "Companies need to prioritize cloud security to mitigate these risks"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The success of Cerebras' IPO highlights the growing demand for AI chip technology",
-            "The company's valuation is a testament to the potential of the AI industry",
-            "The IPO will provide Cerebras with significant funding to pursue its goals",
-            "Source: Bloomberg.com, May 2026"
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: Check Point Blog, May 2026"
           ]
         }
       },
-      "caption": "Cerebras shares soar 89% after the company's IPO, reaching a market cap of $95 billion. The company's AI chip technology is expected to revolutionize the industry. What are the implications of this IPO for the AI industry? How will Cerebras use the funding from the IPO? \nQuestions to consider: What are the potential risks and challenges associated with Cerebras' IPO? How will the IPO impact the company's future growth and development? \n#Cerebras #IPO #AICHIP #ArtificialIntelligence"
+      "caption": "The 2026 Cloud Security Report highlights the gap between traditional network, cloud, and security architecture. With 78% of companies experiencing AI-related security incidents, what can companies do to mitigate these risks? \nQuestions to consider: How can companies adapt their security architecture to address AI-related risks? What role does cloud security play in mitigating these risks? \n#AIcloudsecurity #cloudsecurity #securityarchitecture #AIrelatedrisks"
     }
   ]
 }

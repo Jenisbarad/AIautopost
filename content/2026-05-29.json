@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-29",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's Massive Raise",
+          "subtitle": "AI startup nears $1T valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 May 2026",
+            "Anthropic raises $65 Billion",
+            "Nears $1T valuation ahead of IPO",
+            "One of the largest raises in AI history",
+            "Investment to fuel further growth and development"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment will help Anthropic further develop its AI capabilities",
+            "Including its Claude model",
+            "And expand its team to drive innovation",
+            "Source: TechCrunch, 28 May 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's massive $65 Billion raise is a significant milestone for the AI industry. What does this mean for the future of AI development? How will this investment impact the company's growth and innovation? Questions to consider: What are the potential applications of Anthropic's AI technology? How will this investment affect the competitive landscape of the AI industry? #AI #Funding #Innovation #Tech #Investment #Growth",
+      "questions": "What are the potential applications of Anthropic's AI technology? How will this investment affect the competitive landscape of the AI industry?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "28 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act Simplified",
+          "subtitle": "Unpacking the AI Omnibus Agreement"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 May 2026",
+            "The EU AI Act aims to regulate AI development and use",
+            "The agreement includes provisions for transparency and accountability",
+            "It also establishes a framework for AI safety and security",
+            "The act is expected to have a significant impact on the AI industry in the EU"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This agreement marks a significant step forward in regulating AI",
+            "It will help ensure that AI is developed and used responsibly",
+            "And that its benefits are shared by all",
+            "Source: Mishcon de Reya LLP, 28 May 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act is a significant development in the regulation of AI. What are the implications of this agreement for the AI industry? How will it impact the development and use of AI in the EU? Questions to consider: What are the key provisions of the EU AI Act? How will it affect the competitive landscape of the AI industry in the EU? #AI #Regulation #EU #Innovation #Tech #Policy",
+      "questions": "What are the key provisions of the EU AI Act? How will it affect the competitive landscape of the AI industry in the EU?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdWdacGduOXpCckJxZHFJQWo5dERNelNsMVdkc09XRnhiRVpGNTFYVXNaMklFLWpwZ0R6UVVVQUJlMHFpZ28wcUoxdXdKem9hNnBNblpLNTd3ZENYVl93MWR3ZXNxYWxRcjhvRkxpNW9iT0prR202YW9JMEltUzBCTXJqRTlHT3JOcGd6NmF1UFBtMTB2V2NOYnJ5Z1U?oc=5",
+      "sourceName": "Mishcon de Reya LLP",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "28 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N16",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Security Startup Raises $40M",
+          "subtitle": "Gray Swan's Series A funding"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 May 2026",
+            "Gray Swan raises $40M in Series A funding",
+            "The investment will be used to grow the company's team",
+            "And develop its AI security platform",
+            "The platform uses AI to detect and prevent cyber threats"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "AI security is a growing concern for businesses",
+            "Gray Swan's platform uses AI to stay ahead of threats",
+            "The investment will help the company expand its capabilities",
+            "And provide more effective security solutions"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI security market is expected to grow significantly in the next few years",
+            "Gray Swan's platform is well-positioned to capitalize on this trend",
+            "The company's use of AI provides a unique advantage in detecting and preventing cyber threats",
+            "Source: Technical.ly, May 2026"
+          ]
+        }
+      },
+      "caption": "Gray Swan's $40M Series A funding is a significant investment in AI security. What are the implications of this funding for the AI security industry? How will Gray Swan's platform impact the way businesses approach cyber security? Questions to consider: What are the key features of Gray Swan's AI security platform? How will the investment be used to grow the company's team and capabilities? #AI #Security #Funding #Innovation #Tech #CyberSecurity",
+      "questions": "What are the key features of Gray Swan's AI security platform? How will the investment be used to grow the company's team and capabilities?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fQmVRZGVvRlg4bWE1QW8waXgtZk9fbXRNTHZ6cFUtYWJMaFo1aV9RRGpGTEtsOVI2TTNFTmJLYWhjdXRUTC1jQ0gxT28ybHZqcUtiMzRocnhIVnowS2dhVVpxb18wdlAxLUdZaEZGTlI2anVORlJOX0pLMm5MQQ?oc=5",
+      "sourceName": "Technical.ly",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "28 May 2026"
+    }
+  ]
+}

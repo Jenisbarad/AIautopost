@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-30",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Valuation",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "29 May 2026",
+      "sourceName": "Storyboard18",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSEpQSkpLWTlIalU5VzNmcGI2Qkh5cmNQZllzN3pEMVR1OWRZQldCa2phSnRzUVNpQlV1eUh6M1VMVzBCRzgtMTRFY1NFb2VSbkxSVG1lTTlYNjZDNktkcjQ0S1p1TlpYNDd5Ti1vT2tadDhJcmdiTHdPNjIzamVsZHA4eUREdTJBMnNKQjBPbnZTZEp6M2VxOVplR09TNlRscjFiOGhObVhQbkNHelF3NlNXMWFfNERKQUpJMWY1VnVuSkMzSHVyT1NGWk3SAdIBQVVfeXFMTTVEZ0xmeEZJMVgyTV9JdEMyWnNqMW0xWWdVamNtZE1xOFR6QTYzMkhRazlSYUxleWk0a3U0UFd1R1lKN1ozX1BmR1BCQmtDTTc3NHppcGlKZHowcWNXWGthRjJmdGlOTFlPN3VLVmJ5SE1VdENjZzhHeVBFMFFtSnQ5MldfMERVNGNjclRQbnFmODZuVVp4UkNNQUNyYVdteHlSZEpsclhlOWZwNFViMHZLdV9ia3Y1VmV5SU9FSUJDOGZYRDBBQmZIVGE5SE9EY0t3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Overtakes OpenAI",
+          "subtitle": "As the world's most valuable AI startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 May 2026",
+            "Anthropic's valuation reached $965 billion",
+            "Overtaking OpenAI as the world's most valuable AI startup",
+            "With a $65 billion funding round",
+            "Led by prominent investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This valuation indicates a significant shift in the AI landscape",
+            "As Anthropic's technology and innovations gain recognition",
+            "The company's focus on AI safety and ethics is a major factor",
+            "In its growing valuation and industry influence"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI market is rapidly evolving, with new players emerging",
+            "Anthropic's success is a testament to the growing importance of AI safety and ethics",
+            "The company's valuation is a significant milestone in the AI industry",
+            "Source: Storyboard18, May 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has become the world's most valuable AI startup, with a valuation of $965 billion. This milestone is a significant indication of the company's growing influence in the AI industry. What does this mean for the future of AI development? How will Anthropic's focus on AI safety and ethics impact the industry? What are the implications of this valuation for other AI startups? #AI #Anthropic #OpenAI #Valuation #AISafety #ArtificialIntelligence"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N5",
+      "eventDate": "27 May 2026",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFh1YUo2TWl4LTN0YXpkMklBdXFWTnFvNVNyMHNCeXhBT2ROUTV0Vl9JQjl4ZHJhN0d5U2RnN1FIazhLQUpYY251TmhNQlN5TEZFMjNsQ0o3LXJnODJWZ3lIS2FFYy1hVk1kWVVWckF0SzIzZTBtNVdYd1RCUnJXQnlqeXpIeFRib1RBeVdqZHpnckxOYmhidzRXcXpYZzlPR00tek1zT2w3em90VmVXNlZJMUpJdk9TZV94ZmhjcmVVaUlqWnN5b1Jn0gHPAUFVX3lxTFBVSk56U1JUY3NuMFVjdVNEMzA2bXAxVU9CX1dkaUt5RkxnUzlHQS1qX3VoZ1IyeXNxaU1pOE5WNGtCZThfMi1nbEpIbGFFb1I3c21lZjZfakJDendHRnJFWjhvLTlBY3VIa0FuNDBjOGQ0ZU9UXzQxQ1NZbDd5cHEwai1ZaXN1Mi1QRk56YUdBMjhKa3IyYXROUVRXeTI2VjQwVDluai1BUWVNT1FKUWJrZkNSclBqX1VzMUtFOGZNZ3daeGYtVjRnNkVybXNKWQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "CPRO Goes Public",
+          "subtitle": "Through a $326 million SPAC deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 May 2026",
+            "CPRO, a physical AI security company, is going public through a $326 million SPAC deal",
+            "The deal is with Lakeshore Acquisition III Corp.",
+            "CPRO's technology focuses on securing physical assets using AI",
+            "The company aims to expand its offerings with the new funding"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI security market is growing rapidly, with new threats emerging",
+            "CPRO's technology has the potential to revolutionize physical security",
+            "The company's public listing is a significant milestone in the AI security industry",
+            "Source: Pulse 2.0, 27 May 2026"
+          ]
+        }
+      },
+      "caption": "CPRO, a physical AI security company, has gone public through a $326 million SPAC deal. This milestone is significant for the AI security industry, as it highlights the growing importance of securing physical assets using AI. What are the implications of this deal for the AI security market? How will CPRO's technology impact the industry? What are the potential applications of AI in physical security? #AI #Security #CPRO #SPAC #AISecurity"
+    },
+    {
+      "id": 3,
+      "topic": "AI Research",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N7",
+      "eventDate": "28 May 2026",
+      "sourceName": "The GitHub Blog",
+      "sourceMonthYear": "May 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLVFFNVA2ejRDWV9mOXRSTW1NcDFRYlZnNkkxN1pBMzdQSlA2N0J6ZUFMeDh0WnhwaXJXdnhjcWVCUjZXYTFhSHQ0UTFCZlVFRExncHlGTUhKYmw1UngxblZkcVcyeU5KbERWdV9teHBPazRFOVlXWUdhd0k4YVA5bVpHZ1FfZ3ZkVy1XTUZxQnpkdjVrdkRqcENNTlVld2FN?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Claude Opus 4.8 Launch",
+          "subtitle": "A new AI model for GitHub Copilot"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 May 2026",
+            "GitHub has launched Claude Opus 4.8, a new AI model for GitHub Copilot",
+            "The model is designed to improve code completion and suggestion",
+            "Claude Opus 4.8 is available for GitHub Copilot users",
+            "The model has been trained on a large dataset of code"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The launch of Claude Opus 4.8 is a significant milestone for GitHub Copilot",
+            "The model has the potential to improve code completion and suggestion",
+            "The use of AI in coding is becoming increasingly popular",
+            "Source: The GitHub Blog, 28 May 2026"
+          ]
+        }
+      },
+      "caption": "GitHub has launched Claude Opus 4.8, a new AI model for GitHub Copilot. This model is designed to improve code completion and suggestion, and has the potential to revolutionize the way we code. What are the implications of this launch for the coding community? How will Claude Opus 4.8 impact the use of AI in coding? What are the potential applications of AI in software development? #AI #GitHub #ClaudeOpus #CodeCompletion #AICoding"
+    }
+  ]
+}

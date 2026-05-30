@@ -8,60 +8,10 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Boom",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N5",
-      "eventDate": "29 May 2026",
-      "sourceName": "News18",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNnpfZkU3T3pheUtCZzZCWUlWMWstYWliTXlHQzFLb2pZcEN5cS1qajdqZnNyZXByZmdwcDFlUWVnb0hOcTA3alRTNHF3T0F4SmhpQ0FRZC1UaU9jeldrcFZvaklFVTRtLXJvVFpER19GTms4STJ0VUlIQmhtX1JGOWRiTldaVEF4SE40dHlROUZ4SXpIQmJmVXNROG1vM2pCbFg4eEFCNE5aZHpvam0wUkI3UkN1bzYxOFJOeXdMVDEwb0xNejNvRTBqSlQ5bkIydWNPTENHcGd3QUlndHcyMkt2YzdOaFRSSmlSck9qRdIB9AFBVV95cUxNUFdfN2RuWDZfNmF1UWlKcVNPeEh3WHNnanNGQm1qcXhUa1hrQWVuajZIVGx2Y1kxbjE1SHZHR2licFFrdU1yOUdkZHM3N1JYaU5BeHkyQzVaQjVITVRCSVdJejVZUEFMTHY3bS12ZmpxSkZRSHhzQVB5OWVUcjROQl9sRmxPRWhoNFhTdTg3cHlWOGo5a3B2M3JaWDFiX1RFSGhvNzluNGwtTkpTcm81YVlvNGNVby1fNmlOeGRGU1FqbzVQQTFFd3FwekpGRk4zVVhIaWJnejBFRWFnRlYyS2dyQlRkRWpUenJZa1VHSHFVUWho?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Anthropic Surpasses OpenAI",
-          "subtitle": "Valuation Soars to $1 Trillion"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 29 May 2026",
-            "Anthropic's valuation reached $1 trillion",
-            "Surpassing OpenAI's valuation",
-            "With a $65 billion funding round",
-            "Marking a significant milestone in AI funding"
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "This milestone indicates the growing interest in AI",
-            "As investors pour billions into AI startups",
-            "The AI market is expected to continue growing",
-            "With potential applications in various industries"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The $1 trillion valuation is a significant achievement",
-            "Anthropic's funding round is one of the largest in AI history",
-            "The company's focus on AI research and development is paying off",
-            "Source: News18, May 2026"
-          ]
-        }
-      },
-      "caption": "The AI funding boom continues, with Anthropic surpassing OpenAI in valuation. What does this mean for the future of AI? Will we see more AI startups reaching billion-dollar valuations? Questions to consider: What are the implications of this funding boom for the AI industry? How will this affect the development of AI technologies? #AI #Funding #Startups #Valuation #Investment #Technology #ArtificialIntelligence #Innovation #Growth"
-    },
-    {
-      "id": 2,
       "topic": "AI Security Framework",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N7",
-      "eventDate": "29 May 2026",
-      "sourceName": "CIO Dive",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oM0NDMWFNN0p1VjExcmVIemQwbUhfNENrbEFCOFlfbEdNU05sekJwbEg5TFk1ZzVjN3F4N3ZEV2ZUOHZjMzFJLUNqYWdyalYtSFo0QlFhTDJvTEF0UTNVWmt2RHRXTXZKNGxPSEdkSEJQTmZkdlE0b18yT21BcmM?oc=5",
+      "sourceId": "N2",
       "slideContent": {
         "slide1": {
           "headline": "OpenAI Unveils Security Framework",
@@ -70,61 +20,108 @@
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 29 May 2026",
-            "OpenAI unveiled a security framework for its AI models",
-            "The framework aims to address emerging regulations and concerns",
-            "With 15,000 hackers pressure testing Claude, GPT-5, and Gemini",
-            "Marking a significant step towards securing AI models"
+            "OpenAI unveiled a security framework on 29 May 2026",
+            "Citing emerging regulations as the reason behind the move",
+            "The framework is designed to enhance security and trust in AI systems",
+            "No specific numbers were provided, but the move is seen as a significant step forward"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The security framework is a response to growing concerns about AI security",
-            "The framework will help protect AI models from potential threats",
-            "OpenAI's move is expected to encourage other AI companies to follow suit",
-            "Source: CIO Dive, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The security framework is expected to have a significant impact on the AI industry",
+            "As regulations around AI continue to evolve, companies must adapt to ensure compliance",
+            "The framework provides a foundation for companies to build upon and enhance their own security measures",
+            "Source: CIO Dive, 29 May 2026"
           ]
         }
       },
-      "caption": "OpenAI has unveiled a security framework for its AI models, citing emerging regulations. What are the implications of this move for the AI industry? How will this framework impact the development of AI technologies? Questions to consider: What are the potential threats to AI security? How can AI companies ensure the security of their models? #AI #Security #Framework #Regulations #Compliance #Technology #ArtificialIntelligence #Cybersecurity #Innovation"
+      "caption": "OpenAI has unveiled a security framework, citing emerging regulations as the driving force behind the move. The framework is designed to enhance security and trust in AI systems. What does this mean for the future of AI regulation? How will this impact the development of AI systems? #AI #Security #Regulation #OpenAI #Innovation #Technology\nQuestions to consider: What are the key components of the security framework? How will the framework be implemented and enforced? #AIsecurity #regulatorycompliance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oM0NDMWFNN0p1VjExcmVIemQwbUhfNENrbEFCOFlfbEdNU05sekJwbEg5TFk1ZzVjN3F4N3ZEV2ZUOHZjMzFJLUNqYWdyalYtSFo0QlFhTDJvTEF0UTNVWmt2RHRXTXZKNGxPSEdkSEJQTmZkdlE0b18yT21BcmM?oc=5",
+      "sourceName": "CIO Dive",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "29 May 2026"
     },
     {
-      "id": 3,
-      "topic": "AI Acquisition",
-      "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N6",
-      "eventDate": "29 May 2026",
-      "sourceName": "ESG Today",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZV9zbWRxeERFYzNxcERWX1NvZzc0SHhDczVGRU9YaHhNVUh6NnJZbW1vQzhjUGRvbjV3bWZ4TGFRa0xEcDZfV1RpVEl4Y0E4LXUwRlczWFZzWnZGSFBJdDE0cWdYNjRDR003eGx5eGJMOEh2MF85MmFZLTJaMDZZaGZkV1k2ZGtUbG1na0dRblhPcmR3VTg5MFU3ajI1RTFQZl9WWExtMA?oc=5",
+      "id": 2,
+      "topic": "Anthropic Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "DigitalBridge Acquires ArcLight",
-          "subtitle": "For Up To $1.05 Billion"
+          "headline": "Anthropic Raises $65B in Funding",
+          "subtitle": "At $965B Post-Money Valuation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 29 May 2026",
-            "DigitalBridge acquired ArcLight for up to $1.05 billion",
-            "The acquisition creates a power and AI infrastructure platform",
-            "With a focus on electrification infrastructure investment",
-            "Marking a significant move in the AI infrastructure space"
+            "Anthropic raised $65B in Series H funding on 28 May 2026",
+            "The funding round values the company at $965B post-money",
+            "This makes Anthropic the most valuable AI startup, surpassing OpenAI",
+            "The funding will be used to further develop and expand Anthropic's AI capabilities"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round is one of the largest in history, demonstrating the significant interest in AI",
+            "Anthropic's valuation surpasses that of OpenAI, solidifying its position as a leader in the AI industry",
+            "The funding will enable Anthropic to accelerate its development and expansion plans",
+            "The impact of this funding on the AI industry will be significant, with potential applications in various sectors"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is expected to enhance DigitalBridge's AI infrastructure capabilities",
-            "The combined company will focus on electrification infrastructure investment",
-            "The move is seen as a strategic play in the AI infrastructure market",
-            "Source: ESG Today, May 2026"
+            "Anthropic's valuation is a significant milestone for the AI industry",
+            "The funding round demonstrates the growing interest in AI and its potential applications",
+            "The company's AI capabilities have the potential to transform various industries",
+            "Source: Anthropic, May 2026"
           ]
         }
       },
-      "caption": "DigitalBridge has acquired ArcLight for up to $1.05 billion, creating a power and AI infrastructure platform. What are the implications of this acquisition for the AI industry? How will this move impact the development of AI technologies? Questions to consider: What are the potential applications of AI in infrastructure? How can AI companies leverage infrastructure investments? #AI #Acquisition #Infrastructure #Investment #Technology #ArtificialIntelligence #Innovation #Growth"
+      "caption": "Anthropic has raised $65B in Series H funding, valuing the company at $965B post-money. This makes Anthropic the most valuable AI startup, surpassing OpenAI. What does this mean for the future of AI development? How will this funding impact the industry? #AI #Funding #Anthropic #Innovation #Technology\nQuestions to consider: What are the potential applications of Anthropic's AI capabilities? How will the funding be used to accelerate development and expansion plans? #AI funding #startupvaluation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "sourceName": "Anthropic",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "28 May 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Coding Startup",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N17",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Coding Startup Cognition Raises $1B",
+          "subtitle": "At $26B Valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Cognition raised $1B in funding on 27 May 2026",
+            "The company is valued at $26B, demonstrating significant growth and potential",
+            "Cognition's AI coding capabilities have the potential to transform the software development industry",
+            "The company's AI system is already writing 89% of its own code"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round is a significant milestone for the AI industry, demonstrating growing interest in AI coding capabilities",
+            "Cognition's AI system has the potential to enhance software development efficiency and accuracy",
+            "The company's valuation is a testament to the potential of AI in transforming industries",
+            "Source: The Economic Times, 27 May 2026"
+          ]
+        }
+      },
+      "caption": "AI coding startup Cognition has raised $1B in funding, valuing the company at $26B. The company's AI system is already writing 89% of its own code. What does this mean for the future of software development? How will AI coding capabilities impact the industry? #AI #Coding #Cognition #Innovation #Technology\nQuestions to consider: What are the potential applications of AI coding capabilities? How will Cognition's AI system enhance software development efficiency and accuracy? #AI coding #softwaredevelopment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR3lVZVVTZUJXa0tSM2JoSDZBc29HQnMzWUNFbnlPUVE3dlVCRXo4dXBITUVzMmhyNDlRaUpwVFQxNTFVTm1qUkY3SlA4S1RoX01Dd2pyU2hXWTRsQmk5ZmE5NGlSdGZuOE9va1dFdXRGTF96eUlsTmdaLVN0Y19xTVFwdG5pTW43Z19Pa1BUa0lmZkZTRU1SSTlzZTQ0ZFZ3ZThhTnhNaFhIY2RCSVZaUjlBNEtjendDNnlUNjA3QXA3TmZJQkRwbHpSa9IB0AFBVV95cUxPd1BhWjFFaXpsa29YLUs1S3V6UjVxVnl4bDVBYzRqU1NlVEQ1UklXaExfeGw0SU9BOW1NaTZlWms5VVktQVFRRFc5UHJPbE9zX0gtdURmODhnUG5Mckk4eTNjSmZkWWpaZ2RtNEFReGdiM2xhV1A5SW9KNUZkUjdMMThTb29LTTZEVUYxNkQ2VjdNQ3dQcEMwcDBGWDh3czVQeGc3VUU3STFTR2FnZmdiRXBxTkFlaVVkUmNndE9vRDFZcDVzQ0Q5QWxqcnRWcjMw?oc=5",
+      "sourceName": "The Economic Times",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "27 May 2026"
     }
   ]
 }

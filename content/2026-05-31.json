@@ -8,121 +8,121 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Startup Valuation",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N14",
-      "eventDate": "31 May 2026",
-      "sourceName": "Arabian Business",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRVYwS2ZaTVk2eVo0YzZ4LTBJOWVpS2loQU9IUGRaemZ3eUV3Zkk0bzRZa3hvVHFDdUJrZm5pTkMwRDVsUnFYZHNEbkN1d25oNE0zX2x4SGd5LXhxYzFEdGZtdG05M1FPeEdJNVl4MlhKWEdGMTZwbkVkdFJBWnpYaGJEemxBVk40Ym1ydUxuYlFpcGFETVAyU1pjZnAzZXg5V19KbDhGb09XU3M5OE5PUTM3aXZNWm9CMno3cGExZ2tvRHM1?oc=5",
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N5",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Becomes World's Most Valuable AI Startup",
-          "subtitle": "After $65 billion funding boost"
+          "headline": "AI Regulation Heats Up",
+          "subtitle": "CNN Sues Perplexity as OpenAI Aligns With EU Rules"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Anthropic raised $65 billion in funding",
-            "The company's valuation soared to $965 billion",
-            "This makes Anthropic the world's most valuable AI startup",
-            "The funding round was announced on 29 May 2026"
+            "On 31 May 2026, CNN sued Perplexity.",
+            "OpenAI is aligning with EU rules.",
+            "This marks a significant shift in AI regulation.",
+            "The EU AI Act is being simplified."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding will help Anthropic expand its AI research and development",
-            "The company plans to use the funds to improve its AI models",
-            "This could lead to significant advancements in the field of AI",
-            "The funding also highlights the growing interest in AI startups"
+            "This development has significant implications for the future of AI.",
+            "Regulations will likely impact AI development and deployment.",
+            "Companies must adapt to changing regulatory landscapes.",
+            "The industry is watching closely to see how this plays out."
+          ]
+        }
+      },
+      "caption": "AI regulation is becoming a major focus for companies and governments alike. On 31 May 2026, CNN sued Perplexity, while OpenAI is aligning with EU rules. This marks a significant shift in the regulatory landscape for AI. Questions to consider: How will regulations impact AI development? What does this mean for the future of AI? #AIRegulation #OpenAI #Perplexity #EUAIACT #ArtificialIntelligence #MachineLearning #RegulatoryCompliance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNk1ZMi05Vk8yVXQzcUZxX0RSdUdabmdLeS0wNnZ6UzdwRW0tcWNCRXdIdnppaWFXTExoTW5iTmh1Tzg3MExPUnBwMDZCYVNhb1ozcjZsdFM3bi1DaDU0OWV1TzAzR3NuNHBvX19FOVQxQkpyU1Awc21kcDdoN1UzS3BPZV9hdnhFNmh1UGV6ZU96NDczWVl3RWE3SXhXM1lrUGJTU2t4TU81R0F3Rlc4TEZEQ0hoVzZPZ3NkNVhrd1JtbnRWeV80T0IxS0IxOHhG?oc=5",
+      "sourceName": "Tech Times",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "31 May 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Coding Startup Cognition Raises $1 Billion",
+          "subtitle": "Valued at $26 Billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 May 2026",
+            "Cognition raised $1 billion in funding.",
+            "The company is now valued at $26 billion.",
+            "This funding round is significant for the AI industry.",
+            "It highlights the growing interest in AI coding startups."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding will help Cognition further develop its AI coding technology.",
+            "The company's valuation is a testament to the potential of AI in coding.",
+            "This investment will likely drive innovation in the AI coding space.",
+            "The industry is watching to see how Cognition will use this funding."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI industry is rapidly growing, with many startups raising significant funds",
-            "The funding will help Anthropic compete with other AI startups, such as OpenAI",
-            "The company's valuation is a significant milestone for the AI industry",
-            "Source: Arabian Business, May 2026"
+            "Cognition's funding is a significant development for the AI industry.",
+            "The company's valuation highlights the potential of AI in coding.",
+            "This investment will drive innovation in the AI coding space.",
+            "Source: Bloomberg.com, May 2026"
           ]
         }
       },
-      "caption": "Anthropic has become the world's most valuable AI startup after raising $65 billion in funding. The company's valuation has soared to $965 billion, making it a significant player in the AI industry. What does this mean for the future of AI research and development? Will Anthropic's funding lead to significant advancements in the field? #AI #Startup #Funding #Valuation #Anthropic #OpenAI\nQuestions to consider: What are the implications of Anthropic's funding for the AI industry? How will the company use the funds to improve its AI models? #AIIndustry #StartupFunding #Valuation"
-    },
-    {
-      "id": 2,
-      "topic": "EU AI Act",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N18",
-      "eventDate": "28 May 2026",
-      "sourceName": "Mishcon de Reya LLP",
+      "caption": "AI coding startup Cognition has raised $1 billion in funding, valuing the company at $26 billion. This significant investment highlights the growing interest in AI coding startups. Questions to consider: How will Cognition use this funding? What does this mean for the future of AI in coding? #AIFunding #Cognition #AIcoding #ArtificialIntelligence #MachineLearning #Startup #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcm9aMFdXbk1qSlBTWmt6SWRuV25iaVU2RG5BbnFFT1BpMktXUEk2N1hVYXo1TldHSS1lYmhncWx4WTBfaTNvQUZNRjBIeGNWVXUyamFuTW5TX3owT19fcUxxYkdoaC1TVUF4Y1ZWTTFLVjNScDlVcGZOcFFWZnFUTG9JeDVPMUV2TTF4T0pUVVhBeVd3ZzlQVC0tMDBibzVkT24yVEdrdERfTy1IYzktdVFXVWxPZw?oc=5",
+      "sourceName": "Bloomberg.com",
       "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdWdacGduOXpCckJxZHFJQWo5dERNelNsMVdkc09XRnhiRVpGNTFYVXNaMklFLWpwZ0R6UVVVQUJlMHFpZ28wcUoxdXdKem9hNnBNblpLNTd3ZENYVl93MWR3ZXNxYWxRcjhvRkxpNW9iT0prR202YW9JMEltUzBCTXJqRTlHT3JOcGd6NmF1UFBtMTB2V2NOYnJ5Z1U?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "EU AI Act Simplified",
-          "subtitle": "Unpacking the AI Omnibus Agreement of May 2026"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "The EU AI Act was simplified through the AI Omnibus Agreement",
-            "The agreement aims to regulate the development and use of AI in the EU",
-            "The regulation will apply to companies that develop and use AI models",
-            "The agreement was announced in May 2026"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The EU AI Act aims to ensure that AI is developed and used in a way that is transparent and accountable",
-            "The regulation will help to build trust in AI systems",
-            "The agreement is a significant step forward for the EU's AI strategy",
-            "Source: Mishcon de Reya LLP, 28 May 2026"
-          ]
-        }
-      },
-      "caption": "The EU AI Act has been simplified through the AI Omnibus Agreement of May 2026. The agreement aims to regulate the development and use of AI in the EU, ensuring that AI is developed and used in a way that is transparent and accountable. What are the implications of this regulation for companies that develop and use AI models? How will the regulation help to build trust in AI systems? #AI #EU #Regulation #Transparency #Accountability\nQuestions to consider: What are the key provisions of the EU AI Act? How will the regulation be enforced? #AIRegulation #EUAIAct"
+      "eventDate": "27 May 2026"
     },
     {
       "id": 3,
-      "topic": "SpaceX IPO",
+      "topic": "AI Technology",
       "slides": 3,
-      "svgIcon": "rocket",
-      "sourceId": "N5",
-      "eventDate": "21 May 2026",
-      "sourceName": "Gotrade",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTHdNZjlpS3RweHhURXNRckIzVElrLU0wVlU3OTVRR2JBN3hhOUt2LXpRU0RPMWJjd3E0c0JLNFlvd0dHX2VDd0NNTGdCMjNxNWlJaXprcDhCMnVZWXdndzJFcDk1ZUpVWFJJaUFRSXBnUHA0TGZIV0kybjZqYnR5MHczcw?oc=5",
+      "svgIcon": "brain",
+      "sourceId": "N23",
       "slideContent": {
         "slide1": {
-          "headline": "SpaceX Files for $1.75T IPO",
-          "subtitle": "Nasdaq Debut Set for June"
+          "headline": "Introducing Claude Opus 4.8",
+          "subtitle": "Upgrades in Coding, Reasoning, and Enterprise AI Tasks"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 21 May 2026",
-            "SpaceX filed for a $1.75 trillion IPO",
-            "The company's Nasdaq debut is set for June",
-            "The IPO will be one of the largest in history",
-            "SpaceX has shown a $4.3 billion loss in its latest financial report"
+            "Anthropic introduced Claude Opus 4.8 on 28 May 2026.",
+            "This update includes upgrades in coding, reasoning, and enterprise AI tasks.",
+            "Claude Opus 4.8 is now available on GitHub Copilot.",
+            "The update is expected to improve AI performance and efficiency."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The IPO will help SpaceX raise funds for its ambitious projects, such as Starship",
-            "The company's valuation is expected to be significant, given its growth and potential",
-            "The IPO will also provide a benchmark for other space technology companies",
-            "Source: Gotrade, 21 May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This update has significant implications for the development and deployment of AI.",
+            "The upgrades in coding, reasoning, and enterprise AI tasks will likely drive innovation in the AI space.",
+            "Companies will be able to leverage Claude Opus 4.8 to improve their AI capabilities.",
+            "The industry is watching to see how this update will impact AI development."
           ]
         }
       },
-      "caption": "SpaceX has filed for a $1.75 trillion IPO, with its Nasdaq debut set for June. The IPO will be one of the largest in history, and will help SpaceX raise funds for its ambitious projects. What are the implications of this IPO for the space technology industry? How will the IPO affect SpaceX's valuation and growth? #SpaceX #IPO #Nasdaq #Starship #SpaceTechnology\nQuestions to consider: What are the key factors that will affect SpaceX's IPO? How will the company use the funds raised from the IPO? #SpaceXIPO #NasdaqDebut"
+      "caption": "Anthropic has introduced Claude Opus 4.8, which includes upgrades in coding, reasoning, and enterprise AI tasks. This update is expected to drive innovation in the AI space and improve AI performance and efficiency. Questions to consider: How will Claude Opus 4.8 impact AI development? What does this mean for the future of AI? #AITECH #ClaudeOpus #Anthropic #ArtificialIntelligence #MachineLearning #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "sourceName": "Anthropic",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "28 May 2026"
     }
   ]
 }

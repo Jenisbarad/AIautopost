@@ -8,141 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Startup Valuation",
-      "slides": 4,
+      "topic": "AI Model Update",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N16",
-      "eventDate": "01 Jun 2026",
-      "sourceName": "Moneycontrol.com",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPWUVHaVFGRU0zazZFOHVKVUVQeGwxMGNlQkdHNGtMRC1iRjNJVG1QN3drM2RfNGJNdC1lMklvcXJDbXd4T2otYUJQT29QWDBIMUdqOWNKTzFVUW5VQXh4Q1pWSEp4em9FSzFNdTNKTnpYZmxKOEtVeHJNYVlaRHNUVWlkQ2JxRFVqbUpuUG92dVk2WnlycTRPUkVwbXJaSS0zODBubnYzeDFFcy1ncGtVbTlxMG5ZM0RGZDdTY2dQVjg0Tmo2b28yd085TnpWdnNfc29ha3RMNzF1WHR5RlpZZFlmNVhFRUhYMzRwLTBuRjBKaVBrRFZ1RDJUaWtMUdIBgwJBVV95cUxOakJvc0lybDdTaXJibGJ0THJFV3lYT0JlWkJMUnNfcUN2T1duaDFTYlZzZWJrM3F1Tlo3eElrUXVLNjlhY1hIM0dOTkZvd3I2bnRycTRfajVVZzVXdnR0b05yazUzaGF6YUtra1hwRUlBTmdUYkFlMmdGRkhvVy11SjMwdlNSS014enFwUlFaZlZ0TW0xSElzenVVa1VjNkU0M3NwQ09Mc3NYcl9uLXo4MFlUM3ZSNDEya2N0UzVkcEdBV2hMUXJyUm5KS3ZMeVZlaHZuMGJkRHkwTm0tZXd2MzA4bFZTVTZmcVpiU2h6X0YyWUdkOWVRREFFMFpqZ085aWp3?oc=5",
+      "sourceId": "N10",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Becomes World's Most Valuable AI Startup",
-          "subtitle": "With a valuation of $965 billion"
+          "headline": "Anthropic Launches Claude Opus 4.8",
+          "subtitle": "Upgrades in coding, reasoning, and enterprise AI tasks"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 01 Jun 2026",
-            "Anthropic's valuation surpasses $965 billion",
-            "Beating OpenAI's valuation",
-            "After a $65 billion funding round",
-            "Anthropic's valuation increased significantly"
+            "Anthropic launched Claude Opus 4.8 on 29 May 2026",
+            "The update includes upgrades in coding, reasoning, and enterprise AI tasks",
+            "The new version is expected to improve performance and efficiency",
+            "With 4.8, Anthropic aims to expand its presence in the enterprise AI market"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This valuation increase solidifies Anthropic's position in the AI market",
-            "As a leader in AI technology",
-            "With a strong focus on research and development",
-            "Anthropic is poised for continued growth"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI market is rapidly evolving",
-            "With new technologies and innovations emerging daily",
-            "Anthropic's valuation increase is a testament to the company's dedication to AI research",
-            "Source: Moneycontrol.com, Jun 2026"
+            "The update demonstrates Anthropic's commitment to continuous improvement",
+            "Claude Opus 4.8 is expected to have a significant impact on the enterprise AI market",
+            "The new version may lead to increased adoption of Anthropic's technology",
+            "As the AI market continues to evolve, Anthropic's updates will be crucial to its success"
           ]
         }
       },
-      "caption": "Anthropic has become the world's most valuable AI startup, with a valuation of $965 billion. This is a significant milestone for the company, and it solidifies its position in the AI market. But what does this mean for the future of AI? How will Anthropic's increased valuation impact the development of AI technologies? What are the potential implications for the industry as a whole? Questions to consider: What will Anthropic do with its newfound valuation? How will this impact the AI market? What are the potential risks and challenges associated with this increase in valuation? #AI #ArtificialIntelligence #Valuation #Startup #Technology"
+      "caption": "Anthropic's Claude Opus 4.8 is here. With upgrades in coding, reasoning, and enterprise AI tasks, this update is set to make a significant impact on the market. But what does this mean for the future of AI? Questions to consider: How will Claude Opus 4.8 affect the enterprise AI market? What are the potential applications of this updated technology? #AI #EnterpriseAI #Anthropic #ClaudeOpus48 #ArtificialIntelligence #MachineLearning",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPenpoNHdSTmlQLXNoOV9XeEF3bV8xbl9hQVc1T1N2c2lnZ1ZjbVhDTFFXZXVTZ09QcDV1eG01RnJsVkljZHBwMm5hMXpWWjhibjBRRmRhWEVCeFltRkxiZkJLa0dBTi1UdG1xcUVjVXBBMXFOMUNWcm51QWttVEJnWWhLQ3BSSVZfOEM3clFlQkJFTmQ5VmJSemViczA0UjlTeEtIQWUzSUZGLV8wMV9lNjIyOUhIMmwxMlllMk9ObWJ6czFOMzZqQ1N0c2d2T1YxNXdMMTkyM2lCbmVVQ1FHcDJvUTZiTjVrMEdUUkhlamZnbUo2UjAxUdIB_gFBVV95cUxOOUxEa0dNbDVWVENBY0t4R014MG1PaW1RMG5MamphcFlucGNnb3V6R29CX1Z4SHdETE1KMzNBTlNTcUtYd1BsZGdUcHlkcl95Q0FmUTFtYXE1SnVOSjJKdjlVdUlZdVdQcGNVSTUtXzN6S2FBa19lZTVJd2FDZWd6d2lVeTY4Y2pOUGEya19TcFdKa3A0LU44NXh2aHhicUszT2JObUU1QWZsT3FHUkk4QVZkclF3TTlkcHFRNEM0OXpPQ1VtdlpJUmVLWFJXZlc2TjZlYURzM05GQzFwZjBmLVNCVnRIYmZ1dVpMX2Q3X3hBdXdKZ0RISjhDUGRPZw?oc=5",
+      "sourceName": "Indiatimes",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "29 May 2026"
     },
     {
       "id": 2,
-      "topic": "AI Security Acquisition",
+      "topic": "Security Threat",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N5",
-      "eventDate": "19 May 2026",
-      "sourceName": "CTech",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8ySXI0OVZJOGtKUzc2Z2x1djF3eFdOSVMtbTN0dU9QMWF0UENUVzVvY3kzNVlmU0l5R29xVmN4c0hZemhNX0RCcnRDS2pjUm9ZMWpmb2tTbG1qYlRiQV9hWF9LTEVIQUtw?oc=5",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "Check Point Acquires Deepchecks",
-          "subtitle": "To advance AI security platform"
+          "headline": "Threat Actors Abuse ChatGPT Chats",
+          "subtitle": "Hosting fake outage pages and delivering malware"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 19 May 2026",
-            "Check Point acquired Deepchecks' team and technology",
-            "For $50 million",
-            "To enhance its AI security capabilities",
-            "This acquisition will help Check Point improve its AI-powered security solutions"
+            "Threat actors are using ChatGPT chats to host fake outage pages",
+            "These pages are used to deliver malware to unsuspecting users",
+            "The attacks are becoming increasingly sophisticated",
+            "On 01 Jun 2026, Security Boulevard reported on the growing threat"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition of Deepchecks will help Check Point strengthen its position in the AI security market",
-            "By leveraging Deepchecks' technology and expertise",
-            "Check Point will be able to provide more effective AI-powered security solutions",
-            "Source: CTech, May 2026"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Check Point's acquisition of Deepchecks is a strategic move",
-            "To enhance its AI security capabilities",
-            "And provide more effective security solutions",
-            "Source: CTech, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The abuse of ChatGPT chats highlights the need for increased security measures",
+            "Users must be cautious when interacting with chatbots and AI-powered systems",
+            "The threat of malware and other cyber attacks is ever-present",
+            "As AI technology advances, so do the potential risks and vulnerabilities"
           ]
         }
       },
-      "caption": "Check Point has acquired Deepchecks, an Israeli AI startup, to advance its AI security platform. This acquisition is a significant move for Check Point, as it looks to enhance its AI security capabilities. But what does this mean for the future of AI security? How will this acquisition impact the development of AI-powered security solutions? What are the potential implications for the industry as a whole? Questions to consider: What will be the impact of this acquisition on the AI security market? How will Check Point integrate Deepchecks' technology into its existing platform? What are the potential benefits and challenges associated with this acquisition? #AI #ArtificialIntelligence #Security #Acquisition #Startup"
+      "caption": "Threat actors are exploiting ChatGPT chats to host fake outage pages and deliver malware. This growing threat highlights the need for increased security measures and user awareness. Questions to consider: How can we protect ourselves from these types of attacks? What are the implications of AI-powered security threats? #CyberSecurity #AI #ChatGPT #Malware #ThreatActors #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUxnT0JicTdNQi1wcFdKRnpXQWpNc0dHSUtUQjB0cF8wZlVXNGtWcEtaZjFJd3BLdmJGcUkzaldwWFAzQkowNmNWOEJSYW9saElCNnhGMjlndVQxc3p6S1lFeTdwUTBiRVJEd0FIM2R3OEtTcHVRaXROaEJOWkRNUWJ0U2RGamNjZVBwVTF4WkFESzZ5cXBtNE5WWlpsSkxVd3lEd3ZIUzEwZldDRHV5a180aw?oc=5",
+      "sourceName": "Security Boulevard",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "01 Jun 2026"
     },
     {
       "id": 3,
-      "topic": "Battery Energy Storage Market",
-      "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N2",
-      "eventDate": "29 May 2026",
-      "sourceName": "Saur Energy",
-      "sourceMonthYear": "May 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTFQwcWZkN3puUzFOM2lja2lvaVk5MHR6WS1FYXprT1BzNFREeHdtVk9hNGF5NGhIQlR2a3phbmtFRU5pajVtVXZMQ3RDMkZBcXZ6MURzMVpDb2NUTEZ1UlZSWHJBSmJQYXdWdUFldVZpWU1OdFMwdGZtUElVeEtERXhrWmg1cXRtVEVKLXB5TVJQMjNQRTZELTBTV0tPaWs1OWpmUXhvNVI2OVlMU1ZidkJ0dHNqTWtKaV9PWncwQW5hVF9xQ3gyRkVB?oc=5",
+      "topic": "Funding and Valuation",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N14",
       "slideContent": {
         "slide1": {
-          "headline": "Nextpower Enters BESS Market",
-          "subtitle": "Through $365 million Prevalon acquisition"
+          "headline": "Anthropic's $65B Funding Boost",
+          "subtitle": "Becoming the world's most valuable AI startup"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 29 May 2026",
-            "Nextpower acquired Prevalon for $365 million",
-            "To enter the battery energy storage (BESS) market",
-            "And the AI data center market",
-            "This acquisition will help Nextpower expand its presence in the renewable energy sector"
+            "Anthropic raised $65B in funding, valuing the company at $965B",
+            "The funding round was announced on 31 May 2026",
+            "This makes Anthropic the world's most valuable AI startup",
+            "With a post-money valuation of $965B, Anthropic is poised for significant growth"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition of Prevalon will help Nextpower strengthen its position in the renewable energy sector",
-            "By leveraging Prevalon's expertise in BESS and AI data centers",
-            "Nextpower will be able to provide more comprehensive solutions for its customers",
-            "Source: Saur Energy, May 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding boost demonstrates investor confidence in Anthropic's technology",
+            "The company's valuation is a testament to its potential for growth and innovation",
+            "As the AI market continues to expand, Anthropic is well-positioned to lead the charge",
+            "With $65B in funding, Anthropic can further develop its technology and expand its reach"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Nextpower's entry into the BESS market is a significant move",
-            "To expand its presence in the renewable energy sector",
-            "And provide more comprehensive solutions for its customers",
-            "Source: Saur Energy, May 2026"
+            "Anthropic's funding boost is a significant milestone for the AI industry",
+            "The company's valuation highlights the potential for growth and innovation in the market",
+            "As AI technology advances, we can expect to see more significant investments and partnerships",
+            "Source: Arabian Business, May 2026"
           ]
         }
       },
-      "caption": "Nextpower has entered the battery energy storage (BESS) market through its $365 million acquisition of Prevalon. This move is a significant step for Nextpower, as it looks to expand its presence in the renewable energy sector. But what does this mean for the future of the BESS market? How will this acquisition impact the development of AI-powered energy storage solutions? What are the potential implications for the industry as a whole? Questions to consider: What will be the impact of this acquisition on the BESS market? How will Nextpower integrate Prevalon's technology into its existing platform? What are the potential benefits and challenges associated with this acquisition? #BESS #BatteryEnergyStorage #RenewableEnergy #Acquisition #Startup"
+      "caption": "Anthropic's $65B funding boost has made it the world's most valuable AI startup, with a valuation of $965B. But what does this mean for the future of AI and the company's growth prospects? Questions to consider: How will Anthropic use its funding to drive innovation and expansion? What are the implications of this valuation for the broader AI market? #AI #Funding #Valuation #Anthropic #ArtificialIntelligence #Startup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRVYwS2ZaTVk2eVo0YzZ4LTBJOWVpS2loQU9IUGRaemZ3eUV3Zkk0bzRZa3hvVHFDdUJrZm5pTkMwRDVsUnFYZHNEbkN1d25oNE0zX2x4SGd5LXhxYzFEdGZtdG05M1FPeEdJNVl4MlhKWEdGMTZwbkVkdFJBWnpYaGJEemxBVk40Ym1ydUxuYlFpcGFETVAyU1pjZnAzZXg5V19KbDhGb09XU3M5OE5PUTM3aXZNWm9CMno3cGExZ2tvRHM1?oc=5",
+      "sourceName": "Arabian Business",
+      "sourceMonthYear": "May 2026",
+      "eventDate": "31 May 2026"
     }
   ]
 }

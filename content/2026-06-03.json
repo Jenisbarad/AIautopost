@@ -1,0 +1,129 @@
+{
+  "date": "2026-06-03",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Regulation Update",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Regulation Update for Start-ups",
+          "subtitle": "UK and EU signals in early 2026"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "The UK and EU have signaled updates to AI regulation for start-ups in early 2026.",
+            "This move aims to provide clarity and guidance for start-ups operating in the AI space.",
+            "The updates will likely impact 1000s of start-ups across the region.",
+            "2 Jun 2026 marked a significant day for AI regulation discussions."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The updated regulations will provide a framework for start-ups to operate within.",
+            "This will help ensure that AI development is aligned with regional laws and standards.",
+            "The impact of these updates will be closely monitored by the AI community.",
+            "Source: The AI Journal, 02 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The AI regulation landscape is evolving. On 02 Jun 2026, the UK and EU signaled updates to AI regulation for start-ups. What does this mean for the future of AI development? Questions to consider: How will these updates impact start-ups? What are the key aspects of the updated regulations? #AIRegulation #Startups #EU #UK #ArtificialIntelligence #RegulatoryUpdates",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSktNc2JpclRlTXRQdkNvcXcwU19XdldIZVhrNmZRUUxzdE1kS1l1OWQ4MENFeHRlcHJPRjAydVpMM0FyZ3Y4NWZfMjhtbGVZY3czOXF4WnhTZjVqVk9ZMkZTQldRcWJYbTlTTTBnUHZCaHNLQXpOeU0zZDhpZnpIaGYzcURQWHdXdjBxSzVka1E?oc=5",
+      "sourceName": "The AI Journal",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "02 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Funding Alert",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N12",
+      "slideContent": {
+        "slide1": {
+          "headline": "Swedish Oplane Raises €4.5M",
+          "subtitle": "Seed funding to automate threat modeling for AI coding teams"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Jun 2026",
+            "Swedish Oplane has raised €4.5M in seed funding.",
+            "The funding will be used to automate threat modeling for AI coding teams.",
+            "This investment highlights the growing importance of AI security.",
+            "The €4.5M investment will help Oplane expand its operations."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will enable Oplane to develop its threat modeling platform.",
+            "This platform will help AI coding teams identify and mitigate potential security risks.",
+            "The investment is a significant boost to the AI security sector.",
+            "It demonstrates the growing recognition of AI security as a critical aspect of AI development."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Oplane's funding is a significant development in the AI security space.",
+            "The investment will help drive innovation in AI threat modeling.",
+            "The AI security sector is expected to continue growing in the coming years.",
+            "Source: ArcticStartup, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Swedish Oplane has raised €4.5M in seed funding to automate threat modeling for AI coding teams. What does this mean for the future of AI security? Questions to consider: How will Oplane use the funding? What are the implications for the AI security sector? #AISecurity #Funding #Startups #SwedishOplane #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80TEM5SV8tVHlZQTNkUDJ2Z3J0Vk9PeFRqbnhGVXVHWjVwd0d6bXJELWoxZ0VYalJaMVRwS3JWc2t1cExZS0pkOEMyTWRhTnZ2SGFWam9pRXdrWFJ6TEFuUw?oc=5",
+      "sourceName": "ArcticStartup",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "02 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Model Performance",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "MiniMax M3 Debuts",
+          "subtitle": "Eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Jun 2026",
+            "MiniMax M3 has debuted, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance.",
+            "The MiniMax M3 achieves this performance at just 5-10% of the cost.",
+            "This development highlights the rapid progress in AI model performance.",
+            "The benchmark performance is a significant milestone for the AI community."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The MiniMax M3's performance is a significant advancement in AI model development.",
+            "The reduced cost of achieving high-performance AI models will make them more accessible.",
+            "This will drive innovation and adoption of AI technologies across various sectors.",
+            "Source: VentureBeat, 01 Jun 2026"
+          ]
+        }
+      },
+      "caption": "MiniMax M3 has debuted, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance at just 5-10% of the cost. What are the implications of this development for the AI community? Questions to consider: How will the reduced cost impact AI adoption? What are the potential applications of the MiniMax M3? #AIModels #Performance #MiniMaxM3 #GPT55 #GeminiPro #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVjJnVDMxM3Q1RWdaV3VBLWJPV2VwaTJEcEZxMER4UUtxV0tMSlNzMVRITUpUM0VhYm04Wko3UDhyMjQwU01YWmlDaFNJamtaRkhOZ0FQNjZmNkFvYldmTDRhRVFPWW91OHY0dUtiSXhQSXpIZXlXbV9mMVdzVC1Db3JUWjdLWjRpb1hkSnk5dFFfWEE3SEZCOGNnRE5rN2gzVGRqZkxJaFZ6RmpvOTB4N3dBX2hBdnJtZkNucDVKdGt5cFpKMDdHbTJKU2pvem1zbnFYVnpZSExGSjlm?oc=5",
+      "sourceName": "VentureBeat",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "01 Jun 2026"
+    }
+  ]
+}

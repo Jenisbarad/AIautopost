@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-04",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Surges",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "eventDate": "03 Jun 2026",
+      "sourceName": "Forbes",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM1VjcnJEaWVLSFdVbG95VHE4SVRfbTByVU1sUHZldWNMbDFHR05tbDJ2LWlIUGd3SFV6eDNqWDUwa3pGMWYwLXhaMVlTMlZUN1Z6VnBEZ3FsM1Z1YkI5WVc2bXphUnhTQlU3UVZwZkItMTJPQzhTN1pIeXFxcGdDMDhnVDdYMWR6MTdIN3dGNmNwdFJORGE1Y0ZfSWxVQmZSWURtVkJFYWkxNC1ZVUhBZlFQNzZXbUxmQTNOdV9qNWg3azh2?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Collate Raises $95 Million",
+          "subtitle": "To Automate Life Sciences Paperwork"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "AI Startup Collate raised $95 million on 03 Jun 2026",
+            "To automate life sciences paperwork",
+            "Investment to improve efficiency in life sciences industry",
+            "Total funding amount: $95 million"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Improves efficiency in life sciences industry",
+            "Enhances accuracy and speed of paperwork",
+            "Supports growth of life sciences sector",
+            "Funding to drive innovation"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "AI adoption in life sciences is on the rise",
+            "Automation of paperwork can reduce errors and costs",
+            "Investment in AI startups is a growing trend",
+            "Source: Forbes, Jun 2026"
+          ]
+        }
+      },
+      "caption": "AI startup Collate raises $95 million to automate life sciences paperwork. This investment highlights the growing trend of AI adoption in the life sciences industry. Questions to consider: What are the potential applications of AI in life sciences? How will this investment impact the industry? #AI #LifeSciences #Funding #Innovation #Healthcare #Technology"
+    },
+    {
+      "id": 2,
+      "topic": "Security Breach Alert",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N22",
+      "eventDate": "02 Jun 2026",
+      "sourceName": "9to5Mac",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUExa2R1WkZ1anpQVi1ZV1NoR0piMDZ6SWl4ZFlwWUxUc3VMMHlDQjFfRENfdFBtd25ZQk1Rb09iY3g0ekJ4QlRKZzQtVUUzMzM5U255SC1UUUxkRkNwU095VFpKSTA5VnRzWF83QUROZTVQWHVMNDJaMlc1MU9Mdi1zWFg5dWxWWXRILUpiX2c1YXJ3XzNvYTJMNA?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Security Breach in ChatGPT Mac App",
+          "subtitle": "Update Required"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "A security breach was discovered in the ChatGPT Mac app on 02 Jun 2026",
+            "Users must update the app to prevent potential vulnerabilities",
+            "The breach highlights the importance of regular software updates",
+            "Number of affected users: not disclosed"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Regular software updates are crucial for security",
+            "AI-powered apps are not immune to breaches",
+            "Users must be vigilant about app updates",
+            "Source: 9to5Mac, 02 Jun 2026"
+          ]
+        }
+      },
+      "caption": "A security breach was discovered in the ChatGPT Mac app, requiring an immediate update. This incident highlights the importance of regular software updates for security. Questions to consider: What are the potential consequences of a security breach in an AI-powered app? How can users protect themselves from similar breaches? #Security #AI #ChatGPT #Update #Vulnerability #Technology"
+    },
+    {
+      "id": 3,
+      "topic": "Google Introduces Gemma 4 12B",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N7",
+      "eventDate": "03 Jun 2026",
+      "sourceName": "blog.google",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcTdUNDVqeHpOQ3AtSDdyeE1oR2VVXzA2ZFNOTi1mZWh6ek9ZWkhjY19hZU1la2tBalJzcjVsVkk2RENHLWo5c2VDai13QXlZaGs2TXpfYWpkWTBKZnBNbnItYy0yUGpxSzRhQmpUT3NhSHhHOWZGUERHVjZWaDF6am0zUGJLekYtemp2SmhQODU4dDg1?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Introduces Gemma 4 12B",
+          "subtitle": "A Unified, Encoder-Free Multimodal Model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google introduced Gemma 4 12B on 03 Jun 2026",
+            "A unified, encoder-free multimodal model",
+            "Model size: 12 billion parameters",
+            "Number of applications: multiple"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Gemma 4 12B is a significant advancement in AI research",
+            "The model's unified architecture enables multiple applications",
+            "Encoder-free design improves efficiency and performance",
+            "Source: blog.google, 03 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Google introduced Gemma 4 12B, a unified, encoder-free multimodal model. This innovation has the potential to revolutionize AI research and applications. Questions to consider: What are the potential applications of Gemma 4 12B? How will this model impact the field of AI research? #AI #Google #Gemma #Multimodal #Model #Innovation #Technology"
+    }
+  ]
+}

@@ -8,120 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Surges",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "03 Jun 2026",
-      "sourceName": "Forbes",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM1VjcnJEaWVLSFdVbG95VHE4SVRfbTByVU1sUHZldWNMbDFHR05tbDJ2LWlIUGd3SFV6eDNqWDUwa3pGMWYwLXhaMVlTMlZUN1Z6VnBEZ3FsM1Z1YkI5WVc2bXphUnhTQlU3UVZwZkItMTJPQzhTN1pIeXFxcGdDMDhnVDdYMWR6MTdIN3dGNmNwdFJORGE1Y0ZfSWxVQmZSWURtVkJFYWkxNC1ZVUhBZlFQNzZXbUxmQTNOdV9qNWg3azh2?oc=5",
+      "topic": "AI Security Breach",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N4",
       "slideContent": {
         "slide1": {
-          "headline": "AI Startup Collate Raises $95 Million",
-          "subtitle": "To Automate Life Sciences Paperwork"
+          "headline": "ChatGPT Mac App Security Breach",
+          "subtitle": "Update Now to Stay Safe"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "AI Startup Collate raised $95 million on 03 Jun 2026",
-            "To automate life sciences paperwork",
-            "Investment to improve efficiency in life sciences industry",
-            "Total funding amount: $95 million"
+            "A security breach was reported on 02 Jun 2026",
+            "Users must update the ChatGPT Mac app immediately",
+            "The breach affects all users of the Mac app",
+            "No specific numbers of affected users were disclosed"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "Improves efficiency in life sciences industry",
-            "Enhances accuracy and speed of paperwork",
-            "Supports growth of life sciences sector",
-            "Funding to drive innovation"
+            "The security breach highlights the importance of regular updates",
+            "Users should always prioritize app security to protect their data",
+            "The incident may lead to increased scrutiny of AI app security",
+            "Source: 9to5Mac, 02 Jun 2026"
+          ]
+        }
+      },
+      "caption": "A recent security breach in the ChatGPT Mac app has raised concerns about AI app security. The breach, reported on 02 Jun 2026, requires all users to update the app immediately. Questions to consider: What are the implications of this breach for AI app security? How can users protect themselves from similar breaches in the future? #AIsecurity #ChatGPT #MacApp #SecurityBreach #UpdateNow",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUExa2R1WkZ1anpQVi1ZV1NoR0piMDZ6SWl4ZFlwWUxUc3VMMHlDQjFfRENfdFBtd25ZQk1Rb09iY3g0ekJ4QlRKZzQtVUUzMzM5U255SC1UUUxkRkNwU095VFpKSTA5VnRzWF83QUROZTVQWHVMNDJaMlc1MU9Mdi1zWFg5dWxWWXRILUpiX2c1YXJ3XzNvYTJMNA?oc=5",
+      "sourceName": "9to5Mac",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "02 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Nvidia Acquisition",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nvidia Acquires Kumo AI",
+          "subtitle": "Expanding AI Capabilities"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Nvidia acquired Kumo AI for at least $400 million",
+            "The acquisition was announced on 03 Jun 2026",
+            "Kumo AI is an enterprise model-maker",
+            "The deal strengthens Nvidia's position in the AI market"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights Nvidia's commitment to AI innovation",
+            "Kumo AI's technology will enhance Nvidia's AI offerings",
+            "The deal may lead to increased competition in the AI market",
+            "Nvidia's AI capabilities will be significantly expanded"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "AI adoption in life sciences is on the rise",
-            "Automation of paperwork can reduce errors and costs",
-            "Investment in AI startups is a growing trend",
-            "Source: Forbes, Jun 2026"
+            "Nvidia's acquisition strategy is focused on expanding its AI capabilities",
+            "The deal may lead to new AI-powered products and services",
+            "The AI market is expected to continue growing in the coming years",
+            "Source: The Information, Jun 2026"
           ]
         }
       },
-      "caption": "AI startup Collate raises $95 million to automate life sciences paperwork. This investment highlights the growing trend of AI adoption in the life sciences industry. Questions to consider: What are the potential applications of AI in life sciences? How will this investment impact the industry? #AI #LifeSciences #Funding #Innovation #Healthcare #Technology"
-    },
-    {
-      "id": 2,
-      "topic": "Security Breach Alert",
-      "slides": 3,
-      "svgIcon": "lock",
-      "sourceId": "N22",
-      "eventDate": "02 Jun 2026",
-      "sourceName": "9to5Mac",
+      "caption": "Nvidia has acquired Kumo AI, an enterprise model-maker, for at least $400 million. The deal, announced on 03 Jun 2026, strengthens Nvidia's position in the AI market. Questions to consider: How will this acquisition impact Nvidia's AI capabilities? What are the potential implications for the AI market? #Nvidia #KumoAI #Acquisition #AI #Innovation #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbTR0REdsRG9qNjFIYUI5NUM3bDhqNFpfeFlLSGMxMnJSenctWWQzRGNTNE1XNUlncjNSelkxRGpnaWE3NjR5XzRULVRDdFphRTVybUpfZEFJcGZRQTJWOHVZSHJRb0s5WUF4YnA3Tm1JMVZBMEtfVHZKRHVhb09HbzZzYzZ3VHRIUjRGbGhxamM5aGU1V2RDMEVlNlVCWFpnVHc?oc=5",
+      "sourceName": "The Information",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUExa2R1WkZ1anpQVi1ZV1NoR0piMDZ6SWl4ZFlwWUxUc3VMMHlDQjFfRENfdFBtd25ZQk1Rb09iY3g0ekJ4QlRKZzQtVUUzMzM5U255SC1UUUxkRkNwU095VFpKSTA5VnRzWF83QUROZTVQWHVMNDJaMlc1MU9Mdi1zWFg5dWxWWXRILUpiX2c1YXJ3XzNvYTJMNA?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Security Breach in ChatGPT Mac App",
-          "subtitle": "Update Required"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "A security breach was discovered in the ChatGPT Mac app on 02 Jun 2026",
-            "Users must update the app to prevent potential vulnerabilities",
-            "The breach highlights the importance of regular software updates",
-            "Number of affected users: not disclosed"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Regular software updates are crucial for security",
-            "AI-powered apps are not immune to breaches",
-            "Users must be vigilant about app updates",
-            "Source: 9to5Mac, 02 Jun 2026"
-          ]
-        }
-      },
-      "caption": "A security breach was discovered in the ChatGPT Mac app, requiring an immediate update. This incident highlights the importance of regular software updates for security. Questions to consider: What are the potential consequences of a security breach in an AI-powered app? How can users protect themselves from similar breaches? #Security #AI #ChatGPT #Update #Vulnerability #Technology"
+      "eventDate": "03 Jun 2026"
     },
     {
       "id": 3,
-      "topic": "Google Introduces Gemma 4 12B",
+      "topic": "AI Model Advancements",
       "slides": 3,
-      "svgIcon": "code",
-      "sourceId": "N7",
-      "eventDate": "03 Jun 2026",
-      "sourceName": "blog.google",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcTdUNDVqeHpOQ3AtSDdyeE1oR2VVXzA2ZFNOTi1mZWh6ek9ZWkhjY19hZU1la2tBalJzcjVsVkk2RENHLWo5c2VDai13QXlZaGs2TXpfYWpkWTBKZnBNbnItYy0yUGpxSzRhQmpUT3NhSHhHOWZGUERHVjZWaDF6am0zUGJLekYtemp2SmhQODU4dDg1?oc=5",
+      "svgIcon": "brain",
+      "sourceId": "N6",
       "slideContent": {
         "slide1": {
-          "headline": "Google Introduces Gemma 4 12B",
-          "subtitle": "A Unified, Encoder-Free Multimodal Model"
+          "headline": "Introducing Gemma 4 12B",
+          "subtitle": "A Unified Multimodal Model"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Google introduced Gemma 4 12B on 03 Jun 2026",
-            "A unified, encoder-free multimodal model",
-            "Model size: 12 billion parameters",
-            "Number of applications: multiple"
+            "Google introduced Gemma 4 12B, a unified encoder-free multimodal model",
+            "The model was announced on 03 Jun 2026",
+            "Gemma 4 12B has 12 billion parameters",
+            "The model is designed for various AI applications"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Gemma 4 12B is a significant advancement in AI research",
-            "The model's unified architecture enables multiple applications",
-            "Encoder-free design improves efficiency and performance",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Gemma 4 12B represents a significant advancement in AI model technology",
+            "The model's unified architecture simplifies AI development",
+            "Gemma 4 12B may lead to breakthroughs in AI research and applications",
             "Source: blog.google, 03 Jun 2026"
           ]
         }
       },
-      "caption": "Google introduced Gemma 4 12B, a unified, encoder-free multimodal model. This innovation has the potential to revolutionize AI research and applications. Questions to consider: What are the potential applications of Gemma 4 12B? How will this model impact the field of AI research? #AI #Google #Gemma #Multimodal #Model #Innovation #Technology"
+      "caption": "Google has introduced Gemma 4 12B, a unified encoder-free multimodal model with 12 billion parameters. The model, announced on 03 Jun 2026, has the potential to simplify AI development and lead to breakthroughs in AI research. Questions to consider: What are the potential applications of Gemma 4 12B? How will this model impact the development of AI technologies? #Gemma412B #AI #MultimodalModel #Google #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcTdUNDVqeHpOQ3AtSDdyeE1oR2VVXzA2ZFNOTi1mZWh6ek9ZWkhjY19hZU1la2tBalJzcjVsVkk2RENHLWo5c2VDai13QXlZaGs2TXpfYWpkWTBKZnBNbnItYy0yUGpxSzRhQmpUT3NhSHhHOWZGUERHVjZWaDF6am0zUGJLekYtemp2SmhQODU4dDg1?oc=5",
+      "sourceName": "blog.google",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "03 Jun 2026"
     }
   ]
 }

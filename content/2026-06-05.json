@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-05",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Valuation",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "eventDate": "02 Jun 2026",
+      "sourceName": "Social Samosa",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTzJpVzBhUmlNMEtBaFAwVkc1N1hIaEJ0Wk4tWnUxUmdpaEJteVpxc0tVOENCTWI0d09tWVRoYWJDR3hDYkxmZjI4bEg3Q2dDbXY2bkpMTTRyVXRLTVRfTmVyZnFnYmR4eDRBRm1uTVJxT0xVaW5SM2tURFlpVDdWVWQ4VGgtZ0FkeVZLYXEyVENTTloxdUdB0gGXAUFVX3lxTFBPMmlXMGFSaU0wS0FoUDBWRzU3WEhoQnRaTi1adTFSZ2loQm15WnFzS1U4Q0JNYjR3T21ZVGhhYkNHeENiTGZmMjhsSDdDZ0NtdjZuSkxNNHJVdEtNVF9OZXJmcWdiZHh4NEFGbW5NUnFPTFVpblIza1REWWlUN1ZVZDhUaC1nQWR5VkthcTJUQ1NOWjF1R0E?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Overtakes OpenAI",
+          "subtitle": "Highest-Valued AI Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic's valuation reached $965 billion",
+            "Overtaking OpenAI as the highest-valued AI startup",
+            "This shift in valuation occurred on 02 Jun 2026",
+            "Marking a significant change in the AI landscape"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This change in valuation reflects the growing importance of AI",
+            "Anthropic's focus on AI safety and research has contributed to its success",
+            "The company's valuation is a testament to the potential of AI in various industries"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI market is rapidly evolving, with new players emerging",
+            "Valuations are expected to continue shifting as the market matures",
+            "Anthropic's success is a sign of the growing interest in AI research and development",
+            "Source: Social Samosa, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has become the highest-valued AI startup, overtaking OpenAI. What does this mean for the future of AI research and development? How will this change in valuation impact the AI market? Questions to consider: What are the implications of Anthropic's focus on AI safety? How will this shift in valuation affect the development of AI in various industries? #AI #Valuation #OpenAI #Anthropic #Research #Development"
+    },
+    {
+      "id": 2,
+      "topic": "Google AI Model",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N6",
+      "eventDate": "03 Jun 2026",
+      "sourceName": "Ars Technica",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbV8tS2UzRDAzR0pCdGIzVERFQ1lYRzJOaDVhTGJyLTRuRjZFNkV6b3d6SXdRYUpGTEVyMFZzdXJUdTdmVl9pSkl4NXhxYmlhLUwydHlaS1hJR2dWQXZtUWtoS3ZVNElPV20td1drTlhzTnpPVjU3djVqalJaNG5ZRUFJV3M4dkZRSjMxYjhpN29iSF9oRlJac3NrQTN5Z3c?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google's New Gemma 4 12B Model",
+          "subtitle": "Designed to Run on Any Laptop"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google introduced the Gemma 4 12B model, which can run on any laptop with 16GB of RAM",
+            "This model is designed to be more accessible and efficient",
+            "The Gemma 4 12B model was announced on 03 Jun 2026"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Gemma 4 12B model has the potential to increase accessibility to AI technology",
+            "Google's focus on efficiency and accessibility is a significant step forward in the development of AI",
+            "The model's ability to run on any laptop with 16GB of RAM makes it more widely available",
+            "Source: Unknown, 03 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Google has introduced the Gemma 4 12B model, designed to run on any laptop with 16GB of RAM. What are the implications of this development for the AI industry? How will this increase accessibility to AI technology? Questions to consider: What are the potential applications of the Gemma 4 12B model? How will this development impact the future of AI research and development? #AI #Google #Gemma4 #Model #Accessibility #Efficiency"
+    },
+    {
+      "id": 3,
+      "topic": "Nvidia Acquisition",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N8",
+      "eventDate": "04 Jun 2026",
+      "sourceName": "AD HOC NEWS",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1M1d0dpSTk3WVRlRmJ1d3N3cGp3RkxKYkdXSFBSZ2F4STRjVTM1dVhXQzJZcDdSckhpZzlkZU5ENWhJQ1RXUzVjaTdpdTJkQnRtM21CdEZfV3BvTFM1MlFQSVhWZFRGZ29wUnFfN29qa3pLMTl6aVpPQnVCbks0eFp6Nnl5bFhaVFJnOXEyN1BDeGRqdEdlenlPOElnX1gxVk5uMldjU3BKV2JndmR2by1nclJVQ01WZ1pfOFUycGIzY3JsSm4zLVl3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nvidia's $400 Million AI Acquisition",
+          "subtitle": "Kumo AI Acquisition"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Nvidia acquired Kumo AI for over $400 million",
+            "The acquisition is expected to enhance Nvidia's AI capabilities",
+            "Kumo AI is a predictive AI startup, and the acquisition occurred on 03 Jun 2026"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition reflects Nvidia's focus on expanding its AI capabilities",
+            "Kumo AI's predictive technology is expected to enhance Nvidia's offerings",
+            "The acquisition is a significant step forward in the development of AI technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is expected to increase Nvidia's competitiveness in the AI market",
+            "Kumo AI's technology has the potential to enhance Nvidia's products and services",
+            "The acquisition is a sign of the growing importance of AI in the tech industry",
+            "Source: AD HOC NEWS, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Nvidia has acquired Kumo AI for over $400 million. What are the implications of this acquisition for the AI industry? How will this enhance Nvidia's AI capabilities? Questions to consider: What are the potential applications of Kumo AI's predictive technology? How will this acquisition impact the future of AI research and development? #AI #Nvidia #KumoAI #Acquisition #PredictiveTechnology #ArtificialIntelligence"
+    }
+  ]
+}

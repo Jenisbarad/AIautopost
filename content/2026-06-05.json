@@ -8,125 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Valuation",
-      "slides": 4,
+      "topic": "AI Music Startup",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N3",
-      "eventDate": "02 Jun 2026",
-      "sourceName": "Social Samosa",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTzJpVzBhUmlNMEtBaFAwVkc1N1hIaEJ0Wk4tWnUxUmdpaEJteVpxc0tVOENCTWI0d09tWVRoYWJDR3hDYkxmZjI4bEg3Q2dDbXY2bkpMTTRyVXRLTVRfTmVyZnFnYmR4eDRBRm1uTVJxT0xVaW5SM2tURFlpVDdWVWQ4VGgtZ0FkeVZLYXEyVENTTloxdUdB0gGXAUFVX3lxTFBPMmlXMGFSaU0wS0FoUDBWRzU3WEhoQnRaTi1adTFSZ2loQm15WnFzS1U4Q0JNYjR3T21ZVGhhYkNHeENiTGZmMjhsSDdDZ0NtdjZuSkxNNHJVdEtNVF9OZXJmcWdiZHh4NEFGbW5NUnFPTFVpblIza1REWWlUN1ZVZDhUaC1nQWR5VkthcTJUQ1NOWjF1R0E?oc=5",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Overtakes OpenAI",
-          "subtitle": "Highest-Valued AI Startup"
+          "headline": "AI Music Startup Suno Raises Capital",
+          "subtitle": "At $5.4 Billion Valuation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Anthropic's valuation reached $965 billion",
-            "Overtaking OpenAI as the highest-valued AI startup",
-            "This shift in valuation occurred on 02 Jun 2026",
-            "Marking a significant change in the AI landscape"
+            "Suno AI raised capital at a $5.4 billion valuation",
+            "The funding round was reported on 03 Jun 2026",
+            "This valuation is a significant milestone for the AI music startup",
+            "The exact amount of funding was not disclosed, but it was reported to be over $400M"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This change in valuation reflects the growing importance of AI",
-            "Anthropic's focus on AI safety and research has contributed to its success",
-            "The company's valuation is a testament to the potential of AI in various industries"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI market is rapidly evolving, with new players emerging",
-            "Valuations are expected to continue shifting as the market matures",
-            "Anthropic's success is a sign of the growing interest in AI research and development",
-            "Source: Social Samosa, Jun 2026"
+            "This funding round demonstrates the growing interest in AI music startups",
+            "Suno AI's valuation is a testament to the potential of AI in the music industry",
+            "The company's ability to raise capital at such a high valuation is a significant achievement",
+            "Source: Bloomberg, 03 Jun 2026"
           ]
         }
       },
-      "caption": "Anthropic has become the highest-valued AI startup, overtaking OpenAI. What does this mean for the future of AI research and development? How will this change in valuation impact the AI market? Questions to consider: What are the implications of Anthropic's focus on AI safety? How will this shift in valuation affect the development of AI in various industries? #AI #Valuation #OpenAI #Anthropic #Research #Development"
+      "caption": "AI music startup Suno raises capital at $5.4 billion valuation. What does this mean for the future of music production? How will this impact the music industry as a whole? What are the potential applications of AI in music? #AI #Music #Startup #Funding #Valuation #MusicProduction",
+      "questions": "Questions to consider: What are the potential risks and challenges associated with AI-generated music? How will AI change the way we consume music?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZHJfSmNLM2doMlVFc1Bwck9VVWo2RFZOYzFXWkFnOUU4aVhoeVNVR1luMThxNmRWMk5XSEctZVpHMjZJbFZGSnlIRGJpUXRIZExMMnE0VjNjZ0VnYk9SRVFBYzQ5eGxLZTFaTmFxdnZWMVdTSDQxT0NPMkhYMXZrbk45bXBqR2NLU3lyUVRhUjRfY3NCeldzQjhmeEVpV0VTMXVXcVJJNkQzM0JWZ0RDc2N3?oc=5",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "03 Jun 2026"
     },
     {
       "id": 2,
-      "topic": "Google AI Model",
+      "topic": "Global AI Slowdown",
       "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N6",
-      "eventDate": "03 Jun 2026",
-      "sourceName": "Ars Technica",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbV8tS2UzRDAzR0pCdGIzVERFQ1lYRzJOaDVhTGJyLTRuRjZFNkV6b3d6SXdRYUpGTEVyMFZzdXJUdTdmVl9pSkl4NXhxYmlhLUwydHlaS1hJR2dWQXZtUWtoS3ZVNElPV20td1drTlhzTnpPVjU3djVqalJaNG5ZRUFJV3M4dkZRSjMxYjhpN29iSF9oRlJac3NrQTN5Z3c?oc=5",
+      "svgIcon": "shield",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "Google's New Gemma 4 12B Model",
-          "subtitle": "Designed to Run on Any Laptop"
+          "headline": "Anthropic Calls for Global AI Slowdown",
+          "subtitle": "Says Systems May Outpace Human Control"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Google introduced the Gemma 4 12B model, which can run on any laptop with 16GB of RAM",
-            "This model is designed to be more accessible and efficient",
-            "The Gemma 4 12B model was announced on 03 Jun 2026"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The Gemma 4 12B model has the potential to increase accessibility to AI technology",
-            "Google's focus on efficiency and accessibility is a significant step forward in the development of AI",
-            "The model's ability to run on any laptop with 16GB of RAM makes it more widely available",
-            "Source: Unknown, 03 Jun 2026"
-          ]
-        }
-      },
-      "caption": "Google has introduced the Gemma 4 12B model, designed to run on any laptop with 16GB of RAM. What are the implications of this development for the AI industry? How will this increase accessibility to AI technology? Questions to consider: What are the potential applications of the Gemma 4 12B model? How will this development impact the future of AI research and development? #AI #Google #Gemma4 #Model #Accessibility #Efficiency"
-    },
-    {
-      "id": 3,
-      "topic": "Nvidia Acquisition",
-      "slides": 4,
-      "svgIcon": "network",
-      "sourceId": "N8",
-      "eventDate": "04 Jun 2026",
-      "sourceName": "AD HOC NEWS",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1M1d0dpSTk3WVRlRmJ1d3N3cGp3RkxKYkdXSFBSZ2F4STRjVTM1dVhXQzJZcDdSckhpZzlkZU5ENWhJQ1RXUzVjaTdpdTJkQnRtM21CdEZfV3BvTFM1MlFQSVhWZFRGZ29wUnFfN29qa3pLMTl6aVpPQnVCbks0eFp6Nnl5bFhaVFJnOXEyN1BDeGRqdEdlenlPOElnX1gxVk5uMldjU3BKV2JndmR2by1nclJVQ01WZ1pfOFUycGIzY3JsSm4zLVl3?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Nvidia's $400 Million AI Acquisition",
-          "subtitle": "Kumo AI Acquisition"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Nvidia acquired Kumo AI for over $400 million",
-            "The acquisition is expected to enhance Nvidia's AI capabilities",
-            "Kumo AI is a predictive AI startup, and the acquisition occurred on 03 Jun 2026"
+            "Anthropic called for a global AI slowdown on 05 Jun 2026",
+            "The company expressed concerns that AI systems may outpace human control",
+            "This warning highlights the need for responsible AI development",
+            "No specific numbers were reported, but the potential risks are significant"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The acquisition reflects Nvidia's focus on expanding its AI capabilities",
-            "Kumo AI's predictive technology is expected to enhance Nvidia's offerings",
-            "The acquisition is a significant step forward in the development of AI technology"
+            "The potential risks of uncontrolled AI systems are significant",
+            "A global AI slowdown could help mitigate these risks",
+            "Anthropic's warning highlights the need for careful consideration of AI development",
+            "Source: France 24, 05 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic calls for global AI slowdown, citing concerns that systems may outpace human control. What are the potential risks of uncontrolled AI systems? How can we ensure that AI development is responsible and safe? What are the implications of a global AI slowdown? #AI #Slowdown #ResponsibleAI #Safety #Regulation",
+      "questions": "Questions to consider: What are the potential consequences of ignoring Anthropic's warning? How can we balance the benefits of AI with the need for safety and control?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ3phdmF4Q3B6UkpWVFB3NXJ6Qlk2SjIyY19TRlVWUzc2WUx1ZHBHVXVvMFVQcE1Qa0E1Y3l5bUtORndZQUZGQ0V4UVB0ZzcxSUZKMHM3QUxsemVRdG93eU5sUUZNdm94R1h4SUNDYTlwcUtfQ2pqWERYbFJfREx4YnJQc0FOUTY2WGJZWXJGeXBBaDJfWi1hT05nYWNyWnNBNHZRWDJVN09QZ0RGSVB3SU1OS2xOVDBkVFRFdW9VdldNNWc?oc=5",
+      "sourceName": "France 24",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "05 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Startup Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Innefu Labs Raises $30 Million",
+          "subtitle": "In Funding from Panthera Growth Partners"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Innefu Labs raised $30 million in funding on 05 Jun 2026",
+            "The funding was provided by Panthera Growth Partners",
+            "This investment highlights the growing interest in AI startups",
+            "The exact terms of the funding were not disclosed"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round demonstrates the potential of AI startups",
+            "Innefu Labs' ability to raise capital is a significant achievement",
+            "The company's technology has the potential to drive innovation in the AI industry",
+            "The funding will be used to further develop the company's products and services"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is expected to increase Nvidia's competitiveness in the AI market",
-            "Kumo AI's technology has the potential to enhance Nvidia's products and services",
-            "The acquisition is a sign of the growing importance of AI in the tech industry",
-            "Source: AD HOC NEWS, Jun 2026"
+            "The funding round highlights the growing interest in AI startups",
+            "Innefu Labs' technology has the potential to drive innovation in the AI industry",
+            "The company's ability to raise capital is a significant achievement",
+            "Source: The Economic Times, Jun 2026"
           ]
         }
       },
-      "caption": "Nvidia has acquired Kumo AI for over $400 million. What are the implications of this acquisition for the AI industry? How will this enhance Nvidia's AI capabilities? Questions to consider: What are the potential applications of Kumo AI's predictive technology? How will this acquisition impact the future of AI research and development? #AI #Nvidia #KumoAI #Acquisition #PredictiveTechnology #ArtificialIntelligence"
+      "caption": "AI startup Innefu Labs raises $30 million in funding from Panthera Growth Partners. What does this mean for the future of AI startups? How will this funding be used to drive innovation in the AI industry? What are the potential applications of Innefu Labs' technology? #AI #Startup #Funding #Innovation #Technology",
+      "questions": "Questions to consider: What are the potential risks and challenges associated with AI startup funding? How will Innefu Labs use this funding to drive growth and innovation?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOUp2b25XSlJObmN2X3FHaHhvMXlWaHJ4LTMzOFZ2Yi10QzFjNG1FX2VoamtrMmtIVjVqTE00X05mSG43S0J4N1FBQzlOUjdPMmRiRjhmcXBWMEFlUFlTTkV4UzYxcko0SnVLUkJObWtYUzVnY2NsS2dQbWxZYjVQd05BbWdmaTV3R3B2RnZLWURPQ0QzNHdPSTFnRHlUN3RRenNTVWFDcldLQTdpY2FDY09NaUFSV2hnMDRHb3d0Y2FrS0dKZkY3Z3UxRDhxYnd5WDlZVnZiWVlNWW1hNWtR0gHkAUFVX3lxTE5VMkd5UjEzanFrWTFlWFFqWWJQRHVzdTF6UDhBaFBxdDVLb2I5VnVrdWxwbXdSOUVQUnhtNmktdHFCblJ1SGlIS2lySHhJZVRnSnJLWmp2WGIybnVVVWx0dGFkZVZicGdPN0V1bmJzZkNOVXJiTWJYMkxsTHJNR3l5VnZ4SU5jUTVNd05yNFJHZWJpV1ZfY0Vxa19TSndhYndmWVltU19vWjg4UXJhdm5RSHVwMmZGdGpTZlRPbjlTVHduVTAtb2kxQmlHMlZfYzN4MmpodG43V3gwcTBmMXFURWw2VQ?oc=5",
+      "sourceName": "The Economic Times",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "05 Jun 2026"
     }
   ]
 }

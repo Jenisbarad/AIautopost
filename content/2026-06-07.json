@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-07",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "OpenAI Update",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "07 Jun 2026",
+      "sourceName": "India Today",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSkpxRUdyM2lYeF9jYjBLVUpNaFNxMTNoZllYN1BVSFdKS2lXRkpZLS1IeE5fV2pmanJKQkFLVi13ZEhHRzJTTVcwT21ldVphVWcyOG1HQjFQWFF5M3A0OU1zYUNHcVpNek9OdmxJWmtDc3R3ZWNXTFQ0UmtCSDhQeXpyREdPOEd2MkN3a21wMVBYSUtpc2NPaW1VTm1YVHdrcGNGUHRiUWYzYVFWdks1UmNodElRZExNLTZ3V1lUUFlldl9RNnZ5UWZWXzBPN3BMcm5qd3U5Mm5ydzRWYk9IS21Pb0UxVDTSAecBQVVfeXFMT0pKcUVHcjNpWHhfY2IwS1VKTWhTcTEzaGZZWDdQVUhXSktpV0ZKWS0tSHhOX1dqZmpySkJBS1Ytd2RIR0cyU01XME9tZXVaYVVnMjhtR0IxUFhReTNwNDlNc2FDR3FaTXpPTnZsSVprQ3N0d2VjV0xUNFJrQkg4UHl6ckRHTzhHdjJDd2ttcDFQWElLaXNjT2ltVU5tWFR3a3BjRlB0YlFmM2FRVnZLNVJjaHRJUWRMTS02d1dZVFBZZXZfUTZ2eVFmVl8wTzdwTHJuand1OTJucnc0VmJPSEttT29FMVQ0?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Prepares for IPO",
+          "subtitle": "ChatGPT to become a superapp"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Jun 2026",
+            "OpenAI is prepping a huge ChatGPT update",
+            "Plans to turn it into a superapp ahead of IPO",
+            "No specific date announced yet"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This update could significantly impact the AI landscape",
+            "A superapp could change how we interact with AI",
+            "Questions about data privacy and security arise"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: India Today, Jun 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI is preparing a huge update for ChatGPT, turning it into a superapp ahead of its IPO. What implications will this have on the AI landscape? How will this affect data privacy and security? \nQuestions to consider: \n- How will OpenAI's superapp change the way we interact with AI?\n- What are the potential risks and benefits of this update?\n#OpenAI #ChatGPT #AI #Superapp #IPO"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N4",
+      "eventDate": "05 Jun 2026",
+      "sourceName": "OODAloop",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb3V1ejBSVm8xc1hLcmJLZi1DLXhuNEF4eFVTUW45X0ZqX3A4cnZBOTJDRFRWVUdERk94cGxxaDRnR3N4UjNuTkJGd1JOS2VEWUJBazEyOWpkVmpUakV1M2xIMUtSeDJEd3Z2UTJMT1MzdGh5dUdPNXNVZlM2THVGOVl3YnNIZlhLY0lTeUJiZnBXWElGVzd6SGo4b2QxcUk?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Meta Hack Exposes AI Security Risks",
+          "subtitle": "More to AI security than just technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 05 Jun 2026",
+            "The Meta hack showed that AI security is more than just technology",
+            "Human factors play a significant role in AI security risks",
+            "The hack resulted in a significant data breach"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "AI security is a growing concern",
+            "Companies must consider both technological and human factors",
+            "Investing in AI security is crucial for protecting sensitive data"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: OODAloop, Jun 2026"
+          ]
+        }
+      },
+      "caption": "The recent Meta hack has exposed the risks of AI security, highlighting that it's not just about technology, but also human factors. What can companies do to protect themselves from similar breaches? \nQuestions to consider: \n- How can companies balance technological and human factors in AI security?\n- What role should AI play in preventing data breaches?\n#AI #Security #Meta #Hack #DataBreach"
+    },
+    {
+      "id": 3,
+      "topic": "Lumiq Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N3",
+      "eventDate": "06 Jun 2026",
+      "sourceName": "Business Outreach Magazine",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV1hxNmVoWkl4S2Ytc012b0lxbkpIYnZSZy1ZUTJuUm9SQ1JveEVCbTFrVnZMTnkwRWJqOVoxcDNVWFVQQXZzN0hpcm5wdzhNejhpNkxtd0dMcEcxZktfcmVEc3U0ZjVCM3ozSE5UWVlkNHlKZ2FOaVFrTEswb0RqekRxTF9ET21HcU5QUw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Lumiq Raises Funding",
+          "subtitle": "AI startup raises Rs 50 Crore in Series B Round"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Jun 2026",
+            "Lumiq, an AI startup, raised Rs 50 Crore in a Series B funding round",
+            "The funding will be used to expand its operations and develop new products",
+            "This is a significant investment in the AI sector"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round shows the growing interest in AI startups",
+            "Lumiq's products have the potential to disrupt various industries",
+            "The funding will help Lumiq to further develop its technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Lumiq's funding is a significant milestone for the AI sector",
+            "The company's products have the potential to drive innovation",
+            "Source: Business Outreach Magazine, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Lumiq, an AI startup, has raised Rs 50 Crore in a Series B funding round. What does this mean for the AI sector? How will this funding impact Lumiq's operations and product development? \nQuestions to consider: \n- How will Lumiq use the funding to expand its operations?\n- What are the potential applications of Lumiq's products?\n#Lumiq #AI #Funding #SeriesB #Startup"
+    }
+  ]
+}

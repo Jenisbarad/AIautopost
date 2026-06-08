@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-08",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Startup Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N6",
+      "eventDate": "08 Jun 2026",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmcySnEwTEFwQmJpdjM3YzVWY1BQOXJlR1RYUDJrN2R3M0xmRUFGMV9BaVJrMmRPcFB1cThzUzhNOXlEZWgtdjZsZ1RqWk9ibDMyQjZWU2dldHFwSkFyMmhOU1ZQOWhKaG5vaTQ4MENpTjRfNl9MdUxTWlVkTWlLcmh4cUNlalhlU1VSQW5KNXJrU2tIZmdtSWxHRWF5MXIta1pwSnVJdkhXUVZkME5xUmlIWkEyalZON1h0Y2tzSGlJVElI?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "PhysicsX Hits $2.4 Billion Valuation",
+          "subtitle": "AI for Manufacturing"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "PhysicsX, a startup providing AI for manufacturing, has hit a $2.4 billion valuation.",
+            "This valuation is a significant milestone for the company.",
+            "The company is backed by Temasek.",
+            "The valuation was reported on 08 Jun 2026."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The high valuation of PhysicsX indicates the growing demand for AI in manufacturing.",
+            "The company's AI solutions can help manufacturers improve efficiency and productivity.",
+            "The valuation also reflects the potential for AI to transform the manufacturing industry.",
+            "This could lead to increased investment in AI research and development."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The valuation of PhysicsX is a significant indicator of the company's potential for growth.",
+            "The company's AI solutions can help manufacturers reduce costs and improve product quality.",
+            "The growing demand for AI in manufacturing is expected to drive the growth of the industry.",
+            "Source: Bloomberg.com, Jun 2026"
+          ]
+        }
+      },
+      "caption": "PhysicsX, a startup providing AI for manufacturing, has hit a $2.4 billion valuation. This valuation is a significant milestone for the company and indicates the growing demand for AI in manufacturing. What does this mean for the future of manufacturing? How will AI continue to transform the industry? What are the potential benefits and challenges of adopting AI in manufacturing? #AI #Manufacturing #Startup #Valuation #IndustryTrends #Technology",
+      "questions": "What are the potential applications of AI in manufacturing? How can AI improve efficiency and productivity in manufacturing?"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Optimization",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "eventDate": "05 Jun 2026",
+      "sourceName": "blog.google",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeU5RSkkyc3JIQ3BzQzVCOU9FUG5iRms3Z28xQlkyYVdMdVc0aG53eHhxZkJFUDFaVVh2ZDVIMDVlckV4THhsZi03VWdwczNZdmdTVXI5Z0ZtT29TbW5xUHJsS0xLZlhlR05MRmpydTN2WEdmd2FocWZrUTZCZk9uSW40eUtLYmFUUVVhdzBldG13MzJJRDhjbFppUkFwbngwMFdTbg?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Gemma 4 QAT Models",
+          "subtitle": "Optimizing Model Compression"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google has introduced Gemma 4 QAT models, which optimize model compression for mobile and laptop efficiency.",
+            "The models use quantization-aware training (QAT) to reduce the size of AI models.",
+            "This allows for faster and more efficient deployment of AI models on devices.",
+            "The Gemma 4 QAT models were announced on 05 Jun 2026."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Gemma 4 QAT models can help improve the performance of AI models on devices.",
+            "The models can reduce the energy consumption of AI models, making them more suitable for mobile devices.",
+            "The use of QAT can also improve the security of AI models by reducing the risk of data breaches.",
+            "Source: blog.google, 05 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Google has introduced Gemma 4 QAT models, which optimize model compression for mobile and laptop efficiency. What are the benefits of using QAT for AI model compression? How can Gemma 4 QAT models improve the performance of AI models on devices? What are the potential applications of Gemma 4 QAT models in industries such as healthcare and finance? #AI #ModelCompression #QAT #Google #Technology",
+      "questions": "What are the challenges of deploying AI models on devices? How can Gemma 4 QAT models address these challenges?"
+    },
+    {
+      "id": 3,
+      "topic": "AI Adoption in Data Centers",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N3",
+      "eventDate": "07 Jun 2026",
+      "sourceName": "digitimes",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSVdiYmdqUXNrY0JrMVVMbGxnc2hOdjNpUDkyZk9CVlc1VlNOUHNVa1Q0QUNVVVhtZVVEQ2lTRlJPeHoyMUtsNGJBTERTZTNra2NmdjdTSGE2T0RseW9oTmVxVm5rWU1xRUFSYmNSVnRnaWRfRGZFTUl6RG1KeFQ1ZnB6dEVRcjVTWmFWMHJJR2VLY2ZpOXdVVjJZdkpGUQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Pegatron Unit ASRock Rack Wins Order",
+          "subtitle": "Supplying 587 GPU Servers for Thailand AI Data Center"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Jun 2026",
+            "Pegatron unit ASRock Rack has won an order to supply 587 GPU servers for a Thailand AI data center.",
+            "The GPU servers will be used to support the development of AI applications.",
+            "The order is valued at an undisclosed amount.",
+            "The GPU servers will be delivered over the next few months."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The adoption of AI in data centers is driving the demand for GPU servers.",
+            "The use of GPU servers can improve the performance of AI applications.",
+            "The growth of AI in data centers is expected to drive the growth of the industry.",
+            "Source: digitimes, 07 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Pegatron unit ASRock Rack has won an order to supply 587 GPU servers for a Thailand AI data center. What are the benefits of using GPU servers in AI data centers? How can the adoption of AI in data centers drive the growth of the industry? What are the potential applications of AI in data centers? #AI #DataCenter #GPU #Server #Technology",
+      "questions": "What are the challenges of deploying AI in data centers? How can GPU servers address these challenges?"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-11",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Model Launch",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N10",
+      "eventDate": "10 Jun 2026",
+      "sourceName": "Forbes",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTFteFE1aHVyZmZ2dXp3NE9OVV9SMHQzajBzRVJ3Y3F2WnFrcUEyMC1wcWdHUXNCS1R3YlV6MVkyVlFhTVpIOXpsdHNpamQyNzEybUduMF9pcXF1cUxBVkZkdHlaclZTcHpHQUtMRUUxNW9CS3lDWWFqanNoaGd6eExFUWRyeUhZMnZOSUp3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic's Fable 5 AI Model Offers More Power At A Higher Price",
+          "subtitle": "Understanding the latest advancements in AI technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic launched Claude Fable 5 on 10 Jun 2026",
+            "The model offers more power at a higher price",
+            "It is the first Mythos-class model available for use",
+            "The launch has sparked debate among AI researchers and developers"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of Fable 5 marks a significant milestone in AI development",
+            "It has the potential to revolutionize various industries",
+            "However, concerns have been raised about its impact on AI researchers and developers",
+            "The higher price point may limit accessibility for some users"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Fable 5 model is part of Anthropic's efforts to advance AI technology",
+            "The company has faced criticism for its handling of AI development",
+            "The launch of Fable 5 has sparked a wider debate about the role of AI in society",
+            "Source: Forbes, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's Fable 5 AI model has been launched, offering more power at a higher price. But what does this mean for the future of AI development? Questions to consider: How will the higher price point impact accessibility for AI researchers and developers? What are the potential implications of Fable 5 for various industries? #AI #MachineLearning #Fable5 #Anthropic #ArtificialIntelligence #Technology"
+    },
+    {
+      "id": 2,
+      "topic": "Cybersecurity Concerns",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N13",
+      "eventDate": "10 Jun 2026",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVkVpV0kzbjRaVnRzS1ZNQzFEazJqUFcwN01oc2stWGNiMkVKZHhIY0RsdXlCZUJ0MUZxdlVpWEZ5Y0RnWnRXV3I5NXRwaEVQZnNuaXRTak0tMWFEV2xaem15OFM3d2tuRklmbDlvR0tyY2RuOHN4VmduZ3Jqa3FhamRiXzV5Wi1ldV9wZkhnMVdqOE9oSmFjTk9sZGhPVXZOSzFaV1hzd0lDTG9HeGdJVm5LU1lTSG1HVDF2OWRKdXdqUnRvM2paRDlhUXRKVXN2bGUyalRuUk5naENXcllxUUQ5LXJFd2cxNnhrUFdhQktKN2s?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Netwrix 2026 Data and Identity Security Report",
+          "subtitle": "Understanding the risks associated with AI adoption"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "The report found that AI adoption is outpacing AI readiness",
+            "This has resulted in a 4x breach gap",
+            "The gap highlights the need for increased cybersecurity measures",
+            "The report was released on 10 Jun 2026"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The report highlights the importance of AI readiness in preventing breaches",
+            "Companies must prioritize cybersecurity to protect against AI-related threats",
+            "The 4x breach gap is a significant concern for businesses and individuals alike",
+            "Source: PR Newswire, 10 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The Netwrix 2026 Data and Identity Security Report has highlighted the risks associated with AI adoption. With a 4x breach gap, companies must prioritize cybersecurity to protect against AI-related threats. Questions to consider: What steps can companies take to improve their AI readiness? How can individuals protect themselves from AI-related breaches? #Cybersecurity #AI #ArtificialIntelligence #DataProtection #BreachGap"
+    },
+    {
+      "id": 3,
+      "topic": "Funding Round",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N12",
+      "eventDate": "10 Jun 2026",
+      "sourceName": "Business Review Live",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUXhsb1YzQVY1UGJPdlp5WE5zSXRQU2FWU1A4dEhWb3Nra2lNWlc0dFY3YWNFSy14ZC1zT0lyb2dSRVBJT3pMR0pYRm9hTXkyZWNsM1NsZ1Nfc2xBYjFMcmxOTWJhYTdrZEhRLWNDMmhhYWE0Xzg0TDFXVW0zalFqNDd5bnJjSlFsajJZV3h3THNUZkhKaWk5Z0htNXVYdjFEeEZ4aWdTMjZVaXMxUkdVc1ZiU0c3TW4tZXFWQ2xsYWpMODY3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Surgical AI Startup Uncovr Raises €6M",
+          "subtitle": "Advancing surgical documentation with AI technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Uncovr raised €6 million in funding on 10 Jun 2026",
+            "The funding will be used to transform surgical documentation with AI",
+            "The startup aims to improve patient care and outcomes",
+            "The funding round was announced on 10 Jun 2026"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will enable Uncovr to further develop its AI technology",
+            "The startup has the potential to revolutionize surgical documentation",
+            "The use of AI in healthcare is becoming increasingly important",
+            "Source: Business Review Live, 10 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Surgical AI startup Uncovr has raised €6 million in funding to advance surgical documentation with AI technology. But what does this mean for the future of healthcare? Questions to consider: How will Uncovr use the funding to develop its AI technology? What are the potential implications of AI in surgical documentation? #AI #Healthcare #SurgicalDocumentation #FundingRound #Startup"
+    }
+  ]
+}

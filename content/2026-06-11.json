@@ -8,120 +8,119 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Model Launch",
-      "slides": 4,
+      "topic": "AI Music Startup",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N10",
-      "eventDate": "10 Jun 2026",
-      "sourceName": "Forbes",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTFteFE1aHVyZmZ2dXp3NE9OVV9SMHQzajBzRVJ3Y3F2WnFrcUEyMC1wcWdHUXNCS1R3YlV6MVkyVlFhTVpIOXpsdHNpamQyNzEybUduMF9pcXF1cUxBVkZkdHlaclZTcHpHQUtMRUUxNW9CS3lDWWFqanNoaGd6eExFUWRyeUhZMnZOSUp3?oc=5",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic's Fable 5 AI Model Offers More Power At A Higher Price",
-          "subtitle": "Understanding the latest advancements in AI technology"
+          "headline": "Suno Raises $400M",
+          "subtitle": "AI music startup valuation reaches $5.4B"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Anthropic launched Claude Fable 5 on 10 Jun 2026",
-            "The model offers more power at a higher price",
-            "It is the first Mythos-class model available for use",
-            "The launch has sparked debate among AI researchers and developers"
+            "Event date: 08 Jun 2026",
+            "Suno raised $400M at a $5.4B valuation",
+            "Despite ongoing copyright battles",
+            "The funding will help Suno expand its AI music capabilities"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The launch of Fable 5 marks a significant milestone in AI development",
-            "It has the potential to revolutionize various industries",
-            "However, concerns have been raised about its impact on AI researchers and developers",
-            "The higher price point may limit accessibility for some users"
+            "Suno's valuation highlights the growing importance of AI in music",
+            "The company's ability to raise funds despite copyright battles shows investor confidence",
+            "Source: AI Insider, 08 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Suno, an AI music startup, has raised $400M at a $5.4B valuation. This funding round comes despite ongoing copyright battles. What does this mean for the future of AI in music? How will Suno use this funding to expand its capabilities? Will the company's valuation continue to grow? #AIMusic #Suno #Startup #Funding #AI #Music",
+      "questions": "Questions to consider: What are the implications of AI-generated music on the industry? How will Suno's valuation impact the market?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV0p3bGEyM3dISF84WFFCS2JiREViUllqOGFqbEZmdWZHUUZkMHJkN09KZmtDZU9JSGZZcTJXWk1Qd3NpVmk2S3JtTmp4dnBGQ1pINHpPME94aXBYOVpsU0c5d1pzLWtIazA3MXlLZGtfVzJ0c05CYlBLVlNGM2NnQW45eDlDU2Eya0pmem04WjFmVjRvc3Q5QTlDZ0FJMFlvaDBoSzQwc2doSU5OSTFERjNrbzRNUQ?oc=5",
+      "sourceName": "AI Insider",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "08 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "TDK Acquisition",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "TDK Acquires Fabric8Labs",
+          "subtitle": "US$400 million acquisition for AI data center cooling"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Jun 2026",
+            "TDK acquired Fabric8Labs for US$400 million",
+            "The acquisition aims to improve AI data center cooling",
+            "Fabric8Labs' technology will help reduce energy consumption"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI data center cooling",
+            "TDK's move shows the company's commitment to innovation",
+            "The acquisition will help TDK expand its offerings in the AI market"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The Fable 5 model is part of Anthropic's efforts to advance AI technology",
-            "The company has faced criticism for its handling of AI development",
-            "The launch of Fable 5 has sparked a wider debate about the role of AI in society",
-            "Source: Forbes, Jun 2026"
+            "TDK's acquisition of Fabric8Labs is a strategic move to improve AI data center cooling",
+            "The acquisition will help reduce energy consumption and improve efficiency",
+            "Source: digitimes, Jun 2026"
           ]
         }
       },
-      "caption": "Anthropic's Fable 5 AI model has been launched, offering more power at a higher price. But what does this mean for the future of AI development? Questions to consider: How will the higher price point impact accessibility for AI researchers and developers? What are the potential implications of Fable 5 for various industries? #AI #MachineLearning #Fable5 #Anthropic #ArtificialIntelligence #Technology"
-    },
-    {
-      "id": 2,
-      "topic": "Cybersecurity Concerns",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N13",
-      "eventDate": "10 Jun 2026",
-      "sourceName": "PR Newswire",
+      "caption": "TDK has acquired Fabric8Labs for US$400 million to improve AI data center cooling. This acquisition highlights the growing importance of AI data center cooling. What are the implications of this acquisition for the AI industry? How will TDK's move impact the market? #TDK #Fabric8Labs #Acquisition #AI #DataCenterCooling",
+      "questions": "Questions to consider: What are the benefits of improved AI data center cooling? How will TDK's acquisition impact the environment?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM093RE1XRlZxUFRQaWlWTk1valZsSzR1LWVOcmNnRkY4SC1LVVllNTA2dGJNc2dncEZfZzRUZ3FqNEEyNXR2andwTVJBb24tUzVsRzN1dmhFdmtMNEVnN1NJUUVXd1VybWJRTnk0SWVsM190OTl3cHdtTmduTWpYUXZPVGhTZVloMFM3YlIyTQ?oc=5",
+      "sourceName": "digitimes",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVkVpV0kzbjRaVnRzS1ZNQzFEazJqUFcwN01oc2stWGNiMkVKZHhIY0RsdXlCZUJ0MUZxdlVpWEZ5Y0RnWnRXV3I5NXRwaEVQZnNuaXRTak0tMWFEV2xaem15OFM3d2tuRklmbDlvR0tyY2RuOHN4VmduZ3Jqa3FhamRiXzV5Wi1ldV9wZkhnMVdqOE9oSmFjTk9sZGhPVXZOSzFaV1hzd0lDTG9HeGdJVm5LU1lTSG1HVDF2OWRKdXdqUnRvM2paRDlhUXRKVXN2bGUyalRuUk5naENXcllxUUQ5LXJFd2cxNnhrUFdhQktKN2s?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Netwrix 2026 Data and Identity Security Report",
-          "subtitle": "Understanding the risks associated with AI adoption"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "The report found that AI adoption is outpacing AI readiness",
-            "This has resulted in a 4x breach gap",
-            "The gap highlights the need for increased cybersecurity measures",
-            "The report was released on 10 Jun 2026"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The report highlights the importance of AI readiness in preventing breaches",
-            "Companies must prioritize cybersecurity to protect against AI-related threats",
-            "The 4x breach gap is a significant concern for businesses and individuals alike",
-            "Source: PR Newswire, 10 Jun 2026"
-          ]
-        }
-      },
-      "caption": "The Netwrix 2026 Data and Identity Security Report has highlighted the risks associated with AI adoption. With a 4x breach gap, companies must prioritize cybersecurity to protect against AI-related threats. Questions to consider: What steps can companies take to improve their AI readiness? How can individuals protect themselves from AI-related breaches? #Cybersecurity #AI #ArtificialIntelligence #DataProtection #BreachGap"
+      "eventDate": "11 Jun 2026"
     },
     {
       "id": 3,
-      "topic": "Funding Round",
+      "topic": "OpenAI Price Cuts",
       "slides": 3,
-      "svgIcon": "code",
-      "sourceId": "N12",
-      "eventDate": "10 Jun 2026",
-      "sourceName": "Business Review Live",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUXhsb1YzQVY1UGJPdlp5WE5zSXRQU2FWU1A4dEhWb3Nra2lNWlc0dFY3YWNFSy14ZC1zT0lyb2dSRVBJT3pMR0pYRm9hTXkyZWNsM1NsZ1Nfc2xBYjFMcmxOTWJhYTdrZEhRLWNDMmhhYWE0Xzg0TDFXVW0zalFqNDd5bnJjSlFsajJZV3h3THNUZkhKaWk5Z0htNXVYdjFEeEZ4aWdTMjZVaXMxUkdVc1ZiU0c3TW4tZXFWQ2xsYWpMODY3?oc=5",
+      "svgIcon": "network",
+      "sourceId": "N4",
       "slideContent": {
         "slide1": {
-          "headline": "Surgical AI Startup Uncovr Raises €6M",
-          "subtitle": "Advancing surgical documentation with AI technology"
+          "headline": "OpenAI Targets Anthropic",
+          "subtitle": "Price cuts ahead of pivotal IPO"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Uncovr raised €6 million in funding on 10 Jun 2026",
-            "The funding will be used to transform surgical documentation with AI",
-            "The startup aims to improve patient care and outcomes",
-            "The funding round was announced on 10 Jun 2026"
+            "Event date: 11 Jun 2026",
+            "OpenAI is planning price cuts ahead of its IPO",
+            "The move aims to target Anthropic and gain market share",
+            "The price cuts will make OpenAI's services more competitive"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The funding will enable Uncovr to further develop its AI technology",
-            "The startup has the potential to revolutionize surgical documentation",
-            "The use of AI in healthcare is becoming increasingly important",
-            "Source: Business Review Live, 10 Jun 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "OpenAI's price cuts will increase competition in the AI market",
+            "The move will impact Anthropic's market share and revenue",
+            "Source: Yellow.com, 11 Jun 2026"
           ]
         }
       },
-      "caption": "Surgical AI startup Uncovr has raised €6 million in funding to advance surgical documentation with AI technology. But what does this mean for the future of healthcare? Questions to consider: How will Uncovr use the funding to develop its AI technology? What are the potential implications of AI in surgical documentation? #AI #Healthcare #SurgicalDocumentation #FundingRound #Startup"
+      "caption": "OpenAI is planning price cuts ahead of its IPO to target Anthropic. This move will increase competition in the AI market. What are the implications of OpenAI's price cuts for the AI industry? How will Anthropic respond to the price cuts? #OpenAI #Anthropic #PriceCuts #AI #IPO",
+      "questions": "Questions to consider: What are the benefits of increased competition in the AI market? How will OpenAI's price cuts impact the market share of other AI companies?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lVEFuQUh5WGlDRWZ3YndhSnhvN2ZnZEY4Z1o3WTVkc0dkaXcyaTJfb1IwVF9iQnRqRDZWUW1tdXF4R3Q3dW1oOU1JS1pBWWdPS1RqYnU4WmdYRVNxVFlxWW5uYW5lZw?oc=5",
+      "sourceName": "Yellow.com",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "11 Jun 2026"
     }
   ]
 }

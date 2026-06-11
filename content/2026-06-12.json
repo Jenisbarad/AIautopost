@@ -1,0 +1,129 @@
+{
+  "date": "2026-06-12",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "TCS Partners with Anthropic",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "TCS Ties Up with Anthropic",
+          "subtitle": "To Roll Out Claude AI Access"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Jun 2026",
+            "TCS has partnered with Anthropic to roll out Claude AI access to 50,000 employees.",
+            "This move aims to enhance the company's AI capabilities.",
+            "The partnership will enable TCS to leverage Anthropic's AI technology.",
+            "50,000 employees will have access to Claude AI."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This partnership highlights the growing importance of AI in the industry.",
+            "TCS's move to adopt AI technology will likely have a significant impact on its operations.",
+            "The company's decision to partner with Anthropic demonstrates its commitment to innovation.",
+            "Source: Moneycontrol.com, 11 Jun 2026"
+          ]
+        }
+      },
+      "caption": "TCS has partnered with Anthropic to roll out Claude AI access to 50,000 employees. This move aims to enhance the company's AI capabilities. Questions to consider: What are the potential benefits of this partnership for TCS? How will this impact the company's operations? #AI #Partnership #Innovation #TCS #Anthropic #ClaudeAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVjl3OFZtRkZ5VzhsdGF1Wm1iSzI1aGkzOUlSb3V4S0dEbFZMWk5jckI2c0NPTmxBcEdYbndhODA5djMwM0tPbE1QVzhnTWx2Y3lkRnVtT1dNSmhGM09NMGZRajJodllYUVFaZjhTaTUtdGZOTGhnNjNsYXZPZm5oNkwyNnI1MDNTUWtTcEF3bXRHSWlNaWpjN3Q5SDZudUhBMkNfeF9ERWE1Z3Z3ZWFCbGR1Q0ZQc25Ic1ZwV3lsYkdZR19XX3ZBNk1JRGnSAdIBQVVfeXFMTzF5VURINkN1QldLSU5ZOFIxRkpyUE1CU1ZYYkU5TnR1MGphazZYX1l3V3RUNXZva295Vmh1OFVPMnlqa29IYUY4V1JfNWdBRFlWTGJER2NxQkl0RDFOb0JYX3poTGtkazh3Ym1QejVzUlR0X0NwQWE0VzZnNTFiR0diSWpiOFNfb0Y2TGEzZUlRd2x0Q0tqc1IwSlJqcWFvTVZtNTR3ZVVha2lKeEFXU1RPTGNGbzZaRnQxQUhWSUhmQ0pORUl2VktFNm5raWdFYVBR?oc=5",
+      "sourceName": "Moneycontrol.com",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "11 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Visa Partners with OpenAI",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Visa Announces Payments Partnership with OpenAI",
+          "subtitle": "To Enhance Payment Solutions"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Jun 2026",
+            "Visa has announced a payments partnership with OpenAI.",
+            "The partnership aims to enhance Visa's payment solutions using OpenAI's technology.",
+            "This move demonstrates Visa's commitment to innovation in the payments industry.",
+            "The partnership will leverage OpenAI's AI capabilities to improve payment processing."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This partnership highlights the growing importance of AI in the payments industry.",
+            "Visa's move to partner with OpenAI will likely have a significant impact on its payment solutions.",
+            "The company's decision to adopt AI technology demonstrates its commitment to innovation.",
+            "Source: Yahoo Finance, 11 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Visa has announced a payments partnership with OpenAI to enhance its payment solutions. This move demonstrates Visa's commitment to innovation in the payments industry. Questions to consider: What are the potential benefits of this partnership for Visa? How will this impact the payments industry? #Payments #Partnership #Innovation #Visa #OpenAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVNYcDF5WFF4OVhQYzVMel9pVHpYNDNKM21EQ2ZpamN1N3BjdURQX2puYkZ0LW5xVXItMURZUVRUNDZmUUZEMThjdXlPZ2JuLWxiNC1ibExIZzBmY0hDNklpR1A1YVVMVjl4S0xMSUtRT1ZWV3N3TVgzbzBRby0wYUs2UVUzVW16dzFIMVVjTFpLS3AxVW5UOTdNaDdWRHBPTGFR?oc=5",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "11 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "BizLink Acquires Interplex Datacom",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "BizLink Acquires Interplex Datacom",
+          "subtitle": "In $850 Million Deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Jun 2026",
+            "BizLink has acquired Interplex Datacom in a deal worth $850 million.",
+            "The acquisition aims to expand BizLink's AI data center infrastructure business.",
+            "Interplex Datacom's technology will enhance BizLink's capabilities in the AI data center market.",
+            "The deal is valued at $850 million."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition highlights the growing importance of AI data center infrastructure.",
+            "BizLink's move to acquire Interplex Datacom demonstrates its commitment to expanding its AI capabilities.",
+            "The acquisition will likely have a significant impact on BizLink's operations in the AI data center market."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition demonstrates the increasing demand for AI data center infrastructure.",
+            "BizLink's move to expand its AI capabilities will likely have a significant impact on the industry.",
+            "The deal highlights the growing trend of consolidation in the AI data center market.",
+            "Source: Pulse 2.0, Jun 2026"
+          ]
+        }
+      },
+      "caption": "BizLink has acquired Interplex Datacom in a deal worth $850 million to expand its AI data center infrastructure business. This acquisition highlights the growing importance of AI data center infrastructure. Questions to consider: What are the potential benefits of this acquisition for BizLink? How will this impact the AI data center market? #AI #Acquisition #DataCenter #BizLink #InterplexDatacom",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajB6MUYxbHNBQm1jSE1JTHNLNkR0eEdpWld2dmFmb0FDT0xfRV9TMml5d1h3TjlMMW5UMzhBajAxbm5ycDI4QXNwa1BlVFRrbXE0WjY0YkJ2c0tvanVLUFJKRjZsWmZWVnhzY0ZyWk1JYzQ4NUpjaGF5azJFTFlxcU9lOFdQd2Jmai1iWlJrQk9DZk9vY2I5R0VQMkFBTjBURWhwQzAyN1NpZTIyYnhVRmx0cmM1OGdvLTJmSFlZZEfSAcYBQVVfeXFMTzR1Q2lDR0YzNlVCVVd5Q1d0cVpzY3lheG9ELVNiTEo2NkpmNUV1SFQ3YmQ2WVlwOUc2YVJPOU9acldMX2JWLWF5enlSZ3BOSzNNY0pUOEVSd0FESUVIUVdJUm1XODFrZHlpbTZwVWtCa1VvWW50SE1McjVWcmdvdE13Mmp1VlVhYlpnbGlTTVV1d0FrTWtjUEI5SzF4R29MQ2JHT19JWUFlY0tsSURJLUV4MEJ6ZDRXTk9DRkhqVFRzbnhSaElR?oc=5",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "11 Jun 2026"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-13",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX Mega IPO",
+      "slides": 3,
+      "svgIcon": "rocket",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Makes History",
+          "subtitle": "With Record-Breaking IPO"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 Jun 2026",
+            "SpaceX raised $75 billion in its IPO on June 11, 2026",
+            "This is the largest IPO in history",
+            "The company is now set to debut on the Nasdaq",
+            "With a valuation of over $150 billion"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This IPO will provide SpaceX with the necessary funds to pursue its ambitious goals",
+            "Including establishing a human settlement on Mars",
+            "The success of this IPO is a significant milestone for the private space industry",
+            "Source: The Motley Fool, June 12, 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX has made history with its record-breaking IPO, raising $75 billion and valuing the company at over $150 billion. This is a significant milestone for the private space industry and will provide SpaceX with the necessary funds to pursue its ambitious goals. Questions to consider: What does this mean for the future of space exploration? How will this IPO impact the private space industry? #SpaceX #IPO #PrivateSpaceIndustry #Mars #SpaceExploration",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNazV0VFNNWHI4RkZldXppc2NCcXNOclFKTTNMWDFCUjZsZmZta0tVVS1ZcC1oa2tKdUFUOFYzRzhZd216dTVjSE1wZXhtRkM5OGkxbmVYT0NJWHlHejJ5em43Um9IclJkZld0akhWdDF0MkhFTkNMRkxaNW5RQUhVSXdEc0ZleXFCa00tS25WNFFGVF9ONkxvaDItVUc3b0RwYXNQOEhhak9jWDRPQ3BscDdLcVZuLUktUk56aXhYRnB6d3gtOTNveHBZYV9rbXRpcEhkNm9n?oc=5",
+      "sourceName": "The Motley Fool",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "12 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Coding Assistant",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Acquires Ona",
+          "subtitle": "To Support Codex"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Jun 2026",
+            "OpenAI has acquired Ona, a company that supports AI coding assistant, Codex",
+            "The acquisition will help OpenAI improve its coding capabilities",
+            "Codex is a tool that can write code in various programming languages",
+            "With Ona's support, Codex will become even more powerful"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition will help OpenAI improve its coding capabilities and make Codex a more powerful tool",
+            "It will also help OpenAI to better compete with other AI companies",
+            "The acquisition is a significant step forward for OpenAI and the AI industry as a whole",
+            "Source: CNBC, June 11, 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has acquired Ona, a company that supports AI coding assistant, Codex. This acquisition will help OpenAI improve its coding capabilities and make Codex a more powerful tool. Questions to consider: How will this acquisition impact the AI industry? What are the potential applications of Codex? #OpenAI #Ona #Codex #AICodingAssistant #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55b0NuQ2NnRUxsRnl1MlBBX2pFNUIzSll5WEVHN3V0TzRIT01RQ0dEbDlGLWVaWXdaaHRybmJjb25URHB6cDl1bmlOcTA4dGg2c2xqSjhHaVZSMXFKSTRvR0hacWNkeFN0aWNzVVl6Z0V2d0Np0gF6QVVfeXFMTXBKWlVVckZnRFlrcE42SWlkTnROWTBwSnpRRjZHTnU3WktnbkQwZ1VIekNXVmVINE8yR3VWNzh1cVFxdGRtNnNETG1WZF84elJLTUNrc2ZFNWN1dXlpcUN6LTV2dFFHdVZJZXltQ0stRTZwOXBzdEl2cFE?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "11 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "French AI Startup Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "Uncovr Raises €6 Million",
+          "subtitle": "To Turn Surgical Video Into Clinical Records"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 10 Jun 2026",
+            "Uncovr, a French surgical AI startup, has raised €6 million in funding",
+            "The funding will be used to develop its AI technology",
+            "The company's technology can turn surgical video into clinical records",
+            "This can help improve patient outcomes and reduce costs"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding will help Uncovr to develop its AI technology and bring it to market",
+            "The company's technology has the potential to improve patient outcomes and reduce costs",
+            "The funding is a significant step forward for Uncovr and the AI industry as a whole",
+            "Uncovr's technology can be used in various medical specialties"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Uncovr's technology has the potential to disrupt the medical industry",
+            "The company's funding is a significant step forward for the AI industry",
+            "Uncovr's technology can be used in various medical specialties",
+            "The company's goal is to improve patient outcomes and reduce costs",
+            "Source: EU-Startups, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Uncovr, a French surgical AI startup, has raised €6 million in funding to develop its AI technology. The company's technology can turn surgical video into clinical records, which can help improve patient outcomes and reduce costs. Questions to consider: How will this funding impact the AI industry? What are the potential applications of Uncovr's technology? #Uncovr #AIFunding #SurgicalAI #MedicalTechnology #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOC0xWVZZa25lMWZFS3pqdFBjU1pITjR3bzNTUUVfNjJIczFKUkp3OE40NWNjcFJVTXhLeEhiY1lJMmJTbUpLY3I2d09GMjc3UUdLUjRCa2VmQ282dnBCSWFuZVV3ZUo3ejdsdXBQZEVXamU3V1UteHEwOVh4NjJMVW55Wml1VXZkekhZaTFFX0cydUhXMFdYYWppdHZXV0pPLVlUVWNKTHNqdDZxeXdTWThIb1lOb3F0dUVKN0J2Rm5TOW13YnFSelVEb3dYUQ?oc=5",
+      "sourceName": "EU-Startups",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "10 Jun 2026"
+    }
+  ]
+}

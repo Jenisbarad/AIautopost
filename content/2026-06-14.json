@@ -8,115 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "SpaceX IPO Record",
+      "topic": "SpaceX Historic IPO",
       "slides": 4,
       "svgIcon": "rocket",
-      "sourceId": "N6",
-      "eventDate": "11 Jun 2026",
-      "sourceName": "CNBC",
+      "sourceId": "N5",
+      "eventDate": "12 Jun 2026",
+      "sourceName": "NPR",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXRDZWs5RmhLbDJrVml0bTFWUnJyWjNZU19HdjJjSTFMM3pNOVh5amlURERwSXJmTmJwcnlaMnlNQ2I3UVdCVjdMcU11a0lMS1JrZ1JSZko3cEtNQVBCTjVueFZqdkpoaTEyMmhDcWdxT3hsTHFWeTF0RkNRb0lKZ3JYNzREbkZ4a1hVbTlpckUwaHdONXJkOE1BTnJhR3lwU2FZSUg4SnLSAa4BQVVfeXFMUGp5am45NVlaYzlpMzV6ejI2aDJLOUhMblRHZkF3OW9ZSG02X1BWd1pIcGgyMFZJaU5meVVVLVNSSnVsTGJ6Q0RBYktpakFKUTdxWTE1VUdYUXNyR1E2Y3BZLU1VV2Y0NVRreGFET2Q4VGFrZWlLaUc1TXZRSGhrWUFLd0ZOQ2VEbm5DM1FSbXJxcGlVaFZISnFHREgySDh2d3BqbWg2X1c3NGRSWnBB?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hUDYyN2h2anp1RTctUTBQT003TzAzMV90V05YZnI2dGJYQVJoU0tHbUIyQzF5V0FHV01VcVN3ZGMyb3NvTkNmOUJMY0podE9JdHk3dDNRaGxGejlMVUtKZnJPUUdRbjBFVU5KYnEwOTF1MDNqX1EtdVktcGZKeEE?oc=5",
       "slideContent": {
         "slide1": {
           "headline": "SpaceX Makes History",
-          "subtitle": "Breaks Records with $75 Billion IPO"
+          "subtitle": "Largest Ever IPO"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "SpaceX raised $75 billion in its IPO on 11 Jun 2026",
-            "The largest IPO in history",
-            "SpaceX's valuation soared to $2.3 trillion",
-            "The company's market cap exceeds that of many established players"
+            "Event date: 12 Jun 2026",
+            "SpaceX IPO makes history as largest ever.",
+            "Stock gains 19% on first day.",
+            "The company raised $75 billion in the IPO.",
+            "The valuation of the company is over $2 trillion."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This IPO is a significant milestone for the private space industry",
-            "It demonstrates the growing interest in space exploration and technology",
-            "The funds raised will help SpaceX accelerate its ambitious projects"
+            "This historic IPO marks a significant milestone for the space industry.",
+            "It demonstrates the growing interest and investment in space exploration.",
+            "The success of the IPO will likely have a positive impact on the industry as a whole."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The success of SpaceX's IPO may pave the way for other space-tech companies to go public",
-            "The company's valuation is a testament to its innovative approach and vision",
-            "Source: CNBC, Jun 2026"
+            "The IPO is a significant step for SpaceX and the space industry.",
+            "It will be interesting to see how the company uses the funds raised.",
+            "The success of the IPO will likely lead to increased investment in the industry.",
+            "Source: NPR, Jun 2026"
           ]
         }
       },
-      "caption": "SpaceX has made history with its record-breaking $75 billion IPO. What does this mean for the future of space exploration and the private space industry? Questions to consider: How will SpaceX utilize the funds raised from its IPO? Will this IPO pave the way for other space-tech companies to go public? #SpaceX #IPO #SpaceExploration #PrivateSpaceIndustry #Innovation #TechNews"
+      "caption": "SpaceX made history with its IPO, raising $75 billion and reaching a valuation of over $2 trillion. This is a significant milestone for the space industry and demonstrates the growing interest and investment in space exploration. Questions to consider: What will be the impact of this IPO on the space industry? How will SpaceX use the funds raised? #SpaceX #IPO #SpaceIndustry #Investment"
     },
     {
       "id": 2,
       "topic": "AI Regulation Debate",
       "slides": 3,
       "svgIcon": "code",
-      "sourceId": "N16",
+      "sourceId": "N25",
       "eventDate": "13 Jun 2026",
       "sourceName": "The Economic Times",
       "sourceMonthYear": "Jun 2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeWFtbFdhSUQ4UzlCSTQ3SUtQbVdYUm53cUFiRVpoSWh4R25tbkthM0hCZXctakNTalhIR0ZDUzRmZ0NNQWtraFFIclk4NXd5ckx0eXJ0MWNDYzV0U0VueUozRHN2ZWR2RjBsanQ1aTV6ZVdrU3NzSjg2QlRxZkVUTE9JTWYyYlpkWVBHdS1mRGtCS0xaY0c1QVpLemhIc0ItMHF6M05RdC0wSWtuTUNpWE1vMU4yZENjcVJYaWMtalVuUW84LVRYWFdZREt2c2xZN0JzR0x4T2xnbkp3NXJETlhBZU94X29aMG5LUjdSZTRmQdIB9wFBVV95cUxQRTV0Z0lxa2VBYzRvNkpXN3lweXRfd0JjX0hDVXk5QnZoSWxSYVF1cjZHNHVTS0pOQjNxY25oWWJ2czVZSWRCUWFEZE1VcmxJZUFGVnZ5THgzX3ZuMkYwaEV0WkF2TzFPdDV5WmtIaXk2WG0xcmROWTF3Q2w2MFBfQTUtVVVNM2xpM0QwaTliUGhMTG13LXFtay1uclRzaVdBNVJyOE1hZjFXUU9TN2lCeWdOSHktR3hkNHV3cnJ2V2hVcmtfWDZReG53QjdyQ2Y0SmhURFJvTGo1UktNNUpIaUhJUEdRckY0cmFkd0FpSm5VZmYwV2NR?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "The AI Regulation Debate",
-          "subtitle": "Marc Andreessen Weighs In"
+          "headline": "AI Regulation Debate",
+          "subtitle": "Critiques and Concerns"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 13 Jun 2026",
-            "Marc Andreessen critiqued the AI regulation debate after Anthropic's model shutdown",
-            "The debate surrounding AI regulation has gained momentum in recent weeks",
-            "Andreessen's comments highlight the need for a balanced approach to regulation"
+            "Marc Andreessen critiques AI regulation debate after Anthropic model shutdown.",
+            "The debate highlights the need for careful consideration of AI regulation.",
+            "The shutdown of the Anthropic model raises concerns about the potential risks of AI."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI regulation debate is complex and multifaceted",
-            "A balanced approach is necessary to ensure innovation and safety",
+            "The AI regulation debate is complex and multifaceted.",
+            "It requires careful consideration of the potential risks and benefits of AI.",
+            "The shutdown of the Anthropic model highlights the need for prudent regulation.",
             "Source: The Economic Times, 13 Jun 2026"
           ]
         }
       },
-      "caption": "The AI regulation debate is heating up, with Marc Andreessen weighing in on the issue. What are the implications of over-regulation or under-regulation for the AI industry? Questions to consider: How can regulators balance the need for innovation with the need for safety and accountability? What role should industry leaders play in shaping the regulatory landscape? #AIRegulation #Innovation #Safety #Accountability #TechNews"
+      "caption": "The AI regulation debate is ongoing, with critiques and concerns being raised. Marc Andreessen has spoken out about the need for careful consideration of AI regulation. Questions to consider: What are the potential risks and benefits of AI? How can regulation balance innovation and safety? #AI #Regulation #Debate #Innovation"
     },
     {
       "id": 3,
-      "topic": "OpenAI Acquisition",
+      "topic": "Mistral AI Funding",
       "slides": 3,
-      "svgIcon": "database",
-      "sourceId": "N23",
-      "eventDate": "12 Jun 2026",
-      "sourceName": "SiliconANGLE",
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "eventDate": "13 Jun 2026",
+      "sourceName": "Business Review Live",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDgxOU16OUZPWXQ3Ml9LNjNEMlpFUVdndm9wSWp4dkFlRDJEdDhnTnQxczZ1NFU4T3FuSGVmMi1tOXhIa2t6blR0aVRxcm0tMExock4zYUJjcGVjbm85eEEyRW5MZDJRUkxCanBOWlRzMzJkcmdqTTRQQk5yeEw3M1JxVzdTOHFPT2pKdnp6aGY?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzZkVjI1cU82T05jVjVvU0picG1PaVNwUGJ0T05xaVJSNnpRc1Baek16bWEwOC1kTXJ2TVBjNFd3a2RjR3NxSV9hcDlPN3JaNVgzODZqdlU5YlpUeVRza3RBZWxNSm5GeTlqRl81cEVYSHlPOVpUSml2bzNRVFd0RFo1RHV1bzAyMXhwYVVOVy12dXY5d1NURWVVWlYxUFRyZHRwY0V1YmM1U28?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "OpenAI Expands Capabilities",
-          "subtitle": "Acquires AI Agent Orchestration Startup Ona"
+          "headline": "Mistral AI Funding",
+          "subtitle": "€3 Billion Round"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "OpenAI acquired AI agent orchestration startup Ona on 12 Jun 2026",
-            "The acquisition will enhance OpenAI's capabilities in powering longer-running Codex agent tasks",
-            "Ona's technology will be integrated into OpenAI's platform"
+            "Event date: 13 Jun 2026",
+            "Mistral AI is eyeing a €3 billion funding round.",
+            "The company is valued at €20 billion.",
+            "The funding round is part of the global AI race."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition demonstrates OpenAI's commitment to expanding its capabilities",
-            "The integration of Ona's technology will enhance OpenAI's platform",
-            "Source: SiliconANGLE, 12 Jun 2026"
+            "The funding round is a significant step for Mistral AI.",
+            "The company's valuation highlights the growing interest in AI.",
+            "The global AI race is driving investment and innovation.",
+            "Source: Business Review Live, 13 Jun 2026"
           ]
         }
       },
-      "caption": "OpenAI has acquired AI agent orchestration startup Ona, expanding its capabilities in powering longer-running Codex agent tasks. What are the implications of this acquisition for the AI industry? Questions to consider: How will the integration of Ona's technology enhance OpenAI's platform? What role will OpenAI play in shaping the future of AI agent orchestration? #OpenAI #Acquisition #AI #Innovation #TechNews"
+      "caption": "Mistral AI is eyeing a €3 billion funding round, valuing the company at €20 billion. This is a significant step for the company and highlights the growing interest in AI. Questions to consider: What will be the impact of this funding on the AI industry? How will Mistral AI use the funds raised? #MistralAI #Funding #AI #Innovation"
     }
   ]
 }

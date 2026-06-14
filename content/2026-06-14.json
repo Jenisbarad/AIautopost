@@ -8,123 +8,115 @@
   "posts": [
     {
       "id": 1,
-      "topic": "SpaceX Nasdaq Debut",
+      "topic": "SpaceX IPO Record",
       "slides": 4,
       "svgIcon": "rocket",
-      "sourceId": "N3",
-      "eventDate": "12 Jun 2026",
-      "sourceName": "CoinDesk",
+      "sourceId": "N6",
+      "eventDate": "11 Jun 2026",
+      "sourceName": "CNBC",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS1RqUWJmSE9KTUUzaksyTldPUGJaeE9iS0JVSmptTlFnaG5GZzlOZWhmYlNoeGFqVGY5ZEYwZElJRW55OVgzeUs3cEZGUXEzdV9uOWtIc3Q2Y01WYVg0ZThJeFhrYjRDa0E1TFVrWEdqcGRad2xlRUpfMzhUbWJmTWhPVGh0Rk9TR0FFcFpvZnlJSTdLbXBHYQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXRDZWs5RmhLbDJrVml0bTFWUnJyWjNZU19HdjJjSTFMM3pNOVh5amlURERwSXJmTmJwcnlaMnlNQ2I3UVdCVjdMcU11a0lMS1JrZ1JSZko3cEtNQVBCTjVueFZqdkpoaTEyMmhDcWdxT3hsTHFWeTF0RkNRb0lKZ3JYNzREbkZ4a1hVbTlpckUwaHdONXJkOE1BTnJhR3lwU2FZSUg4SnLSAa4BQVVfeXFMUGp5am45NVlaYzlpMzV6ejI2aDJLOUhMblRHZkF3OW9ZSG02X1BWd1pIcGgyMFZJaU5meVVVLVNSSnVsTGJ6Q0RBYktpakFKUTdxWTE1VUdYUXNyR1E2Y3BZLU1VV2Y0NVRreGFET2Q4VGFrZWlLaUc1TXZRSGhrWUFLd0ZOQ2VEbm5DM1FSbXJxcGlVaFZISnFHREgySDh2d3BqbWg2X1c3NGRSWnBB?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "SpaceX Soars on Nasdaq Debut",
-          "subtitle": "A Historic IPO"
+          "headline": "SpaceX Makes History",
+          "subtitle": "Breaks Records with $75 Billion IPO"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 12 Jun 2026",
-            "SpaceX's stock gained 20% on its first trading day",
-            "The company's valuation surged past $2 trillion",
-            "This marks a significant milestone for the space industry",
-            "With $75 billion raised in the IPO, SpaceX is set for further growth"
+            "SpaceX raised $75 billion in its IPO on 11 Jun 2026",
+            "The largest IPO in history",
+            "SpaceX's valuation soared to $2.3 trillion",
+            "The company's market cap exceeds that of many established players"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This IPO demonstrates the growing interest in space technology",
-            "SpaceX's success could pave the way for other space companies to go public",
-            "The funds raised will help SpaceX continue to innovate and expand its operations",
-            "The company's valuation is a testament to its potential for long-term growth"
+            "This IPO is a significant milestone for the private space industry",
+            "It demonstrates the growing interest in space exploration and technology",
+            "The funds raised will help SpaceX accelerate its ambitious projects"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The space industry is expected to continue growing in the coming years",
-            "SpaceX's success could lead to increased investment in space technology",
-            "The company's focus on innovation and expansion will be key to its future success",
-            "Source: CoinDesk, Jun 2026"
+            "The success of SpaceX's IPO may pave the way for other space-tech companies to go public",
+            "The company's valuation is a testament to its innovative approach and vision",
+            "Source: CNBC, Jun 2026"
           ]
         }
       },
-      "caption": "SpaceX made history with its Nasdaq debut, gaining 20% on its first trading day. The company's valuation surged past $2 trillion, demonstrating the growing interest in space technology. What does this mean for the future of the space industry? Will other space companies follow in SpaceX's footsteps? #SpaceX #Nasdaq #IPO #SpaceIndustry #Innovation #Growth\nQuestions to consider: What will SpaceX use the funds raised from the IPO for? How will the company's success impact the broader space industry?"
+      "caption": "SpaceX has made history with its record-breaking $75 billion IPO. What does this mean for the future of space exploration and the private space industry? Questions to consider: How will SpaceX utilize the funds raised from its IPO? Will this IPO pave the way for other space-tech companies to go public? #SpaceX #IPO #SpaceExploration #PrivateSpaceIndustry #Innovation #TechNews"
     },
     {
       "id": 2,
-      "topic": "AI Security Testing",
+      "topic": "AI Regulation Debate",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N10",
+      "svgIcon": "code",
+      "sourceId": "N16",
       "eventDate": "13 Jun 2026",
-      "sourceName": "The Norfolk Daily News",
+      "sourceName": "The Economic Times",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPZHRXYWU0UXVyRWFIN0E0VEZ1eV95Ylh3ekY3SEl4eEtiTVU1bFZ1UnlxRFVVaHpzcHhJNHM2b1dZTjIxRjZBVkkzcjNmYjhDYzhPMXcxZUNDa0gzWlJYek5XZUxGejZDdUZIektmRnBhX2pucjlzaWVOamhHYlVzZDlMTXNuVFpzYkUzYWJrNERna0FSVFB1VFozY3ZxTWU5WV8tWFpiUWRLaXNZMkZFZXh3TW9HM2xKNm9HR1N1UEVYaUxlblBXcnF6R2l4M3BvZWZOUHE0RnRCeGx4ZkRIR3RaXzVCUzBOLURmOEt5NGVWeFN0X1BjbHhuTVM2aTR1clUtUHN0anJWV2JhNDZpa2xDQVQtRDF1?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeWFtbFdhSUQ4UzlCSTQ3SUtQbVdYUm53cUFiRVpoSWh4R25tbkthM0hCZXctakNTalhIR0ZDUzRmZ0NNQWtraFFIclk4NXd5ckx0eXJ0MWNDYzV0U0VueUozRHN2ZWR2RjBsanQ1aTV6ZVdrU3NzSjg2QlRxZkVUTE9JTWYyYlpkWVBHdS1mRGtCS0xaY0c1QVpLemhIc0ItMHF6M05RdC0wSWtuTUNpWE1vMU4yZENjcVJYaWMtalVuUW84LVRYWFdZREt2c2xZN0JzR0x4T2xnbkp3NXJETlhBZU94X29aMG5LUjdSZTRmQdIB9wFBVV95cUxQRTV0Z0lxa2VBYzRvNkpXN3lweXRfd0JjX0hDVXk5QnZoSWxSYVF1cjZHNHVTS0pOQjNxY25oWWJ2czVZSWRCUWFEZE1VcmxJZUFGVnZ5THgzX3ZuMkYwaEV0WkF2TzFPdDV5WmtIaXk2WG0xcmROWTF3Q2w2MFBfQTUtVVVNM2xpM0QwaTliUGhMTG13LXFtay1uclRzaVdBNVJyOE1hZjFXUU9TN2lCeWdOSHktR3hkNHV3cnJ2V2hVcmtfWDZReG53QjdyQ2Y0SmhURFJvTGo1UktNNUpIaUhJUEdRckY0cmFkd0FpSm5VZmYwV2NR?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Raptoric Launches AI Security Testing",
-          "subtitle": "Compliance with EU AI Act"
+          "headline": "The AI Regulation Debate",
+          "subtitle": "Marc Andreessen Weighs In"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 13 Jun 2026",
-            "Raptoric has launched security testing for high-risk AI systems",
-            "The testing is designed to ensure compliance with the EU AI Act",
-            "This move demonstrates the growing importance of AI security",
-            "The EU AI Act requires companies to ensure their AI systems are secure and transparent"
+            "Marc Andreessen critiqued the AI regulation debate after Anthropic's model shutdown",
+            "The debate surrounding AI regulation has gained momentum in recent weeks",
+            "Andreessen's comments highlight the need for a balanced approach to regulation"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The EU AI Act is a significant step towards regulating AI",
-            "Companies must prioritize AI security to avoid non-compliance",
-            "Raptoric's security testing will help companies ensure their AI systems meet the required standards",
-            "Source: The Norfolk Daily News, 13 Jun 2026"
+            "The AI regulation debate is complex and multifaceted",
+            "A balanced approach is necessary to ensure innovation and safety",
+            "Source: The Economic Times, 13 Jun 2026"
           ]
         }
       },
-      "caption": "Raptoric has launched security testing for high-risk AI systems, ensuring compliance with the EU AI Act. What does this mean for companies operating in the EU? How will this impact the development of AI systems? #AI #Security #EUAIAct #Compliance #Regulation\nQuestions to consider: What are the key requirements of the EU AI Act? How will companies ensure their AI systems meet the required standards?"
+      "caption": "The AI regulation debate is heating up, with Marc Andreessen weighing in on the issue. What are the implications of over-regulation or under-regulation for the AI industry? Questions to consider: How can regulators balance the need for innovation with the need for safety and accountability? What role should industry leaders play in shaping the regulatory landscape? #AIRegulation #Innovation #Safety #Accountability #TechNews"
     },
     {
       "id": 3,
-      "topic": "Prometheus Funding",
+      "topic": "OpenAI Acquisition",
       "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "11 Jun 2026",
-      "sourceName": "PYMNTS.com",
+      "svgIcon": "database",
+      "sourceId": "N23",
+      "eventDate": "12 Jun 2026",
+      "sourceName": "SiliconANGLE",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWG1aN1NNbkItaEhmeU83cG5pdnlTbzUxWUszR2hOblZscDBlU2tZaFh3RTFwVzg0Y3l0OFhUOFBwZUNqcjR4M3VGU2VUQm96S0RuTmVpS0JhZ2lCeFBJZjZGSFhkTEZXV0FfWFN3c1djb2licnR6Q05kLW9kLTRMUncyUThLT0YxTmhkdlZYQ0NjU0ZhSlpZbzdMekRZOEZtb2toVUNvYUttRkJ1SVBoT3pyd0hHUm9jRTM4?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDgxOU16OUZPWXQ3Ml9LNjNEMlpFUVdndm9wSWp4dkFlRDJEdDhnTnQxczZ1NFU4T3FuSGVmMi1tOXhIa2t6blR0aVRxcm0tMExock4zYUJjcGVjbm85eEEyRW5MZDJRUkxCanBOWlRzMzJkcmdqTTRQQk5yeEw3M1JxVzdTOHFPT2pKdnp6aGY?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Bezos Raises $12 Billion for Prometheus",
-          "subtitle": "AI Engineering Startup"
+          "headline": "OpenAI Expands Capabilities",
+          "subtitle": "Acquires AI Agent Orchestration Startup Ona"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 11 Jun 2026",
-            "Jeff Bezos has raised $12 billion for his AI engineering startup Prometheus",
-            "The funding round values the company at $41 billion",
-            "This is one of the largest funding rounds for an AI startup",
-            "The funds will be used to further develop Prometheus's AI capabilities"
+            "OpenAI acquired AI agent orchestration startup Ona on 12 Jun 2026",
+            "The acquisition will enhance OpenAI's capabilities in powering longer-running Codex agent tasks",
+            "Ona's technology will be integrated into OpenAI's platform"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The funding demonstrates the growing interest in AI technology",
-            "Prometheus's valuation is a testament to its potential for growth",
-            "The company's focus on AI engineering will be key to its success",
-            "Source: PYMNTS.com, 11 Jun 2026"
+            "The acquisition demonstrates OpenAI's commitment to expanding its capabilities",
+            "The integration of Ona's technology will enhance OpenAI's platform",
+            "Source: SiliconANGLE, 12 Jun 2026"
           ]
         }
       },
-      "caption": "Jeff Bezos has raised $12 billion for his AI engineering startup Prometheus, valuing the company at $41 billion. What does this mean for the future of AI development? How will Prometheus use the funds to further develop its AI capabilities? #AI #Funding #Prometheus #Bezos #Innovation\nQuestions to consider: What are the key areas of focus for Prometheus's AI development? How will the company's valuation impact its growth and expansion?"
+      "caption": "OpenAI has acquired AI agent orchestration startup Ona, expanding its capabilities in powering longer-running Codex agent tasks. What are the implications of this acquisition for the AI industry? Questions to consider: How will the integration of Ona's technology enhance OpenAI's platform? What role will OpenAI play in shaping the future of AI agent orchestration? #OpenAI #Acquisition #AI #Innovation #TechNews"
     }
   ]
 }

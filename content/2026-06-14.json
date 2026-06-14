@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-14",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX Nasdaq Debut",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N3",
+      "eventDate": "12 Jun 2026",
+      "sourceName": "CoinDesk",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS1RqUWJmSE9KTUUzaksyTldPUGJaeE9iS0JVSmptTlFnaG5GZzlOZWhmYlNoeGFqVGY5ZEYwZElJRW55OVgzeUs3cEZGUXEzdV9uOWtIc3Q2Y01WYVg0ZThJeFhrYjRDa0E1TFVrWEdqcGRad2xlRUpfMzhUbWJmTWhPVGh0Rk9TR0FFcFpvZnlJSTdLbXBHYQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Soars on Nasdaq Debut",
+          "subtitle": "A Historic IPO"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 Jun 2026",
+            "SpaceX's stock gained 20% on its first trading day",
+            "The company's valuation surged past $2 trillion",
+            "This marks a significant milestone for the space industry",
+            "With $75 billion raised in the IPO, SpaceX is set for further growth"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This IPO demonstrates the growing interest in space technology",
+            "SpaceX's success could pave the way for other space companies to go public",
+            "The funds raised will help SpaceX continue to innovate and expand its operations",
+            "The company's valuation is a testament to its potential for long-term growth"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The space industry is expected to continue growing in the coming years",
+            "SpaceX's success could lead to increased investment in space technology",
+            "The company's focus on innovation and expansion will be key to its future success",
+            "Source: CoinDesk, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX made history with its Nasdaq debut, gaining 20% on its first trading day. The company's valuation surged past $2 trillion, demonstrating the growing interest in space technology. What does this mean for the future of the space industry? Will other space companies follow in SpaceX's footsteps? #SpaceX #Nasdaq #IPO #SpaceIndustry #Innovation #Growth\nQuestions to consider: What will SpaceX use the funds raised from the IPO for? How will the company's success impact the broader space industry?"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Testing",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N10",
+      "eventDate": "13 Jun 2026",
+      "sourceName": "The Norfolk Daily News",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPZHRXYWU0UXVyRWFIN0E0VEZ1eV95Ylh3ekY3SEl4eEtiTVU1bFZ1UnlxRFVVaHpzcHhJNHM2b1dZTjIxRjZBVkkzcjNmYjhDYzhPMXcxZUNDa0gzWlJYek5XZUxGejZDdUZIektmRnBhX2pucjlzaWVOamhHYlVzZDlMTXNuVFpzYkUzYWJrNERna0FSVFB1VFozY3ZxTWU5WV8tWFpiUWRLaXNZMkZFZXh3TW9HM2xKNm9HR1N1UEVYaUxlblBXcnF6R2l4M3BvZWZOUHE0RnRCeGx4ZkRIR3RaXzVCUzBOLURmOEt5NGVWeFN0X1BjbHhuTVM2aTR1clUtUHN0anJWV2JhNDZpa2xDQVQtRDF1?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Raptoric Launches AI Security Testing",
+          "subtitle": "Compliance with EU AI Act"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 13 Jun 2026",
+            "Raptoric has launched security testing for high-risk AI systems",
+            "The testing is designed to ensure compliance with the EU AI Act",
+            "This move demonstrates the growing importance of AI security",
+            "The EU AI Act requires companies to ensure their AI systems are secure and transparent"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The EU AI Act is a significant step towards regulating AI",
+            "Companies must prioritize AI security to avoid non-compliance",
+            "Raptoric's security testing will help companies ensure their AI systems meet the required standards",
+            "Source: The Norfolk Daily News, 13 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Raptoric has launched security testing for high-risk AI systems, ensuring compliance with the EU AI Act. What does this mean for companies operating in the EU? How will this impact the development of AI systems? #AI #Security #EUAIAct #Compliance #Regulation\nQuestions to consider: What are the key requirements of the EU AI Act? How will companies ensure their AI systems meet the required standards?"
+    },
+    {
+      "id": 3,
+      "topic": "Prometheus Funding",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "eventDate": "11 Jun 2026",
+      "sourceName": "PYMNTS.com",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWG1aN1NNbkItaEhmeU83cG5pdnlTbzUxWUszR2hOblZscDBlU2tZaFh3RTFwVzg0Y3l0OFhUOFBwZUNqcjR4M3VGU2VUQm96S0RuTmVpS0JhZ2lCeFBJZjZGSFhkTEZXV0FfWFN3c1djb2licnR6Q05kLW9kLTRMUncyUThLT0YxTmhkdlZYQ0NjU0ZhSlpZbzdMekRZOEZtb2toVUNvYUttRkJ1SVBoT3pyd0hHUm9jRTM4?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Bezos Raises $12 Billion for Prometheus",
+          "subtitle": "AI Engineering Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Jun 2026",
+            "Jeff Bezos has raised $12 billion for his AI engineering startup Prometheus",
+            "The funding round values the company at $41 billion",
+            "This is one of the largest funding rounds for an AI startup",
+            "The funds will be used to further develop Prometheus's AI capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding demonstrates the growing interest in AI technology",
+            "Prometheus's valuation is a testament to its potential for growth",
+            "The company's focus on AI engineering will be key to its success",
+            "Source: PYMNTS.com, 11 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Jeff Bezos has raised $12 billion for his AI engineering startup Prometheus, valuing the company at $41 billion. What does this mean for the future of AI development? How will Prometheus use the funds to further develop its AI capabilities? #AI #Funding #Prometheus #Bezos #Innovation\nQuestions to consider: What are the key areas of focus for Prometheus's AI development? How will the company's valuation impact its growth and expansion?"
+    }
+  ]
+}

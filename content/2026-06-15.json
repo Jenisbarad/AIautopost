@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-15",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Regulation Debates",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Marc Andreessen Critiques AI Regulation Debate",
+          "subtitle": "After Anthropic Model Shutdown"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Marc Andreessen critiques AI regulation debate",
+            "After Anthropic model shutdown on 13 Jun 2026",
+            "The Economic Times reports on the ongoing debate",
+            "With a focus on the shutdown of Anthropic's models"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The debate surrounding AI regulation continues to grow",
+            "As models like Anthropic's are shut down due to regulatory concerns",
+            "The need for clear guidelines and regulations is becoming increasingly important",
+            "To ensure the safe development and deployment of AI models"
+          ]
+        }
+      },
+      "caption": "Marc Andreessen critiques AI regulation debate after Anthropic model shutdown. The ongoing debate surrounding AI regulation continues to grow. What are the implications of this shutdown for the future of AI development? How will regulatory concerns impact the growth of the AI industry? #AI #Regulation #Anthropic #MarcAndreessen #TheEconomicTimes #ArtificialIntelligence",
+      "questions": "Questions to consider: What are the potential consequences of over-regulating AI? How can we balance the need for regulation with the need for innovation?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeWFtbFdhSUQ4UzlCSTQ3SUtQbVdYUm53cUFiRVpoSWh4R25tbkthM0hCZXctakNTalhIR0ZDUzRmZ0NNQWtraFFIclk4NXd5ckx0eXJ0MWNDYzV0U0VueUozRHN2ZWR2RjBsanQ1aTV6ZVdrU3NzSjg2QlRxZkVUTE9JTWYyYlpkWVBHdS1mRGtCS0xaY0c1QVpLemhIc0ItMHF6M05RdC0wSWtuTUNpWE1vMU4yZENjcVJYaWMtalVuUW84LVRYWFdZREt2c2xZN0JzR0x4T2xnbkp3NXJETlhBZU94X29aMG5LUjdSZTRmQdIB9wFBVV95cUxQRTV0Z0lxa2VBYzRvNkpXN3lweXRfd0JjX0hDVXk5QnZoSWxSYVF1cjZHNHVTS0pOQjNxY25oWWJ2czVZSWRCUWFEZE1VcmxJZUFGVnZ5THgzX3ZuMkYwaEV0WkF2TzFPdDV5WmtIaXk2WG0xcmROWTF3Q2w2MFBfQTUtVVVNM2xpM0QwaTliUGhMTG13LXFtay1uclRzaVdBNVJyOE1hZjFXUU9TN2lCeWdOSHktR3hkNHV3cnJ2V2hVcmtfWDZReG53QjdyQ2Y0SmhURFJvTGo1UktNNUpIaUhJUEdRckY0cmFkd0FpSm5VZmYwV2NR?oc=5",
+      "sourceName": "The Economic Times",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "13 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "SpaceX IPO",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Raises $75 Billion in Record-Setting IPO",
+          "subtitle": "As Nasdaq Debut Awaits"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "SpaceX raises $75 billion in record-setting IPO",
+            "On 11 Jun 2026, the company made its Nasdaq debut",
+            "The IPO is one of the largest in history, with a valuation of over $2 trillion",
+            "The funds raised will be used to further develop SpaceX's Starship program"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The IPO marks a significant milestone for SpaceX",
+            "As the company continues to push the boundaries of space exploration and development",
+            "The funds raised will be used to further develop SpaceX's Starship program",
+            "And bring humanity one step closer to becoming a multi-planetary species"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "SpaceX's IPO is a significant milestone for the company",
+            "And the space industry as a whole",
+            "The funds raised will be used to further develop SpaceX's Starship program",
+            "Source: CNBC, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX raises $75 billion in record-setting IPO. The company's Nasdaq debut marks a significant milestone for the space industry. What are the implications of this IPO for the future of space exploration? How will the funds raised be used to further develop SpaceX's Starship program? #SpaceX #IPO #Nasdaq #Starship #SpaceExploration #RecordSetting",
+      "questions": "Questions to consider: What are the potential risks and challenges associated with SpaceX's Starship program? How will the company's IPO impact the broader space industry?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXRDZWs5RmhLbDJrVml0bTFWUnJyWjNZU19HdjJjSTFMM3pNOVh5amlURERwSXJmTmJwcnlaMnlNQ2I3UVdCVjdMcU11a0lMS1JrZ1JSZko3cEtNQVBCTjVueFZqdkpoaTEyMmhDcWdxT3hsTHFWeTF0RkNRb0lKZ3JYNzREbkZ4a1hVbTlpckUwaHdONXJkOE1BTnJhR3lwU2FZSUg4SnLSAa4BQVVfeXFMUGp5am45NVlaYzlpMzV6ejI2aDJLOUhMblRHZkF3OW9ZSG02X1BWd1pIcGgyMFZJaU5meVVVLVNSSnVsTGJ6Q0RBYktpakFKUTdxWTE1VUdYUXNyR1E2Y3BZLU1VV2Y0NVRreGFET2Q4VGFrZWlLaUc1TXZRSGhrWUFLd0ZOQ2VEbm5DM1FSbXJxcGlVaFZISnFHREgySDh2d3BqbWg2X1c3NGRSWnBB?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "11 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "US Restrictions on Anthropic's Fable 5",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "US Restrictions on Anthropic's Fable 5 May Have an Amazon Connection",
+          "subtitle": "According to Recent Reports"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "US restrictions on Anthropic's Fable 5 may have an Amazon connection",
+            "The restrictions were put in place due to concerns over the model's potential uses",
+            "On 15 Jun 2026, reports emerged of a potential connection between the restrictions and Amazon",
+            "The exact nature of the connection is still unclear"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The restrictions on Anthropic's Fable 5 have significant implications for the AI industry",
+            "As companies like Amazon and Anthropic continue to develop and deploy AI models",
+            "The need for clear guidelines and regulations is becoming increasingly important",
+            "To ensure the safe development and deployment of AI models"
+          ]
+        }
+      },
+      "caption": "US restrictions on Anthropic's Fable 5 may have an Amazon connection. The exact nature of the connection is still unclear. What are the implications of these restrictions for the future of AI development? How will the connection between Amazon and Anthropic's Fable 5 impact the broader AI industry? #Anthropic #Fable5 #USRestrictions #Amazon #AI #ArtificialIntelligence",
+      "questions": "Questions to consider: What are the potential consequences of the US restrictions on Anthropic's Fable 5? How will the connection between Amazon and Anthropic's Fable 5 impact the development of AI models?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMEtVZ2E0OGQ1Vm0zd05zb0NuUWZhbFdxcmR0UUpEZjRZUWdCVU9QRDlGS3RKZE82SWRsMHNnYmpUcjU3c2JDUjRtbHRPbjhGcUdZYktNVVdlcEEzYUs1bWNSOGJEUlhRYUw4NGVlR1kxZW95cHB2YmlxZnhtbXNwYmpjZHVGZnFxSlllVTZOaFNJVkJzZVFJakdJUVhhdTBBVUhHUUJIQkh2N0RJbEpEOFN1cTMzOVlhZ0hQZmgzYlIwSGV0dTVxc2RWYTRWQ3BIMVU4RVh5Um3SAd4BQVVfeXFMUEd2a2tYR0M2U082VVZXRjlnTEpIQnprMi1NTFVpVHlQNE4xZFJnaFpsWjg3MmtteFpmOWRFUk8zbmFEOFRLeEVYekhBM25UZEE4cXdWbThMN2pOYVloUzhQaHh4cktWRVRNN2Q2RVRZdE1lNEJxVDZiUmEzNTBYeEZGX0V4b210Y29Ha3VCYTg3MHBZQU5WTnhGUDhOcU5UeHgtWXhmSVd3QVBKUGNKdEVDbndxWUkxekZkeF9CMGtUTHdHbzZyMkR3RVZ0d0luQ01hSmwwUE8tT3gwVmdn?oc=5",
+      "sourceName": "Moneycontrol.com",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "15 Jun 2026"
+    }
+  ]
+}

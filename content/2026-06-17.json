@@ -1,0 +1,151 @@
+{
+  "date": "2026-06-17",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX Acquires Cursor",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N4",
+      "eventDate": "16 Jun 2026",
+      "sourceName": "Forbes",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaWdxVjZLblVYbDZGcU1xS2JMTHB5MF9ZQm83Y3JIRTlMTmlxNngtUUhwa2JkUXFUZDF4RE1ybnQ5b3RVWFAtQU5OaTU2NnRrWnl2YnpIMnVqU3hLZmkwTXRSay1xa29RVDQ0SG51S2hZYUNKMlhBSzduaW5vTmJYVG11dmhvNmlmM3FpbWpzTlpBUzRydE9ILUNxN04wLUk3U0dCaVRMbXVrc1RwQ0pQMzU2WTUyYndUanRqcXNTQnJLOXRKNXZJc3FYMmt5c0ZXUHlV?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX's Massive Acquisition",
+          "subtitle": "A new era in AI coding"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Jun 2026",
+            "SpaceX acquired AI coding startup Cursor for $60 billion.",
+            "This deal doubles the net worth of Cursor's 20-something cofounders.",
+            "The acquisition is a significant move in the AI coding space.",
+            "It marks a major investment in AI technology."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition gives SpaceX a significant edge in AI coding.",
+            "It allows the company to expand its capabilities in AI-powered technologies.",
+            "The deal is a testament to the growing importance of AI in the tech industry.",
+            "It highlights the need for companies to invest in AI research and development."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a strategic move by SpaceX to strengthen its position in the AI market.",
+            "It demonstrates the company's commitment to innovation and technological advancements.",
+            "The deal is expected to have a significant impact on the AI coding landscape.",
+            "Source: Forbes, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX's acquisition of Cursor is a game-changer in the AI coding space. With a price tag of $60 billion, this deal is one of the largest in recent history. What does this mean for the future of AI coding? How will this acquisition impact the tech industry as a whole? Questions to consider: What are the implications of this acquisition for SpaceX's competitors? How will this deal affect the development of AI-powered technologies? #AI #SpaceX #Acquisition #TechNews #Innovation",
+      "hashtags": [
+        "#AI",
+        "#SpaceX",
+        "#Acquisition",
+        "#TechNews",
+        "#Innovation"
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Nykaa Partners with OpenAI",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N11",
+      "eventDate": "17 Jun 2026",
+      "sourceName": "outlookbusiness.com",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORWRyZHNDdUI4WEl0c0stVDduYk1RWUpKR2o3OWUwR280Vl82UjhKNVVfc2NudE10TXRlSzlGRmR5OS1HNkRnaEplbVFsdUFDNWZpWFk0WkNjQkdKSVc3LUljeGZGTXNXOHI5QTBoX2hwRmp1aktuU05lb3hoRVJlWXJhVGg1VGJjOVdITUhsWERNN0RhWDgyWmF2V1N5Ni1MVlJGRWhMaUl4RDlT0gG6AUFVX3lxTE1BSm5CTjRKQ19rVG9qeF83T0xURkNWSmFXWElYVkNUZUd1Z1V2Skp3a01NWTFvVDBTVlJrMUxDdXUtemNyblZ5RXl4TllNdnpWWTRQWHBqSGZsV2dfUXZwN3hDUldwRnpDcTlqWDBDNUxpZ3UteUl0bmR4ZklCOElqT2JvRFFqN0R0cURZSGlZcWNxM2VBR0RvSU1QS2pidm5zLXM3cVhmdU9xVVRzQlpldDRXbjZJZVVqUQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nykaa's New Partnership",
+          "subtitle": "Expanding sales channels with AI"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Jun 2026",
+            "Nykaa partnered with OpenAI to open new sales channels.",
+            "The partnership resulted in a 3% rise in Nykaa's shares.",
+            "This collaboration is a significant move in the e-commerce space.",
+            "It highlights the growing importance of AI in sales and marketing."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The partnership demonstrates Nykaa's commitment to innovation and technological advancements.",
+            "It is expected to have a positive impact on Nykaa's sales and revenue.",
+            "The collaboration highlights the potential of AI in e-commerce.",
+            "Source: outlookbusiness.com, 17 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Nykaa's partnership with OpenAI is a significant move in the e-commerce space. With the rise of AI-powered sales and marketing, what does this mean for the future of online shopping? How will this partnership impact Nykaa's competitors? Questions to consider: What are the implications of this partnership for Nykaa's customers? How will this collaboration affect the development of AI-powered sales tools? #Ecommerce #AI #Partnership #Sales #Marketing",
+      "hashtags": [
+        "#Ecommerce",
+        "#AI",
+        "#Partnership",
+        "#Sales",
+        "#Marketing"
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Indian Startups Raise $244 Million",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N3",
+      "eventDate": "14 Jun 2026",
+      "sourceName": "instagram.com",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vVVcycFJySEg1SG5fcGRaeFF5Ml9rY1Nvdkc3ZXJfeWJycjFFcUt4X3ZuaHpERks1MzJoRThiQkRNZEk5M2s5ZTRoWTRKUFNQamc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Indian Startups on the Rise",
+          "subtitle": "A surge in funding for diverse sectors"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 Jun 2026",
+            "23 Indian startups raised over $244 million in funding between June 08 and June 13, 2026.",
+            "The startups are from diverse sectors, including Robotics, Wealthtech, and AI.",
+            "This surge in funding highlights the growing importance of Indian startups in the global tech landscape.",
+            "It demonstrates the potential for innovation and growth in the Indian startup ecosystem."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding surge is a testament to the growing confidence of investors in Indian startups.",
+            "It highlights the potential for Indian startups to drive innovation and growth in diverse sectors.",
+            "The funding will likely have a positive impact on the Indian startup ecosystem.",
+            "Source: instagram.com, 14 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The Indian startup ecosystem is on the rise, with 23 startups raising over $244 million in funding. What does this mean for the future of innovation in India? How will this funding surge impact the global tech landscape? Questions to consider: What are the implications of this funding surge for Indian startups? How will this impact the development of new technologies and products? #Startups #India #Funding #Innovation #Growth",
+      "hashtags": [
+        "#Startups",
+        "#India",
+        "#Funding",
+        "#Innovation",
+        "#Growth"
+      ]
+    }
+  ]
+}

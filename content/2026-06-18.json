@@ -8,123 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Unicorn",
+      "topic": "SpaceX Acquires Cursor",
       "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N15",
-      "eventDate": "15 Jun 2026",
-      "sourceName": "TechCrunch",
+      "svgIcon": "rocket",
+      "sourceId": "N1",
+      "eventDate": "17 Jun 2026",
+      "sourceName": "MLQ.ai",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQzkyLVd3V3dKTzRLaU9VRHUwVWZzalgxNXdMcUlfWTNqYlJjRlNfdVVwX2J4VC1UR2FnTW1LdjgtT3ZzTUtSa1NBUm5HOVVtSDBNNFRpendCN2xYMV9SSU1iS0k4cGlROEpkQ2tza1lhallxTk5oVWdwTDBlRjU0NXFGUGVSVk10ZlZ3UFpmM2hJSnotS0t3VHZnZzdSUEZld2ZXR014OE1Dd0VPdTE2S3dFRWtHQnNhemZHaA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb19FVjVxQlFsMDNMSVd3VWJYNDhYNThCcnpoWjFiaTluUmFFckRZeW9zYWxxNEozR0N2bVEtOWlRelk2aVQxNl9JWVNSdHl0cW16Q0xCTjk0bmp4akhIb1pZYTU1bzFsTU1VZGZra2hWWWg0dDYtWXBId2Q0eVJhR2VGb2VjWlFFNDhEMlBXdHI5ODduaVlEYTVR?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Sarvam Becomes India's Newest AI Unicorn",
-          "subtitle": "With a $234 million funding round led by HCLTech"
+          "headline": "Breaking News",
+          "subtitle": "SpaceX's Latest Acquisition"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 15 Jun 2026",
-            "Sarvam AI startup raised $234 million in a funding round",
-            "Led by HCLTech, the round values Sarvam at $1.5 billion",
-            "The funding will be used to expand Sarvam's AI capabilities",
-            "HCLTech acquired over 10% of Sarvam"
+            "SpaceX acquired Cursor, an AI coding startup, for $60 billion in an all-stock deal on 17 Jun 2026.",
+            "This acquisition is expected to boost SpaceX's competitive edge in AI coding.",
+            "The deal was announced just days after SpaceX's IPO, which valued the company at $1.77 trillion.",
+            "SpaceX's market cap has surged past $2 trillion, making the acquisition look nearly free."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This funding round marks a significant milestone for Sarvam",
-            "It demonstrates the growing interest in AI startups in India",
-            "The investment will help Sarvam to further develop its AI technology",
-            "And expand its presence in the market"
+            "This acquisition is significant for the AI industry, as it highlights the growing importance of AI coding in space exploration.",
+            "SpaceX's acquisition of Cursor is expected to accelerate the development of AI-powered systems for space missions.",
+            "The deal also underscores the increasing competition in the AI coding market, with major players like SpaceX and others investing heavily in AI research and development."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Sarvam's AI technology has the potential to disrupt various industries",
-            "The funding round is a testament to the growing demand for AI solutions",
-            "HCLTech's investment in Sarvam is a strategic move to enhance its AI capabilities",
-            "Source: TechCrunch, Jun 2026"
+            "SpaceX's acquisition of Cursor is a strategic move to enhance its AI capabilities.",
+            "The deal is expected to have a significant impact on the AI industry, with potential applications in space exploration and other fields.",
+            "As the AI industry continues to evolve, we can expect to see more acquisitions and partnerships like this one.",
+            "Source: MLQ.ai, Jun 2026"
           ]
         }
       },
-      "caption": "Sarvam Becomes India's Newest AI Unicorn with a $234 million funding round led by HCLTech. This funding round marks a significant milestone for Sarvam and demonstrates the growing interest in AI startups in India. What does this mean for the future of AI in India? How will Sarvam use this funding to expand its AI capabilities? Questions to consider: What are the potential applications of Sarvam's AI technology? How will HCLTech's investment in Sarvam impact the company's AI capabilities? #AI #India #Startup #Funding #HCLTech #Sarvam"
+      "caption": "SpaceX has acquired Cursor, an AI coding startup, for $60 billion. This acquisition is expected to boost SpaceX's competitive edge in AI coding. What does this mean for the future of space exploration and the AI industry? How will this acquisition impact the development of AI-powered systems for space missions? #SpaceX #AI #Acquisition #SpaceExploration #ArtificialIntelligence #TechNews"
     },
     {
       "id": 2,
-      "topic": "AI Security",
+      "topic": "EU AI Act Guidelines",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N14",
+      "svgIcon": "globe",
+      "sourceId": "N2",
       "eventDate": "17 Jun 2026",
-      "sourceName": "Business Wire",
+      "sourceName": "Slaughter and May",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdi1qeEgyM2tsYlNZcHJmb1ZCY18xbmlqdk01NVdoRDZmX2FjR3lTZ01vQ1VuUHQ0S2h3RGNnaXNfM0N6SU04d3FDU3JTZXRnTFJKSGlUV0JkMWNtdmVmbFVqOERVYUJ2UzNId1pkVUR4Y1lsaDZ6aG56czZHX0luWUJDNXZ4ZVJkTDZZdUFLZVVSSXFWeTZIMW9lVkp0dlM3YzYyMmZVTHJtMWlqTl9hdE5POGVIYlVvTnVuekNEaWtVY2g0eVlTZDVQSGtISEQ5dEhlQzBBYWZwcEk?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0VlYUlwSWhEa01zWlBqTWdyQXRwZ2szdU9vQXNGN2l1UGExV09KcXV5LUJLQlZWekhJSHRkZlZaSUREY0gwYTZSZ3MtYkhxTDlhUHZUMGRLelQ3eF9hNVJKNFBMZ3J1YjJqRlFtQTZyWFdudkNDZUpFMjBIRWFLeHlVTWxnYlpnZGMyNTlyQ3BZbkJsWW1DaTBCejFMMFdzNTFaMzZlZ09kWkJsZjlxamZzcERPUUhCdmc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Nearly 7 out of 10 Executives Put Speed Ahead of AI Security",
-          "subtitle": "According to a recent survey"
+          "headline": "EU AI Act Guidelines",
+          "subtitle": "High-Risk Systems"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 17 Jun 2026",
-            "A recent survey found that nearly 7 out of 10 executives prioritize speed over AI security",
-            "This trend is alarming, as AI security is crucial for protecting sensitive data",
-            "The survey highlights the need for executives to re-evaluate their priorities",
-            "And invest in AI security measures to prevent potential breaches"
+            "The EU AI Act Guidelines for high-risk systems were released on 17 Jun 2026.",
+            "The guidelines provide a framework for the development and deployment of high-risk AI systems.",
+            "The guidelines cover aspects such as data quality, transparency, and human oversight.",
+            "The guidelines are expected to have a significant impact on the development of AI systems in the EU."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The prioritization of speed over AI security is a concerning trend",
-            "AI security is essential for protecting sensitive data and preventing breaches",
-            "Executives must re-evaluate their priorities and invest in AI security measures",
-            "Source: Business Wire, 17 Jun 2026"
+            "The EU AI Act Guidelines provide a framework for the development and deployment of high-risk AI systems.",
+            "The guidelines highlight the importance of data quality, transparency, and human oversight in AI system development.",
+            "The guidelines are expected to have a significant impact on the AI industry, with potential applications in various fields.",
+            "Source: Slaughter and May, 17 Jun 2026"
           ]
         }
       },
-      "caption": "Nearly 7 out of 10 executives prioritize speed over AI security, according to a recent survey. This trend is alarming, as AI security is crucial for protecting sensitive data. What are the potential consequences of prioritizing speed over AI security? How can executives balance the need for speed with the need for AI security? Questions to consider: What are the most effective AI security measures that executives can implement? How can companies ensure that their AI systems are secure and reliable? #AI #Security #Speed #Executives #Survey"
+      "caption": "The EU AI Act Guidelines for high-risk systems have been released. What do these guidelines mean for the development and deployment of AI systems in the EU? How will these guidelines impact the AI industry as a whole? #EUAIACT #AI #Guidelines #HighRiskSystems #ArtificialIntelligence #TechNews"
     },
     {
       "id": 3,
-      "topic": "SpaceX Acquisition",
+      "topic": "Tringbox Funding",
       "slides": 3,
-      "svgIcon": "rocket",
-      "sourceId": "N4",
-      "eventDate": "17 Jun 2026",
-      "sourceName": "Indiatimes",
+      "svgIcon": "chip",
+      "sourceId": "N3",
+      "eventDate": "18 Jun 2026",
+      "sourceName": "Indian Startup Times",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUGNmMzA1dU1OYkhjUGF1OUI0MGZrZl9lbXJ0alByUk1kdGl5bXJsVndMTDFuSGdHdndFd2ZvdlBIOXZOcGFucmV1OEJ3QjJiZVdDNGRqTTFuU2NqT2pQeWJIc19xbThoNzZURDhhX1c2cWd3ZGo4aUZaa2k4N0psUDBFUkpWTzZ0RW5CdWxGUFRJN0V6LVVfWTdfaFhpMVdaSUlzeVhiV29mU3VGR1N0amtZM3l3NS1tWUplRWlGTmx4QkZKMUpwekpPMXpMaGJ3YzFhZENDV0gtTHJlZHFr?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd19qOHpBLWd0SFp1VGpSS3RiSC1qUkxZd0xvYlJ3d2dxRWtuV09xSGE4bXNwdzFIUjV4ZUtwcWsxeHJPeUhSV0FHOGlrdU9Sd3hUeTNlQ3lQX1NqNy1pZVFWYXRfUWkza0ZYLTZ0SHA1UU4zc3MyM2d6UnR1REt5Y1BiaHZMUm9DWlE5MXhlcmlkc1EzOHE3ZGRwemFOOUhpRXZsWEQ3QzQxaWFkT0RmaGgxdDFqb2hiZTlEaEdpcGNqSDNXZVE1Z2NjdFJQTW12UndhM0I2Z19mLUk2amo0?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "SpaceX to Acquire AI Coding Startup Anysphere for $60 Billion",
-          "subtitle": "In an all-stock deal"
+          "headline": "Tringbox Funding",
+          "subtitle": "AI-Powered Music Intelligence"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 17 Jun 2026",
-            "SpaceX announced its plans to acquire AI coding startup Anysphere for $60 billion",
-            "The acquisition will be made in an all-stock deal",
-            "The move is seen as a strategic expansion of SpaceX's AI capabilities",
-            "Anysphere's AI technology will be integrated into SpaceX's operations"
+            "Event date: 18 Jun 2026",
+            "Tringbox, an AI startup, has raised ₹5 crore in funding to bring AI-powered music intelligence to India's commercial spaces.",
+            "The funding will be used to expand Tringbox's operations and develop its AI-powered music platform.",
+            "Tringbox's platform uses AI to provide personalized music recommendations for commercial spaces.",
+            "The company plans to use the funding to increase its market share in the Indian commercial music market."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition marks a significant expansion of SpaceX's AI capabilities",
-            "Anysphere's AI technology will enhance SpaceX's coding and development processes",
-            "The deal is a testament to the growing importance of AI in the tech industry",
-            "Source: Indiatimes, 17 Jun 2026"
+            "Tringbox's funding is a significant development for the AI industry in India.",
+            "The company's AI-powered music platform has the potential to disrupt the commercial music market in India.",
+            "The funding will enable Tringbox to expand its operations and develop its platform further.",
+            "Source: Indian Startup Times, 18 Jun 2026"
           ]
         }
       },
-      "caption": "SpaceX announced its plans to acquire AI coding startup Anysphere for $60 billion in an all-stock deal. The acquisition marks a significant expansion of SpaceX's AI capabilities and will enhance the company's coding and development processes. What are the potential benefits of this acquisition for SpaceX? How will Anysphere's AI technology be integrated into SpaceX's operations? Questions to consider: What are the potential applications of Anysphere's AI technology in the space industry? How will this acquisition impact the competitive landscape of the tech industry? #SpaceX #Acquisition #AI #Anysphere #Coding"
+      "caption": "Tringbox, an AI startup, has raised ₹5 crore in funding to bring AI-powered music intelligence to India's commercial spaces. What are the potential applications of AI-powered music intelligence in commercial spaces? How will this funding impact the development of Tringbox's platform? #Tringbox #AI #Funding #MusicIntelligence #ArtificialIntelligence #TechNews"
     }
   ]
 }

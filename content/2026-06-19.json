@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-19",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N10",
+      "eventDate": "18 Jun 2026",
+      "sourceName": "Ynetnews",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tMVlnSWlQX0hKVGVHM3dPS05uODFydTVQQl9rOW5lQlpZRS01aHFLblRpMGt4VF9IZS1VZVhCZHVMSHN0Y19BMnV1aGU3TTdYaGxKTHozOFNBclR3dk1tQjZBbWN3YllPQVI4OA?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Security Startup Raises Funds",
+          "subtitle": "To Protect Enterprise AI Agents"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Jun 2026",
+            "AI security startup Tenet raises $6 million",
+            "To protect enterprise AI agents from potential threats",
+            "The funding will help Tenet expand its platform",
+            "And improve its AI agent protection capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rise of AI agents has increased the need for AI security",
+            "Tenet's platform helps protect AI agents from potential threats",
+            "The funding will help Tenet improve its platform and expand its customer base",
+            "Source: Ynetnews, 18 Jun 2026"
+          ]
+        },
+        "slide4": null
+      },
+      "caption": "AI security startup Tenet raises $6 million to protect enterprise AI agents. The funding will help Tenet expand its platform and improve its AI agent protection capabilities. \nQuestions to consider: \nWhat are the potential threats to AI agents? \nHow can AI security startups like Tenet help protect AI agents? \nWhat are the implications of AI security for the future of AI development? \n#AI #AISecurity #Tenet #EnterpriseAI #AIagents #Security"
+    },
+    {
+      "id": 2,
+      "topic": "SpaceX Acquisition",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N6",
+      "eventDate": "16 Jun 2026",
+      "sourceName": "AP News",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNWRUQ3RGOTV2YzhlMDVKT3k2NjZ2U2w3ZUctMDY2dTZFZ2NJUjZZSjhpalZSak81eW9nT2xfYmhYR0RHcVdDNVMzWVc1VlhKVUF4S3lMdk1NcW1CeWY1ZmE4cTgxbVhmUWJqaVE2LUdRbl9GbUtlZFR0SlBGS3U2Nko0dUlOYWdPLVJBVjR5clZvUHp0Smo5a2ZKR0xGdw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Acquires AI Coding Startup",
+          "subtitle": "In a $60 Billion Deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Jun 2026",
+            "SpaceX acquired AI coding startup Cursor for $60 billion",
+            "The acquisition is part of SpaceX's efforts to expand its AI capabilities",
+            "Cursor's AI coding technology will help SpaceX improve its AI development",
+            "The deal is one of the largest acquisitions in the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition will help SpaceX improve its AI development capabilities",
+            "Cursor's AI coding technology will help SpaceX expand its AI applications",
+            "The deal highlights the growing importance of AI in the tech industry",
+            "The acquisition will also help SpaceX compete with other AI companies"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant step for SpaceX's AI development",
+            "Cursor's AI coding technology will help SpaceX improve its AI capabilities",
+            "The deal highlights the growing trend of tech companies acquiring AI startups",
+            "Source: AP News, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX acquires AI coding startup Cursor for $60 billion. The acquisition is part of SpaceX's efforts to expand its AI capabilities and compete with other AI companies. \nQuestions to consider: \nWhat are the implications of the acquisition for SpaceX's AI development? \nHow will Cursor's AI coding technology help SpaceX improve its AI capabilities? \nWhat are the potential risks and challenges associated with the acquisition? \n#SpaceX #AIAcquisition #Cursor #AIcoding #TechIndustry"
+    },
+    {
+      "id": 3,
+      "topic": "EU AI Act Guidelines",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N18",
+      "eventDate": "17 Jun 2026",
+      "sourceName": "Slaughter and May",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0VlYUlwSWhEa01zWlBqTWdyQXRwZ2szdU9vQXNGN2l1UGExV09KcXV5LUJLQlZWekhJSHRkZlZaSUREY0gwYTZSZ3MtYkhxTDlhUHZUMGRLelQ3eF9hNVJKNFBMZ3J1YjJqRlFtQTZyWFdudkNDZUpFMjBIRWFLeHlVTWxnYlpnZGMyNTlyQ3BZbkJsWW1DaTBCejFMMFdzNTFaMzZlZ09kWkJsZjlxamZzcERPUUhCdmc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act Guidelines Released",
+          "subtitle": "For High-Risk Systems"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Jun 2026",
+            "The EU released guidelines for high-risk AI systems",
+            "The guidelines are part of the EU's AI Act",
+            "The guidelines provide a framework for the development and deployment of high-risk AI systems",
+            "The guidelines include requirements for transparency, accountability, and human oversight"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The guidelines will help ensure the safe and responsible development of AI",
+            "The guidelines will provide a framework for the development and deployment of high-risk AI systems",
+            "The guidelines will help build trust in AI systems",
+            "Source: Slaughter and May, 17 Jun 2026"
+          ]
+        },
+        "slide4": null
+      },
+      "caption": "The EU released guidelines for high-risk AI systems as part of its AI Act. The guidelines provide a framework for the development and deployment of high-risk AI systems. \nQuestions to consider: \nWhat are the implications of the guidelines for the development of AI systems? \nHow will the guidelines help ensure the safe and responsible development of AI? \nWhat are the potential challenges and limitations of the guidelines? \n#EU #AIAct #HighRiskSystems #AIGuidelines #AIRegulation"
+    }
+  ]
+}

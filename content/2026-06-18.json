@@ -11,117 +11,116 @@
       "topic": "SpaceX Acquires Cursor",
       "slides": 4,
       "svgIcon": "rocket",
-      "sourceId": "N1",
+      "sourceId": "N2",
       "eventDate": "17 Jun 2026",
-      "sourceName": "MLQ.ai",
+      "sourceName": "outlookbusiness.com",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb19FVjVxQlFsMDNMSVd3VWJYNDhYNThCcnpoWjFiaTluUmFFckRZeW9zYWxxNEozR0N2bVEtOWlRelk2aVQxNl9JWVNSdHl0cW16Q0xCTjk0bmp4akhIb1pZYTU1bzFsTU1VZGZra2hWWWg0dDYtWXBId2Q0eVJhR2VGb2VjWlFFNDhEMlBXdHI5ODduaVlEYTVR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTTVTdjVGUl9zSEVRU3ZYMHhERWNJWVhvNmM3TnEzMHRuUXpycW9zRVlORndrZDRNZElwS1g3ZjNPWTZBTV9fODE3S0RzUlRzZDNLYkJVQ203emVFSl9hLWFOUU81VEZlMzdDY0g0UjZsWWlaUWNtUTlkQWpnb29BRzJGVXdKMmNIcmR4T3Z0LV9BdTRuQ1N0S0xOLXVJalFlS1BYRzZJaU9FX2RBZ25pV2Zva1FXb0k?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Breaking News",
-          "subtitle": "SpaceX's Latest Acquisition"
+          "headline": "Breaking News: SpaceX Acquires AI Coding Startup Cursor",
+          "subtitle": "A major move in the AI industry"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "SpaceX acquired Cursor, an AI coding startup, for $60 billion in an all-stock deal on 17 Jun 2026.",
-            "This acquisition is expected to boost SpaceX's competitive edge in AI coding.",
-            "The deal was announced just days after SpaceX's IPO, which valued the company at $1.77 trillion.",
-            "SpaceX's market cap has surged past $2 trillion, making the acquisition look nearly free."
+            "Event date: 17 Jun 2026",
+            "SpaceX acquired AI coding startup Cursor for $60 billion.",
+            "This acquisition comes just days after SpaceX's Nasdaq debut.",
+            "The deal is an all-stock transaction.",
+            "Cursor's valuation is now at $60 billion."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This acquisition is significant for the AI industry, as it highlights the growing importance of AI coding in space exploration.",
-            "SpaceX's acquisition of Cursor is expected to accelerate the development of AI-powered systems for space missions.",
-            "The deal also underscores the increasing competition in the AI coding market, with major players like SpaceX and others investing heavily in AI research and development."
+            "This acquisition highlights the growing importance of AI in the tech industry.",
+            "SpaceX's move into AI coding startup acquisition may indicate a shift in its business strategy.",
+            "The deal may also have implications for the future of AI development and innovation."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "SpaceX's acquisition of Cursor is a strategic move to enhance its AI capabilities.",
-            "The deal is expected to have a significant impact on the AI industry, with potential applications in space exploration and other fields.",
-            "As the AI industry continues to evolve, we can expect to see more acquisitions and partnerships like this one.",
-            "Source: MLQ.ai, Jun 2026"
+            "The acquisition may lead to increased collaboration between SpaceX and Cursor.",
+            "The deal's valuation may have a significant impact on the AI industry as a whole.",
+            "Source: outlookbusiness.com, Jun 2026"
           ]
         }
       },
-      "caption": "SpaceX has acquired Cursor, an AI coding startup, for $60 billion. This acquisition is expected to boost SpaceX's competitive edge in AI coding. What does this mean for the future of space exploration and the AI industry? How will this acquisition impact the development of AI-powered systems for space missions? #SpaceX #AI #Acquisition #SpaceExploration #ArtificialIntelligence #TechNews"
+      "caption": "SpaceX has acquired AI coding startup Cursor for $60 billion. What does this mean for the future of AI development? How will this acquisition impact SpaceX's business strategy? Questions to consider: What are the potential implications of this acquisition on the AI industry? How will Cursor's technology be integrated into SpaceX's operations? #AI #SpaceX #Acquisition #Innovation #TechNews #BusinessStrategy"
     },
     {
       "id": 2,
-      "topic": "EU AI Act Guidelines",
+      "topic": "AI Security Concerns",
       "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N2",
-      "eventDate": "17 Jun 2026",
-      "sourceName": "Slaughter and May",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0VlYUlwSWhEa01zWlBqTWdyQXRwZ2szdU9vQXNGN2l1UGExV09KcXV5LUJLQlZWekhJSHRkZlZaSUREY0gwYTZSZ3MtYkhxTDlhUHZUMGRLelQ3eF9hNVJKNFBMZ3J1YjJqRlFtQTZyWFdudkNDZUpFMjBIRWFLeHlVTWxnYlpnZGMyNTlyQ3BZbkJsWW1DaTBCejFMMFdzNTFaMzZlZ09kWkJsZjlxamZzcERPUUhCdmc?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "EU AI Act Guidelines",
-          "subtitle": "High-Risk Systems"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "The EU AI Act Guidelines for high-risk systems were released on 17 Jun 2026.",
-            "The guidelines provide a framework for the development and deployment of high-risk AI systems.",
-            "The guidelines cover aspects such as data quality, transparency, and human oversight.",
-            "The guidelines are expected to have a significant impact on the development of AI systems in the EU."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The EU AI Act Guidelines provide a framework for the development and deployment of high-risk AI systems.",
-            "The guidelines highlight the importance of data quality, transparency, and human oversight in AI system development.",
-            "The guidelines are expected to have a significant impact on the AI industry, with potential applications in various fields.",
-            "Source: Slaughter and May, 17 Jun 2026"
-          ]
-        }
-      },
-      "caption": "The EU AI Act Guidelines for high-risk systems have been released. What do these guidelines mean for the development and deployment of AI systems in the EU? How will these guidelines impact the AI industry as a whole? #EUAIACT #AI #Guidelines #HighRiskSystems #ArtificialIntelligence #TechNews"
-    },
-    {
-      "id": 3,
-      "topic": "Tringbox Funding",
-      "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N3",
+      "svgIcon": "lock",
+      "sourceId": "N10",
       "eventDate": "18 Jun 2026",
-      "sourceName": "Indian Startup Times",
+      "sourceName": "VoIP Review",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd19qOHpBLWd0SFp1VGpSS3RiSC1qUkxZd0xvYlJ3d2dxRWtuV09xSGE4bXNwdzFIUjV4ZUtwcWsxeHJPeUhSV0FHOGlrdU9Sd3hUeTNlQ3lQX1NqNy1pZVFWYXRfUWkza0ZYLTZ0SHA1UU4zc3MyM2d6UnR1REt5Y1BiaHZMUm9DWlE5MXhlcmlkc1EzOHE3ZGRwemFOOUhpRXZsWEQ3QzQxaWFkT0RmaGgxdDFqb2hiZTlEaEdpcGNqSDNXZVE1Z2NjdFJQTW12UndhM0I2Z19mLUk2amo0?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeHV4SXlFTU9SYl9JX2doOFRhdlhETk9WM0dDZWZqUEpUMWF3MUxLTVZiRGlzdmtNYmZMY2JnYWIwVlNDeUpYamxscnFSYnA0Q1VidDlVa1hSa1ctQ2RKdzhFZXRHSzlaajI3Q0VlMU8xZk9ZZFB3elBuSE9HWFBKM0pHSkVYSjc3UHZDVTBobllEUQ?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Tringbox Funding",
-          "subtitle": "AI-Powered Music Intelligence"
+          "headline": "Microsoft Patches SearchLeak, Raises AI Security Concerns",
+          "subtitle": "A growing concern in the AI industry"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 18 Jun 2026",
-            "Tringbox, an AI startup, has raised ₹5 crore in funding to bring AI-powered music intelligence to India's commercial spaces.",
-            "The funding will be used to expand Tringbox's operations and develop its AI-powered music platform.",
-            "Tringbox's platform uses AI to provide personalized music recommendations for commercial spaces.",
-            "The company plans to use the funding to increase its market share in the Indian commercial music market."
+            "Microsoft has patched a vulnerability known as SearchLeak.",
+            "The vulnerability had allowed attackers to access sensitive information.",
+            "The patch highlights the need for increased AI security measures.",
+            "Microsoft has reported 1.2 million instances of SearchLeak exploitation."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "Tringbox's funding is a significant development for the AI industry in India.",
-            "The company's AI-powered music platform has the potential to disrupt the commercial music market in India.",
-            "The funding will enable Tringbox to expand its operations and develop its platform further.",
-            "Source: Indian Startup Times, 18 Jun 2026"
+            "The SearchLeak vulnerability has significant implications for AI security.",
+            "The patch may not be enough to fully address the issue.",
+            "Source: VoIP Review, Jun 2026"
           ]
         }
       },
-      "caption": "Tringbox, an AI startup, has raised ₹5 crore in funding to bring AI-powered music intelligence to India's commercial spaces. What are the potential applications of AI-powered music intelligence in commercial spaces? How will this funding impact the development of Tringbox's platform? #Tringbox #AI #Funding #MusicIntelligence #ArtificialIntelligence #TechNews"
+      "caption": "Microsoft has patched the SearchLeak vulnerability, but AI security concerns remain. What are the potential implications of this vulnerability on AI development? How can companies like Microsoft improve their AI security measures? Questions to consider: What are the potential consequences of neglecting AI security? How can the AI industry work together to address these concerns? #AISecurity #Microsoft #Vulnerability #TechNews #Cybersecurity #AI"
+    },
+    {
+      "id": 3,
+      "topic": "Genspark Funding",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N6",
+      "eventDate": "18 Jun 2026",
+      "sourceName": "Indiatimes",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMklycnQ5REZPNUNZZWhjZ1FpQUhnY05MZnhKSUdfMWV6V1RrWWxnTW9EY3Y2MTZDdVVhY3pMNUVYVy10bVlHN0lmUDd1VzN6RW52Wk1lTjRsUzZoOEs5UEpmbnNqM2dDNWd2QnV4LVpVaWJLdFNaemgtelcwOFZRVmdObHVQeTdDMDNOQ0pqSEZKNjJHREhfWThCcFUwWTJ3ak4yOGhHYUxrY2UzdGM2RVVOZ1ZCX0pzbzdTbEdlcFljT1dYbFZZeWpHM3NTSGVlSW1peU0xcTJDdGdIUWlnN3o5bGlVTkFnOEJNX3V3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Genspark Valued at $2.6 Billion in Latest Funding Round",
+          "subtitle": "A significant funding round for the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Jun 2026",
+            "Genspark has raised $100 million in its latest funding round.",
+            "The company is now valued at $2.6 billion.",
+            "This funding round highlights the growing interest in AI startups.",
+            "Genspark's valuation has increased by $1.4 billion since its last funding round."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round may lead to increased investment in AI research and development.",
+            "Genspark's valuation may have a significant impact on the AI industry as a whole.",
+            "Source: India Times, Jun 2026"
+          ]
+        }
+      },
+      "caption": "AI startup Genspark has raised $100 million in its latest funding round, valuing the company at $2.6 billion. What does this mean for the future of AI development? How will this funding round impact Genspark's business strategy? Questions to consider: What are the potential implications of this funding round on the AI industry? How will Genspark use this funding to drive innovation? #AI #Funding #Genspark #Innovation #TechNews #Startup"
     }
   ]
 }

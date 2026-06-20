@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-20",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX Acquires Cursor",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N1",
+      "eventDate": "16 Jun 2026",
+      "sourceName": "Sarkaritel.com",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQ3FxUTJoOGstQjRmWENNR3NoRDFFUy1ISVljYzFzcEVQVFdsUEZGVm4xVjd2bW1Nd3ZYQkVzVXQxUXdvcS1XcGxNX0NLNzFzV2F3YXpsU2xMX1JqSUhEb01wd0t4bDVhY2s0UXVsVnRsNHNaaGxxNXR2Rzc5Uk5RdmoxbUlWbTQ5WVFuR1F5QXdiQlNQTzFzQ2QzYzZMSHF2c3dOMTdlZDk4R3k1enZsNVVqRlBRRlJWeWNpaW5YWGliMGlyYlZQaldRTFo?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Surpasses Microsoft",
+          "subtitle": "Acquires AI Startup Cursor for $60 Billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "SpaceX acquired AI startup Cursor for $60 billion on 16 Jun 2026",
+            "This deal surpasses Microsoft to become the fourth-largest US company",
+            "The acquisition is valued at $60 billion",
+            "This is SpaceX's first deal after its record-breaking IPO"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition signals SpaceX's post-IPO acquisition push",
+            "The deal is expected to enhance SpaceX's AI capabilities",
+            "The acquisition is a significant move in the AI industry",
+            "It highlights the growing importance of AI in the tech industry"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant move in the AI industry",
+            "It highlights the growing importance of AI in the tech industry",
+            "This deal is expected to have a major impact on the AI market",
+            "Source: Sarkaritel.com, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX has acquired AI startup Cursor for $60 billion, surpassing Microsoft to become the fourth-largest US company. This deal signals SpaceX's post-IPO acquisition push and is expected to enhance its AI capabilities. \n      Questions to consider: What will be the impact of this acquisition on the AI market? How will this deal affect SpaceX's competitors? \n      #SpaceX #AI #Acquisition #TechNews #BusinessNews #Innovation"
+    },
+    {
+      "id": 2,
+      "topic": "Nykaa Partners with OpenAI",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N2",
+      "eventDate": "19 Jun 2026",
+      "sourceName": "BW Businessworld",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYTFScFF0NnZwMGMxWkpEXzRjaGE2UzZlVnY0WWl0aDhnVUZsR1ZvTlNlUloxdGNTaDgzNjNNZ3oxdDZfbjNJNXU5SWMyN3hjdEpLMnFTbVlIaDdkazdVSlYxREhtZEVYUVJuamw0ZnkyTm4tVE1RaTJZMkZxdmhhZWlKNmtSSjAtN0wtTF9KbEo4V292clIwenZUNVhhYVoyNDk5VkVVUHdOY1BRNUU1V0NVNHc1Z2M1bmR3dA?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nykaa Shares Rise 3%",
+          "subtitle": "Partnership with OpenAI Brings Shopping to ChatGPT"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Nykaa partnered with OpenAI to bring shopping to ChatGPT on 19 Jun 2026",
+            "This partnership resulted in a 3% rise in Nykaa shares",
+            "The partnership aims to enhance the shopping experience for Nykaa customers",
+            "It marks a significant move in the e-commerce industry"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The partnership is expected to enhance the shopping experience for Nykaa customers",
+            "It marks a significant move in the e-commerce industry",
+            "The deal highlights the growing importance of AI in the e-commerce sector",
+            "Source: BW Businessworld, 19 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Nykaa has partnered with OpenAI to bring shopping to ChatGPT, resulting in a 3% rise in Nykaa shares. This partnership aims to enhance the shopping experience for Nykaa customers and marks a significant move in the e-commerce industry. \n      Questions to consider: How will this partnership impact the e-commerce industry? What other companies will follow suit? \n      #Nykaa #OpenAI #Partnership #Ecommerce #TechNews #Innovation"
+    },
+    {
+      "id": 3,
+      "topic": "JPMorgan Restricts Access to Anthropic's AI Models",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N18",
+      "eventDate": "20 Jun 2026",
+      "sourceName": "Benzinga",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYWtadUplYkVXcWFOYU9HdzFMeFV6MC16cVdQNWNqTnVwbWd0NWhQRmhxX0JxR3BTX0tsMk1iVy13MjRLa0VmckxJSUtHU2JhSGQ3QnZiSHB1TWZtMmdUXzdCbWxDQkMzSUt1cEJ0UVo1VjlUTmYzM210bFhOTzMxaGdHZE1YVFc3azRpWFUtaFpUdXFWMDZNT1NaV0RVWVBUX1piOVN6b0VfZ0xyckF1emxlaHB5UQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "JPMorgan Restricts Access",
+          "subtitle": "Hong Kong Staff's Access to Anthropic's AI Models Restricted"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "JPMorgan restricted Hong Kong staff's access to Anthropic's AI models on 20 Jun 2026",
+            "The restriction is due to US national security crackdown",
+            "The move highlights the growing concerns about AI security",
+            "It marks a significant development in the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The restriction is due to US national security crackdown",
+            "The move highlights the growing concerns about AI security",
+            "It marks a significant development in the AI industry",
+            "Source: Benzinga, 20 Jun 2026"
+          ]
+        }
+      },
+      "caption": "JPMorgan has restricted Hong Kong staff's access to Anthropic's AI models due to US national security crackdown. This move highlights the growing concerns about AI security and marks a significant development in the AI industry. \n      Questions to consider: What are the implications of this restriction on the AI industry? How will other companies respond to similar security concerns? \n      #JPMorgan #Anthropic #AI #Security #TechNews #Regulation"
+    }
+  ]
+}

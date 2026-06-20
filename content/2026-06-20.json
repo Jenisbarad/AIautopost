@@ -8,120 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "SpaceX Acquires Cursor",
+      "topic": "AI Acquisition",
       "slides": 4,
-      "svgIcon": "rocket",
-      "sourceId": "N1",
-      "eventDate": "16 Jun 2026",
-      "sourceName": "Sarkaritel.com",
+      "sourceId": "N2",
+      "eventDate": "19 Jun 2026",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQ3FxUTJoOGstQjRmWENNR3NoRDFFUy1ISVljYzFzcEVQVFdsUEZGVm4xVjd2bW1Nd3ZYQkVzVXQxUXdvcS1XcGxNX0NLNzFzV2F3YXpsU2xMX1JqSUhEb01wd0t4bDVhY2s0UXVsVnRsNHNaaGxxNXR2Rzc5Uk5RdmoxbUlWbTQ5WVFuR1F5QXdiQlNQTzFzQ2QzYzZMSHF2c3dOMTdlZDk4R3k1enZsNVVqRlBRRlJWeWNpaW5YWGliMGlyYlZQaldRTFo?oc=5",
+      "sourceName": "Founded",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQelFtVG80aW8xbS1RV3p6MHFTcUVtdE93MHpEeFVZNzlzNkRIZTJINmN0SEFLZHBva1RmOHNtenRLRC04NDBBQjZsLUttMlF1TG9MMmRJQUM4bEVpTlA2SUxpaFp6dHRiSlg0dWtuSk5LZnlqTjFuN05JVlNVWjVCYmlQUGY?oc=5",
+      "svgIcon": "chip",
+      "caption": "SpaceX has made a significant move in the AI sector by acquiring Cursor for $60 billion. This deal showcases the growing importance of AI in the tech industry. What does this mean for the future of AI development? How will this acquisition impact SpaceX's competitive edge? #AI #SpaceX #Acquisition #TechNews #Innovation #ArtificialIntelligence",
       "slideContent": {
         "slide1": {
-          "headline": "SpaceX Surpasses Microsoft",
-          "subtitle": "Acquires AI Startup Cursor for $60 Billion"
+          "headline": "SpaceX Expands AI Capabilities",
+          "subtitle": "Through Strategic Acquisition"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "SpaceX acquired AI startup Cursor for $60 billion on 16 Jun 2026",
-            "This deal surpasses Microsoft to become the fourth-largest US company",
-            "The acquisition is valued at $60 billion",
-            "This is SpaceX's first deal after its record-breaking IPO"
+            "Event date: 19 Jun 2026",
+            "SpaceX bought AI coding startup Cursor for $60 billion.",
+            "This is SpaceX's first deal after its record-breaking IPO.",
+            "The acquisition indicates SpaceX's focus on AI development.",
+            "The deal value is $60 billion."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This acquisition signals SpaceX's post-IPO acquisition push",
-            "The deal is expected to enhance SpaceX's AI capabilities",
-            "The acquisition is a significant move in the AI industry",
-            "It highlights the growing importance of AI in the tech industry"
+            "This acquisition highlights the growing importance of AI in the tech industry.",
+            "SpaceX's move into AI coding can enhance its competitive edge.",
+            "The deal also signifies the increasing value of AI startups.",
+            "SpaceX's expansion into AI can lead to innovative applications."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a significant move in the AI industry",
-            "It highlights the growing importance of AI in the tech industry",
-            "This deal is expected to have a major impact on the AI market",
-            "Source: Sarkaritel.com, Jun 2026"
+            "The acquisition of Cursor by SpaceX marks a significant investment in AI.",
+            "This deal can impact the future of AI development in the tech industry.",
+            "SpaceX's focus on AI can lead to breakthroughs in various fields.",
+            "Source: Founded, Jun 2026"
           ]
         }
-      },
-      "caption": "SpaceX has acquired AI startup Cursor for $60 billion, surpassing Microsoft to become the fourth-largest US company. This deal signals SpaceX's post-IPO acquisition push and is expected to enhance its AI capabilities. \n      Questions to consider: What will be the impact of this acquisition on the AI market? How will this deal affect SpaceX's competitors? \n      #SpaceX #AI #Acquisition #TechNews #BusinessNews #Innovation"
+      }
     },
     {
       "id": 2,
-      "topic": "Nykaa Partners with OpenAI",
+      "topic": "AI Policy",
       "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N2",
+      "sourceId": "N20",
       "eventDate": "19 Jun 2026",
-      "sourceName": "BW Businessworld",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYTFScFF0NnZwMGMxWkpEXzRjaGE2UzZlVnY0WWl0aDhnVUZsR1ZvTlNlUloxdGNTaDgzNjNNZ3oxdDZfbjNJNXU5SWMyN3hjdEpLMnFTbVlIaDdkazdVSlYxREhtZEVYUVJuamw0ZnkyTm4tVE1RaTJZMkZxdmhhZWlKNmtSSjAtN0wtTF9KbEo4V292clIwenZUNVhhYVoyNDk5VkVVUHdOY1BRNUU1V0NVNHc1Z2M1bmR3dA?oc=5",
+      "sourceName": "College Recruiter",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVU9lUFh2TDczMDE0ekQ3RGhwcW9yYzl1WnRGZUFsVDU2eWFfXzF5aUhWei0tdnNMVGJEUUhSN2VleVg3RmtnRElKT1hnVnFEWXpZUlRxS3AtZDZwTlFuNUptTmxzZXpOcWJyQlg2RDFlTTRXbUZKVkFSM1Vlamh3eW5IcE4xZjY3b25OLU11a3FlSDM0eHVGbDFjX1hqeTJrazZKTlBfYUdTZXBUeUNfd3E3N2x2a1ZNT3VBZVpWQmw2Q3BhZDJXWUx6Nzk0QlBtdmNlRjlCVGJVcXBtVTZMa2hjTnVRdndoVjVSZ2xSM0o?oc=5",
+      "svgIcon": "globe",
+      "caption": "The EU AI Act is set to regulate AI development and use in the EU. How will this impact talent acquisition technology? What measures can companies take to ensure compliance with the Act's provisions? #AI #EUAIACT #TalentAcquisition #Compliance #Regulation #ArtificialIntelligence",
       "slideContent": {
         "slide1": {
-          "headline": "Nykaa Shares Rise 3%",
-          "subtitle": "Partnership with OpenAI Brings Shopping to ChatGPT"
+          "headline": "EU AI Act and Talent Acquisition",
+          "subtitle": "Balancing Efficiency and Compliance"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Nykaa partnered with OpenAI to bring shopping to ChatGPT on 19 Jun 2026",
-            "This partnership resulted in a 3% rise in Nykaa shares",
-            "The partnership aims to enhance the shopping experience for Nykaa customers",
-            "It marks a significant move in the e-commerce industry"
+            "Event date: 19 Jun 2026",
+            "The EU AI Act aims to regulate AI development and use.",
+            "Talent acquisition technology must balance algorithmic efficiency with legal compliance.",
+            "The Act's provisions can impact the hiring process in companies.",
+            "Compliance with the EU AI Act is crucial for companies operating in the EU."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The partnership is expected to enhance the shopping experience for Nykaa customers",
-            "It marks a significant move in the e-commerce industry",
-            "The deal highlights the growing importance of AI in the e-commerce sector",
-            "Source: BW Businessworld, 19 Jun 2026"
+            "The EU AI Act's focus on transparency and accountability can lead to more responsible AI development.",
+            "Companies must adapt their hiring processes to comply with the Act's provisions.",
+            "The Act's impact on talent acquisition technology will be significant.",
+            "Source: College Recruiter, 19 Jun 2026"
           ]
         }
-      },
-      "caption": "Nykaa has partnered with OpenAI to bring shopping to ChatGPT, resulting in a 3% rise in Nykaa shares. This partnership aims to enhance the shopping experience for Nykaa customers and marks a significant move in the e-commerce industry. \n      Questions to consider: How will this partnership impact the e-commerce industry? What other companies will follow suit? \n      #Nykaa #OpenAI #Partnership #Ecommerce #TechNews #Innovation"
+      }
     },
     {
       "id": 3,
-      "topic": "JPMorgan Restricts Access to Anthropic's AI Models",
+      "topic": "AI Security",
       "slides": 3,
-      "svgIcon": "lock",
-      "sourceId": "N18",
-      "eventDate": "20 Jun 2026",
-      "sourceName": "Benzinga",
+      "sourceId": "N11",
+      "eventDate": "18 Jun 2026",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYWtadUplYkVXcWFOYU9HdzFMeFV6MC16cVdQNWNqTnVwbWd0NWhQRmhxX0JxR3BTX0tsMk1iVy13MjRLa0VmckxJSUtHU2JhSGQ3QnZiSHB1TWZtMmdUXzdCbWxDQkMzSUt1cEJ0UVo1VjlUTmYzM210bFhOTzMxaGdHZE1YVFc3azRpWFUtaFpUdXFWMDZNT1NaV0RVWVBUX1piOVN6b0VfZ0xyckF1emxlaHB5UQ?oc=5",
+      "sourceName": "FinTech Global",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWtjeTdvcFRTSjB2QW1pd0l3aDVqWjVOVHdPZFFVcl8zQ25OM3drR2hTeWF2SjJyNU1yYk0zZTJiRDdybkRVMjJ2eVBMZ2RsWUFPZzlSejVBb1VuanRvbUcwemVvQkpZbVB3NmgxZEtEcnQ0Q1FuUi1WT0FER2VNQ1RoLVEycWZId19B?oc=5",
+      "svgIcon": "shield",
+      "caption": "Rogue AI agents can pose significant security risks. How can companies like Tenet Security address this issue? What measures can be taken to prevent the rise of rogue AI agents? #AI #AISecurity #RogueAI #TenetSecurity #ArtificialIntelligence #CyberSecurity",
       "slideContent": {
         "slide1": {
-          "headline": "JPMorgan Restricts Access",
-          "subtitle": "Hong Kong Staff's Access to Anthropic's AI Models Restricted"
+          "headline": "Rogue AI Agents and Security",
+          "subtitle": "A Growing Concern"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "JPMorgan restricted Hong Kong staff's access to Anthropic's AI models on 20 Jun 2026",
-            "The restriction is due to US national security crackdown",
-            "The move highlights the growing concerns about AI security",
-            "It marks a significant development in the AI industry"
+            "Event date: 18 Jun 2026",
+            "Tenet Security raised $6m to stop rogue AI agents.",
+            "Rogue AI agents can pose significant security risks.",
+            "The funding will be used to develop solutions to mitigate these risks.",
+            "The deal value is $6m."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The restriction is due to US national security crackdown",
-            "The move highlights the growing concerns about AI security",
-            "It marks a significant development in the AI industry",
-            "Source: Benzinga, 20 Jun 2026"
+            "The rise of rogue AI agents is a growing concern in the AI security landscape.",
+            "Tenet Security's funding is a step towards addressing this issue.",
+            "The development of solutions to stop rogue AI agents is crucial for AI security.",
+            "Source: FinTech Global, 18 Jun 2026"
           ]
         }
-      },
-      "caption": "JPMorgan has restricted Hong Kong staff's access to Anthropic's AI models due to US national security crackdown. This move highlights the growing concerns about AI security and marks a significant development in the AI industry. \n      Questions to consider: What are the implications of this restriction on the AI industry? How will other companies respond to similar security concerns? \n      #JPMorgan #Anthropic #AI #Security #TechNews #Regulation"
+      }
     }
   ]
 }

@@ -8,123 +8,118 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition",
-      "slides": 4,
-      "sourceId": "N2",
-      "eventDate": "19 Jun 2026",
-      "sourceMonthYear": "Jun 2026",
-      "sourceName": "Founded",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQelFtVG80aW8xbS1RV3p6MHFTcUVtdE93MHpEeFVZNzlzNkRIZTJINmN0SEFLZHBva1RmOHNtenRLRC04NDBBQjZsLUttMlF1TG9MMmRJQUM4bEVpTlA2SUxpaFp6dHRiSlg0dWtuSk5LZnlqTjFuN05JVlNVWjVCYmlQUGY?oc=5",
-      "svgIcon": "chip",
-      "caption": "SpaceX has made a significant move in the AI sector by acquiring Cursor for $60 billion. This deal showcases the growing importance of AI in the tech industry. What does this mean for the future of AI development? How will this acquisition impact SpaceX's competitive edge? #AI #SpaceX #Acquisition #TechNews #Innovation #ArtificialIntelligence",
-      "slideContent": {
-        "slide1": {
-          "headline": "SpaceX Expands AI Capabilities",
-          "subtitle": "Through Strategic Acquisition"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 19 Jun 2026",
-            "SpaceX bought AI coding startup Cursor for $60 billion.",
-            "This is SpaceX's first deal after its record-breaking IPO.",
-            "The acquisition indicates SpaceX's focus on AI development.",
-            "The deal value is $60 billion."
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "This acquisition highlights the growing importance of AI in the tech industry.",
-            "SpaceX's move into AI coding can enhance its competitive edge.",
-            "The deal also signifies the increasing value of AI startups.",
-            "SpaceX's expansion into AI can lead to innovative applications."
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition of Cursor by SpaceX marks a significant investment in AI.",
-            "This deal can impact the future of AI development in the tech industry.",
-            "SpaceX's focus on AI can lead to breakthroughs in various fields.",
-            "Source: Founded, Jun 2026"
-          ]
-        }
-      }
-    },
-    {
-      "id": 2,
-      "topic": "AI Policy",
-      "slides": 3,
-      "sourceId": "N20",
-      "eventDate": "19 Jun 2026",
-      "sourceMonthYear": "Jun 2026",
-      "sourceName": "College Recruiter",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVU9lUFh2TDczMDE0ekQ3RGhwcW9yYzl1WnRGZUFsVDU2eWFfXzF5aUhWei0tdnNMVGJEUUhSN2VleVg3RmtnRElKT1hnVnFEWXpZUlRxS3AtZDZwTlFuNUptTmxzZXpOcWJyQlg2RDFlTTRXbUZKVkFSM1Vlamh3eW5IcE4xZjY3b25OLU11a3FlSDM0eHVGbDFjX1hqeTJrazZKTlBfYUdTZXBUeUNfd3E3N2x2a1ZNT3VBZVpWQmw2Q3BhZDJXWUx6Nzk0QlBtdmNlRjlCVGJVcXBtVTZMa2hjTnVRdndoVjVSZ2xSM0o?oc=5",
-      "svgIcon": "globe",
-      "caption": "The EU AI Act is set to regulate AI development and use in the EU. How will this impact talent acquisition technology? What measures can companies take to ensure compliance with the Act's provisions? #AI #EUAIACT #TalentAcquisition #Compliance #Regulation #ArtificialIntelligence",
-      "slideContent": {
-        "slide1": {
-          "headline": "EU AI Act and Talent Acquisition",
-          "subtitle": "Balancing Efficiency and Compliance"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 19 Jun 2026",
-            "The EU AI Act aims to regulate AI development and use.",
-            "Talent acquisition technology must balance algorithmic efficiency with legal compliance.",
-            "The Act's provisions can impact the hiring process in companies.",
-            "Compliance with the EU AI Act is crucial for companies operating in the EU."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The EU AI Act's focus on transparency and accountability can lead to more responsible AI development.",
-            "Companies must adapt their hiring processes to comply with the Act's provisions.",
-            "The Act's impact on talent acquisition technology will be significant.",
-            "Source: College Recruiter, 19 Jun 2026"
-          ]
-        }
-      }
-    },
-    {
-      "id": 3,
       "topic": "AI Security",
       "slides": 3,
-      "sourceId": "N11",
-      "eventDate": "18 Jun 2026",
-      "sourceMonthYear": "Jun 2026",
-      "sourceName": "FinTech Global",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWtjeTdvcFRTSjB2QW1pd0l3aDVqWjVOVHdPZFFVcl8zQ25OM3drR2hTeWF2SjJyNU1yYk0zZTJiRDdybkRVMjJ2eVBMZ2RsWUFPZzlSejVBb1VuanRvbUcwemVvQkpZbVB3NmgxZEtEcnQ0Q1FuUi1WT0FER2VNQ1RoLVEycWZId19B?oc=5",
       "svgIcon": "shield",
-      "caption": "Rogue AI agents can pose significant security risks. How can companies like Tenet Security address this issue? What measures can be taken to prevent the rise of rogue AI agents? #AI #AISecurity #RogueAI #TenetSecurity #ArtificialIntelligence #CyberSecurity",
+      "sourceId": "N24",
       "slideContent": {
         "slide1": {
-          "headline": "Rogue AI Agents and Security",
+          "headline": "Rogue AI Agents",
           "subtitle": "A Growing Concern"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 18 Jun 2026",
-            "Tenet Security raised $6m to stop rogue AI agents.",
-            "Rogue AI agents can pose significant security risks.",
-            "The funding will be used to develop solutions to mitigate these risks.",
-            "The deal value is $6m."
+            "Tenet Security raised $6m to stop rogue AI agents",
+            "This investment is crucial for the development of AI security solutions",
+            "The funding will help Tenet Security to enhance its technology"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The rise of rogue AI agents is a growing concern in the AI security landscape.",
-            "Tenet Security's funding is a step towards addressing this issue.",
-            "The development of solutions to stop rogue AI agents is crucial for AI security.",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Rogue AI agents can cause significant harm to individuals and organizations",
+            "AI security is becoming a major concern in the tech industry",
             "Source: FinTech Global, 18 Jun 2026"
           ]
         }
-      }
+      },
+      "caption": "The rise of rogue AI agents is a growing concern in the tech industry. Tenet Security has raised $6m to develop solutions to stop these agents. What are the potential consequences of not addressing this issue? How can companies like Tenet Security make a difference? #AIsecurity #RogueAI #TenetSecurity #FinTechGlobal #ArtificialIntelligence #CyberSecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWtjeTdvcFRTSjB2QW1pd0l3aDVqWjVOVHdPZFFVcl8zQ25OM3drR2hTeWF2SjJyNU1yYk0zZTJiRDdybkRVMjJ2eVBMZ2RsWUFPZzlSejVBb1VuanRvbUcwemVvQkpZbVB3NmgxZEtEcnQ0Q1FuUi1WT0FER2VNQ1RoLVEycWZId19B?oc=5",
+      "sourceName": "FinTech Global",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "18 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "SpaceX Acquisition",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Acquires Cursor",
+          "subtitle": "A $60 Billion Deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Jun 2026",
+            "SpaceX acquired AI coding startup Cursor for $60 billion",
+            "This deal is SpaceX's first acquisition after its record-breaking IPO",
+            "The acquisition is a strategic move to gain an edge over Anthropic and OpenAI"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition of Cursor will enhance SpaceX's AI capabilities",
+            "SpaceX is expanding its presence in the AI market",
+            "The deal is a significant move in the tech industry"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a strategic move by SpaceX to gain a competitive edge",
+            "The deal is valued at $60 billion, making it one of the largest acquisitions in the tech industry",
+            "SpaceX is expanding its presence in the AI market with this acquisition",
+            "Source: AP News, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX has acquired AI coding startup Cursor for $60 billion. This deal is a strategic move to gain an edge over Anthropic and OpenAI. What are the implications of this acquisition for the tech industry? How will this deal impact the development of AI technology? #SpaceX #Cursor #Acquisition #AI #ArtificialIntelligence #TechIndustry",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNWRUQ3RGOTV2YzhlMDVKT3k2NjZ2U2w3ZUctMDY2dTZFZ2NJUjZZSjhpalZSak81eW9nT2xfYmhYR0RHcVdDNVMzWVc1VlhKVUF4S3lMdk1NcW1CeWY1ZmE4cTgxbVhmUWJqaVE2LUdRbl9GbUtlZFR0SlBGS3U2Nko0dUlOYWdPLVJBVjR5clZvUHp0Smo5a2ZKR0xGdw?oc=5",
+      "sourceName": "AP News",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "18 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Music",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Music Startup",
+          "subtitle": "Tringbox Raises Funds"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 19 Jun 2026",
+            "AI music startup Tringbox raised Rs 5 crore in seed funding",
+            "The funding will be used to develop its AI-powered music platform",
+            "Tringbox is expanding its presence in the music industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The use of AI in music is becoming increasingly popular",
+            "Tringbox is a pioneer in the AI music industry",
+            "The funding will help Tringbox to enhance its technology and expand its user base",
+            "Source: ETHRWorld.com, 19 Jun 2026"
+          ]
+        }
+      },
+      "caption": "AI music startup Tringbox has raised Rs 5 crore in seed funding. The use of AI in music is becoming increasingly popular. What are the potential applications of AI in the music industry? How can Tringbox leverage its AI technology to revolutionize the music industry? #AIMusic #Tringbox #SeedFunding #MusicIndustry #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ2NnTWFsUmpCQzdzelFRZ2YzMlVnV3E2T0Y4WmpieW9sem1rbnlqMXJjZ0VrZC1QN3prcnpaLTk2Yk1KWHNCRmQyQ0prU1JXcmVwcmVKODEwM2IzOWtNZTVra2FEMm1wVlRlT3ZCc1VoT1BZWTg1ZFVFdElxcV9aS3dCOWxLQUFtVzcxdGVjV3FhX3h1QTBRQlExNzVJcFVKbmNaaWdKWGM0ZTZDT29CSTcxTFNNSEFiczZKQWZhdTc?oc=5",
+      "sourceName": "ETHRWorld.com",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "19 Jun 2026"
     }
   ]
 }

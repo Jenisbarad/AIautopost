@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-22",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Regulation is a Mess",
+          "subtitle": "Understanding the Current State of AI Regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 21 Jun 2026",
+            "Anthropic is caught in the crosshairs of AI regulation",
+            "The current regulatory framework is unclear and inconsistent",
+            "This affects the development and deployment of AI models",
+            "With 1,000 Claude Corps Fellowships, the issue is more pressing than ever"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Clear regulation is necessary for the safe development of AI",
+            "The lack of regulation can lead to unintended consequences",
+            "Anthropic's situation highlights the need for urgent action",
+            "Source: CNN, 21 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The current state of AI regulation is a mess, and Anthropic is caught in the crosshairs. With the launch of 1,000 Claude Corps Fellowships, the issue is more pressing than ever. What are the implications of unclear AI regulation? How can we ensure the safe development of AI? #AIRegulation #Anthropic #ClaudeCorps #ArtificialIntelligence #TechNews #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1neXNmOTd6N0V5LVlxS0pFVnVUVHpEMzNXSE5aSkE0aWJCMDc1N3BuVXFRX091UWFWR2MzVEw0MW5aQzh5TjRPTVYwVjQtUHYzT2RTLW1kRi11am80cHFfTGREZUtwdEw3RlBR?oc=5",
+      "sourceName": "CNN",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "21 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Cybersecurity",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "CyberSentinel AI: A New Era in Cybersecurity",
+          "subtitle": "Using AI to Protect Against Cyber Threats"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Jun 2026",
+            "CyberSentinel AI uses 33 security tools, including Nmap, SQLMap, and ZAP",
+            "The AI-powered system utilizes Claude and GPT for enhanced protection",
+            "This comprehensive approach can detect and prevent 95% of cyber attacks",
+            "With the increasing number of cyber threats, CyberSentinel AI is a game-changer"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Cybersecurity is a growing concern for individuals and organizations",
+            "AI-powered systems like CyberSentinel AI are the future of cybersecurity",
+            "The use of 33 security tools and AI models like Claude and GPT makes CyberSentinel AI a robust solution",
+            "Source: CyberSecurityNews, 20 Jun 2026"
+          ]
+        }
+      },
+      "caption": "CyberSentinel AI is revolutionizing the cybersecurity landscape with its AI-powered system and 33 security tools. How can AI-powered systems like CyberSentinel AI protect us against cyber threats? What are the implications of using AI in cybersecurity? #CyberSecurity #AI #CyberSentinelAI #Innovation #TechNews #CyberThreats",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zNHkyVG9oNWY5V2ZWSndqaXVWSnJWXzVuSmNiRDMwUVJJNmMwTC1UaURVYmZYYjBUTTZoTmJMLXNPd00tSlBEeW8temFmck4yZndJOEhiQ284M2xzY1ktMVRieEZEMTNlWTlIbF9yNzNtOXEwU2Fzb2ZR0gF_QVVfeXFMTlRQUmVmYzRqcWNpTnZ2dENuTk1CN0prTThCeElpUzRtUXJPeDNQejBpRFpvY1Z4MFZucUh6M3FFc2o4SEJ5c1BqZkNBYlZldVpCNkdUU2tja1B6Y0hMTGtIc0dxWDlYcHNIS3FST1plRFRMTUxNUm9YZ3NKanR4RQ?oc=5",
+      "sourceName": "CyberSecurityNews",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "20 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding and Acquisition",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Cements $60 Billion Cursor Takeover",
+          "subtitle": "A New Era for SpaceX and Cursor"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Jun 2026",
+            "SpaceX has acquired Cursor in a $60 billion all-stock deal",
+            "This acquisition is a significant move for SpaceX post-IPO",
+            "The deal values Cursor at $60 billion, with SpaceX's valuation at $1.77 trillion",
+            "This acquisition is one of the largest in the tech industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition of Cursor by SpaceX is a strategic move",
+            "It highlights the growing importance of AI and technology in the space industry",
+            "The deal also demonstrates SpaceX's commitment to expanding its capabilities",
+            "With a valuation of $1.77 trillion, SpaceX is poised for further growth"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition of Cursor by SpaceX is a significant development in the tech industry",
+            "It highlights the growing trend of large-scale acquisitions in the space and AI sectors",
+            "The deal is expected to have a major impact on the future of space exploration and AI development",
+            "Source: Bloomberg.com, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX has acquired Cursor in a $60 billion all-stock deal, marking a significant move for the company post-IPO. What are the implications of this acquisition for SpaceX and the tech industry? How will this deal impact the future of space exploration and AI development? #SpaceX #Cursor #Acquisition #TechNews #Innovation #SpaceExploration",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFdfV3NrWVVnMnFzaWFoZi1LRk1PMFZEWkIydXdOVThsMXFjeGdzREJ2MkMyUWd3Tlo2TVU2ci1aakF2RS1BdGQxQ0xUZk9yWjNZTXFkSU52UnFjVFoxOGhCQkVEeDhxQ0d0aUxZS3pkNEo5aTdwWk1scWJjcWsyNFJmV3ZKTkplTFRUSW1VZ3dVaWxWMEJZelowRzB4SlNXQ0VwblYteFhzaDZzN08zdUh3?oc=5",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "16 Jun 2026"
+    }
+  ]
+}

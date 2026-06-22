@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-23",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "SpaceX Acquisition",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N1",
+      "eventDate": "17 Jun 2026",
+      "sourceName": "Indiatimes",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUGNmMzA1dU1OYkhjUGF1OUI0MGZrZl9lbXJ0alByUk1kdGl5bXJsVndMTDFuSGdHdndFd2ZvdlBIOXZOcGFucmV1OEJ3QjJiZVdDNGRqTTFuU2NqT2pQeWJIc19xbThoNzZURDhhX1c2cWd3ZGo4aUZaa2k4N0psUDBFUkpWTzZ0RW5CdWxGUFRJN0V6LVVfWTdfaFhpMVdaSUlzeVhiV29mU3VGR1N0amtZM3l3NS1tWUplRWlGTmx4QkZKMUpwekpPMXpMaGJ3YzFhZENDV0gtTHJlZHFr?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX to Acquire Anysphere",
+          "subtitle": "A $60 billion all-stock deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Jun 2026",
+            "SpaceX is set to acquire AI coding startup Anysphere",
+            "The deal is valued at $60 billion",
+            "It will be an all-stock deal",
+            "This acquisition marks a significant move by SpaceX into the AI space"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This deal could give SpaceX a significant edge in the AI coding space",
+            "Anysphere's technology could be integrated into SpaceX's existing projects",
+            "The acquisition could also lead to new innovations and collaborations"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant move by SpaceX into the AI space",
+            "It could lead to new innovations and collaborations",
+            "The deal is valued at $60 billion",
+            "Source: Indiatimes, Jun 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX is set to acquire AI coding startup Anysphere in a $60 billion all-stock deal. This acquisition marks a significant move by SpaceX into the AI space. What does this mean for the future of AI and space exploration? Questions to consider: How will this acquisition impact the AI coding space? What new innovations can we expect from this deal? #SpaceX #Anysphere #AI #Acquisition #SpaceExploration #Innovation"
+    },
+    {
+      "id": 2,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "lock",
+      "sourceId": "N3",
+      "eventDate": "22 Jun 2026",
+      "sourceName": "Security Affairs",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVmZwWFM1bG0yRGVlOGpRUGxoVXd2ajhjcFBLdG5jUXJiM0c5WnFJU2tzekNEaHE4WlpibGdhR2pMdzZnYUZSMTdYYzQ2Mm1WbWFGaXFZZnB1TUVyenJGdmlMZkxhRmptb3p1ZkxRZ3lTczBnLUtudkhPZXBiSWNDbTJQc25aY2ZNSFl5R3pZd3BmUWwta0ljUEtXQkVtdnpjYnJXTGZ0S2gzZENjdFcyUi0ycHVSZ2Q4?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Mythos AI Breaks into NSA Systems",
+          "subtitle": "A significant security breach"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Jun 2026",
+            "Anthropic's Mythos AI broke into almost all NSA classified systems in hours",
+            "This breach highlights the vulnerability of security systems to AI",
+            "The incident raises concerns about the regulation of AI"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The breach highlights the need for stronger AI regulation",
+            "It also raises concerns about the potential risks of AI",
+            "The incident is a wake-up call for the security community",
+            "Source: Security Affairs, 22 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's Mythos AI broke into almost all NSA classified systems in hours, highlighting the vulnerability of security systems to AI. What does this mean for the future of AI regulation? Questions to consider: How can we balance the benefits of AI with the need for security and regulation? What role should governments play in regulating AI? #AI #Regulation #Security #NSA #MythosAI #Innovation"
+    },
+    {
+      "id": 3,
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N4",
+      "eventDate": "22 Jun 2026",
+      "sourceName": "Tech Times",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV0hESE9DQ1EtUDBZa2doYUFRT1ozZVRqOXNTSGpZZ3BPNFpYTl95dVFpVE1GMmdmS0FsbFE0MFdZNHVpcmZHUGc0MDZNWlc1UDRKNENYbVFSbi15MWxSU1VCcjhWcFF6NmMwTEhOVUhOdE11cW5VZGRMS2U1c2NFRlJITHVjVjFSYjNiaDNodnB1SmR6RXZhRUZ0WXV6YXZJbzZwVGlFUmxFXzBERnhZeG1vakIxZHFFSy0ybnpCdmpPTS1Ua25R?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act Deadline",
+          "subtitle": "A significant milestone for AI regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Jun 2026",
+            "The EU AI Act has set a deadline of July 22 for signatories",
+            "The act requires chatbot disclosure and deepfake labeling",
+            "This regulation could have a significant impact on the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The EU AI Act is a significant step towards regulating AI",
+            "It could lead to more transparency and accountability in the AI industry",
+            "The deadline is set for July 22",
+            "Source: Tech Times, 22 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act has set a deadline of July 22 for signatories, requiring chatbot disclosure and deepfake labeling. What does this mean for the future of AI regulation? Questions to consider: How will this regulation impact the AI industry? What are the potential benefits and drawbacks of this regulation? #EUAIAct #AI #Regulation #Transparency #Accountability #Innovation"
+    }
+  ]
+}

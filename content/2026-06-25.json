@@ -1,0 +1,129 @@
+{
+  "date": "2026-06-25",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Chip Revolution",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "eventDate": "24 Jun 2026",
+      "sourceName": "Anadolu Ajansı",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbmhxdVo5eFFxc3NYVW9pR1ZKU2hvTXhweE1MYWhXOGxDMGJYVjJrZy1QYmRZb2ZXWVV5Tzk5cGhBOWJuRnQ2MTZhdnQ0MlRFUS1la3dwVmxrSEF3dGdGWkctQUlrOU5VUldjUU5fcGxTeVpyT0x4QWdjWjNLZVlTWnJ5azlhY2xhUE9UMFM5VHhKem5FNzUyRDdPNGVhdzBNSUtVY2dIWGs5REZ4MEE?oc=5",
+      "caption": "OpenAI's custom AI chip is a game-changer for the tech industry. With its partnership with Broadcom, OpenAI aims to revolutionize AI computing. But what does this mean for the future of AI? ",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Unveils Custom AI Chip",
+          "subtitle": "Partnership with Broadcom"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 24 Jun 2026",
+            "OpenAI launched its first in-house AI chip in partnership with Broadcom.",
+            "The custom AI chip is designed to improve AI processing efficiency.",
+            "This development marks a significant milestone in OpenAI's hardware efforts.",
+            "The partnership aims to enhance AI capabilities with customized chip design."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Custom AI chips can significantly enhance AI model performance.",
+            "This innovation can lead to improved efficiency and reduced costs for AI computing.",
+            "The development of custom AI chips is a growing trend in the tech industry.",
+            "It has the potential to impact various sectors, including healthcare, finance, and education."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The use of custom AI chips can increase AI adoption across industries.",
+            "This trend may lead to increased competition among chip manufacturers.",
+            "As AI continues to evolve, custom chip design will play a crucial role.",
+            "Source: Anadolu Ajansı, Jun 2026"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Concerns",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N13",
+      "eventDate": "24 Jun 2026",
+      "sourceName": "Check Point Blog",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOa0JSMFVGVXJCY1REc2lENnpJLUhXOGtJbUlCWHgxcUxKdmMtWFgxRTN3Z3VWUE1VblVfSTdicnNyY29xNVlGQjNhQ1EzTVRDTzVmZ2V6Xzc4MV9sTERpTlZpRnRPSnhoUjhRdUVJRU9VOGhwbEozLTZLVWdGSkVwWDgwN1l6anBHMWxXTmNkc1hXazhRbEFHQmxCa0c1S0RBMVFkd2p6ejdPVVlRcTVkMHRBcmc5OVM5cThxMUliNEh5aU1sRkFDX2E3Sk15eTU3VFZEWlBqUGV4UjFDcjZSMDZfRVo3eDFDR2c0SnlKX0w1YlRLNENjel9CcUhIdFJ1?oc=5",
+      "caption": "The 2026 Cloud Security Report reveals a significant gap between traditional security architecture and AI transformation. As AI continues to advance, cloud security must catch up to address potential risks. ",
+      "slideContent": {
+        "slide1": {
+          "headline": "Traditional Security Architecture Lagging Behind AI",
+          "subtitle": "2026 Cloud Security Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "The 2026 Cloud Security Report highlights the gap between traditional security architecture and AI transformation.",
+            "The report emphasizes the need for cloud security to catch up with AI advancements.",
+            "In 2026, 75% of organizations are expected to adopt cloud-based security solutions.",
+            "The report warns of potential security risks if traditional architecture is not adapted to AI."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The report stresses the importance of adapting traditional security architecture to AI.",
+            "Cloud security must evolve to address AI-related risks.",
+            "Organizations must prioritize cloud security to ensure AI adoption is secure.",
+            "Source: Check Point Blog, 24 Jun 2026"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Funding Alert",
+      "slides": 3,
+      "svgIcon": "database",
+      "sourceId": "N12",
+      "eventDate": "25 Jun 2026",
+      "sourceName": "India Today",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM2FwUlY3RzUyOVlhTUlyRElTNFEzdVM0UVE1Vlc4TDcyT3p4a3Jpb0lMN2ZPOHhBTnJucTVUWUxqUE4xa2ZwbnJNQWMtTjBvbFplaEpES2FRdFU3XzMxRDhKWHZHSE9SelBuZmRXVFdIUWVNc3NpRDkwbk9wTXVENDJQUnpQM1JPVFBVZmwwbjRoN0Z0ZmVTaGsyZk9JbFRTZ0gzU1lJVmY3bDAtN1RFQ0lwZEUzUXZqNWJDQ2JrZWtndjVaMjVhY2d4aGdGeDloUHVDUG03RHFsdnQwUDlLNWhQa2Y4UzVNaTBEaG5B0gHzAUFVX3lxTE43aVBJSk44YkRwbUtjaGRSUlc3QXN3eUhKMjI0MHBWSnV0QThDU09SYWJ6bW1QUGs2ZGI5U2gxVUx3Q3NLUURPRjdxaC1URHZDYXJyRVNWVk4xeWFxWWlKdzZ6eHUtTU01Ui1ZMTlhNEl0U0E5eUJNd3NzMUo2MUJCS1ZpREhMS3VrS2ZKUXJBQVVIdlgzZi1PRWpTRzRRVm16ZFFlX2RzNjlrcXVXYTB4X2Y4d29La1FOVnU1OURRSjdyMTJHRDkxU2xnRERfa21FcVl2OENiZndVVC0zT1V0d0RUQ3FKZzVuV0N3Q3FpcXNLcw?oc=5",
+      "caption": "Vishal Sikka's new AI startup Hang Ten Systems has secured $32 million in funding. The startup aims to provide AI services to various industries, and the funding will be used to develop innovative AI solutions. ",
+      "slideContent": {
+        "slide1": {
+          "headline": "Vishal Sikka Launches AI Startup Hang Ten Systems",
+          "subtitle": "Secures $32 Million in Funding"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 Jun 2026",
+            "Vishal Sikka, former Infosys CEO, launched AI startup Hang Ten Systems.",
+            "The startup secured $32 million in funding.",
+            "Hang Ten Systems aims to provide AI services to various industries.",
+            "The funding will be used to develop AI solutions and expand the team."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will help Hang Ten Systems develop innovative AI solutions.",
+            "The startup's focus on AI services has the potential to disrupt various industries.",
+            "Vishal Sikka's experience in the tech industry will be valuable in leading the startup.",
+            "Source: India Today, 25 Jun 2026"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -8,120 +8,111 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
-      "slides": 4,
+      "topic": "AI Model Training",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N13",
-      "eventDate": "26 Jun 2026",
-      "sourceName": "The Economic Times",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbGd6TU0tSU1iaWJMUS01UDNwUHFaMTZ1Tmh3TVZJdWJqNlk0bDRiVElVMDhvaGRWNjZEZ1V6QlBYeHRIeFFrNGFET1VFa2h6Mlc4TkZnaFlHNExNNWNCc1c1Z1RlZnU2aWo0V1NzNVg3UTJ5Y2hod1c3M18xWUdDa0I5VFJTLV83RmJmUmVld0pfUm1RLVpQOU0zeUVYRXA4NW1vUUlNNDdIdUZBWWZ3WndqRzF3aFRrcVFkYWw5R1NWQVRXTkwtQURVcklHU3VBUG9ZTURjcnEzdlQtSHF0Rm5nUGhRYWhOLWVmZG5ydzk2eFE3a2fSAfsBQVVfeXFMUHhHOGlYMG9DU0puM2VWOWVUb1d0aVYtLWtfdGozQ0xJZXZjWnFKQnZBN1Z6MVNLZDJqbm9KVXFubWcwSFdHSVFNU0tJLTlqc3F6MDNMX0REYjQtWVdlRy1HNXpNcy1tY09EcFEyMC1MQktRTWhlNDQ4TGRiU1BDeWMyem84NDhwcGd0Z0ZaYmdsRWxfWjJXbmo1Nkx4TnlxQm5meUIzd3k0aXF6UnpTTC0wc3FFeTFuY3NLZGVIbGwxamUtSS1wdWluMGJPWWxXS0VLSFdUZ29uQkVHb2tnZDhRUlhlX3BBUi1iY1Z5YnBKV0E4b1NkbFEtTjA?oc=5",
-      "caption": "AI startup General Intuition has raised $320 million in funding from top investors. What does this mean for the future of AI technology? How will General Intuition use the funds to expand its services? #AI #Funding #Startup #Innovation #Technology #GeneralIntuition",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "AI Startup Raises $320 Million",
-          "subtitle": "General Intuition Secures Funding from Top Investors"
+          "headline": "EXL to Acquire iMerit",
+          "subtitle": "A $310 million deal"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "AI startup General Intuition raised $320 million from Khosla Ventures, General Catalyst, and Jeff Bezos.",
-            "The funding round was announced on 26 Jun 2026.",
-            "General Intuition plans to use the funds to expand its AI services.",
-            "The company has not disclosed its valuation."
+            "Event date: 25 Jun 2026",
+            "EXL is acquiring AI model training firm iMerit",
+            "The deal is worth $310 million",
+            "iMerit provides AI model training services to various industries"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding round is one of the largest for an AI startup in recent months.",
-            "It highlights the growing interest in AI technology from top investors.",
-            "General Intuition's AI services have the potential to disrupt various industries."
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "General Intuition's funding round is a significant milestone for the AI industry.",
-            "The company's AI services have the potential to drive innovation and growth.",
-            "The funding round is a testament to the growing demand for AI technology.",
-            "Source: The Economic Times, Jun 2026"
+            "This acquisition will help EXL expand its AI capabilities",
+            "iMerit's expertise will enable EXL to provide better AI services to its clients",
+            "The deal is expected to be completed soon",
+            "Source: Indiatimes, 25 Jun 2026"
           ]
         }
-      }
+      },
+      "caption": "EXL is acquiring iMerit, an AI model training firm, for $310 million. This deal will help EXL expand its AI capabilities and provide better services to its clients. What does this mean for the future of AI in the industry? How will this acquisition impact the market? #AI #MachineLearning #ModelTraining #Acquisition #EXL #iMerit",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQVpqbTRTX0FuWG41OGJ4M3M3cTVFeVE1MUxGenVNVUR1LWM5clA3bHRPRkFBTGtmQU9sbl9RaTRaRmxpQTJrNU5Ea0x3ak9VMzFYUUxYMzJZdFhqa1EydTlCVURSck1aYUNsQWFYTURrTThRVXZJOWVYbU5kTU8zSHZQYjFxb1dQMUthSkxTMDNVSS1lVVdjMndFS09BaVZrTFdhQWhBUXRQdHpFV0RfMU43TTgwWFJIQ1RGVm1mWFJfc1M1aTB2X3UzaXNLbTF3NDZFQkxDWl9BTk1felRzWHdMT3ZjeG5WQW9tZzctRdIB9AFBVV95cUxPNFRMaUVyem01X3F5Y0F0cm1WWmhoWEd3c2RLV1c0YWdsWHJaZHgtckQ4b01DUkhHNnZnc3BXZHZ6RERUT2ZDTExQMWwxeHpMSTFScmYzTkdFelFqMGRsT2E4LVN0S2lHT3FpOEdObjhTUGwtQm5uSElhTlJSWjFEVE5yV2RBSHdwZ25jR0JEZm1KRG5UVnQwUGdYVEpIbWp0ZWthNWhiTzQ3clhIMEE3cG5hN2kycDZYRkprWk5mNzFGbVBDbGFhYUpsQm5WV1ZoM0o5eWtNaFEybVlSZHdlZWQ2d1BJaEN2XzhsLW5qY0s4eUp1?oc=5",
+      "sourceName": "Indiatimes",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "25 Jun 2026"
     },
     {
       "id": 2,
-      "topic": "AI Chip Development",
-      "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N2",
-      "eventDate": "24 Jun 2026",
-      "sourceName": "Fortune India",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcXhEOFJoYVl6ck5RQVJWVktySllKbjJ4Y1pMQzd3dzE4ZFdiYmlvUVkyUHgzNGJGMXFhZFNsOTVPVkxSTzZNYkpHRmV0QUdWTWFqZ01VX3g3cW5WRmRWc19nR01XUGwzaWdKVm9yczNoVGZ5S2dFSG05R0hGbWY0aFIxeHVSTURDTDJJU0xKZVZZOE54bzJuWldHN0YwRUdmYVZqMjhPbE9mNUpOeS1yX3dmeGhCU2RycjZURVMyS3ltc0cxVE5nZ19WTW1jZVcyZURLZ3pRQWktVlVQUXhwTkhGZWRNOFdzdE9tS040NnkxM2tzMlFfYdIBhgJBVV95cUxOZGdNQ3BDTl9tS3V1bGhSbC0wZjA4QklCZTZVcWJYWnE1ajAtbWZOZURyNXUzTVVhcHRFZ1EtNGZ6d1dXNFBQSk8tVndJWE9PUTVZRWk1RWtWYURBX09tZVcyOUxQZjJNd09MMDRIUkJ6MmlxbXR5S2xNTk40YmNfOXBjUHNuNTdMaWNITTFQd1NBWTljN21ZbjRhVXBjUjFnRWNNNXVWYmpyb3FITmRpUVVqdjF2SFExaUJvSVZGYTlaTTZWZWxsYm16dGRyN2d2MXpTNk1BcXRNODM3QkZYQ1dOR2VCeU9fZnBUa0h6djRvUXJzM3NuUWxOcHVfWFdUQW5LV0ln?oc=5",
-      "caption": "OpenAI and Broadcom have unveiled a custom AI inference chip with a target deployment date of end-2026. What are the potential applications of this chip? How will it impact the AI industry? #AI #Chip #OpenAI #Broadcom #Innovation #Technology",
-      "slideContent": {
-        "slide1": {
-          "headline": "OpenAI and Broadcom Unveil Custom AI Inference Chip",
-          "subtitle": "Target Deployment by End-2026"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "OpenAI and Broadcom unveiled a custom AI inference chip on 24 Jun 2026.",
-            "The chip was developed in a nine-month cycle.",
-            "The companies plan to deploy the chip by the end of 2026.",
-            "The chip has the potential to improve AI performance and efficiency."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The development of the custom AI inference chip is a significant milestone for OpenAI and Broadcom.",
-            "The chip has the potential to drive innovation and growth in the AI industry.",
-            "The deployment of the chip by the end of 2026 is a testament to the companies' commitment to AI technology.",
-            "Source: Fortune India, 24 Jun 2026"
-          ]
-        }
-      }
-    },
-    {
-      "id": 3,
       "topic": "AI Regulation",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N10",
-      "eventDate": "26 Jun 2026",
-      "sourceName": "The Register",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzFQbFpxajBmMUotbm84bWlyNU8yZkRhRUVtYk84NEdwTE5vbHo0bkV0MnVicXZsODRKZjhWbk51bjNUVU1PeGo1UDNUN1ExMmhqVWhjOFN3aks1VGpEQTBId3RtQXVaTzRLTEhTemlCMVJOT2QwUmlqY0NuYmM2akQtLVgtSG85UXduT2hES016X3lXQjdVVE1IWXAyOHVEcXR0R1pHMA?oc=5",
-      "caption": "Google has called for AI regulation on its own terms. What are the potential implications of this approach? How will it impact the AI industry? #AI #Regulation #Google #Innovation #Technology #Ethics",
+      "sourceId": "N4",
       "slideContent": {
         "slide1": {
-          "headline": "Google Wants AI Regulation on Its Own Terms",
-          "subtitle": "Company Calls for Balanced Approach to AI Regulation"
+          "headline": "Google Wants AI Regulation",
+          "subtitle": "But on its own terms"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 26 Jun 2026",
-            "Google has called for AI regulation on its own terms.",
-            "The company wants a balanced approach to AI regulation.",
-            "Google believes that over-regulation could stifle innovation in the AI industry.",
-            "The company has proposed a framework for AI regulation."
+            "Google is calling for AI regulation",
+            "The company wants regulation to be done on its own terms",
+            "This move is seen as an attempt to avoid stricter regulations"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Google's call for AI regulation on its own terms highlights the need for a balanced approach.",
-            "The company's proposed framework for AI regulation could drive innovation and growth in the industry.",
-            "The regulation of AI technology is a complex issue that requires careful consideration.",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Regulation of AI is a complex issue",
+            "Google's stance on regulation may impact the development of AI",
+            "The company's approach to regulation may influence other tech giants",
             "Source: The Register, 26 Jun 2026"
           ]
         }
-      }
+      },
+      "caption": "Google is calling for AI regulation, but on its own terms. What does this mean for the future of AI development? How will Google's stance on regulation impact the industry? Will other tech giants follow Google's lead? #AI #Regulation #Google #TechGiants #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzFQbFpxajBmMUotbm84bWlyNU8yZkRhRUVtYk84NEdwTE5vbHo0bkV0MnVicXZsODRKZjhWbk51bjNUVU1PeGo1UDNUN1ExMmhqVWhjOFN3aks1VGpEQTBId3RtQXVaTzRLTEhTemlCMVJOT2QwUmlqY0NuYmM2akQtLVgtSG85UXduT2hES016X3lXQjdVVE1IWXAyOHVEcXR0R1pHMA?oc=5",
+      "sourceName": "The Register",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "26 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Inference Chip",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI and Broadcom Unveil AI Inference Chip",
+          "subtitle": "A custom chip for AI applications"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 24 Jun 2026",
+            "OpenAI and Broadcom have unveiled a custom AI inference chip",
+            "The chip is designed for AI applications",
+            "The development cycle took 9 months"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This chip will enable faster and more efficient AI processing",
+            "The chip is expected to be deployed by the end of 2026",
+            "This development may impact the AI industry",
+            "Source: Fortune India, 24 Jun 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI and Broadcom have unveiled a custom AI inference chip. What does this mean for the future of AI processing? How will this chip impact the industry? Will this development lead to more efficient AI applications? #AI #InferenceChip #OpenAI #Broadcom #Innovation #Tech",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcXhEOFJoYVl6ck5RQVJWVktySllKbjJ4Y1pMQzd3dzE4ZFdiYmlvUVkyUHgzNGJGMXFhZFNsOTVPVkxSTzZNYkpHRmV0QUdWTWFqZ01VX3g3cW5WRmRWc19nR01XUGwzaWdKVm9yczNoVGZ5S2dFSG05R0hGbWY0aFIxeHVSTURDTDJJU0xKZVZZOE54bzJuWldHN0YwRUdmYVZqMjhPbE9mNUpOeS1yX3dmeGhCU2RycjZURVMyS3ltc0cxVE5nZ19WTW1jZVcyZURLZ3pRQWktVlVQUXhwTkhGZWRNOFdzdE9tS040NnkxM2tzMlFfYdIBhgJBVV95cUxOZGdNQ3BDTl9tS3V1bGhSbC0wZjA4QklCZTZVcWJYWnE1ajAtbWZOZURyNXUzTVVhcHRFZ1EtNGZ6d1dXNFBQSk8tVndJWE9PUTVZRWk1RWtWYURBX09tZVcyOUxQZjJNd09MMDRIUkJ6MmlxbXR5S2xNTk40YmNfOXBjUHNuNTdMaWNITTFQd1NBWTljN21ZbjRhVXBjUjFnRWNNNXVWYmpyb3FITmRpUVVqdjF2SFExaUJvSVZGYTlaTTZWZWxsYm16dGRyN2d2MXpTNk1BcXRNODM3QkZYQ1dOR2VCeU9fZnBUa0h6djRvUXJzM3NuUWxOcHVfWFdUQW5LV0ln?oc=5",
+      "sourceName": "Fortune India",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "24 Jun 2026"
     }
   ]
 }

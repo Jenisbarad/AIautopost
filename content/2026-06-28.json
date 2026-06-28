@@ -12,119 +12,131 @@
       "slides": 4,
       "svgIcon": "chip",
       "sourceId": "N1",
-      "eventDate": "26 Jun 2026",
-      "sourceName": "AIM Media House",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGp6VndqYVowOHZzdWxyZFNnYXJwMklhRm96X1M0dUVZLUtVT1JXUjJ0c1BZU05YRk4tY01FcnI0LUdCV0dJQ1NTTEdUYm9HTGx6REF0b1N0dk9KYmFfUnFqYmh2VjN6dUVRUk5aYl9GZjhLYnpNSlNRbVJPOWVlMmhqYmJDTVQtVUZ5RHFDOUVfZVZrcnFZcUV3eEJLNi10U09paVB4SEh0Q1F6ellFYjgtTDgzUQ?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "onsemi to Acquire Synaptics",
-          "subtitle": "Expanding Physical AI Push"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 26 Jun 2026",
-            "onsemi to acquire Synaptics in a $7 billion deal",
-            "Expanding physical AI push",
-            "Deal to enhance onsemi's AI capabilities",
-            "Synaptics to become a subsidiary of onsemi"
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "The acquisition will enhance onsemi's AI capabilities",
-            "Expand its reach in the physical AI market",
-            "Increase competition in the AI industry",
-            "Impact the future of AI development"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition is a significant move in the AI industry",
-            "onsemi's expansion into physical AI will increase competition",
-            "The deal is valued at $7 billion",
-            "Source: AIM Media House, Jun 2026"
-          ]
-        }
-      },
-      "caption": "onsemi is set to acquire Synaptics in a $7 billion deal, expanding its physical AI push. This acquisition will enhance onsemi's AI capabilities and increase competition in the industry. What does this mean for the future of AI development? How will this acquisition impact the market? What are the potential benefits and drawbacks of this deal? #AI #Acquisition #onsemi #Synaptics #PhysicalAI #TechNews"
-    },
-    {
-      "id": 2,
-      "topic": "AI Rental Prices",
-      "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N2",
       "eventDate": "27 Jun 2026",
-      "sourceName": "Kavout | AI",
+      "sourceName": "Indiatimes",
       "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTm5XWHJldzZUZERRU1E1dHRFTVdaNjF4b2d5VGdkeTlROHBoUGpWQWNCU2Z6cmFqRGJLdGkwMy1NYnh3cHdIbmRmbVUteDNvYnFFcy1FcjVUT0lDMzhGMDAycFI0VFJ4S0VxX2FxWVUtWDgyUTVWc0VQZVRoTTZJRDBuUVZ0dkdrdlZxeFd1SQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYXdrb09CQU5NOTFra1BxQ2l3eVFRN2hwcXdmRVV4NHFQcWNJRDFyZkpBUXMyNlVKSHgyMVRud1hZdUxiS25MZ3Fwc1ZzR1VndUxXcW9QZnhmbDlxdTEtV3U0WHd3MEt6TnA4M0FoR2U2VmRrZzNYN0NaZnUtSmM1VV8zaHJxam9OUExmSXNKSU0zMkFRRWpvZENua2sxQ0xsY1RaTHhOLXNXRzBsWWtTc2NyUDZnUXBXdm5QQTBBZ0lkLVlsdWdHQXJsZ252YkFDUllPR2ZQQ0VfQUlF0gHiAUFVX3lxTE0tTG9ZWjVwLW9sdjZRd3JSbnZWNjVNaFJ1WmxGN3FNcWxKXzBlbXBIdjZoSDB1aHhZUXJsbzFjWkhLTTZSRi1nT045dG9yX0dPa1htZ18wSHFjN3NnQnJVNUQ2Wmo0VHNvbVJhSmx4YVVWYjBaODRZWE14SW1mLVRRdS1hY281cUNYNVl1MjNtTi1NZ1RhWmFqVWhuVDdLOTRVdjhwWnhFU3F5R2g2SG5QTDRkZE85dlJHTWpLNHlTYzBleTFrS3ozNEtLS3FibUxYZkxDWnRTd3VUTzN5Q1ZseVE?oc=5",
+      "caption": "The AI acquisition landscape is heating up. Persistent Systems is acquiring Nagarro in a €1.1 billion deal, creating a USD 2.9 billion AI-led digital engineering giant. What does this mean for the industry? How will this acquisition impact the market? Will we see more acquisitions in the future? #AI #Acquisition #DigitalEngineering #Innovation #Technology #Business",
+      "questions": "What are the implications of this acquisition for the AI market? How will it affect the competition?",
       "slideContent": {
         "slide1": {
-          "headline": "NVIDIA H100 GPU Rental Prices Surging",
-          "subtitle": "40% Increase in Rental Prices"
+          "headline": "Big Move in AI",
+          "subtitle": "Acquisition news"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 27 Jun 2026",
-            "NVIDIA H100 GPU rental prices are surging by 40%",
-            "The increase is due to high demand for AI computing power",
-            "Rental prices are expected to continue rising",
-            "The surge is affecting businesses and individuals alike"
+            "Persistent Systems to acquire Nagarro",
+            "Deal worth €1.1 billion",
+            "Creating a USD 2.9 billion AI-led digital engineering giant",
+            "Expanding capabilities in AI-led digital engineering"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Expands Persistent Systems' presence in the AI market",
+            "Enhances capabilities in digital engineering",
+            "Increases competition in the AI-led digital engineering space",
+            "Potential for increased innovation"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The 40% surge in rental prices is significant",
-            "High demand for AI computing power is driving the increase",
-            "The impact on businesses and individuals will be substantial",
-            "Source: Kavout, 27 Jun 2026"
+            "The acquisition is a significant move in the AI market",
+            "It highlights the growing importance of AI in digital engineering",
+            "The deal is expected to have a major impact on the industry",
+            "Source: Indiatimes, Jun 2026"
           ]
         }
-      },
-      "caption": "NVIDIA H100 GPU rental prices are surging by 40% due to high demand for AI computing power. What are the implications of this surge for businesses and individuals? How will this impact the development of AI technologies? What are the potential solutions to mitigate the effects of this surge? #AI #NVIDIA #GPURental #TechNews #AISurge"
+      }
     },
     {
-      "id": 3,
+      "id": 2,
       "topic": "AI Regulation",
       "slides": 3,
       "svgIcon": "globe",
-      "sourceId": "N7",
+      "sourceId": "N4",
       "eventDate": "26 Jun 2026",
       "sourceName": "Deccan Chronicle",
       "sourceMonthYear": "Jun 2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekE4MW9aakR6V1F3RjJjU0hDV2RQcm4xeVZLZGN1OHlrOFFNZXd1Qkg0d2pvZWVuV1RHZ0hlOEY3TkhTNU9XeEd5amxJMmRpVXVSeVRYWXRRaW1MZXlfMzVCNW5OUENwdS04OVlNamE1emkwV0dUZnhqcThYVkFYczNLSmtpaEExSFJxLUlQVkdTakMxTkhEQmp0eXVEQk5zVktJRjFXRC1XblMxeW0xRmJnVDhVNmwtREJ2ZVA4WdIBxAFBVV95cUxQcTlLTnFLd1BuQ1RUSnI2ZUZ2RzJQQmxMOS1CUFhDQkhBWHdWVFpsWjlnaERJRmtjblYyVjdfc2pFTUFFbl9HdjJMRHVScDFNRDNCajNCSUhYZ0ZHVm1QSl9ITlVZZ2Z0NDIwa0JFYUhQZkV5RlI5MGRZNkFXZEktMHc4eExJaTdUZzNDcHVVd2JwVV9vaUlhV0ZuZ1QzRG41c1BQU2NKREdYMjlDbWh4WEJvSHJlNEJOTEM3VU1yNlJuQTZ5?oc=5",
+      "caption": "The US has assured India that AI access won't be cut off, backing innovation over regulation. What does this mean for the AI industry in India? How will this move impact the global AI landscape? What are the implications for international cooperation in AI development? #AI #Regulation #Innovation #InternationalCooperation #Technology #Business",
+      "questions": "What are the implications of this assurance for the AI industry in India? How will it affect the global AI landscape?",
       "slideContent": {
         "slide1": {
-          "headline": "US Assures India AI Access Won't Be Cut Off",
-          "subtitle": "Backing Innovation Over Regulation"
+          "headline": "US Assures India",
+          "subtitle": "AI access won't be cut off"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 26 Jun 2026",
             "The US has assured India that AI access won't be cut off",
-            "The US is backing innovation over regulation",
-            "The move is expected to promote AI development in India",
-            "The assurance is a significant development in US-India relations"
+            "The US backs innovation over regulation",
+            "This move is expected to boost the AI industry in India",
+            "It highlights the importance of international cooperation in AI development"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The US assurance is a significant development in US-India relations",
-            "Backing innovation over regulation will promote AI development",
-            "The move is expected to have a positive impact on the AI industry",
+            "The US assurance is a positive move for the AI industry in India",
+            "It highlights the importance of innovation in AI development",
+            "The move is expected to have a significant impact on the industry",
             "Source: Deccan Chronicle, 26 Jun 2026"
           ]
         }
-      },
-      "caption": "The US has assured India that AI access won't be cut off, backing innovation over regulation. What are the implications of this assurance for US-India relations? How will this impact the development of AI in India? What are the potential benefits and challenges of this move? #AI #USIndia #Innovation #Regulation #TechNews #AIAccess"
+      }
+    },
+    {
+      "id": 3,
+      "topic": "AI Chip Development",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N16",
+      "eventDate": "28 Jun 2026",
+      "sourceName": "Yahoo Finance UK",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGs4a2xUcmhaS1puU0trUnNpNmxzd2F4NF96V09MMmY4Y3hfeDJWakcxTG1DZjhGZzBubXJlN3l0Zlo1dHNRNTMwcDc4S19HN29sNWpKUDBBd1I2ZklZTlJpeEJvY1dPaHhMUk9kUGh0Sl9IdzVTVURiT254SFZIM0R3YU5PM3dZa05R?oc=5",
+      "caption": "Broadcom and OpenAI are launching a new AI chip, called Jalapeño, in nine months. What does this mean for the AI industry? How will this new chip impact the market? What are the implications for AI development and innovation? #AI #Chip #Innovation #Technology #Business",
+      "questions": "What are the implications of this new chip for the AI industry? How will it affect the market?",
+      "slideContent": {
+        "slide1": {
+          "headline": "New AI Chip",
+          "subtitle": "Broadcom and OpenAI collaborate"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 Jun 2026",
+            "Broadcom and OpenAI are launching a new AI chip",
+            "The chip, called Jalapeño, will be launched in nine months",
+            "It is expected to have a significant impact on the AI industry",
+            "The chip will be designed to handle complex AI workloads"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The new chip will enhance AI capabilities",
+            "It will increase competition in the AI chip market",
+            "The collaboration between Broadcom and OpenAI is a significant move in the industry",
+            "It highlights the growing importance of AI in technology"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The new chip is expected to have a significant impact on the AI industry",
+            "It will enhance AI capabilities and increase competition in the market",
+            "The collaboration between Broadcom and OpenAI is a positive move for the industry",
+            "Source: Yahoo Finance UK, Jun 2026"
+          ]
+        }
+      }
     }
   ]
 }

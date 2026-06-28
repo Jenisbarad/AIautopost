@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-28",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "eventDate": "26 Jun 2026",
+      "sourceName": "AIM Media House",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGp6VndqYVowOHZzdWxyZFNnYXJwMklhRm96X1M0dUVZLUtVT1JXUjJ0c1BZU05YRk4tY01FcnI0LUdCV0dJQ1NTTEdUYm9HTGx6REF0b1N0dk9KYmFfUnFqYmh2VjN6dUVRUk5aYl9GZjhLYnpNSlNRbVJPOWVlMmhqYmJDTVQtVUZ5RHFDOUVfZVZrcnFZcUV3eEJLNi10U09paVB4SEh0Q1F6ellFYjgtTDgzUQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "onsemi to Acquire Synaptics",
+          "subtitle": "Expanding Physical AI Push"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 26 Jun 2026",
+            "onsemi to acquire Synaptics in a $7 billion deal",
+            "Expanding physical AI push",
+            "Deal to enhance onsemi's AI capabilities",
+            "Synaptics to become a subsidiary of onsemi"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition will enhance onsemi's AI capabilities",
+            "Expand its reach in the physical AI market",
+            "Increase competition in the AI industry",
+            "Impact the future of AI development"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant move in the AI industry",
+            "onsemi's expansion into physical AI will increase competition",
+            "The deal is valued at $7 billion",
+            "Source: AIM Media House, Jun 2026"
+          ]
+        }
+      },
+      "caption": "onsemi is set to acquire Synaptics in a $7 billion deal, expanding its physical AI push. This acquisition will enhance onsemi's AI capabilities and increase competition in the industry. What does this mean for the future of AI development? How will this acquisition impact the market? What are the potential benefits and drawbacks of this deal? #AI #Acquisition #onsemi #Synaptics #PhysicalAI #TechNews"
+    },
+    {
+      "id": 2,
+      "topic": "AI Rental Prices",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "27 Jun 2026",
+      "sourceName": "Kavout | AI",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTm5XWHJldzZUZERRU1E1dHRFTVdaNjF4b2d5VGdkeTlROHBoUGpWQWNCU2Z6cmFqRGJLdGkwMy1NYnh3cHdIbmRmbVUteDNvYnFFcy1FcjVUT0lDMzhGMDAycFI0VFJ4S0VxX2FxWVUtWDgyUTVWc0VQZVRoTTZJRDBuUVZ0dkdrdlZxeFd1SQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "NVIDIA H100 GPU Rental Prices Surging",
+          "subtitle": "40% Increase in Rental Prices"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Jun 2026",
+            "NVIDIA H100 GPU rental prices are surging by 40%",
+            "The increase is due to high demand for AI computing power",
+            "Rental prices are expected to continue rising",
+            "The surge is affecting businesses and individuals alike"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The 40% surge in rental prices is significant",
+            "High demand for AI computing power is driving the increase",
+            "The impact on businesses and individuals will be substantial",
+            "Source: Kavout, 27 Jun 2026"
+          ]
+        }
+      },
+      "caption": "NVIDIA H100 GPU rental prices are surging by 40% due to high demand for AI computing power. What are the implications of this surge for businesses and individuals? How will this impact the development of AI technologies? What are the potential solutions to mitigate the effects of this surge? #AI #NVIDIA #GPURental #TechNews #AISurge"
+    },
+    {
+      "id": 3,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N7",
+      "eventDate": "26 Jun 2026",
+      "sourceName": "Deccan Chronicle",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekE4MW9aakR6V1F3RjJjU0hDV2RQcm4xeVZLZGN1OHlrOFFNZXd1Qkg0d2pvZWVuV1RHZ0hlOEY3TkhTNU9XeEd5amxJMmRpVXVSeVRYWXRRaW1MZXlfMzVCNW5OUENwdS04OVlNamE1emkwV0dUZnhqcThYVkFYczNLSmtpaEExSFJxLUlQVkdTakMxTkhEQmp0eXVEQk5zVktJRjFXRC1XblMxeW0xRmJnVDhVNmwtREJ2ZVA4WdIBxAFBVV95cUxQcTlLTnFLd1BuQ1RUSnI2ZUZ2RzJQQmxMOS1CUFhDQkhBWHdWVFpsWjlnaERJRmtjblYyVjdfc2pFTUFFbl9HdjJMRHVScDFNRDNCajNCSUhYZ0ZHVm1QSl9ITlVZZ2Z0NDIwa0JFYUhQZkV5RlI5MGRZNkFXZEktMHc4eExJaTdUZzNDcHVVd2JwVV9vaUlhV0ZuZ1QzRG41c1BQU2NKREdYMjlDbWh4WEJvSHJlNEJOTEM3VU1yNlJuQTZ5?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "US Assures India AI Access Won't Be Cut Off",
+          "subtitle": "Backing Innovation Over Regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 26 Jun 2026",
+            "The US has assured India that AI access won't be cut off",
+            "The US is backing innovation over regulation",
+            "The move is expected to promote AI development in India",
+            "The assurance is a significant development in US-India relations"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The US assurance is a significant development in US-India relations",
+            "Backing innovation over regulation will promote AI development",
+            "The move is expected to have a positive impact on the AI industry",
+            "Source: Deccan Chronicle, 26 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The US has assured India that AI access won't be cut off, backing innovation over regulation. What are the implications of this assurance for US-India relations? How will this impact the development of AI in India? What are the potential benefits and challenges of this move? #AI #USIndia #Innovation #Regulation #TechNews #AIAccess"
+    }
+  ]
+}

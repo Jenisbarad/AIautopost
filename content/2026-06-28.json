@@ -8,135 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition",
+      "topic": "ON Semiconductor Acquires",
       "slides": 4,
       "svgIcon": "chip",
-      "sourceId": "N1",
-      "eventDate": "27 Jun 2026",
-      "sourceName": "Indiatimes",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYXdrb09CQU5NOTFra1BxQ2l3eVFRN2hwcXdmRVV4NHFQcWNJRDFyZkpBUXMyNlVKSHgyMVRud1hZdUxiS25MZ3Fwc1ZzR1VndUxXcW9QZnhmbDlxdTEtV3U0WHd3MEt6TnA4M0FoR2U2VmRrZzNYN0NaZnUtSmM1VV8zaHJxam9OUExmSXNKSU0zMkFRRWpvZENua2sxQ0xsY1RaTHhOLXNXRzBsWWtTc2NyUDZnUXBXdm5QQTBBZ0lkLVlsdWdHQXJsZ252YkFDUllPR2ZQQ0VfQUlF0gHiAUFVX3lxTE0tTG9ZWjVwLW9sdjZRd3JSbnZWNjVNaFJ1WmxGN3FNcWxKXzBlbXBIdjZoSDB1aHhZUXJsbzFjWkhLTTZSRi1nT045dG9yX0dPa1htZ18wSHFjN3NnQnJVNUQ2Wmo0VHNvbVJhSmx4YVVWYjBaODRZWE14SW1mLVRRdS1hY281cUNYNVl1MjNtTi1NZ1RhWmFqVWhuVDdLOTRVdjhwWnhFU3F5R2g2SG5QTDRkZE85dlJHTWpLNHlTYzBleTFrS3ozNEtLS3FibUxYZkxDWnRTd3VUTzN5Q1ZseVE?oc=5",
-      "caption": "The AI acquisition landscape is heating up. Persistent Systems is acquiring Nagarro in a €1.1 billion deal, creating a USD 2.9 billion AI-led digital engineering giant. What does this mean for the industry? How will this acquisition impact the market? Will we see more acquisitions in the future? #AI #Acquisition #DigitalEngineering #Innovation #Technology #Business",
-      "questions": "What are the implications of this acquisition for the AI market? How will it affect the competition?",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "Big Move in AI",
-          "subtitle": "Acquisition news"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 27 Jun 2026",
-            "Persistent Systems to acquire Nagarro",
-            "Deal worth €1.1 billion",
-            "Creating a USD 2.9 billion AI-led digital engineering giant",
-            "Expanding capabilities in AI-led digital engineering"
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "Expands Persistent Systems' presence in the AI market",
-            "Enhances capabilities in digital engineering",
-            "Increases competition in the AI-led digital engineering space",
-            "Potential for increased innovation"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition is a significant move in the AI market",
-            "It highlights the growing importance of AI in digital engineering",
-            "The deal is expected to have a major impact on the industry",
-            "Source: Indiatimes, Jun 2026"
-          ]
-        }
-      }
-    },
-    {
-      "id": 2,
-      "topic": "AI Regulation",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N4",
-      "eventDate": "26 Jun 2026",
-      "sourceName": "Deccan Chronicle",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekE4MW9aakR6V1F3RjJjU0hDV2RQcm4xeVZLZGN1OHlrOFFNZXd1Qkg0d2pvZWVuV1RHZ0hlOEY3TkhTNU9XeEd5amxJMmRpVXVSeVRYWXRRaW1MZXlfMzVCNW5OUENwdS04OVlNamE1emkwV0dUZnhqcThYVkFYczNLSmtpaEExSFJxLUlQVkdTakMxTkhEQmp0eXVEQk5zVktJRjFXRC1XblMxeW0xRmJnVDhVNmwtREJ2ZVA4WdIBxAFBVV95cUxQcTlLTnFLd1BuQ1RUSnI2ZUZ2RzJQQmxMOS1CUFhDQkhBWHdWVFpsWjlnaERJRmtjblYyVjdfc2pFTUFFbl9HdjJMRHVScDFNRDNCajNCSUhYZ0ZHVm1QSl9ITlVZZ2Z0NDIwa0JFYUhQZkV5RlI5MGRZNkFXZEktMHc4eExJaTdUZzNDcHVVd2JwVV9vaUlhV0ZuZ1QzRG41c1BQU2NKREdYMjlDbWh4WEJvSHJlNEJOTEM3VU1yNlJuQTZ5?oc=5",
-      "caption": "The US has assured India that AI access won't be cut off, backing innovation over regulation. What does this mean for the AI industry in India? How will this move impact the global AI landscape? What are the implications for international cooperation in AI development? #AI #Regulation #Innovation #InternationalCooperation #Technology #Business",
-      "questions": "What are the implications of this assurance for the AI industry in India? How will it affect the global AI landscape?",
-      "slideContent": {
-        "slide1": {
-          "headline": "US Assures India",
-          "subtitle": "AI access won't be cut off"
+          "headline": "ON Semiconductor Joins Edge AI Market",
+          "subtitle": "A $7 billion acquisition"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 26 Jun 2026",
-            "The US has assured India that AI access won't be cut off",
-            "The US backs innovation over regulation",
-            "This move is expected to boost the AI industry in India",
-            "It highlights the importance of international cooperation in AI development"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The US assurance is a positive move for the AI industry in India",
-            "It highlights the importance of innovation in AI development",
-            "The move is expected to have a significant impact on the industry",
-            "Source: Deccan Chronicle, 26 Jun 2026"
-          ]
-        }
-      }
-    },
-    {
-      "id": 3,
-      "topic": "AI Chip Development",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N16",
-      "eventDate": "28 Jun 2026",
-      "sourceName": "Yahoo Finance UK",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGs4a2xUcmhaS1puU0trUnNpNmxzd2F4NF96V09MMmY4Y3hfeDJWakcxTG1DZjhGZzBubXJlN3l0Zlo1dHNRNTMwcDc4S19HN29sNWpKUDBBd1I2ZklZTlJpeEJvY1dPaHhMUk9kUGh0Sl9IdzVTVURiT254SFZIM0R3YU5PM3dZa05R?oc=5",
-      "caption": "Broadcom and OpenAI are launching a new AI chip, called Jalapeño, in nine months. What does this mean for the AI industry? How will this new chip impact the market? What are the implications for AI development and innovation? #AI #Chip #Innovation #Technology #Business",
-      "questions": "What are the implications of this new chip for the AI industry? How will it affect the market?",
-      "slideContent": {
-        "slide1": {
-          "headline": "New AI Chip",
-          "subtitle": "Broadcom and OpenAI collaborate"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 28 Jun 2026",
-            "Broadcom and OpenAI are launching a new AI chip",
-            "The chip, called Jalapeño, will be launched in nine months",
-            "It is expected to have a significant impact on the AI industry",
-            "The chip will be designed to handle complex AI workloads"
+            "ON Semiconductor acquired Synaptics for $7 billion",
+            "The acquisition expands ON Semiconductor's edge AI capabilities",
+            "The deal is an all-stock transaction",
+            "ON Semiconductor's stock plummeted after the announcement"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The new chip will enhance AI capabilities",
-            "It will increase competition in the AI chip market",
-            "The collaboration between Broadcom and OpenAI is a significant move in the industry",
-            "It highlights the growing importance of AI in technology"
+            "The acquisition highlights the growing importance of edge AI",
+            "ON Semiconductor's expansion into edge AI increases competition in the market",
+            "The deal may lead to increased innovation in edge AI technologies",
+            "The impact on the stock market is significant"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The new chip is expected to have a significant impact on the AI industry",
-            "It will enhance AI capabilities and increase competition in the market",
-            "The collaboration between Broadcom and OpenAI is a positive move for the industry",
-            "Source: Yahoo Finance UK, Jun 2026"
+            "The acquisition is a significant step for ON Semiconductor",
+            "The deal may lead to increased adoption of edge AI technologies",
+            "The impact on the stock market is a concern for investors",
+            "Source: Barron's, Jun 2026"
           ]
         }
-      }
+      },
+      "caption": "ON Semiconductor has acquired Synaptics for $7 billion, expanding its edge AI capabilities. The deal is an all-stock transaction and has significant implications for the market. What does this mean for the future of edge AI? How will this acquisition impact the stock market? What are the potential risks and benefits of this deal? #edgeAI #acquisition #ONSemiconductor #Synaptics #stockmarket #technews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTzh1VFBUU0IxYWJfYmhlbHJfY054S0dYcnJfZ0QxT2p0Z2FsNVV0RDNuQzB4SUYyQXAtUERTcHlnR2s0dzc3c0NJb25PSUpRR2NlR2daWFh5aXNIVHV1eWd3VV9qa0c5aDIzZWZabEg2b2E4RXY2blR0X2RuSldCTEk3dG8yak9zYlRLUjRPOA?oc=5",
+      "sourceName": "Barron's",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "26 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "OpenAI GPT-5.6 Launch",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Launches GPT-5.6",
+          "subtitle": "A new AI model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Jun 2026",
+            "OpenAI launched GPT-5.6, a new AI model",
+            "The US government cleared Anthropic's Mythos 5 Return",
+            "GPT-5.6 is the latest iteration of OpenAI's language model",
+            "The launch has significant implications for the AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of GPT-5.6 highlights the rapid progress in AI research",
+            "The US government's clearance of Anthropic's Mythos 5 Return is a significant development",
+            "The impact of GPT-5.6 on the AI industry will be significant",
+            "Source: Analytics India Magazine, 27 Jun 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has launched GPT-5.6, a new AI model. The US government has also cleared Anthropic's Mythos 5 Return. What are the implications of this launch for the AI industry? How will GPT-5.6 impact the development of AI technologies? What are the potential risks and benefits of this new model? #AI #GPT56 #OpenAI #Mythos5Return #Anthropic #technews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYUNLQk1pU1RMY3dzelZRVmN4dWhPa2k5SjNKdWtNQzIyajhLekpCeGZIY19rZ3ZPanVrdFVucGdaT3VoN2t1QVFwOTRFVDBlcUNjRTNOOFQwd1hLSGxGYnNXWExMM21fSGc4b1BvenJvRmQ3anhxT0NIejNMbmNmQnRGMEZpVHBzb3ptOVpydXVZWmdycGRVcDZ5MFdZV2o3d2lOcVRGLTB3RWVBcHE2WQ?oc=5",
+      "sourceName": "Analytics India Magazine",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "27 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "EU AI Act Deadline",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N20",
+      "slideContent": {
+        "slide1": {
+          "headline": "Preparing for the EU AI Act Deadline",
+          "subtitle": "A step-by-step checklist"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 Jun 2026",
+            "The EU AI Act deadline is August 2026",
+            "Web3 protocols must prepare for the deadline",
+            "The act has significant implications for the AI industry",
+            "A step-by-step checklist is available to help prepare"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act deadline is approaching quickly",
+            "Web3 protocols must take action to prepare",
+            "The act will have a significant impact on the AI industry",
+            "Source: FinanceFeeds, 28 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act deadline is approaching quickly. Web3 protocols must prepare for the deadline to ensure compliance. What are the key steps to take in preparing for the deadline? How will the EU AI Act impact the AI industry? What are the potential risks and benefits of the act? #EUAIAct #deadline #Web3 #compliance #technews #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWkVoaERVVWZoc0ZrVU5Mbkpod0xKR0ZXY3BWN3JlNUpiRWNoa0V6ZHc3cmk1SzY2dHQxVDNKWV9WUjk5c1YyS19JVXRRNGQtQ3dVQ05aYjhtSEpjVk5uX3VMZUlxRTFXdXo2alFncFF2QmdqVlVRbVBmOTdyd0lPWG45Q19nX3U0aUE4bXlBNkpETF91YVgzdXh4WW1xY0dMSVM5WUhsV2xKU0YyaHREaGxXT1NhWS1r?oc=5",
+      "sourceName": "FinanceFeeds",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "28 Jun 2026"
     }
   ]
 }

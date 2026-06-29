@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-30",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Open Source Security Body Launched",
+          "subtitle": "Anthropic and 19 organizations join forces"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "After Fable 5 ban, Anthropic and 19 organizations launched an open source security body on 26 Jun 2026",
+            "This body aims to improve security in open source projects",
+            "With 19 organizations on board, this effort has significant backing",
+            "The launch of this body marks a major step in addressing AI security concerns"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Improved security in open source projects can have a significant impact on the overall AI ecosystem",
+            "This collaboration can lead to better security practices and more robust AI models",
+            "As AI becomes increasingly pervasive, security is a growing concern",
+            "Source: The New Stack, 26 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The launch of an open source security body by Anthropic and 19 organizations marks a significant step in addressing AI security concerns. With the growing use of AI, security is becoming a major issue. What role do you think open source security bodies will play in shaping the future of AI? How will this collaboration impact the development of more secure AI models? #AI #Security #OpenSource #Anthropic #Fable5 #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvMWtyMF9fa1g2S1ZJekVSRzhTMWlfQ1AzZC1Ia2JuX3dsZUU3eGZqNUhTd215NlliaGFuZmRlRGVIdHF2eWhWdjdfdUVzLUp4MkkwT0NqR0VzZldONVlsZWc5UGVxRjUxaXprNDlEQWtSM2txWnhSWHhn?oc=5",
+      "sourceName": "The New Stack",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "26 Jun 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "database",
+      "sourceId": "N20",
+      "slideContent": {
+        "slide1": {
+          "headline": "Pocket's $11M Raise",
+          "subtitle": "Accel backs AI hardware startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Accel backed Pocket's $11M raise on 29 Jun 2026",
+            "The AI hardware startup has turned a viral launch into $27M ARR",
+            "This funding round marks a significant milestone for the company",
+            "Pocket's success is a testament to the growing demand for AI hardware solutions"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Pocket's funding round highlights the growing interest in AI hardware",
+            "The company's success can be attributed to its innovative approach to AI solutions",
+            "As AI continues to grow, the demand for specialized hardware is increasing",
+            "This funding round will help Pocket expand its operations and develop new products"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI hardware market is expected to grow significantly in the coming years",
+            "Pocket's funding round is a testament to the company's innovative approach",
+            "The demand for AI hardware solutions is driving growth in the industry",
+            "Source: Tech Funding News, Jun 2026"
+          ]
+        }
+      },
+      "caption": "Accel's backing of Pocket's $11M raise marks a significant milestone for the AI hardware startup. With $27M ARR, Pocket is poised for growth. What role do you think AI hardware will play in shaping the future of AI? How will Pocket's funding round impact the development of AI solutions? Questions to consider: What are the implications of growing demand for AI hardware? How will Pocket's success impact the AI industry? #AI #Funding #Hardware #Pocket #Accel #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfZ0ZkbktJX0Nqd1pfb3F1OFQ0azRhTHhQeDZ1b0FVMWZxVklJRTJ3ZXpjVVo4SEkyV1hzSmRkYXRjZ2hYQVRtcFZUYWVWMXFhSjNUbGhtOHQ4ZU1vb3k3Y2tab1JTNUw1VVYyNEFYS1JlNU0?oc=5",
+      "sourceName": "Tech Funding News",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "29 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Market Trends",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N12",
+      "slideContent": {
+        "slide1": {
+          "headline": "Tech Stocks Fall Globally",
+          "subtitle": "AI jitters pressure tech"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Tech stocks fell globally on 26 Jun 2026 due to AI jitters",
+            "The S&P 500 and Nasdaq snapped a 2-week win streak",
+            "The decline in tech stocks was driven by concerns over AI",
+            "The Nasdaq Index fell as tech stocks sank"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The decline in tech stocks highlights the growing concerns over AI",
+            "As AI becomes increasingly pervasive, investors are becoming cautious",
+            "The impact of AI on the tech industry is significant",
+            "Source: Yahoo! Finance Canada, 26 Jun 2026"
+          ]
+        }
+      },
+      "caption": "The decline in tech stocks due to AI jitters marks a significant shift in the market. As AI becomes increasingly pervasive, investors are becoming cautious. What role do you think AI will play in shaping the future of the tech industry? How will the growing concerns over AI impact the market? Questions to consider: What are the implications of AI on the tech industry? How will the market respond to growing AI concerns? #AI #MarketTrends #Tech #Stocks #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV1dUX1ZCT2UtSFoxUThuSklpZmM1Q0NYTWtGb1RuYktHR2Z3RnhvLTE5dk1RU3l2WFBYd1FwejZZVXo4dUhsVnRNdlNHakhUZl9xakM3Q3Z5aS1EY1dhd2xMT0Y3UUljajZIQkJCQTdteU5waEU1RkQ5SUh3MG55TXFmd0hBZHJBVEowLXRmU29zcWlsR1F0Z3IwNC1ZRVZ6LUp2R0lVdWdEY0NHa1lQbXNZMzVpMUJURVZuZFpGMElrOVBENW9FYjc4UHZxV3dkc2ZqeC1JOA?oc=5",
+      "sourceName": "Yahoo! Finance Canada",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "26 Jun 2026"
+    }
+  ]
+}

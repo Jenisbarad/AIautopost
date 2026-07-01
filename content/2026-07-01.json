@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-01",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Mumbai-Based Enterprise AI Startup Raises Funding",
+          "subtitle": "Data Science Wizards secures $5 million in pre-series A round"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Jul 2026",
+            "Data Science Wizards, a Mumbai-based enterprise AI startup, has raised $5 million in a pre-series A round.",
+            "The funding will be used to scale its UnifyAI OS.",
+            "The company aims to expand its customer base and improve its AI offerings.",
+            "The pre-series A round was raised to further develop the company's AI platform."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Data Science Wizards to compete in the growing enterprise AI market.",
+            "The company's UnifyAI OS has the potential to revolutionize the way businesses approach AI adoption.",
+            "With the new funding, Data Science Wizards can expand its team and improve its technology.",
+            "The investment is a testament to the growing interest in AI startups."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round was led by prominent investors, highlighting the confidence in the company's vision.",
+            "Data Science Wizards plans to use the funding to enhance its AI capabilities and expand its customer base.",
+            "The company's focus on enterprise AI solutions sets it apart from other AI startups.",
+            "Source: Indian Startup Times, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Data Science Wizards, a Mumbai-based enterprise AI startup, has raised $5 million in a pre-series A round to scale its UnifyAI OS. This funding will help the company expand its customer base and improve its AI offerings. What does this mean for the future of enterprise AI? How will this investment impact the company's growth? What are the potential applications of UnifyAI OS? #AI #EnterpriseAI #Funding #Startup #Innovation #Technology",
+      "questions": "What are the potential risks and challenges associated with this funding? How will Data Science Wizards use the funding to enhance its AI capabilities?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUVhSX2M0OWN0eUpNenY1T29aWWFHUEVYV0RkemRQMldPRzN2a1BicHI0bEsyRlBVZExBcjJyV3NMN3RSMlZuM1BhaGRTYWNuSzJuZGprLS1sRVFYdmY5ZlNQaXpoNkdVRlZfay0zWlhZRUNBSlBKMkFQdldBcTZYY0Y1a3VCaXNWVXV6QTRsVnVkYjdjSFg0a2FlbmhGSzhmZWdDTGZvQVUxUkR6bERaTFhfN0I1aDh4VDdXRjBCTEJMTlg2MnhkUFhqd0JtWndwVEhkdjJoMWV6S1FkX2lqbFMwVzJDUjYyb0p2V0R0SWtfSjQ?oc=5",
+      "sourceName": "Indian Startup Times",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "01 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Launch",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N20",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Launches Claude Sonnet 5 AI Model",
+          "subtitle": "New model features coding and safety upgrades"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Jul 2026",
+            "Anthropic has launched Claude Sonnet 5, a new AI model with coding and safety upgrades.",
+            "The model features improvements to its language understanding and generation capabilities.",
+            "Claude Sonnet 5 is designed to be more efficient and effective than its predecessors.",
+            "The model has been trained on a large dataset of text and code, allowing it to learn from a wide range of sources."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of Claude Sonnet 5 marks a significant milestone in the development of AI models.",
+            "The model's coding and safety upgrades make it more suitable for a wide range of applications.",
+            "Anthropic's focus on AI safety and ethics sets it apart from other AI companies.",
+            "Source: SiliconANGLE, 01 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has launched Claude Sonnet 5, a new AI model with coding and safety upgrades. This model has the potential to revolutionize the way we approach AI development. What are the potential applications of Claude Sonnet 5? How will this model impact the AI industry as a whole? What are the implications of Anthropic's focus on AI safety and ethics? #AI #ModelLaunch #Innovation #Technology #Ethics",
+      "questions": "What are the potential risks and challenges associated with the launch of Claude Sonnet 5? How will Anthropic continue to develop and improve its AI models?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTncyREZOZ3NoRDZ4aTBTWGxNMGw3dFNTOE5HcWRGVGozeTNNOGZlcDFlRGdadlp4cjBicXpKNkZNWFdscFhBMWhacVB0S2RnLU90NjNRUEVMeVdKQTFiUnFJdU1GUTlIX2NCeTZuVjlDaHllLXdoUnlZRC1HN3E1ak5SWF9NYnA3NFAtRjljM0dWa0tLOUxCY05B?oc=5",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "01 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Chip Market",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N18",
+      "slideContent": {
+        "slide1": {
+          "headline": "NVIDIA H100 GPU Rental Prices Surge by 40%",
+          "subtitle": "AI chip market sees significant increase in demand"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 30 Jun 2026",
+            "NVIDIA H100 GPU rental prices have surged by 40% due to high demand in the AI chip market.",
+            "The increase in prices is a result of the growing need for AI computing power.",
+            "The H100 GPU is a popular choice for AI applications, including deep learning and natural language processing.",
+            "The surge in prices highlights the importance of AI chips in the technology industry."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The surge in NVIDIA H100 GPU rental prices highlights the growing demand for AI computing power.",
+            "The AI chip market is becoming increasingly competitive, with companies like NVIDIA and AMD competing for market share.",
+            "The increase in prices may impact the development of AI applications, as companies may need to budget more for computing power.",
+            "Source: Kavout | AI, 30 Jun 2026"
+          ]
+        }
+      },
+      "caption": "NVIDIA H100 GPU rental prices have surged by 40% due to high demand in the AI chip market. This increase in prices highlights the growing need for AI computing power. What are the implications of this surge in prices for the development of AI applications? How will the AI chip market continue to evolve in the coming years? What are the potential risks and challenges associated with the increasing demand for AI computing power? #AI #ChipMarket #Innovation #Technology #Demand",
+      "questions": "What are the potential consequences of the surge in NVIDIA H100 GPU rental prices for the AI industry as a whole? How will companies adapt to the increasing demand for AI computing power?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTm5XWHJldzZUZERRU1E1dHRFTVdaNjF4b2d5VGdkeTlROHBoUGpWQWNCU2Z6cmFqRGJLdGkwMy1NYnh3cHdIbmRmbVUteDNvYnFFcy1FcjVUT0lDMzhGMDAycFI0VFJ4S0VxX2FxWVUtWDgyUTVWc0VQZVRoTTZJRDBuUVZ0dkdrdlZxeFd1SQ?oc=5",
+      "sourceName": "Kavout | AI",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "30 Jun 2026"
+    }
+  ]
+}

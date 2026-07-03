@@ -8,132 +8,121 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Boom",
-      "slides": 4,
+      "topic": "AI Cooling Platform",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N7",
-      "eventDate": "02 Jul 2026",
-      "sourceName": "Analytics India Magazine",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZXoybG9YLWtMRThCMC1QSEpvMnlWTlhoTXZTaWJFQzd5dXFDRUtuMzU1NkRaX0pZdWpQbHczb3pnREdhQmtwaE5lbEVIbTVpRDl2TzZtRHFWcTRaX2dFdkg3N1FuVlJkcTg1ZTNQNG80M1BjM0tFNGdNZlBmS21sUjNyYjlKRVd1ZW85MWRVMVY0bmNOcHoyQ2lMWjJaRm93RGt5UjRn?oc=5",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "India's AI Funding Boom",
-          "subtitle": "H1 2026 Left Most Startups Starving"
+          "headline": "Ecolab Expands AI Cooling Platform",
+          "subtitle": "Global High Tech Business Targets $4 Billion by 2030"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 02 Jul 2026",
-            "India's AI funding boom in H1 2026",
-            "Left most startups starving",
-            "With many struggling to secure funding",
-            "Despite the overall growth in AI investments"
+            "Ecolab closed the CoolIT acquisition on 02 Jul 2026",
+            "The acquisition expands Ecolab's AI cooling platform",
+            "The global high tech business targets $4 billion by 2030",
+            "Ecolab aims to boost its high tech business"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The AI funding boom in India has led to increased competition",
-            "Making it challenging for startups to stand out",
-            "And secure funding",
-            "Highlighting the need for a more sustainable funding ecosystem"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The Indian AI market is expected to continue growing",
-            "With more startups emerging",
-            "But the funding landscape needs to evolve",
-            "Source: Analytics India Magazine, Jul 2026"
+            "The expansion of Ecolab's AI cooling platform is significant for the company's growth",
+            "It highlights the importance of AI in the tech industry",
+            "The target of $4 billion by 2030 is ambitious and indicates the company's confidence in its high tech business",
+            "Source: Ecolab, 02 Jul 2026"
           ]
         }
       },
-      "caption": "India's AI funding boom in H1 2026 has left most startups starving, with many struggling to secure funding. What are the implications of this trend? Will the funding landscape evolve to support the growing number of AI startups? Questions to consider: How will the Indian AI market grow in the next quarter? What role will investors play in shaping the future of AI in India? #AI #Funding #India #Startups #Growth #Investments"
+      "caption": "Ecolab has expanded its AI cooling platform through the acquisition of CoolIT. The company targets $4 billion by 2030. What does this mean for the future of Ecolab's high tech business? How will the acquisition impact the company's growth? #AI #CoolingPlatform #Ecolab #HighTechBusiness #Acquisition",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnpLNlhNRE1YSFExWWloOXN0d2hsbnppd2pBNGZFZ1J0aU95Zm5EY3B4WldhRXhiUk1Od1Z5TElQbnh3dXV6UkpfOTZ6NDYzS1lja3BVUmJVS1VaZWZTSWNrYTBHdVRSNWR6ZUNfdWp5TnlXdUhjRHptcHVkVHpCazBFQlk3Z2t5YV9OZ1dVd3BSdGF6VnU0Sndrc1p0ZzVqOTZJTG9Ic04?oc=5",
+      "sourceName": "Ecolab",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "02 Jul 2026"
     },
     {
       "id": 2,
-      "topic": "Qualcomm Acquisition",
+      "topic": "Cybersecurity Acquisition",
       "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N2",
-      "eventDate": "01 Jul 2026",
-      "sourceName": "CTech",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUVG9DYU5vZ1FpUEx3LVRuY3I4OFR3OHdWV001cXNLTXBwQ2pFQmJEQU5vUVBXT3VDR3pKb1NoVEJqemhUYlFkeloyOEphNlYwR19WMVY0QjFrdDZpU0ctLUhPTWtGOFVf?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Qualcomm Acquires SAM",
-          "subtitle": "For More Than $150 Million"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 01 Jul 2026",
-            "Qualcomm acquired Israeli cyber company SAM",
-            "For more than $150 million",
-            "Expanding its cybersecurity capabilities",
-            "And strengthening its position in the market"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The acquisition highlights Qualcomm's focus on cybersecurity",
-            "And its commitment to investing in innovative technologies",
-            "The deal is expected to enhance Qualcomm's offerings",
-            "Source: CTech, 01 Jul 2026"
-          ]
-        }
-      },
-      "caption": "Qualcomm has acquired Israeli cyber company SAM for more than $150 million, expanding its cybersecurity capabilities and strengthening its position in the market. What are the implications of this acquisition? How will it impact the cybersecurity landscape? Questions to consider: What other investments will Qualcomm make in the cybersecurity space? How will this acquisition affect the competitive landscape? #Qualcomm #Acquisition #Cybersecurity #SAM #Investments"
-    },
-    {
-      "id": 3,
-      "topic": "AI Security Risks",
-      "slides": 4,
       "svgIcon": "shield",
-      "sourceId": "N8",
-      "eventDate": "02 Jul 2026",
-      "sourceName": "Yahoo Finance",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRnRPemVYVnRWdngxa0U4aTY4RF9LSEZyRndlN25rbFFrdGNLSW9wcDdFT0RNcWJ1RTJGX1hXcklfbWRqZXRBZHptMDBrZ1RNQ20xd1pPeVVJdXp3SlBDTWZ6OG1nYUdYVmN3VllINGk1UWR1V3dhanRpdDhYZGRHTWxYSzB3TmFIR3k3RllPSlQ0czhXeXJCZ005cw?oc=5",
+      "sourceId": "N2",
       "slideContent": {
         "slide1": {
-          "headline": "AI Floods Security Teams with Alerts",
-          "subtitle": "Critical Vulnerabilities Have Doubled"
+          "headline": "Aikido Acquires Israeli Startup Root",
+          "subtitle": "Cyber Unicorn Expands Capabilities"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 02 Jul 2026",
-            "New Check Point Exposure Management Research found",
-            "Critical vulnerabilities have doubled",
-            "Yet fewer than 1 in 12 demand urgent action",
-            "Highlighting the need for improved security measures"
+            "Aikido acquired Israeli startup Root for $70-$100 million on 30 Jun 2026",
+            "The acquisition expands Aikido's cybersecurity capabilities",
+            "Root's technology will enhance Aikido's portfolio",
+            "The deal values Root between $70 million and $100 million"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The increase in critical vulnerabilities poses significant risks",
-            "To organizations and individuals",
-            "Requiring more effective security strategies",
-            "To mitigate the threats"
+            "The acquisition highlights the growing importance of cybersecurity in the tech industry",
+            "Aikido's expansion of its capabilities is significant for the company's growth",
+            "The deal value of $70-$100 million indicates the value of Root's technology",
+            "Source: CTech, 30 Jun 2026"
+          ]
+        }
+      },
+      "caption": "Aikido has acquired Israeli startup Root for $70-$100 million. What does this mean for the future of Aikido's cybersecurity capabilities? How will the acquisition impact the company's growth? #Cybersecurity #Acquisition #Aikido #Root #Startup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vTzU0d3p4X3ZKMmhmd2ZRdmJNTnNSNEs2QkZoTy02S2lyTGRYU1NfamZkN2R4WG5vODBuU3BPNkwyWDVNVWJVWkpVejVyV1FwdEZrQTFkeC1jM0hRV0RqUHZXeDhoMXZDTUE?oc=5",
+      "sourceName": "CTech",
+      "sourceMonthYear": "Jun 2026",
+      "eventDate": "30 Jun 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Indian AI Startup Funding Soars",
+          "subtitle": "Funding Increases Over 4X YoY in H1 2026"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Jul 2026",
+            "Indian AI startup funding increased over 4X YoY in H1 2026",
+            "The funding boom is significant for the growth of AI startups in India",
+            "The increase in funding will drive innovation and development in the AI sector",
+            "The Indian AI startup ecosystem is becoming increasingly attractive to investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding boom highlights the growing importance of AI in the Indian startup ecosystem",
+            "The increase in funding will drive growth and innovation in the AI sector",
+            "The Indian AI startup ecosystem is becoming increasingly competitive",
+            "The funding boom will attract more talent and investment to the sector"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The research highlights the importance of proactive security measures",
-            "Organizations must invest in robust security solutions",
-            "To protect against emerging threats",
-            "Source: Yahoo Finance, Jul 2026"
+            "The funding boom is driven by the growing demand for AI solutions",
+            "The Indian government's initiatives to support AI startups have contributed to the funding boom",
+            "The funding boom will lead to increased innovation and development in the AI sector",
+            "Source: Inc42, Jul 2026"
           ]
         }
       },
-      "caption": "New research has found that critical vulnerabilities have doubled, yet fewer than 1 in 12 demand urgent action, highlighting the need for improved security measures. What are the implications of this trend? How can organizations protect themselves against emerging threats? Questions to consider: What role will AI play in enhancing security measures? How can organizations balance the benefits of AI with the associated security risks? #AI #Security #Risks #Vulnerabilities #Threats #Cybersecurity"
+      "caption": "Indian AI startup funding has increased over 4X YoY in H1 2026. What does this mean for the future of AI startups in India? How will the funding boom impact the growth and innovation in the AI sector? Questions to consider: Will the funding boom lead to increased competition in the AI sector? How will the Indian government's initiatives support the growth of AI startups? #AI #FundingBoom #India #Startups #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOHZ6Wi1wUHJwd3BoZnA2dDlOakp1Q2kzYS1taEctenF4MjVKQXFyZ1UzcHkwcE5CMVBSN0JUMU0wVnMwM2RpQzFsS1ZIMF9SRHRHVXRlREVwSUd6clYtcUhzTjR0Nkd6c1hOVHU0S003dnhsTHViSGFwaTh4aDd6eFlnQ2pxLXNiZHRhY2FSbmVVczZ1N3NtSnRZLVFJMUxZVzZMb3NyNVc2Uk4xenF5N09Rdm1Vb3hEVDBB?oc=5",
+      "sourceName": "Inc42",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "03 Jul 2026"
     }
   ]
 }

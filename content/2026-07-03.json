@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-03",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "eventDate": "02 Jul 2026",
+      "sourceName": "Analytics India Magazine",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZXoybG9YLWtMRThCMC1QSEpvMnlWTlhoTXZTaWJFQzd5dXFDRUtuMzU1NkRaX0pZdWpQbHczb3pnREdhQmtwaE5lbEVIbTVpRDl2TzZtRHFWcTRaX2dFdkg3N1FuVlJkcTg1ZTNQNG80M1BjM0tFNGdNZlBmS21sUjNyYjlKRVd1ZW85MWRVMVY0bmNOcHoyQ2lMWjJaRm93RGt5UjRn?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "India's AI Funding Boom",
+          "subtitle": "H1 2026 Left Most Startups Starving"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Jul 2026",
+            "India's AI funding boom in H1 2026",
+            "Left most startups starving",
+            "With many struggling to secure funding",
+            "Despite the overall growth in AI investments"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The AI funding boom in India has led to increased competition",
+            "Making it challenging for startups to stand out",
+            "And secure funding",
+            "Highlighting the need for a more sustainable funding ecosystem"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The Indian AI market is expected to continue growing",
+            "With more startups emerging",
+            "But the funding landscape needs to evolve",
+            "Source: Analytics India Magazine, Jul 2026"
+          ]
+        }
+      },
+      "caption": "India's AI funding boom in H1 2026 has left most startups starving, with many struggling to secure funding. What are the implications of this trend? Will the funding landscape evolve to support the growing number of AI startups? Questions to consider: How will the Indian AI market grow in the next quarter? What role will investors play in shaping the future of AI in India? #AI #Funding #India #Startups #Growth #Investments"
+    },
+    {
+      "id": 2,
+      "topic": "Qualcomm Acquisition",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "eventDate": "01 Jul 2026",
+      "sourceName": "CTech",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUVG9DYU5vZ1FpUEx3LVRuY3I4OFR3OHdWV001cXNLTXBwQ2pFQmJEQU5vUVBXT3VDR3pKb1NoVEJqemhUYlFkeloyOEphNlYwR19WMVY0QjFrdDZpU0ctLUhPTWtGOFVf?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Qualcomm Acquires SAM",
+          "subtitle": "For More Than $150 Million"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 01 Jul 2026",
+            "Qualcomm acquired Israeli cyber company SAM",
+            "For more than $150 million",
+            "Expanding its cybersecurity capabilities",
+            "And strengthening its position in the market"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition highlights Qualcomm's focus on cybersecurity",
+            "And its commitment to investing in innovative technologies",
+            "The deal is expected to enhance Qualcomm's offerings",
+            "Source: CTech, 01 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Qualcomm has acquired Israeli cyber company SAM for more than $150 million, expanding its cybersecurity capabilities and strengthening its position in the market. What are the implications of this acquisition? How will it impact the cybersecurity landscape? Questions to consider: What other investments will Qualcomm make in the cybersecurity space? How will this acquisition affect the competitive landscape? #Qualcomm #Acquisition #Cybersecurity #SAM #Investments"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security Risks",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N8",
+      "eventDate": "02 Jul 2026",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRnRPemVYVnRWdngxa0U4aTY4RF9LSEZyRndlN25rbFFrdGNLSW9wcDdFT0RNcWJ1RTJGX1hXcklfbWRqZXRBZHptMDBrZ1RNQ20xd1pPeVVJdXp3SlBDTWZ6OG1nYUdYVmN3VllINGk1UWR1V3dhanRpdDhYZGRHTWxYSzB3TmFIR3k3RllPSlQ0czhXeXJCZ005cw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Floods Security Teams with Alerts",
+          "subtitle": "Critical Vulnerabilities Have Doubled"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Jul 2026",
+            "New Check Point Exposure Management Research found",
+            "Critical vulnerabilities have doubled",
+            "Yet fewer than 1 in 12 demand urgent action",
+            "Highlighting the need for improved security measures"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The increase in critical vulnerabilities poses significant risks",
+            "To organizations and individuals",
+            "Requiring more effective security strategies",
+            "To mitigate the threats"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The research highlights the importance of proactive security measures",
+            "Organizations must invest in robust security solutions",
+            "To protect against emerging threats",
+            "Source: Yahoo Finance, Jul 2026"
+          ]
+        }
+      },
+      "caption": "New research has found that critical vulnerabilities have doubled, yet fewer than 1 in 12 demand urgent action, highlighting the need for improved security measures. What are the implications of this trend? How can organizations protect themselves against emerging threats? Questions to consider: What role will AI play in enhancing security measures? How can organizations balance the benefits of AI with the associated security risks? #AI #Security #Risks #Vulnerabilities #Threats #Cybersecurity"
+    }
+  ]
+}

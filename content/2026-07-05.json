@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-05",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "globe",
+      "sourceId": "N3",
+      "eventDate": "05 Jul 2026",
+      "sourceName": "London Daily News",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1V2OHk0eHJUYWpmTHhJbUEyYTdSeVpnTDBpZDFMVGVITU10WG5zaWFkRVlDTWpVMERrM1ZuRFhQS1c1dXBZOTJ0cko5M2RybVBfMmJXeFBiVmxQaVNOelJqQ2dDdmJyN2pIX2NqLV9ac0JELTNTNnI3T1hLZklNQVFFRk9GVXRld29zNkVoNWR0TENkM0FuMEtoM01YTFU?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Record-Breaking Funding",
+          "subtitle": "AI startups raise $510bn in H1 2026"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 05 Jul 2026",
+            "Global startup funding reached a record $510bn in H1 2026",
+            "AI megadeals drove this growth",
+            "The previous record was not specified",
+            "This represents a significant increase in investment"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding boom indicates high confidence in AI's potential",
+            "Investors are betting big on AI's impact across industries",
+            "This could lead to accelerated innovation and adoption",
+            "But also raises questions about valuation and sustainability"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI funding landscape is becoming increasingly competitive",
+            "Startups will need to demonstrate strong growth and returns to justify valuations",
+            "Regulators may need to adapt to the changing landscape",
+            "Source: London Daily News, Jul 2026"
+          ]
+        }
+      },
+      "caption": "The AI funding boom is showing no signs of slowing down, with $510bn raised in H1 2026. What does this mean for the future of AI innovation and investment? Will we see a correction in the market, or will AI continue to attract record-breaking funding? Questions to consider: What are the implications of this funding boom for AI research and development? How will regulators respond to the growing AI industry? #AI #Funding #Investment #Innovation #Startup"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Risks",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N13",
+      "eventDate": "02 Jul 2026",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNVkRWVHZmSnBLb0k3TWhIMm5fZnFjVHBLa1ZQaE5sMUVHbjVQNWdvdlY1WDB5NXE1clJvdFRScWdfSllZTlU0VVhsdHh2bUVTN2ZrY1djZ2NjSDVDVmxyYnMwazVQbTB0TDFWZVo1Zi1OVzFfcmRLb2ZBUFgtMFFMR2hpc01fOXFvLXAwVDVaZDFESGNtTGVfMUkxVWgyNEI0aldtLVB3akx6dTM1X0VRTDhwQlVVNnoyaUhiNDREMWtUZmhLRThXekhKRmJpd2FjUFFIb2xKaU1qT2RISzlRVVpwUHpfdlQ0YlN1X3VvRHYtcWFCb3dPNno4Rkd5cFpKRXNYbFlmclV4VGNYRXk0RUF4SEVhYm1Yam1vdUMyaGEteHNNYzIzbjhzQ21sN1VLbzNVdDNJTHNLbFNOZXBURV9fRWpTODI5OEM2eg?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Critical Vulnerabilities on the Rise",
+          "subtitle": "AI-powered security alerts are not being acted upon"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Jul 2026",
+            "Critical vulnerabilities have doubled, according to Check Point Exposure Management Research",
+            "Fewer than 1 in 12 vulnerabilities demand urgent action",
+            "This highlights a significant gap in AI-powered security",
+            "The number of alerts is overwhelming security teams"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The increasing number of alerts is leading to fatigue and inaction",
+            "AI-powered security tools need to be more effective in prioritizing threats",
+            "Organizations must develop strategies to address the growing vulnerability gap",
+            "Source: PR Newswire, 02 Jul 2026"
+          ]
+        }
+      },
+      "caption": "As AI-powered security alerts flood teams with notifications, critical vulnerabilities are being left unaddressed. What are the implications of this trend for cybersecurity, and how can organizations adapt to the changing landscape? Questions to consider: How can AI-powered security tools be improved to prioritize threats more effectively? What role should human oversight play in AI-driven security decision-making? #AI #Security #Cybersecurity #Vulnerabilities"
+    },
+    {
+      "id": 3,
+      "topic": "AI-Driven Mergers",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N8",
+      "eventDate": "04 Jul 2026",
+      "sourceName": "MarketScale",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGQwSjNyMFJUeHN3S0M4bnpoeGdwN3hIUnBUT3VHWXNPWVJ5Yzl6TWN3Zm1VOW9RSmRtUzZBbTBLd3RJOGdRUVFJTVNFb1pKVEdrQVkwZXNoQ3RrQTk4aEVaSHhqUXV2UUNTeWE5Z3VpYllmUXJ6MUJUOXoyOTNET1FGWTQ3cW9YMjJubFJSRXFnOUp2UXV2SVdHZERTRG1YblIzdGo3MlhKUk1PQnZwMjg1SWZ3ZUsxN1Jad25mT3NNbUhmMGpnY0RSdUpfQQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenLoop Acquires Hey Revia",
+          "subtitle": "Expanding AI communication platforms in digital health"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 04 Jul 2026",
+            "OpenLoop acquired AI communication platform Hey Revia",
+            "The acquisition expands OpenLoop's capabilities in digital health",
+            "The terms of the deal were not disclosed",
+            "This move highlights the growing importance of AI in healthcare"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition demonstrates the increasing role of AI in digital health",
+            "OpenLoop's expanded capabilities will enable more effective patient engagement",
+            "The deal may pave the way for further consolidation in the AI-powered healthcare market",
+            "Source: MarketScale, 04 Jul 2026"
+          ]
+        }
+      },
+      "caption": "OpenLoop's acquisition of Hey Revia marks a significant move in the AI-driven digital health landscape. What does this mean for the future of patient care and communication? How will AI continue to shape the healthcare industry? Questions to consider: What are the potential benefits and challenges of integrating AI-powered communication platforms in healthcare? How will regulatory frameworks adapt to the growing use of AI in healthcare? #AI #Healthcare #DigitalHealth #Mergers"
+    }
+  ]
+}

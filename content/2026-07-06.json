@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-06",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Boost",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N2",
+      "eventDate": "06 Jul 2026",
+      "sourceName": "ascendants.in",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXFhMnJXakhjLVAtcXdBMVFnbnZhRXBDa3lZeW51OHgyLW5xTDhweVUta2N0TGZYRGZYUnVaaEpreFhTdTcxSEh1OTRsblU5b2ZPT2QxeTNmZmpCQlA5VE92SV9fdVJVMTFaMGlwUlo4RHh2eUVQSmRzU1pDMGVHNHJRRDZiVWlXZUdfWEdzMWFkUGZ3SHN0eHhOekVFTVZxNTNncDN3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cursor Targets $2 Billion Raise",
+          "subtitle": "AI coding race intensifies"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Jul 2026",
+            "Cursor is targeting a $2 billion raise at a $50 billion valuation.",
+            "This move is part of the intensifying AI coding race.",
+            "The funding will be used to further develop AI coding technologies.",
+            "The exact timeline for the raise has not been disclosed."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The AI coding race is becoming increasingly competitive.",
+            "Companies like Cursor are investing heavily in AI research and development.",
+            "This trend is expected to continue as AI technology advances.",
+            "The outcome of this race will have significant implications for the tech industry."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The $2 billion raise is a significant investment in AI coding technology.",
+            "The $50 billion valuation is a testament to the growing importance of AI in the tech industry.",
+            "The AI coding race is driving innovation and advancements in the field.",
+            "Source: ascendants.in, Jul 2026"
+          ]
+        }
+      },
+      "caption": "The AI coding race is heating up, with Cursor targeting a $2 billion raise at a $50 billion valuation. This move is part of a larger trend of companies investing heavily in AI research and development. What does this mean for the future of the tech industry? Questions to consider: How will this investment impact the development of AI coding technologies? What are the potential implications for the industry as a whole? #AI #coding #funding #techindustry #innovation"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Risks",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N11",
+      "eventDate": "06 Jul 2026",
+      "sourceName": "IT Voice Media",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQemFnMlhCRVpsbnJFcTFrTzhaX1lSVU5ORWp3cFBOMUtudEZDZ0ZGeHJvU0NlSU1LZFBmU2pGUmlINC12bHhjOEVqRFJmZVpiZnpiZE1lZTl4ZmRMeUFvem1wUldvWHp2RnFQRGM2WjJXckdlV3hXMHRqWDYzLWRqMlZXbnBoaW1ob29IYm4wVzdXTE9XbzRJRENHVUZHMDFYRnZxV19HMGJIR1dOdTZmZTd5VTlpc1piaDcxV0t6WE1HNC1TU0hHaHhLTDlYNUhBX0trYlRPdGRuQW5QUjZsNUNaY0NmQUN2d1VXSzVhaDRHUlBDY0RKSTFzTGxuNjRlQ01kYk5VSjd5WW1kRWFmQ1VRQVlCakI5Yk9KOGpuZFc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Floods Security Teams with Alerts",
+          "subtitle": "Critical vulnerabilities have doubled"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Jul 2026",
+            "New Check Point Exposure Management research has found that critical vulnerabilities have doubled.",
+            "Despite this, fewer than 1 in 12 demand urgent action.",
+            "The research highlights the need for improved security measures.",
+            "The exact number of vulnerabilities is not specified, but the trend is clear."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The increase in critical vulnerabilities poses a significant risk to security teams.",
+            "The lack of urgent action is concerning, given the potential consequences of a breach.",
+            "Improved security measures are necessary to mitigate these risks.",
+            "Source: IT Voice Media, 06 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The rise of AI has brought with it a number of security risks, including the potential for critical vulnerabilities to double. What can be done to mitigate these risks and improve security measures? Questions to consider: How can security teams effectively manage the influx of alerts from AI systems? What strategies can be implemented to reduce the risk of breaches? #AI #security #risks #vulnerabilities #mitigation"
+    },
+    {
+      "id": 3,
+      "topic": "Global Startup Investment",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N12",
+      "eventDate": "02 Jul 2026",
+      "sourceName": "Crunchbase News",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlM1RWVud3pTT0dUazNMQ2pZVTF0T0VRUWhLX2VfVERNNnY4X1plS1F5UjhqOG1OY0liX1ZRa3psYUxBN2U1Qm5fRGU0MGdRYkRUTnctMWswc2lQaGRhSk1JYVBnOXRoS2I5NHVXdkNBcTlLbjJRUXBVRWtUZHo5ckxlV1VIU1Rad09R?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Global Startup Investment Hits Record $510B",
+          "subtitle": "AI boom accelerates funding and exits"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 02 Jul 2026",
+            "Global startup investment has hit a record $510 billion in the first half of 2026.",
+            "The AI boom has accelerated funding and exits, driving this growth.",
+            "The exact breakdown of investment by region is not specified, but the trend is clear.",
+            "The $510 billion figure is a significant increase from previous years."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The record investment is a testament to the growing importance of startups in the global economy.",
+            "The AI boom has created new opportunities for funding and exits.",
+            "The trend is expected to continue, with AI driving innovation and growth.",
+            "Source: Crunchbase News, 02 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Global startup investment has hit a record $510 billion in the first half of 2026, driven in part by the AI boom. What does this mean for the future of the startup ecosystem? Questions to consider: How will this investment impact the development of new technologies and innovations? What are the potential implications for the global economy? #startups #investment #AI #innovation #growth"
+    }
+  ]
+}

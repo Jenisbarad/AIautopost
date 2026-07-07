@@ -8,123 +8,141 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Investment Boom",
+      "topic": "AI Chip Demand",
       "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N3",
-      "eventDate": "02 Jul 2026",
-      "sourceName": "Crunchbase News",
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "eventDate": "06 Jul 2026",
+      "sourceName": "dars.gov.et",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlM1RWVud3pTT0dUazNMQ2pZVTF0T0VRUWhLX2VfVERNNnY4X1plS1F5UjhqOG1OY0liX1ZRa3psYUxBN2U1Qm5fRGU0MGdRYkRUTnctMWswc2lQaGRhSk1JYVBnOXRoS2I5NHVXdkNBcTlLbjJRUXBVRWtUZHo5ckxlV1VIU1Rad09R?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa3ptUWNEYWRGMmh3V1YyemJsZFNzb2ZKZTFjaHRCR1MwWld6cmRPM0hpaWt3VHlIV0syOGNRelFocUl3a3pnYmQtZVlCRloyZktIQ25FY1RuQnFsUU80UHZXejlfR3prUEFaTHFLbW9tU2R6a3h6ZEZLNjR0Q2tmTE5pT0FkMXU3XzNmRElNeFdfWjdMR2hqQ1hLTmdWbUhpVWpOUnQwVk4xVVhJRURWUUljMnNQUQ?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Record-Breaking Investment",
-          "subtitle": "Global startup investment reaches new heights"
+          "headline": "SK Hynix's $28 Billion Nasdaq IPO",
+          "subtitle": "A bellwether for AI chip demand"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 02 Jul 2026",
-            "Global startup investment hit a record $510B in H1 2026",
-            "AI boom accelerates funding and exits",
-            "Investments in AI startups drive growth",
-            "Startup funding sees significant increase"
+            "Event date: 06 Jul 2026",
+            "SK Hynix plans to raise $28 billion in its US IPO",
+            "The IPO could be a bellwether for AI chip demand",
+            "One-time gain impact is expected",
+            "The company's valuation will be closely watched"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "Increased investment in AI startups can lead to innovation and job creation",
-            "Growth in AI funding can drive technological advancements",
-            "Record-breaking investment can lead to increased competition and innovation",
-            "AI startups can drive economic growth"
+            "AI chip demand is on the rise",
+            "SK Hynix's IPO could set the tone for the industry",
+            "The company's performance will be closely watched by investors",
+            "The IPO's success will impact the overall AI chip market"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI boom is driving investment in startups",
-            "Record-breaking investment can lead to increased innovation",
-            "Startup funding is crucial for economic growth",
-            "Source: Crunchbase News, Jul 2026"
+            "The IPO is expected to have a significant impact on the AI chip market",
+            "SK Hynix's valuation will be closely watched by investors",
+            "The company's performance will be a bellwether for the industry",
+            "Source: dars.gov.et, Jul 2026"
           ]
         }
       },
-      "caption": "The AI investment boom is driving record-breaking investment in startups. With global startup investment reaching $510B in H1 2026, the AI boom is accelerating funding and exits. What does this mean for the future of AI and startup funding? Questions to consider: How will increased investment in AI startups impact innovation and job creation? Will the growth in AI funding lead to increased competition and innovation? #AIInvestment #StartupFunding #Innovation #JobCreation #AIBoom"
+      "caption": "SK Hynix's $28 billion Nasdaq IPO is making headlines. The IPO could be a bellwether for AI chip demand. But what does this mean for the industry? Will the IPO's success have a positive impact on the AI chip market? Questions to consider: What will be the impact of SK Hynix's IPO on the AI chip market? How will the company's valuation affect the industry? #AI #ChipDemand #NasdaqIPO #SKHynix #TechNews"
     },
     {
       "id": 2,
-      "topic": "Cybersecurity Update",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N11",
-      "eventDate": "06 Jul 2026",
-      "sourceName": "Security Boulevard",
+      "topic": "AI Startup Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N12",
+      "eventDate": "07 Jul 2026",
+      "sourceName": "Retail Technology Innovation Hub",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSlktanF1aDlKeTItOXJCSUVMaVhOOUlSZFFBYmRCVGdaY3plcDlFRnFXbklsU2RGMndyZkpsUHpWZFVnbF83c1VRYVNZbWdXd0RSUVBUY21nUkZZdE5peHFOSXVwZjRNSnFUYVpTSlNEUGFReTFHNXUxbzVBVTZhRzdXbE5pemtaN3hXZVE0Qm9YQ0dWdmc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU1ZVaUdMTFRvYjRXVnRtOVQybUg3MXVUZ1kzSmNxY1dKOWZ3djhSbXl3N1MzTWJMXzRMU3NrdlBZS0VvQUdKOTRFdlhlLW5aQ2oxbTE3bzQ0WF9jaXVGVlo0UGI1MUFiNTczbjhNS0ZCdnIzWE85cTdwQ0hCMkc4VFNtcUIyS0M2QTRyd3pkdjJCajFsUUppT1dLOXR6SFNxa2xPdk16REFQREN4X3Y5b0xvRjhGRGtnSkhpQzdyTjktWTVrY0RDeXBkTDBpejg5cFE?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Changes Its Rules",
-          "subtitle": "Adapting to new features and cybersecurity"
+          "headline": "London-based AI Startup Raises $12 Million",
+          "subtitle": "Seed funding round led by AlbionVC"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 06 Jul 2026",
-            "Anthropic changes its rules to adapt to new features",
-            "New features require updated cybersecurity measures",
-            "Anthropic prioritizes cybersecurity and user safety",
-            "Changes aim to improve user experience"
+            "Event date: 07 Jul 2026",
+            "London-based generative AI startup geoSurge raised $12 million in seed funding",
+            "The funding round was led by AlbionVC",
+            "The startup plans to use the funds to expand its operations",
+            "The investment will help the startup to develop its AI technology"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round is a significant investment in the AI startup ecosystem",
+            "geoSurge plans to use the funds to expand its operations and develop its AI technology",
+            "The investment will help the startup to compete in the growing AI market",
+            "The funding round will have a positive impact on the AI startup ecosystem"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Anthropic's updated rules demonstrate a commitment to cybersecurity",
-            "Cybersecurity is crucial for protecting user data and safety",
-            "Regular updates and changes can improve user experience",
-            "Source: Security Boulevard, 06 Jul 2026"
+            "The funding round is a significant investment in the AI startup ecosystem",
+            "geoSurge plans to use the funds to expand its operations and develop its AI technology",
+            "The investment will help the startup to compete in the growing AI market",
+            "Source: Retail Technology Innovation Hub, Jul 2026"
           ]
         }
       },
-      "caption": "Anthropic has changed its rules to adapt to new features and prioritize cybersecurity. With the ever-evolving landscape of cybersecurity threats, it's essential for companies to stay ahead of the curve. What does this mean for user safety and data protection? Questions to consider: How do companies balance innovation with cybersecurity concerns? What role do regular updates play in maintaining user trust? #Cybersecurity #Anthropic #UserSafety #DataProtection"
+      "caption": "London-based AI startup geoSurge has raised $12 million in seed funding. The funding round was led by AlbionVC. But what does this mean for the AI startup ecosystem? Questions to consider: How will the funding round impact the AI startup ecosystem? What are the plans of geoSurge for the future? #AI #StartupFunding #GeoSurge #AlbionVC #TechNews"
     },
     {
       "id": 3,
-      "topic": "AI Language Learning",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N21",
-      "eventDate": "06 Jul 2026",
-      "sourceName": "Slator",
+      "topic": "Enterprise AI",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N18",
+      "eventDate": "07 Jul 2026",
+      "sourceName": "Sahi",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4ZGk5M3dOXzFSbW9NemlCcVlIWklicUJla1hueFk2WWhvYlZZb3ljXzF4MWNxWlJjY3lsaEhJSHlHV0ZjQXVqREtVZ19PdVZXeUpDLUF5YXI0bGdmTXRUaWROblZGVlhWdzRrckVEYmMwVTRjMHpUYQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMHM0aFZ5V1VGaWR3RWxHQUZWS1IySGFlZ2htdS0tZnQ2NWVSdkFxVEtLOEl4V2lnd3BtR2hHWXl6TjJmZXdHUko2T1dTUHdEOFJSSEhsRS1HTjh1cGtCa01CbFhYRzFZRkxKWXV1TmE1X1FiNkxhTDdKUm51YzYwd1FGZXZQcHV6REdmSkFYMG1aNmlqMDhRN240WHpMZFU2MFlYai1lNk45X1JsanZLbGJSeHRsd3lxNEh0REhGSExrcVV3bkdWcHRLWHdzdnZ4Ynk2Sw?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Lucida Raises GBP 5.3M",
-          "subtitle": "AI language learning startup sees significant investment"
+          "headline": "LatentView Partners with Anthropic",
+          "subtitle": "To accelerate enterprise AI across 3 core verticals"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 06 Jul 2026",
-            "Lucida raises GBP 5.3M in seed round",
-            "Investment will drive growth and development of AI language learning platform",
-            "Lucida aims to improve language learning outcomes",
-            "GBP 5.3M investment is a significant boost for the startup"
+            "Event date: 07 Jul 2026",
+            "LatentView has partnered with Anthropic to accelerate enterprise AI",
+            "The partnership will focus on 3 core verticals",
+            "The partnership will help LatentView to expand its AI capabilities",
+            "The partnership will enable Anthropic to reach a wider audience"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The partnership will help LatentView to accelerate its enterprise AI capabilities",
+            "The partnership will enable Anthropic to reach a wider audience",
+            "The partnership will have a significant impact on the enterprise AI market",
+            "The partnership will drive innovation in the industry"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Lucida's investment demonstrates the potential of AI in language learning",
-            "AI-powered language learning can improve outcomes and accessibility",
-            "Investment in edtech startups can drive innovation",
-            "Source: Slator, 06 Jul 2026"
+            "The partnership will help LatentView to accelerate its enterprise AI capabilities",
+            "The partnership will enable Anthropic to reach a wider audience",
+            "The partnership will have a significant impact on the enterprise AI market",
+            "Source: Sahi, Jul 2026"
           ]
         }
       },
-      "caption": "Lucida, an AI language learning startup, has raised GBP 5.3M in a seed round. This significant investment demonstrates the potential of AI in language learning and the growing interest in edtech startups. What does this mean for the future of language learning? Questions to consider: How can AI improve language learning outcomes? What role will AI play in the future of education? #AILanguageLearning #Edtech #Innovation #Education"
+      "caption": "LatentView has partnered with Anthropic to accelerate enterprise AI across 3 core verticals. But what does this mean for the enterprise AI market? Questions to consider: How will the partnership impact the enterprise AI market? What are the plans of LatentView and Anthropic for the future? #AI #EnterpriseAI #LatentView #Anthropic #Partnership"
     }
   ]
 }

@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-08",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Boom",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "eventDate": "03 Jul 2026",
+      "sourceName": "Forbes",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd1ZhNVZuQlN2OC1BYlJZZGkwek1uXzZTZF8zb1BiSWFBSDRZUlJuUXFmVkFNVTQxZk5tUHN4U3NFRzVtcVBFdGhnLWFwRGFXb3MtOVN0N1VzUGtfQ0VnMkFVSkJYd3dLaExnYWVkNndKbGhBcmxHUGhrdHlPVnl0ZWY4WkJlSlczUE1SVWpYNFBRdTRndUJYWXptQzg1OVZXOXhYNjRSVjZZSjM3R24zMDZUWXJGdnM1MGE2YXh4Tkhmb05BbnpFZzJIZ1pURjAyMmVHQ295NGE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Startup Raises $6.5 Million",
+          "subtitle": "To Ease Payments Made By AI Employees"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Jul 2026",
+            "A startup has raised $6.5 million",
+            "to develop technology for AI employee payments",
+            "The funding will help the company expand its services",
+            "and improve the efficiency of AI-driven transactions"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding is a significant milestone for the startup",
+            "as it demonstrates the growing demand for AI-related services",
+            "The company's technology has the potential to disrupt the industry",
+            "by making AI employee payments more efficient and secure"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The startup's technology is designed to ease payments made by AI employees",
+            "The funding will help the company expand its services to more customers",
+            "The company's technology has the potential to disrupt the industry",
+            "Source: Forbes, Jul 2026"
+          ]
+        }
+      },
+      "caption": "The AI funding boom continues to gain momentum. A startup has raised $6.5 million to develop technology for AI employee payments. This funding is a significant milestone for the startup and demonstrates the growing demand for AI-related services. Questions to consider: What are the implications of AI employee payments on the industry? How will this technology disrupt the market? #AI #Funding #Startup #Innovation #Disruption #payments"
+    },
+    {
+      "id": 2,
+      "topic": "Google Pixel 11 Leak",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N4",
+      "eventDate": "07 Jul 2026",
+      "sourceName": "9to5Google",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBTeFJGenFMWmNtaFBsazJCakZXazMxWXlsbndBVktGallsYm83Zlo4UXhuZElBWi1rNjB4dXVmVXptdkFXanpaT2IyYXZNcnB3ZlZsZXJmZ25aQm1HcTNBTm95ZkdUcWQtamlKLU1LWEIyX2R2bmNGdU5jVmxvZw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Pixel 11 Leak Reveals Higher Prices",
+          "subtitle": "No 128GB Model, August Release Date"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Jul 2026",
+            "A leak has revealed that the Google Pixel 11 will have higher prices",
+            "The base model will start at a higher price point than the previous generation",
+            "There will be no 128GB model available",
+            "The phone is expected to be released in August"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The higher prices may be due to the improved features and specifications of the phone",
+            "The lack of a 128GB model may be a disappointment for some customers",
+            "The August release date is consistent with previous Google Pixel releases",
+            "Source: 9to5Google, July 2026"
+          ]
+        }
+      },
+      "caption": "A leak has revealed that the Google Pixel 11 will have higher prices and no 128GB model. The phone is expected to be released in August. Questions to consider: How will the higher prices affect sales of the Google Pixel 11? What features will the phone have to justify the increased cost? #Google #Pixel11 #Leak #Smartphone #ReleaseDate"
+    },
+    {
+      "id": 3,
+      "topic": "Baidu AI Chip Subsidiary",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N7",
+      "eventDate": "29 Jun 2026",
+      "sourceName": "HDFC Sky",
+      "sourceMonthYear": "Jun 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ENTdhSTc3T09VckhTUjRmc19XZTRkUHM4bDhBTzJ3eXl4YWwzRkM0Rm9iSlYyVHV3WE1vSVBoeWxxMlhIQ1oxTkZjazBxNVlMb2tPUk1oeU13NjZoOXluOUxSbkVxNWVuajZrRVVPaHpnUGljOWctTnFzc0N3V1k?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Baidu AI Chip Subsidiary Targets $50-bn Hong Kong IPO",
+          "subtitle": "After Baidu Posts Dramatic Intraday Reversal on Nasdaq"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 Jun 2026",
+            "Baidu's AI chip subsidiary is targeting a $50 billion Hong Kong IPO",
+            "The subsidiary's IPO is expected to be one of the largest in Hong Kong",
+            "Baidu's stock price ended at $104 on the Nasdaq after a dramatic intraday reversal",
+            "The company's AI chip business is a key growth area"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The IPO will provide Baidu's AI chip subsidiary with significant funding for expansion",
+            "The company's AI chip business has the potential to drive growth and innovation",
+            "The Hong Kong IPO market is becoming increasingly attractive for tech companies",
+            "Source: HDFC Sky, June 2026"
+          ]
+        }
+      },
+      "caption": "Baidu's AI chip subsidiary is targeting a $50 billion Hong Kong IPO. The company's AI chip business is a key growth area and the IPO will provide significant funding for expansion. Questions to consider: How will the IPO affect Baidu's stock price? What are the implications of the Hong Kong IPO market for tech companies? #Baidu #AI #Chip #IPO #HongKong"
+    }
+  ]
+}

@@ -8,123 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Boom",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N3",
-      "eventDate": "03 Jul 2026",
-      "sourceName": "Forbes",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd1ZhNVZuQlN2OC1BYlJZZGkwek1uXzZTZF8zb1BiSWFBSDRZUlJuUXFmVkFNVTQxZk5tUHN4U3NFRzVtcVBFdGhnLWFwRGFXb3MtOVN0N1VzUGtfQ0VnMkFVSkJYd3dLaExnYWVkNndKbGhBcmxHUGhrdHlPVnl0ZWY4WkJlSlczUE1SVWpYNFBRdTRndUJYWXptQzg1OVZXOXhYNjRSVjZZSjM3R24zMDZUWXJGdnM1MGE2YXh4Tkhmb05BbnpFZzJIZ1pURjAyMmVHQ295NGE?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Startup Raises $6.5 Million",
-          "subtitle": "To Ease Payments Made By AI Employees"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 03 Jul 2026",
-            "A startup has raised $6.5 million",
-            "to develop technology for AI employee payments",
-            "The funding will help the company expand its services",
-            "and improve the efficiency of AI-driven transactions"
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "The funding is a significant milestone for the startup",
-            "as it demonstrates the growing demand for AI-related services",
-            "The company's technology has the potential to disrupt the industry",
-            "by making AI employee payments more efficient and secure"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The startup's technology is designed to ease payments made by AI employees",
-            "The funding will help the company expand its services to more customers",
-            "The company's technology has the potential to disrupt the industry",
-            "Source: Forbes, Jul 2026"
-          ]
-        }
-      },
-      "caption": "The AI funding boom continues to gain momentum. A startup has raised $6.5 million to develop technology for AI employee payments. This funding is a significant milestone for the startup and demonstrates the growing demand for AI-related services. Questions to consider: What are the implications of AI employee payments on the industry? How will this technology disrupt the market? #AI #Funding #Startup #Innovation #Disruption #payments"
-    },
-    {
-      "id": 2,
-      "topic": "Google Pixel 11 Leak",
+      "topic": "AI Startup Funding",
       "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N4",
-      "eventDate": "07 Jul 2026",
-      "sourceName": "9to5Google",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBTeFJGenFMWmNtaFBsazJCakZXazMxWXlsbndBVktGallsYm83Zlo4UXhuZElBWi1rNjB4dXVmVXptdkFXanpaT2IyYXZNcnB3ZlZsZXJmZ25aQm1HcTNBTm95ZkdUcWQtamlKLU1LWEIyX2R2bmNGdU5jVmxvZw?oc=5",
+      "svgIcon": "brain",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "Google Pixel 11 Leak Reveals Higher Prices",
-          "subtitle": "No 128GB Model, August Release Date"
+          "headline": "Norm Ai Hits $1.2 Billion Valuation",
+          "subtitle": "After $120 Million Funding Round"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 07 Jul 2026",
-            "A leak has revealed that the Google Pixel 11 will have higher prices",
-            "The base model will start at a higher price point than the previous generation",
-            "There will be no 128GB model available",
-            "The phone is expected to be released in August"
+            "Norm Ai, a legal AI startup, has hit a $1.2 billion valuation",
+            "after raising $120 million in funding",
+            "This funding round brings the company's total valuation to $1.2 billion",
+            "with $120 million in new funding"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The higher prices may be due to the improved features and specifications of the phone",
-            "The lack of a 128GB model may be a disappointment for some customers",
-            "The August release date is consistent with previous Google Pixel releases",
-            "Source: 9to5Google, July 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round is significant for Norm Ai as it validates the company's AI technology",
+            "and its potential to disrupt the legal industry",
+            "The funding will be used to further develop the company's AI platform",
+            "and expand its operations"
           ]
         }
       },
-      "caption": "A leak has revealed that the Google Pixel 11 will have higher prices and no 128GB model. The phone is expected to be released in August. Questions to consider: How will the higher prices affect sales of the Google Pixel 11? What features will the phone have to justify the increased cost? #Google #Pixel11 #Leak #Smartphone #ReleaseDate"
+      "caption": "Norm Ai, a legal AI startup, has hit a $1.2 billion valuation after raising $120 million in funding. This funding round is significant for the company as it validates its AI technology and its potential to disrupt the legal industry. Questions to consider: What are the implications of AI in the legal industry? How will Norm Ai use this funding to further develop its AI platform? #AI #LegalTech #Funding #Startup #NormAi\nSource: TradingView, 07 Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZGY4bUxZeVBENUppbTcxbk1YZ1Vva0Fka2wtVW1XRGl3NG1ZUUVaUkpCVi1UeG04Z0ZJakI5OFp0TEZwb0xkRktLdkI5UFdVUEhEUGVpbVpwbXFPbWY2b2hSbzdSTERqdWowZ28yOXRpR1ZfQjQzYWlONEJ0a0JEX19kdjc1YnQ1eUc1dlo5eVNJTklGbE9jdkFNUDU3cDFnbTFMdXcxbWpvanM5a0dORWFBaVoxZ2t4NDRRczNGU2h5LV94eHdBNURKUk1WaDFkZ2t3MHV1OUNEcEFVb2cxXw?oc=5",
+      "sourceName": "TradingView",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "07 Jul 2026"
     },
     {
-      "id": 3,
-      "topic": "Baidu AI Chip Subsidiary",
-      "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N7",
-      "eventDate": "29 Jun 2026",
-      "sourceName": "HDFC Sky",
-      "sourceMonthYear": "Jun 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ENTdhSTc3T09VckhTUjRmc19XZTRkUHM4bDhBTzJ3eXl4YWwzRkM0Rm9iSlYyVHV3WE1vSVBoeWxxMlhIQ1oxTkZjazBxNVlMb2tPUk1oeU13NjZoOXluOUxSbkVxNWVuajZrRVVPaHpnUGljOWctTnFzc0N3V1k?oc=5",
+      "id": 2,
+      "topic": "AI Chip Startup IPO",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N11",
       "slideContent": {
         "slide1": {
-          "headline": "Baidu AI Chip Subsidiary Targets $50-bn Hong Kong IPO",
-          "subtitle": "After Baidu Posts Dramatic Intraday Reversal on Nasdaq"
+          "headline": "Syntiant Files for Nasdaq IPO",
+          "subtitle": "Backed by Intel, Maker of AI Chips for Earbuds and Cars"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 29 Jun 2026",
-            "Baidu's AI chip subsidiary is targeting a $50 billion Hong Kong IPO",
-            "The subsidiary's IPO is expected to be one of the largest in Hong Kong",
-            "Baidu's stock price ended at $104 on the Nasdaq after a dramatic intraday reversal",
-            "The company's AI chip business is a key growth area"
+            "Event date: 07 Jul 2026",
+            "Syntiant, an AI chip startup, has filed for an initial public offering (IPO) on Nasdaq",
+            "The company is backed by Intel and makes AI chips for earbuds and cars",
+            "Syntiant's IPO filing comes as the company looks to expand its operations and develop new products",
+            "with a focus on AI-powered chips"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Syntiant's IPO filing is significant for the AI chip industry as it highlights the growing demand for AI-powered chips",
+            "The company's IPO will provide it with the necessary funds to further develop its products and expand its operations",
+            "Syntiant's focus on AI-powered chips for earbuds and cars is a key area of growth for the company",
+            "as the demand for AI-powered devices continues to increase"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The IPO will provide Baidu's AI chip subsidiary with significant funding for expansion",
-            "The company's AI chip business has the potential to drive growth and innovation",
-            "The Hong Kong IPO market is becoming increasingly attractive for tech companies",
-            "Source: HDFC Sky, June 2026"
+            "Syntiant's IPO filing is a significant development for the AI chip industry",
+            "The company's focus on AI-powered chips for earbuds and cars is a key area of growth",
+            "The demand for AI-powered devices is increasing rapidly",
+            "Source: Yahoo Finance, Jul 2026"
           ]
         }
       },
-      "caption": "Baidu's AI chip subsidiary is targeting a $50 billion Hong Kong IPO. The company's AI chip business is a key growth area and the IPO will provide significant funding for expansion. Questions to consider: How will the IPO affect Baidu's stock price? What are the implications of the Hong Kong IPO market for tech companies? #Baidu #AI #Chip #IPO #HongKong"
+      "caption": "Syntiant, an AI chip startup backed by Intel, has filed for an initial public offering (IPO) on Nasdaq. The company makes AI chips for earbuds and cars and is looking to expand its operations and develop new products. Questions to consider: What are the implications of AI-powered chips in the earbuds and cars industry? How will Syntiant's IPO impact the AI chip industry? #AI #ChipStartup #IPO #Nasdaq #Syntiant\n",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSnQtd09pb1Z3aVd0V3JERDhRX3BqMGNMUHhCOGlVQ2ZWWDhja3EtaVp5QXFUWkJ6NzhZT0dMZXJldWhKMDZZSEdLem9ITnhoN2xPN3d1N3NaNzhXQTRYbjRqSll2b0xwdDd5dUtnZ1RRVThHSXFVU2VHU2tZX04xSWNWX1BuQ2JTMFVnWW1tRmlYMTkyc1BvSkxR?oc=5",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "07 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security Concerns",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N18",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI to Launch GPT-5.6",
+          "subtitle": "After US Delays Release Over AI Security Concerns"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 08 Jul 2026",
+            "OpenAI is set to launch its new GPT-5.6 model after the US delayed its release due to AI security concerns",
+            "The US government had raised concerns over the potential risks of the model",
+            "OpenAI has since addressed these concerns and is now ready to launch the model",
+            "with improved security measures in place"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of GPT-5.6 is significant for the AI industry as it highlights the growing concerns over AI security",
+            "The US government's delay of the model's release is a testament to the need for stricter regulations and guidelines for AI development",
+            "OpenAI's efforts to address these concerns and improve the model's security are a step in the right direction",
+            "Source: Ynetnews, 08 Jul 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI is set to launch its new GPT-5.6 model after the US delayed its release due to AI security concerns. The company has addressed these concerns and is now ready to launch the model with improved security measures in place. Questions to consider: What are the implications of AI security concerns for the industry? How will OpenAI's efforts to improve the model's security impact the development of AI? #AI #Security #GPT56 #OpenAI\n",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tQnptMzlzYmZLTjh1eC1VVm9EZC02SU1jdmFxdWh5Z3U2ckk4YW1iUTNVWFUycWdzbld2NzB0dW9ydzgxUDZwSkZUc0h2Q1BPVlROYS1FbkQteEJNcHdIMWxsQ01IVXBuQzhENg?oc=5",
+      "sourceName": "Ynetnews",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "08 Jul 2026"
     }
   ]
 }

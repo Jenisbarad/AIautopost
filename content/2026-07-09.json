@@ -1,0 +1,120 @@
+{
+  "date": "2026-07-09",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Cooling Platform",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Ecolab Expands AI Cooling Platform",
+          "subtitle": "Global High Tech Business Targets $4 Billion by 2030"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Ecolab closed the CoolIT acquisition on 08 Jul 2026",
+            "The acquisition expands Ecolab's AI cooling platform",
+            "The global high tech business targets $4 billion by 2030"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The expansion of the AI cooling platform is a significant step for Ecolab",
+            "It highlights the growing importance of AI in the high tech industry",
+            "The target of $4 billion by 2030 is an ambitious goal for the company"
+          ]
+        }
+      },
+      "caption": "Ecolab's expansion of its AI cooling platform is a significant move in the high tech industry. The company's target of $4 billion by 2030 is ambitious, but the growing importance of AI in the industry makes it a potentially achievable goal. Questions to consider: What are the potential applications of Ecolab's AI cooling platform? How will the company achieve its target of $4 billion by 2030? #AI #HighTech #CoolingPlatform #Ecolab",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2NUJwT0RNQ3UwNjZYVHZzVTBVWWRFMWJrWFZHdUxJUG93X05PTnRmYTZOX1BnR0I0c3NBXzYyTXVTLW1td1FGbFdQRUkwenVaMktFZjZ3?oc=5",
+      "sourceName": "AZoM",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "08 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "EU AI Act 2026",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act 2026: What You Need to Know",
+          "subtitle": "Implications for AI Companies and Investors"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "The EU AI Act 2026 was introduced on 09 Jul 2026",
+            "The act aims to regulate the development and use of AI in the EU",
+            "It has significant implications for AI companies and investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act 2026 is a significant regulatory development for the AI industry",
+            "It highlights the growing importance of responsible AI development and use",
+            "The act has the potential to impact AI companies and investors globally"
+          ]
+        }
+      },
+      "caption": "The EU AI Act 2026 is a significant regulatory development for the AI industry. The act aims to regulate the development and use of AI in the EU, and has significant implications for AI companies and investors. Questions to consider: What are the key provisions of the EU AI Act 2026? How will the act impact AI companies and investors globally? #AI #EU #Regulation #AIAct2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OOUZ1Z0NvaWRNMkZxdjBCcmdwbEYxNmprR1Zwc2pGZDU2UjJTbW90OVh2ZEo4a0I1ZHBHZzdJMUpXNHFyS01ZakVfOUtBMTROaGN4b3RlRTVPZ282b1djWHhrcURnZlh1anVFMzNyVWI?oc=5",
+      "sourceName": "EBC Financial Group",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "09 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Norm Raises $120M in Funding",
+          "subtitle": " Hits Unicorn Valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Norm raised $120M in funding on 07 Jul 2026",
+            "The funding round valued the company at $1.2 billion",
+            "The company is a legal AI startup"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round is a significant development for the AI industry",
+            "It highlights the growing importance of legal AI",
+            "The valuation of $1.2 billion is a notable milestone for the company"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round will help Norm expand its operations",
+            "The company's legal AI platform has significant potential for growth",
+            "Source: TechCrunch, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Norm's $120M funding round is a significant development for the AI industry. The company's legal AI platform has significant potential for growth, and the valuation of $1.2 billion is a notable milestone. Questions to consider: What are the potential applications of Norm's legal AI platform? How will the company use the funding to expand its operations? #AI #Funding #LegalAI #Norm",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "07 Jul 2026"
+    }
+  ]
+}

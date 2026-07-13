@@ -8,123 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
-      "slides": 4,
+      "topic": "AI Training",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "13 Jul 2026",
-      "sourceName": "fundsforNGOs News",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMFYwRDR6VS1JdC1fYTU5VGRnSXg3bFZCMFRoakFIc2FERGxXUDloRXN0ZGJoZkFuRTBaR2s1S2ZYWDduNi1RLXNRN1ZCRThRdGFwZUw1Vko5Mjg2czVOTHhoRk54UFBBNDI5TUNNaHlqN21fR1A0WHFEN08tOEU1MWhndjlrbVFYakxEaC13dmNlSFRlRnRyMDNqYTQ4eTd5YWdaTmVKMEc0MV9IcGFvVzhFejIyMDQtSU5GcklVYWlFcDlKTGdZZG56WTFFMXJvVklqaTNB?oc=5",
+      "sourceId": "N22",
       "slideContent": {
         "slide1": {
-          "headline": "AI Robotics Startup Physical Intelligence Targets $1 Billion Funding Round",
-          "subtitle": "At $11 Billion Valuation"
+          "headline": "Mercor's AI Ambitions",
+          "subtitle": "Aiming high with AI training"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 13 Jul 2026",
-            "AI Robotics Startup Physical Intelligence is targeting a $1 billion funding round",
-            "The funding round values the company at $11 billion",
-            "This is a significant investment in the AI robotics space",
-            "The company is looking to expand its operations and develop new technologies"
+            "Event date: 11 Jul 2026",
+            "AI Training Startup Mercor aims to double its valuation to $20 billion.",
+            "This is driven by surging AI revenue.",
+            "The company's current valuation is $10 billion.",
+            "Mercor's goal is ambitious, but achievable."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This funding round is a major milestone for Physical Intelligence",
-            "It demonstrates the growing interest in AI robotics and its potential applications",
-            "The company's technology has the potential to revolutionize industries such as manufacturing and healthcare",
-            "The investment will help Physical Intelligence to further develop its technology and expand its reach"
+            "Mercor's success could lead to more investment in AI training startups.",
+            "The company's focus on AI revenue could drive innovation in the field.",
+            "A valuation of $20 billion would make Mercor a major player in the AI industry.",
+            "This could have significant implications for the future of AI development."
+          ]
+        }
+      },
+      "caption": "Mercor, an AI training startup, is aiming to double its valuation to $20 billion. This is driven by surging AI revenue. The company's success could lead to more investment in AI training startups. Questions to consider: What are the implications of Mercor's ambitious goal? How will the company achieve its target valuation? What does this mean for the future of AI development? #AI #Training #Mercor #Investment #Innovation #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONXVuTFVWTzdqWGpoNXpYdElUd2wwZkhfZDdkRWdKQ1MycVJzb1hnOTdyMkpIcXMycDFWWm11Sm5EbFlMUmZVRUF1bFVGVGpMd3VLMlk3Q1UzZ0JZSUZXbmN4dTh0OG1RbXF2Y0EwYzFkRVRKajEwZnJhNUNadGZCRWJnZlZiWWotRENJdl9BNGcxREx6dHdoMUNSajVsTWh4eHZPYVI5QVFjZk5uem1oOWZhQjQ3NXlnaXZTVjZSMU3SAc4BQVVfeXFMTUpnZGlGcFpmZGQyN3JGcmU5YU5LcHJqazB4ckJkdVJMSUU3M0hUc010T3ZWOW5aN3ZBM2xRUU1lajZFVHFHNkZrUDNieEV4NUR3cGFUTXNhY2l4UEVGOEVUeER3Umw2UlpVMG9rZnRnVWp3UTlhRFJ4N1BES2pKN3ltazBWY1BSSXRZZXc5OGh0X051Z01xdDNiczJQZ2pVRFNZNlJuSWRTY1VsUTIwOFRTWkw3MTdZSjZ2dWZjMnpYLV9Ib1lIQjFKS3lMOFE?oc=5",
+      "sourceName": "outlookbusiness.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "11 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N20",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Vulnerabilities",
+          "subtitle": "A growing concern"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 13 Jul 2026",
+            "99.9% of fixable AI vulnerabilities remain unpatched.",
+            "This is a significant security risk.",
+            "The number of vulnerabilities is increasing.",
+            "Only 0.1% of vulnerabilities have been patched."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Unpatched vulnerabilities can be exploited by hackers.",
+            "This could lead to significant security breaches.",
+            "The lack of patching is a major concern for AI security.",
+            "Companies must take action to address this issue."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI robotics market is expected to grow significantly in the coming years",
-            "Physical Intelligence is well-positioned to take advantage of this growth",
-            "The company's technology has the potential to improve efficiency and productivity in various industries",
-            "Source: fundsforNGOs News, Jul 2026"
+            "The AI security industry must improve its patching processes.",
+            "Companies should prioritize AI security.",
+            "The consequences of unpatched vulnerabilities could be severe.",
+            "Source: Help Net Security, Jul 2026"
           ]
         }
       },
-      "caption": "AI Robotics Startup Physical Intelligence is targeting a $1 billion funding round at a valuation of $11 billion. This is a significant investment in the AI robotics space and demonstrates the growing interest in this technology. What does this mean for the future of AI robotics? How will this investment impact the industry? What are the potential applications of Physical Intelligence's technology? #AI #Robotics #Funding #Investment #Technology #Innovation Questions to consider: What are the potential risks and challenges associated with investing in AI robotics? How will Physical Intelligence's technology be used in various industries? What are the potential benefits of this technology? #AIFunding #RoboticsInvestment #TechNews"
-    },
-    {
-      "id": 2,
-      "topic": "AI Regulation",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N7",
-      "eventDate": "10 Jul 2026",
-      "sourceName": "The Lawyer",
+      "caption": "A recent report found that 99.9% of fixable AI vulnerabilities remain unpatched. This is a significant security risk, and companies must take action to address it. Questions to consider: What are the implications of unpatched AI vulnerabilities? How can companies improve their patching processes? What does this mean for the future of AI security? #AI #Security #Vulnerabilities #Patch #Cybersecurity #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVDJ3R3FINmRuc1ZHbURyV1pfTjduVkZTb0VmWC12ekVfdW5JMXR6aVRyeXpfNXAtVzdLakxkQ3laOFJ5dVdkX0ZCTUFXZ3JOSkFVNnRzd2I0am40aUhJVUE5TmZsOXhmNFdoLUVaSGo4STUzbkQ4bmN5di1ZLWxpcTZDQ3VNRW1hRHdv?oc=5",
+      "sourceName": "Help Net Security",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbzljZ3RpZ3ZQXzB0c1laLU1OTTNLR19UWEtZUEpBS2JSeUx3N1l0SG1lRVZ0UHRJeGpLTWlGbExibU5Ta1VrLUVGQU9EMlZPSkhqVWJna2pCTTFMWkNqNVlJcUZaUHY4MV9BbE5BbGNXaEZ1YXJBQXN5SnEyUm9qQ05EcmlDc1Y5aTBWY2NWLXZZV0dwejNHNmRjc2QtVkdSc04teEVjOFg0RlZyN0hzNjZlUS0zcjdFTEk5Z2xEaEVQZXdrU2pUNWVYdm96MEhWTHpGVnc5WjlSVHQyeHNNUVJXTjZoTEY2bHU0VGJ4VlloYU51MFZoenF3?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "EU AI Act: Commission Publishes Draft Guidelines",
-          "subtitle": "For Identifying High-Risk AI Systems"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 10 Jul 2026",
-            "The European Commission has published draft guidelines for identifying high-risk AI systems",
-            "The guidelines are part of the EU AI Act and aim to ensure the safe and responsible development of AI",
-            "The commission has identified 13 categories of high-risk AI systems, including those used in healthcare and transportation",
-            "The guidelines will help businesses to understand their obligations under the EU AI Act"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The EU AI Act is a significant regulatory development for the AI industry",
-            "The guidelines will help to ensure that AI systems are developed and used in a responsible and safe manner",
-            "The commission's approach is focused on risk-based regulation, which will help to promote innovation while protecting citizens",
-            "Source: The Lawyer, 10 Jul 2026"
-          ]
-        }
-      },
-      "caption": "The European Commission has published draft guidelines for identifying high-risk AI systems as part of the EU AI Act. What are the implications of these guidelines for businesses and the AI industry? How will the EU AI Act impact the development and use of AI systems? What are the potential benefits and challenges of this regulatory approach? #AI #Regulation #EUAIAct #HighRiskAI #ResponsibleAI Questions to consider: What are the key challenges in implementing the EU AI Act? How will the commission's guidelines be enforced? What are the potential consequences of non-compliance? #AIRegulation #EUAIAct #Compliance"
+      "eventDate": "13 Jul 2026"
     },
     {
       "id": 3,
-      "topic": "AI Market Trends",
+      "topic": "AI Funding",
       "slides": 3,
-      "svgIcon": "chart",
-      "sourceId": "N8",
-      "eventDate": "10 Jul 2026",
-      "sourceName": "EU-Startups",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa0xYMHlWTUlvX2F0Y2pXUUNSbXcyQUhpXzE1YzNYNXNjOHpzWnEwQkNZUmE1b0llMWE3S0RaZ0xSRlpMeE1XZjN3aVR2TUprejZvY0VhbnpXbUpHaDNkZEVSZjdUc045Zjgtdy1IbTlJX2VwRklMaEgwQkpTOTZIVFh5Zk1SNTM5cFRraXh0UlVCSVNUODFwc2huUTBIY3JZaERrUXRjc0MyMTVILW1nUno3dGZLOHBMeExNb2NMQThucVkzZVdmNXdrM3lSdUJfc3ZKNXpB?oc=5",
+      "svgIcon": "network",
+      "sourceId": "N9",
       "slideContent": {
         "slide1": {
-          "headline": "AI Puts UK Startup Funding Back in the Big Leagues",
-          "subtitle": "Strongest First Half Since 2022"
+          "headline": "Helsing's Funding",
+          "subtitle": "A significant investment"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 10 Jul 2026",
-            "AI has driven a surge in UK startup funding, with the strongest first half since 2022",
-            "The sector has seen significant investment, with many startups raising millions of dollars",
-            "The growth is attributed to the increasing adoption of AI technology, particularly in industries such as healthcare and finance",
-            "The trend is expected to continue, with many more startups expected to raise funding in the coming months"
+            "Event date: 13 Jul 2026",
+            "Europe's Anduril rival Helsing raised $1.8 billion at an $18 billion valuation.",
+            "This is a significant investment in the AI industry.",
+            "Helsing's valuation is now $18 billion.",
+            "The company plans to use the funding to drive growth."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI sector is driving growth in the UK startup market",
-            "The trend is expected to continue, with many more startups expected to raise funding",
-            "The increasing adoption of AI technology is driving investment in the sector",
-            "Source: EU-Startups, 10 Jul 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Helsing's funding is a significant investment in the AI industry.",
+            "The company's valuation of $18 billion is a testament to its growth potential.",
+            "This investment could lead to more funding for AI startups.",
+            "The implications of this funding are significant for the future of AI development."
           ]
         }
       },
-      "caption": "AI has driven a surge in UK startup funding, with the strongest first half since 2022. What are the implications of this trend for the AI industry and the broader startup market? How will the increasing adoption of AI technology impact investment in the sector? What are the potential opportunities and challenges for startups in this space? #AI #StartupFunding #UK #MarketTrends #Investment Questions to consider: What are the key drivers of the growth in AI startup funding? How will the trend impact the development of AI technology? What are the potential risks and challenges associated with investing in AI startups? #AIFunding #StartupInvestment #MarketTrends"
+      "caption": "Helsing, a European AI startup, raised $1.8 billion at an $18 billion valuation. This is a significant investment in the AI industry, and the company plans to use the funding to drive growth. Questions to consider: What are the implications of Helsing's funding? How will the company use the investment? What does this mean for the future of AI development? #AI #Funding #Helsing #Investment #Growth #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTGVEMDBXbGF3eUk4WWJHejhjcDZfYU9Qc0RoOWJJVW5CMUdCOFMtYjdoaldoRVdKNzU1QnZBVVliUnJJQjN4Y2NmVjM2YnBpbjZ0dTh5eXgyd0xJWi1kUWFVTTc2YzBrSlBGbXBLVHBzTl9uTl9ka3pwbmcyVUXSAYQBQVVfeXFMTlQ5VjQ4VkxhanNqcGdvb0FLS2VaQmJacTF6bTRGNVFBbWFkZE5iQ0dEeWxYT3BkRENRNzRRRUJSUkFUVHBhLWJqY2ltZEVzQl9qZVZaOFBPMllTMHYtdjZzZkpyU1p4X0RwLTJiYTJ0VVZFWU9kb2NJVDROUERHWS1ncGk0?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "13 Jul 2026"
     }
   ]
 }

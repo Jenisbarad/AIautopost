@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-13",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Vulnerabilities",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N6",
+      "eventDate": "13 Jul 2026",
+      "sourceName": "ANI News",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOTcxQWctZTVzQzNMbGxOOUQ1Y1pNOWpJTHQzWkp0NVNFdXRZT2h0Y0JJdHpYS3FibWN0QjdscGhLOVRtcmszcEFWZ3RaNkFlVmtybGZmMDFmbVpCNjBHSTBJaUhRVnhMZmdyLW51MnVGV2JacDhwRjVfcFN1c1o3OWljYjNuc0NaMk5lamthZXFNelFIT00tZFhWbTB5SGNQa0NxTVllYTBmQnlNUnc4X0lhZlQzOEctdkRHZTIza3VUSENxVXNDX2M5d1RyYTA?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Unpatched AI Vulnerabilities",
+          "subtitle": "A growing concern in the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 13 Jul 2026",
+            "Orca Security Report: 99.9% of fixable AI vulnerabilities remain unpatched",
+            "This is a significant concern for the AI industry",
+            "The number of unpatched vulnerabilities is staggering",
+            "With 99.9% of fixable AI vulnerabilities remaining unpatched, the industry needs to take action"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI industry needs to prioritize vulnerability patching",
+            "This issue has significant implications for AI security",
+            "Companies like Orca Security are working to address this issue",
+            "Source: ANI News, 13 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The Orca Security Report has revealed that 99.9% of fixable AI vulnerabilities remain unpatched. This is a significant concern for the AI industry, with implications for security and trust in AI systems. What can be done to address this issue? How can the industry prioritize vulnerability patching? #AI #Vulnerabilities #Security #OrcaSecurity #AINews"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N4",
+      "eventDate": "09 Jul 2026",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaG5pcHdvRWRwTV91MWNocDRlRllFN1RydjVKQWFnWWVDNGc2SU0zWTVfUzUwYWNyOUdUUVAzZlFFRTNJVk1oZ2RWMzZvVlNzTWdJb3dSZHBfVGRNNkRrVVJqUkR1SlJuekkxYWZNUVNMTl96T0JrbHpiZy0zczdVbEZyTjdJOUpXWkNzeVllSkxoVlRQQ1FfYWZDeWxMTUZIMnBmSE9qWTQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Gradium Raises $100M",
+          "subtitle": "A significant investment in AI voice technology"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 09 Jul 2026",
+            "Gradium, a Paris-based AI voice startup, has raised $100M in seed funding",
+            "This investment is backed by Nvidia",
+            "The funding will be used to develop Gradium's AI voice technology",
+            "With $100M in funding, Gradium is well-positioned to advance its technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment is a significant vote of confidence in Gradium's technology",
+            "AI voice technology has the potential to revolutionize various industries",
+            "Gradium's technology has the potential to improve voice assistants and other applications"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Gradium's funding is a significant development in the AI voice technology space",
+            "The investment from Nvidia is a testament to the potential of Gradium's technology",
+            "The AI voice technology market is expected to grow significantly in the coming years",
+            "Source: TechCrunch, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Gradium, a Paris-based AI voice startup, has raised $100M in seed funding backed by Nvidia. This investment is a significant development in the AI voice technology space. What does this mean for the future of AI voice technology? How will Gradium use this funding to advance its technology? #AI #Funding #Gradium #Nvidia #VoiceTechnology"
+    },
+    {
+      "id": 3,
+      "topic": "AI Model Comparison",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "eventDate": "12 Jul 2026",
+      "sourceName": "tech-insider.org",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81Zno3cU1POTJkZWxTVW92MGprNWF3WTM0a3RRaC1FRXR5NXpfcXlUUTJkZGhDanEweXRQY1dpczEtb0dzTXg1blFZYWNDU1FoanI0b2NSdGFiZU4zTk8yeEV5ak1vSXBf?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Claude vs Gemini",
+          "subtitle": "A comparison of AI models"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 Jul 2026",
+            "Fable 5 Beats Opus 4.8 by 11 Points",
+            "This is a significant comparison of AI models",
+            "The results show that Fable 5 outperforms Opus 4.8",
+            "With a difference of 11 points, Fable 5 demonstrates its capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The comparison of AI models is an important aspect of AI development",
+            "The results of this comparison have significant implications for the AI industry",
+            "The development of AI models like Fable 5 and Opus 4.8 is advancing the field of AI",
+            "Source: tech-insider.org, 12 Jul 2026"
+          ]
+        }
+      },
+      "caption": "A recent comparison of AI models has shown that Fable 5 outperforms Opus 4.8 by 11 points. This is a significant development in the AI industry, with implications for the development of AI models. What does this mean for the future of AI model development? How will this comparison impact the AI industry? #AI #Models #Fable5 #Opus48 #Comparison"
+    }
+  ]
+}

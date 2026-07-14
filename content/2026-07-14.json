@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-14",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI in Cyber Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "eventDate": "13 Jul 2026",
+      "sourceName": "Global Growth Insights",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdHhVc0NHUHhBSnBQbmtIeG53SFM5REQtMjc3WWlIYkZJbGZvWHRiNlUzSTJrYkNtZTVBMjdGUFJtaG9Qb2o1dWdWT3gtLXRNMmpKMkk0UUdqcEc4bkQydEZ0VVpmY21tSmE5UEJIZVE3WF9aall4WTN1ek1wMVJ3dDBRQ1dIQnlKb1FzU1lfbw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Future of Cyber Security",
+          "subtitle": "How AI is Revolutionizing the Industry"
+        },
+        "slide2": {
+          "title": "MARKET SIZE",
+          "lines": [
+            "Event date: 13 Jul 2026",
+            "The AI in Cyber Security market is expected to grow significantly by 2035.",
+            "According to Global Growth Insights, the market size will increase as demand for AI-based security solutions rises.",
+            "Over 3,000 firms are already using AI-powered cyber security services, as seen in recent launches by SoftBank and OpenAI.",
+            "The market is driven by the need for advanced threat detection and prevention."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The use of AI in cyber security is becoming increasingly important for businesses and individuals alike.",
+            "As the market continues to grow, we can expect to see more innovative solutions and services.",
+            "Source: Global Growth Insights, 13 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The AI in Cyber Security market is expected to grow significantly by 2035. With the increasing demand for AI-based security solutions, it's no surprise that companies like SoftBank and OpenAI are launching new services. But what does this mean for the future of cyber security? Questions to consider: How will AI change the way we approach cyber security? What are the potential risks and benefits of using AI in this field? #AI #CyberSecurity #Innovation #Technology #Future #Security",
+      "hashtags": "#AI #CyberSecurity #Innovation #Technology #Future #Security"
+    },
+    {
+      "id": 2,
+      "topic": "SK Hynix IPO",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N20",
+      "eventDate": "10 Jul 2026",
+      "sourceName": "Al Jazeera",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMW1PZVczU0xtNDZfTlRiT3ZKaEdieUNWeFhkcFJhS2xnWF9YYm5fZkpDcV9aZUUzQ1dhVmlSS3JHaTBzdnl4bHA1QlBvTDZYeDhWNHdhN2JMMTV0NUNTdHdOY2d4Si1mTWFWRTJhb1pGQVBKQXlDUVUtRm5iOGZJRER5MkVkLTZzSVppazI2c0VNQTdPUUFnZk9KbkF3TjVkSzJIblBGUzHSAa4BQVVfeXFMT3dyM2xXc2xudGhZbjVtWkxmbHBDajlSWThFVWcxT0lRZmFJSHNuQjFMdmdpcFN0OTZiM0hJZXdXeDRQQ3NyRjFMNDNtSW1FV212S1NLRGh1WlZ4NUpMcW90b0I5TGpPX29TaTg1cGFaUHA5TGtvekhRTDVZSTdRV0RmeTAyWndDdk9zY1Zhb0d1R1k0Y1pzOXdZZk9XT3ZCYVpOU2dtYkQ0UzdtbXd3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Record-Breaking IPO",
+          "subtitle": "SK Hynix Raises $26.5 Billion"
+        },
+        "slide2": {
+          "title": "IPO DETAILS",
+          "lines": [
+            "Event date: 10 Jul 2026",
+            "SK Hynix raised $26.5 billion in its US IPO, making it one of the largest IPOs in history.",
+            "The company's stock soared in its Nasdaq debut, with over 8% drop in shares on July 14.",
+            "The IPO was oversubscribed, with investors seeking to cash in on the AI-fueled memory chip boom.",
+            "The $26.5 billion raised will be used to fund the company's growth and expansion plans."
+          ]
+        },
+        "slide3": {
+          "title": "MARKET IMPACT",
+          "lines": [
+            "The IPO is expected to have a significant impact on the market, with many investors looking to capitalize on the growth of the memory chip industry.",
+            "The success of the IPO could also lead to more companies listing on the Nasdaq in the future.",
+            "The AI-fueled memory chip boom is driving growth in the industry, with many companies looking to innovate and expand their offerings."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The SK Hynix IPO is a significant event in the history of the company and the industry.",
+            "The success of the IPO will depend on the company's ability to execute its growth plans and innovate in the market.",
+            "Source: Al Jazeera, Jul 2026"
+          ]
+        }
+      },
+      "caption": "SK Hynix has made history with its record-breaking $26.5 billion IPO. But what does this mean for the company and the industry as a whole? Questions to consider: How will SK Hynix use the funds raised from the IPO? What are the potential risks and challenges facing the company in the future? #IPO #SKHynix #MemoryChip #AI #Innovation #Technology #Finance",
+      "hashtags": "#IPO #SKHynix #MemoryChip #AI #Innovation #Technology #Finance"
+    },
+    {
+      "id": 3,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N23",
+      "eventDate": "12 Jul 2026",
+      "sourceName": "Hindustan Times",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPTktKSE9ISGp0V1N2cVBFZjU4V2dfSDdUazM5RVhfR2szN0IyN2ZPc0xKRmpRQmtBVDhzWFg0TFBFU2EtOFlQbjBsVnJwQUt0RlZVYUNkOWdoYVh6MWRBdG9FQ2E1WE85T3BUOTBpTmxRQnF5XzRTdS00ekl3MHBxODY2ZXllMEg5Q240RkNyYXF6bFVTOXkwLUc0VVZ0ZnBqZW5TbFFFM085YTV5b0VBT21BUDRQVnZtdVJRT19aODFyY2lFU1JTUUFnRHhZU2NjWHpRV3pBWVFVNzZzMmF5YlhKMGNMdWtOUjJWZGZYei1EQnZPYmJRckxEWXdHZUVEcEFlNklR0gGLAkFVX3lxTE8wc1owT3daR1FPWmxjVVRsX3M4WmExZDFGa0p1ZUNudlh0U21GXzdkLURhRG9FNkJIRXlJVVAzcEp5bWYwTFlWZDRwSkt5aXRnUlhqeUlsSG9xajFQOFhKUXZyOGpJb1ZrYTdKUkM5RzZpOTBlU0FwVVlHOWlVLThjQjdxbElmOVktbDNrU0dDN0FZQkNKeXFGUGc0YWxvZDBuMzVabEd6Vk8yRHJXNE5OMVIwSEZYSjQyTTc4MkRFdTFrZVRISmxpVXZvM0s2aTU1Z3h0TmpvVmQwNkRzcXA2b21kbzFaVl9OcFg0ZF9IWTVsRjAxVDFsS2VlRlBLU3JNbWtqWnF6WVRORQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "The Call for AI Regulation",
+          "subtitle": "Protesters Demand Action from OpenAI and Google DeepMind"
+        },
+        "slide2": {
+          "title": "PROTEST DETAILS",
+          "lines": [
+            "Event date: 12 Jul 2026",
+            "Over 200 protesters marched to the offices of OpenAI and Google DeepMind, demanding AI regulation and a pause in the AI race.",
+            "The protesters are concerned about the potential risks and consequences of unregulated AI development.",
+            "The event highlights the growing need for AI regulation and oversight.",
+            "The protesters are calling for a more cautious approach to AI development, with a focus on safety and ethics."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The call for AI regulation is becoming increasingly urgent, with many experts warning of the potential risks of unregulated AI development.",
+            "The protest highlights the need for a more nuanced and informed discussion about AI and its potential consequences.",
+            "Source: Hindustan Times, 12 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The call for AI regulation is growing louder, with protesters demanding action from OpenAI and Google DeepMind. But what does this mean for the future of AI development? Questions to consider: What are the potential risks and consequences of unregulated AI development? How can we balance the need for innovation with the need for safety and ethics? #AI #Regulation #Innovation #Technology #Ethics #Safety #Future",
+      "hashtags": "#AI #Regulation #Innovation #Technology #Ethics #Safety #Future"
+    }
+  ]
+}

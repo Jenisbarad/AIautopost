@@ -8,122 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI in Cyber Security",
+      "topic": "AI Security",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N3",
-      "eventDate": "13 Jul 2026",
-      "sourceName": "Global Growth Insights",
+      "sourceId": "N20",
+      "eventDate": "14 Jul 2026",
+      "sourceName": "TheWire.in",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdHhVc0NHUHhBSnBQbmtIeG53SFM5REQtMjc3WWlIYkZJbGZvWHRiNlUzSTJrYkNtZTVBMjdGUFJtaG9Qb2o1dWdWT3gtLXRNMmpKMkk0UUdqcEc4bkQydEZ0VVpmY21tSmE5UEJIZVE3WF9aall4WTN1ek1wMVJ3dDBRQ1dIQnlKb1FzU1lfbw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNl95UndQeXNDc0ZwY2VNY1kwU3JLVUhmdE1PN2RneDlnZW5CUnY4cVlfXzZISkpFZ3hxeFN6eWk0T2VVOUdYZHYwMkVzaFVlMFVXaFdiR3RmTGdwaEF4M2E1c0k0N0lXaGdvcU9mZ0VWTzVqUEx5N2pRenFJYWRVeEM2ZEtqUjRXTGg1VWF6UmNlQXhvM04tYUdCcGJkcHUwU0dWLTVqaEdPLUJIZ0NqYkUzZjlUTExtV2hpeEJzSUrSAcYBQVVfeXFMTkNuUXNsdWdPenpYMW9OSHFIZEowWExVZnYzT3NmS194Mkl2VVNlQ2ZILTc3RERVMV9zTHJIYUpNMmlKOFo3aHdGSlNJeEF0S3V1Nmg5TmpLeHBUMENIYkRZRU16eXZTTGd6Y3dGZUtVQUVUNlpjcU5JamFlWnBwam5GdUVoZlhRdndwOHFOaUZ2RmJ5TlljTmRwNlpPR24tVDlkOW1LcmZVdjZjQmI0bjBFMFRaMVlrWV85VUJfcy1CaWRDMjV3?oc=5",
+      "caption": "The recent Orca Security Report has shed light on a disturbing trend in the AI industry: 99.9% of fixable AI vulnerabilities remain unpatched. This is a significant concern that requires immediate attention from developers and companies alike. \nQuestions to consider: What are the potential consequences of unpatched AI vulnerabilities? How can the AI industry prioritize security? What role do developers and companies play in addressing this issue?\n#AI #Security #Vulnerabilities #OrcaSecurityReport #TheWire #TechNews",
       "slideContent": {
         "slide1": {
-          "headline": "The Future of Cyber Security",
-          "subtitle": "How AI is Revolutionizing the Industry"
+          "headline": "AI Vulnerabilities on the Rise",
+          "subtitle": "Recent report highlights alarming numbers"
         },
         "slide2": {
-          "title": "MARKET SIZE",
+          "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 13 Jul 2026",
-            "The AI in Cyber Security market is expected to grow significantly by 2035.",
-            "According to Global Growth Insights, the market size will increase as demand for AI-based security solutions rises.",
-            "Over 3,000 firms are already using AI-powered cyber security services, as seen in recent launches by SoftBank and OpenAI.",
-            "The market is driven by the need for advanced threat detection and prevention."
+            "Event date: 14 Jul 2026",
+            "Orca Security Report found that 99.9% of fixable AI vulnerabilities remain unpatched.",
+            "This is a significant concern for the AI industry.",
+            "The report emphasizes the need for better security measures.",
+            "As AI continues to grow, so do the potential risks."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The use of AI in cyber security is becoming increasingly important for businesses and individuals alike.",
-            "As the market continues to grow, we can expect to see more innovative solutions and services.",
-            "Source: Global Growth Insights, 13 Jul 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Unpatched vulnerabilities can lead to severe consequences, including data breaches and system compromises.",
+            "The AI industry must prioritize security to mitigate these risks.",
+            "Developers and companies must work together to address this issue.",
+            "Source: TheWire.in, 14 Jul 2026"
           ]
         }
-      },
-      "caption": "The AI in Cyber Security market is expected to grow significantly by 2035. With the increasing demand for AI-based security solutions, it's no surprise that companies like SoftBank and OpenAI are launching new services. But what does this mean for the future of cyber security? Questions to consider: How will AI change the way we approach cyber security? What are the potential risks and benefits of using AI in this field? #AI #CyberSecurity #Innovation #Technology #Future #Security",
-      "hashtags": "#AI #CyberSecurity #Innovation #Technology #Future #Security"
+      }
     },
     {
       "id": 2,
-      "topic": "SK Hynix IPO",
+      "topic": "AI Funding",
       "slides": 4,
       "svgIcon": "chip",
-      "sourceId": "N20",
-      "eventDate": "10 Jul 2026",
-      "sourceName": "Al Jazeera",
+      "sourceId": "N12",
+      "eventDate": "14 Jul 2026",
+      "sourceName": "SiliconANGLE",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMW1PZVczU0xtNDZfTlRiT3ZKaEdieUNWeFhkcFJhS2xnWF9YYm5fZkpDcV9aZUUzQ1dhVmlSS3JHaTBzdnl4bHA1QlBvTDZYeDhWNHdhN2JMMTV0NUNTdHdOY2d4Si1mTWFWRTJhb1pGQVBKQXlDUVUtRm5iOGZJRER5MkVkLTZzSVppazI2c0VNQTdPUUFnZk9KbkF3TjVkSzJIblBGUzHSAa4BQVVfeXFMT3dyM2xXc2xudGhZbjVtWkxmbHBDajlSWThFVWcxT0lRZmFJSHNuQjFMdmdpcFN0OTZiM0hJZXdXeDRQQ3NyRjFMNDNtSW1FV212S1NLRGh1WlZ4NUpMcW90b0I5TGpPX29TaTg1cGFaUHA5TGtvekhRTDVZSTdRV0RmeTAyWndDdk9zY1Zhb0d1R1k0Y1pzOXdZZk9XT3ZCYVpOU2dtYkQ0UzdtbXd3?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRDF2bG9MczFPUVR3aHFPN1ZxMUFtTGpPZXR5aUVlR2NLU1VvSnBfOE12c21JcmV6MEdsTlk2MEdtZ3pNVWdmc2FlRmdqXzgxVUNWaTZHd3NFN0N4ZjNieUpPZzdJMHR1S254UjJOcloxcjdybF80MnFEZGFzN1BPYWxpdnBlZndWVWVKSHFFa3FqcEtjNWVOWEJsRjA3RWM3VjF5US1MemtUclE?oc=5",
+      "caption": "Custom AI chip design startup TYLsemi has launched with $43M in early-stage funding. This investment will help TYLsemi develop its custom AI chip design technology and provide more efficient and effective AI solutions. \nQuestions to consider: What are the potential applications of custom AI chip design technology? How can TYLsemi's technology impact the AI industry? What are the implications of this investment for the future of AI?\n#AI #Funding #ChipDesign #TYLsemi #SiliconANGLE #TechNews",
       "slideContent": {
         "slide1": {
-          "headline": "Record-Breaking IPO",
-          "subtitle": "SK Hynix Raises $26.5 Billion"
+          "headline": "Custom AI Chip Design Startup Secures Funding",
+          "subtitle": "TYLsemi launches with significant investment"
         },
         "slide2": {
-          "title": "IPO DETAILS",
+          "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 10 Jul 2026",
-            "SK Hynix raised $26.5 billion in its US IPO, making it one of the largest IPOs in history.",
-            "The company's stock soared in its Nasdaq debut, with over 8% drop in shares on July 14.",
-            "The IPO was oversubscribed, with investors seeking to cash in on the AI-fueled memory chip boom.",
-            "The $26.5 billion raised will be used to fund the company's growth and expansion plans."
+            "Event date: 14 Jul 2026",
+            "Custom AI chip design startup TYLsemi has launched with $43M in early-stage funding.",
+            "This investment will help TYLsemi develop its custom AI chip design technology.",
+            "The company aims to provide more efficient and effective AI solutions.",
+            "The funding round is a significant milestone for TYLsemi."
           ]
         },
         "slide3": {
-          "title": "MARKET IMPACT",
+          "title": "WHY IT MATTERS",
           "lines": [
-            "The IPO is expected to have a significant impact on the market, with many investors looking to capitalize on the growth of the memory chip industry.",
-            "The success of the IPO could also lead to more companies listing on the Nasdaq in the future.",
-            "The AI-fueled memory chip boom is driving growth in the industry, with many companies looking to innovate and expand their offerings."
+            "TYLsemi's custom AI chip design technology has the potential to revolutionize the AI industry.",
+            "The company's focus on efficiency and effectiveness can lead to significant advancements in AI applications.",
+            "The investment in TYLsemi is a testament to the growing interest in AI technology.",
+            ""
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The SK Hynix IPO is a significant event in the history of the company and the industry.",
-            "The success of the IPO will depend on the company's ability to execute its growth plans and innovate in the market.",
-            "Source: Al Jazeera, Jul 2026"
+            "TYLsemi's custom AI chip design technology can lead to improved AI performance.",
+            "The company's focus on efficiency and effectiveness can reduce costs and increase productivity.",
+            "The investment in TYLsemi highlights the growing demand for AI solutions.",
+            "Source: SiliconANGLE, Jul 2026"
           ]
         }
-      },
-      "caption": "SK Hynix has made history with its record-breaking $26.5 billion IPO. But what does this mean for the company and the industry as a whole? Questions to consider: How will SK Hynix use the funds raised from the IPO? What are the potential risks and challenges facing the company in the future? #IPO #SKHynix #MemoryChip #AI #Innovation #Technology #Finance",
-      "hashtags": "#IPO #SKHynix #MemoryChip #AI #Innovation #Technology #Finance"
+      }
     },
     {
       "id": 3,
-      "topic": "AI Regulation",
+      "topic": "AI Adoption",
       "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N23",
-      "eventDate": "12 Jul 2026",
-      "sourceName": "Hindustan Times",
+      "svgIcon": "network",
+      "sourceId": "N7",
+      "eventDate": "13 Jul 2026",
+      "sourceName": "TechGig",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPTktKSE9ISGp0V1N2cVBFZjU4V2dfSDdUazM5RVhfR2szN0IyN2ZPc0xKRmpRQmtBVDhzWFg0TFBFU2EtOFlQbjBsVnJwQUt0RlZVYUNkOWdoYVh6MWRBdG9FQ2E1WE85T3BUOTBpTmxRQnF5XzRTdS00ekl3MHBxODY2ZXllMEg5Q240RkNyYXF6bFVTOXkwLUc0VVZ0ZnBqZW5TbFFFM085YTV5b0VBT21BUDRQVnZtdVJRT19aODFyY2lFU1JTUUFnRHhZU2NjWHpRV3pBWVFVNzZzMmF5YlhKMGNMdWtOUjJWZGZYei1EQnZPYmJRckxEWXdHZUVEcEFlNklR0gGLAkFVX3lxTE8wc1owT3daR1FPWmxjVVRsX3M4WmExZDFGa0p1ZUNudlh0U21GXzdkLURhRG9FNkJIRXlJVVAzcEp5bWYwTFlWZDRwSkt5aXRnUlhqeUlsSG9xajFQOFhKUXZyOGpJb1ZrYTdKUkM5RzZpOTBlU0FwVVlHOWlVLThjQjdxbElmOVktbDNrU0dDN0FZQkNKeXFGUGc0YWxvZDBuMzVabEd6Vk8yRHJXNE5OMVIwSEZYSjQyTTc4MkRFdTFrZVRISmxpVXZvM0s2aTU1Z3h0TmpvVmQwNkRzcXA2b21kbzFaVl9OcFg0ZF9IWTVsRjAxVDFsS2VlRlBLU3JNbWtqWnF6WVRORQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWEhKczJoNjdKTHcxLXhEd2JXQVpiV0diZkpjeVpwQTF2eGxqOE14Xzg2UldvbC1ma2FkY0hYWUFfcjJ0OWhGUTN5ajFoTFRPREotMU1qaU1xSWd6b0V2UkJlWGRnczVHNFJYU2JUVVlFdWF6REMwZGk4al8tVUtmLXM0azdRb29pRkxaZ053dkNKTVdlOUxXSGtjQzdLVWZDUElKUXZlMnlITWVDRXfSAbMBQVVfeXFMUGwtQlM0anFBTnlTcm5USmo1LXBIYTV2bXZoeUFZT0pTSzFmSVNGaEp2NFlZckdJNW1IZVROeGNtb2dyYlFyWUxBTnprWWJhcTEwempKUUFfMVRNNHM5V1pFRVlFRFVNRkZaZFdUbHhOdklLd1JaLTViQ1JoazJNY2lra2h0cFJyOFNCZEZzVXhrRk83MEJuM1ZqRnMwclB3VDBKbjZ1ZE5lclJhcWF6aVZBcW8?oc=5",
+      "caption": "UST has partnered with Anthropic to train 20,000 developers on Claude. This partnership aims to increase adoption and development of AI solutions, and can lead to significant advancements in the AI industry. \nQuestions to consider: What are the potential benefits of training developers on Claude? How can this partnership impact the AI industry? What are the implications of this partnership for the future of AI adoption?\n#AI #Adoption #UST #Anthropic #Claude #TechGig #TechNews",
       "slideContent": {
         "slide1": {
-          "headline": "The Call for AI Regulation",
-          "subtitle": "Protesters Demand Action from OpenAI and Google DeepMind"
+          "headline": "UST Partners with Anthropic to Train Developers",
+          "subtitle": "Partnership aims to train 20,000 developers on Claude"
         },
         "slide2": {
-          "title": "PROTEST DETAILS",
+          "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 12 Jul 2026",
-            "Over 200 protesters marched to the offices of OpenAI and Google DeepMind, demanding AI regulation and a pause in the AI race.",
-            "The protesters are concerned about the potential risks and consequences of unregulated AI development.",
-            "The event highlights the growing need for AI regulation and oversight.",
-            "The protesters are calling for a more cautious approach to AI development, with a focus on safety and ethics."
+            "Event date: 13 Jul 2026",
+            "UST has partnered with Anthropic to train 20,000 developers on Claude.",
+            "This partnership aims to increase adoption and development of AI solutions.",
+            "The training program will focus on Claude, Anthropic's AI model.",
+            "The partnership is expected to last for several months."
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The call for AI regulation is becoming increasingly urgent, with many experts warning of the potential risks of unregulated AI development.",
-            "The protest highlights the need for a more nuanced and informed discussion about AI and its potential consequences.",
-            "Source: Hindustan Times, 12 Jul 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The partnership between UST and Anthropic can lead to significant advancements in AI adoption.",
+            "Training 20,000 developers on Claude can increase the number of AI solutions developed.",
+            "The partnership highlights the growing interest in AI technology and its potential applications.",
+            "Source: TechGig, 13 Jul 2026"
           ]
         }
-      },
-      "caption": "The call for AI regulation is growing louder, with protesters demanding action from OpenAI and Google DeepMind. But what does this mean for the future of AI development? Questions to consider: What are the potential risks and consequences of unregulated AI development? How can we balance the need for innovation with the need for safety and ethics? #AI #Regulation #Innovation #Technology #Ethics #Safety #Future",
-      "hashtags": "#AI #Regulation #Innovation #Technology #Ethics #Safety #Future"
+      }
     }
   ]
 }

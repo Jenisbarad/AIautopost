@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-15",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Vulnerabilities",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Unpatched AI Vulnerabilities",
+          "subtitle": "A growing concern in the AI industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 Jul 2026",
+            "Orca Security Report reveals 99.9% of fixable AI vulnerabilities remain unpatched",
+            "This poses a significant risk to AI systems and their users",
+            "The report highlights the need for improved AI security measures",
+            "With 99.9% of vulnerabilities unpatched, the risk of AI system breaches is high"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Unpatched vulnerabilities can lead to AI system breaches and data compromise",
+            "This can have serious consequences for individuals and organizations",
+            "The AI industry must prioritize security and patching vulnerabilities",
+            "Questions to consider: What are the consequences of unpatched AI vulnerabilities? How can the AI industry improve security measures?"
+          ]
+        }
+      },
+      "caption": "The recent Orca Security Report has revealed a startling fact: 99.9% of fixable AI vulnerabilities remain unpatched. This poses a significant risk to AI systems and their users. With the increasing use of AI in various industries, it's essential to prioritize security and patching vulnerabilities. What are the consequences of unpatched AI vulnerabilities? How can the AI industry improve security measures? #AI #Security #Vulnerabilities #OrcaSecurityReport #AISystems #DataCompromise",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ25Rc2x1Z096elgxb05IcUhkSjBYTFVmdjNPc2ZLX3gySXZVU2VDZkgtNzdERFUxX3NMckhhSk0yaUo4Wjdod0ZKU0l4QXRLdXU2aDlOakt4cFQwQ0hiRFlFTXp5dlNMZ3pjd0ZlS1VBRVQ2WmNxTklqYWVacHBqbkZ1RWhmWFF2d3A4cU5pRnZGYnlOWWNOZHA2Wk9Hbi1UOWQ5bUtyZlV2NmNCYjRuMEUwVFoxWWtZXzlVQl9zLUJpZEMyNXfSAcYBQVVfeXFMTkNuUXNsdWdPenpYMW9OSHFIZEowWExVZnYzT3NmS194Mkl2VVNlQ2ZILTc3RERVMV9zTHJIYUpNMmlKOFo3aHdGSlNJeEF0S3V1Nmg5TmpLeHBUMENIYkRZRU16eXZTTGd6Y3dGZUtVQUVUNlpjcU5JamFlWnBwam5GdUVoZlhRdndwOHFOaUZ2RmJ5TlljTmRwNlpPR24tVDlkOW1LcmZVdjZjQmI0bjBFMFRaMVlrWV85VUJfcy1CaWRDMjV3?oc=5",
+      "sourceName": "TheWire.in",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "14 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Alibaba Leads AI Video Startup Funding",
+          "subtitle": "A significant investment in the AI video industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 Jul 2026",
+            "Alibaba leads $439 million funding round for AI video startup AIsphere",
+            "This investment highlights the growing interest in AI video technology",
+            "AIsphere will use the funding to develop its AI video capabilities",
+            "The funding round demonstrates the potential of AI video technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help AIsphere develop its AI video capabilities",
+            "This can lead to improved video content creation and analysis",
+            "The investment demonstrates the growing interest in AI video technology",
+            "The AI video industry is expected to grow significantly in the coming years"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding round is a significant investment in the AI video industry",
+            "AIsphere will use the funding to develop its AI video capabilities",
+            "The investment demonstrates the growing interest in AI video technology",
+            "Source: Caixin Global, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Alibaba has led a $439 million funding round for AI video startup AIsphere. This investment highlights the growing interest in AI video technology and demonstrates the potential of AI video startups. What are the implications of this investment for the AI video industry? How will AIsphere use the funding to develop its AI video capabilities? #AI #Funding #AIVideo #AIsphere #Alibaba #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGtWdEVLLVkxN1FMQ0ZzQ29mOGQ4NjNnNXZVbm9XSEd2NGc2SGpsLXVRRFM0SUZwR3BQNTJDcGFlR1k5cUVCYTNJSXJ2eTNjWTJILVBrM2FNMG80b3JyWXh1bm5BV1hTYnBrd1RGUVhGd3FzYzlSV3hqbTNGa2hObGJHZzFudzV0NG9yTlg5Y3RvNjJ2bkFjalJTd0xMbGxyWnlUTE1CNUZJOFdic1c2VFl4TGFocjZOR2p2VzFzVWNsZw?oc=5",
+      "sourceName": "Caixin Global",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "14 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Chip IPO",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "SK Hynix Jumps 13% in Nasdaq Debut",
+          "subtitle": "A successful IPO for the AI chip company"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 10 Jul 2026",
+            "SK Hynix jumps 13% in Nasdaq debut after pulling off biggest foreign IPO ever",
+            "The company's IPO was a significant success, with a 13% increase in stock price",
+            "SK Hynix is a leading AI chip company, with a strong presence in the industry",
+            "The IPO demonstrates the growing interest in AI chip technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The successful IPO demonstrates the growing interest in AI chip technology",
+            "SK Hynix is a leading company in the industry, with a strong presence in AI chip development",
+            "The IPO will help SK Hynix expand its operations and develop new AI chip technologies",
+            "Questions to consider: What are the implications of the IPO for the AI chip industry? How will SK Hynix use the funding to expand its operations?"
+          ]
+        }
+      },
+      "caption": "SK Hynix has made a successful debut on the Nasdaq, with a 13% increase in stock price. This demonstrates the growing interest in AI chip technology and highlights the potential of AI chip companies. What are the implications of the IPO for the AI chip industry? How will SK Hynix use the funding to expand its operations? #AI #Chip #IPO #SKHynix #Nasdaq #AIChip",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMVp4aGpzQzc0Q0FhR2NBdGhVa0paWFFteXpHSkd5UkwyVVlSTTNxOVU1YXF3MXNKYUdRQ3FIVEhvRHFva25sbi0ybnh2ckdQOW5kSVdOWEwwTlptUm9wQjB4eEl4OGp5MmlzU3lnTWp6XzRMcnFvXzRrZWhyLXRvUXRPZ1JvaEpVa3M4UFVnUTZVQ1c3MUhsU25QR2U1bW1DUS1IenBmVGxpOWh6dF9RNE1Hb0xlOVExRU04WHJmNHZUZw?oc=5",
+      "sourceName": "Investing.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "10 Jul 2026"
+    }
+  ]
+}

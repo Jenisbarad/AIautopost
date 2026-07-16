@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-16",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI in Marketing",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI in Marketing",
+          "subtitle": "The future of marketing decisions"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 Jul 2026",
+            "AI agents are expected to handle a third of marketing decisions within 2 years.",
+            "This shift is expected to revolutionize the marketing industry.",
+            "With the use of AI, marketing decisions will become more data-driven.",
+            "Companies will be able to make more informed decisions."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The use of AI in marketing will increase efficiency and productivity.",
+            "It will also enable companies to personalize their marketing efforts more effectively.",
+            "However, it also raises concerns about job displacement and bias in decision-making.",
+            "Source: Security Magazine, 15 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The marketing industry is on the verge of a significant shift. AI agents are expected to handle a third of marketing decisions within 2 years. What does this mean for the industry? How will companies adapt to this change? Will AI replace human marketers? #AIinMarketing #MarketingAutomation #FutureOfMarketing #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaXEzZVRYMGhrc1BWV2RSUEZ0WG0tdmZycGM5NVVHdWFJNURMMnRtX2NQMWJidmpfUXZQcHBQcEFJYlpVVExDbFpJTVVSSmN5STdBaDhIR1dqcjM3SjdBbHZHTDlneW1ZeGdRSkFkampOU3NNVkV2Q0c3eFVad3V5Um5WSW5obl95VjZiQjVlZ2VyWkU5SWYxTkJ6ZHFDOXZNcUltOE84T1J0bDhwUmZsOTFzS3ZyWHJReUVna0QyTFI?oc=5",
+      "sourceName": "Security Magazine",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "15 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Funding",
+          "subtitle": "Reo.Dev raises $11.3 million"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Jul 2026",
+            "Reo.Dev, an AI sales intelligence startup, has raised $11.3 million in funding.",
+            "The funding will be used to expand the company's operations in the US.",
+            "The startup uses AI to provide sales intelligence to its clients.",
+            "The funding round was led by a prominent venture capital firm."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will enable Reo.Dev to further develop its AI technology.",
+            "It will also enable the company to expand its sales and marketing efforts.",
+            "The funding is a significant milestone for the startup and will help it to compete in the market.",
+            "It also highlights the growing interest in AI sales intelligence."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will help Reo.Dev to further develop its AI technology.",
+            "It will also enable the company to expand its sales and marketing efforts.",
+            "The startup is well-positioned to take advantage of the growing demand for AI sales intelligence.",
+            "Source: Inc42, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Reo.Dev, an AI sales intelligence startup, has raised $11.3 million in funding. What does this mean for the startup? How will the funding be used? Will the startup be able to compete in the market? #AIinSales #SalesIntelligence #FundingNews #StartupSuccess",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQkQxWENCLWJjcDRDekZiRmdxWllPV3hvTzE0UHJXSk1STWlHaEhrMEZib3F5VWNTVk40bjQtemxWaFZXMjc1aXJUa0JrMHVuN0VpMG5MZVE5a1VMcjFGb2xPRWNHOUx3LUgxVE9fMFpmQXNoZnFIQU5tUDBaMU9CaVhIamNJaUpXY1VDeU9YX3hBdzVZMkUxeG1YcGRsVEFmdFd0WA?oc=5",
+      "sourceName": "Inc42",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "16 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Hardware",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Hardware",
+          "subtitle": "OpenAI releases a $230 keyboard for Codex"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 15 Jul 2026",
+            "OpenAI has released a $230 keyboard for Codex.",
+            "The keyboard is designed to work with Codex, an AI-powered coding tool.",
+            "It is a significant development in the field of AI hardware.",
+            "The keyboard is priced at $230, making it accessible to a wide range of users."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The release of the keyboard highlights the growing importance of AI hardware.",
+            "It also demonstrates the potential for AI to improve coding efficiency.",
+            "The keyboard is a significant development in the field of AI-powered coding tools.",
+            "Source: TechCrunch, 15 Jul 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has released a $230 keyboard for Codex. What does this mean for the development of AI hardware? How will the keyboard improve coding efficiency? Will the keyboard be widely adopted? #AIHardware #Codex #OpenAI #Keyboard #CodingTools",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMHhsTXhwRnhHblp6Y1g2MDRGZ1BNS0JTelZFYkhRNHlkZ09lcmdFZl9zQ0tsWnlPYUFKRVVFTWY3ZHJnU0pLV0hlSXVaT2lDLV8wMnhPal92ZVAxLXFhZ0kxcUJmOUpWelVsdFRvUmI3S2MtSjNXa1hVZ3h0eS1vb01tbkc4b2laX0tEWE9oVzZMVnp0ZXRPanFaeVpmMXV0OHBtdw?oc=5",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "15 Jul 2026"
+    }
+  ]
+}

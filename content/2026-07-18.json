@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-18",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Threats",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Attacks on the Rise",
+          "subtitle": "Check Point's 2026 Security Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Check Point flagged fully autonomous AI attacks in its 2026 Security Report",
+            "This indicates a significant increase in AI-powered threats",
+            "The report highlights the need for enhanced security measures",
+            "To counter these advanced attacks, companies must invest in AI-led security solutions"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rise of AI attacks poses a significant threat to businesses and individuals",
+            "It is essential to stay ahead of these threats with advanced security measures",
+            "Companies like Check Point are working to develop AI-led security solutions",
+            "Source: Yahoo Finance, 16 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The rise of AI attacks is a significant concern for businesses and individuals. Check Point's 2026 Security Report highlights the need for enhanced security measures to counter these threats. What steps can companies take to stay ahead of AI-powered attacks? How will the development of AI-led security solutions impact the industry? #AIsecurity #cybersecurity #AIthreats #CheckPoint #securityreport",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmh6WkdKRVk2Tjc3TlZlNDQtUnQzR3IzVWNNZDk2T2ZYSFNCX2VPUUpraU5NaWNwOEg5MnpZRTdUX3REMjJ2R2Ixd0Y1SHVBQkRFT3BzX2FrdkFVOTBvNXRfM3d4STY4am8ybVFQNWlWOUJRamZINmxmYUNOM1V5bFZRdlpmbjF2cGNLTlQ2b19wLXd0dHlF?oc=5",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "16 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "atom",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Chip Startup Etched",
+          "subtitle": "In Talks for $20 Billion Valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Jul 2026",
+            "AI chip startup Etched is in talks for a $20 billion valuation",
+            "The company is reportedly in discussions with investors",
+            "This valuation would make Etched one of the most valuable AI startups",
+            "Etched's AI chip technology has the potential to revolutionize the industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The potential $20 billion valuation of Etched indicates the significant interest in AI chip technology",
+            "This investment could lead to further innovation and development in the field",
+            "Etched's AI chip technology has the potential to impact various industries",
+            "From healthcare to finance, the applications are vast"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The $20 billion valuation is a significant milestone for Etched",
+            "The investment in Etched highlights the growing interest in AI chip technology",
+            "This technology has the potential to revolutionize various industries",
+            "Source: TradingView, Jul 2026"
+          ]
+        }
+      },
+      "caption": "AI chip startup Etched is in talks for a $20 billion valuation. This significant investment highlights the growing interest in AI chip technology. What impact will this have on the industry? How will Etched's AI chip technology be used in various applications? #AIchip #Etched #valuation #AItechnology #investments",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeXE5cVFGeHZzNDdOZGpZT2RHWHY5QTFqUHdlY09VNXNRT1Bmd2s4N3NzRzR1N3AyYXZyYml4Sm5UdzBORUNaUERScGpEOFI0MlMyUGJBWEtMZTJIbFRKN2RrSGtRdjBYYkNONjlEcHVsaVQtNEhSb1RhNDFYVzRTSFh0THl5NHBmVjVDX3AwSnhoRHdXeHZxenMyeFNqRE9FRlBaSnhRQ21SazFrMjNVTlFNVDJIaEtMY1FuMU41Rk82Ymd4MGdKRGZJQk44UQ?oc=5",
+      "sourceName": "TradingView",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "17 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Model Development",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's New Flagship Model",
+          "subtitle": "GPT-5.6 Sol"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Jul 2026",
+            "OpenAI released its new flagship model, GPT-5.6 Sol",
+            "This model has the potential to significantly impact developer workflows",
+            "GPT-5.6 Sol is designed to improve the efficiency and productivity of developers",
+            "The model has been trained on a large dataset, allowing it to generate high-quality code"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The release of GPT-5.6 Sol highlights the rapid progress in AI model development",
+            "This model has the potential to significantly impact the tech industry",
+            "Developers can use GPT-5.6 Sol to generate high-quality code, reducing development time",
+            "Source: SitePoint, 16 Jul 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's new flagship model, GPT-5.6 Sol, has the potential to significantly impact developer workflows. How will this model be used in the industry? What are the potential applications of GPT-5.6 Sol? #AImodel #GPT56Sol #OpenAI #developerworkflows #AItechnology",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mSnZkcThRU293VFdWdHVuQnNlYWFjQ1N0eHNVX29INXZ4SmJqOWJMVThOa0RHRDg1SF85bnZ2VmRwbkl4UGp3dm8zWC1VTVdIMzRMMlpQVTB5M0tvdzBwSktGZ3VIS3dYdDl6bk4tY2YtOEk?oc=5",
+      "sourceName": "SitePoint",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "16 Jul 2026"
+    }
+  ]
+}

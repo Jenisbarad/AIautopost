@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-19",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Threats",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "Autonomous AI Attacks on the Rise",
+          "subtitle": "Check Point's 2026 Security Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Check Point flagged fully autonomous AI attacks in its 2026 Security Report",
+            "The report highlights the increasing threat of AI-powered attacks",
+            "16 Jul 2026: Check Point (CHKP) released its security report",
+            "The report warns of potential attacks with no human involvement"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rise of autonomous AI attacks poses a significant threat to cybersecurity",
+            "Companies must adapt to the evolving threat landscape",
+            "Questions to consider: What are the implications of autonomous AI attacks for businesses?",
+            "How can companies protect themselves against these threats?",
+            "Source: Yahoo Finance, 16 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The rise of autonomous AI attacks poses a significant threat to cybersecurity. Check Point's 2026 Security Report highlights the increasing threat of AI-powered attacks. What are the implications of autonomous AI attacks for businesses? How can companies protect themselves against these threats? #AI #Cybersecurity #AutonomousAttacks #CheckPoint #SecurityReport #ThreatLandscape",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmh6WkdKRVk2Tjc3TlZlNDQtUnQzR3IzVWNNZDk2T2ZYSFNCX2VPUUpraU5NaWNwOEg5MnpZRTdUX3REMjJ2R2Ixd0Y1SHVBQkRFT3BzX2FrdkFVOTBvNXRfM3d4STY4am8ybVFQNWlWOUJRamZINmxmYUNOM1V5bFZRdlpmbjF2cGNLTlQ2b19wLXd0dHlF?oc=5",
+      "sourceName": "Yahoo Finance",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "16 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N23",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act: What You Need to Know",
+          "subtitle": "Regulations Coming into Effect on 2 August 2026"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "The EU AI Act will come into effect on 2 August 2026",
+            "The regulations aim to ensure the safe and responsible development of AI",
+            "17 Jul 2026: The EU AI Act was discussed in an article by Technology Org",
+            "The act will have significant implications for businesses and individuals"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act will have far-reaching consequences for the development and use of AI",
+            "Companies must comply with the new regulations to avoid penalties",
+            "Questions to consider: What are the key provisions of the EU AI Act?",
+            "How will the act impact businesses and individuals?",
+            "Source: Technology Org, 17 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act will come into effect on 2 August 2026, regulating the development and use of AI. What are the key provisions of the EU AI Act? How will the act impact businesses and individuals? #EUAIAct #AIRegulations #Compliance #TechnologyOrg #August2026 #AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlFIdnRpdVdDbzEzWmo1ZjhhTFdyQXZRX29OOTZSdGhzQ25JZm8zUFdQanlEQjg5Z0N3d2hrU3U4Vkt2QkNBYzVXbG93Q3N5OWc2ZG4zaWM1dGNfQW9GYXp5dVhkZlA2QUVRUG1DOEt6d3ZzNTh0VnQzNmFwaGl0NnhWU2J6WjJpblVWMkswTEY?oc=5",
+      "sourceName": "Technology Org",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "17 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding for AI Startups",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "Emergent Turns Unicorn with $130M Series C Funding",
+          "subtitle": "Indian AI Coding Startup Achieves Milestone"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Emergent, an Indian AI coding startup, raised $130M in Series C funding",
+            "The funding round was led by prominent investors",
+            "15 Jul 2026: Emergent announced its Series C funding",
+            "The startup has achieved a valuation of over $1 billion"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Emergent expand its operations and develop new products",
+            "The startup's AI coding platform has gained significant traction",
+            "The investment is a testament to the growing interest in AI startups"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Emergent's funding is a significant milestone for the Indian startup ecosystem",
+            "The startup's success will encourage more investment in AI startups",
+            "The funding will help Emergent compete with established players in the market",
+            "Source: YourStory.com, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Emergent, an Indian AI coding startup, has raised $130M in Series C funding, achieving a valuation of over $1 billion. What are the implications of this funding for the startup and the broader AI ecosystem? How will Emergent use the funding to expand its operations? #AI #Funding #Emergent #SeriesC #Startup #India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX0ZfcENnVDNnaFdrRmRaN2Q4dHlxNjJ0Zzdnd05GQWRLeVJxa3pHTEpJNXpWVjEyNDNfaTFfbTViSDJYZXFSeWVfRFZtcDlvdGdTdF8yM1ZSaWplS05GbmtkWjlVSl90c1kwVG9yNTRRTFZSZnBZRG9XaUR5OTZuSjJDTVNpYlNkVmM1ekJzOA?oc=5",
+      "sourceName": "YourStory.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "15 Jul 2026"
+    }
+  ]
+}

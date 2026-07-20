@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-21",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "2–6 word short title",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N6",
+      "eventDate": "16 Jul 2026",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSW5sYzhRWERzUW1tYmVVNTlYTGNtdzBsYlRaTnN6OHhiTldzUnc4cXo4d2J1TzZscXRMaWhzaXBnblBwNDNPSERqcEdOWEJ3ZHlFeDVlbmJDdWxFTkJOOExYbTBualRRWDV4MEhULUJOT2QxNzR1UjBPOHhLT0Q5WnNKbzNzaEphQUZBRDl4eUliLVNrSHlOSUh0ZjBFdVhqaXVEQnZ3TzZSUQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Strong attention-grabbing hook",
+          "subtitle": "Short context explanation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 16 Jul 2026",
+            "Clear explanation of the event with entity and number",
+            "Additional important detail",
+            "Financial / technical / strategic number",
+            "Expansion or future plan"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Impact on market or industry",
+            "Impact on users/developers/investors",
+            "Competitive implication",
+            "Long-term signal"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: SiliconANGLE, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
+    },
+    {
+      "id": 2,
+      "topic": "2–6 word short title",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N24",
+      "eventDate": "20 Jul 2026",
+      "sourceName": "The News International",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQW1yQWU5V3hsb0twQzNpWmVoUU9raV9UY3ctUnZ2dkFtb2JsMVRROW12RXhyQmZVaWtOQlJ6RE1mbk5GTU42SDZQempucklVQmFJYl9ySlNpcURFNFROamhXQ1N1RHliZnR5Tno2SWdUajFHbWR0aXB0ZUJsd3FyV0U3NEkxV0tsc2dlaHg5ZXRLRXdjeUtKdFRWWG90QWxtbWEzcHVyTGpyWXI1SWRjeFRrRmhDQQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Strong attention-grabbing hook",
+          "subtitle": "Short context explanation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Jul 2026",
+            "Clear explanation of the event with entity and number",
+            "Additional important detail",
+            "Financial / technical / strategic number",
+            "Expansion or future plan"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: Publication, Mon YYYY"
+          ]
+        }
+      },
+      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
+    },
+    {
+      "id": 3,
+      "topic": "2–6 word short title",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N25",
+      "eventDate": "20 Jul 2026",
+      "sourceName": "Tech Policy Press",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2plMElrVWx4MG1HTTBScEpKdUlNY3NkMVZPZVlEUk9HWWx4MFVHYkpybkNwUGZXMncwTElEWFUxNUowYUI5Vzd0dnY5dGdvRUswOEtnSlpaVkhKNHg3X1NwTEVISEthU3R0ejZfM0lmc294RmREX0UzZG5xSmdXdG1WajRrekctWUVvZllGVUZkcDdFVWlGZmpNMU16YnpQVEhHMQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Strong attention-grabbing hook",
+          "subtitle": "Short context explanation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Jul 2026",
+            "Clear explanation of the event with entity and number",
+            "Additional important detail",
+            "Financial / technical / strategic number",
+            "Expansion or future plan"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Short insight",
+            "Source: Publication, Mon YYYY"
+          ]
+        }
+      },
+      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
+    }
+  ]
+}

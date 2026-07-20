@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-20",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Model Update",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N21",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's Latest Move",
+          "subtitle": "Merging ChatGPT and Codex"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 18 Jul 2026",
+            "OpenAI merged ChatGPT and Codex into one app",
+            "This move comes after the launch of GPT-5.6",
+            "The new app introduces a 'Work' mode",
+            "Aiming to improve productivity and efficiency"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This update can significantly impact the way we work with AI",
+            "Increased efficiency and productivity are expected",
+            "The 'Work' mode is designed to help users stay focused",
+            "Source: quasa.io, 18 Jul 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's latest update is making waves in the AI community. By merging ChatGPT and Codex, they're aiming to revolutionize the way we work with AI. But what does this mean for us? Will it really increase productivity and efficiency? Questions to consider: How will this update affect the future of AI development? Will other companies follow suit? #AI #OpenAI #ChatGPT #Productivity #Efficiency #FutureOfWork",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWHFCblFSQ243UFVTSFdmeUt4U0xZSWJhLVpNNTZ4Z3JreDFybVNTVEluZnMyNzJERjVBbEcwSXBvTnF5YlN2eVU5cFU0TkhMZ0Q3b2xyZUIzUHBGd0doNFpZdlFCanFnSm9iX2VzclJyWWVaeE5UTzAxaWJUakdTT09wblFydkRrSlF3MlFBSHVBUGJ2NmZYZEVlQ1pnVDczYTdmMVFxVnJxRkotZXoyYXcydw?oc=5",
+      "sourceName": "quasa.io",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "18 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Funding News",
+      "slides": 4,
+      "svgIcon": "database",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "Elon Musk's Latest Acquisition",
+          "subtitle": "APR Energy for $1 Billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Jul 2026",
+            "Elon Musk acquired APR Energy for $1 billion",
+            "The acquisition aims to support Grok AI",
+            "Grok AI is a significant player in the AI industry",
+            "The deal is valued at $1 billion"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition can have a significant impact on the AI industry",
+            "Grok AI can benefit from the resources and expertise of APR Energy",
+            "The deal demonstrates Elon Musk's commitment to AI development",
+            "The AI industry is expected to continue growing"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a strategic move for Elon Musk",
+            "Grok AI can expand its capabilities with APR Energy's resources",
+            "The deal is a significant investment in the AI industry",
+            "Source: IDNFinancials.com, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Elon Musk's latest acquisition is making headlines in the AI community. With the purchase of APR Energy for $1 billion, he's aiming to support Grok AI. But what does this mean for the industry? Will this acquisition lead to significant advancements in AI development? Questions to consider: How will this acquisition affect the competitive landscape of the AI industry? Will other companies make similar moves? #AI #ElonMusk #GrokAI #Acquisition #FundingNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX3EzVzQ3VWN2ak5GZno2QWtfZmRnNDdhXzhJakVfS2ZIcDRxUEY5SFlnalVxdlVSYm1fYmRscUthQzU5dVRCSHgwZV9rLThMZ25FcXBFcnpCbWIzQWwwWDQ2aWlTYlFtZzMzSmxGanZVRFB3NU1pWmFQck5hcGM3Mjh5RFM4akRIMFlUcXFjMlcyLXRkWXRjWjJSOHRZQlNQVmxRUnVjSUlqd1k?oc=5",
+      "sourceName": "IDNFinancials.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "20 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act: What to Expect",
+          "subtitle": "New Regulations on the Horizon"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Jul 2026",
+            "The EU AI Act is set to take effect on 2 August 2026",
+            "The act aims to regulate AI development and deployment",
+            "It will impact companies and organizations working with AI",
+            "The regulations will cover aspects such as transparency and accountability"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act can have a significant impact on the AI industry",
+            "Companies will need to adapt to the new regulations",
+            "The act aims to ensure responsible AI development and deployment",
+            "Source: Technology Org, 17 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act is set to take effect soon, bringing new regulations to the AI industry. But what does this mean for companies and organizations working with AI? Will the act ensure responsible AI development and deployment? Questions to consider: How will the EU AI Act affect the global AI industry? Will other regions follow suit with similar regulations? #AI #EUAIACT #Regulations #ResponsibleAI #FutureOfWork",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlFIdnRpdVdDbzEzWmo1ZjhhTFdyQXZRX29OOTZSdGhzQ25JZm8zUFdQanlEQjg5Z0N3d2hrU3U4Vkt2QkNBYzVXbG93Q3N5OWc2ZG4zaWM1dGNfQW9GYXp5dVhkZlA2QUVRUG1DOEt6d3ZzNTh0VnQzNmFwaGl0NnhWU2J6WjJpblVWMkswTEY?oc=5",
+      "sourceName": "Technology Org",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "17 Jul 2026"
+    }
+  ]
+}

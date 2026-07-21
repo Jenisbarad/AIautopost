@@ -8,126 +8,122 @@
   "posts": [
     {
       "id": 1,
-      "topic": "2–6 word short title",
+      "topic": "AI Acquisition",
       "slides": 4,
       "svgIcon": "brain",
-      "sourceId": "N6",
-      "eventDate": "16 Jul 2026",
-      "sourceName": "SiliconANGLE",
+      "sourceId": "N10",
+      "eventDate": "20 Jul 2026",
+      "sourceName": "Barron's",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSW5sYzhRWERzUW1tYmVVNTlYTGNtdzBsYlRaTnN6OHhiTldzUnc4cXo4d2J1TzZscXRMaWhzaXBnblBwNDNPSERqcEdOWEJ3ZHlFeDVlbmJDdWxFTkJOOExYbTBualRRWDV4MEhULUJOT2QxNzR1UjBPOHhLT0Q5WnNKbzNzaEphQUZBRDl4eUliLVNrSHlOSUh0ZjBFdVhqaXVEQnZ3TzZSUQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRllUSld5WC04cnpZRWhkWW5zbzVGUzJTMlcydm1yM0x4OXpqVWFKU1hUaXVLd2d3OURfaVBnSmc3WVNzU09hU0IyQlBPQ05QWWdWXzFYZU9NaXI4THVTYWRtR05VOXNESDZ2T01EdENuUGN4SWh5Y3NLSFZ2eUd4OTFFb3JOR1E?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Strong attention-grabbing hook",
-          "subtitle": "Short context explanation"
+          "headline": "Tempus AI's Strategic Move",
+          "subtitle": "Acquiring Personalis for $1.5 Billion"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 16 Jul 2026",
-            "Clear explanation of the event with entity and number",
-            "Additional important detail",
-            "Financial / technical / strategic number",
-            "Expansion or future plan"
+            "Tempus AI acquired Personalis for $1.5 billion on 20 Jul 2026",
+            "This acquisition aims to strengthen Tempus AI's presence in the AI oncology sector",
+            "The deal values Personalis at $1.5 billion",
+            "Both Tempus AI and Personalis stocks sank after the announcement"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "Impact on market or industry",
-            "Impact on users/developers/investors",
-            "Competitive implication",
-            "Long-term signal"
+            "This acquisition reflects the growing trend of consolidation in the AI industry",
+            "It highlights the importance of strategic investments in AI research and development",
+            "The deal may lead to increased competition in the AI oncology sector",
+            "Tempus AI's move may inspire other companies to explore similar acquisitions"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Short insight",
-            "Short insight",
-            "Short insight",
-            "Short insight",
-            "Source: SiliconANGLE, Jul 2026"
+            "The acquisition underscores the significance of AI in the healthcare sector",
+            "Tempus AI's strategic move may lead to advancements in cancer monitoring and treatment",
+            "The deal's impact on the industry will depend on the successful integration of Personalis' technology",
+            "Source: Barron's, Jul 2026"
           ]
         }
       },
-      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
+      "caption": "Tempus AI's $1.5 billion acquisition of Personalis marks a significant milestone in the AI industry. This move is expected to strengthen Tempus AI's position in the AI oncology sector. However, the deal's impact on the industry remains to be seen. Questions to consider: How will this acquisition affect the competitive landscape of the AI industry? What are the potential benefits and risks associated with this deal? #AI #Acquisition #Oncology #Healthcare #TempusAI #Personalis"
     },
     {
       "id": 2,
-      "topic": "2–6 word short title",
+      "topic": "AI Regulation",
       "slides": 3,
       "svgIcon": "shield",
-      "sourceId": "N24",
-      "eventDate": "20 Jul 2026",
-      "sourceName": "The News International",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQW1yQWU5V3hsb0twQzNpWmVoUU9raV9UY3ctUnZ2dkFtb2JsMVRROW12RXhyQmZVaWtOQlJ6RE1mbk5GTU42SDZQempucklVQmFJYl9ySlNpcURFNFROamhXQ1N1RHliZnR5Tno2SWdUajFHbWR0aXB0ZUJsd3FyV0U3NEkxV0tsc2dlaHg5ZXRLRXdjeUtKdFRWWG90QWxtbWEzcHVyTGpyWXI1SWRjeFRrRmhDQQ?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Strong attention-grabbing hook",
-          "subtitle": "Short context explanation"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 20 Jul 2026",
-            "Clear explanation of the event with entity and number",
-            "Additional important detail",
-            "Financial / technical / strategic number",
-            "Expansion or future plan"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Short insight",
-            "Short insight",
-            "Short insight",
-            "Short insight",
-            "Source: Publication, Mon YYYY"
-          ]
-        }
-      },
-      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
-    },
-    {
-      "id": 3,
-      "topic": "2–6 word short title",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N25",
+      "sourceId": "N12",
       "eventDate": "20 Jul 2026",
       "sourceName": "Tech Policy Press",
       "sourceMonthYear": "Jul 2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2plMElrVWx4MG1HTTBScEpKdUlNY3NkMVZPZVlEUk9HWWx4MFVHYkpybkNwUGZXMncwTElEWFUxNUowYUI5Vzd0dnY5dGdvRUswOEtnSlpaVkhKNHg3X1NwTEVISEthU3R0ejZfM0lmc294RmREX0UzZG5xSmdXdG1WajRrekctWUVvZllGVUZkcDdFVWlGZmpNMU16YnpQVEhHMQ?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Strong attention-grabbing hook",
-          "subtitle": "Short context explanation"
+          "headline": "The EU AI Act: Adaptive Regulation",
+          "subtitle": "A new approach to regulating AI"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 20 Jul 2026",
-            "Clear explanation of the event with entity and number",
-            "Additional important detail",
-            "Financial / technical / strategic number",
-            "Expansion or future plan"
+            "The EU AI Act is set to come into effect on 2 August 2026",
+            "The act aims to establish a framework for the development and deployment of AI systems",
+            "It focuses on adaptive regulation, allowing for flexibility and responsiveness to emerging trends",
+            "The act's effectiveness will depend on its ability to balance innovation and risk mitigation"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "Short insight",
-            "Short insight",
-            "Short insight",
-            "Short insight",
-            "Source: Publication, Mon YYYY"
+            "The EU AI Act marks a significant step towards regulating AI",
+            "Adaptive regulation can help address the complexities of AI development and deployment",
+            "The act's success will depend on its ability to evolve with the rapidly changing AI landscape",
+            "Source: Tech Policy Press, 20 Jul 2026"
           ]
         }
       },
-      "caption": "Engaging 2–4 paragraph caption with question + hashtags"
+      "caption": "The EU AI Act is poised to revolutionize the way AI is regulated. With its focus on adaptive regulation, the act aims to provide a framework that is both flexible and responsive to emerging trends. However, its success will depend on its ability to balance innovation and risk mitigation. Questions to consider: How will the EU AI Act impact the development and deployment of AI systems? What are the potential benefits and challenges associated with adaptive regulation? #AI #Regulation #EUAIAct #AdaptiveRegulation"
+    },
+    {
+      "id": 3,
+      "topic": "AI Research",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N11",
+      "eventDate": "20 Jul 2026",
+      "sourceName": "InfoWorld",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNDBDYmNwVTRSWUJnMExIMGdQeXE2QVR5cm1qNmVGMGswQ0Z6YmFUdmtuUWRRdEtOWHdOS3hTUzZxR0I5NEZzdTIyRE1Zcko5M19OaHVWME80VjlmU3k5M3h1TXVhRk93VERneTlsNzNELVVSOUJvb0pXSlVIQVRBdldvVEV0OGNzVmpaT1pGbUFZdVFObGdWcUV0SlpUaVhhZFJiekEyT3ZOblVWM1RSLWo0WHNOTkZJclNxeENnRG45REZ6UGpDcXV3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI's Codex Update",
+          "subtitle": "Context reduction for GPT 5.6 sparks dissatisfaction"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Jul 2026",
+            "OpenAI's Codex update reduced context for GPT 5.6, sparking dissatisfaction among developers",
+            "The update aims to improve the model's performance and efficiency",
+            "However, developers have expressed concerns about the impact on the model's ability to understand complex contexts",
+            "The update has sparked a debate about the trade-offs between model performance and context understanding"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The update highlights the challenges of balancing model performance and context understanding",
+            "Developers' concerns underscore the importance of transparency and communication in AI research",
+            "The debate surrounding the update may lead to new approaches to context reduction and model development",
+            "Source: InfoWorld, 20 Jul 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI's Codex update has sparked a debate about the trade-offs between model performance and context understanding. The update's impact on the model's ability to understand complex contexts has raised concerns among developers. Questions to consider: How will the update affect the development of AI models? What are the potential benefits and drawbacks of context reduction in AI research? #AI #Research #OpenAI #Codex #GPT56"
     }
   ]
 }

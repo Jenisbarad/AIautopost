@@ -8,122 +8,122 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N10",
-      "eventDate": "20 Jul 2026",
-      "sourceName": "Barron's",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRllUSld5WC04cnpZRWhkWW5zbzVGUzJTMlcydm1yM0x4OXpqVWFKU1hUaXVLd2d3OURfaVBnSmc3WVNzU09hU0IyQlBPQ05QWWdWXzFYZU9NaXI4THVTYWRtR05VOXNESDZ2T01EdENuUGN4SWh5Y3NLSFZ2eUd4OTFFb3JOR1E?oc=5",
+      "topic": "AI Exploit Economics",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N2",
       "slideContent": {
         "slide1": {
-          "headline": "Tempus AI's Strategic Move",
-          "subtitle": "Acquiring Personalis for $1.5 Billion"
+          "headline": "The $3 Exploit",
+          "subtitle": "AI has collapsed the economics of vulnerability exploitation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Tempus AI acquired Personalis for $1.5 billion on 20 Jul 2026",
-            "This acquisition aims to strengthen Tempus AI's presence in the AI oncology sector",
-            "The deal values Personalis at $1.5 billion",
-            "Both Tempus AI and Personalis stocks sank after the announcement"
+            "Event date: 21 Jul 2026",
+            "Quantro Security Report reveals AI has changed the game",
+            "The cost of exploiting vulnerabilities has decreased significantly",
+            "Only $3 is needed to exploit a vulnerability",
+            "This poses a significant threat to security teams"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This acquisition reflects the growing trend of consolidation in the AI industry",
-            "It highlights the importance of strategic investments in AI research and development",
-            "The deal may lead to increased competition in the AI oncology sector",
-            "Tempus AI's move may inspire other companies to explore similar acquisitions"
+            "The low cost of exploitation makes it easier for attackers",
+            "Security teams need to be more vigilant than ever",
+            "The report highlights the need for adaptive security measures",
+            "Source: PR Newswire, 21 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The economics of vulnerability exploitation have changed forever. With the cost of exploiting a vulnerability as low as $3, security teams are facing a significant threat. What does this mean for the future of cybersecurity? How will security teams adapt to this new landscape? #AI #Cybersecurity #VulnerabilityExploitation #QuantroSecurityReport #SecurityTeams #ThreatIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQUphY1h1c3VNQWVqTU1uS0NvNHhHTVJfWnA0VXp3YWtpQmdRTjRDTHo5QzdvdFBjRWU1Q1RSVElIbUZkUzZiSWd0NEkzZFoyODItYkRoandMWXduTHN6NkV6ZEdWc3pMZzM1S09yLW9PbVQ5WFF6MElra0pJR0lwR3NhUkFoN2pTd19HSmQzemJZRktibm9JcHhKQ2xLNzE0QV9SbmJxS0dHMy0xTXNVNDFTMnE2R0dMRzFydjQxVXJkMko3LVYwaUM3Nm5PN2hnQWlYRHY5ODFMRFg5cC0zNTJKTThNSENsckwxTEMxbFJQdi15?oc=5",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "21 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Natural Raises $30M",
+          "subtitle": "To reinvent payments for AI agents"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 20 Jul 2026",
+            "Natural raised $30M in funding",
+            "The funding will be used to develop AI-powered payment solutions",
+            "The company aims to take on Stripe",
+            "The funding round was led by prominent investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Natural develop innovative payment solutions",
+            "The company's AI-powered payment solutions have the potential to disrupt the industry",
+            "The funding is a significant vote of confidence in Natural's vision"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition underscores the significance of AI in the healthcare sector",
-            "Tempus AI's strategic move may lead to advancements in cancer monitoring and treatment",
-            "The deal's impact on the industry will depend on the successful integration of Personalis' technology",
-            "Source: Barron's, Jul 2026"
+            "Natural's funding is a significant development in the AI-powered payment space",
+            "The company's innovative solutions have the potential to change the game",
+            "The funding will help Natural expand its operations and develop new products",
+            "Source: TechCrunch, Jul 2026"
           ]
         }
       },
-      "caption": "Tempus AI's $1.5 billion acquisition of Personalis marks a significant milestone in the AI industry. This move is expected to strengthen Tempus AI's position in the AI oncology sector. However, the deal's impact on the industry remains to be seen. Questions to consider: How will this acquisition affect the competitive landscape of the AI industry? What are the potential benefits and risks associated with this deal? #AI #Acquisition #Oncology #Healthcare #TempusAI #Personalis"
+      "caption": "Natural has raised $30M in funding to reinvent payments for AI agents. What does this mean for the future of payments? How will Natural's AI-powered payment solutions disrupt the industry? What are the implications for Stripe and other payment companies? #AI #Payments #Funding #Natural #Stripe #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
+      "sourceName": "TechCrunch",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "20 Jul 2026"
     },
     {
-      "id": 2,
+      "id": 3,
       "topic": "AI Regulation",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N12",
-      "eventDate": "20 Jul 2026",
-      "sourceName": "Tech Policy Press",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2plMElrVWx4MG1HTTBScEpKdUlNY3NkMVZPZVlEUk9HWWx4MFVHYkpybkNwUGZXMncwTElEWFUxNUowYUI5Vzd0dnY5dGdvRUswOEtnSlpaVkhKNHg3X1NwTEVISEthU3R0ejZfM0lmc294RmREX0UzZG5xSmdXdG1WajRrekctWUVvZllGVUZkcDdFVWlGZmpNMU16YnpQVEhHMQ?oc=5",
+      "svgIcon": "globe",
+      "sourceId": "N9",
       "slideContent": {
         "slide1": {
-          "headline": "The EU AI Act: Adaptive Regulation",
-          "subtitle": "A new approach to regulating AI"
+          "headline": "Adaptive Regulation Matters",
+          "subtitle": "ChatGPT didn't break the AI Act, but showed why adaptive regulation is necessary"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 20 Jul 2026",
-            "The EU AI Act is set to come into effect on 2 August 2026",
-            "The act aims to establish a framework for the development and deployment of AI systems",
-            "It focuses on adaptive regulation, allowing for flexibility and responsiveness to emerging trends",
-            "The act's effectiveness will depend on its ability to balance innovation and risk mitigation"
+            "ChatGPT was tested against the AI Act",
+            "The results showed that adaptive regulation is necessary",
+            "The AI Act needs to be updated to keep pace with advancements in AI",
+            "42% of UK adults limit AI use due to privacy and security concerns"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The EU AI Act marks a significant step towards regulating AI",
-            "Adaptive regulation can help address the complexities of AI development and deployment",
-            "The act's success will depend on its ability to evolve with the rapidly changing AI landscape",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Adaptive regulation is crucial for ensuring AI safety and security",
+            "The AI Act needs to be updated to reflect the latest developments in AI",
+            "The importance of adaptive regulation cannot be overstated",
             "Source: Tech Policy Press, 20 Jul 2026"
           ]
         }
       },
-      "caption": "The EU AI Act is poised to revolutionize the way AI is regulated. With its focus on adaptive regulation, the act aims to provide a framework that is both flexible and responsive to emerging trends. However, its success will depend on its ability to balance innovation and risk mitigation. Questions to consider: How will the EU AI Act impact the development and deployment of AI systems? What are the potential benefits and challenges associated with adaptive regulation? #AI #Regulation #EUAIAct #AdaptiveRegulation"
-    },
-    {
-      "id": 3,
-      "topic": "AI Research",
-      "slides": 3,
-      "svgIcon": "code",
-      "sourceId": "N11",
-      "eventDate": "20 Jul 2026",
-      "sourceName": "InfoWorld",
+      "caption": "ChatGPT didn't break the AI Act, but showed why adaptive regulation matters. What does this mean for the future of AI regulation? How can adaptive regulation ensure AI safety and security? What are the implications for policymakers and regulators? #AI #Regulation #AdaptiveRegulation #ChatGPT #AISafety #Security",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2plMElrVWx4MG1HTTBScEpKdUlNY3NkMVZPZVlEUk9HWWx4MFVHYkpybkNwUGZXMncwTElEWFUxNUowYUI5Vzd0dnY5dGdvRUswOEtnSlpaVkhKNHg3X1NwTEVISEthU3R0ejZfM0lmc294RmREX0UzZG5xSmdXdG1WajRrekctWUVvZllGVUZkcDdFVWlGZmpNMU16YnpQVEhHMQ?oc=5",
+      "sourceName": "Tech Policy Press",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNDBDYmNwVTRSWUJnMExIMGdQeXE2QVR5cm1qNmVGMGswQ0Z6YmFUdmtuUWRRdEtOWHdOS3hTUzZxR0I5NEZzdTIyRE1Zcko5M19OaHVWME80VjlmU3k5M3h1TXVhRk93VERneTlsNzNELVVSOUJvb0pXSlVIQVRBdldvVEV0OGNzVmpaT1pGbUFZdVFObGdWcUV0SlpUaVhhZFJiekEyT3ZOblVWM1RSLWo0WHNOTkZJclNxeENnRG45REZ6UGpDcXV3?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "OpenAI's Codex Update",
-          "subtitle": "Context reduction for GPT 5.6 sparks dissatisfaction"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 20 Jul 2026",
-            "OpenAI's Codex update reduced context for GPT 5.6, sparking dissatisfaction among developers",
-            "The update aims to improve the model's performance and efficiency",
-            "However, developers have expressed concerns about the impact on the model's ability to understand complex contexts",
-            "The update has sparked a debate about the trade-offs between model performance and context understanding"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The update highlights the challenges of balancing model performance and context understanding",
-            "Developers' concerns underscore the importance of transparency and communication in AI research",
-            "The debate surrounding the update may lead to new approaches to context reduction and model development",
-            "Source: InfoWorld, 20 Jul 2026"
-          ]
-        }
-      },
-      "caption": "OpenAI's Codex update has sparked a debate about the trade-offs between model performance and context understanding. The update's impact on the model's ability to understand complex contexts has raised concerns among developers. Questions to consider: How will the update affect the development of AI models? What are the potential benefits and drawbacks of context reduction in AI research? #AI #Research #OpenAI #Codex #GPT56"
+      "eventDate": "20 Jul 2026"
     }
   ]
 }

@@ -8,123 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Security",
+      "topic": "AI Security Emerges",
       "slides": 4,
       "svgIcon": "shield",
-      "sourceId": "N25",
+      "sourceId": "N1",
       "eventDate": "22 Jul 2026",
       "sourceName": "calcalistech.com",
       "sourceMonthYear": "Jul 2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XUDNvcXRCNW5FV0tNVkVzTFBVdDA5dHFmLTdmZmtjS3NxUTRDQ3ZINHdHQXdIRzZTdjBaZVNFTnVjazZ5QUwxdkRieDA3dmFfbmpfd2Y2TXQyS2xNcGg0MFJUb0huc2hZSGc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "AI Security Startup Glow Emerges",
-          "subtitle": "With $180 Million Funding"
+          "headline": "Glow Emerges from Stealth",
+          "subtitle": "Revolutionizing AI Security"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 22 Jul 2026",
-            "AI security startup Glow emerges from stealth with $180 million funding.",
-            "The company is valued at $1.2 billion.",
-            "Glow's funding round was led by prominent investors.",
-            "The startup aims to use AI to enhance endpoint security."
+            "Glow emerges from stealth with $180 million in funding",
+            "Valuation reaches $1.2 billion",
+            "Aims to challenge endpoint security in the AI era",
+            "With a total funding of $180 million"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The rise of AI-powered security solutions is transforming the industry.",
-            "Glow's technology has the potential to revolutionize endpoint security.",
-            "The company's funding is a testament to the growing demand for AI-driven security solutions.",
-            "Glow's valuation reflects the confidence of investors in its technology."
+            "Improved security for AI systems",
+            "Protection against AI-powered threats",
+            "Enhanced endpoint security",
+            "A new player in the AI security market"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "Glow's emergence from stealth mode marks a significant milestone in the AI security landscape.",
-            "The company's funding and valuation demonstrate the growing importance of AI in security.",
-            "Glow's technology has the potential to disrupt traditional security solutions.",
+            "Glow's emergence marks a significant shift in AI security",
+            "The company's valuation indicates a strong market demand",
+            "Glow's technology has the potential to disrupt the endpoint security market",
             "Source: calcalistech.com, Jul 2026"
           ]
         }
       },
-      "caption": "AI security startup Glow emerges from stealth with $180 million funding, valued at $1.2 billion. This marks a significant milestone in the AI security landscape. What does this mean for the future of endpoint security? How will Glow's technology impact traditional security solutions? Questions to consider: What are the potential applications of AI in security? How will Glow's technology address emerging security threats? #AIsecurity #Glow #EmergingFromStealth #Funding #Valuation #Cybersecurity"
+      "caption": "Glow, an AI security startup, has emerged from stealth with a whopping $180 million in funding and a valuation of $1.2 billion. This move is set to challenge the traditional endpoint security market. But what does this mean for the future of AI security? How will Glow's technology impact the industry? What are the potential risks and benefits of using AI-powered security solutions? #AIsecurity #Glow #EmergesFromStealth #ArtificialIntelligence #CyberSecurity #TechNews #Innovation"
     },
     {
       "id": 2,
-      "topic": "AI Chips",
+      "topic": "Google Gemini Models",
       "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N17",
+      "svgIcon": "brain",
+      "sourceId": "N3",
       "eventDate": "21 Jul 2026",
-      "sourceName": "Tom's Hardware",
+      "sourceName": "TechCrunch",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOTh1U29adWFpUzBzbHBMZV9UX2NUVTVaS21VNTFuZGwzQjhBWUJmYmVpNjUtT3YxR0ZKSHpaLUFldWplWW9mNkxPZklWTkZhNzFkVno4dUJXc0QtemFGMjBMb0hlbzdubU9kSXpzWXVsZzNpWEpKZVFXSWJkaTU3Z2RyWHBQcFgtVUloUkszVmxDNHcxU0ZYRDFQNUhFS1Z2N0tFdzhEUGxPaHA4RnNBd1FyMWxNUkEyUVFaLUdnVHRENUN3ZFhEdlMwZkJuSjJ3RWc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdE9NSnZmTzNhQVlTaDNTWmNfRnhOWEs4NXNmWFRoUldoNV9idklBc3JYRzJzQVpDS3FRZFNueTBFaVVFUzJ3Y0dtSzY2ekdGdVY3V2pYeEYyRVlZN0dpa2x5X2tHWkN2LU9vQmM3bEdMVmhTczREU1RSNExfWDc3VW1wYlhGU0JVeVpUWVliVUxON3M?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Google's New AI Chip Development",
-          "subtitle": "Frozen v2 Chip with Gemini's Architecture"
+          "headline": "Google Releases New Gemini Models",
+          "subtitle": "Expanding the AI-Powered Gemini Lineup"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 21 Jul 2026",
-            "Google is reportedly developing a new AI chip, codenamed 'Frozen v2'.",
-            "The chip will feature Gemini's architecture etched into the silicon.",
-            "Engineers project 6 to 10 times more tokens per watt than latest TPUs.",
-            "The new chip aims to enhance AI performance and efficiency."
+            "Google releases three new Gemini models",
+            "No 3.5 Pro model announced",
+            "The new models are designed to improve AI performance",
+            "With a focus on natural language processing"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The development of the Frozen v2 chip demonstrates Google's commitment to advancing AI technology.",
-            "The integration of Gemini's architecture is expected to significantly improve AI performance.",
-            "The projected increase in tokens per watt reflects the potential for enhanced efficiency.",
-            "Source: Tom's Hardware, 21 Jul 2026"
+            "The new Gemini models demonstrate Google's commitment to AI research",
+            "The absence of a 3.5 Pro model may indicate a shift in Google's strategy",
+            "The Gemini models have the potential to revolutionize natural language processing",
+            "Source: TechCrunch, 21 Jul 2026"
           ]
         }
       },
-      "caption": "Google is reportedly developing a new AI chip, codenamed 'Frozen v2', with Gemini's architecture. What are the potential implications of this development for AI performance and efficiency? How will this impact the future of AI chip design? Questions to consider: What are the potential applications of the Frozen v2 chip? How will Google's new chip address emerging AI workloads? #AIchips #Google #Frozenv2 #Gemini #AIperformance"
+      "caption": "Google has released three new Gemini models, expanding its lineup of AI-powered technologies. But what's behind the decision to not release a 3.5 Pro model? How will these new models impact the field of natural language processing? What are the potential applications of Google's Gemini technology? #Google #Gemini #AI #NaturalLanguageProcessing #TechNews #Innovation"
     },
     {
       "id": 3,
-      "topic": "AI Adoption",
+      "topic": "OpenAI Partnership",
       "slides": 3,
       "svgIcon": "network",
-      "sourceId": "N3",
-      "eventDate": "21 Jul 2026",
-      "sourceName": "finance.biggo.com",
+      "sourceId": "N12",
+      "eventDate": "22 Jul 2026",
+      "sourceName": "NewscastStudio",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WeHBsTFZSblA2V1F5WFNTS0trSzYzZmFBVXZhVG1NMWdMSzJrLVR4M0dfM29CUkVHUUlEVkJnRFlOZzdZNkxJRldvOENsMEYxa01ZU3lqaXA0aVlvWHNRNDh4WjR6T1N6dEw3QnBkdXNHT3k4ZGc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOWdlM1paQWlGMUNsWXBGaERTUGNzWmU1LW0wbVlacFZ5VFg0V3B4LVZEcmk2SUNXbFJjSDJhN2t1ZkxHS000bkxPdGtfX3BsQk9iUF9pZkFILWY1RW9tRFNOb0xuY3FYaFI2WVBUWkZ6SU1Ga2JiR1pwT21tNlp6MDI4a3dqeTd2WWVEd292b2QtRWhYNlFMSjZOSGZvanlmd3QtTGNHQm0?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "OpenAI's AI Agents Surpass 10 Million Users",
-          "subtitle": "Demand Nearly Doubles After ChatGPT Work Launch"
+          "headline": "OpenAI Renews Local News Partnership",
+          "subtitle": "A $5 Million Investment"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 21 Jul 2026",
-            "OpenAI's AI agents have surpassed 10 million users.",
-            "Demand for the agents has nearly doubled after the launch of ChatGPT Work.",
-            "The significant growth in user adoption reflects the increasing popularity of AI-powered tools.",
-            "The launch of ChatGPT Work has contributed to the surge in demand."
+            "Event date: 22 Jul 2026",
+            "OpenAI renews local news partnership with a $5 million investment",
+            "The partnership aims to support local news organizations",
+            "The investment will help improve AI-powered news solutions",
+            "With a focus on community-based journalism"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The rapid growth in user adoption demonstrates the increasing acceptance of AI-powered tools.",
-            "The launch of ChatGPT Work has been a significant factor in the surge in demand.",
-            "The potential applications of OpenAI's AI agents are vast and varied.",
-            "Source: finance.biggo.com, 21 Jul 2026"
+            "The partnership demonstrates OpenAI's commitment to supporting local news",
+            "The investment has the potential to improve the quality of local news",
+            "The use of AI in local news may raise concerns about bias and accuracy",
+            "Source: NewscastStudio, 22 Jul 2026"
           ]
         }
       },
-      "caption": "OpenAI's AI agents have surpassed 10 million users, with demand nearly doubling after the launch of ChatGPT Work. What are the implications of this rapid growth for the future of AI adoption? How will OpenAI's AI agents impact various industries and applications? Questions to consider: What are the potential use cases for OpenAI's AI agents? How will the increasing demand for AI-powered tools shape the future of work? #AIadoption #OpenAI #ChatGPT #AIagents #UserGrowth"
+      "caption": "OpenAI has renewed its local news partnership with a $5 million investment. But what does this mean for the future of local news? How will the investment be used to support local news organizations? What are the potential implications of using AI-powered news solutions? #OpenAI #LocalNews #Partnership #AI #Journalism #CommunityFirst #Innovation"
     }
   ]
 }

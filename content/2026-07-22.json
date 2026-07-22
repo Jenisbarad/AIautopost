@@ -8,120 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Acquisition",
+      "topic": "AI Security",
       "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "19 Jul 2026",
-      "sourceName": "chshyd.in",
+      "svgIcon": "shield",
+      "sourceId": "N25",
+      "eventDate": "22 Jul 2026",
+      "sourceName": "calcalistech.com",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVm1jaFJVcloyZExGQlRBV2lXV0dNV21rRHVJQWRnTkxpMHNwSkRPZm1vTklLVFpFbHNINjllaE1HV014WVV4Nkw2TWREQ09HN19iaEhpckk4ckFFNV9faHlEUnRUU0VlUmVreXdIdDFfUzhDeEVkbEIySEZ5WFlYVk9rVXhVdlk1UmswbUsyVzBwRkllajhJMWRsX0lNQmwwY2Vr?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XUDNvcXRCNW5FV0tNVkVzTFBVdDA5dHFmLTdmZmtjS3NxUTRDQ3ZINHdHQXdIRzZTdjBaZVNFTnVjazZ5QUwxdkRieDA3dmFfbmpfd2Y2TXQyS2xNcGg0MFJUb0huc2hZSGc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Netflix Expands AI Capabilities",
-          "subtitle": "Acquires InterPositive for $587 Million"
+          "headline": "AI Security Startup Glow Emerges",
+          "subtitle": "With $180 Million Funding"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Netflix acquired InterPositive, an AI startup, on 19 Jul 2026",
-            "The deal is worth $587 Million",
-            "This acquisition is expected to enhance Netflix's AI capabilities",
-            "InterPositive is co-founded by Ben Affleck"
+            "Event date: 22 Jul 2026",
+            "AI security startup Glow emerges from stealth with $180 million funding.",
+            "The company is valued at $1.2 billion.",
+            "Glow's funding round was led by prominent investors.",
+            "The startup aims to use AI to enhance endpoint security."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This acquisition is a significant step for Netflix in the AI space",
-            "It will help the company to improve its content recommendation and personalization",
-            "The deal also highlights the growing importance of AI in the entertainment industry",
-            "Netflix is expected to leverage InterPositive's technology to enhance its user experience"
+            "The rise of AI-powered security solutions is transforming the industry.",
+            "Glow's technology has the potential to revolutionize endpoint security.",
+            "The company's funding is a testament to the growing demand for AI-driven security solutions.",
+            "Glow's valuation reflects the confidence of investors in its technology."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition is a strategic move by Netflix to stay ahead in the AI race",
-            "It will enable the company to develop more sophisticated AI models",
-            "The deal is expected to have a positive impact on Netflix's stock price",
-            "Source: chshyd.in, Jul 2026"
+            "Glow's emergence from stealth mode marks a significant milestone in the AI security landscape.",
+            "The company's funding and valuation demonstrate the growing importance of AI in security.",
+            "Glow's technology has the potential to disrupt traditional security solutions.",
+            "Source: calcalistech.com, Jul 2026"
           ]
         }
       },
-      "caption": "Netflix has acquired InterPositive, an AI startup co-founded by Ben Affleck, for $587 Million. This acquisition is a significant step for Netflix in the AI space and is expected to enhance its content recommendation and personalization capabilities. Questions to consider: How will this acquisition impact Netflix's competitive position in the streaming market? What are the potential risks and challenges associated with this deal? #AI #Acquisition #Netflix #InterPositive #BenAffleck #Streaming"
+      "caption": "AI security startup Glow emerges from stealth with $180 million funding, valued at $1.2 billion. This marks a significant milestone in the AI security landscape. What does this mean for the future of endpoint security? How will Glow's technology impact traditional security solutions? Questions to consider: What are the potential applications of AI in security? How will Glow's technology address emerging security threats? #AIsecurity #Glow #EmergingFromStealth #Funding #Valuation #Cybersecurity"
     },
     {
       "id": 2,
-      "topic": "AI Security",
+      "topic": "AI Chips",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N21",
+      "svgIcon": "chip",
+      "sourceId": "N17",
       "eventDate": "21 Jul 2026",
-      "sourceName": "OpenAI",
+      "sourceName": "Tom's Hardware",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QM0NxYjlpZlBQVHNUaVZta3E1aGJ5LTZHcTg5bEU5T3JCbVdIc19BUk5pcFBlR0RNaDhoYVhGRm95TjVTMVZMLU9XOE1MeEhNQS02VGI3TDh6bWktZ2VoYU82eWFVcVJTM0NKbkUtWU83a2IzNUdvZFVCeDVzdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOTh1U29adWFpUzBzbHBMZV9UX2NUVTVaS21VNTFuZGwzQjhBWUJmYmVpNjUtT3YxR0ZKSHpaLUFldWplWW9mNkxPZklWTkZhNzFkVno4dUJXc0QtemFGMjBMb0hlbzdubU9kSXpzWXVsZzNpWEpKZVFXSWJkaTU3Z2RyWHBQcFgtVUloUkszVmxDNHcxU0ZYRDFQNUhFS1Z2N0tFdzhEUGxPaHA4RnNBd1FyMWxNUkEyUVFaLUdnVHRENUN3ZFhEdlMwZkJuSjJ3RWc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "OpenAI and Hugging Face Partner on Security",
-          "subtitle": "Addressing Security Incident during Model Evaluation"
+          "headline": "Google's New AI Chip Development",
+          "subtitle": "Frozen v2 Chip with Gemini's Architecture"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "OpenAI and Hugging Face partnered to address a security incident during model evaluation on 21 Jul 2026",
-            "The incident highlighted the importance of security in AI model development",
-            "The partnership aims to improve the security and robustness of AI models",
-            "OpenAI and Hugging Face will work together to develop more secure AI models"
+            "Event date: 21 Jul 2026",
+            "Google is reportedly developing a new AI chip, codenamed 'Frozen v2'.",
+            "The chip will feature Gemini's architecture etched into the silicon.",
+            "Engineers project 6 to 10 times more tokens per watt than latest TPUs.",
+            "The new chip aims to enhance AI performance and efficiency."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The partnership is a significant step towards improving AI security",
-            "It will help to develop more robust and secure AI models",
-            "The incident highlights the need for increased focus on AI security",
-            "Source: OpenAI, 21 Jul 2026"
+            "The development of the Frozen v2 chip demonstrates Google's commitment to advancing AI technology.",
+            "The integration of Gemini's architecture is expected to significantly improve AI performance.",
+            "The projected increase in tokens per watt reflects the potential for enhanced efficiency.",
+            "Source: Tom's Hardware, 21 Jul 2026"
           ]
         }
       },
-      "caption": "OpenAI and Hugging Face have partnered to address a security incident during model evaluation. This partnership is a significant step towards improving AI security and developing more robust and secure AI models. Questions to consider: What are the potential risks associated with AI security incidents? How can companies ensure the security and robustness of their AI models? #AI #Security #OpenAI #HuggingFace #Partnership"
+      "caption": "Google is reportedly developing a new AI chip, codenamed 'Frozen v2', with Gemini's architecture. What are the potential implications of this development for AI performance and efficiency? How will this impact the future of AI chip design? Questions to consider: What are the potential applications of the Frozen v2 chip? How will Google's new chip address emerging AI workloads? #AIchips #Google #Frozenv2 #Gemini #AIperformance"
     },
     {
       "id": 3,
-      "topic": "AI Funding",
+      "topic": "AI Adoption",
       "slides": 3,
       "svgIcon": "network",
-      "sourceId": "N16",
+      "sourceId": "N3",
       "eventDate": "21 Jul 2026",
-      "sourceName": "ETEnterpriseai.com",
+      "sourceName": "finance.biggo.com",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONkYxOUcySkpiRGU3OXVSMnhJVi1UcVdqaFZZeTZIM1ZWSktkNU9KY1B0a0Y3bGQxMmlINGRhU3NqZ0VReEtyaGw4cE1hbDAtel9ma0Q3dmdyS0ZDVjB4N1NEWEpXRGYzdnVTSF9yTGJfQy1Ncl9RVEpreTVwVkpwNEZqa3cwUjYxM09mb0hKTG83dzNGcEhuNVN4ckRfWUNJZUdFdkRRZlVzSjk5NGpaOFpzYlFnMy13VkVGRUVvdUs4Sjh4RHVjVXBtS2VlYjFWaTlpNmNYd202dVpwazZ3TmJQSEsyMkxyNHpNOS1IbnFYd9IB9wFBVV95cUxQdzBMLTVQNmlpS19pMG83OEVJY1d0WmdoRDNvMnBSWVNBeHBvRC02eS1iZXJNZmdzSlhLM2kzV3pVbVpQMHJITDR4cndjYjhQRE43WUJLa2ZncTE2RWZIWjNOTkNYekFMNmtYa3dVRnRWdkVwZnlkQ3pHRjNzZTZyQ2lVV2tRVG40VlNyc1N4dm1NZnhEWjJ3Ti05eDhUZTNNS09XTkF3NEFnMGF4djhWbWsxREItR2tPSl9zUUptRDdaSC0xZnhfTzlvbkJWQzZYcjAyQ2o3M0JlRjRhYzJkY1FJeFBaMHZUSUpROTQ2OU9sRlFGQlow?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WeHBsTFZSblA2V1F5WFNTS0trSzYzZmFBVXZhVG1NMWdMSzJrLVR4M0dfM29CUkVHUUlEVkJnRFlOZzdZNkxJRldvOENsMEYxa01ZU3lqaXA0aVlvWHNRNDh4WjR6T1N6dEw3QnBkdXNHT3k4ZGc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "CuspAI Raises $450 Million",
-          "subtitle": "To Accelerate AI-Powered Materials Discovery"
+          "headline": "OpenAI's AI Agents Surpass 10 Million Users",
+          "subtitle": "Demand Nearly Doubles After ChatGPT Work Launch"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "CuspAI raised $450 million on 21 Jul 2026",
-            "The funding will be used to accelerate AI-powered materials discovery",
-            "CuspAI aims to develop new materials with improved properties",
-            "The funding round was led by several prominent investors"
+            "Event date: 21 Jul 2026",
+            "OpenAI's AI agents have surpassed 10 million users.",
+            "Demand for the agents has nearly doubled after the launch of ChatGPT Work.",
+            "The significant growth in user adoption reflects the increasing popularity of AI-powered tools.",
+            "The launch of ChatGPT Work has contributed to the surge in demand."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The funding is a significant boost for CuspAI's AI-powered materials discovery efforts",
-            "It will enable the company to develop new materials with improved properties",
-            "The funding round highlights the growing interest in AI-powered materials discovery",
-            "Source: ETEnterpriseai.com, 21 Jul 2026"
+            "The rapid growth in user adoption demonstrates the increasing acceptance of AI-powered tools.",
+            "The launch of ChatGPT Work has been a significant factor in the surge in demand.",
+            "The potential applications of OpenAI's AI agents are vast and varied.",
+            "Source: finance.biggo.com, 21 Jul 2026"
           ]
         }
       },
-      "caption": "CuspAI has raised $450 million to accelerate AI-powered materials discovery. This funding will enable the company to develop new materials with improved properties and highlights the growing interest in AI-powered materials discovery. Questions to consider: What are the potential applications of AI-powered materials discovery? How will this funding impact CuspAI's competitive position in the market? #AI #Funding #CuspAI #MaterialsDiscovery"
+      "caption": "OpenAI's AI agents have surpassed 10 million users, with demand nearly doubling after the launch of ChatGPT Work. What are the implications of this rapid growth for the future of AI adoption? How will OpenAI's AI agents impact various industries and applications? Questions to consider: What are the potential use cases for OpenAI's AI agents? How will the increasing demand for AI-powered tools shape the future of work? #AIadoption #OpenAI #ChatGPT #AIagents #UserGrowth"
     }
   ]
 }

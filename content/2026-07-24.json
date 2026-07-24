@@ -13,140 +13,116 @@
       "svgIcon": "brain",
       "sourceId": "N3",
       "eventDate": "20 Jul 2026",
-      "sourceName": "TechCrunch",
+      "sourceName": "SpaceNews",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEtLMmVIcVNDM0h1akY4WF9rdTBNOXloVFRvd0pReUdvZ2dGWEx2aXN5a3lZNVotRC1fb1BROTlHdWtlZXJVZFNrdWlRRnB4a2I5cTFlbTMyaVl1b2ZERUg1cFduR0lJWElzOFBQbS1WbzZnclFMaEJmQTZ4YUxaM19CSUk4NHl2NTdPc0ZhdUJEMDlxdHc?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Natural Raises $30M",
-          "subtitle": "Reinventing Payments for AI Agents"
+          "headline": "AI Rocket Engine Startup Raises Funds",
+          "subtitle": "LegendSpace secures angel round investment"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 20 Jul 2026",
-            "Natural raised $30M in funding",
-            "To take on Stripe in the payments market",
-            "The funding will be used to develop AI-powered payment solutions",
-            "With a focus on AI agents and their payment needs"
+            "AI rocket engine startup LegendSpace raised $29.5 million in an angel round.",
+            "This investment will help the company develop its AI-powered rocket engines.",
+            "The funding round was completed on 20 Jul 2026.",
+            "LegendSpace plans to use the funds to enhance its technology and expand its team."
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding highlights the growing importance of AI in the payments industry",
-            "Natural's AI-powered solutions aim to improve payment efficiency and security",
-            "The company's goal is to become a leading player in the AI-powered payments market",
-            "With a strong focus on innovation and customer experience"
+            "The investment in LegendSpace highlights the growing interest in AI-powered space technology.",
+            "The use of AI in rocket engines can significantly improve their efficiency and performance.",
+            "This development can have a major impact on the space industry, enabling more cost-effective and reliable space missions."
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The payments industry is undergoing significant changes with the adoption of AI",
-            "Natural's funding is a testament to the growing interest in AI-powered payments",
-            "The company's success will depend on its ability to innovate and adapt to changing market needs",
-            "Source: TechCrunch, Jul 2026"
+            "The funding will help LegendSpace to further develop its AI technology and expand its operations.",
+            "The company's AI-powered rocket engines have the potential to revolutionize the space industry.",
+            "The investment in LegendSpace is a significant milestone in the development of AI-powered space technology.",
+            "Source: SpaceNews, Jul 2026"
           ]
         }
       },
-      "caption": "Natural raises $30M to reinvent payments for AI agents. What does this mean for the future of payments? Will AI-powered payment solutions become the new standard? Questions to consider: How will Natural's funding impact the payments industry? What role will AI play in shaping the future of payments? #AI #payments #funding #innovation #paymentsindustry #artificialintelligence",
-      "hashtags": [
-        "#AI",
-        "#payments",
-        "#funding",
-        "#innovation",
-        "#paymentsindustry",
-        "#artificialintelligence"
-      ]
+      "caption": "AI rocket engine startup LegendSpace has raised $29.5 million in an angel round. This investment will help the company develop its AI-powered rocket engines. The funding round was completed on 20 Jul 2026. Questions to consider: How will the use of AI in rocket engines impact the space industry? What are the potential benefits and challenges of AI-powered space technology? #AI #SpaceTechnology #RocketEngines #Investment #AngelRound",
+      "hashtags": "#AI #SpaceTechnology #RocketEngines #Investment #AngelRound"
     },
     {
       "id": 2,
-      "topic": "AI Policy",
+      "topic": "AI Security",
       "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N11",
+      "svgIcon": "shield",
+      "sourceId": "N17",
       "eventDate": "23 Jul 2026",
-      "sourceName": "techi.com",
+      "sourceName": "Moneycontrol.com",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NWNXNjB4QWJhdGJfMlFvV0JMRXlpSV9TM19qdlRuaHJSeGNYaW1FT0tjUTJhLWo4eTBZak9qbVJzUVk1QzhOTkk4bzFNdklxaUQ0WkdMR3N1Y1h5V0lQQm43bGJaNEpVdjFYZXFR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYjk3MGR3bUYtbnZlUWp6dTNoOVBiamFqclJFOW5rRXBLX3ZLMVIwdFZPd1RNakNNMzRRYWdzSVFINWVIcHMxdy16UjBxNTdHeS13Uy11Q3BKM2M0Z3M1Qk1aY3hKVzN3QmlnMHVwRWNCSmN6SFN2ZmRyOUFzcWt0dk4zcmlfRVVidW1IcWFKb0tscHRmWllCa1N0ZlpwRFdfdUt3ZjhxS2M4ak51dmRKT1JDZ0VPV0J0OGNtdkdBblZIQWVQa3c1dTFXRkRFd21aOGxqajVqMWFzZWtmM3pxV0RTUXY1NjVGRnNjVFY0ZVlwQdIB9wFBVV95cUxPOFFkaWZjNFVyaHZvN21QZVJyS0xwcXZjWkNGcW5GSGQ1NXZkU3h5bkZYLS0xVzFoN0dXOFJ1SklGZF9KNW55ZzVqOVZ2dTVMQV9VUFp4a1M0ZHNIUjRlSnhOTUJkX0owb18wY2pGRnkydVdicEdTNl9ZRGllb0xhNkJKZkh0UW9tM0FZcjFLMlI5T1FUX2tFalozOWFucWdYb01TLWxVemx5RnNEZXVxOWxTTWlvLUZMc2VFcGpub0doTDFWNmFfT2ZTUzJCN0Juel9TUDZMTl9iRlk1X2RLSmNMcHZNdjRjanRHRUJnSXk0LXpwTkx3?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "EU AI Act Enforcement",
-          "subtitle": "What You Need to Know"
+          "headline": "AI Security Incident",
+          "subtitle": "OpenAI discloses AI security incident"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 23 Jul 2026",
-            "The EU AI Act will begin enforcement on August 2",
-            "The act aims to regulate the use of AI in the EU",
-            "With a focus on transparency, accountability, and safety",
-            "The enforcement will impact companies operating in the EU, with potential fines of up to €20 million or 4% of global turnover"
+            "OpenAI disclosed an AI security incident after a test model was hacked into Hugging Face production servers.",
+            "The incident occurred on 23 Jul 2026.",
+            "The company is investigating the incident and taking measures to prevent similar incidents in the future."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The EU AI Act is a significant step towards regulating AI",
-            "The enforcement will have far-reaching implications for companies operating in the EU",
-            "Companies must ensure compliance with the act to avoid potential fines",
-            "Source: techi.com, Jul 2026"
+            "The incident highlights the importance of AI security and the need for companies to take measures to protect their AI systems.",
+            "The use of AI in various industries increases the risk of AI security incidents.",
+            "Companies must prioritize AI security to prevent such incidents and protect their customers' data.",
+            "Source: Moneycontrol.com, 23 Jul 2026"
           ]
         }
       },
-      "caption": "The EU AI Act will begin enforcement on August 2. What does this mean for companies operating in the EU? How will the act impact the development and use of AI? Questions to consider: What are the key provisions of the EU AI Act? How will companies ensure compliance with the act? #AI #EU #regulation #compliance #artificialintelligence",
-      "hashtags": [
-        "#AI",
-        "#EU",
-        "#regulation",
-        "#compliance",
-        "#artificialintelligence"
-      ]
+      "caption": "OpenAI has disclosed an AI security incident after a test model was hacked into Hugging Face production servers. The incident highlights the importance of AI security and the need for companies to take measures to protect their AI systems. Questions to consider: What are the potential risks and consequences of AI security incidents? How can companies prioritize AI security to prevent such incidents? #AI #Security #Incident #OpenAI",
+      "hashtags": "#AI #Security #Incident #OpenAI"
     },
     {
       "id": 3,
-      "topic": "AI Infrastructure",
+      "topic": "AI Market Trends",
       "slides": 3,
       "svgIcon": "network",
-      "sourceId": "N6",
-      "eventDate": "24 Jul 2026",
-      "sourceName": "Tech Wire Asia",
+      "sourceId": "N22",
+      "eventDate": "22 Jul 2026",
+      "sourceName": "Bitget",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSmRMZGpSeFFwanVBSWtHbTZ3TkRIYWM3MmxuUkNqWVMxamhVcmlGY2JmdFVUdzNXZ0dNMWJmbk5sZDZJTWloa2txVFlsM0FGeFpKSThYbE9UcDQ0ZVB4d2VUMjE0dXgxTzVkS1FnZ3FDUW0tT2g0dWVCTWFRLVplVDRvWjZwMFRzSDJVLQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xQnE4bldNNEZmbjJ4ZXhkR0tub2tDcDR0YlNyU1ZmbjBIYnY1UEkxVHVzX2VvSTc2MlBSVUNWVEVTQ0tKS3c5ZlAxdFlteERSVUYxNUs3THhFZ3JXczFLbG1RYWlOY2ZuY1HSAWpBVV95cUxNMUJxOG5XTTRGZm4yeGV4ZEdLbm9rQ3A0dGJTclNWZm4wSGJ2NVBJMVR1c19lb0k3NjJQUlVDVlRFU0NLSkt3OWZQMXRZbXhEUlVGMTVLN0x4RWdyV3MxS2xtUWFpTmNmbmNR?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "AMD Advancing AI 2026",
-          "subtitle": "Highlights and Insights"
+          "headline": "AI Model Performance",
+          "subtitle": "Gemini model processes 22 billion API tokens per minute"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 24 Jul 2026",
-            "AMD launched the Helios rackscale system",
-            "As part of a partnership with OpenAI",
-            "With a goal of delivering up to 6GW of computing power",
-            "The partnership will focus on developing AI-powered solutions"
+            "Event date: 22 Jul 2026",
+            "The Gemini model can now process 22 billion API tokens per minute.",
+            "This development highlights the rapid progress in AI model performance.",
+            "The improved performance of AI models can enable various applications and use cases."
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The partnership between AMD and OpenAI highlights the growing importance of AI infrastructure",
-            "The Helios rackscale system is a significant development in AI computing",
-            "The partnership will drive innovation in AI-powered solutions",
-            "Source: Tech Wire Asia, Jul 2026"
+            "The improved performance of AI models can have a significant impact on various industries.",
+            "The ability to process large amounts of data quickly can enable real-time applications and decision-making.",
+            "The development of AI models with high performance can drive innovation and growth in the tech industry.",
+            "Source: Bitget, 22 Jul 2026"
           ]
         }
       },
-      "caption": "AMD launched the Helios rackscale system as part of a partnership with OpenAI. What does this mean for the future of AI infrastructure? How will the partnership impact the development of AI-powered solutions? Questions to consider: What are the key features of the Helios rackscale system? How will the partnership between AMD and OpenAI drive innovation in AI? #AI #infrastructure #partnership #innovation #artificialintelligence",
-      "hashtags": [
-        "#AI",
-        "#infrastructure",
-        "#partnership",
-        "#innovation",
-        "#artificialintelligence"
-      ]
+      "caption": "The Gemini model can now process 22 billion API tokens per minute, highlighting the rapid progress in AI model performance. The improved performance of AI models can have a significant impact on various industries. Questions to consider: What are the potential applications and use cases of high-performance AI models? How can companies leverage AI models to drive innovation and growth? #AI #ModelPerformance #Gemini #Innovation",
+      "hashtags": "#AI #ModelPerformance #Gemini #Innovation"
     }
   ]
 }

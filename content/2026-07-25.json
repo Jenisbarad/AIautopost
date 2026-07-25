@@ -8,122 +8,121 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
-      "slides": 4,
-      "svgIcon": "chip",
-      "sourceId": "N2",
-      "eventDate": "24 Jul 2026",
-      "sourceName": "Not a Tesla App",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGVCMlBkTUZQNHlPUUh3Sk1rZU1peDN2eXJZc180VUZUNlFjX0ZYLW5yT0hWTHlUaEs3U2hRRW5obkVqUkxLY0V0N3V0WlN2eWV2N3lHRVpFa3RSTjRzM0JBY21ZZTlwQldFM2xvRlVjTXYteUZDOFFZZkxtWWdmdldMajVVT2tOYS1IZzUtTjJ4OUw1Mjg1RnQxWQ?oc=5",
+      "topic": "AI Model Launch",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "Tesla Acquires AI Hardware Company",
-          "subtitle": "A significant move in the AI hardware space"
+          "headline": "Anthropic Launches Claude Opus 5",
+          "subtitle": "A new AI model for smarter tasks"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Tesla acquired an AI hardware company for $2 billion.",
-            "This acquisition is expected to enhance Tesla's AI capabilities.",
-            "The deal was announced on 24 Jul 2026.",
-            "The AI hardware company's technology will be integrated into Tesla's products."
+            "Anthropic launched Claude Opus 5 on 25 Jul 2026",
+            "The model is designed for smarter tasks",
+            "It is priced at half of Fable 5",
+            "This launch is expected to revolutionize the AI industry"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "This acquisition highlights the growing importance of AI in the tech industry.",
-            "Tesla's move is expected to boost its competitiveness in the market.",
-            "The deal may also lead to advancements in AI hardware technology.",
-            "Other companies may follow suit with similar acquisitions."
+            "The launch of Claude Opus 5 marks a significant milestone in the development of AI models",
+            "It has the potential to transform various industries",
+            "The pricing strategy of Anthropic is expected to disrupt the market",
+            "Source: Siliconindia, 25 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has launched Claude Opus 5, a new AI model designed for smarter tasks. The model is priced at half of Fable 5, which is expected to disrupt the market. What are the potential applications of Claude Opus 5? How will it impact the AI industry? #AI #ClaudeOpus5 #Anthropic #ArtificialIntelligence #MachineLearning #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNWM4VXc4aW5QLXZwdmJEVU05LXhzLXZoTUNJSWZ3VDBGdC0xWFRFbFhyN0tvVHlwaDRaLWxqS0RuLThCcmQyeVVLZHBENjNxUWMzSG1hczR6bDJxc21CTFFVc3hRTENBcVpsTDBvYk1NRWU5VXZpUlM4RVItOWVfcjBTVzdtN3htalowSzB6eDJ0TzJfMDNSbzd0NXVGYmdkTVUxR0I0OV9UdUg0dEUyeGhJbjQxWF9BMFVBQ0F3?oc=5",
+      "sourceName": "Siliconindia",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "25 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Funding Round",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Etched Raises $300 Million",
+          "subtitle": "AI chip startup secures funding at $10.3 billion valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Etched raised $300 million in funding on 23 Jul 2026",
+            "The funding round valued the company at $10.3 billion",
+            "The investment will be used to develop AI chip technology",
+            "This funding round marks a significant milestone in the growth of Etched"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round demonstrates the growing interest in AI chip technology",
+            "Etched is well-positioned to capitalize on this trend",
+            "The company's valuation reflects its potential for growth",
+            "The investment will help Etched to expand its operations"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The acquisition price of $2 billion indicates the high value of AI hardware technology.",
-            "Tesla's focus on AI is expected to drive innovation in the industry.",
-            "The deal may have significant implications for the future of AI development.",
-            "Source: Not a Tesla App, Jul 2026"
+            "Etched's funding round is a significant development in the AI chip industry",
+            "The company's valuation reflects its potential for growth",
+            "The investment will help Etched to expand its operations",
+            "Source: Reuters, Jul 2026"
           ]
         }
       },
-      "caption": "Tesla's acquisition of an AI hardware company for $2 billion is a significant move in the AI space. What does this mean for the future of AI development? How will this acquisition impact Tesla's competitiveness in the market? Questions to consider: What are the potential implications of this acquisition for the AI industry? How will other companies respond to Tesla's move? #AI #Tesla #Acquisition #AIHardware #TechNews #Innovation"
-    },
-    {
-      "id": 2,
-      "topic": "AI Model Launch",
-      "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N4",
-      "eventDate": "25 Jul 2026",
-      "sourceName": "finance.biggo.com",
+      "caption": "Etched, an AI chip startup, has raised $300 million in funding at a valuation of $10.3 billion. What are the implications of this funding round for the AI industry? How will Etched use the investment to develop its technology? #AI #Etched #FundingRound #ArtificialIntelligence #ChipTechnology #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdUlZb3pVNjdBYmVWRElsTUtJcXBpM2xyblBOTHl6VW1VeU9HV3ZFSmhZN0poOW1aMVUwdDU4ZU1xVm4zMi00YnhKTnllTG90YUg5cTV1OGRxSkxDLWhZSk9YQmI3TjZMczBnUmNQTlVTNWtCeDBqc1h6MTBNVFUzTDQ1dWFzZjVoZXB4X0pFbFZXbERSUk9MaGVKdXVXTFpxSGRFanZOU0xoSDVVQ0cw?oc=5",
+      "sourceName": "Reuters",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OYnFHelY2VmZ5bDBfblkzN1VUNU90ZEhOb0YyTkpsbHRWaVNGNk9LSTZVbWYtQnFtSHR5bHJoRXM3UkRUdUhZdEp2VnMzQks3eGE2c2RWanpPYTltOHVXU0Z1NEpnRVI5VXhmNDVfVkNIVzlaMnc?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Anthropic Launches Claude Opus 5",
-          "subtitle": "A new AI model with enhanced capabilities"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 25 Jul 2026",
-            "Anthropic launched Claude Opus 5, a new AI model that matches near-flagship performance for half the cost.",
-            "The model is designed for smarter tasks and offers improved efficiency.",
-            "Claude Opus 5 is expected to be a game-changer in the AI industry.",
-            "The model's capabilities include coding, agents, and enterprise workflows."
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The launch of Claude Opus 5 highlights Anthropic's focus on innovation and efficiency.",
-            "The model's capabilities have the potential to revolutionize various industries.",
-            "The reduced cost of the model makes it more accessible to a wider range of users.",
-            "Source: Finance Big Go, 25 Jul 2026"
-          ]
-        }
-      },
-      "caption": "Anthropic's launch of Claude Opus 5 is a significant development in the AI space. What are the potential applications of this new model? How will it impact the industry? Questions to consider: What are the key features of Claude Opus 5? How will it change the way businesses approach AI? #AI #Anthropic #ClaudeOpus5 #Innovation #TechNews"
+      "eventDate": "23 Jul 2026"
     },
     {
       "id": 3,
-      "topic": "AI Policy",
+      "topic": "Policy Update",
       "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N11",
-      "eventDate": "22 Jul 2026",
-      "sourceName": "WSJ",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUhmZUJTRk1sMmE5OWk2QUFtQVFveEZROVNXTGFYTnVxZ091SkdhMlB5NGxRczcyQjY3NHhPOVkwMm45UUV6dVBpLVIyN2tab0Ria21zS3RTazJnZ3ZBQ3hMSGRrOG5OVEFRYVNLSFQtdTFyWXlJME8xX0JhbkoySjZFV25nZHV6NjR2dTNuZjRTdS1GQlpnVFlxUlotYnZzQTNFbFVMdmdlYzA?oc=5",
+      "svgIcon": "globe",
+      "sourceId": "N19",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Doubles Midterm Spending on AI Policy",
-          "subtitle": "A significant investment in AI regulation"
+          "headline": "Trump's AI Executive Order",
+          "subtitle": "CAISI given 30 days to comply"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 22 Jul 2026",
-            "Anthropic doubled its midterm spending on AI policy to $40 million.",
-            "The increased investment highlights the growing importance of AI regulation.",
-            "The company's focus on AI policy is expected to drive positive change in the industry.",
-            "The investment will be used to push for more effective AI regulation."
+            "Event date: 24 Jul 2026",
+            "Trump's AI executive order gives CAISI 30 days to comply",
+            "The order aims to regulate the development and use of AI",
+            "CAISI must take steps to ensure compliance within the given timeframe",
+            "The order has significant implications for the AI industry"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The increased spending on AI policy demonstrates Anthropic's commitment to responsible AI development.",
-            "The investment has the potential to drive significant advancements in AI regulation.",
-            "The move may encourage other companies to follow suit and increase their investment in AI policy.",
-            "Source: WSJ, 22 Jul 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The executive order reflects the growing concern about AI regulation",
+            "CAISI must take steps to ensure compliance",
+            "The order has significant implications for the AI industry",
+            "Source: tech-insider.org, 24 Jul 2026"
           ]
         }
       },
-      "caption": "Anthropic's decision to double its midterm spending on AI policy to $40 million is a significant move. What are the potential implications of this investment? How will it impact the AI industry? Questions to consider: What are the key areas of focus for Anthropic's AI policy efforts? How will the increased investment drive positive change in the industry? #AI #Policy #Regulation #TechNews #Innovation"
+      "caption": "Trump's AI executive order gives CAISI 30 days to comply with new regulations. What are the implications of this order for the AI industry? How will CAISI ensure compliance within the given timeframe? #AI #Regulation #Trump #CAISI #ArtificialIntelligence #PolicyUpdate",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16RGRWNUJvWkppVDNpWFN0bm1KZ0dpRFU4cXJLejNvTVRDUTRkRGxvbUdKQjdkUHZJek1venJudHhOTi1fWjVnTWlVWXhIMUJzTkI3U2FyNlhsVDV1RGZ1LVJNaU1MLTljQjIwX3Vn?oc=5",
+      "sourceName": "tech-insider.org",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "24 Jul 2026"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-25",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N2",
+      "eventDate": "24 Jul 2026",
+      "sourceName": "Not a Tesla App",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGVCMlBkTUZQNHlPUUh3Sk1rZU1peDN2eXJZc180VUZUNlFjX0ZYLW5yT0hWTHlUaEs3U2hRRW5obkVqUkxLY0V0N3V0WlN2eWV2N3lHRVpFa3RSTjRzM0JBY21ZZTlwQldFM2xvRlVjTXYteUZDOFFZZkxtWWdmdldMajVVT2tOYS1IZzUtTjJ4OUw1Mjg1RnQxWQ?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Tesla Acquires AI Hardware Company",
+          "subtitle": "A significant move in the AI hardware space"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Tesla acquired an AI hardware company for $2 billion.",
+            "This acquisition is expected to enhance Tesla's AI capabilities.",
+            "The deal was announced on 24 Jul 2026.",
+            "The AI hardware company's technology will be integrated into Tesla's products."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition highlights the growing importance of AI in the tech industry.",
+            "Tesla's move is expected to boost its competitiveness in the market.",
+            "The deal may also lead to advancements in AI hardware technology.",
+            "Other companies may follow suit with similar acquisitions."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition price of $2 billion indicates the high value of AI hardware technology.",
+            "Tesla's focus on AI is expected to drive innovation in the industry.",
+            "The deal may have significant implications for the future of AI development.",
+            "Source: Not a Tesla App, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Tesla's acquisition of an AI hardware company for $2 billion is a significant move in the AI space. What does this mean for the future of AI development? How will this acquisition impact Tesla's competitiveness in the market? Questions to consider: What are the potential implications of this acquisition for the AI industry? How will other companies respond to Tesla's move? #AI #Tesla #Acquisition #AIHardware #TechNews #Innovation"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Launch",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "eventDate": "25 Jul 2026",
+      "sourceName": "finance.biggo.com",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OYnFHelY2VmZ5bDBfblkzN1VUNU90ZEhOb0YyTkpsbHRWaVNGNk9LSTZVbWYtQnFtSHR5bHJoRXM3UkRUdUhZdEp2VnMzQks3eGE2c2RWanpPYTltOHVXU0Z1NEpnRVI5VXhmNDVfVkNIVzlaMnc?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Launches Claude Opus 5",
+          "subtitle": "A new AI model with enhanced capabilities"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 Jul 2026",
+            "Anthropic launched Claude Opus 5, a new AI model that matches near-flagship performance for half the cost.",
+            "The model is designed for smarter tasks and offers improved efficiency.",
+            "Claude Opus 5 is expected to be a game-changer in the AI industry.",
+            "The model's capabilities include coding, agents, and enterprise workflows."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The launch of Claude Opus 5 highlights Anthropic's focus on innovation and efficiency.",
+            "The model's capabilities have the potential to revolutionize various industries.",
+            "The reduced cost of the model makes it more accessible to a wider range of users.",
+            "Source: Finance Big Go, 25 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's launch of Claude Opus 5 is a significant development in the AI space. What are the potential applications of this new model? How will it impact the industry? Questions to consider: What are the key features of Claude Opus 5? How will it change the way businesses approach AI? #AI #Anthropic #ClaudeOpus5 #Innovation #TechNews"
+    },
+    {
+      "id": 3,
+      "topic": "AI Policy",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N11",
+      "eventDate": "22 Jul 2026",
+      "sourceName": "WSJ",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUhmZUJTRk1sMmE5OWk2QUFtQVFveEZROVNXTGFYTnVxZ091SkdhMlB5NGxRczcyQjY3NHhPOVkwMm45UUV6dVBpLVIyN2tab0Ria21zS3RTazJnZ3ZBQ3hMSGRrOG5OVEFRYVNLSFQtdTFyWXlJME8xX0JhbkoySjZFV25nZHV6NjR2dTNuZjRTdS1GQlpnVFlxUlotYnZzQTNFbFVMdmdlYzA?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Doubles Midterm Spending on AI Policy",
+          "subtitle": "A significant investment in AI regulation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Jul 2026",
+            "Anthropic doubled its midterm spending on AI policy to $40 million.",
+            "The increased investment highlights the growing importance of AI regulation.",
+            "The company's focus on AI policy is expected to drive positive change in the industry.",
+            "The investment will be used to push for more effective AI regulation."
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The increased spending on AI policy demonstrates Anthropic's commitment to responsible AI development.",
+            "The investment has the potential to drive significant advancements in AI regulation.",
+            "The move may encourage other companies to follow suit and increase their investment in AI policy.",
+            "Source: WSJ, 22 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic's decision to double its midterm spending on AI policy to $40 million is a significant move. What are the potential implications of this investment? How will it impact the AI industry? Questions to consider: What are the key areas of focus for Anthropic's AI policy efforts? How will the increased investment drive positive change in the industry? #AI #Policy #Regulation #TechNews #Innovation"
+    }
+  ]
+}

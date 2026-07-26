@@ -8,126 +8,122 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Chip Funding",
-      "slides": 4,
-      "svgIcon": "chip",
+      "topic": "AI Model Launch",
+      "slides": 3,
+      "svgIcon": "brain",
       "sourceId": "N1",
-      "eventDate": "23 Jul 2026",
-      "sourceName": "Reuters",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdUlZb3pVNjdBYmVWRElsTUtJcXBpM2xyblBOTHl6VW1VeU9HV3ZFSmhZN0poOW1aMVUwdDU4ZU1xVm4zMi00YnhKTnllTG90YUg5cTV1OGRxSkxDLWhZSk9YQmI3TjZMczBnUmNQTlVTNWtCeDBqc1h6MTBNVFUzTDQ1dWFzZjVoZXB4X0pFbFZXbERSUk9MaGVKdXVXTFpxSGRFanZOU0xoSDVVQ0cw?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Etched Raises $300M",
-          "subtitle": "At $10.3B Valuation"
+          "headline": "Anthropic Launches Claude Opus 5",
+          "subtitle": "Efficiency and Safety Improvements"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 23 Jul 2026",
-            "Etched, an AI chip startup, has raised $300 million",
-            "The funding round values the company at $10.3 billion",
-            "This is a significant increase in valuation for the company",
-            "Etched plans to use the funds to further develop its AI chip technology"
+            "Anthropic launched Claude Opus 5 on 25 Jul 2026",
+            "The new model offers efficiency and safety improvements",
+            "Priced at half of Fable 5",
+            "Offering better performance"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The funding will help Etched to expand its operations",
-            "And increase its competitiveness in the AI chip market",
-            "The high valuation of Etched indicates the growing interest in AI chip technology",
-            "This could lead to more investments in the sector"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI chip market is expected to grow rapidly in the coming years",
-            "Etched's high valuation is a testament to the company's potential",
-            "The funding will help Etched to stay ahead of the competition",
-            "Source: Reuters, Jul 2026"
+            "The launch of Claude Opus 5 showcases Anthropic's commitment to AI development",
+            "The improvements in efficiency and safety are significant for the industry",
+            "This could lead to increased adoption of AI models in various sectors",
+            "Source: SiliconANGLE, 25 Jul 2026"
           ]
         }
       },
-      "caption": "Etched, an AI chip startup, has raised $300 million at a valuation of $10.3 billion. This is a significant increase in valuation for the company and indicates the growing interest in AI chip technology. What does this mean for the future of the AI chip market? Will we see more investments in this sector? Questions to consider: What are the potential applications of AI chip technology? How will the increased funding affect Etched's operations? #AI #Chip #Funding #valuation #Etched #TechNews",
-      "hashtags": "#AI #Chip #Funding #valuation #Etched #TechNews"
+      "caption": "Anthropic has launched Claude Opus 5, its latest AI model, with a focus on efficiency and safety improvements. The new model is priced at half of Fable 5, making it more accessible to users. What does this mean for the future of AI development? Will we see increased adoption of AI models in various sectors? Questions to consider: How will Claude Opus 5 impact the industry? What are the potential applications of this new model? #AI #MachineLearning #Anthropic #ClaudeOpus5 #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNUxna2dxVzRlOEtZdFBOYTRDdG52R0NEQlVSSU9FVmg3MVpDWTdfejVIV1ZEWGxrYmlUdHk4Y09NNWc0WnZXeUkzOW80V1YySzZVdDh4NTdWZ2d3d1BOUVUtcnpvalh5Z0RFRW1XUDFINWpWRXJqS1pvRGRLZjdIcjhYVHhiWnZLWnJoMV9Ma0NtVTlwNHIxZC1MSWJmUkRMcUE?oc=5",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "25 Jul 2026"
     },
     {
       "id": 2,
-      "topic": "AI Model Release",
+      "topic": "EU AI Act Enforcement",
       "slides": 3,
-      "svgIcon": "brain",
-      "sourceId": "N22",
-      "eventDate": "25 Jul 2026",
-      "sourceName": "SiliconANGLE",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNUxna2dxVzRlOEtZdFBOYTRDdG52R0NEQlVSSU9FVmg3MVpDWTdfejVIV1ZEWGxrYmlUdHk4Y09NNWc0WnZXeUkzOW80V1YySzZVdDh4NTdWZ2d3d1BOUVUtcnpvalh5Z0RFRW1XUDFINWpWRXJqS1pvRGRLZjdIcjhYVHhiWnZLWnJoMV9Ma0NtVTlwNHIxZC1MSWJmUkRMcUE?oc=5",
+      "svgIcon": "globe",
+      "sourceId": "N12",
       "slideContent": {
         "slide1": {
-          "headline": "Anthropic Releases Claude Opus 5",
-          "subtitle": "With Efficiency and Safety Improvements"
+          "headline": "EU AI Act GPAI Enforcement Begins",
+          "subtitle": "Exposure and Compliance"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 25 Jul 2026",
-            "Anthropic has released Claude Opus 5, a new version of its AI model",
-            "The new model includes efficiency and safety improvements",
-            "Claude Opus 5 is designed to be more efficient and safer than previous models",
-            "The release of Claude Opus 5 is a significant milestone for Anthropic"
+            "Event date: 23 Jul 2026",
+            "The EU AI Act GPAI enforcement begins on August 2",
+            "This will affect companies with AI systems in the EU",
+            "12 million new customers have been driven by AI in the EU",
+            "Compliance is crucial for companies to avoid penalties"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The release of Claude Opus 5 demonstrates Anthropic's commitment to improving its AI models",
-            "The efficiency and safety improvements in Claude Opus 5 could lead to wider adoption of the technology",
-            "The development of Claude Opus 5 is a testament to the advancements being made in AI research",
-            "Source: SiliconANGLE, July 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The enforcement of the EU AI Act GPAI will have significant implications for companies operating in the EU",
+            "Compliance will be key to avoiding penalties and ensuring business continuity",
+            "This will drive the development of more transparent and accountable AI systems",
+            "Source: techi.com, 23 Jul 2026"
           ]
         }
       },
-      "caption": "Anthropic has released Claude Opus 5, a new version of its AI model that includes efficiency and safety improvements. What are the potential applications of this new model? How will the improvements in Claude Opus 5 affect the wider adoption of AI technology? Questions to consider: What are the potential risks associated with the release of new AI models? How will the development of Claude Opus 5 impact the AI research community? #AI #Model #Release #ClaudeOpus5 #Anthropic #TechNews",
-      "hashtags": "#AI #Model #Release #ClaudeOpus5 #Anthropic #TechNews"
+      "caption": "The EU AI Act GPAI enforcement is set to begin on August 2, affecting companies with AI systems in the EU. This will drive the development of more transparent and accountable AI systems. What does this mean for companies operating in the EU? How will they ensure compliance? Questions to consider: What are the potential consequences of non-compliance? How will this impact the development of AI systems in the EU? #EUAIAct #GPAI #Compliance #AI #Regulation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NWNXNjB4QWJhdGJfMlFvV0JMRXlpSV9TM19qdlRuaHJSeGNYaW1FT0tjUTJhLWo4eTBZak9qbVJzUVk1QzhOTkk4bzFNdklxaUQ0WkdMR3N1Y1h5V0lQQm43bGJaNEpVdjFYZXFR?oc=5",
+      "sourceName": "techi.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "23 Jul 2026"
     },
     {
       "id": 3,
-      "topic": "Banking and AI",
-      "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N18",
-      "eventDate": "22 Jul 2026",
-      "sourceName": "FF News",
-      "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTHRONXJVdGE3ejB3bGlHcUFaNXJsSHg3YjBBNXJ4Snk4dzNRV1o0R2djenI3UTRSNVRodE5aN0pYMnU3S040SFprZmZDSVNSQ0VnTkxYSnJUeUVYVHlKV0V5dXBEbTNtNHRhLVh0Z1NCaXpMMWJ3WHcwZFlTeTBycE9sQU9KMmR6X0p4Uk9Sa2UwbXdZQ1hJMXJTbEo5V3pzbVZpaE5xZXJqUjdDMUJrVUR2OA?oc=5",
+      "topic": "Funding Round",
+      "slides": 4,
+      "svgIcon": "code",
+      "sourceId": "N9",
       "slideContent": {
         "slide1": {
-          "headline": "Santander Hits Record Profit",
-          "subtitle": "Driven by AI and TSB Acquisition"
+          "headline": "AI Security Startup Glow Emerges",
+          "subtitle": "Funding and Valuation"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 22 Jul 2026",
-            "Santander has reported a record profit of €7.3 billion",
-            "The profit is driven by the bank's acquisition of TSB and its investments in AI",
-            "The bank has seen an increase of 12 million new customers",
-            "The use of AI has helped Santander to improve its operations and customer service"
+            "AI security startup Glow has emerged from stealth with $180 million in funding",
+            "The company has a valuation of $1.2 billion",
+            "This funding round will drive the development of AI security solutions",
+            "Glow's technology has the potential to revolutionize the AI security industry"
           ]
         },
         "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round will enable Glow to further develop its AI security solutions",
+            "The company's technology has the potential to address significant security challenges in the AI industry",
+            "This investment will drive innovation and growth in the AI security sector",
+            "Glow's emergence from stealth marks a significant milestone in the company's development"
+          ]
+        },
+        "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The use of AI has been a key factor in Santander's success",
-            "The acquisition of TSB has helped Santander to expand its customer base",
-            "The bank's investments in AI are expected to continue to drive growth",
-            "Source: FF News, July 2026"
+            "Glow's funding round is a significant investment in the AI security sector",
+            "The company's technology has the potential to drive innovation and growth",
+            "This investment will enable Glow to further develop its AI security solutions",
+            "Source: calcalistech.com, Jul 2026"
           ]
         }
       },
-      "caption": "Santander has reported a record profit of €7.3 billion, driven by its acquisition of TSB and its investments in AI. What role has AI played in the bank's success? How will the use of AI continue to shape the banking industry? Questions to consider: What are the potential risks associated with the use of AI in banking? How will the adoption of AI affect the job market in the banking sector? #AI #Banking #Santander #TSB #RecordProfit #TechNews",
-      "hashtags": "#AI #Banking #Santander #TSB #RecordProfit #TechNews"
+      "caption": "AI security startup Glow has emerged from stealth with $180 million in funding and a valuation of $1.2 billion. This funding round will drive the development of AI security solutions and address significant security challenges in the AI industry. What does this mean for the future of AI security? How will Glow's technology impact the industry? Questions to consider: What are the potential applications of Glow's technology? How will this investment drive innovation and growth in the AI security sector? #AI #Security #Funding #Glow #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XUDNvcXRCNW5FV0tNVkVzTFBVdDA5dHFmLTdmZmtjS3NxUTRDQ3ZINHdHQXdIRzZTdjBaZVNFTnVjazZ5QUwxdkRieDA3dmFfbmpfd2Y2TXQyS2xNcGg0MFJUb0huc2hZSGc?oc=5",
+      "sourceName": "calcalistech.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "22 Jul 2026"
     }
   ]
 }

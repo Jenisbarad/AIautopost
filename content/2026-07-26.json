@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-26",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Chip Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N1",
+      "eventDate": "23 Jul 2026",
+      "sourceName": "Reuters",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdUlZb3pVNjdBYmVWRElsTUtJcXBpM2xyblBOTHl6VW1VeU9HV3ZFSmhZN0poOW1aMVUwdDU4ZU1xVm4zMi00YnhKTnllTG90YUg5cTV1OGRxSkxDLWhZSk9YQmI3TjZMczBnUmNQTlVTNWtCeDBqc1h6MTBNVFUzTDQ1dWFzZjVoZXB4X0pFbFZXbERSUk9MaGVKdXVXTFpxSGRFanZOU0xoSDVVQ0cw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Etched Raises $300M",
+          "subtitle": "At $10.3B Valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 23 Jul 2026",
+            "Etched, an AI chip startup, has raised $300 million",
+            "The funding round values the company at $10.3 billion",
+            "This is a significant increase in valuation for the company",
+            "Etched plans to use the funds to further develop its AI chip technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Etched to expand its operations",
+            "And increase its competitiveness in the AI chip market",
+            "The high valuation of Etched indicates the growing interest in AI chip technology",
+            "This could lead to more investments in the sector"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI chip market is expected to grow rapidly in the coming years",
+            "Etched's high valuation is a testament to the company's potential",
+            "The funding will help Etched to stay ahead of the competition",
+            "Source: Reuters, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Etched, an AI chip startup, has raised $300 million at a valuation of $10.3 billion. This is a significant increase in valuation for the company and indicates the growing interest in AI chip technology. What does this mean for the future of the AI chip market? Will we see more investments in this sector? Questions to consider: What are the potential applications of AI chip technology? How will the increased funding affect Etched's operations? #AI #Chip #Funding #valuation #Etched #TechNews",
+      "hashtags": "#AI #Chip #Funding #valuation #Etched #TechNews"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Release",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N22",
+      "eventDate": "25 Jul 2026",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNUxna2dxVzRlOEtZdFBOYTRDdG52R0NEQlVSSU9FVmg3MVpDWTdfejVIV1ZEWGxrYmlUdHk4Y09NNWc0WnZXeUkzOW80V1YySzZVdDh4NTdWZ2d3d1BOUVUtcnpvalh5Z0RFRW1XUDFINWpWRXJqS1pvRGRLZjdIcjhYVHhiWnZLWnJoMV9Ma0NtVTlwNHIxZC1MSWJmUkRMcUE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Releases Claude Opus 5",
+          "subtitle": "With Efficiency and Safety Improvements"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 25 Jul 2026",
+            "Anthropic has released Claude Opus 5, a new version of its AI model",
+            "The new model includes efficiency and safety improvements",
+            "Claude Opus 5 is designed to be more efficient and safer than previous models",
+            "The release of Claude Opus 5 is a significant milestone for Anthropic"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The release of Claude Opus 5 demonstrates Anthropic's commitment to improving its AI models",
+            "The efficiency and safety improvements in Claude Opus 5 could lead to wider adoption of the technology",
+            "The development of Claude Opus 5 is a testament to the advancements being made in AI research",
+            "Source: SiliconANGLE, July 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has released Claude Opus 5, a new version of its AI model that includes efficiency and safety improvements. What are the potential applications of this new model? How will the improvements in Claude Opus 5 affect the wider adoption of AI technology? Questions to consider: What are the potential risks associated with the release of new AI models? How will the development of Claude Opus 5 impact the AI research community? #AI #Model #Release #ClaudeOpus5 #Anthropic #TechNews",
+      "hashtags": "#AI #Model #Release #ClaudeOpus5 #Anthropic #TechNews"
+    },
+    {
+      "id": 3,
+      "topic": "Banking and AI",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N18",
+      "eventDate": "22 Jul 2026",
+      "sourceName": "FF News",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTHRONXJVdGE3ejB3bGlHcUFaNXJsSHg3YjBBNXJ4Snk4dzNRV1o0R2djenI3UTRSNVRodE5aN0pYMnU3S040SFprZmZDSVNSQ0VnTkxYSnJUeUVYVHlKV0V5dXBEbTNtNHRhLVh0Z1NCaXpMMWJ3WHcwZFlTeTBycE9sQU9KMmR6X0p4Uk9Sa2UwbXdZQ1hJMXJTbEo5V3pzbVZpaE5xZXJqUjdDMUJrVUR2OA?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Santander Hits Record Profit",
+          "subtitle": "Driven by AI and TSB Acquisition"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 22 Jul 2026",
+            "Santander has reported a record profit of €7.3 billion",
+            "The profit is driven by the bank's acquisition of TSB and its investments in AI",
+            "The bank has seen an increase of 12 million new customers",
+            "The use of AI has helped Santander to improve its operations and customer service"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The use of AI has been a key factor in Santander's success",
+            "The acquisition of TSB has helped Santander to expand its customer base",
+            "The bank's investments in AI are expected to continue to drive growth",
+            "Source: FF News, July 2026"
+          ]
+        }
+      },
+      "caption": "Santander has reported a record profit of €7.3 billion, driven by its acquisition of TSB and its investments in AI. What role has AI played in the bank's success? How will the use of AI continue to shape the banking industry? Questions to consider: What are the potential risks associated with the use of AI in banking? How will the adoption of AI affect the job market in the banking sector? #AI #Banking #Santander #TSB #RecordProfit #TechNews",
+      "hashtags": "#AI #Banking #Santander #TSB #RecordProfit #TechNews"
+    }
+  ]
+}

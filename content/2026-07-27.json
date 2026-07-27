@@ -1,0 +1,122 @@
+{
+  "date": "2026-07-27",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Regulation",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N4",
+      "eventDate": "24 Jul 2026",
+      "sourceName": "blog.google",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYXpMVFZkNE1ZcGY0ckgwZGJ5YnNGRzVtMUJaN0tFWW9la2gzYm9oWFBXdUdPV0N5LTJRQXJ0RlFsMFF6RFJmaXZ3VVE4eHowaWd2UUprUnI4cGo2UldKZmJCMWpzd1Zma0lKRmYySU0zbGNndGpJd1dnU05ZT2pIQkc0ZmFZam9CY2hNbE5zVFNha2EwNlo3VEdHZ0RmamZqckFuOHBYcHh6eGRaMDRpS3Zn?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Signs EU AI Act Code of Practice",
+          "subtitle": "Transparency in AI-generated content"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google signed the EU AI Act Code of Practice on 24 Jul 2026",
+            "This move aims to increase transparency in AI-generated content",
+            "The code of practice is a significant step towards regulating AI in the EU"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act Code of Practice is a crucial step towards ensuring accountability in AI",
+            "Google's decision to sign the code of practice demonstrates its commitment to transparency",
+            "This move may encourage other companies to follow suit"
+          ]
+        },
+        "slide4": null
+      },
+      "caption": "Google has taken a significant step towards transparency in AI-generated content by signing the EU AI Act Code of Practice. This move demonstrates the company's commitment to accountability in AI. Questions to consider: How will this move impact the development of AI in the EU? Will other companies follow Google's lead in signing the code of practice? #AIRegulation #EUAIACT #Google #Transparency"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N17",
+      "eventDate": "27 Jul 2026",
+      "sourceName": "GuruFocus",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMVpfTjloOVhBUWVpc2huVm9LQ2NqTVF4UnpoaWVMcElRVHlwUnJpR3FSY0VqRW5aMDBjZVdrUmt0THBJQWtpSWsxMjJPby1ySWlEZ0d0cmoxX3FJT1FITVRaNnk4YkYzNmtQeGw0WDZ4Q2FnclhkLUc5NmUwQUR4U1RmSkk4ZjdhQV9GakxFdS1XUXBCVm1TaUo4a0s0ZHNqT3k3S3d5REFmdw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Corgi's $4B Valuation",
+          "subtitle": "AI startup raises funds at record valuation"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Corgi raised funds at a $4 billion valuation on 22 Jul 2026",
+            "This is one of the highest valuations for an AI startup",
+            "The funding round demonstrates the growing interest in AI technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Corgi's $4 billion valuation is a significant milestone for the AI industry",
+            "The funding round may lead to increased investment in AI startups",
+            "The high valuation may also lead to increased scrutiny of AI companies"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Corgi's valuation is a testament to the growing importance of AI in the tech industry",
+            "The funding round may lead to increased innovation in AI",
+            "Source: GuruFocus, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Corgi's $4 billion valuation is a significant milestone for the AI industry. The funding round demonstrates the growing interest in AI technology and may lead to increased investment in AI startups. Questions to consider: How will Corgi use the funds to drive growth and innovation? Will the high valuation lead to increased scrutiny of AI companies? #AIFunding #Corgi #Valuation #AIStartup"
+    },
+    {
+      "id": 3,
+      "topic": "AI Hardware",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N11",
+      "eventDate": "23 Jul 2026",
+      "sourceName": "Pluang",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXJxSXhjUlc1VUNZMHdjbEo5Y2lhNUpKeHBrU1NoV19SZHV5U2NoZGU1M1k0YmI1QjU1Wl9TSHBjNnVsWU44RE5vaTJZY2QyVzRxUFBLdWFjd0U5aU9BQmx3eks1R3h2WFI3OXRJNDc5ckl5MXRqOVp5WndzUHg4U1Y2WlAyVzE5b0F3YXhQQ1lpdms5akE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Dassault Systèmes Acquires ArisGlobal",
+          "subtitle": "Expanding AI capabilities in life sciences"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Dassault Systèmes acquired ArisGlobal for $1.8 billion on 23 Jul 2026",
+            "The acquisition aims to create a unified AI platform in life sciences",
+            "The deal demonstrates the growing importance of AI in the life sciences industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition may lead to increased innovation in AI-powered life sciences",
+            "Dassault Systèmes' expanded AI capabilities may lead to improved healthcare outcomes",
+            "The deal may also lead to increased competition in the AI-powered life sciences market"
+          ]
+        },
+        "slide4": null
+      },
+      "caption": "Dassault Systèmes' acquisition of ArisGlobal demonstrates the growing importance of AI in the life sciences industry. The deal may lead to increased innovation in AI-powered life sciences and improved healthcare outcomes. Questions to consider: How will the acquisition impact the development of AI-powered life sciences? Will the deal lead to increased competition in the market? #AIHardware #DassaultSystèmes #ArisGlobal #LifeSciences"
+    }
+  ]
+}

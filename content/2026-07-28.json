@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-28",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Concerns",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N5",
+      "eventDate": "28 Jul 2026",
+      "sourceName": "Yahoo Finance Singapore",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObFlSaXRybDRwZkpoclpuUXRSUEhET3ljak5SZlUxRzJpTzdOR1Y3dEtGZXlxT1FQRDRSaS1LWTVGMGU1OW1aOHJzVHp0aS1kWm1uMFdDY0dxYWpMS0RfWTJQQTdyMV94aFRhZEpkanFGWUEyNmJyQlF5YU9wM205V0VzVUh0dw?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "LLMs Are Getting Smarter, But Not Safer",
+          "subtitle": "Veracode 2026 GenAI Code Security Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 28 Jul 2026",
+            "Veracode's report found that AI-generated code security has stalled at a 56% pass rate",
+            "This raises concerns about the security of AI-generated code",
+            "The report highlights the need for improved security measures",
+            "56% of AI-generated code failed to meet security standards"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The security of AI-generated code is crucial for preventing cyber attacks",
+            "Improving security measures can help prevent data breaches",
+            "The report's findings have significant implications for the development of AI-generated code",
+            "Organizations must prioritize security when using AI-generated code"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The report's findings highlight the need for improved security measures",
+            "Organizations must prioritize security when using AI-generated code",
+            "The development of AI-generated code must be done with security in mind",
+            "Source: Yahoo Finance Singapore, Jul 2026"
+          ]
+        }
+      },
+      "caption": "The security of AI-generated code is a growing concern. Veracode's 2026 GenAI Code Security Report found that AI-generated code security has stalled at a 56% pass rate. This raises questions about the effectiveness of current security measures. What steps can be taken to improve the security of AI-generated code? How can organizations prioritize security when using AI-generated code? #AIsecurity #AIgeneratedcode #cybersecurity #datasecurity #ArtificialIntelligence",
+      "questions": "What are the implications of AI-generated code security stalling at a 56% pass rate? How can organizations improve the security of their AI-generated code?"
+    },
+    {
+      "id": 2,
+      "topic": "Nvidia Investment",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N3",
+      "eventDate": "27 Jul 2026",
+      "sourceName": "Bloomberg.com",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMDV4a0xGcU1UQTdQTmI0dHNMOGI5WXl6VVNqOWdEOUFNUmhWM2ZpNTh0bDJ3ZXZZYXk1eDdoX0pPQ211YzNQWnBoTDNUTFQ1aVBnNE5laW8wR19NRUh3SmxwUHh4UURCc2VzTnQxNUEwNlo0Y0M0d0pGQ1hxZkU5eDVXdXdfVU91WWM0WF9ZSWV4TzFraGl3RzlFa3JGaDd1ZVNwdk5qYnlXYUp1YnpuU3Vn?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nvidia to Invest $5 Billion in AI Research Lab",
+          "subtitle": "Ilya Sutskever's AI Research Lab"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Jul 2026",
+            "Nvidia is investing $5 billion in Ilya Sutskever's AI research lab",
+            "The investment will support the development of new AI technologies",
+            "The lab will focus on advancing AI research and development",
+            "The $5 billion investment is a significant commitment to AI research"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The investment highlights Nvidia's commitment to advancing AI research and development",
+            "The lab will focus on developing new AI technologies",
+            "The $5 billion investment is a significant investment in the future of AI",
+            "Source: Bloomberg.com, 27 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Nvidia is investing $5 billion in Ilya Sutskever's AI research lab. This significant investment highlights Nvidia's commitment to advancing AI research and development. What are the potential implications of this investment for the development of AI technologies? How will this investment impact the AI industry as a whole? #Nvidia #AIresearch #AIinvestment #ArtificialIntelligence",
+      "questions": "What are the potential implications of Nvidia's $5 billion investment in AI research? How will this investment impact the development of AI technologies?"
+    },
+    {
+      "id": 3,
+      "topic": "Google Signs EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N6",
+      "eventDate": "27 Jul 2026",
+      "sourceName": "bestmediainfo.com",
+      "sourceMonthYear": "Jul 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWWo2TV9LeDFjQ1RNUWtPU1B2NmVDQjV2aFVmZU80bHNoRF9DYVhTeFp6TnpNTVZnUmJoYnl2dWdBSlUtVU9RU2UzaHhCemRIQXJJdnFHdEVCSWZUZjBvWGQtZHdDeUVkd1lfdDBQMjliY2UxdVcwbUo4TDZ5N240cFVnOHFMQkVOeFAzQTk0Nk51cFBmUUdJV3RMTS1RWThTVnc3Z0V5cXNZYlRES1lTbXg3ZGcydTV0U3VPQkl3a3lmZF9tZlHSAcYBQVVfeXFMTVlqNk1fS3gxY0NUTVFrT1NQdjZlQ0I1dmhVZmVPNGxzaERfQ2FYU3haek56TU1WZ1JiaGJ5dnVnQUpVLVVPUVNlM2h4QnpkSEFySXZxR3RFQklmVGYwb1hkLWR3Q3lFZHdZX3QwUDI5YmNlMXVXMG1KOEw2eTduNHBVZzhxTEJFTnhQM0E5NDZOdXBQZlFHSVd0TE0tUVk4U1Z3N2dFeXFzWWJUREtZU214N2RnMnU1dFN1T0JJd2t5ZmRfbWZR?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Signs EU AI Act Code of Practice",
+          "subtitle": "Transparency and Accountability in AI"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 27 Jul 2026",
+            "Google has signed the EU AI Act code of practice",
+            "The code of practice promotes transparency and accountability in AI",
+            "Google's signing of the code highlights its commitment to responsible AI development",
+            "The code of practice will help ensure that AI systems are developed and used responsibly"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The EU AI Act code of practice promotes transparency and accountability in AI",
+            "Google's signing of the code highlights its commitment to responsible AI development",
+            "The code of practice will help ensure that AI systems are developed and used responsibly",
+            "Source: bestmediainfo.com, 27 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Google has signed the EU AI Act code of practice, promoting transparency and accountability in AI. This move highlights Google's commitment to responsible AI development. What are the implications of this code of practice for the development and use of AI systems? How will this code of practice impact the AI industry as a whole? #Google #EUAIAct #AItransparency #ArtificialIntelligence",
+      "questions": "What are the implications of the EU AI Act code of practice for AI development? How will this code of practice impact the use of AI systems?"
+    }
+  ]
+}

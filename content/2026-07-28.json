@@ -8,126 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Security Concerns",
+      "topic": "AI Security Funding",
       "slides": 4,
       "svgIcon": "shield",
-      "sourceId": "N5",
+      "sourceId": "N3",
       "eventDate": "28 Jul 2026",
-      "sourceName": "Yahoo Finance Singapore",
+      "sourceName": "HackerNoon",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObFlSaXRybDRwZkpoclpuUXRSUEhET3ljak5SZlUxRzJpTzdOR1Y3dEtGZXlxT1FQRDRSaS1LWTVGMGU1OW1aOHJzVHp0aS1kWm1uMFdDY0dxYWpMS0RfWTJQQTdyMV94aFRhZEpkanFGWUEyNmJyQlF5YU9wM205V0VzVUh0dw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdTJFdW9CemxHcWdWcnhDeVVKWlVEOXFybUptLWR0V1liN3RrbmZXNkQxWVhNNlY2U3RGcGFDQ2pPQ2NpZlN4SXpzVHRKcnlDRjBtbGpZWEpYT2ZCM2lEWDJUS2NZSGNoMTNmaUEzQWh6cjk2czM0RmtlNW9rQUVVMlBPOUt1STJTa3J0R29HT29MNnFaZmlWMnVaaFF6VUV4V21UUE9YQmRGZw?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "LLMs Are Getting Smarter, But Not Safer",
-          "subtitle": "Veracode 2026 GenAI Code Security Report"
+          "headline": "AI Security Startup Mate Surpasses $50M in Funding",
+          "subtitle": "Amid Growing Enterprise Adoption"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 28 Jul 2026",
-            "Veracode's report found that AI-generated code security has stalled at a 56% pass rate",
-            "This raises concerns about the security of AI-generated code",
-            "The report highlights the need for improved security measures",
-            "56% of AI-generated code failed to meet security standards"
+            "AI Security Startup Mate has surpassed $50M in funding",
+            "This milestone was achieved amid growing enterprise adoption",
+            "The funding will be used to further develop the company's AI security solutions",
+            "The company's valuation was not disclosed"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "The security of AI-generated code is crucial for preventing cyber attacks",
-            "Improving security measures can help prevent data breaches",
-            "The report's findings have significant implications for the development of AI-generated code",
-            "Organizations must prioritize security when using AI-generated code"
+            "The increasing demand for AI security solutions is driving growth in the industry",
+            "Mate's funding is a testament to the company's innovative approach to AI security",
+            "The company's solutions have the potential to revolutionize the way enterprises approach security",
+            "As the use of AI continues to grow, the need for effective security solutions will only continue to increase"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The report's findings highlight the need for improved security measures",
-            "Organizations must prioritize security when using AI-generated code",
-            "The development of AI-generated code must be done with security in mind",
-            "Source: Yahoo Finance Singapore, Jul 2026"
+            "The AI security market is expected to continue growing in the coming years",
+            "Companies like Mate are at the forefront of this growth",
+            "The use of AI in security is becoming increasingly important",
+            "Source: HackerNoon, Jul 2026"
           ]
         }
       },
-      "caption": "The security of AI-generated code is a growing concern. Veracode's 2026 GenAI Code Security Report found that AI-generated code security has stalled at a 56% pass rate. This raises questions about the effectiveness of current security measures. What steps can be taken to improve the security of AI-generated code? How can organizations prioritize security when using AI-generated code? #AIsecurity #AIgeneratedcode #cybersecurity #datasecurity #ArtificialIntelligence",
-      "questions": "What are the implications of AI-generated code security stalling at a 56% pass rate? How can organizations improve the security of their AI-generated code?"
+      "caption": "AI Security Startup Mate has surpassed $50M in funding amid growing enterprise adoption. This milestone is a testament to the company's innovative approach to AI security. As the use of AI continues to grow, the need for effective security solutions will only continue to increase. Questions to consider: What does the future hold for AI security? How will companies like Mate continue to innovate in this space? #AI #Security #Funding #Startup #EnterpriseAdoption #Innovation"
     },
     {
       "id": 2,
-      "topic": "Nvidia Investment",
+      "topic": "AI Model Compression",
       "slides": 3,
-      "svgIcon": "chip",
-      "sourceId": "N3",
-      "eventDate": "27 Jul 2026",
-      "sourceName": "Bloomberg.com",
+      "svgIcon": "code",
+      "sourceId": "N9",
+      "eventDate": "28 Jul 2026",
+      "sourceName": "SiliconANGLE",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMDV4a0xGcU1UQTdQTmI0dHNMOGI5WXl6VVNqOWdEOUFNUmhWM2ZpNTh0bDJ3ZXZZYXk1eDdoX0pPQ211YzNQWnBoTDNUTFQ1aVBnNE5laW8wR19NRUh3SmxwUHh4UURCc2VzTnQxNUEwNlo0Y0M0d0pGQ1hxZkU5eDVXdXdfVU91WWM0WF9ZSWV4TzFraGl3RzlFa3JGaDd1ZVNwdk5qYnlXYUp1YnpuU3Vn?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0liTnRDV3JidnVMVkxoX2Y3d29FdGpUTVNRaUtlS200MUZOWFN3ZHU1cEoyalNyRUZxQUJlLUxMWG5hYkZxZmpYOWRNU01zd3ZqSmF1cTV5WGtBTDFaRWNwbURHNkNMUmlXYzdxa2Y4NVFKeGsyWjZNSkNreE80bmlmNjVtSHM1RVAzZGxrY0EtZjFKOFIzcVpvbW1OdVV5Q3RwbktB?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Nvidia to Invest $5 Billion in AI Research Lab",
-          "subtitle": "Ilya Sutskever's AI Research Lab"
+          "headline": "AI Model Compression Startup Multiverse Raises $570M",
+          "subtitle": "At a Valuation of $1.7B"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Event date: 27 Jul 2026",
-            "Nvidia is investing $5 billion in Ilya Sutskever's AI research lab",
-            "The investment will support the development of new AI technologies",
-            "The lab will focus on advancing AI research and development",
-            "The $5 billion investment is a significant commitment to AI research"
+            "Event date: 28 Jul 2026",
+            "Multiverse, an AI model compression startup, has raised $570M in funding",
+            "The company's valuation is now $1.7B",
+            "The funding will be used to further develop the company's AI model compression technology",
+            "The company's technology has the potential to revolutionize the way AI models are deployed"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The investment highlights Nvidia's commitment to advancing AI research and development",
-            "The lab will focus on developing new AI technologies",
-            "The $5 billion investment is a significant investment in the future of AI",
-            "Source: Bloomberg.com, 27 Jul 2026"
+            "The AI model compression market is expected to continue growing in the coming years",
+            "Companies like Multiverse are at the forefront of this growth",
+            "The use of AI model compression is becoming increasingly important",
+            "Source: SiliconANGLE, 28 Jul 2026"
           ]
         }
       },
-      "caption": "Nvidia is investing $5 billion in Ilya Sutskever's AI research lab. This significant investment highlights Nvidia's commitment to advancing AI research and development. What are the potential implications of this investment for the development of AI technologies? How will this investment impact the AI industry as a whole? #Nvidia #AIresearch #AIinvestment #ArtificialIntelligence",
-      "questions": "What are the potential implications of Nvidia's $5 billion investment in AI research? How will this investment impact the development of AI technologies?"
+      "caption": "AI model compression startup Multiverse has raised $570M in funding at a valuation of $1.7B. This milestone is a testament to the company's innovative approach to AI model compression. As the use of AI continues to grow, the need for effective model compression solutions will only continue to increase. Questions to consider: What does the future hold for AI model compression? How will companies like Multiverse continue to innovate in this space? #AI #ModelCompression #Funding #Startup #Innovation"
     },
     {
       "id": 3,
-      "topic": "Google Signs EU AI Act",
+      "topic": "AI Security Operations",
       "slides": 3,
-      "svgIcon": "globe",
-      "sourceId": "N6",
+      "svgIcon": "network",
+      "sourceId": "N4",
       "eventDate": "27 Jul 2026",
-      "sourceName": "bestmediainfo.com",
+      "sourceName": "PR Newswire",
       "sourceMonthYear": "Jul 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWWo2TV9LeDFjQ1RNUWtPU1B2NmVDQjV2aFVmZU80bHNoRF9DYVhTeFp6TnpNTVZnUmJoYnl2dWdBSlUtVU9RU2UzaHhCemRIQXJJdnFHdEVCSWZUZjBvWGQtZHdDeUVkd1lfdDBQMjliY2UxdVcwbUo4TDZ5N240cFVnOHFMQkVOeFAzQTk0Nk51cFBmUUdJV3RMTS1RWThTVnc3Z0V5cXNZYlRES1lTbXg3ZGcydTV0U3VPQkl3a3lmZF9tZlHSAcYBQVVfeXFMTVlqNk1fS3gxY0NUTVFrT1NQdjZlQ0I1dmhVZmVPNGxzaERfQ2FYU3haek56TU1WZ1JiaGJ5dnVnQUpVLVVPUVNlM2h4QnpkSEFySXZxR3RFQklmVGYwb1hkLWR3Q3lFZHdZX3QwUDI5YmNlMXVXMG1KOEw2eTduNHBVZzhxTEJFTnhQM0E5NDZOdXBQZlFHSVd0TE0tUVk4U1Z3N2dFeXFzWWJUREtZU214N2RnMnU1dFN1T0JJd2t5ZmRfbWZR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbXE1QThMWGpiNkN6LTU3RFlNcmVuUlBuQ1MzN1FyMVVkZzQ2V1BMdG9zQzZjOE12VW5TcDJPXzh1LVJNRkc0QkhlcjVTaHRWNFEtdWY2dGx5WDR2WEIybHB5ZHRNNGJNZnhLQndHcTE2QTlRcWdrcmNhV3oteF8yc094eWJOZjFQd1I2d3N4V1ZScTJVdERjM1lHUHBwMkY4c19GV2MtWnhBMUhLVEpHbVFqc1VxOUlWMFNScUhBcnVoZnM3YnVBelFUbFNlbTNudjFTQW9YYU5rRWdCQnFJMUEtbWlSV1VfdnZYcE1WTnFocWwzZEE?oc=5",
       "slideContent": {
         "slide1": {
-          "headline": "Google Signs EU AI Act Code of Practice",
-          "subtitle": "Transparency and Accountability in AI"
+          "headline": "AI Security Operations Center Market to be Worth $47.07 Billion by 2031",
+          "subtitle": "Exclusive Report by MarketsandMarkets"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 27 Jul 2026",
-            "Google has signed the EU AI Act code of practice",
-            "The code of practice promotes transparency and accountability in AI",
-            "Google's signing of the code highlights its commitment to responsible AI development",
-            "The code of practice will help ensure that AI systems are developed and used responsibly"
+            "The AI Security Operations Center market is expected to be worth $47.07 billion by 2031",
+            "This growth is driven by the increasing demand for AI security solutions",
+            "The market is expected to grow at a significant rate in the coming years",
+            "The report highlights the importance of AI in security operations"
           ]
         },
         "slide3": {
           "title": "INSIGHTS",
           "bullets": [
-            "The EU AI Act code of practice promotes transparency and accountability in AI",
-            "Google's signing of the code highlights its commitment to responsible AI development",
-            "The code of practice will help ensure that AI systems are developed and used responsibly",
-            "Source: bestmediainfo.com, 27 Jul 2026"
+            "The AI Security Operations Center market is expected to continue growing in the coming years",
+            "The use of AI in security operations is becoming increasingly important",
+            "Companies must invest in AI security solutions to stay ahead of the curve",
+            "Source: PR Newswire, 27 Jul 2026"
           ]
         }
       },
-      "caption": "Google has signed the EU AI Act code of practice, promoting transparency and accountability in AI. This move highlights Google's commitment to responsible AI development. What are the implications of this code of practice for the development and use of AI systems? How will this code of practice impact the AI industry as a whole? #Google #EUAIAct #AItransparency #ArtificialIntelligence",
-      "questions": "What are the implications of the EU AI Act code of practice for AI development? How will this code of practice impact the use of AI systems?"
+      "caption": "The AI Security Operations Center market is expected to be worth $47.07 billion by 2031. This growth is driven by the increasing demand for AI security solutions. As the use of AI continues to grow, the need for effective security operations solutions will only continue to increase. Questions to consider: What does the future hold for AI security operations? How will companies invest in AI security solutions? #AI #SecurityOperations #MarketGrowth #Innovation"
     }
   ]
 }

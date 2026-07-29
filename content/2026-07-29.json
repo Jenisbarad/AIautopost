@@ -1,0 +1,122 @@
+{
+  "date": "2026-07-29",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Alliance",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N25",
+      "slideContent": {
+        "slide1": {
+          "headline": "Nvidia and Microsoft Launch AI Security Alliance",
+          "subtitle": "A new initiative to improve AI security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Nvidia and Microsoft launched an open AI security alliance on 27 Jul 2026",
+            "The alliance aims to improve AI security and transparency",
+            "16 companies have already joined the alliance"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The alliance will focus on developing standards for AI security",
+            "This initiative will help to build trust in AI systems",
+            "Source: The Verge, 27 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Nvidia and Microsoft have launched an open AI security alliance to improve AI security and transparency. The alliance has already gained support from 16 companies. What are the implications of this alliance for the future of AI security? How will it impact the development of AI systems? #AI #Security #Alliance #Nvidia #Microsoft #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUEhnTlFzX2dSNDczWERZSl9IVm9xcnduNF9sV0FveE54Z3dLTmtJeDkxbWpuam5OejRUWjNJTzBySjF1cnBmbVpYWnlYNFhERVVaaGxxdWlCQzloUWEzU3BGZS1ET0tGRmJhMC0zcUlIVGxtLXY4NFd0Qm9qUXduenF6VzFoaUtqbzJzbTlvMFZYLTJsUGNvcjV1bWk2QmY1a05QTFZ3?oc=5",
+      "sourceName": "The Verge",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "27 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Cyber Unicorn Acquisition",
+      "slides": 4,
+      "svgIcon": "lock",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cyera Acquires Oasis Security for $1 Billion",
+          "subtitle": "A significant deal in the cybersecurity industry"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Cyera, a cyber unicorn, acquired Oasis Security for $1 billion on 28 Jul 2026",
+            "The deal highlights the growing importance of cybersecurity in the industry",
+            "The acquisition will enhance Cyera's capabilities in AI-powered security"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition will help Cyera to expand its offerings in the cybersecurity market",
+            "The deal demonstrates the increasing value of cybersecurity companies",
+            "The industry is expected to continue growing in the coming years"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The deal is a significant milestone for the cybersecurity industry",
+            "It highlights the growing importance of AI-powered security solutions",
+            "The acquisition will enable Cyera to better compete in the market",
+            "Source: calcalistech.com, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Cyera, a cyber unicorn, has acquired Oasis Security for $1 billion. The deal highlights the growing importance of cybersecurity in the industry. What are the implications of this acquisition for the future of cybersecurity? How will it impact the development of AI-powered security solutions? Questions to consider: What are the potential benefits of this acquisition for Cyera? How will the deal impact the cybersecurity industry as a whole? #Cybersecurity #Acquisition #AI #Cyera #OasisSecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9maTNqd3U3S2RVdGROYjlvX2RNb2Q4VjlsSGt0YWl6QUpmdWI3TW8tSjBUbk42Zk96R29QU0ZLczFmTHBhalEwYWRwQ09TTXhOaUVHUmtoSEp0Z0Jyblh3UTNIZk4xLTA?oc=5",
+      "sourceName": "calcalistech.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "28 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Indian Startups Funding",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Indian Startups Raise Over $163 Million in Funding",
+          "subtitle": "A significant increase in funding for Indian startups"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 26 Jul 2026",
+            "16 Indian startups raised over $163 million in funding between July 20 and July 25, 2026",
+            "The funding was raised from investors across various sectors",
+            "The startups that received funding are from diverse sectors such as Healthtech, Fintech, and Edtech"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help the startups to expand their operations and develop new products",
+            "It demonstrates the growing interest of investors in the Indian startup ecosystem",
+            "Source: instagram.com, 26 Jul 2026"
+          ]
+        }
+      },
+      "caption": "Indian startups have raised over $163 million in funding between July 20 and July 25, 2026. The funding was raised from investors across various sectors. What are the implications of this funding for the Indian startup ecosystem? How will it impact the development of new products and services? Questions to consider: What are the potential benefits of this funding for the startups? How will it impact the overall growth of the Indian economy? #IndianStartups #Funding #Investors #Ecosystem #Growth",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Jb3BOdHhxcHRoRTFNV09Ec1pPWE9fMzlaa194cTdFUXdFdDhCUksyNUdraWc1MlJOSUZYRWtwR1NuLWVzcUVqZ0RtTmJNcWs2OUE?oc=5",
+      "sourceName": "instagram.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "26 Jul 2026"
+    }
+  ]
+}

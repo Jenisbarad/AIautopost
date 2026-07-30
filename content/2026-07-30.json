@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-30",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Breach Costs",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Powers Data Breach Costs",
+          "subtitle": "IBM reports a significant increase"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 Jul 2026",
+            "AI has led to a 12% year-over-year increase in data breach costs.",
+            "This is according to a report by IBM.",
+            "The average cost of a data breach is now $6 million.",
+            "Threat actors are embracing AI to carry out attacks."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The use of AI in cyberattacks is becoming more prevalent.",
+            "Companies must invest in AI-powered security measures to stay ahead.",
+            "The financial impact of a data breach can be devastating.",
+            "Source: IT Brew, 29 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The cost of data breaches is on the rise, with AI-powered attacks leading the charge. A recent report by IBM found that AI has contributed to a 12% year-over-year increase in data breach costs. What does this mean for companies and their cybersecurity measures? Questions to consider: How can companies protect themselves against AI-powered cyberattacks? What role will AI play in the future of cybersecurity? #AI #cybersecurity #databreach #IBM\n#ITBrew #technews #artificialintelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMGdLSVJzeXhnMFF3a1ZhRWJ5WlFRWk50Uk1KVEhEUzh3YkZsTjhTVl83Ymd0UzdFZmZzMVBSU1hFcDdyUnJQREdVdWNaMXdRWmJJN3lZejE5WWl4c21DazI0VGZqTXQ1alBITzA1YUFLWm1Pdm0wV1M4V3VxWHpEWXRUNkJsbHdtUWhj?oc=5",
+      "sourceName": "IT Brew",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "29 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "EU AI Act",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "EU AI Act: New Transparency Rules",
+          "subtitle": "What changes can we expect?"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 30 Jul 2026",
+            "The EU AI Act will introduce new transparency rules starting from August 2.",
+            "These rules aim to increase accountability and trust in AI systems.",
+            "Companies will be required to provide clear information about their AI systems.",
+            "The rules will apply to all companies operating in the EU."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The EU AI Act is a significant step towards regulating AI.",
+            "The new transparency rules will help build trust in AI systems.",
+            "Companies must prepare for the upcoming changes.",
+            "Source: Business Standard, 30 Jul 2026"
+          ]
+        }
+      },
+      "caption": "The EU AI Act is set to introduce new transparency rules, starting from August 2. These rules aim to increase accountability and trust in AI systems. What does this mean for companies operating in the EU? Questions to consider: How will the new transparency rules impact companies? What role will the EU AI Act play in shaping the future of AI regulation? #EUAIAct #transparency #AIregulation #BusinessStandard\n#technews #artificialintelligence #EU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWWhxcDM0WlVwOWszVEZaYkZSVkx5ZDc2R05od3NqNFdjSHAzQkVTbTdQYzdKdTFSWWU0RVpyU29IaGpGb1Q2XzR2M2N5NmNjSWNoV1dmVVZRSkJVMnkwVHJjVGl0T1pXdEgtZVd2djlFczhUMngxekI1LTJWSnUtR3ItektOZzFlemJmRkxaVDB4aWd4WXBQWm45ZXhxTFJxcGlRRkhMQ01Kd0ptZUxpdjhaVjJQcTZwQlBSZE9NQ2toN1lScFhzVjJLVFRfVzhWUE1pM1Jn0gHbAUFVX3lxTFBvaWo0Mk1EZElLMWNkN3o5Sk1Mb3l2Y2FVcFhOVWZGbEl5cHVVdGhQWDRyczM1Y2VXaVFrRVFvNy1odkVRTmhBTWI3bnBCczRWc0F5dy1WQWJQenQydTlwX0RZQnI3ekRSWTJNYXB1WHAyQTBGLVZoWjlEaGJHVjJub3pDdG5hUkVJNmNtZ0RFSnBSUml3UTFQWk5wTjVQUkJUWUZGZS0wSkR0NnFIaEVUNzMydjg1M2tkN0oxdktheEVzTGRWbkozRzJXOXIxZTVwdVZobTlnUGxQOA?oc=5",
+      "sourceName": "Business Standard",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "30 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Eliyan Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Eliyan Raises $145M in Funding",
+          "subtitle": "Optical interconnect startup secures significant investment"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 29 Jul 2026",
+            "Eliyan, an optical interconnect startup, has raised $145M in funding.",
+            "The company aims to solve the AI chip cluster connectivity crunch.",
+            "The funding round values Eliyan at $1 billion.",
+            "The investment will help Eliyan develop its technology further."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Eliyan's technology has the potential to revolutionize AI chip connectivity.",
+            "The funding round is a significant milestone for the company.",
+            "The investment will help Eliyan expand its operations.",
+            "The company's technology could have a major impact on the AI industry."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Eliyan's funding round is a significant development in the AI industry.",
+            "The company's technology has the potential to solve major connectivity issues.",
+            "The investment will help Eliyan develop its technology further.",
+            "Source: siliconangle.com, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Eliyan, an optical interconnect startup, has raised $145M in funding to solve the AI chip cluster connectivity crunch. The company's technology has the potential to revolutionize AI chip connectivity. What does this mean for the future of AI? Questions to consider: How will Eliyan's technology impact the AI industry? What role will the company play in shaping the future of AI chip connectivity? #Eliyan #funding #AI #siliconangle\n#technews #artificialintelligence #opticalinterconnect",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNHZ3VnU2NURBYTItV3JieFJVNVVQdnBLRGd5bHdWb3BiZkJxSENQb1ViX2ZDQ1JnOWVTNTlDNWV4cjFySDFJWnhld0ZzYi04ODc2NUJhc29CdW5fOHhmQlhqUHkwT2RPb0lyU0lDSHdSOHhFX0VhT2NYQVpBUlhEVkVITnJvdGh4dW9NclEwdWhEVTZ5b0cxcXNwelNkTG03SzdYdXJzc2pnWi1iOE1fSFl6anNiYWVsWGVqTUJlUnZ5R1JVQ1FnTjNwSlZuUnc?oc=5",
+      "sourceName": "siliconangle.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "29 Jul 2026"
+    }
+  ]
+}

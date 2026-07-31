@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-31",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Model Price Cut",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Cuts Prices",
+          "subtitle": "For GPT-5.6 AI Models"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI cut prices for two of its GPT-5.6 AI models on 30 Jul 2026",
+            "Companies are growing sensitive to costs",
+            "The price cut aims to make AI more accessible"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This move could increase AI adoption among businesses",
+            "As companies look to optimize their AI spend",
+            "OpenAI's price cut may give it a competitive edge"
+          ]
+        }
+      },
+      "caption": "OpenAI has cut prices for two of its GPT-5.6 AI models. What does this mean for businesses and the future of AI adoption? Questions to consider: How will this price cut impact the AI market? Will other companies follow suit? #AI #OpenAI #GPT56 #PriceCut #ArtificialIntelligence #Business",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOSUpBdTdrSGxnV01VOWpVSkF3cVZtdVdsMk9rR21Eb0FhVHhFWHRPbk1nbmItUWVRWmljTV9qUDNwblBQdkozVmkxVTJIWjNnUjR1bzV5a3RnZDZ5ZXota2o4N05rZ0FHSEHSAW9BVV95cUxQaTRNRG5HMU15cTEtUlhWNnpfWFJRLTdQbVVhOXlXSzJ4aU5UUm9IUTBHR0dVS01ydG5qN3FjVjRVcVZWRTNBMUtSMkdweEEyNFprbHg3RmtJQ1RSV0k0NWVlcXZPajBBRmFoZUcxRzA?oc=5",
+      "sourceName": "CNBC",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "30 Jul 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Cybersecurity Acquisition",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cyera Acquires Oasis",
+          "subtitle": "For $1 Billion"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Cyera acquired Oasis Security for $1 billion on 29 Jul 2026",
+            "The deal aims to build AI agent guardrails",
+            "Cyera is a cyber unicorn"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This acquisition highlights the growing importance of cybersecurity in the AI space",
+            "As AI becomes more prevalent, security concerns rise"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The deal valued Oasis Security at $1 billion",
+            "Cyera's acquisition is a significant move in the cybersecurity space",
+            "Source: PYMNTS.com, Jul 2026"
+          ]
+        }
+      },
+      "caption": "Cyera has acquired Oasis Security for $1 billion. What does this mean for the future of cybersecurity in the AI space? Questions to consider: How will this acquisition impact the cybersecurity market? What are the implications for AI agent security? #Cybersecurity #AI #Acquisition #OasisSecurity #Cyera #Shield",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ3Q1WmNoaVVnWUdGZklIRDJmQTA5ZHpyZ1JXZU1xOVZFbHZmNzRMb1lTbDhGU2FnQnhNWFpLSWZ0RHczRWQ4YnFRcElvSjZiRHhuMlFBLVBPZ1dpWGtDaW9TMHJUUjk5bHRFRVB3Q3REUFpHM2xxbng4WWUyQ2V6VXE2Q1BESS1uaGQ5djNocXZFZmpFMFgzb20wb0l1U3lEVXprTzhfWGxDME1YSjhmY3k5ZS0?oc=5",
+      "sourceName": "PYMNTS.com",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "29 Jul 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI-Related IPO",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Reformation IPO",
+          "subtitle": "Stock Price and NYSE Trading Time"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Reformation made its market debut on 30 Jul 2026",
+            "The women's apparel brand went public on the NYSE",
+            "The IPO is a significant milestone for the company"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This IPO highlights the growing trend of companies going public in the AI era",
+            "As AI transforms industries, companies are looking to capitalize on the trend"
+          ]
+        }
+      },
+      "caption": "Reformation has made its market debut. What does this mean for the fashion industry and the future of AI-related IPOs? Questions to consider: How will AI impact the fashion industry? What are the implications for companies going public in the AI era? #IPO #Reformation #NYSE #Fashion #AI #Globe",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM1BteHN5cmJveEhfVnRCa3ZHTlpndzI5WG5yUGR3di1ocUhDVHpoanFZWEdrdWkwZW82Y0RkRldVbXNrY0h3QWxLMlpVOC1KQUtsYnMzaEo0blJ5azRLMnRJaWx5ckR0NUlUVEZZOFA3ZmV5SzVtN3RfS0FuZDItOGNHN1N6LXQ3TklhVnViVFc3WDYwemRLTkhNQ2JnLUdJRkVvTjdtNEhSZw?oc=5",
+      "sourceName": "Fast Company",
+      "sourceMonthYear": "Jul 2026",
+      "eventDate": "30 Jul 2026"
+    }
+  ]
+}

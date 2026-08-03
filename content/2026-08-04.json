@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-04",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Threats Rise",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "eventDate": "03 Aug 2026",
+      "sourceName": "BW Marketing World",
+      "sourceMonthYear": "Aug 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUGZRem56SVlBUEkwc0huQmU4Q1g3X0tsVW9PQnBFcnN5MU9VVWRVNTNadEg5ZlNPX01IZ0RKQ2RCVzBCRGtxQURJak5kNU1pWFd2RDhvZU5xbzNqM01abHV2U29GbG5PM2o0YnpjZ3BYem93d3hUaHJ6b3l1bl8zdEhSUF9GVWg5MjNjT1VralZQNWFyNHB2NTBjenJIekhHcU1HLTJHbmFhcGFRSnhFY0FOT2k4MlptaEx3?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Threats Push India's Data Breach Cost Up",
+          "subtitle": "A recent report highlights the growing concern of AI-powered cyberattacks"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Aug 2026",
+            "India's data breach cost has risen by 11% to $2.79 million",
+            "This increase is attributed to the growing use of AI in cyberattacks",
+            "The average data breach cost in India is now ₹25.5 crore",
+            "This surge in data breach costs is a significant concern for Indian businesses"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rise in AI-powered cyberattacks poses a significant threat to businesses",
+            "Companies must invest in AI-powered security solutions to stay ahead of these threats",
+            "The Indian government must also take steps to regulate the use of AI in cyberattacks",
+            "Source: BW Marketing World, 03 Aug 2026"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI-powered cybersecurity market is expected to grow significantly in the coming years",
+            "AI-powered cyberattacks pose a significant threat to businesses",
+            "Companies must invest in AI-powered security solutions",
+            "Source: BW Marketing World, Aug 2026"
+          ]
+        }
+      },
+      "caption": "The rise of AI-powered cyberattacks is a growing concern for businesses in India. With the average data breach cost rising to ₹25.5 crore, companies must take steps to protect themselves. \n      Questions to consider: What measures can businesses take to protect themselves from AI-powered cyberattacks? How can the Indian government regulate the use of AI in cyberattacks? \n      #AI #Cybersecurity #India #DataBreach #ArtificialIntelligence"
+    },
+    {
+      "id": 2,
+      "topic": "New AI Funding",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "eventDate": "03 Aug 2026",
+      "sourceName": "WSJ",
+      "sourceMonthYear": "Aug 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU1RwS2c4R1dfQnl1aDByMk92aWpOMFgwbDNWSUlPNEdEbFpMNzlndXJDYnBmZ1Voa2lsWVJubnROSHA0aGdyd3prLXdaRnFFNThOTWZ1anRwSXI0WldGUkNGSVI2QzM1REJDRFhEeFpsM1J5b0lLRk01bmlWdk1vdHVRWmI3WHk1azZBMkpJMnVmYW0xZVE?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cyber Startup Raises $250 Million",
+          "subtitle": "A significant investment in the AI-powered cybersecurity sector"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Aug 2026",
+            "Horizon3.ai has raised $250 million in funding",
+            "This investment will be used to scale the company's AI-powered cybersecurity solutions",
+            "The funding round was led by prominent investors",
+            "The company plans to use the funds to expand its operations"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment is a significant boost to the AI-powered cybersecurity sector",
+            "Horizon3.ai's solutions have the potential to revolutionize the way companies approach cybersecurity",
+            "The funding will enable the company to further develop its AI-powered security solutions",
+            "This investment is a testament to the growing importance of AI in cybersecurity"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI-powered cybersecurity market is expected to grow significantly in the coming years",
+            "Horizon3.ai is well-positioned to capitalize on this growth",
+            "The company's solutions have the potential to make a significant impact on the cybersecurity landscape",
+            "Source: WSJ, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Horizon3.ai has raised $250 million in funding to scale its AI-powered cybersecurity solutions. This investment is a significant boost to the AI-powered cybersecurity sector. \n      Questions to consider: How will Horizon3.ai use the funding to expand its operations? What impact will this investment have on the AI-powered cybersecurity market? \n      #AI #Cybersecurity #Funding #Startup #ArtificialIntelligence"
+    },
+    {
+      "id": 3,
+      "topic": "AI Governance",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N23",
+      "eventDate": "03 Aug 2026",
+      "sourceName": "Cybersecurity Insiders",
+      "sourceMonthYear": "Aug 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQelR2YUhZbDlyWVhRRndJa3daRXpWc2VWNkd2VDRJcDJ4Snliaklib2hNLTVjejVPcU9uWDNFTFFBVTJ0TzZtejBNNnJ1X0ZySHk4YmhSblBFWVlsNVhEZy1RQkVHRjB4UjFHa2hOU2FyWlZNOGlUNWJqNi1UaTNUVXhvMS1XWlNhdU9lbWdJeE9kaE5sVWlRdlhEb2c3ZG1OSW5aSjVXU18xa3NsckpRY25oeG5MdTUxQ1o0Q3NnMWNSaDY3dy1oSUc0a2h2MTQwbTZwdlJkVkhFSGptQk84bk5NRms4a1RsWWxYZGhzQ0Fwc01TbGpmNTdBSVVGTzNs?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Governance Readiness Remains Critically Low",
+          "subtitle": "A recent report highlights the need for better AI governance"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Aug 2026",
+            "80% of organizations have experienced security or AI incidents",
+            "This is due to a lack of AI governance readiness",
+            "The report highlights the need for better AI governance and risk management",
+            "Companies must take steps to improve their AI governance and security measures"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The lack of AI governance readiness poses a significant risk to businesses",
+            "Companies must invest in AI governance and security solutions to protect themselves",
+            "The report's findings are a wake-up call for businesses to take AI governance seriously",
+            "Source: Cybersecurity Insiders, 03 Aug 2026"
+          ]
+        }
+      },
+      "caption": "A recent report has found that 80% of organizations have experienced security or AI incidents due to a lack of AI governance readiness. This highlights the need for better AI governance and risk management. \n      Questions to consider: What steps can companies take to improve their AI governance and security measures? How can businesses balance the benefits of AI with the need for effective governance? \n      #AI #Governance #Cybersecurity #RiskManagement #ArtificialIntelligence"
+    }
+  ]
+}

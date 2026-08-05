@@ -8,121 +8,120 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Startup Funding",
-      "slides": 4,
-      "svgIcon": "brain",
-      "sourceId": "N1",
-      "eventDate": "04 Aug 2026",
-      "sourceName": "Entrackr",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONDV6YmhwbE1TZFc3bmJsekRqSHZMN0ZuYjlybHdjLUxxUk4wSzZqZ0o4bTc2RDQzc0Y5WDBrb3B5RlZGRVJLYlIxZGF5YzNaUk91ZWJsTktMV2x2RUZ6TllJSGNITmhUSlhKUmI4b09VV0RJQ1VjbVBhbDd1YlJZN1R1aGR5X291QUU5SXNRWFFjekRBVXRyZlJSWDBYNklNTkp2eXl0Q3F2cHBFZUdYN01UMmcyTEJtVXQ40gG7AUFVX3lxTE40NXpiaHBsTVNkVzduYmx6RGpIdkw3Rm5iOXJsd2MtTHFSTjBLNmpnSjhtNzZENDNzRjlYMGtvcHlGVkZFUktiUjFkYXljM1pST3VlYmxOS0xXbHZFRnpOWUlIY0hOaFRKWEpSYjhvT1VXRElDVWNtUGFsN3ViUlk3VHVoZHlfb3VBRTlJc1FYUWN6REFVdHJmUlJYMFg2SU1OSnZ5eXRDcXZwcEVlR1g3TVQyZzJMQm1VdDg?oc=5",
-      "caption": "Former Swiggy, Zomato executives have launched an AI startup called Profound, raising $1.5 Mn in a seed round. This development marks a significant milestone in the AI startup space. What does this mean for the future of AI in the industry? How will Profound's focus on efficiency impact the market? What are the potential applications of Profound's technology? #AI #Startup #Funding #Innovation #Technology #Efficiency",
+      "topic": "AI Security Breaches",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
       "slideContent": {
         "slide1": {
-          "headline": "Former Swiggy, Zomato Executives Launch AI Startup",
-          "subtitle": "Profound aims to revolutionize the industry"
+          "headline": "New Security Threats Emerge",
+          "subtitle": "AI agents implicated in breaches"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "Former Swiggy, Zomato executives launched AI startup Profound",
-            "Raised $1.5 Mn in seed round",
-            "Profound aims to use AI to improve efficiency",
-            "The funding round was announced on 04 Aug 2026"
+            "OpenAI and Anthropic AI agents were implicated in new security breaches on 05 Aug 2026",
+            "The breaches highlight the growing concern of AI-related security threats",
+            "As AI becomes more widespread, the risk of security breaches increases",
+            "Companies must take proactive measures to protect themselves"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "Profound's launch marks a significant development in the AI startup space",
-            "The company's focus on using AI to improve efficiency could lead to innovative solutions",
-            "The seed round of $1.5 Mn will help Profound to further develop its technology",
-            "The investment in AI startups is on the rise"
+            "The security breaches could have significant consequences for companies and individuals",
+            "It is essential to develop and implement effective security measures to prevent such breaches",
+            "The use of AI in security can also provide solutions to these threats",
+            "Source: Reuters, 05 Aug 2026"
+          ]
+        }
+      },
+      "caption": "The recent security breaches involving OpenAI and Anthropic AI agents have raised concerns about the safety of AI systems. As AI becomes more prevalent, it is crucial to address these security threats. Questions to consider: What measures can companies take to prevent AI-related security breaches? How can AI be used to enhance security? #AIsecurity #securitybreaches #OpenAI #AnthropicAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczA3WWo2amR5TUgyLUNXYnNhSVFJMjlFX1dpbjhPN0R4anhTNkJNYzBseVlNbGdCa0E3ZWU5aXRfaEZWaE5OT1hSb0NCRmlJS2w5OGNMbWgyZ3hnOUNieHFRaW44b3JmMm42SVpCb1d6dVF5SG9yR0k2UndzMGs2aGVaZl9NRmIwaWd3T0RvTkh1c0xyQVpoOVJyQ21aMWZmdE1VQVJUZVZIQ0l2azhzZ25n?oc=5",
+      "sourceName": "Reuters",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "05 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "chip",
+      "sourceId": "N11",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Raises Funding",
+          "subtitle": "Profound raises $1.5 million"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "AI startup Profound raised $1.5 million in funding on 04 Aug 2026",
+            "The funding was led by ex-Swiggy and Zomato executives",
+            "The investment will be used to enhance the company's AI platform",
+            "The funding amount is $1.5 million"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding will help Profound to expand its operations and improve its AI technology",
+            "The investment is a sign of the growing interest in AI startups",
+            "The use of AI in various industries is increasing, and funding is essential for these companies to grow",
+            ""
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "The AI startup space is becoming increasingly competitive",
-            "Profound's focus on efficiency could give it an edge over competitors",
-            "The company's launch is a significant development for the industry",
-            "Source: Entrackr, Aug 2026"
+            "The funding will help Profound to compete in the AI market",
+            "The investment is a positive sign for the AI industry",
+            "AI startups require funding to develop and improve their technology",
+            "Source: BW Marketing World, Aug 2026"
           ]
         }
-      }
-    },
-    {
-      "id": 2,
-      "topic": "Data Breach Costs",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N3",
-      "eventDate": "03 Aug 2026",
-      "sourceName": "Fortune India",
+      },
+      "caption": "AI startup Profound has raised $1.5 million in funding, led by ex-Swiggy and Zomato executives. The investment will be used to enhance the company's AI platform. Questions to consider: How will the funding impact Profound's operations? What are the implications of the investment for the AI industry? #AI #funding #Profound #startup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXp4cHlTdTJ3MjFHN3U3VkFLUDNIOUZNQ2R5VklZdHQ3SmJheGh6dC1FT2FrSG5oXzRTSFpVZ21WX0RqcVRTcU9Wc1lCZ0pUUDB1TUM5ZGpGQk1LMkcyTDQ5YmJyNzZNWkxNZWhtR0l5dGY0WVhKOXp4VkhlTFJvTHFremxNcldHNlNaSEhJSEl3NDVhZ3F0NU0yTU5VeThRMHFQSWtzSk12TWtTS0p4N3N3?oc=5",
+      "sourceName": "BW Marketing World",
       "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcVFBZDZzRkpMZzI1UFFlSVNMalVGQ0NVNzlMdnV4ajdDdE5kWVdsUklCLTh6NTVPX00ySEhLN1lGS3F3UGM0RGU1MEtlUW01Yi1BZGZLSy15R3MzMVdVS0JqcWZKbnp1elBNN1FKcExBZFdSQjlWQ2VTdzZBNFcyU1FUUE9YLUxjX1lBQXpWYi1iSXo4OGxlMm55XzRGempXOXI0Zm9EYXYtMWlsQ0lUNjVkc2FwMHhKSnJDbnY2YjNrMUU1dlMwdVVfRWxXd2c3SkdESHln0gHjAUFVX3lxTE90Q2pvQTNVSy1FejBMZFpwZmhJRXB0ZUZNanhlby1QQW1oaEtFTVEzNFN4aVVWYWxJZGpEWkw5bERoRjVmS2FnSVozLWhCM2FXVkxyQVVaSkZySDRZWEpnRmNCSGFTYVNMbEJ5VVIzNWFWQmF3bVFfVDFZbWhFb1JldU5mbm9UQVF6dnBQOURkZ0tQRXNSTjR2MVJ5Z2RpZzF6Rkx2Z3podzI3cHlZYlRIcURial9XTy1hX0M5aEZIMkFxOTlNVkdMNHd3ZXM2cnZRYmVXcFo1OGNCbDNMZGg3aFJJ?oc=5",
-      "caption": "India's average data breach cost has hit a record ₹25.5 crore in 2026, with AI-powered attacks on the rise. What are the implications of this trend for organizations? How can companies protect themselves against AI-powered attacks? What role will AI play in the future of cybersecurity? #DataBreach #Cybersecurity #AI #India #RecordHigh",
-      "slideContent": {
-        "slide1": {
-          "headline": "India's Average Data Breach Cost Hits Record High",
-          "subtitle": "AI-powered attacks on the rise"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 03 Aug 2026",
-            "India's average data breach cost has hit a record ₹25.5 crore in 2026",
-            "AI-powered attacks are on the rise",
-            "The cost of data breaches is increasing rapidly",
-            "The average cost of a data breach in India is now ₹25.5 crore"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The rise of AI-powered attacks is a significant concern for organizations",
-            "The increasing cost of data breaches highlights the need for robust security measures",
-            "Organizations must invest in AI-powered security solutions to stay ahead of threats",
-            "Source: Fortune India, 03 Aug 2026"
-          ]
-        }
-      }
+      "eventDate": "04 Aug 2026"
     },
     {
       "id": 3,
-      "topic": "Cloud Security",
+      "topic": "ChatGPT Memory Recall",
       "slides": 3,
-      "svgIcon": "network",
-      "sourceId": "N19",
-      "eventDate": "04 Aug 2026",
-      "sourceName": "blog.checkpoint.com",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOa0JSMFVGVXJCY1REc2lENnpJLUhXOGtJbUlCWHgxcUxKdmMtWFgxRTN3Z3VWUE1VblVfSTdicnNyY29xNVlGQjNhQ1EzTVRDTzVmZ2V6Xzc4MV9sTERpTlZpRnRPSnhoUjhRdUVJRU9VOGhwbEozLTZLVWdGSkVwWDgwN1l6anBHMWxXTmNkc1hXazhRbEFHQmxCa0c1S0RBMVFkd2p6ejdPVVlRcTVkMHRBcmc5OVM5cThxMUliNEh5aU1sRkFDX2E3Sk15eTU3VFZEWlBqUGV4UjFDcjZSMDZfRVo3eDFDR2c0SnlKX0w1YlRLNENjel9CcUhIdFJ1?oc=5",
-      "caption": "The 2026 Cloud Security Report highlights the need for change in traditional network and cloud security architecture, as it lags behind the AI transformation. What are the implications of this trend for organizations? How can companies adapt to the AI transformation in cloud security? What role will AI play in the future of cloud security? #CloudSecurity #AI #Transformation #Cybersecurity #Report",
+      "svgIcon": "brain",
+      "sourceId": "N2",
       "slideContent": {
         "slide1": {
-          "headline": "Traditional Network and Cloud Security Architecture Lagging Behind AI Transformation",
-          "subtitle": "2026 Cloud Security Report highlights the need for change"
+          "headline": "ChatGPT Dreaming V3",
+          "subtitle": "Memory recall jumps to 82.8%"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
-            "The 2026 Cloud Security Report highlights the need for change in traditional network and cloud security architecture",
-            "The report emphasizes the importance of adapting to the AI transformation",
-            "Traditional security measures are no longer effective against AI-powered threats",
-            "The report suggests that organizations must invest in AI-powered security solutions"
+            "ChatGPT Dreaming V3 has achieved a memory recall of 82.8% on 04 Aug 2026",
+            "The improvement in memory recall is significant for AI technology",
+            "The development of ChatGPT Dreaming V3 is a notable advancement in AI research",
+            "The memory recall percentage is 82.8%"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The AI transformation is driving the need for change in cloud security architecture",
-            "Organizations must invest in AI-powered security solutions to stay ahead of threats",
-            "The 2026 Cloud Security Report provides valuable insights for organizations looking to adapt to the AI transformation",
-            "Source: blog.checkpoint.com, 04 Aug 2026"
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The improvement in memory recall will enhance the performance of ChatGPT",
+            "The development of ChatGPT Dreaming V3 has implications for the AI industry",
+            "The use of AI in various applications will benefit from the improved memory recall",
+            "Source: tech-insider.org, 04 Aug 2026"
           ]
         }
-      }
+      },
+      "caption": "ChatGPT Dreaming V3 has achieved a significant improvement in memory recall, reaching 82.8%. The development has implications for the AI industry and will enhance the performance of ChatGPT. Questions to consider: What are the potential applications of ChatGPT Dreaming V3? How will the improved memory recall impact the AI industry? #ChatGPT #AI #memoryrecall #DreamingV3",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GcTBSNjl3NDd6RHBlaXpKWmZKemVaYXlpU0xpUzZaeTZuU3hZaFp4MThNLVJBQlZ0TGhucHRmUmJkbmlVWFdsTVpRSXFqLUgtWTY0dm1XV0lCZ1pzVXFycjBCMFVaVkZuWGhkYW5SUzFjZw?oc=5",
+      "sourceName": "tech-insider.org",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "04 Aug 2026"
     }
   ]
 }

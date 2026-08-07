@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-07",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Acquisition",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Deel Acquires Clarity",
+          "subtitle": "Deepfake Security Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 03 Aug 2026",
+            "Deel acquired Clarity, an Israeli deepfake security startup.",
+            "The deal was valued at $40-50 million.",
+            "This acquisition highlights the growing importance of AI security.",
+            "Deel's move is expected to enhance its security capabilities."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition demonstrates the increasing demand for AI security solutions.",
+            "Deel's expansion into deepfake security is a strategic move.",
+            "This deal may inspire other companies to invest in AI security.",
+            "The future of AI security is expected to be highly competitive."
+          ]
+        }
+      },
+      "caption": "Deel's acquisition of Clarity marks a significant milestone in the AI security landscape. What does this mean for the future of deepfake security? How will this acquisition impact Deel's position in the market? Questions to consider: What are the implications of this acquisition for the AI security industry? Will we see more acquisitions in this space? #AIsecurity #DeepfakeSecurity #Acquisition #Deel #Clarity #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0dUhrZTVJcTkzTFE1U1VBVzYxem9jc0RKSFMtank1RGZEN19EU1c5VElRaFRpU1I3blRkajNHd19IangyOHBJWUJTckdBOHN5U2owZkpOQWEycmlDdWpVNDBpWWR6TzA5?oc=5",
+      "sourceName": "calcalistech.com",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "03 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Price Gap",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Model Price Gap",
+          "subtitle": "Claude, Gemini, and ChatGPT"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Aug 2026",
+            "A recent study found an $18 output price gap between Claude, Gemini, and ChatGPT.",
+            "This gap highlights the varying costs of AI models.",
+            "The study compared the output prices of the three models.",
+            "The results show a significant difference in prices."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The price gap has implications for businesses and developers using AI models.",
+            "The cost of AI models can impact the adoption of these technologies.",
+            "The study's findings may influence the development of more affordable AI models.",
+            "The AI model market is expected to become more competitive."
+          ]
+        }
+      },
+      "caption": "The $18 output price gap between Claude, Gemini, and ChatGPT raises questions about the cost of AI models. What factors contribute to this price gap? How will this impact the adoption of AI technologies? Questions to consider: What are the implications of this price gap for businesses and developers? Will we see more affordable AI models in the future? #AIModels #PriceGap #Claude #Gemini #ChatGPT #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0ybjFRYWpucDlhbE1VQUFwdS1jTlhZcWhGRHRGU3drYUlXS1ZYLW1XS2RtN2FJYWJRak1wQjdkTnBrejNhVExkVEZXRk1LbzdhOXVzTS1aYVI4dUY4MTcwZFdCVHRWWDNTUUE?oc=5",
+      "sourceName": "tech-insider.org",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "06 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Firmus Raises $2.85 Billion",
+          "subtitle": "AI Data Centre Startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Aug 2026",
+            "Firmus, an AI data centre startup, raised $2.85 billion in funding.",
+            "The company's valuation is now $15 billion.",
+            "This funding round is one of the largest for an AI startup.",
+            "Firmus plans to use the funds to expand its operations."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This funding round demonstrates the growing interest in AI startups.",
+            "Firmus's valuation highlights the potential of AI data centre technology.",
+            "The company's expansion plans may impact the AI data centre market.",
+            "This funding round may inspire other AI startups to seek investment."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The AI data centre market is expected to grow significantly.",
+            "Firmus's funding round may lead to more investment in AI startups.",
+            "The company's expansion plans may create new opportunities.",
+            "Source: Startup Daily, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Firmus's $2.85 billion funding round marks a significant milestone for AI startups. What does this mean for the future of AI data centre technology? How will this funding round impact the AI data centre market? Questions to consider: What are the implications of this funding round for AI startups? Will we see more investment in AI data centre technology? #AIFunding #Firmus #AIDataCentre #Startup #Investment #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQelBNNXR3UVdKZXJ2dHlQbTdWd05od2JjUE5fcFlpVFFlZ3ktYkZOM0N1cWY2WFp6SGNURENFUk5VUjBYa1FvdjY5Z3FfRXFKem9heENjUTVZOUplVWh1bzVSQjZ0M1laUXk3aVVGcml1SkdrSHB4bXZOSVZ6SmtoWjI0eXJIeEZCWVdzakdjVDRHeGZQbnNmbWVfajgyNks4Rjk5VnZoS1FnQzE5QjlyMkJFZ2hrRlVNUDZadWRmTVdEQ2h3MzRuUXJ3dTJPcHM?oc=5",
+      "sourceName": "Startup Daily",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
+    }
+  ]
+}

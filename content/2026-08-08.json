@@ -8,125 +8,116 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding",
-      "slides": 4,
+      "topic": "Meta AI Update",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N15",
-      "eventDate": "08 Aug 2026",
-      "sourceName": "Wowtale",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wRlZzUlR5U2Q2bFBiTURiSTF0eGtHSHFDcFlrT1Zmd3BqNExXVy1SVEphVXZ5ZVV0amZIeUVqZ0hXWVc0SEZyUlh3eXQxeUQ3RjJv?oc=5",
+      "sourceId": "N1",
       "slideContent": {
         "slide1": {
-          "headline": "HappyRobot Hits Unicorn Status",
-          "subtitle": "With a recent funding round, HappyRobot has reached a milestone"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 08 Aug 2026",
-            "HappyRobot raised $150M in funding",
-            "The company has now hit unicorn status",
-            "This funding round will help HappyRobot expand its operations",
-            "The company's valuation is now over $1 billion"
-          ]
-        },
-        "slide3": {
-          "title": "WHY IT MATTERS",
-          "lines": [
-            "This funding round shows the growing interest in AI startups",
-            "HappyRobot's technology has the potential to disrupt various industries",
-            "The company's success will likely attract more investment in the AI sector",
-            "This could lead to more innovation and job creation"
-          ]
-        },
-        "slide4": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "HappyRobot's funding round is a significant milestone for the company",
-            "The company's technology has the potential to make a significant impact",
-            "The AI sector is likely to see more investment and innovation in the coming years",
-            "Source: Wowtale, Aug 2026"
-          ]
-        }
-      },
-      "caption": "HappyRobot has hit unicorn status with a recent funding round of $150M. This is a significant milestone for the company and a testament to the growing interest in AI startups. What does this mean for the future of AI innovation? How will HappyRobot's technology disrupt various industries? What are the potential risks and challenges associated with this funding round? #AI #Funding #Unicorn #Innovation #Startup #Technology\nQuestions to consider: What are the potential applications of HappyRobot's technology? How will the company use its funding to expand its operations? #HappyRobot #AIFunding",
-      "hashtags": "#AI #Funding #Unicorn #Innovation #Startup #Technology"
-    },
-    {
-      "id": 2,
-      "topic": "AI Security",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N19",
-      "eventDate": "06 Aug 2026",
-      "sourceName": "Check Point Blog",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOa0JSMFVGVXJCY1REc2lENnpJLUhXOGtJbUlCWHgxcUxKdmMtWFgxRTN3Z3VWUE1VblVfSTdicnNyY29xNVlGQjNhQ1EzTVRDTzVmZ2V6Xzc4MV9sTERpTlZpRnRPSnhoUjhRdUVJRU9VOGhwbEozLTZLVWdGSkVwWDgwN1l6anBHMWxXTmNkc1hXazhRbEFHQmxCa0c1S0RBMVFkd2p6ejdPVVlRcTVkMHRBcmc5OVM5cThxMUliNEh5aU1sRkFDX2E3Sk15eTU3VFZEWlBqUGV4UjFDcjZSMDZfRVo3eDFDR2c0SnlKX0w1YlRLNENjel9CcUhIdFJ1?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Cloud Security Report",
-          "subtitle": "Traditional security architecture is lagging behind AI transformation"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "The 2026 Cloud Security Report highlights the gap between traditional security architecture and AI transformation",
-            "The report notes that 75% of organizations are using cloud-based services",
-            "However, only 25% of these organizations have implemented AI-based security measures",
-            "This leaves a significant gap in security coverage"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The report highlights the need for organizations to adopt AI-based security measures",
-            "Traditional security architecture is no longer sufficient to protect against modern threats",
-            "The gap between traditional security architecture and AI transformation is a significant concern",
-            "Source: Check Point Blog, 06 Aug 2026"
-          ]
-        }
-      },
-      "caption": "The 2026 Cloud Security Report highlights the gap between traditional security architecture and AI transformation. What are the implications of this gap for organizations? How can organizations adopt AI-based security measures to protect against modern threats? #AI #Security #Cloud #Report #Transformation\nQuestions to consider: What are the potential risks associated with not implementing AI-based security measures? How can organizations balance the need for security with the need for innovation? #CloudSecurity #AISecurity",
-      "hashtags": "#AI #Security #Cloud #Report #Transformation"
-    },
-    {
-      "id": 3,
-      "topic": "AI Research",
-      "slides": 3,
-      "svgIcon": "code",
-      "sourceId": "N20",
-      "eventDate": "07 Aug 2026",
-      "sourceName": "Pulse 2.0",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVd1eTgtSFk3dU9fc2tOZEVwZjdtOWJTc2N1Zk96aTNGcHV3eVJDN1M3S09VZm5tWUh4cXFmYlJYa0VGbTFHVkNDMkdidkd5MDc5TkxIdGxJeVlFbE4xbUhzRXlVZW1tM2dzSXVFRlhfUnIwYXY0X2pNbkdRR1RwTGRwSnhDaWNtalJnS05oWFdRMklxZnFCbzVmY0w3RG52aE1aZjB5RjM1M2JsM0U5NdIBtgFBVV95cUxOUmswanNLUy1PSzZRSlFMRVdfVDEwOWpISEtKcUlja3VVWkNTVkdncUF1QWlRcy1hdTB5OElLTHlZbHlvWUxDU2VtbVJQYlhWYzBaa09tUzk3cXFfT2ZfQ3Q1ckJ5V3ZtMTh5WEpYM2IxWTJMV3A3U3ZaalFSTjFxLUs5Yk1jS3E0Tlp6cm9DOWtlX2ZPUUx6SXhoa0R6Ny13UXRmeWUzZDNOb3NGcVFyeTRocWNfQQ?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Meta Launches Muse Spark 1.2",
-          "subtitle": "With a 1 million-token context window"
+          "headline": "Meta Launches New AI Tools",
+          "subtitle": "Advancing the field of artificial intelligence"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 07 Aug 2026",
-            "Meta has launched Muse Spark 1.2, a coding agent with a 1 million-token context window",
-            "This is a significant improvement over previous models, which had a context window of 100,000 tokens",
-            "The new model is capable of understanding and generating more complex code",
-            "This has the potential to revolutionize the field of coding and software development"
+            "Meta launched Muse Spark 1.2 and Muse Code coding agent",
+            "The coding agent has a 1 million-token context window",
+            "This update aims to improve AI-powered coding capabilities"
           ]
         },
         "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "The launch of Muse Spark 1.2 is a significant milestone for Meta",
-            "The model has the potential to make coding and software development more efficient and effective",
-            "This could lead to more innovation and breakthroughs in the field",
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Enhanced coding capabilities can increase developer productivity",
+            "Meta's AI tools can help bridge the gap in the tech industry",
             "Source: Pulse 2.0, 07 Aug 2026"
           ]
         }
       },
-      "caption": "Meta has launched Muse Spark 1.2, a coding agent with a 1 million-token context window. What are the implications of this launch for the field of coding and software development? How will this model change the way we approach coding and software development? What are the potential risks and challenges associated with this technology? #AI #Research #Coding #SoftwareDevelopment #Meta\nQuestions to consider: What are the potential applications of Muse Spark 1.2? How will this model impact the job market for coders and software developers? #MuseSpark #AICoding",
-      "hashtags": "#AI #Research #Coding #SoftwareDevelopment #Meta"
+      "caption": "Meta has launched new AI tools, including Muse Spark 1.2 and Muse Code coding agent. The coding agent has a 1 million-token context window, which can significantly improve AI-powered coding capabilities. What does this mean for the future of coding? How will this impact the tech industry? Questions to consider: What are the potential applications of Meta's new AI tools? How will they change the way we approach coding? #MetaAI #AICoding #TechNews #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVd1eTgtSFk3dU9fc2tOZEVwZjdtOWJTc2N1Zk96aTNGcHV3eVJDN1M3S09VZm5tWUh4cXFmYlJYa0VGbTFHVkNDMkdidkd5MDc5TkxIdGxJeVlFbE4xbUhzRXlVZW1tM2dzSXVFRlhfUnIwYXY0X2pNbkdRR1RwTGRwSnhDaWNtalJnS05oWFdRMklxZnFCbzVmY0w3RG52aE1aZjB5RjM1M2JsM0U5NdIBtgFBVV95cUxOUmswanNLUy1PSzZRSlFMRVdfVDEwOWpISEtKcUlja3VVWkNTVkdncUF1QWlRcy1hdTB5OElLTHlZbHlvWUxDU2VtbVJQYlhWYzBaa09tUzk3cXFfT2ZfQ3Q1ckJ5V3ZtMTh5WEpYM2IxWTJMV3A3U3ZaalFSTjFxLUs5Yk1jS3E0Tlp6cm9DOWtlX2ZPUUx6SXhoa0R6Ny13UXRmeWUzZDNOb3NGcVFyeTRocWNfQQ?oc=5",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Security Threats",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N23",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Threats on the Rise",
+          "subtitle": "India's data breach cost increases by 11%"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 08 Aug 2026",
+            "India's data breach cost has increased by 11% to $2.79 million",
+            "AI threats are a major contributor to this rise",
+            "The average cost of a data breach is now $2.79 million"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "AI threats can have severe consequences for businesses and individuals",
+            "It's essential to invest in AI-powered security measures",
+            "The rise of AI threats demands a proactive approach to cybersecurity"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The increasing cost of data breaches highlights the need for robust security measures",
+            "AI-powered security solutions can help mitigate these threats",
+            "Source: BW Businessworld, Aug 2026"
+          ]
+        }
+      },
+      "caption": "India's data breach cost has increased by 11% to $2.79 million, with AI threats being a major contributor. What are the implications of this rise in AI threats? How can businesses and individuals protect themselves? Questions to consider: What are the most effective ways to mitigate AI threats? How can we balance the benefits of AI with the need for robust security measures? #AISecurity #Cybersecurity #DataBreach #TechNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVXoyV0ZkOEdNeXBCdnd6cHFIM05mZmRYbFJqUzNFcmFLM2E5Y3hhR1dkaVQ2akJhYm5rQ0VmQmdYTHROeUNlU1NlMk5kOVFjOXdYRXA2QWdHbmY3RHY3dW1jZFB1VGxlVUFhZDVyUFJ1UFpwajJrVHpSOWV0MUh4STdEX3ZMMl82OXpoWEJCdTFTcng1eFdkSDNQbk1nSVRTdGlma1dpNFprRl9P?oc=5",
+      "sourceName": "BW Businessworld",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "08 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Funding Round",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Ooredoo Leads Funding Round",
+          "subtitle": "Investing in AI startup Zankore"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Aug 2026",
+            "Ooredoo led an $800 million funding round for AI startup Zankore",
+            "This investment will help Zankore expand its AI capabilities",
+            "The funding round highlights the growing interest in AI startups"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding round demonstrates the potential of AI startups",
+            "Ooredoo's investment can help Zankore accelerate its growth",
+            "Source: Communications Today, 07 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Ooredoo has led an $800 million funding round for AI startup Zankore. What does this investment mean for the future of AI startups? How will Zankore use this funding to expand its AI capabilities? Questions to consider: What are the potential applications of Zankore's AI technology? How will this investment impact the broader AI industry? #AIFunding #Zankore #Ooredoo #TechNews #Investment",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOVJfczZocFBSTXFQY3paaW9nMVBQRTc1ZXF4LWRfUjVLZXpJSHB0a2daSkVrN2hxMjNod0hNNFUxdlBqakZLZF9jbHBYTlR3VzJUQmlnbzA4QU9aOTNfd09ZeTNVOGlyTHJEN3BDUDVncDg5UEZLS01SZmd1N09HcGlvMW9JaVg4TnhxTG5MM2Q0NkRha2JWTGhR?oc=5",
+      "sourceName": "Communications Today",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
     }
   ]
 }

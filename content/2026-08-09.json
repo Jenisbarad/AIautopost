@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-09",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0F3B2A",
+  "accentHex": "#7B938A",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Bitcoin Security Campaign",
+          "subtitle": "Exposing software issues in crypto projects"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 08 Aug 2026",
+            "AI Bitcoin Security Campaign found nearly 5,000 software issues",
+            "in 390 projects",
+            "highlighting the need for improved security measures",
+            "to protect against potential threats"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The campaign's findings have significant implications for the crypto industry",
+            "as it underscores the importance of robust security protocols",
+            "to prevent potential breaches and attacks",
+            "Source: CryptoPotato, 08 Aug 2026"
+          ]
+        }
+      },
+      "caption": "The AI Bitcoin Security Campaign has revealed a staggering number of software issues in crypto projects. What does this mean for the future of crypto security? Will this lead to increased investment in security measures? How can we balance security with the need for innovation in the crypto space? #AI #Bitcoin #Security #Crypto #Innovation #RiskManagement",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWE1kUnltYV91VlZ4eU9scTI3ak1wX2ZVRE9RX1NJcEFsWTRrYkY2UG9lRTI5OWt0WGhZLUJWZXVHSWxuUjBfenZ3b1ZBYUpMQkJ3RUtWcWZFSHRtR3M5RGVxZUNEaEN1RUotcnE3WC1wWFR6QVB4b3VGNDlKclptWDBfVnNvTjNOM21fXy1QR1NzNXJXVkVvV0xyZnZ3OTJXNC1VdGt6NA?oc=5",
+      "sourceName": "CryptoPotato",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "08 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Funding",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Lumilens Secures $700M Funding",
+          "subtitle": "A significant investment in AI startup"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Aug 2026",
+            "Lumilens, an AI startup, has secured $700 million in funding",
+            "from investors, including Peak XV and EDBI",
+            "this investment will help drive growth and development",
+            "in the AI sector"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment is a significant vote of confidence in the AI sector",
+            "and highlights the growing interest in AI startups",
+            "it will enable Lumilens to expand its operations and develop new technologies",
+            "further solidifying its position in the market"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The funding will help drive innovation in AI",
+            "and contribute to the growth of the AI ecosystem",
+            "it demonstrates the potential for AI startups to secure significant investments",
+            "Source: DealStreetAsia, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Lumilens has secured a massive $700 million in funding, a significant investment in the AI sector. What does this mean for the future of AI startups? Will this lead to increased investment in AI research and development? How will Lumilens use this funding to drive growth and innovation? #AI #Funding #Startup #Investment #Innovation #Growth",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85THJyT2hiQWllbUN6MUhyRmFWWWwxajhSYzdDX3BOc2JvUmRhQnVmY0V5OGh2eVhiVDAtN0k2aWd6d01qVi1ldUpzUmxPOVdTb1lsQzZ0cHp1NzZvOUlEb2ZteFAyNWY4Ri1hV2ZvTlNCSkd3SGc?oc=5",
+      "sourceName": "DealStreetAsia",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Models",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N22",
+      "slideContent": {
+        "slide1": {
+          "headline": "Previewing GPT-5.6 Sol",
+          "subtitle": "A next-generation AI model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Aug 2026",
+            "OpenAI has previewed GPT-5.6 Sol, a next-generation AI model",
+            "this new model is expected to bring significant improvements",
+            "in language understanding and generation capabilities",
+            "with potential applications in various industries"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The development of GPT-5.6 Sol has significant implications for the AI community",
+            "it demonstrates the rapid progress being made in AI research",
+            "and highlights the potential for AI to drive innovation and growth",
+            "Source: OpenAI, 06 Aug 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has previewed GPT-5.6 Sol, a next-generation AI model. What are the potential applications of this new model? How will it impact the AI community and drive innovation? What are the potential risks and challenges associated with the development of more advanced AI models? #AI #GPT #Innovation #LanguageModel #NextGenAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BR2ZzcDRMbGphY1pfMF9mVWVCZGUyV25mbHpZMnRjQUxWWWgtWGZqSk93eXEweHNlOU1MTW85d2hLc3NvT2E4Znd4ZG5DR1diQTZPcFExTi1wcC1t?oc=5",
+      "sourceName": "OpenAI",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "06 Aug 2026"
+    }
+  ]
+}

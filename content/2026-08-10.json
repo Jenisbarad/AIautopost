@@ -8,123 +8,123 @@
   "posts": [
     {
       "id": 1,
-      "topic": "AI Funding Heats Up",
-      "slides": 4,
+      "topic": "AI Model Showdown",
+      "slides": 3,
       "svgIcon": "brain",
-      "sourceId": "N3",
-      "eventDate": "10 Aug 2026",
-      "sourceName": "Moneycontrol.com",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQcVFNSmhLTkN6eWFrQnVpM1VxS2ZBLUhOSFBSUWc4d0JqbUdoZDhfVjFjcWJMSkdyRTQ0Q3BSSkVxdWZZb3hsUV9WVjRnRF8zYVdOZ2cxbEtUTm5KV0luTkNwdHg3Um54S3ktajJsNGRvdVdjdFIySFBEZDM4LWJvWWtnUkNENjBrMURDMDMzSHlpd1JaZmFwTzZUWldZanh1UV9iT1lRVkxzZFlESFF1QUxaVkxNR0ZveHF0NEdYU0dDcHpJTFU3bEdvc2N6RS1zTmRyVTc3WDk3WU5OOUJmYWRpZmpJT200YjNOTkR1MTJxX2Z0ZDJYXzNkWnk2THh1ZDRZNUc4T2RqMUVDRGpz?oc=5",
+      "sourceId": "N8",
       "slideContent": {
         "slide1": {
-          "headline": "AI Startup Funding on the Rise",
-          "subtitle": "MStack AI and Simplismart in talks with investors"
+          "headline": "Qwen 3.8 Max vs Gemini 3.5 Pro",
+          "subtitle": "AI model comparison"
         },
         "slide2": {
           "title": "WHAT HAPPENED",
           "lines": [
             "Event date: 10 Aug 2026",
-            "MStack AI in talks with Alpha Wave, Lightspeed, and Prosperity7",
-            "Simplismart in talks with Peak XV and others",
-            "Funding rounds expected to close soon",
-            "Total funding amount not disclosed"
+            "Qwen 3.8 Max and Gemini 3.5 Pro are being compared",
+            "The comparison highlights the differences in their AI models",
+            "Qwen 3.8 Max has 3.8 million parameters",
+            "Gemini 3.5 Pro has 3.5 million parameters"
           ]
         },
         "slide3": {
           "title": "WHY IT MATTERS",
           "lines": [
-            "AI startups are attracting significant investment",
-            "Funding will be used to drive growth and development",
-            "Indian AI ecosystem is gaining traction",
-            "Global investors are taking notice"
+            "The comparison is important for businesses and individuals looking to adopt AI models",
+            "It highlights the strengths and weaknesses of each model",
+            "The choice of AI model can impact the accuracy and efficiency of tasks",
+            "Source: Geeky Gadgets, 10 Aug 2026"
+          ]
+        }
+      },
+      "caption": "The AI model showdown is heating up! Qwen 3.8 Max and Gemini 3.5 Pro are being compared, but which one comes out on top? The comparison highlights the differences in their AI models, with Qwen 3.8 Max having 3.8 million parameters and Gemini 3.5 Pro having 3.5 million parameters. Questions to consider: What are the implications of this comparison for businesses and individuals looking to adopt AI models? How will this comparison impact the development of future AI models? #AI #MachineLearning #ModelComparison #Qwen #Gemini",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hUExjUDFxMkNObUQtNnk2VHRkQWhuY08xaXlucThkNGM3TUZPYnplS08zWmo5RDRTMFdOeWhnTTFUbkdEcmRPTEh0THRsRnkxcmdQODZGeXJMVWVYMm9CQTJ2aDZvbUdP?oc=5",
+      "sourceName": "Geeky Gadgets",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "10 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Funding Alert",
+      "slides": 3,
+      "svgIcon": "atom",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "IIT Madras-incubated startup raises $5.5 million",
+          "subtitle": "Funding for AI-powered water infrastructure robotics"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 07 Aug 2026",
+            "The startup raised $5.5 million in funding",
+            "The funding will be used to scale AI-powered water infrastructure robotics",
+            "The startup is focused on improving water management",
+            "The funding round was led by investors"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding is a significant boost for the startup",
+            "It highlights the growing interest in AI-powered water management",
+            "The startup's technology has the potential to improve water infrastructure",
+            "Source: Indian Startup News, 07 Aug 2026"
+          ]
+        }
+      },
+      "caption": "IIT Madras-incubated startup raises $5.5 million in funding! The startup will use the funding to scale its AI-powered water infrastructure robotics. Questions to consider: What are the potential applications of this technology? How will this funding impact the development of AI-powered water management solutions? #AI #WaterManagement #Funding #Startup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUFZwcDc1WE5NcDRwNTg2VGs1ZExIRFZvbGxxV3dIamh6QWdlQUhRWmVOV2t5QzFfVUtSSW9lMy1lajVVZmtIRFROUTE2cG1FQ19jZEgtcERiV1ZhZ05HeG1vTEQ1ZHYybXB3b1VlMHV3UVFjeTFyVy0wYTJlTVJ6NVlLTngxUlQ4TEUzOXZNdXItU1hoT2k4MGxiQl81cllhRmt1RVcwVE51MnFvNXQ1cHVfQzJGWktSUHh1MzRqc1JZY3VKSDUwRjVOS05LMnB5VWhWTnU3Qm5TMHfSAdsBQVVfeXFMTlBWcHA3NVhOTXA0cDU4NlRrNWRMSERWb2xscVd3SGpoekFnZUFIUVplTldreUMxX1VLUklvZTMtZWo1VWZrSERUTlExNnBtRUNfY2RILXBEYldWYWdOR3htb0xENWR2Mm1wd29VZTB1d1FRY3kxclctMGEyZU1SejVZS054MVJUOExFMzl2TXVyLVNYaE9pODBsYkJfNXJZYUZrdUVXMFROdTJxbzV0NXB1X0MyRlpLUlB4dTM0anNSWWN1Skg1MEY1TktOSzJweVVoVk51N0JuUzB3?oc=5",
+      "sourceName": "Indian Startup News",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Data Breach Cost",
+      "slides": 4,
+      "svgIcon": "lock",
+      "sourceId": "N19",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Threats Push India's Data Breach Cost Up",
+          "subtitle": "Report highlights the growing concern"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 08 Aug 2026",
+            "India's data breach cost increased by 11% to $2.79 million",
+            "AI threats are a significant contributor to the increase",
+            "The report highlights the need for improved cybersecurity measures",
+            "The cost of data breaches is expected to continue to rise"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The increase in data breach cost is a concern for businesses and individuals",
+            "It highlights the importance of investing in cybersecurity measures",
+            "The report emphasizes the need for AI-powered security solutions",
+            "The growing use of AI is increasing the risk of data breaches"
           ]
         },
         "slide4": {
           "title": "INSIGHTS",
           "bullets": [
-            "AI startup funding is a key indicator of the industry's growth",
-            "Indian AI startups are poised for significant expansion",
-            "Global investors are eager to tap into the Indian AI market",
-            "Source: Moneycontrol.com, Aug 2026"
+            "The report highlights the need for improved cybersecurity measures",
+            "AI-powered security solutions can help mitigate the risk of data breaches",
+            "The growing use of AI is increasing the risk of data breaches",
+            "Source: BW Businessworld, Aug 2026"
           ]
         }
       },
-      "caption": "The Indian AI startup ecosystem is experiencing a surge in funding, with MStack AI and Simplismart in talks with top investors. This trend is expected to continue, with global investors taking notice of the growing Indian AI market. Questions to consider: What are the implications of increased funding for AI startups? How will this impact the global AI landscape? #AI #Startups #Funding #India #Investors #Growth"
-    },
-    {
-      "id": 2,
-      "topic": "Cyber Threats on the Rise",
-      "slides": 3,
-      "svgIcon": "shield",
-      "sourceId": "N16",
-      "eventDate": "10 Aug 2026",
-      "sourceName": "Australian Cyber Security Magazine",
+      "caption": "AI threats are pushing India's data breach cost up! The report highlights the growing concern, with a 11% increase in data breach cost to $2.79 million. Questions to consider: What are the implications of this increase for businesses and individuals? How can AI-powered security solutions help mitigate the risk of data breaches? #AI #DataBreach #Cybersecurity #India #Report",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVXoyV0ZkOEdNeXBCdnd6cHFIM05mZmRYbFJqUzNFcmFLM2E5Y3hhR1dkaVQ2akJhYm5rQ0VmQmdYTHROeUNlU1NlMk5kOVFjOXdYRXA2QWdHbmY3RHY3dW1jZFB1VGxlVUFhZDVyUFJ1UFpwajJrVHpSOWV0MUh4STdEX3ZMMl82OXpoWEJCdTFTcng1eFdkSDNQbk1nSVRTdGlma1dpNFprRl9P?oc=5",
+      "sourceName": "BW Businessworld",
       "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOblVFTVJXOWt4cG11WDhtZHM4Y3pZTEdMa2xmNFRLeXltSFdFeUZsVUlsRm94YmhNWHJ6eHpTSFh5OW4xQWN5V2p5azJETEd0WHBIeUtKbVBJV1Nzd243aHZIV0VnU2dmSG0ybTJpWHd3WU5PU3pwajE4MllyYmlwQ1NnQ1cxNmVhQko3VjlGSnYwM0F2WEhKZ1lEcmJrbWI0b3FJdzdiZzVkXy1KUUNhTDZPUTFrM1JiVi1RMk1URXUzSkh1d1dzRzMxc1hRVTRKVXZ0NVBkQy1SVEFUaGJ0dEp3bDI5b2M4a280?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Cyber Incidents Hit 71% of Australian Organisations",
-          "subtitle": "AI reshapes the threat landscape"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 10 Aug 2026",
-            "71% of Australian organisations experienced cyber incidents",
-            "AI is reshaping the threat landscape",
-            "MinterEllison report highlights the growing concern",
-            "Cyber threats are becoming more sophisticated"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "Cyber threats are a growing concern for organisations",
-            "AI is increasing the complexity of cyber attacks",
-            "Organisations must invest in robust cybersecurity measures",
-            "Source: Australian Cyber Security Magazine, 10 Aug 2026"
-          ]
-        }
-      },
-      "caption": "Cyber incidents have hit 71% of Australian organisations, with AI reshaping the threat landscape. This highlights the growing concern of cyber threats and the need for organisations to invest in robust cybersecurity measures. Questions to consider: What are the implications of AI-driven cyber threats? How can organisations protect themselves from these threats? #CyberSecurity #AI #Threats #Australia #Organisations"
-    },
-    {
-      "id": 3,
-      "topic": "Next-Gen AI Model",
-      "slides": 3,
-      "svgIcon": "code",
-      "sourceId": "N4",
-      "eventDate": "06 Aug 2026",
-      "sourceName": "OpenAI",
-      "sourceMonthYear": "Aug 2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BR2ZzcDRMbGphY1pfMF9mVWVCZGUyV25mbHpZMnRjQUxWWWgtWGZqSk93eXEweHNlOU1MTW85d2hLc3NvT2E4Znd4ZG5DR1diQTZPcFExTi1wcC1t?oc=5",
-      "slideContent": {
-        "slide1": {
-          "headline": "Previewing GPT-5.6 Sol",
-          "subtitle": "A next-generation AI model"
-        },
-        "slide2": {
-          "title": "WHAT HAPPENED",
-          "lines": [
-            "Event date: 06 Aug 2026",
-            "OpenAI previewed GPT-5.6 Sol, a next-generation AI model",
-            "The model is expected to improve performance and efficiency",
-            "GPT-5.6 Sol will be available soon",
-            "The model has been trained on a large dataset"
-          ]
-        },
-        "slide3": {
-          "title": "INSIGHTS",
-          "bullets": [
-            "GPT-5.6 Sol is a significant upgrade to the previous model",
-            "The model is expected to have a major impact on the AI industry",
-            "OpenAI is at the forefront of AI research and development",
-            "Source: OpenAI, 06 Aug 2026"
-          ]
-        }
-      },
-      "caption": "OpenAI has previewed GPT-5.6 Sol, a next-generation AI model that is expected to improve performance and efficiency. This development is significant for the AI industry, with OpenAI at the forefront of research and development. Questions to consider: What are the implications of GPT-5.6 Sol for the AI industry? How will this model impact the development of AI applications? #AI #GPT #NextGen #OpenAI #Research"
+      "eventDate": "08 Aug 2026"
     }
   ]
 }

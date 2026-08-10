@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-10",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding Heats Up",
+      "slides": 4,
+      "svgIcon": "brain",
+      "sourceId": "N3",
+      "eventDate": "10 Aug 2026",
+      "sourceName": "Moneycontrol.com",
+      "sourceMonthYear": "Aug 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQcVFNSmhLTkN6eWFrQnVpM1VxS2ZBLUhOSFBSUWc4d0JqbUdoZDhfVjFjcWJMSkdyRTQ0Q3BSSkVxdWZZb3hsUV9WVjRnRF8zYVdOZ2cxbEtUTm5KV0luTkNwdHg3Um54S3ktajJsNGRvdVdjdFIySFBEZDM4LWJvWWtnUkNENjBrMURDMDMzSHlpd1JaZmFwTzZUWldZanh1UV9iT1lRVkxzZFlESFF1QUxaVkxNR0ZveHF0NEdYU0dDcHpJTFU3bEdvc2N6RS1zTmRyVTc3WDk3WU5OOUJmYWRpZmpJT200YjNOTkR1MTJxX2Z0ZDJYXzNkWnk2THh1ZDRZNUc4T2RqMUVDRGpz?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "AI Startup Funding on the Rise",
+          "subtitle": "MStack AI and Simplismart in talks with investors"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 10 Aug 2026",
+            "MStack AI in talks with Alpha Wave, Lightspeed, and Prosperity7",
+            "Simplismart in talks with Peak XV and others",
+            "Funding rounds expected to close soon",
+            "Total funding amount not disclosed"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "AI startups are attracting significant investment",
+            "Funding will be used to drive growth and development",
+            "Indian AI ecosystem is gaining traction",
+            "Global investors are taking notice"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "AI startup funding is a key indicator of the industry's growth",
+            "Indian AI startups are poised for significant expansion",
+            "Global investors are eager to tap into the Indian AI market",
+            "Source: Moneycontrol.com, Aug 2026"
+          ]
+        }
+      },
+      "caption": "The Indian AI startup ecosystem is experiencing a surge in funding, with MStack AI and Simplismart in talks with top investors. This trend is expected to continue, with global investors taking notice of the growing Indian AI market. Questions to consider: What are the implications of increased funding for AI startups? How will this impact the global AI landscape? #AI #Startups #Funding #India #Investors #Growth"
+    },
+    {
+      "id": 2,
+      "topic": "Cyber Threats on the Rise",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N16",
+      "eventDate": "10 Aug 2026",
+      "sourceName": "Australian Cyber Security Magazine",
+      "sourceMonthYear": "Aug 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOblVFTVJXOWt4cG11WDhtZHM4Y3pZTEdMa2xmNFRLeXltSFdFeUZsVUlsRm94YmhNWHJ6eHpTSFh5OW4xQWN5V2p5azJETEd0WHBIeUtKbVBJV1Nzd243aHZIV0VnU2dmSG0ybTJpWHd3WU5PU3pwajE4MllyYmlwQ1NnQ1cxNmVhQko3VjlGSnYwM0F2WEhKZ1lEcmJrbWI0b3FJdzdiZzVkXy1KUUNhTDZPUTFrM1JiVi1RMk1URXUzSkh1d1dzRzMxc1hRVTRKVXZ0NVBkQy1SVEFUaGJ0dEp3bDI5b2M4a280?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Cyber Incidents Hit 71% of Australian Organisations",
+          "subtitle": "AI reshapes the threat landscape"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 10 Aug 2026",
+            "71% of Australian organisations experienced cyber incidents",
+            "AI is reshaping the threat landscape",
+            "MinterEllison report highlights the growing concern",
+            "Cyber threats are becoming more sophisticated"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Cyber threats are a growing concern for organisations",
+            "AI is increasing the complexity of cyber attacks",
+            "Organisations must invest in robust cybersecurity measures",
+            "Source: Australian Cyber Security Magazine, 10 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Cyber incidents have hit 71% of Australian organisations, with AI reshaping the threat landscape. This highlights the growing concern of cyber threats and the need for organisations to invest in robust cybersecurity measures. Questions to consider: What are the implications of AI-driven cyber threats? How can organisations protect themselves from these threats? #CyberSecurity #AI #Threats #Australia #Organisations"
+    },
+    {
+      "id": 3,
+      "topic": "Next-Gen AI Model",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N4",
+      "eventDate": "06 Aug 2026",
+      "sourceName": "OpenAI",
+      "sourceMonthYear": "Aug 2026",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BR2ZzcDRMbGphY1pfMF9mVWVCZGUyV25mbHpZMnRjQUxWWWgtWGZqSk93eXEweHNlOU1MTW85d2hLc3NvT2E4Znd4ZG5DR1diQTZPcFExTi1wcC1t?oc=5",
+      "slideContent": {
+        "slide1": {
+          "headline": "Previewing GPT-5.6 Sol",
+          "subtitle": "A next-generation AI model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 06 Aug 2026",
+            "OpenAI previewed GPT-5.6 Sol, a next-generation AI model",
+            "The model is expected to improve performance and efficiency",
+            "GPT-5.6 Sol will be available soon",
+            "The model has been trained on a large dataset"
+          ]
+        },
+        "slide3": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "GPT-5.6 Sol is a significant upgrade to the previous model",
+            "The model is expected to have a major impact on the AI industry",
+            "OpenAI is at the forefront of AI research and development",
+            "Source: OpenAI, 06 Aug 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has previewed GPT-5.6 Sol, a next-generation AI model that is expected to improve performance and efficiency. This development is significant for the AI industry, with OpenAI at the forefront of research and development. Questions to consider: What are the implications of GPT-5.6 Sol for the AI industry? How will this model impact the development of AI applications? #AI #GPT #NextGen #OpenAI #Research"
+    }
+  ]
+}

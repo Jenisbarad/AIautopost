@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-11",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1F1A3B",
+  "accentHex": "#848193",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Model Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N24",
+      "slideContent": {
+        "slide1": {
+          "headline": "Mid-Year 2026 AI Model Security Research Report",
+          "subtitle": "Understanding the risks and challenges in AI model security"
+        },
+        "slide2": {
+          "title": "KEY FINDINGS",
+          "lines": [
+            "Event date: 10 Aug 2026",
+            "93% of Capex directed to units posting losses",
+            "AI model security risks are on the rise",
+            "Companies are investing heavily in AI security research"
+          ]
+        },
+        "slide3": {
+          "title": "IMPLICATIONS",
+          "lines": [
+            "Increased risk of data breaches",
+            "Higher costs for companies to mitigate risks",
+            "Need for more robust AI security measures"
+          ]
+        }
+      },
+      "caption": "The recent Mid-Year 2026 AI Model Security Research Report highlights the growing concerns around AI model security. With 93% of Capex directed to units posting losses, companies are facing significant risks. What measures can be taken to mitigate these risks? How will the increasing focus on AI security impact the industry? #AIModelSecurity #Cybersecurity #ArtificialIntelligence #TechNews #Innovation #SecurityRisks",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZzZEOFc3eV9kZUxfLU9RTG5lZmdjZUtOMi1RM1NjUnc4SDF0aEFDdGxLTkdsN21uQk10dVlsMkgwdXNQSjZWZVl5NGdiXzQwVVg5MEFsSVFaTGd5VGNFTm9zUVJTN05nZUcwdnRCSmZSZXMtMVpJd0FEWDVESms0emF3?oc=5",
+      "sourceName": "xbow.com",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "10 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Acquisition News",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N6",
+      "slideContent": {
+        "slide1": {
+          "headline": "Mastercard Acquires Stablecoin Firm BVNK",
+          "subtitle": "A significant move in the fintech space"
+        },
+        "slide2": {
+          "title": "DETAILS OF THE ACQUISITION",
+          "lines": [
+            "Event date: 10 Aug 2026",
+            "BVNK acquired for $1.8B",
+            "Mastercard expands its presence in the fintech space",
+            "BVNK's technology to be integrated into Mastercard's platform"
+          ]
+        },
+        "slide3": {
+          "title": "IMPLICATIONS OF THE ACQUISITION",
+          "lines": [
+            "Increased competition in the fintech space",
+            "Mastercard's expanded capabilities in stablecoin technology",
+            "Potential for new innovations and partnerships"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition highlights the growing importance of stablecoin technology",
+            "Mastercard's move is expected to drive further innovation in the fintech space",
+            "Source: CoinDesk, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Mastercard's acquisition of stablecoin firm BVNK for $1.8B is a significant move in the fintech space. What are the implications of this acquisition for the industry? How will it impact the development of stablecoin technology? What does this mean for Mastercard's competitors? #Fintech #Stablecoin #AcquisitionNews #Mastercard #BVNK #Innovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOWYzMFktTy1WcHliVUl4LTZ2QWhRTEJ6a21VcVFiNVRzRDRYdFZFQXNtSlFSbk1KQnF0U1E3X3BJN2llWTd5bWdOQUc5SHVIcnQxamQwQTE3bi1Id0JXOHkzUk9Gc09wN2FzYnNXMVNnS0dnb29PaGZqbkh0VGpoaWVrZTBpWG5nMzFSZmw5bDFhMDM1eDlFcG82aDJEYnpYb1VKa21UYVJQUWJiUlpHNXM4RTFmbnlUZXZMWEJR?oc=5",
+      "sourceName": "CoinDesk",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "10 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Research",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "Meta Launches Muse Spark 1.2 and Muse Code",
+          "subtitle": "Advancements in AI research and development"
+        },
+        "slide2": {
+          "title": "KEY FEATURES",
+          "lines": [
+            "Event date: 07 Aug 2026",
+            "1 million-token context window",
+            "Muse Spark 1.2 and Muse Code coding agent",
+            "Improved performance and efficiency"
+          ]
+        },
+        "slide3": {
+          "title": "IMPLICATIONS FOR AI RESEARCH",
+          "lines": [
+            "Increased capabilities for AI models",
+            "Improved coding efficiency and accuracy",
+            "Potential for new breakthroughs in AI research"
+          ]
+        }
+      },
+      "caption": "Meta's launch of Muse Spark 1.2 and Muse Code is a significant development in AI research. What are the potential applications of this technology? How will it impact the field of AI research and development? What does this mean for the future of AI innovation? #AIResearch #Meta #MuseSpark #MuseCode #Innovation #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVd1eTgtSFk3dU9fc2tOZEVwZjdtOWJTc2N1Zk96aTNGcHV3eVJDN1M3S09VZm5tWUh4cXFmYlJYa0VGbTFHVkNDMkdidkd5MDc5TkxIdGxJeVlFbE4xbUhzRXlVZW1tM2dzSXVFRlhfUnIwYXY0X2pNbkdRR1RwTGRwSnhDaWNtalJnS05oWFdRMklxZnFCbzVmY0w3RG52aE1aZjB5RjM1M2JsM0U5NdIBtgFBVV95cUxOUmswanNLUy1PSzZRSlFMRVdfVDEwOWpISEtKcUlja3VVWkNTVkdncUF1QWlRcy1hdTB5OElLTHlZbHlvWUxDU2VtbVJQYlhWYzBaa09tUzk3cXFfT2ZfQ3Q1ckJ5V3ZtMTh5WEpYM2IxWTJMV3A3U3ZaalFSTjFxLUs5Yk1jS3E0Tlp6cm9DOWtlX2ZPUUx6SXhoa0R6Ny13UXRmeWUzZDNOb3NGcVFyeTRocWNfQQ?oc=5",
+      "sourceName": "Pulse 2.0",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
+    }
+  ]
+}

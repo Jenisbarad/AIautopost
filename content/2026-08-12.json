@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-12",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B223D",
+  "accentHex": "#798594",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Model Release",
+      "slides": 3,
+      "svgIcon": "brain",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Meta Launches Muse Glimmer",
+          "subtitle": "First Consumer GPU Agent Model"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Meta launched Muse Glimmer on 10 Aug 2026",
+            "First consumer GPU agent model built for autonomous tasks",
+            "Meta releases Muse Glimmer weights",
+            " Plans Muse Spark 1.2 release"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Muse Glimmer is a significant development in AI",
+            "Enables autonomous tasks with consumer-grade hardware",
+            "Implications for industries like robotics and autonomous vehicles",
+            "Source: Tech Times, 10 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Meta has launched Muse Glimmer, the first consumer GPU agent model built for autonomous tasks. What does this mean for the future of AI and autonomous vehicles? How will this impact the development of consumer-grade robotics? #AI #MuseGlimmer #AutonomousVehicles #Robotics #ConsumerGradeHardware #TechInnovation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSjdjMDBzN1Q2eDBTaS1CVXFPZ0t6Yzkxc3lGWEtqdGxOTF9DendJZWdIZ1M4N1ZGR1N0OHFpdlhoY2paUFhtcmpzU1RJRE5UZ2l0TG5OYmFZWEo4b1lYcE1ORERNS1lBOG8tX01wakxNbEdmYnRSMUs0dWhWTndteGRTX21zaGNiQ2RXUnVscnNyTU15VF9JSU1OOE54Y3REWmphWmxJdGk1WlhkakFHb3YxLThkRVhybTVBZDBFUC1lMWJhQnJ2czNBMVYtZEFK?oc=5",
+      "sourceName": "Tech Times",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "10 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Acquisition and Valuation",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "Harvey Raises $500M",
+          "subtitle": "Valuation of $15.5B"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Harvey is raising $500M at a valuation of $15.5B",
+            "Legal AI startup sees significant investment",
+            "Reported on 07 Aug 2026",
+            "Valuation indicates confidence in AI industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment is a significant vote of confidence in the AI industry",
+            "Legal AI is a growing field with much potential",
+            "Harvey's valuation indicates a strong market for AI solutions",
+            "Investment will be used to expand and improve services"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "Harvey's valuation is a benchmark for the industry",
+            "Investment in AI is on the rise",
+            "Legal AI will continue to grow and evolve",
+            "Source: SiliconANGLE, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Harvey, a legal AI startup, is raising $500M at a valuation of $15.5B. What does this mean for the future of AI in the legal industry? How will this investment impact the development of AI solutions for law firms and corporations? #AI #LegalAI #Investment #Valuation #Harvey #LegalTech",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
+      "sourceName": "SiliconANGLE",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "07 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Cyber Defense",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N12",
+      "slideContent": {
+        "slide1": {
+          "headline": "OpenAI Launches GPT-5.6-Cyber",
+          "subtitle": "Strengthening Cyber Defence"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "OpenAI launched GPT-5.6-Cyber on 11 Aug 2026",
+            "Aims to strengthen cyber defence through AI",
+            "GPT-5.6-Cyber model is designed for autonomous tasks",
+            "Will help protect against cyber threats"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "Cyber defence is a critical concern for individuals and organizations",
+            "AI-powered solutions like GPT-5.6-Cyber can help protect against threats",
+            "OpenAI's launch indicates a growing focus on AI for cyber security",
+            "Source: Gadgets 360, 11 Aug 2026"
+          ]
+        }
+      },
+      "caption": "OpenAI has launched GPT-5.6-Cyber, a model designed to strengthen cyber defence through AI. How will this impact the future of cyber security? What role will AI play in protecting against cyber threats? #AI #CyberDefence #GPT5.6Cyber #OpenAI #CyberSecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVDVhd2JBblQwZVBPeEhkSF9tQWpWcF9GQTNTQTdFUVctN0IxdFdneTdlLVhrdnBjSE45SkVjSFE0UEFZUjVOcFdCYzFxbG5RNmx1TDFCbTd2SWtLNG1xMXVOTEN1bl9lZGlfczZVMWtMOGhOS0FCQTlFSzFlTk1vWGhyYVczcmF3bGRXWV9DV201Nmw5dXgtT2dNSFRXYVZpWVVFenRoQ0FSQ29xT2dKRVJ6dGZiYm1kc3fSAb8BQVVfeXFMTjd4QjZqZF94TnJFS0RYRFRHT0stNDN0dkVYRGJ6N1ZRdFQ4NE5Dc0tiUkcwUnNLOFFid3Uxd3phQ1QwS1lHSUR2eV9XVTBtWXBYYnVxYV9Xa1liYVNoWEt0RTVfYmFMdXdqR3k1VGs2eEZvOUdRNXVOQUR1cmZvZ0YtVFJzZTh5R1hrN3g3WGNtMjlpVmxMRVpGUEE3OE9Rd1Brd1RSb1pxSHl5WXIxcXBPZWsyTjhsM3R3Z1JkTTA?oc=5",
+      "sourceName": "Gadgets 360",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "11 Aug 2026"
+    }
+  ]
+}

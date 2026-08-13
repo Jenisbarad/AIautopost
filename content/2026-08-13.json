@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-13",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B1F3B",
+  "accentHex": "#798493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Funding",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "River AI Secures $1.1B Funding",
+          "subtitle": "For Custom AI Models Development"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 11 Aug 2026",
+            "River AI, an AI startup, has raised $1.1 billion in funding.",
+            "The funding will be used to build custom AI models.",
+            "The startup is founded by xAI Co-Founder Igor Babuschkin.",
+            "This significant investment underscores the growing demand for AI solutions."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "This investment highlights the increasing interest in AI startups.",
+            "Custom AI models can revolutionize various industries.",
+            "The funding will help River AI expand its operations and develop more advanced AI models.",
+            "Source: analyticsindiamag.com, 11 Aug 2026"
+          ]
+        }
+      },
+      "caption": "River AI has secured $1.1 billion in funding to develop custom AI models. This significant investment is a testament to the growing demand for AI solutions. Questions to consider: What impact will custom AI models have on various industries? How will this funding help River AI expand its operations? #AI #Funding #CustomAIModels #RiverAI #AIStartups #ArtificialIntelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZXJWRG1qUHlDWWExUHd3VXgydjFTS3RPZThlNmh1eGxRem1QWkZQbjc1RE80Qi0tQU5OREVqazVpZkJpelphSWozUmxKSVV1TGtiMVZsR01leTNNOXJ0NnI2OEp6elI2YWtQc1NEbzVFcl9Wc3oyNll4R0wta0hqaHRDZU9sWG1kbzJmYjljYVZ4eGx4djJtT3YzWi14ajNTdVB5WGthUlQxUFpDRm43TklvZmd1Y0ZXV0tkMm1MN3kyVDA?oc=5",
+      "sourceName": "analyticsindiamag.com",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "11 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Google Pixel 11",
+      "slides": 3,
+      "svgIcon": "network",
+      "sourceId": "N7",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Pixel 11 Price Leaked",
+          "subtitle": "Before Official Launch"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 Aug 2026",
+            "The price of the Google Pixel 11 has been leaked before its official launch.",
+            "Every model will see a price increase of at least Rs 10,000.",
+            "This price hike may be due to various factors, including inflation and component costs.",
+            "The exact pricing will be revealed at the official launch."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The price increase may affect the sales of the Google Pixel 11.",
+            "Consumers may opt for alternative smartphones with more competitive pricing.",
+            "The leaked price may not be the final pricing, and Google may make adjustments before the launch.",
+            "Source: News18, 12 Aug 2026"
+          ]
+        }
+      },
+      "caption": "The price of the Google Pixel 11 has been leaked, with every model seeing a price increase of at least Rs 10,000. This price hike may impact sales and consumer preferences. Questions to consider: How will the price increase affect the sales of the Google Pixel 11? What factors contribute to the price hike? #GooglePixel11 #PriceLeak #SmartphoneMarket #PriceHike #Google",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSWtfRTg3RXg3VUF3V2JMMlR5Z2h5eXpGdUtwN0l6RmhrWnFLbzFsZ1JYZG9HVG9tcmhDajVmbElOTmFXQWtzNU1ZOG5UVWNnVng5RWlHSlNnWEVMVmhvWU40UE42cGNwYUkxcXFDM1Z0YUQ5MlBRaThKS2VndXhBanFoY1lFU1NsTUs4dXBVR1lhVDBGMzROMVlnWjlJSlVwa1UtZ3NDS2dpZVFCWkdNRS14RHdYRkdwN01WOEdndjdKdUxOTktj0gHMAUFVX3lxTE5wRHFxNVQzZnlYclpOLVoySUhHRmNqckJTV1p6N0tnbU9GZlFleEl1Tl9sWF9mSE5TWUw3dkYzYy1vX1BidlhGV0lndUlIWnU4QnlUellfOHNtaDMwVEg5RnFpY25mMzFEZmZMaS1QLUZnaFR4VU0wMFdZVUZ4dWVjajUtQ09kRFlJVnQ0OFcyVk9NR1N5TjhkdHRIb1RGWFhDc0VxNTByUXJEbU5faS1YZlRrb2NwdTlmWGFsY3JxMm9HeDJabk50bW11bw?oc=5",
+      "sourceName": "News18",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "12 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Security",
+      "slides": 4,
+      "svgIcon": "shield",
+      "sourceId": "N14",
+      "slideContent": {
+        "slide1": {
+          "headline": "Gap in AI Adoption for Physical Security",
+          "subtitle": "According to Verkada's Report"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 12 Aug 2026",
+            "Verkada's 2026 State of Cloud Physical Security Report reveals a gap in AI adoption.",
+            "The report highlights the need for increased AI adoption in physical security.",
+            "64% of organizations have not implemented AI-powered physical security solutions.",
+            "This gap in adoption may leave organizations vulnerable to security threats."
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The gap in AI adoption for physical security may have significant consequences.",
+            "Organizations that do not adopt AI-powered physical security solutions may be at risk.",
+            "AI can enhance physical security by providing real-time monitoring and threat detection.",
+            "The report emphasizes the importance of addressing this gap in AI adoption."
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The report highlights the need for increased awareness about the benefits of AI in physical security.",
+            "Organizations must invest in AI-powered physical security solutions to stay secure.",
+            "The gap in AI adoption is a concern that needs to be addressed promptly.",
+            "Source: PR Newswire, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Verkada's report reveals a gap in AI adoption for physical security, with 64% of organizations not having implemented AI-powered solutions. This gap may leave organizations vulnerable to security threats. Questions to consider: What are the consequences of not adopting AI-powered physical security solutions? How can organizations address this gap in AI adoption? #AISecurity #PhysicalSecurity #Verkada #AIAdoption #SecurityThreats",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZVRVVXNYVDcxV2pKN21xQlgyQ0lFeHI2WXpuZmMwMlMxbkI5Tjd4S0ZKeElab1RfeWNGdUZ4am9DUUdSSEdJZEowTkRabkh5NkxpQ05XTWt4VHkzMmdBYk16alE5Z3JzakxuWlVMQ3dlQ1VoUlNVRE91Y1psZ0YwZlFSNFZPSVFheVVfaG5TeHVLQlJzUkwtRmZ5RVZycXFqbWYyQW52NHJmNHM5WXhKZy12S2hxYlBZNklORDBCbVdIOEp6TFhMbzduMUNtR2VCY1JGTQ?oc=5",
+      "sourceName": "PR Newswire",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "12 Aug 2026"
+    }
+  ]
+}

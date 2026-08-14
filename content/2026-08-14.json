@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-14",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B2F3B",
+  "accentHex": "#798D93",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Risk",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N3",
+      "slideContent": {
+        "slide1": {
+          "headline": "Mindgard Raises $30M",
+          "subtitle": "To Expand AI Security Platform"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Mindgard raised $30M in Series A funding on 12 Aug 2026",
+            "To expand its AI security platform",
+            "The funding will help Mindgard tackle AI security risks",
+            "With a focus on enterprise security"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding highlights the growing importance of AI security",
+            "As AI becomes more prevalent, security risks increase",
+            "Mindgard's platform aims to mitigate these risks",
+            "Source: Security Systems News, 12 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Mindgard raises $30M to expand its AI security platform. This funding highlights the growing importance of AI security. As AI becomes more prevalent, security risks increase. What does this mean for the future of AI security? Questions to consider: How will Mindgard use this funding to improve its platform? What are the potential risks and benefits of investing in AI security? #AIsecurity #Mindgard #funding",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTWJFTHZTOUNCYms5S09PYkQ1T0hOc01NSkVBRzE5eHJlcW91SHRCZXhWS2ZFempqNmcwcGNhcU9kT0JrN3hMcTJhNjgyNzFFTlhvTTRCaW1Da09pMndEZVRHRlBRV2k4ZXlYS1RTR1ZXQTVWY1dDUEZUd0dOZTgxZ1hxV0FDT0FlckFlQXd1dk9LOUtueEQyWFpZVkhhdEFIalhnUHJR?oc=5",
+      "sourceName": "Security Systems News",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "12 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "Gemini 3.7 Flash",
+      "slides": 3,
+      "svgIcon": "chip",
+      "sourceId": "N9",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Cuts Gemini 3.7 Flash Price",
+          "subtitle": "In Half as It Claims to Top Claude"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Google cut the price of Gemini 3.7 Flash in half on 13 Aug 2026",
+            "The price cut is aimed at making Gemini more competitive",
+            "Google claims Gemini 3.7 Flash is superior to Claude on business workflows",
+            "With a focus on coding gains"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The price cut highlights the increasing competition in the AI market",
+            "Google's claim to top Claude on business workflows is a significant statement",
+            "The implications of this price cut on the AI market are yet to be seen",
+            "Source: Tech Times, 13 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Google cuts Gemini 3.7 Flash price in half as it claims to top Claude on business workflows. What does this mean for the future of AI? Questions to consider: How will this price cut affect the AI market? What are the implications of Google's claim to top Claude? #AI #Gemini #pricecut",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVEZITl9BRzV3SUlIeEtBNDd4dXBNQ3d3R0VCaEllRGJfU1dEWDZMbTBiOUNubjFiTUZrYU51cnRwSWlnNXFRVUlDTWg0YVh3SEJLQTcxNFVTZ1pyWG1VUDJuNkhPZHcyWF95SWVzd19BZGlrdDZkT09WbmdERGNGeXFUMlItWnFLM25YTW5LNWprZWM1YzFyNEliYkQ2TzZjWUkxeS1rWklSYTFRN1RMRmdIMENzUy1PMDhiejA0NTluNU53TlpST2hwX2ZFdw?oc=5",
+      "sourceName": "Tech Times",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "13 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N23",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Eyes $6 Billion Decart AI Acquisition",
+          "subtitle": "In Its Largest Known Deal"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic is eyeing a $6 billion acquisition of Decart AI on 13 Aug 2026",
+            "This would be Anthropic's largest known deal to date",
+            "The acquisition highlights the growing importance of AI",
+            "With a focus on expansion"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the increasing competition in the AI market",
+            "Anthropic's move to acquire Decart AI is a significant statement",
+            "The implications of this acquisition on the AI market are yet to be seen"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant move for Anthropic",
+            "It highlights the growing importance of AI in the market",
+            "The implications of this acquisition will be closely watched",
+            "Source: NDTV Profit, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic eyes $6 billion Decart AI acquisition in its largest known deal. What does this mean for the future of AI? Questions to consider: How will this acquisition affect the AI market? What are the implications of Anthropic's move to acquire Decart AI? #AI #acquisition #DecartAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdTZqSTNXYnBRMHNOclJzSnBuZUhTNzZhcW5pd19ySl9hRVJ3OFhYbml1U1pCVTBmX0hUeTk4QWQzRVpwOTFHb2xHeWxJbXVBMUs3V19fUzVvbThuRlM5dVhSZXl3MWJNZ0MwbHdDZlJPYWJ2MUdRSHQ3QU5va2FYSGMzX3dOT0R5RGNCRW9OWm43cDZxRVhYdjMxZjhySW8wSlZreXd0SElUd09FdkRYb2JoUDRSRTBE0gHAAUFVX3lxTE1vRjhmbmdNZzhBbzc5SExvbEpvYnJPR3RCMWlmVzl2TVlyb0pHVWdGQk43SDBsVFhNQmtjRnRSbHF6TEVhd1YzTnJOVVdMZEVtNFJQT0E0UEdlOURnQk9HQ1hoWTJ2M3BtVm1PUVNpbDFFR1d6MFZqdkVMTkowbWZzZjlGM0xsMWZ1b3lmVmlITnZMbzZkZTlGUmFBZlF0WDZ3ZzB2SjdsQU44R2pLMjVVMnhEVTJmdVgxV0xOQmZTSg?oc=5",
+      "sourceName": "NDTV Profit",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "13 Aug 2026"
+    }
+  ]
+}

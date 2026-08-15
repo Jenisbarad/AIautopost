@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-15",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#0B3B36",
+  "accentHex": "#799390",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security Funding",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N1",
+      "slideContent": {
+        "slide1": {
+          "headline": "Mindgard Raises $30M",
+          "subtitle": "Series A Funding for AI Security"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Mindgard raised $30M in Series A funding on 13 Aug 2026",
+            "The funding will be used to expand its AI security platform",
+            "Mindgard's platform uses attacker behavioral intelligence to defend against AI attacks",
+            "The company plans to use the funding to improve its AI defense capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The funding highlights the growing importance of AI security",
+            "Mindgard's platform has the potential to revolutionize the way companies defend against AI attacks",
+            "The company's use of attacker behavioral intelligence sets it apart from other AI security platforms",
+            "Source: Financial IT, 13 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Mindgard has raised $30M in Series A funding to expand its AI security platform. The company's use of attacker behavioral intelligence sets it apart from other AI security platforms. What does this mean for the future of AI security? How will Mindgard's platform impact the way companies defend against AI attacks? #AI #Security #Funding #Mindgard #ArtificialIntelligence #CyberSecurity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUFdycm9WWllHVURFdHNyVnZyd0tNOVBMTmJtRWJjWkJrb2dpUlZxdExNcGJfU0F2Z3hoU2c3VU5PSkd5VVBQN0lLZlFiMXlOWUtoX1k3XzJQeUgtdzkyUm9IWEF3SDlaNWEyaTZmQjlxNXNiZ3ZyOTdaSmRveU1sTVBMWnpSQi16WHdkN1VBdUxXbmlnWlAxUVVXa2tFV1Y2a2Q4aGJyV2hDRndxNlNvUGZ4aXRNWUxDRkxUSzNaYWI?oc=5",
+      "sourceName": "Financial IT",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "13 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Market Projections",
+      "slides": 3,
+      "svgIcon": "globe",
+      "sourceId": "N2",
+      "slideContent": {
+        "slide1": {
+          "headline": "Anthropic Projects $200 Billion Revenue",
+          "subtitle": "2028 Revenue Projections"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Anthropic has projected $200 billion in revenue for 2028",
+            "The company's revenue projections are based on its AI technology",
+            "Anthropic's AI technology has the potential to disrupt multiple industries",
+            "The company's revenue projections highlight the growing demand for AI technology"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The revenue projections highlight the growing importance of AI technology",
+            "Anthropic's AI technology has the potential to revolutionize multiple industries",
+            "The company's revenue projections are a testament to the growing demand for AI solutions",
+            "Source: Benzinga, 15 Aug 2026"
+          ]
+        }
+      },
+      "caption": "Anthropic has projected $200 billion in revenue for 2028. The company's revenue projections are based on its AI technology, which has the potential to disrupt multiple industries. What does this mean for the future of AI? How will Anthropic's AI technology impact the industries it operates in? #AI #MarketProjections #Anthropic #ArtificialIntelligence #Revenue",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUdJbW8tS0RkeWhTQ05sZ2h2YUNjX3NBRHlQdjczUndJRUNfcGhvRFNwa0lRb2FLZTczOGVXY2ZiMEZSQTVrS1hYQTR6a2VxRGQ5UTB1YnViUDVpSkcydDBVdlZzSHcwRURHT0ZkbGVYME8xalYyMGNmQ1MwVUVTNDM1T3M1SUdyMTBvODZMbk91NTVKVDNmM01wZ0tPa29mbmRRTUtlZ21sNTg4?oc=5",
+      "sourceName": "Benzinga",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "15 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "AI Acquisition",
+      "slides": 4,
+      "svgIcon": "rocket",
+      "sourceId": "N4",
+      "slideContent": {
+        "slide1": {
+          "headline": "SpaceX Completes $60 Billion Acquisition",
+          "subtitle": "Acquisition of Cursor"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "SpaceX has completed its $60 billion acquisition of Cursor on 14 Aug 2026",
+            "The acquisition highlights the growing importance of AI technology in the space industry",
+            "Cursor's AI platform will be integrated into SpaceX's operations",
+            "The acquisition is one of the largest in the history of the space industry"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the growing importance of AI technology in the space industry",
+            "Cursor's AI platform has the potential to revolutionize the way SpaceX operates",
+            "The acquisition is a testament to the growing demand for AI solutions in the space industry",
+            "The integration of Cursor's AI platform will improve SpaceX's operations"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant milestone for SpaceX",
+            "The integration of Cursor's AI platform will improve SpaceX's operations",
+            "The acquisition highlights the growing importance of AI technology in the space industry",
+            "Source: The Information, Aug 2026"
+          ]
+        }
+      },
+      "caption": "SpaceX has completed its $60 billion acquisition of Cursor. The acquisition highlights the growing importance of AI technology in the space industry. What does this mean for the future of space exploration? How will the integration of Cursor's AI platform impact SpaceX's operations? #AI #Acquisition #SpaceX #Cursor #ArtificialIntelligence #SpaceIndustry",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNjZVbHczamV6QmxHcmwtZFQ3Vl9ZUHAxSXRZemxtd2YzVG9GNlJ2aVNWS2FpUWxiU2huUElCNXc3X3l2Qm9KVFRiX3Y0bVhUYjZ2R1JfcklJbm9Mc3pSVkVwMll5X0ZuVmxRZ0hNVzl0RjdlS0x0VDN3ZW16ZDNHUFVLWVpfRmpLSmtFb3VtSWo?oc=5",
+      "sourceName": "The Information",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "14 Aug 2026"
+    }
+  ]
+}

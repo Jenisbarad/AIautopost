@@ -1,0 +1,149 @@
+{
+  "date": "2026-08-17",
+  "instagramHandle": "dailyainewsone",
+  "totalPosts": 3,
+  "backgroundHex": "#1A1F3B",
+  "accentHex": "#818493",
+  "textHex": "#E6E6E6",
+  "posts": [
+    {
+      "id": 1,
+      "topic": "AI Security",
+      "slides": 3,
+      "svgIcon": "shield",
+      "sourceId": "N15",
+      "slideContent": {
+        "slide1": {
+          "headline": "ASEAN Data Breach Costs Hit Record High",
+          "subtitle": "AI attacks on the rise"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Aug 2026",
+            "ASEAN data breach costs hit a record $4.12 million",
+            "AI attacks are a major contributor to the increase",
+            "IBM reports the findings",
+            "Data breach costs are expected to continue rising"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The rise of AI attacks poses a significant threat to businesses",
+            "Data breach costs can have a significant impact on a company's bottom line",
+            "Companies must take proactive measures to protect themselves",
+            "Investing in AI security is crucial to preventing attacks"
+          ]
+        }
+      },
+      "caption": "ASEAN data breach costs have hit a record high of $4.12 million, with AI attacks being a major contributor. This rise in costs poses a significant threat to businesses and highlights the need for proactive measures to protect against AI attacks. Questions to consider: What measures can companies take to protect themselves from AI attacks? How will the rise of AI attacks impact the cybersecurity industry? #AIsecurity #cybersecurity #data breaches #ASEAN",
+      "hashtags": [
+        "#AIsecurity",
+        "#cybersecurity",
+        "#data breaches",
+        "#ASEAN"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNUVuMF9LcEVmNW10UFR0elo3Y2syYzdOaWZuMkh0N01EaW9oNVg1NmpTWk9xMjRESnVNcnBvTXZ5eXZBWFVEOEFXZHlkNjdybF9xSFlERUtrd0hJalhLSkxwbFZjZDlSQUxnOFZDVEdCeHBSLW1aZmlsNjNMX0ZRQzdKRWZldDZpenlsV0FqVFlxUkhkMnc?oc=5",
+      "sourceName": "CRN Asia",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "17 Aug 2026"
+    },
+    {
+      "id": 2,
+      "topic": "AI Model Updates",
+      "slides": 3,
+      "svgIcon": "code",
+      "sourceId": "N18",
+      "slideContent": {
+        "slide1": {
+          "headline": "Google Launches Gemini 3.7 Flash",
+          "subtitle": "New model boasts improved coding performance and lower price"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 14 Aug 2026",
+            "Gemini 3.7 Flash launches with improved coding performance",
+            "The new model is priced 50% lower than its predecessor",
+            "Google is forced to join the AI model 'price war'",
+            "The launch is expected to increase competition in the AI market"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The launch of Gemini 3.7 Flash is expected to increase adoption of AI models",
+            "The lower price point makes AI more accessible to businesses and individuals",
+            "The improved coding performance will enable more complex tasks to be automated",
+            "The AI model 'price war' will drive innovation and improvement in the industry"
+          ]
+        }
+      },
+      "caption": "Google has launched Gemini 3.7 Flash, a new AI model that boasts improved coding performance and a lower price point. The launch is expected to increase adoption of AI models and drive innovation in the industry. Questions to consider: How will the launch of Gemini 3.7 Flash impact the AI market? What are the implications of the AI model 'price war' for businesses and individuals? #AI #Gemini #Google #AI models",
+      "hashtags": [
+        "#AI",
+        "#Gemini",
+        "#Google",
+        "#AI models"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRVJQSGlDendyWWNVS1YwV0U0WVBfeVlTdUJYRklueUtJNERPQmlqTXRVbnZUSEx6QXBBbmY4RmxscjZqMG1xZm9jcHhLU2FXbE90eWdva0hxQ0Q2MmFiRlJzd1EyenlaNlkteDRTcXRoZXBGR1lzVlppWFB4NXdUOUJfQVcyR3g2M2Z6bE5fR0xweHd3eHp4WFVDZ2FmOVlvRGU4TVF6azZEQQ?oc=5",
+      "sourceName": "trendingtopics.eu",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "14 Aug 2026"
+    },
+    {
+      "id": 3,
+      "topic": "Acquisition and Funding",
+      "slides": 4,
+      "svgIcon": "network",
+      "sourceId": "N8",
+      "slideContent": {
+        "slide1": {
+          "headline": "Stripe Acquires OpenRouter for $7 Billion",
+          "subtitle": "Bet on the future of AI infrastructure"
+        },
+        "slide2": {
+          "title": "WHAT HAPPENED",
+          "lines": [
+            "Event date: 17 Aug 2026",
+            "Stripe acquires OpenRouter for $7 billion",
+            "The acquisition is a bet on the future of AI infrastructure",
+            "OpenRouter is an AI gateway startup",
+            "The acquisition is expected to enhance Stripe's AI capabilities"
+          ]
+        },
+        "slide3": {
+          "title": "WHY IT MATTERS",
+          "lines": [
+            "The acquisition highlights the importance of AI infrastructure",
+            "Stripe's bet on OpenRouter is a sign of the company's commitment to AI",
+            "The acquisition is expected to drive innovation in the AI industry",
+            "The deal value of $7 billion is a significant investment in AI infrastructure"
+          ]
+        },
+        "slide4": {
+          "title": "INSIGHTS",
+          "bullets": [
+            "The acquisition is a significant investment in AI infrastructure",
+            "Stripe's bet on OpenRouter is a sign of the company's commitment to AI",
+            "The deal is expected to drive innovation in the AI industry",
+            "Source: The Eastern Herald, Aug 2026"
+          ]
+        }
+      },
+      "caption": "Stripe has acquired OpenRouter, an AI gateway startup, for $7 billion. The acquisition is a bet on the future of AI infrastructure and highlights the importance of AI infrastructure. Questions to consider: What are the implications of the acquisition for the AI industry? How will the acquisition impact Stripe's AI capabilities? #AI #acquisition #Stripe #OpenRouter #AI infrastructure",
+      "hashtags": [
+        "#AI",
+        "#acquisition",
+        "#Stripe",
+        "#OpenRouter",
+        "#AI infrastructure"
+      ],
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQamhrV1g1eXJQTDRvRUhVYllnM25IRi0tTlc3TjRlaFZ3MTk4ajJMQWdhRi1Yc0c0VjBaSjN0SFV4Z1F4X2cwRmJyMGZRY3JlQ3lNWm9EMEJHNzhiRGtUd05iNUJMb3dDSWRFM0I2TVhLSGtwb2JmU1VUcVVGWXNfWXFkeFVhNWJmQW1RR3RfeXVVdw?oc=5",
+      "sourceName": "The Eastern Herald",
+      "sourceMonthYear": "Aug 2026",
+      "eventDate": "17 Aug 2026"
+    }
+  ]
+}
